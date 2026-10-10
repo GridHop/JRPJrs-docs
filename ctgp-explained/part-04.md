@@ -1,807 +1,305 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 4 of 10
+Part 04 of 26 (1,622 words)
 
-finite proper time, and past-eternal, bouncing, cyclic, and emergent cosmologies lie outside its
+5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
 
-scope. §6.10.1 extends the construction to universes with a single uniform bounce; the remaining
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-cases would require a further generalization. This limitation concerns the continuum representative,
 
-not the ontology. Cosmological time is CTGP’s realization of the primitive generative ordering in
 
-the emergent geometric regime (§10.3), not the ultimate source of that ordering; a generalized
+Postulate 1 (Ontological Primacy of the Present): At any stage of cosmic evolution, only the current
 
-construction would replace it while leaving the ordering itself intact.
+hypersurface of reality—the present state of the universe—possesses ontological existence as
 
+presently real. The present is not, however, an isolated instant: it exists as part of a continuous
 
+causal-temporal progression whereby each state emerges through the lawful evolution of immediately
 
-6.10.1 Extension Through a Bounce
+preceding states and in turn contributes to the emergence of subsequent states. Earlier states do
 
+not persist as independently existing regions of spacetime. Their physical consequences continue
 
+within later states through ongoing causal continuity, of which only a subset remains organized as
 
-Cosmological time fails in a bouncing universe without a beginning for a precise reason. (A bounce
+information-bearing records accessible in present physical systems.
 
-whose contracting phase itself began at an earlier singularity still has regular cosmological time,
 
-measured from that singularity.) If the contracting phase extends indefinitely into the past, causal
 
-curves continue through the bounce instead of ending at a past boundary, so τ is infinite everywhere
+Stated without formalism, the picture is as follows. Write P_n for the entirety of what exists at
 
-and both regularity conditions of Theorem 17.4 fail. The construction can nevertheless be extended
+generative stage n. Existence at that stage is P_n and nothing besides: P_{n−1} has ceased to exist
 
-when the spacetime supplies a distinguished Cauchy surface to play the role of the initial
+as a state and P_{n+1} has not yet been generated. Generation carries P_n to P_{n+1}, at which point
 
-singularity.
+existence is P_{n+1}. The present is accordingly not a distinguished region within a larger existing
 
+whole but the whole of what exists. Two clarifications prevent the obvious misreadings. First, that
 
+P_{n−1} has ceased to exist as a state does not mean it left nothing behind: its causal consequences
 
-Definition (Surface-relative time). Let S be a spacelike Cauchy surface. For an event p, let
+are incorporated into P_n, and a subset of them remain organised as records (Postulate 4, §14).
 
+Ceasing to exist and becoming irrelevant are different things. Second, the future is unrealised
 
+rather than hidden: P_{n+1} is not an existing region we are unable to observe but a set of
 
-        τ_S(p) = ± sup { L(γ) : γ a causal curve between S and p },  τ_S = 0 on S,
+potential successors of which one is generated.
 
 
 
-with the positive sign when p lies to the future of S and the negative sign when it lies to the
+Postulate 2 (Causal Continuity): The present state of the universe arises as the causal continuation
 
-past. The sign is fixed by the spacetime’s time orientation, not by an additional convention. On
+of immediately prior physical states. Every event in the present is linked through chains of
 
-each side of S, τ_S is cosmological time with S in place of the initial singularity. The one-sided
+physical interaction to earlier events within its past light cone. In the emergent-geometric regime,
 
-analogues of the regularity conditions of Theorem 17.4 — τ_S finite, and τ_S → 0 along every causal
+this causal ordering is represented by relativistic spacetime geometry; more fundamentally, causal
 
-curve approaching S — are not additional physical assumptions: in a globally hyperbolic spacetime
+ordering is the primitive structure from which spacetime geometry is reconstructed (Causal
 
-they follow from S being a Cauchy surface, since every past-inextendible causal curve on the future
+Reconstruction Principle, §10.3). Generative ordering is therefore prior to metric structure, not
 
-side reaches S and the region between S and any event is compact. The argument of Andersson,
+derived from it.
 
-Galloway, and Howard therefore carries over on each side, and the level sets of τ_S are Cauchy
 
-surfaces (Proposition 17.23).
 
+Postulate 3 (Cosmological Temporal Parameter): The progression of the present boundary is
 
+parameterized by cosmological time. In the big-bang-origin formulation used here, this is the
 
-The settled case. In an exact FLRW universe with a single bounce, the surface at the moment of the
+maximal proper time elapsed since the initial singularity (§6.1); a surface-relative generalization
 
-bounce — where the scale factor stops decreasing and begins increasing, ȧ = 0 — has zero mean
+for bouncing spacetimes is given in §6.10.1. In the emergent geometric regime, the generation
 
-curvature, is unique, and is a Cauchy surface. Taking S to be this surface, τ_S is cosmic time
+parameter σ is a monotone relabeling of this function (Appendix A.3). This provides a physically
 
-measured from the bounce, and the generative present is well defined through the bounce with no
+grounded temporal ordering of successive states of reality and resolves objections based on the
 
-averaging prescription. The stages before the bounce are simply earlier stages, generated and ceased
+relativity of simultaneity. In FLRW solutions, cosmological time is the familiar cosmic time t,
 
-like any past stage. Such a universe has no first stage; CTGP’s ontology and its tense semantics
+equal to the proper time along the comoving matter congruence. That is how the parameter is realized
 
-(Definition 17.20) do not require the sequence of past stages to be finite.
+and measured, not what defines it (§6.3). Prior to geometric emergence, σ functions as a pre-
 
+geometric ordering parameter without presupposing proper time. Its use introduces no preferred frame
 
+beyond what is already present in standard cosmology.
 
-Scope. Three limits fix the scope of the extension. First, S is an input rather than an output: the
 
-construction presupposes a distinguished Cauchy surface instead of deriving one from the causal
 
-structure alone, as cosmological time does in the big-bang case. Second, in a non-uniform bounce the
+Terminology. Throughout this framework, the matter frame denotes the local rest frame of the
 
-regions of zero mean curvature need not join into a single surface, and whether a unique maximal
+cosmological matter distribution: u^μ is the unit timelike eigenvector of T_{μν}, and ρ_c := T_{μν}
 
-Cauchy surface exists is open; the existence and uniqueness theorems for such surfaces assume
+u^μ u^ν is the energy density measured in that frame. The matter-frame congruence is the family of
 
-conditions — compact Cauchy surfaces, symmetries, or energy conditions — that a bounce typically
+worldlines tangent to u^μ. In FLRW and in single-stream regions it coincides with the maximizing
 
-violates. Third, a cyclic universe has many surfaces of zero mean curvature, and an emergent
+geodesics that define cosmological time (§6.3). It is not used to define co-presence, and no
 
-universe with an Einstein-static past has zero mean curvature on every slice, so neither supplies a
+postulate requires a physical system to belong to it in order to occupy a generative stage. The
 
-distinguished S. These cases remain outside the present continuum representative. As before, the
+distinction is developed in §9.4.1.
 
-limitation concerns the representative, not the ontology: replacing τ by τ_S where S exists is a
 
-change of representative, not of the Layer 2 claim.
 
+5.2 Postulate 4: Persistence Through Causal Continuity and Records
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6.11 Admissible Generation Laws
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Postulate 4 (Persistence Through Causal Continuity and Records): Although earlier states of the
 
+universe no longer exist as independent regions of spacetime, the physical consequences of those
 
-The kinematic structure of CTGP — a Cauchy foliation by the level sets of cosmological time, aligned
+states continue through later states via lawful, continuous transformations of matter, energy,
 
-with matter in cosmology — rests on established results: the causal-structure theorems of Appendix
+fields, and information-bearing structures. Certain aspects of those consequences remain organized
 
-B, the cosmological time function, and the observed CMB rest frame. The generation law is the one
+as causal records that encode information about past events, while other aspects become distributed,
 
-element that could in principle carry new physics: the function f that fixes how fast σ advances.
+transformed, or effectively unrecoverable. Such records include radiation fields, particle
 
+distributions, gravitational structures, and cosmological relics, the most extensive of which are
 
+the cosmic microwave background and the neutral hydrogen observed through the 21 cm line (§14). The
 
-This freedom is narrower than it appears. Any generation law in which f carries spatial matter
+signal exists now; the emitting matter existed earlier; the earlier state itself no longer exists.
 
-dependence gives the generation flow an acceleration away from free fall, a_μ = −D_μ ln √f
+What remains is not the earlier organization but the continuing propagation of its physical
 
-(Proposition 11.1). That acceleration destroys alignment with matter and, in the presence of
+consequences, one subset of which functions as a causal record.
 
-structure, the timelike character of the foliation; stable soft completions fare no better (§11.3).
 
-Within the local, stable classes analyzed in §11, the viable generation laws are those of the form f
 
-= f(σ), equivalent to a relabeling of cosmological time: the generation rate may vary with cosmic
+5.2.1 Persistence and the Truth of the Past
 
-epoch but not across space. The choice of generation law is therefore not confined to Layer 3: it is
 
-constrained by the Layer 2 requirement that the present be a well-defined Cauchy surface aligned
 
-with matter.
+While CTGP holds that earlier states do not persist as independently existing regions of spacetime,
 
+the causal consequences of those states continue propagating within later states through ongoing
 
+physical evolution. Some of those consequences remain organized as causal encodings and records
 
-6.12 Succession of Hypersurfaces
+accessible in the present. This should not be taken to imply that present encodings exhaust all
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+truths about the past.
 
 
 
-The ontological dynamic is expressed by the succession relation. In the emergent geometric regime,
+CTGP distinguishes between:
 
-this takes the form of successive spacelike hypersurfaces; in the pre-geometric regime, it should be
 
-understood as successive generative stages of the causal ordering:
 
+    (i) ontological persistence, which is limited to present physical structures and their encoded
 
+    causal records, and
 
-        Σ_σ → Σ_{σ+Δσ}
 
 
+    (ii) truth about past events, which may extend beyond what is currently encoded.
 
-Each transition is governed by GR's evolution equations applied to data on Σ_σ without reference to
 
-any data at σ′ > σ. This succession produces the 'lived flow' of time as a real unfolding, not a
 
-representational one.
+On this view, past events were fully real at their corresponding present stage and remain
 
+determinately true as events that occurred, even if aspects of those events are no longer physically
 
+encoded or recoverable in the present state of the universe.
 
-[FIGURE: Figure 3]
 
-    Figure 3. Hypersurface generation: successive level sets Σ_σ → Σ_{σ+Δσ} produced by lawful
 
-  evolution of data on the present edge. The lapse of the cosmological foliation is constant on each
+Present encodings therefore function as partial physical persistence and evidential traces, not as
 
-  level set, so equal steps in σ correspond to equal proper time along the maximizing geodesics;
+the total grounding of all past truths.
 
-  systems moving relative to them, including clocks at rest in gravitational wells, accumulate less.
 
 
+The grounding objection. A standard objection to presentism asks what makes past-tense statements
 
-----------------------------------------------------------------------------------------------------
+true if the past does not exist. CTGP adopts a Lucretian answer (Bigelow 1996). The truthmaker for a
 
-7. General Relativity as Initial-Value Generation
+past-tense truth is the present world itself, which instantiates past-tensed properties: the present
 
-----------------------------------------------------------------------------------------------------
+universe has the property *having been, at stage σ′, such that p*. These properties are primitive.
 
+They are not grounded in any further fact, whether a present record or an existing past stage, since
 
+no past stage exists to ground them. Nor are they records. Records are categorical physical
 
-Einstein's equations can be written as a well-posed initial-value problem (under standard
+structures that carry evidence about the past and can be degraded or erased (§14.6). Past-tensed
 
-conditions). Given Cauchy data on Σ_σ, the evolution equations determine a unique development — up
+properties belong to the present state as a whole and, once acquired, are retained at every later
 
-to diffeomorphism — in a neighborhood of Σ_σ, without specifying future boundary data. CTGP
+stage (Definition 17.20). This is the precise sense in which the present lawfully descends from
 
-interprets this structure as ontological generation: the next hypersurface is not pre-existing but
+earlier stages: descent is not a relation to something that still exists but a property the present
 
-is computed from the present one by lawful dynamics.
+has. Since past-tensed properties are properties of Pₙ itself, this account adds no independently
 
+existing past object or historical stage to the present ontology.
 
 
-        G_{μν} = 8πG T_{μν}
 
+This also fixes the status of M(σ). M(σ) is not the truthmaker. It is the formal representation of
 
+the present world’s past-tensed profile, laid out as if its stages co-existed so that the ordinary
 
-The Einstein equation governs the generation of each new slice. On the CTGP reading, this equation
+semantics of tense can be applied. The ground is the present, and the history is its representation.
 
-is not a constraint on a pre-existing four-dimensional structure but a production rule: given Σ_σ,
+CTGP therefore faces neither horn of the usual dilemma: it does not reify M(σ), which would make it
 
-it tells us what Σ_{σ+Δσ} is. The hyperbolic character of the equations — their dependence on
+a growing block, and it does not leave past truths ungrounded. The formal semantics (Definition
 
-initial data rather than boundary data in the future — supports this reading structurally.
+17.20) indexes earlier stages in the metalanguage; a clause such as “W_σ′ ⊨ φ” is read as tensed — φ
 
+was the case at σ′ — and carries no commitment to existing past stages.
 
 
-Becoming as primitive. Generation is not an ordinary relation between two coexisting states.
 
-Predecessor and successor are never present together, so there is no stage at which both exist and
+The cost should be stated. Past-tensed properties do not supervene on the present’s categorical
 
-one produces the other. On CTGP, generation is primitive and tensed: the present has come to be from
+physical configuration, since two present states could agree in every categorical respect while
 
-what was present. The division of labor is exact. Cosmological time supplies the ordering and co-
+differing in their pasts. This is the familiar objection that Lucretian properties “cheat” (Sider
 
-presence of stages (§6.1), and the initial-value formulation supplies the lawful connection between
+2001). CTGP accepts this cost as the formal counterpart of a claim it makes on independent grounds:
 
-successive stages. Neither supplies becoming itself, which is the posit that CTGP adds to both.
+records are evidence rather than grounds, and truths about the past outrun what is encoded. If past
 
+truths supervened on present categorical structure, then losing a record would change what happened,
 
+and CTGP denies that (Proposition 17.22). This cost also bears on the explanatory-economy argument
 
-[FIGURE: Figure 4]
+of §3.4: the economy claimed there is unification of the arrows of time under one mechanism, not
 
-  Figure 4. Minkowski spacetime diagram with the light cone of an event p and simultaneity slices of
+parsimony of ontology, and the primitive properties posited here count against the latter. CTGP
 
-  two inertial frames, illustrating the causal structure (I⁺, I⁻) underlying CTGP’s notion of
+therefore does not eliminate past facts; it relocates them into the present, as irreducible past-
 
-  generation.
+tensed properties of what exists now. The ontology is leaner than eternalism in what exists, not in
 
+what is fundamental.
 
 
-----------------------------------------------------------------------------------------------------
 
-8. ADM Decomposition and Hypersurface Evolution
+5.2.2 Conservation, Organization, and Recoverability
 
-----------------------------------------------------------------------------------------------------
 
 
+CTGP distinguishes four separate concepts that are often conflated:
 
-In ADM form, the spacetime metric is decomposed into lapse N, shift N^i, and the induced 3-metric
 
-h_{ij} on Σ_t. The extrinsic curvature K_{ij} encodes how Σ_t is embedded in the ambient spacetime:
 
+    (i) Conservation of physical existence. Matter, energy, fields, and physical processes continue
 
+    through lawful transformations. In general relativity this continuity is underwritten by local
 
-        g_{μν} → (h_{ij}, N, N^i)
+    conservation laws, ∇μTμν = 0; global conserved quantities follow, by Noether’s theorem, only
 
+    where the spacetime has corresponding symmetries. CTGP does not claim that physical existence
 
+    disappears when a state ceases to be present.
 
-        K_{ij} = (1/2N)(∂_t h_{ij} − ∇_i N_j − ∇_j N_i)
 
 
+    (ii) Conservation of information. Information may persist in transformed or distributed forms
 
-The evolution equations and constraints provide a natural slice-to-slice evolution picture. CTGP
+    even when no localized or practically recoverable record remains. Questions regarding the
 
-maps this to an ontological claim: Σ_σ is literally produced from Σ_{σ−Δσ} by lawful dynamics,
+    ultimate conservation of information depend upon the relevant physical domain and remain
 
-without reference to a pre-existing future slice.
+    distinct from questions of record formation.
 
 
 
-The ADM Hamiltonian and momentum constraints ensure that the generated data on each new Σ_{σ+Δσ} are
+    (iii) Conservation of organization. Particular arrangements, structures, configurations, and
 
-consistent with the field equations. These constraints are not boundary conditions from the future
+    correlations may cease to exist even while the physical constituents involved continue in
 
-but internal consistency requirements on the present slice, further supporting the generative
+    transformed states. CTGP identifies the loss of present existence primarily with the loss of the
 
-interpretation.
+    earlier state’s specific organization, not with the annihilation of all physical continuity.
 
 
 
-----------------------------------------------------------------------------------------------------
+    (iv) Recoverability of knowledge. The existence of physical consequences does not imply that
 
-9. Action Principle on Generated Domains and Cosmological Foliation
+    those consequences remain sufficient to reconstruct prior states. Ontological persistence and
 
-----------------------------------------------------------------------------------------------------
+    epistemic accessibility are distinct. Something may continue to exist in transformed or
 
+    distributed form while becoming effectively unrecoverable as a coherent record.
 
 
-9.1 Action Principle
 
-~~~~~~~~~~~~~~~~~~~~
+Accordingly, CTGP’s claim that earlier states no longer exist refers to the non-persistence of those
 
+states as present ontological organizations, not to the disappearance of all physical continuity
 
+arising from them.
 
-The action principle for CTGP restricts integration to the generated domain M(σ). Within this action
 
-principle, the kinematic equation governing σ is obtained as an Euler–Lagrange condition rather than
-
-stipulated. The CTGP framework is formulated by requiring the physical generative history to satisfy
-
-the stationary-action condition δS = 0, where the action is taken to be:
-
-
-
-        S(σ) = ∫_{M(σ)} √(−g) [ L_{GR} + λ(∇_μσ ∇^μσ + f(σ)) ] d⁴x
-
-
-
-where L_{GR} = (R − 2Λ)/16πG + L_{matter} is the Einstein–Hilbert Lagrangian density with matter, λ
-
-is a Lagrange multiplier field, f(σ) > 0 is the generation law (f = 1 for the canonical choice σ =
-
-τ), and √(−g) d⁴x is the invariant volume element. The integration is restricted to M(σ), ensuring
-
-no future teleology. The term λ(∇_μσ ∇^μσ + f(σ)) enforces the norm condition on σ. Variation with
-
-respect to the fields yields the constraint and propagation relations below.
-
-
-
-This action and all subsequent variational results are valid within the emergent geometric regime (ρ
-
-≪ ρ_P), where the smooth Lorentzian manifold (M, g_{μν}) is a valid continuum approximation. The
-
-pre-classical regime is addressed in §9.2 and §10.2; the extended action S_{ext}(σ) that models the
-
-crossover via the suppression function α(ρ) is developed in §9.2.
-
-
-
-Varying S(σ) with respect to λ yields the Euler–Lagrange condition:
-
-
-
-        δS/δλ = 0  ⟹  ∇_μσ ∇^μσ + f(σ) = 0
-
-
-
-That is, ∇_μσ ∇^μσ = −f(σ), the norm condition of §6.3, arising here as a necessary condition for
-
-stationarity of S(σ). Varying with respect to σ yields the propagation equation ∇_μ(λ∇^μσ) =
-
-½λf′(σ), which transports λ along the generation flow. Varying with respect to g^{μν} recovers
-
-G_{μν} = 8πG T_{μν} together with the λ-dependent term of Proposition 17.7, which vanishes
-
-identically for the configuration λ = 0 adopted in §6.9.
-
-
-
-The variational grounding answers the question of why σ should obey any particular equation at all:
-
-σ obeys ∇_μσ ∇^μσ = −f(σ) for the same reason that geodesics obey the geodesic equation — because it
-
-is what the variational principle demands. The formal statement is given in Proposition 17.7 (§17).
-
-
-
-The restriction of the integration domain to the generated manifold M(σ) is the central ontological
-
-commitment of the framework — not merely a heuristic convenience. In the standard block universe
-
-interpretation, the action is implicitly integrated over the entire four-dimensional manifold,
-
-treating all events as equally real elements of the variational principle. By explicitly limiting
-
-the action to M(σ), CTGP asserts that future spacetime regions do not contribute to the dynamical
-
-definition of the theory at stage σ. The future is not simply unknown; it is not part of the domain
-
-of the physical laws that generate the present. This transforms the interpretation from a passive
-
-description of a pre-existing structure to an active generation of new structure from existing
-
-structure. The Euler-Lagrange equations derived from this action are therefore not constraints on a
-
-static block, but rules for constructing the next increment of reality from the existing one. The
-
-domain of the action is itself a growing entity, and the field equations are defined only over that
-
-domain. Because Euler–Lagrange equations are local, this restriction does not alter the field
-
-equations at any point of M(σ); the distinction it draws concerns the domain over which the laws are
-
-defined, not their local form. A completed block would serve as the domain for an action defined
-
-over the whole of M; the CTGP action has no such domain. This distinction is formalized in Theorem
-
-17.9 (§17).
-
-
-
-9.2 Domain of Validity and the Extended Action
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The effective action S(σ) of §9.1 is valid within a precisely specified domain: the emergent
-
-geometric regime, where ρ ≪ ρ_P (the Planck density), and the smooth Lorentzian manifold (M, g_{μν})
-
-is a valid continuum approximation. Outside this domain — specifically in the pre-geometric regime
-
-where ρ ∼ ρ_P — the continuum integral, the metric volume element √(−g) d⁴x, and the Ricci scalar R
-
-are themselves emergent structures that cannot be taken as primitive inputs to the variational
-
-principle. The two regimes and their respective formal machinery are distinguished as follows:
-
-
-
-• Pre-geometric regime (ρ ∼ ρ_P):  σ is primitive; no metric assumed; no continuum action defined;
-
-  causal ordering is the operative structure.
-
-• Emergent geometric regime (ρ ≪ ρ_P):  σ represented by cosmological time; metric available; S(σ)
-
-  applies.
-
-
-
-The transition between regimes is not a discontinuity but a crossover parameterized by the
-
-dimensionless ratio ρ/ρ_P. This crossover can be represented in the effective action by introducing
-
-a density-dependent suppression factor α(ρ) on the GR Lagrangian:
-
-
-
-        S_{ext}(σ) = ∫_{M(σ)} √(−g) [ α(ρ) L_{GR} + λ(∇_μσ ∇^μσ + f(σ)) ] d⁴x
-
-
-
-        α(ρ) = 1 / (1 + (ρ/ρ_P)^n),  n ≥ 1
-
-
-
-The suppression function α(ρ) satisfies: α → 1 as ρ/ρ_P → 0 (low-energy limit, GR fully restored),
-
-and α → 0 as ρ/ρ_P → ∞ (Planck regime, GR suppressed). The σ-constraint sector λ(∇_μσ ∇^μσ + f(σ))
-
-is retained at all densities, reflecting the fact that the generative ordering structure of σ is
-
-active across both regimes — it is never suppressed, because it is the structure from which the
-
-geometric regime itself emerges. The exponent n controls the sharpness of the transition; n = 2
-
-gives a smooth crossover centered at ρ = ρ_P.
-
-
-
-An important ontological clarification is required by S_{ext}(σ): the metric g_{μν} still appears in
-
-the extended action through √(−g) and the σ-constraint sector. This creates a choice between two
-
-interpretations of the metric’s status in the pre-classical regime. Under the emergent-metric
-
-reading (consistent with §10.3), g_{μν} in S_{ext}(σ) is to be understood as a continuum
-
-approximation that becomes progressively less valid near ρ_P; the action itself is correspondingly
-
-an effective field theory expression whose UV completion lies in the pre-geometric structure. Under
-
-the constrained-metric reading, g_{μν} remains a fundamental but dynamically unconstrained quantity
-
-whose constraints emerge alongside GR as α(ρ) → 1. CTGP adopts the emergent-metric reading as
-
-primary (Emergent Metric Principle, §10.3), treating S_{ext}(σ) as valid only where the continuum
-
-approximation holds. The extended action therefore serves a specific formal function: it models the
-
-crossover continuously rather than imposing a sharp regime boundary, and it identifies α(ρ) as the
-
-natural emergence function for GR within the CTGP framework. S_{ext}(σ) is the candidate effective
-
-action for the crossover regime; its pre-geometric limit is not fully specified by the continuum
-
-formalism alone, and remains subject to the Scope of the Research Program principle of §10.4.
-
-
-
-9.3 Cosmological Foliation and the CMB Frame
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-In homogeneous, isotropic cosmology, the FLRW metric provides a preferred foliation by cosmic time
-
-t:
-
-
-
-        ds² = −dt² + a(t)² dΩ_k²
-
-
-
-This does not violate local Lorentz invariance; rather, it reflects a physical symmetry of our
-
-universe's matter distribution. The CMB frame singles out a preferred rest frame not as a kinematic
-
-artifact but as a physical fact about the distribution of matter and energy. CTGP's global present
-
-Σ_σ is defined by cosmological time, and on large scales it coincides with this frame, providing a
-
-non-absolute but physically grounded global 'now.' Different observers need not synchronize their
-
-local frames; they share the cosmological foliation without needing operational access to it.
-
-
-
-[FIGURE: Figure 5]
-
-  Figure 5. FLRW foliation: surfaces of constant cosmic time t, with comoving worldlines diverging
-
-  as the scale factor a(t) grows. The comoving worldlines are the maximizing geodesics that define
-
-  cosmological time and provide the physical basis for CTGP’s global present.
-
-
-
-9.3.1 Emergent Cosmological Foliation
-
-
-
-A clarification bears on one of the most persistent objections: the charge that CTGP introduces a
-
-preferred frame. The correct response is that CTGP does not introduce a preferred frame — it
-
-identifies the cosmological foliation as an emergent physical structure generated by the large-scale
-
-matter distribution.
-
-
-
-The logical chain that establishes this is as follows:
-
-
-
-        Einstein equations are foliation-neutral → the actual matter distribution fixes the metric → the metric fixes cosmological time τ → on large scales, the level sets of τ coincide with the CMB rest frame
-
-
-
-CTGP does not use the cosmological foliation as an external input. Rather, CTGP identifies the
-
-cosmological foliation as an emergent physical structure generated by the large-scale matter
-
-distribution. This framing aligns CTGP with spontaneous symmetry breaking, a mechanism physicists
-
-already accept throughout physics: a rotationally symmetric Lagrangian can produce a ground state
-
-that breaks rotational symmetry, with the symmetry-breaking direction selected by the physical
-
-configuration rather than by the Lagrangian itself. The CMB rest frame is precisely analogous: the
-
-Einstein equations are foliation-neutral, but the physical solution — a universe filled with matter
-
-in a particular configuration — fixes a metric whose cosmological time is, on large scales, the CMB
-
-rest frame.
-
-
-
-9.4 Cosmological Simultaneity and Relativistic Locality
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP distinguishes three senses of “present” that are often conflated in objections to the
-
-framework.
-
-
-
-    Local physical present: what an observer experiences at their worldline. This is the
-
-    phenomenological present, dependent on local physical processes and subject to the usual
-
-    relativistic effects of time dilation and gravitational redshift.
-
-
-
-    Cosmological present: the foliation naturally selected by the large-scale matter distribution of
-
-    the universe, approximated observationally by the CMB rest frame. This is a physically motivated
-
-    but not observer-dependent quantity: any observer can in principle determine the CMB frame and
-
-    locate themselves within it.
-
-
-
-    Ontological present: the boundary between the generated domain M(σ) and the ungenerated future.
-
-    This is the active edge at which new hypersurfaces are produced, parameterized by σ.
-
-
-
-CTGP’s present edge Σ_σ is identified with the cosmological present rather than with Newtonian
-
-absolute simultaneity or with any particular observer’s local present. Consequently, CTGP preserves
-
-local Lorentz invariance while maintaining a physically motivated global generation parameter. The
-
-resulting “universal tick” is therefore not a universal clock visible identically to every observer
-
-but a cosmologically grounded ordering relation associated with the generation of new hypersurfaces.
-
-Much confusion disappears once these three senses of present are kept distinct: local simultaneity
-
-is observer-dependent and Lorentz-relative; cosmological simultaneity is physically selected by the
-
-matter distribution; ontological simultaneity concerns what has been generated and what has not.
-
-
-
-9.4.1 Co-presence, Cosmic Time, and Synchronization
-
-
-
-Co-presence is not a relation added to existence but a consequence of it. Since only the present
-
-exists — earlier stages have ceased to exist and later ones are ungenerated — everything that exists
-
-belongs to a single generative stage. This is why CTGP requires a global foliation: existence cannot
-
-be frame-relative, so there must be one fact about which events constitute the present. Cosmological
-
-time specifies which surfaces these are (§6.1).
-
-
-
-Membership in Σ_σ is co-presence, and because Σ_σ is a level set of the generation parameter, co-
-
-presence is equality of σ: two co-present events occur at the same cosmological generation stage
-
-because they carry the same value of σ. This is not a correlation between two facts but a single
-
-fact stated twice. In the emergent geometric regime, where σ is a monotone relabeling of
-
-cosmological time (Postulate 3), this is what “same cosmic time” refers to; prior to geometric
-
-emergence σ remains an ordering parameter and the equality still holds, without presupposing proper
-
-time. What does not follow from equality of σ is equality of proper time, which differs between
-
-worldlines under relative motion and differing gravitational conditions; synchronization in any
-
-operational sense, since co-present events may exchange no timing signals and need not be in causal
-
-contact; or sameness of rate, since systems undergoing radically different physical processes are
-
-generated within the same Σ_σ.
-
-
-
-The point is clearest for spacelike-separated events. Consider a person on Earth raising an arm and,
-
-billions of light years away, another person raising an arm. Neither event lies in the other’s past
-
-light cone; neither can influence the other, and in an expanding universe the two may never enter
-
-causal contact at all. CTGP nonetheless holds that there is a fact of the matter as to whether the
-
-two events belong to the same Σ_σ, and that this fact is fixed by the cosmological foliation rather
-
-than by any observer’s frame. The two movements are unrelated, uncoordinated, and unsynchronized.
-
-What they share is the same cosmological generation parameter σ, and therefore the same generative
-
-stage — and that equality carries no implication of shared proper time, shared rate, or any
-
-coordination whatever between them.
-
-
-
-The non-synchrony is quantitative and already carried by the formalism. The norm condition of §6.3
-
-fixes the lapse of the cosmological foliation: N = f(σ)^{−1/2}, which is constant on each level set
-
-and equals 1 for the canonical labeling σ = τ. The observers normal to Σ_σ are therefore the
-
-maximizing geodesics themselves, and a system moving with speed v relative to them accumulates
-
-proper time dτ_local = N√(1 − v²/c²) dσ. Gravitational time dilation enters through the same factor,
-
-since a clock held at rest in a gravitational well is not in free fall and moves relative to the
-
-geodesics passing through it. Systems co-present at Σ_σ therefore accumulate different amounts of
-
-proper time between Σ_σ and Σ_{σ+dσ}. Both arm-raisers are co-present; neither is a clock the other
-
-could read, and the local simultaneity surface of each is in general tilted relative to Σ_σ. CTGP
-
-therefore does not claim that either observer’s own present is the privileged one. It claims that
-
-the generative ordering is settled by a foliation that neither of them occupies.
-
-
-
-Both facts hold at once, and neither displaces the other. The value co-present events share is
-
-itself a proper time: σ is a monotone relabeling of cosmological time, the maximal proper time
-
-accumulated since the initial singularity, which in cosmology is the proper time of the comoving
-
-matter congruence. Each co-present system also carries its own proper time, which in general differs
-
-from it — a system with peculiar velocity accumulates less between Σ_σ and Σ_{σ+dσ} than a matter-
-
-frame worldline does, and a clock at rest in a gravitational well accumulates less for the same
-
-reason. The two arm-raisers therefore share one cosmic proper time and carry non-identical local
-
-times simultaneously. This introduces no second kind of time. There is one quantity, proper time,
-
-evaluated along different worldlines; what distinguishes the cosmic value is the congruence along
-
-which it is measured and the fact that its level sets foliate the spacetime, not that it is a
-
-different sort of thing.
-
-
-
-This is why the matter-frame congruence enters as a realization rather than as a criterion of
-
-membership. Cosmological time is attained along the maximizing geodesics, which in cosmology are the
-
-comoving worldlines. Systems carrying peculiar velocity — essentially all systems, including the
-
-Earth — do not lie on those worldlines, and are co-present nonetheless. The construction selects the
-
-parameter; it does not impose a shared clock on the events the parameter orders.
-
-
-
-This also settles what would otherwise be an awkward case. Suppose a physical system underwent no
-
-change of any kind between two successive stages — no alteration of internal or spatial state. CTGP
-
-still distinguishes Σ_σ from Σ_{σ+dσ} as a progression in cosmological generation. Participation in
-
-the advancing present is not conditional on possessing a changing state variable: under Postulate 2,
-
-persisting at all is being generated at successive stages, and an unchanging configuration is one in
-
-which successive stages produce the same state rather than one exempt from generation.
-
-
-
-    In brief. CTGP's simultaneity isn't Newton's absolute 'cosmic now.' Newton's time is imposed
-
-    from outside and flows identically everywhere, so every clock in the universe ticks at the same
-
-    rate and agrees on the same reading. CTGP rejects that. In CTGP, two events are co-present when
-
-    they belong to the same generative stage of reality, the same step in the present's unfolding.
-
-    The dividing line isn't imposed from outside. It's fixed by the geometry the universe's own
-
-    matter produces, and on large scales it's the frame in which the cosmic microwave background
-
-    looks uniform. Co-present events don't share proper time, clock rates, or any synchronization,
-
-    and relativity's local effects like time dilation stay fully intact. Picture two people raising
-
-    their arms billions of light years apart. They can never signal each other, and their clocks
-
-    don't agree, but they still belong to the same stage of the present. Think of a computer’s
-
-    shared system time, with each program showing its own timer — except that no clock anywhere
-
-    keeps the present; the universe’s own structure does.
-
-
-
-9.4.2 Why There Is Always a Present
-
-
-
-Stated without formalism, CTGP’s core claim is one that ordinary experience already assumes: there
-
-is a way things currently are. Not a privileged coordinate system, not a universal clock reading,
-
-not a synchronization procedure — simply that reality has a current state, which is succeeded by
-
-another. On this framework that assumption is correct and is what Σ_σ formalizes. It is worth noting
-
-which side of this dispute is the revisionary one. The block universe does not merely add a claim to
-
-ordinary understanding; it denies one, holding that “the way things currently are” picks out nothing
-
-ontologically distinguished. CTGP’s burden is to show that the formalism can carry the ordinary
-
-assumption, not to motivate the assumption itself.
-
-
-
-The present also need not be postulated as an additional structure laid over spacetime. On this
-
-framework it is constituted. At any generative stage, every physical state in the universe is
-
-undergoing the transition from what it is to what it becomes next. This is CTGP’s ontological
-
-premise and is not established by general relativity, which describes evolution without asserting
-
-that later states are brought into existence; what follows here is what that premise yields, not a

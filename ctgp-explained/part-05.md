@@ -1,837 +1,379 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 5 of 10
+Part 05 of 26 (2,027 words)
 
-derivation of it. Take the totality of those transitions — one per state, across the whole universe
+5.3 Postulate 5 and the Generative Minimality Principle
 
-— and that totality is the cosmic present. Σ_σ is not a surface selected from among many and then
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-declared privileged; it is the collection of everything currently being generated. Once the
 
-generative ontology is adopted, the universe-wide present is therefore not an additional structure
 
-appended to the physical dynamics; it is constituted by the totality of physically ongoing state
+Postulate 5 (Hierarchical Law Emergence): Reality is governed at all stages by minimal generative
 
-transitions. The posit is the generative ontology itself, not a privileged surface added on top of
+laws sufficient for the lawful progression of the present boundary Σ_σ. These laws admit a hierarchy
 
-it. A system undergoing no change is included on the same terms, its transition being to the same
+of levels of description: the primitive generative ordering is fundamental; causal ordering is a
 
-state (§9.4.1).
+fundamental-emergent hybrid; classical spacetime dynamics (GR) and relativistic quantum field theory
 
+are effective descriptions valid in their domains; and thermodynamic regularities are emergent.
 
+Within the emergent geometric regime, the generative ordering is represented by cosmological time
 
-Two things must be kept apart here, because the constitutive account establishes less than it may
+and adds no dynamics to general relativity, which is used without modification; the “σ-generation
 
-appear to. It establishes that there is a present: the totality of transitions is well defined
+law” names whatever pre-geometric physics realizes the ordering, not a modification of GR. Higher-
 
-whether or not any observer selects a slicing. It does not by itself establish either that those
+level effective laws — including classical spacetime dynamics, relativistic causal structure, and
 
-transitions glue into a single spacelike hypersurface or that the resulting slicing is unique. The
+low-energy field behavior — emerge progressively as physical conditions permit their stable
 
-first is secured elsewhere in the formalism. The Hamiltonian and momentum constraints are precisely
+realization. CTGP is therefore never lawless at any stage of cosmic evolution; the Planck epoch is
 
-the conditions under which a local generative step is consistent with the steps taken in
+governed by minimal generative structure even when the smooth Lorentzian manifold does not yet exist
 
-neighbouring regions, so the transitions cohere into a surface rather than fragmenting into
+as a continuum approximation.
 
-unrelated local advances (§6.7; Appendix A.1). The second is not secured by the transitions at all.
 
-ADM evolution admits many-fingered time: different choices of lapse and shift foliate the same
 
-spacetime differently while describing identical physics. What selects one foliation among these is
+Together these postulates define a model in which spacetime is not a static four-dimensional block
 
-cosmological time (§6.1), the maximal proper time elapsed since the initial singularity. The
+but a dynamically generated causal structure whose present boundary advances through cosmological
 
-constitutive argument therefore answers why there is a cosmic present; cosmological time answers
+time. The five postulates jointly entail the Generative Minimality Principle: the minimal lawful
 
-which one it is. Presenting either as discharging both burdens would overstate the case.
+structure required for the existence of physical succession is the σ field and its constraint
 
+equations. All additional physical laws are effective or emergent within this hierarchy.
 
 
-The scope of the claim should nevertheless be stated precisely, because it is easy to overstate.
 
-CTGP does not hold that every mathematical solution of the Einstein field equations possesses a
+5.4 Continuous Causal Becoming and Conservation
 
-unique globally privileged present. That would be false: Gödel’s rotating dust solution, Taub-NUT,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-and the region of the Kerr interior beyond the Cauchy horizon admit no global Cauchy foliation, and
 
-no time function of the required kind exists on them. The solution space of GR is a space of
 
-mathematical objects, most of which are not realized. What CTGP holds is that physically realized
+CTGP does not interpret temporal succession as a sequence of disconnected states appearing and
 
-spacetime — the actual history that is generated — possesses such a present, and that the solutions
+disappearing independently. Rather, each present state emerges through continuous causal evolution
 
-lacking one are for that reason not candidate histories.
+from immediately preceding states. Temporal progression is therefore understood as an uninterrupted
 
+process of physical becoming, in which later states arise from, inherit, and transform prior states
 
+through lawful causal continuity.
 
-The direction of the argument matters. Under the Causal Reconstruction Principle (§10.3), causal
 
-ordering is primitive and metric geometry is reconstructed from it; generation is therefore prior to
 
-spacetime structure rather than a feature added to a spacetime already given. A solution with closed
+Earlier states cease to exist as present realities, yet the transition from one state to the next is
 
-timelike curves is not a generated history whose foliation happens to fail. It is a geometry that no
+not a discontinuous replacement but a continuous evolution of physical reality itself. Accordingly,
 
-sequence of generative stages could produce, since producing it would require an event to be among
+CTGP views time as an ongoing causal-temporal progression in which reality continuously becomes what
 
-the conditions of its own production. The restriction to globally hyperbolic spacetimes is thus not
+it next is through lawful physical transformation.
 
-a boundary drawn around the theory to protect it; it is what the theory says about which geometries
 
-can be real. A confirmed observation of closed timelike curves, or of any phenomenon requiring a
 
-Cauchy-horizon-crossing region to be physically realized, would falsify the framework (§13).
+Present physical records are instantiated in finite substrates and are therefore constrained by
 
+entropy production, decoherence, noise, and storage limitations. Record formation depends on
 
+amplification and stabilization of correlations; record persistence depends on resistance to
 
-This also disposes of a question sometimes raised as though it bore on the matter: whether current
+thermodynamic degradation; and record erasure, when it occurs via logically irreversible operations,
 
-physics exhibits any non-abstract existence that is absolutely unchanged from one instant to the
+incurs a minimum thermodynamic cost as described by Landauer’s principle. CTGP therefore entails
 
-next, and whether such absolute stasis has been shown impossible. Neither has been established, and
+that the universe’s accessible causal archive is finite and dynamically evolving, without implying
 
-neither needs to be. An absence of known examples together with an absence of a proof of
+that all past truths are stored or that failure of record formation carries a Landauer cost.
 
-impossibility is evidentially neutral and supports nothing. Under CTGP the question does not arise
 
-in the first place, for the reason given in §9.4.1: persisting is being generated. An unchanging
 
-configuration is one in which successive stages produce the same state, not one standing outside the
+CTGP’s conception of continuous causal-temporal evolution is consistent with, and clarified by, the
 
-succession. Absolute stasis is not a rival to the generative present; it is not a describable
+geometric understanding of conservation laws expressed through Noether’s theorem. A natural question
 
-condition within it.
+for any presentist framework is what grounds physical continuity if earlier states do not persist.
 
+The structure of modern physics provides part of the answer. Conserved quantities arise from
 
+symmetries of physical law rather than from the persistence of particular physical configurations:
 
-9.5 Foliation in Strong-Curvature Regimes
+time-translation symmetry yields energy conservation, spatial-translation symmetry momentum
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+conservation, and rotational symmetry angular-momentum conservation. In general relativity, however,
 
+these global conservation laws hold only where the spacetime possesses the corresponding symmetries;
 
+an expanding universe, for example, conserves no global energy in general. What holds generally is
 
-The FLRW foliation is well-defined in the cosmologically relevant regime of large-scale homogeneity
+local conservation, ∇μTμν = 0, and that local lawful continuity is what CTGP requires. Matter
 
-and isotropy. However, a global Cauchy foliation is not guaranteed in all spacetimes. Pathological
+distributions, field configurations, and organizational structures may evolve, or cease to exist in
 
-topologies, strong anisotropy, closed timelike curves (CTCs), and black hole interiors may each
+their earlier form, while still participating in lawful transformations constrained by local
 
-undermine the existence of a smooth global foliation. CTGP addresses these cases via a three-option
+conservation. On this reading, continuous causal evolution within M(σ) is not arbitrary succession
 
-framework:
+but lawful evolution constrained by invariant structures inherited from spacetime and dynamical
 
+symmetries; CTGP does not invoke Noether’s theorem as a proof of its ontology, but as independent
 
+physical support for its continuity claims.
 
-Option (1): Restrict CTGP's domain of application to cosmological-scale regions where the FLRW
 
-approximation holds and a global Cauchy foliation exists. This is the conservative stance and is the
 
-primary intended domain of the framework. On cosmological scales, this restriction is well-motivated
+Conservation laws govern physical quantities, not particular arrangements. The continued
 
-by the empirical fact of CMB isotropy.
+conservation of energy, momentum, angular momentum, and other invariant quantities does not imply
 
+persistence of earlier physical organizations; conserved quantities remain embedded within
 
+continuously evolving physical processes whose specific configurations change through time. CTGP
 
-Option (2): Use local foliation patches with gluing rules. In regions where the global foliation
+therefore interprets conservation as evidence of lawful continuity across temporal evolution rather
 
-breaks down, define Σ_σ patchwise over overlapping open sets, with consistency conditions on patch
+than as evidence that earlier states remain ontologically present. This refines item (i) of the
 
-boundaries. This extends CTGP's applicability at the cost of introducing gluing ambiguities that
+conservation/organization/recoverability distinction above: physical existence continues through
 
-must be handled by additional physical data (e.g., the stress-energy distribution at the boundary).
+symmetry-constrained lawful transformation, while the earlier state’s specific organization — item
 
+(iii) — is precisely what does not persist. Conservation, continuity, and presentism are accordingly
 
+not in tension: the persistence of causal influence reflects lawful transformation governed by
 
-Option (3): Treat black hole interiors and CTC-permitting solutions as requiring separate analysis
+conserved structure, not static preservation of earlier organizations.
 
-or as lying outside CTGP's intended domain. The interior of a black hole beyond the Cauchy horizon
 
-may be physically inaccessible and dynamically isolated from the exterior universe; CTGP's
 
-generative structure applies to the exterior region, and the interior is flagged as a domain
+====================================================================================================
 
-requiring separate treatment in any future extension.
+PART II. Formal Framework
 
-
-
-CTC-permitting solutions are handled under Option (1) by restricting to globally hyperbolic sectors:
-
-CTGP treats CTC-permitting solutions as physical idealizations absent from our universe's actual
-
-global structure.
-
-
-
-Each option can be substantiated by existing results in GR. For Option (1), the empirical and
-
-theoretical case is strong: global hyperbolicity is a standard causal assumption of relativistic
-
-cosmology (Hawking and Ellis 1973); strong cosmic censorship, the still-unproven conjecture that
-
-generic physically reasonable spacetimes admit no extension beyond their maximal globally hyperbolic
-
-development, would make it a consequence of the dynamics rather than an assumption; and nothing in
-
-the observed large-scale structure of our universe indicates its failure; CMB isotropy to one part
-
-in 10^5 confirms the FLRW approximation at cosmological scales to high precision. CTGP’s restriction
-
-to this domain is therefore a principled constraint, not a limitation, in the same sense that
-
-thermodynamics restricts its domain to systems with well-defined state variables. For Option (2),
-
-dual foliation methods developed in mathematical GR suggest that overlapping foliation patches can
-
-be glued consistently wherever the constraint data on the overlaps can be reconciled; patch
-
-inconsistencies are therefore diagnosable and resolvable by standard constraint-solving methods
-
-(Theorem 17.15). For Option (3), the relevant physical fact is that the spacetimes known to require
-
-it — Kerr interiors, Taub-NUT, and Gödel universes — are not consistent with our observed
-
-cosmological boundary conditions. Kerr interiors are idealized; real astrophysical black holes
-
-formed by collapse develop apparent horizons whose exterior evolution remains well-posed and
-
-globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior. The
-
-instability of the Cauchy horizon to perturbations (mass inflation) further suggests that the Kerr
-
-interior beyond the inner horizon is physically unrealized. These three anchors ground the three-
-
-option framework in established GR results.
-
-
-
-9.6 Emergent but Law-Selecting Structures
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP belongs to a broader class of physical frameworks in which large-scale emergent structures
-
-activate effective physical constraints. This framing positions CTGP within emergent-law physics
-
-rather than metaphysics.
-
-
-
-The key idea is that certain large-scale physical structures — while not themselves fundamental —
-
-nonetheless select which effective laws govern the system. Consider the following canonical
-
-examples:
-
-
-
-Emergent structure               | Effective law selected
-
----------------------------------+-------------------------------
-
-Fluid phase                      | Navier–Stokes equations
-
-Superconductivity (Cooper pairs) | London equations
-
-Cosmic fluid (FLRW)              | FLRW foliation and cosmic time
-
-
-
-In each case, a lower-level theory (classical mechanics, quantum electrodynamics, general
-
-relativity) is formally foliation-neutral or medium-neutral. But the actual physical configuration —
-
-the fluid phase, the superconducting condensate, the cosmic matter distribution — selects an
-
-effective structure that constrains physical law at the relevant scale.
-
-
-
-CTGP applies the same logic to the cosmological foliation. The matter distribution of the universe
-
-may produce, through its large-scale dynamics:
-
-
-
-• the CMB rest frame as the dynamically selected preferred frame;
-
-• the σ ordering as the physically realized temporal ordering;
-
-• the cosmological time slicing as the constraint-preserving foliation for the initial-value
-
-  problem.
-
-
-
-These structures are emergent in the technical sense: they are not present in the Einstein equations
-
-as written, but they arise from the physical solution. Once emerged, however, they are law-
-
-selecting: they determine which temporal framework is operative and which temporal ordering is
-
-physically operative.
-
-
-
-This framing recasts the central CTGP claim from a metaphysical thesis about the nature of time into
-
-a physical thesis about how the universe's matter content generates its own temporal structure.
-
-Physicists who would be skeptical of the former are often already committed to the latter in other
-
-contexts. CTGP asks only for consistency: if emergent structures can select effective dynamics in
-
-fluids, superconductors, and condensed matter systems, then the cosmological matter distribution can
-
-select an effective temporal structure for the universe as a whole.
+====================================================================================================
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-10. Quantum Compatibility and Pre-Geometric Ontology
+6. Mathematical Framework
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-CTGP is compatible with multiple quantum interpretations so long as they preserve (i) relativistic
+The continuum formalism of CTGP employs standard Lorentzian geometry (M, g_{μν}) and standard matter
 
-causal structure and (ii) the open-future ontology at the global level. The layered structure of
+fields as an effective low-energy description valid in the regime where classical geometry has
 
-causality that makes this possible is stated in the Layered Causality Principle (§10.4).
+emerged (see §10.3). At the fundamental level, CTGP remains agnostic regarding the microscopic
 
+realization of its pre-geometric generative structure. The novelty is not in modifying field
 
+equations but in restricting ontological commitment to the present state while using M(σ) as a
 
-10.1 Interpretive Routes
+formal representation of generated history.
 
-~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+6.1 The Generated Domain and the Generative Present
 
-(Q1) Decoherence-based readings: Macroscopic definiteness is approached without introducing an
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-observer-dependent ontology; CTGP interprets the realized quasiclassical history as the generated
 
-one. Decoherence provides an account of why interference between macroscopically distinct states
 
-becomes negligible due to entanglement with environmental degrees of freedom. Decoherence alone does
+Let Σ_σ denote a spacelike hypersurface in a foliation. The generated domain at stage σ is
 
-not select an outcome, however, so this route inherits the measurement problem rather than solving
 
-it, and it secures CTGP’s unique factual past only by assumption. CTGP treats the realized
 
-quasiclassical trajectory as generated stage by stage along n^μ.
+        M(σ) = ⋃_{σ′ < σ} Σ_{σ′}
 
 
 
-(Q2) Objective collapse models (e.g., CSL): Collapse provides a physically real stochastic
+The stages Σ_σ are not chosen freely. In the emergent geometric regime, CTGP identifies them with
 
-actualization mechanism aligned with CTGP's ontological edge. σ can be treated as indexing collapse-
+the level sets of a geometric invariant, the cosmological time function.
 
-updated hypersurfaces. This route has the virtue of providing an explicit physical mechanism for
 
-'selection' at each generation step.
 
+Definition (Generative present). For each event p, let the cosmological time be
 
 
-        dρ/dt = −(i/ħ)[H, ρ] − (λ_{CSL}/2) ∫ d³x [A(x), [A(x), ρ]]
 
+        τ(p) = sup { L(γ) : γ a past-directed causal curve starting at p },
 
 
-Here A(x) is a smeared mass-density operator and λ_{CSL} sets the collapse strength; on this route,
 
-collapse events realize the transition Σ_σ → Σ_{σ+Δσ}, making the stochastic dynamics coextensive
+where L denotes Lorentzian length. Cosmological time is *regular* if τ(p) < ∞ for every p and τ → 0
 
-with the growth of M(σ).
+along every past-inextendible causal curve. CTGP identifies the generative present with the level
 
+sets Σ_τ = {τ = const}. The continuum generation parameter is σ = F(τ) for any strictly increasing
 
+function F; only the level sets are physical, and the choice of F is a labeling convention (Appendix
 
-(Q3) Epistemic readings: CTGP treats the wavefunction as informational while spacetime generation is
+A.3a).
 
-ontologically basic; local predictions remain unchanged. On this route, the quantum state encodes
 
-epistemic facts about the actual generated structure, not additional ontological elements. Like
 
-decoherence-based readings, this route does not itself select an outcome, so it secures CTGP’s
+By a theorem of Andersson, Galloway, and Howard (Theorem 17.4), regular cosmological time is a
 
-unique factual past only by assumption; collapse models and foliation-dependent hidden-variable
+continuous time function whose level sets are Cauchy surfaces; τ is locally Lipschitz, and every
 
-theories supply that uniqueness through their dynamics. Relational interpretations, which make facts
+event lies on a timelike geodesic from the initial singularity whose length equals τ(p). Wherever τ
 
-relative to observers, conflict with a unique factual past and are not among CTGP’s available
+is differentiable, −∇^μτ is the future-directed unit tangent of that maximizing geodesic, so
 
-routes.
+g^{μν}∂_μτ∂_ντ = −1. Three consequences follow. In FLRW with a big-bang singularity, τ is cosmic
 
+time t, and the generative present agrees with the cosmological foliation of §9.3. Where the family
 
+of maximizing geodesics develops caustics, as it does inside collapsed structure, τ loses
 
-CTGP does not require a specific quantum interpretation, but it is most naturally aligned with
+differentiability: its level sets acquire corners but remain Cauchy surfaces, so the present stays
 
-approaches that provide definite macroscopic outcomes at the present edge — collapse models and
+globally well defined through structure formation. At such points the level sets are achronal
 
-foliation-dependent hidden-variable theories, such as relativistic Bohmian mechanics with a
+topological hypersurfaces rather than smooth spacelike ones; since τ is locally Lipschitz it is
 
-covariantly fixed foliation, being the primary candidates. CTGP thus requires single-outcome
+differentiable almost everywhere, and statements that use the unit normal of the foliation hold
 
-realism: at each stage, each measurement has exactly one realized macroscopic outcome. The standard
+wherever it is differentiable. And τ is the maximal single-valued continuation of the unit-norm
 
-Everettian ontology, on which all branches are physically real, conflicts with this requirement,
+solution of g^{μν}∂_μσ∂_νσ = −1: before caustics the two coincide, and afterward the smooth-field
 
-although not with the cosmological foliation itself: an Everettian could accept the foliation and a
+description breaks down while the present defined by τ does not (§11.4).
 
-unique universal state on each level set while denying that each stage has a unique macroscopic
 
-outcome. The claim is specific to CTGP; it is not the claim that no-collapse quantum theories are
 
-incompatible with presentism in general.
+CTGP is formulated for globally hyperbolic spacetimes. This should be read as an entailment of the
 
+framework rather than as a restriction adopted for convenience: since generation is the successive
 
+production of Cauchy hypersurfaces, a solution admitting no such foliation is not a spacetime that
 
-Scope of quantum-compatibility claims. CTGP’s quantum-compatibility claims are conditional rather
+lacks a present but a solution that could not be a generated history at all. CTGP therefore entails
 
-than unconditional. Relativistic hypersurface-path independence is asserted only for admissible
+that physically realized spacetime is globally hyperbolic, and classifies Cauchy-horizon and closed-
 
-local update generators whose spacelike-separated densities commute on a common invariant domain and
+timelike-curve solutions as unrealized idealizations. The entailment carries falsifiable content
 
-satisfy standard energy-bound and closability conditions (formalized in Proposition 17.16).
+through what it excludes: a confirmed observation of closed timelike curves, or of any phenomenon
 
-Likewise, continuum completely positive dynamics are claimed only as limits of UV-regularized local
+requiring a Cauchy-horizon-crossing region to be physically realized, would refute the framework
 
-semigroups under trace-norm convergence assumptions (Theorem 17.17). On the classical side, any
+(§9.4.2; §13). Eternalism, by contrast, permits spacetimes containing closed timelike curves and
 
-CTGP-induced correction terms are required to be perturbatively small relative to the
+laws that allow them. The two views therefore do not make the same claim about global hyperbolicity,
 
-Einstein–matter principal part, so that ADM constraint violation remains O(ε) in Sobolev norm on
+even though both are consistent with the observations to date: CTGP takes a risk that eternalism
 
-local existence intervals (Theorem 17.14). In strong-curvature regimes, CTGP treats smooth σ as an
+does not, which is the same asymmetry that underlies the generability constraint (§12.2).
 
-emergent continuum representative of a more primitive causal growth ordering rather than as a
 
-globally valid classical scalar (Proposition 17.18).
 
+Locating the present without the future. Cosmological time is defined on a spacetime (M, g), and the
 
+theorem that its level sets are Cauchy surfaces concerns the whole manifold. It might therefore seem
 
-Corollary: CTGP entails a unique factual past. M(σ) contains exactly one realized causal history.
+that CTGP needs the completed block to say which surface is present. It does not. By definition,
 
-Any quantum interpretation incompatible with this consequence — including any that treats past
+τ(p) is the supremum of the lengths of past-directed causal curves from p, so its value at p depends
 
-branches as ontologically real — falls outside CTGP’s scope regardless of its empirical status.
+only on the causal past J⁻(p); the regularity conditions are likewise past-directed. Whether an
 
+event lies on Σ_σ is therefore fixed by its past alone, and no future region enters. What makes the
 
+lengths of those past curves well defined, although the past does not exist, is what grounds every
 
-10.2 Pre-Classical Regime and Emergent Effective Laws
+past truth (§5.2): τ is itself a past-tensed magnitude of the present, fixed by the present’s having
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+been preceded by causal histories of those lengths. Global statements about the full manifold belong
 
+to the mathematical representation of the history as it would be generated; they show that the
 
+construction is well behaved, and they do not ground which slice is present.
 
-CTGP does not posit an absence of law at any stage of cosmic history, including the Planck epoch.
 
-The earliest regime of the universe is governed by the minimal generative structure described in
 
-Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a
+Clarification on process and representation. Neither Σ_σ nor the union M(σ) should be read as
 
-smooth Lorentzian manifold — may not yet exist during this epoch. Light cones and metric structure
+implying that reality consists of a sequence of discrete, ontologically fundamental temporal slices.
 
-may be only approximate or emergent quantities, becoming valid only after sufficient decoherence and
+Σ_σ is a mathematical representation of a continuously evolving physical reality, not a freestanding
 
-coarse-graining. GR is therefore best interpreted as the low-energy effective limit of CTGP’s deeper
+entity that reality simply “is.” The hypersurfaces function analogously to the instantaneous
 
-generative structure, not as a law that held unmodified from the initial singularity. This alignment
+configurations used in classical mechanics or field theory: useful analytical cross-sections of a
 
-places CTGP within the broader class of quantum-gravity programs that treat classical spacetime as
+continuous process, not independently existing states stacked one against the next. Correspondingly,
 
-emergent — including causal set theory, loop quantum gravity, and emergent spacetime approaches —
+M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathematical reconstruction of generated history and should not be
 
-without committing CTGP to any one of them.
+interpreted as an ontological accumulation of independently existing temporal slices; it represents
 
+a single continuously evolving causal-temporal process viewed through a foliation-based description,
 
+not a growing pile of spacetime sheets. Reality itself is the uninterrupted lawful evolution
 
-The following table formalizes the domain of validity for each ontological level and its associated
+connecting these representations — the succession of hypersurfaces describes one continuous process
 
-formal machinery within CTGP. The column “Formal Domain” specifies where each description applies;
+of becoming, not a series of separately existing states.
 
-the column “Status” specifies the ontological category per Postulate 5.
 
 
+Geometric interpretation of the growth hypersurface. In the emergent geometric regime, each
 
-Level            | Description              | Status (per       | Formal domain
+hypersurface Σ_σ is defined as a level set of the scalar field σ(x): Σ_σ = {x ∈ M | σ(x) = const}.
 
-                 |                          | Postulate 5)      |
+Because σ admits representation as a scalar field in this regime, this construction is covariant
 
------------------+--------------------------+-------------------+---------------------------------
+under diffeomorphisms. The hypersurfaces therefore represent a physical ordering of generative
 
-σ-generation law | Primitive generative     | Fundamental       | All regimes (pre-geometric and
+events rather than a coordinate-dependent slicing, and no preferred coordinate frame is introduced;
 
-                 | ordering parameter       |                   | emergent)
+the foliation is fixed by the level sets of cosmological time, of which σ is a relabeling, and
 
-Causal ordering  | Partial order on         | Fundamental-      | All regimes; light-cone
+involves no additional field dynamics. To ensure causal consistency, the gradient ∇_μσ is required
 
-                 | generative stages        | emergent hybrid   | representation valid only post-
+to remain timelike: ∇_μσ ∇^μσ < 0. This condition — guaranteed wherever τ is differentiable, since
 
-                 |                          |                   | emergence
+∇_μτ is then a unit timelike covector — ensures that the generative ordering corresponds to a
 
-General          | Effective classical      | Effective (α(ρ) → | Emergent geometric regime only
+physically admissible temporal direction and that Σ_σ is everywhere spacelike. CTGP does not claim
 
-Relativity (GR)  | spacetime dynamics       | 1)                | (ρ ≪ ρ_P)
+that general relativity singles out a unique foliation in every spacetime. It claims that
 
-QFT              | Relativistic quantum     | Effective         | Emergent geometric regime only
+cosmological time, defined from the causal and metric structure alone, supplies a physically
 
-                 | field dynamics           |                   |
+distinguished foliation wherever it is regular, and that in our universe this foliation
 
-Thermodynamics   | Statistical regularities | Emergent          | After sufficient decoherence and
+approximately coincides, on large scales, with the rest frame of the cosmic matter distribution. The
 
-                 | from coarse-graining     |                   | coarse-graining
+construction does not presuppose the idealized fundamental observers of standard cosmology: the
 
+maximizing geodesics of cosmological time play the role those observers would play, and they are
 
+fixed by the geometry wherever cosmological time is regular, however lumpy the matter distribution.
 
-The asymmetry in the “Formal Domain” column is the central structural claim of §10.2: σ-ordering is
 
-present and active at all stages, while every other level of law acquires its formal machinery only
 
-after the conditions for that level have been realized. GR is therefore never retroactively applied
+This encodes CTGP’s generative temporal asymmetry: future hypersurfaces Σ_{σ′>σ} are excluded from
 
-to the pre-geometric regime, and the σ-constraint is never suspended in the emergent regime. This
+M(σ). Figure 2 illustrates this structure.
 
-table instantiates Postulate 5 mathematically: σ is the only structure whose domain of validity is
 
-unrestricted.
 
+[FIGURE: Figure 2]
 
+  Figure 2. The generated domain M(σ). The present edge Σ_σ is the active boundary of generation;
 
-10.3 Pre-Geometric Ontology
+  earlier stages Σ_{σ′} (σ′ < σ) constitute the formal history M(σ), and future stages are not part
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP posits that the deepest layer of reality consists not of spacetime geometry but of lawful
-
-generative ordering, of which classical spacetime geometry is an effective continuum approximation.
-
-The principles that govern this relationship are stated below and in §10.4.
-
-
-
-Emergent Metric Principle: The Lorentzian metric g_{μν} is not fundamental but emerges as an
-
-effective low-energy description of underlying generative and causal relations. Diffeomorphism
-
-invariance is correspondingly an emergent symmetry of the continuum limit rather than a primitive
-
-feature of pre-geometric reality. The continuum action of CTGP (§9.1), which contains √(−g) d⁴x,
-
-should therefore be interpreted as an effective low-energy action valid after the emergence of
-
-classical geometry, not as a fundamental statement about pre-geometric structure.
-
-
-
-Causal Reconstruction Principle: Effective spacetime geometry is reconstructed from underlying
-
-causal relations and generative ordering. This principle connects naturally to the
-
-Hawking–King–McCarthy and Malament reconstruction results already cited in §6.2, which establish
-
-that causal ordering determines conformal metric structure. CTGP’s pre-geometric ontology
-
-strengthens these results from a mathematical convenience into an ontological commitment: geometry
-
-is not prior to causality but is derived from it. The generative ordering therefore takes
-
-ontological precedence: generative ordering → causal structure → emergent metric, not the reverse.
-
-
-
-Fundamental Ontological Hierarchy: The following chain specifies the direction of ontological
-
-priority in CTGP. Each arrow denotes “grounds” or “gives rise to”, never the reverse:
-
-
-
-        σ (primitive generative ordering)  →  causal partial order  →  conformal geometry  →  full Lorentzian metric  →  GR dynamics (effective)  →  QFT (effective)  →  thermodynamic regularities (emergent)
-
-
-
-Each step in this chain has associated formal conditions for when the transition becomes valid. The
-
-step from causal partial order to conformal geometry corresponds to the large-N limit of causal-set
-
-theory. The step from conformal geometry to full metric requires specifying a volume element (in
-
-causal-set theory, this is supplied by the counting measure). The step from full metric to GR
-
-dynamics requires the α(ρ) suppression factor of §9.2 to reach the value α → 1, which occurs as
-
-ρ/ρ_P → 0. No step in this chain runs in the reverse direction within CTGP; the hierarchy is
-
-strictly one-directional. This provides the formal grounding for the claim that GR cannot be
-
-“applied at the Planck epoch”: GR appears only at the end of the chain, where all prior steps have
-
-been completed.
-
-
-
-Effective Law Emergence Principle: Stable regularities emerge when the generated present acquires
-
-sufficient physical structure to support reproducible signal propagation and dynamical constraints.
-
-This links directly to the signal-based epistemological dimension of CTGP: the observability of
-
-physical laws is itself signal-dependent. Effective laws become epistemically accessible only when
-
-the universe supports the propagation and persistence of the signals required to reveal those
-
-regularities. Physical structure and epistemic accessibility therefore co-emerge at the same
-
-threshold.
-
-
-
-10.4 Pre-Geometric Consistency Principles
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The continuum formalism of Part II is an effective description, and a small set of interpretive
-
-principles governs how its language is to be read across the pre-geometric and emergent regimes.
-
-They are collected here so that each can be cited by name. Together they fix the framework’s
-
-ontological commitments: the metric is emergent, general relativity is effective, and σ is
-
-fundamentally a pre-geometric ordering parameter.
-
-
-
-Primitive Status of σ Principle. At the deepest ontological level, σ is not a scalar field defined
-
-on spacetime. It is a pre-geometric generative ordering parameter that labels lawful stages of
-
-reality’s production. Before classical geometry exists, there is no manifold, no metric, and no
-
-scalar field in the standard sense; therefore σ cannot fundamentally be a spacetime scalar. The
-
-scalar-field representation of σ arises only in the emergent continuum limit once classical geometry
-
-becomes applicable. Passages in this paper that describe σ as “a scalar field,” “a spacetime field,”
-
-“a function of cosmological time,” or “a physically measurable scalar” are to be read as applying
-
-exclusively within the emergent geometric regime. At the fundamental level, the correct
-
-characterization is: σ is a primitive generative ordering parameter whose emergent geometric regime
-
-representation is a smooth scalar field.
-
-
-
-Two-Regime Representation Principle. The pre-geometric and emergent-geometric descriptions of σ must
-
-never be conflated. The following table defines the regime-appropriate interpretation for every
-
-context in which σ is invoked:
-
-
-
-Regime             | Interpretation of σ
-
--------------------+-------------------------------------------------------------------------
-
-Pre-geometric      | Generative ordering parameter (no manifold assumed)
-
-Emergent geometry  | Cosmological time τ and its monotone relabelings σ = F(τ)
-
-Cosmological limit | Cosmic proper time t of FLRW
-
-Operational        | Locatable by any observer through the CMB temperature and dipole (§12.4)
-
-
-
-Dual Interpretation of Σ_σ. Because hypersurfaces require pre-existing geometry, the present
-
-boundary Σ_σ admits two regime-dependent definitions. In the pre-geometric regime, Σ_σ is defined as
-
-the set of events sharing equal generation stage in the causal ordering induced by σ — a “generation
-
-stage” rather than a hypersurface. In the emergent geometric regime, after classical geometry has
-
-become available, Σ_σ admits representation as the smooth spacelike hypersurface corresponding to
-
-the continuum representation of that generation stage. References to “the present hypersurface Σ_σ”
-
-in this paper apply in the emergent geometric regime. Three items should be kept apart. Σσ is a
-
-region: a spacelike, three-dimensional hypersurface that cuts across every system at once, not the
-
-region occupied by any particular one. The state at a generation stage is a mathematical object: the
-
-Cauchy data on Σσ (the induced metric, the extrinsic curvature, and the matter fields with their
-
-conjugate data, subject to the constraints), a point in the constrained phase space of the
-
-Einstein–matter system. What exists is the physical configuration of fields and matter that this
-
-state describes. In pre-geometric contexts, the phrase should be read as “the present generation
-
-stage Σ_σ.”
-
-
-
-Generative Stages Language Principle. Throughout this paper, the phrase “successive hypersurfaces
-
-are generated” is to be interpreted as shorthand for “the present boundary advances continuously
-
-along the generation flow vector n^μ; foliation into spacelike hypersurfaces Σ_σ is a mathematical
-
-representation of this continuous flow, available only in the emergent geometric regime.” The
-
-fundamental process is the continuous propagation of generative flow; the hypersurface description
-
-is a representation that becomes available after geometry emerges. This reading applies globally and
-
-does not require case-by-case annotation at each occurrence.
-
-
-
-Layered Causality Principle. CTGP operates with two distinct layers of causality that must not be
-
-conflated. Fundamental causality consists of σ-ordering and causal relations: the primitive
-
-directional structure from which reality’s generative sequence is constituted. Classical causality
-
-consists of light cones and relativistic propagation: an effective representation that becomes valid
-
-only after spacetime geometry has emerged. Classical causal structure therefore emerges from deeper
-
-generative ordering encoded by σ and its induced causal relations. References to “causality” in
-
-discussions of the pre-geometric regime concern the fundamental layer; references to “causal
-
-structure” in the context of GR, FLRW cosmology, or observational predictions concern the classical
-
-layer.
-
-
-
-Effective-Regime Restriction Principle. All reconstruction theorems (HKM, Malament), temporal-
-
-function theorems (Geroch), Cauchy-foliation results (Bernal–Sánchez), and ADM formulations
-
-discussed in CTGP apply only within the emergent geometric regime where classical spacetime is a
-
-valid continuum approximation (ρ ≪ ρ_P). None of these constructions are claimed to be fundamental.
-
-Their role within CTGP is to establish that, once geometry has emerged, a well-defined foliation
-
-structure is guaranteed by causal geometry alone — not to assert that geometry is prior to
-
-causality. This restriction applies universally to §§6, 7, 8, 9, and their subsections. The pre-
-
-geometric regime is governed by the minimal generative structure (σ, C) specified by the Fundamental
-
-Ontological Hierarchy (§10.3) and the Pre-Geometric Minimal Ontology below; the geometric machinery
-
-enters only after the transition described in §9.2.
-
-
-
-Proper-Time Qualification. Proper time presupposes a metric and is therefore not available as a
-
-concept in the pre-geometric regime. Any statement in this paper of the form “σ corresponds to
-
-cosmological proper time” is to be read as: “In the emergent geometric regime, σ is cosmological
-
-time up to monotone relabeling.” The claim that σ fundamentally is proper time is not made and would
-
-be inconsistent with CTGP’s pre-geometric ontology. The proper-time interpretation is an emergent
-
-correspondence, not a definition.
-
-
-
-Regime-Dependent Representation Principle. The relationship between σ and geometry is regime-
-
-dependent and must be stated precisely. In the pre-geometric regime, σ is primitive and is not
-
-defined through any geometric or material quantity; it is the ontological ground from which causal
-
-structure, geometry, and eventually matter-energy descriptions emerge. In the emergent geometric
-
-regime, σ is represented by cosmological time and its relabelings, satisfying ∇_μσ ∇^μσ = −f(σ). The
-
-generation law may depend on σ but not on local matter content (§§6.11, 11). The logical order
-
-remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
-
-representative of σ.
-
-
-
-Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
-
-fundamental entities in CTGP is:
-
-
-
-    Present at the pre-geometric level: generative ordering parameter σ; causal relation structure
-
-    C; minimal generative laws governing lawful succession.
-
-
-
-    Absent at the pre-geometric level: metric; manifold; coordinates; light cones; proper time;
-
-    stress-energy tensor; Einstein equations. These emerge later and belong to the emergent or
-
-    effective layers of the hierarchy.
-
-
-
-Effective Action Principle. The continuum action of CTGP — S(σ) = ∫_{M(σ)} √(−g) [L_{GR} + λ(∇_μσ
-
-∇^μσ + f(σ))] d⁴x — is an effective low-energy action applicable only after emergent geometry has
-
-established classical spacetime as a valid continuum approximation. It is not claimed to represent
-
-the microscopic dynamics of the pre-geometric regime. The extended action S_{ext}(σ) of §9.2 models
-
-the crossover regime continuously but similarly does not constitute a fundamental pre-geometric
-
-theory. The UV completion of these actions lies in the pre-geometric structure (σ, C) described by
-
-the Pre-Geometric Minimal Ontology, and remains an open problem for the research program described
-
-below. The action is accordingly to be read as an effective field theory — a well-established status
-
-in contemporary physics — rather than as a fundamental statement; it does not presuppose that
-
-geometry is fundamental.
-
-
-
-Scope of the Research Program. CTGP specifies ontological constraints on possible quantum-gravity
-
-theories rather than providing a completed microscopic theory. The framework presently leaves open:
-
-the mathematical realization of σ at the Planck scale; the origin of causal relations C; the
-
-mechanism by which volume information arises from causal structure; the reconstruction of metric
-
-geometry from causal ordering; and the microscopic derivation of effective laws. CTGP should
-
-therefore be understood as a generative ontology and a research program constraining future theories
-
-of quantum gravity. The research program has a well-defined core: any adequate quantum-gravity
-
-theory must preserve causal directionality, produce emergent geometry from pre-geometric ordering,
-
-and recover the effective description characterized by the CTGP action in the low-energy limit.
+  of the domain. Lines are schematic level sets of σ, not independently existing slices.
 
 

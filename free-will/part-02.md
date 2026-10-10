@@ -1,99 +1,769 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 2 of 2
+Part 02 of 3 (1,668 words)
 
-observable conduct, statements, circumstances, preparations, patterns of behavior, known
+5. Source Incompatibilism and "Ultimate" Authorship
 
-information, and other external evidence. Inference necessarily involves some degree of assumption
-
-in the sense that we never directly observe another person’s intent. The question, though, is
-
-whether those assumptions are constrained by evidence or are merely speculative. Inferences can
-
-still be more or less justified depending on how well they explain/"correspond with" the available
-
-facts.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
-For example, intent can be inferred when someone purchases poison, researches lethal doses, secretly
+A stronger objection comes from source incompatibilism, which argues that individuals cannot possess
 
-administers the poison to a victim, and then attempts to conceal the act. We do not observe the
+genuine authorship because they did not create the underlying architecture that generates their
 
-intent directly; we infer it from the conduct.
+decisions (Strawson, 1994; Pereboom, 2001). Genes, developmental history, environmental conditions,
 
-
-
-Motive can be inferred when someone stands to gain a large inheritance from a death, repeatedly
-
-expresses hostility toward the deceased, and then engages in conduct leading to that death. The
-
-motive is not directly visible, but external evidence may support the inference.
+and prior brain states all contribute to the organism's structure.
 
 
 
-Knowledge can be inferred when someone receives repeated warnings that a bridge is unsafe,
+This objection only succeeds if agency requires ultimate self-creation. That standard is implausibly
 
-acknowledges those warnings, and then continues sending people across it. Their knowledge is
+strong. No physically instantiated system could satisfy it. Any causal system embedded within
 
-evidenced by what they were told and how they responded.
+reality necessarily depends on prior conditions. If ultimate origination were required for agency,
 
-
-
-Fear can be inferred when someone is cornered by an armed attacker, attempts to retreat, calls for
-
-help, visibly panics, and then uses force against the attacker. We cannot directly observe fear
-
-itself, but the surrounding conduct may provide evidence that fear was present.
+then agency would be impossible for any physical being whatsoever.
 
 
 
-Recklessness can be inferred when someone knowingly drives at extreme speeds through a crowded area,
+The more relevant question is therefore not whether the organism is the ultimate uncaused source of
 
-fires a weapon into an occupied building, or ignores obvious and substantial risks that a reasonable
+itself, but whether actions emerge from the organism's current evaluative, predictive, and self-
 
-person would recognize. The recklessness is inferred from the choice to proceed despite the apparent
+regulating processes. Authorship in this framework is online — occurring within the organism's
 
-danger.
+ongoing real-time evaluative and control processes — rather than original. What matters is that the
 
+organism itself performs the relevant computation, evaluation, prediction, and behavioral
 
+integration in real time. The organism need not have created its own architecture ex nihilo for
 
-Suppose a person privately fantasizes about harming someone for twenty years but never threatens,
-
-attempts, plans, encourages, or commits any harmful act. Under the system I am describing, the
-
-fantasy alone would not create accountability.
+those processes to count as genuinely its own.
 
 
 
-Suppose another person secretly poisons someone and is never caught. The poisoning itself remains an
+6. Determinism, Indeterminism, and Control
 
-observable-type event because it is a physical action occurring in the world, even if no one
-
-actually discovers who did it. Accountability would attach to the poisoning, not to whether
-
-observers happened to identify the culprit.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
-Suppose a person accidentally causes harm while exercising reasonable care. The harmful outcome
-
-alone would not automatically establish malicious intent, recklessness, or callousness.
+This framework is compatible with either determinism or limited microscopic indeterminacy.
 
 
 
-Suppose a person claims an action was an accident, but evidence shows extensive preparation, prior
+If determinism is true, agency remains possible because the relevant issue is not metaphysical
 
-threats, concealment efforts, and attempts to benefit from the outcome. Those observable facts may
+exemption from causation but the existence of internally integrated control architecture through
 
-justify inferring intent despite the claim.
+which actions are generated. As Dennett (1984) argues, the freedom worth wanting is not freedom from
+
+causation but freedom from coercion, compulsion, and the bypass of one's own evaluative processes.
 
 
 
-Suppose a person genuinely fears for their life and acts in self-defense. Their fear is not directly
+If quantum indeterminacy exists at the micro level, this does not automatically produce greater
 
-observed, but it may be inferred from the circumstances and their conduct. Conversely, if someone
+freedom or authorship. Randomness by itself does not generate meaningful control. A different
 
-merely claims fear while the evidence strongly indicates aggression or retaliation, the claim may
+outcome caused purely by stochastic fluctuation would not constitute enhanced agency. Complex
 
-not be supported.
+emergent systems routinely stabilize lower-level variability into coherent macro-level organization.
+
+Brains, like other control systems, integrate noisy lower-level activity through feedback,
+
+prediction, state integration, and error correction. Consequently, microscopic indeterminacy does
+
+not imply chaotic macro-level behavior or the collapse of coherent agency. Higher-level organization
+
+remains causally operative despite lower-level variability.
+
+
+
+Scope of the Claim
+
+~~~~~~~~~~~~~~~~~~
+
+
+
+This framework does not claim to solve the hard problem of consciousness, nor does it claim to fully
+
+explain the ultimate origins of the emergent architectures that make agency possible. Those remain
+
+separate philosophical and scientific questions.
+
+
+
+The more modest claim defended here is that meaningful agency does not require metaphysically
+
+uncaused choices, absolute self-creation, or multiple genuinely open alternatives arising from
+
+identical prior conditions. What matters is the presence of an internally integrated control
+
+architecture capable of self-modeling, evaluation, prediction, behavioral selection, and prospective
+
+regulation. If such organizational conditions are sufficient for agency, then agency can remain real
+
+even within a causally structured physical world.
+
+
+
+Conclusion
+
+~~~~~~~~~~
+
+
+
+Free will does not require uncaused choice, exemption from physics, or metaphysical independence
+
+from causal structure. It requires the existence of an internally integrated control architecture
+
+capable of self-modeling, prediction, evaluation, behavioral selection, and prospective regulation.
+
+
+
+Human beings plausibly possess real will, volition, and self-agency insofar as they instantiate the
+
+organizational conditions described in this framework. These processes are neither supernatural nor
+
+illusory. They are higher-level causal structures arising from sufficiently organized biological
+
+dynamics. The organism's internally generated evaluations, anticipatory models, and recursive
+
+control processes genuinely participate in shaping future outcomes, even while remaining fully
+
+embedded within the causal structure of the physical world.
+
+
+
+References
+
+~~~~~~~~~~
+
+
+
+Clark, A. (2016). Surfing uncertainty: Prediction, action, and the embodied mind. Oxford University
+
+Press.
+
+
+
+Dennett, D. C. (1984). Elbow room: The varieties of free will worth wanting. MIT Press.
+
+
+
+Frankfurt, H. G. (1971). Freedom of the will and the concept of a person. Journal of Philosophy,
+
+68(1), 5–20.
+
+
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
+
+11(2), 127–138.
+
+
+
+Pereboom, D. (2001). Living without free will. Cambridge University Press.
+
+
+
+Strawson, G. (1994). The impossibility of moral responsibility. Philosophical Studies, 75(1–2),
+
+5–24.
+
+
+
+Woodward, J. (2003). Making things happen: A theory of causal explanation. Oxford University Press.
+
+
+
+Moral responsibility doesn’t hinge on the determinism/indeterminism debate because it’s grounded in
+
+something that holds regardless of which side wins - namely, that humans are genuine causal agents
+
+whose reasoning, intentions, and choices do real causal work.
+
+
+
+Such matters because:
+
+
+
+1. Human beings demonstrably deliberate, form intentions, weigh reasons, select actions, and
+
+   initiate behavior through internally integrated processes. That’s observable, confirmable through
+
+   signals (behavior, self-report, neural patterns, outcomes), and it does real causal work. Whether
+
+   the universe is fully determined or probabilistically open, the question of whether a person
+
+   acted through their own internally integrated evaluative architecture - their goals, reasoning,
+
+   values - remains the same. A puppet is not just “something that was caused.” Everything physical
+
+   is caused. A puppet is a system whose behavior bypasses internal evaluation entirely. Humans are
+
+   structurally different from that.
+
+
+
+2. Intentions and reasoning are causally real, not epiphenomenal. On an interventionist account of
+
+   higher-level causation, intervening at the level of intentions reliably changes behavior in ways
+
+   that aren’t well-captured by describing isolated neurons. That means reasoning does work in the
+
+   causal chain — it’s not just decorative. If reasoning matters causally, then responses to
+
+   reasoning (praise, blame, punishment, reward) can actually do something.
+
+
+
+3. Behavioral systems respond to incentives and norms regardless of the metaphysics. Whether
+
+   determinism is true or not, the fact that humans update their future behavior based on
+
+   consequences and moral feedback is itself a feature of their agentive architecture. Punishment
+
+   and reward function as:
+
+
+
+feedback that modifies future behavior
+
+
+
+constraints that alter the incentive landscape
+
+
+
+protection for others
+
+
+
+incentive shaping through the agent’s own evaluative processes
+
+
+
+moral communication that can be internalized
+
+
+
+None of this requires “ultimate origination” or uncaused choices. It requires only that the agent’s
+
+decision-making architecture be the thing that’s actually being engaged.
+
+
+
+Is retributive punishment - punishment as desert for its own sake - justified without libertarian
+
+free will? That’s a real debate. But consequentialist justifications for moral responsibility
+
+systems (shaping behavior, protecting society, communicating norms) are valid if they work through
+
+the very agentive architecture that makes people moral agents in the first place.
+
+
+
+(From my compatibilist perspective, internally generated commitments, selection-and-initiation, the
+
+predictive alignment and authorship feedback that lets the system treat itself as the source in its
+
+own modeling - These aren’t absolute uncaused powers - They’re higher-level organizational
+
+structures that emerge from and feed back into the causal stream. Like a hurricane organizing
+
+molecules into something that genuinely steers weather patterns, even though it’s all physics all
+
+the way down.)
+
+
+
+Different systems of justice prioritize different things:
+
+
+
+• protection,
+
+
+
+• fairness,
+
+
+
+• restoration,
+
+
+
+• deterrence,
+
+
+
+• revenge,
+
+
+
+• accountability,
+
+
+
+• rehabilitation,
+
+
+
+• social stability,
+
+
+
+• proportionality,
+
+
+
+• mercy,
+
+
+
+• rights,
+
+
+
+• or moral desert.
+
+
+
+And people argue endlessly over which combinations are the most justified or “righteous.”
+
+
+
+The examples you gave actually represent very different justice models under the hood.
+
+
+
+   * * *
+
+
+
+“An eye for an eye”
+
+
+
+This is classic retributive justice.
+
+
+
+The idea is:
+
+
+
+wrongdoing deserves proportional punishment.
+
+
+
+Importantly, historically it was originally a limitation on vengeance:
+
+
+
+• not “destroy their entire family because they stole a goat,”
+
+
+
+• but:
+
+
+
+punishment should be proportionate.
+
+
+
+Modern retributivists often argue:
+
+
+
+• punishment respects moral agency,
+
+
+
+• because it treats people as responsible choosers,
+
+
+
+• rather than as malfunctioning machines.
+
+
+
+Critics respond:
+
+
+
+• retribution can collapse into institutionalized revenge,
+
+
+
+• especially if free will is weaker than assumed.
+
+
+
+   * * *
+
+
+
+“Do unto others as you want done unto you”
+
+
+
+That’s closer to:
+
+
+
+• reciprocal ethics,
+
+
+
+• moral symmetry,
+
+
+
+• empathy-based ethics,
+
+
+
+• and social cooperation principles.
+
+
+
+It’s less about punishment specifically and more about:
+
+
+
+how agents ought to treat one another.
+
+
+
+This can support:
+
+
+
+• restorative justice,
+
+
+
+• compassion,
+
+
+
+• fairness,
+
+
+
+• and mutual accountability.
+
+
+
+It’s fundamentally relational.
+
+
+
+   * * *
+
+
+
+The United States legal system
+
+
+
+The U.S. system is actually a hybrid monster stitched together from multiple theories like
+
+philosophical Frankenstein wearing a courthouse wig. 😄
+
+
+
+It mixes:
+
+
+
+• retributive justice,
+
+
+
+• deterrence,
+
+
+
+• incapacitation,
+
+
+
+• rehabilitation,
+
+
+
+• plea-bargaining pragmatism,
+
+
+
+• rights protections,
+
+
+
+• and social-order maintenance.
+
+
+
+For example:
+
+
+
+• prison can be justified as punishment,
+
+
+
+• deterrence,
+
+
+
+• public safety,
+
+
+
+• rehabilitation,
+
+
+
+• or all simultaneously.
+
+
+
+That’s why debates over sentencing become so heated:
+
+
+
+people are often operating from entirely different justice theories without realizing it.
+
+
+
+   * * *
+
+
+
+Compatibilism fits pretty naturally into accountability-based justice
+
+
+
+Your framework especially supports:
+
+
+
+• responsibility,
+
+
+
+• accountability,
+
+
+
+• social correction,
+
+
+
+• and proportional response.
+
+
+
+Because under your view:
+
+
+
+• people are genuine causal agents,
+
+
+
+• reasoning matters,
+
+
+
+• intentions matter,
+
+
+
+• choices affect future outcomes,
+
+
+
+• and behavioral systems can respond to incentives and norms.
+
+
+
+So punishment/reward can make sense as:
+
+
+
+• feedback,
+
+
+
+• constraint,
+
+
+
+• protection,
+
+
+
+• incentive shaping,
+
+
+
+• and moral communication.
+
+
+
+   * * *
+
+
+
+Where things become morally dangerous
+
+
+
+The biggest danger is when:
+
+
+
+“justice”
+
+
+
+quietly mutates into:
+
+
+
+“inflicting suffering because it feels emotionally satisfying.”
+
+
+
+That’s where many critics of desert-based punishment push back.
+
+
+
+They ask:
+
+
+
+• Does punishment improve future outcomes?
+
+
+
+• Protect society?
+
+
+
+• Encourage rehabilitation?
+
+
+
+• Respect proportionality?
+
+
+
+• Preserve rights?
+
+
+
+Or is it just:
+
+
+
+socially legitimized vengeance wearing a necktie?
+
+
+
+That’s the pressure point.
+
+
+
+   * * *
+
+
+
+Your framework naturally leans toward a middle position
+
+
+
+From everything you’ve written, your view seems closest to:
+
+
+
+• humans are real agents,
+
+
+
+• agency is emergent and meaningful,
+
+
+
+• accountability matters,
+
+
+
+• intentional harm matters,
+
+
+
+• consequences are justified,
+
+
+
+• society must defend itself,
+
+
+
+• but punishment should still remain tied to:
+
+
+
+• proportionality,
+
+
+
+• future outcomes,
+
+
+
+• fairness,
+
+
+
+• and recognition that nobody self-created their entire causal structure.
+
+
+
+That produces a justice philosophy that is neither:
+
+
+
+• “nobody is responsible for anything,”
+
+
+
+nor:
+
+
+
+• “people are metaphysically self-created evil generators deserving infinite suffering.”
+
+
+
+Which is probably healthier than either extreme.
+
+
+
+Regarding consciousness specifically, I think your question becomes even more interesting because
+
+humanity currently does not possess a complete theory of consciousness, yet accountability is widely
+
+regarded as justifiedly applying to humans.
+
+

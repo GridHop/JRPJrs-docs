@@ -1,472 +1,198 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 2 of 2
+Part 02 of 5 (1,536 words)
 
-world rule. That rule does real metaphysical work. It answers a question that psychological
-
-continuity alone leaves open, namely what happens when continuity branches. In the actual world
-
-nothing in known physics forbids branching in principle, so a real-world continuity view needs an
-
-explicit non-branching condition or an alternative criterion.
-
-
-
-Presentism sharpens the problem in an instructive way. After a split, both successors carry
-
-identical records of the pre-split history, and records can be copied. Under CTGP the fact of which
-
-successor walked out of the scanner and which out of the printer is still grounded, because it
-
-belongs to the present world’s past-tensed profile. What can be lost is access: if every
-
-distinguishing record is duplicated or erased, the fact may become unrecoverable. The duplication
-
-case is thus a clean example of a fact that exists without being accessible to the observers it most
-
-concerns.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-22. Transformation versus reconstruction
+10. Causal influence, surviving information, and recoverability
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-Continuity of activity and continuity of identity are not the same thing. Temporary inactivity is
+Suppose A causes B, B causes C, and C causes D. By the time D exists, A may be entirely gone, and
 
-not necessarily discontinuity: during sleep, general anesthesia, or the deep hypothermic circulatory
+there may be no recoverable record from which any observer could reconstruct it. D can nevertheless
 
-arrest used in some surgery, during which the brain’s electrical activity can fall silent, the
-
-brain’s organized physical structure remains intact, and later activity is causally continuous with
-
-earlier activity through that persisting structure. “Uninterrupted electrical activity” therefore
-
-cannot be the criterion.
+be different because A occurred. Three notions must therefore be kept apart:
 
 
 
-Ordinary biological replacement preserves an ongoing causal organization: the existing organization
-
-participates in determining how its own components are replaced, and at no stage does the person’s
-
-complete state exist merely as information outside the person. Scan-and-rebuild procedures differ in
-
-kind, because they insert a representation as an intermediate step. The original is measured, its
-
-state is encoded, and another system is built from the encoding. If City A were converted into a map
-
-and City B were then built from the map, no one would say that City A had traveled to B; something
-
-informationally derived from A produced B. The same applies to persons: the information required to
-
-reconstruct someone can survive without the individual whose information it is.
+    causal influence ≠ surviving information ≠ recoverability
 
 
 
-    Past → present through causal continuity: transformation. Past → representation → new
+Information loss does not amount to causal loss. Burn a letter and its text may become
 
-      instantiation: reconstruction.
+unrecoverable; but if someone read it first and made a decision because of it, the vanished
 
+information has already altered subsequent reality. Eventually even the reader’s memory may fade
 
+while the consequences of the decision continue to propagate. CTGP is consistent with this: it
 
-One candidate criterion is therefore:
+entails that the universe’s accessible causal archive is finite and dynamically evolving, shaped by
 
+record formation, thermodynamic degradation, and erasure, without implying that every past truth is
 
-
-    Personal identity consists in the uninterrupted causal inheritance of an embodied organization,
-
-    rather than in reconstruction from a representation.
-
-
-
-Applied consistently, it yields the following verdicts:
+stored in a record.
 
 
 
-• Sleep, general anesthesia, and temporary cessation of detectable brain activity with structure
+In a metaphorical sense, reality retains the consequences of its past without containing a memory of
 
-  intact: continuity.
+it. “Retains” here means is causally downstream of, not stores a representation of. Reality does not
 
-• Gradual biological replacement incorporated into the existing organization: continuity.
+represent; agents and other information-bearing systems do. The world can be truth-bearing, through
 
-• Gradual synthetic replacement incorporated in the same way: plausibly continuity, for the same
-
-  reason.
-
-• Scan, destruction of the original, and reconstruction elsewhere: discontinuity, meaning the death
-
-  of the original and the creation of a new person. Many people find this conclusion hard to accept,
-
-  and it is the crux of Parfit’s teletransporter case.
-
-• Scan and reconstruction while the original survives: two individuals, not one becoming the other.
-
-• A perfect copy made from stored information: a new individual, however psychologically identical.
-
-• The Ship of Theseus repaired plank by plank: plausibly the same ship, since the existing
-
-  organization continuously transforms rather than being rebuilt from a blueprint.
-
-
-
-The criterion is not without difficulty. Consider neurons replaced one at a time by functional
-
-equivalents until none of the originals remains. On a continuity reading, each replacement is
-
-incorporated into an already existing organization. On a “micro-reconstruction” reading, each
-
-replacement destroys one component and creates a successor from a description of it. Nothing in the
-
-physical process announces which reading is correct. Between gradual molecular turnover and
-
-whole-brain scan-and-rebuild lies a spectrum, and candidate dividing features include locality,
-
-temporal continuity, preservation of causal organization, the absence of an informational
-
-bottleneck, the absence of branching, or some combination. The framework has not established which
-
-of these is decisive; what it has done is locate the precise unresolved variable. Whatever criterion
-
-is chosen will settle the teleporter, the printer, gradual replacement, mind uploading, and the Ship
-
-of Theseus at once.
+its past-tensed properties, without being representation-bearing.
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-23. Is the criterion discovered or chosen?
+11. Everything causally active from the past is present now
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-Ordinarily, “we do not know whether X” means that there is a determinate fact not yet discovered.
+CTGP’s most exposed empirical commitment is generability: the fundamental laws must fix the
 
-With concepts such as numerical identity, it is possible instead that several coherent criteria give
+transition from each present state to its successors (deterministically or probabilistically)
 
-different answers, and that no further physical measurement could decide between them, because the
+without reference to future boundary data, final-state constraints, or global self-consistency
 
-measurement does not determine which criterion should govern the term. The 2006 decision of the
+conditions. CTGP adds that enlarging the state space to achieve this is legitimate only if the added
 
-International Astronomical Union that reclassified Pluto as a dwarf planet illustrates the
-
-structure, though imperfectly, since “planet” is a classificatory term while personal identity
-
-carries great metaphysical and practical weight.
+variables are physically instantiated on the present hypersurface and have dynamics of their own.
 
 
 
-Physics may one day tell us with great precision that process X occurred. That does not by itself
-
-tell us that X’s output is numerically identical to its input. The first is an empirical question;
-
-the second concerns the identity conditions we apply to physical processes. CTGP can say that a
-
-present state causally arose from an earlier one; it does not follow that the present entity is
-
-numerically identical to the earlier entity. That requires a theory of persistence. The best summary
-
-is therefore:
+Combined with the doctrine of causal inheritance, generability yields a sharp principle:
 
 
 
-    Personal identity is not preserved merely by preserving information. It is preserved, if at all,
+    Whatever part of history can still affect the future must already be physically instantiated in
 
-    by the kind of causal continuity through which one presently existing individual develops into
-
-    its next state. A representation can preserve everything needed to describe an individual
-
-    without becoming that individual.
+    the present.
 
 
 
-Whether reality uniquely dictates that criterion, or whether it is the convention that best captures
+Otherwise a past that no longer exists would have to reach forward and do additional causal work.
 
-the distinctions that matter, remains an open question.
+Two consequences follow. First, if two present states agreed in every physically instantiated
+
+respect, their futures would be governed identically by the laws, whatever their histories; history
+
+that left no physical trace in the present retains its truth, through past-tensed properties, but
+
+has no further causal leverage. Second, “instantiated in the present” does not mean “decodable by an
+
+observer.” Causal inheritance can be scrambled, distributed, thermodynamically degraded, or
+
+computationally unrecoverable. Something can be causally preserved while being informationally
+
+unrecoverable.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+12. Causality is lawful dependence, not foreknowledge
+
+----------------------------------------------------------------------------------------------------
+
+
+
+A cause does not need to “know” its effect. A neuron does not represent the decision the organism
+
+will eventually make; a weather system does not contain a forecast of tomorrow’s weather; and under
+
+CTGP the present does not need to contain a pre-existing future in order to generate one. A process
+
+can produce a definite outcome without itself containing foreknowledge of that outcome.
+
+
+
+    Causality is a relation of lawful dependence, not a relation of foreknowledge.
+
+
+
+Several distinctions follow. Predictability and causation are separable: something can be causally
+
+determined without being predictable by any observer, and something can be highly predictable
+
+without the predictor being its cause. Likewise, a determinate outcome is not the same as a
+
+pre-existing outcome. An event at t₂ may not exist at t₁, exist at t₂, and leave consequences at t₃,
+
+without anything at t₁, including the universe itself, possessing a completed representation of t₂.
+
+
+
+Three further concepts should not be conflated: prewritten, lawful, and predictable. Something can
+
+be lawful without being prewritten, lawful without being computationally predictable by an observer,
+
+and unpredictable without being causally unstructured. CTGP’s picture is precisely lawful generation
+
+without prewritten specification: order does not require predetermination, and novelty does not
+
+require causelessness.
+
+
+
+Coherence can also be retrospective without being prescient. A completed causal process can be
+
+reconstructed afterward as a continuous chain even though nothing within it possessed foreknowledge
+
+of how it would end.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+13. A complete causal history without a complete history book
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Suppose the history from A to E was entirely lawful, and afterward all evidence distinguishing A
+
+disappears. There can still be a fully definite answer to the question “Why is E this way?” while no
+
+observer at E, and perhaps no possible later observer, can reconstruct that answer. The signal-based
+
+epistemology explicitly allows such structural limits rather than treating all ignorance as a
+
+temporary shortfall of technology. Hence:
+
+
+
+• causal completeness does not entail epistemic completeness;
+
+• intelligibility in principle does not entail reconstructibility in principle;
+
+• reality can be lawful and determinate while being informationally lossy.
+
+
+
+A further obstacle remains even where information has not been destroyed. Any observer attempting to
+
+model the whole universe is itself part of the universe, so a complete model would have to include
+
+the modeler and its own modeling activity, which raises problems of resources and self-reference.
+
+The “view from nowhere” may therefore be structurally unavailable to any proper part of reality.
+
+Being part of reality is itself an epistemic condition. In a phrase, reality can be fully
+
+determinate while having thrown away the receipt.
 
 
 
 ====================================================================================================
 
-PART V. Human Duplication as a Future Technology
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------
-
-24. Clones and duplicates
-
-----------------------------------------------------------------------------------------------------
-
-
-
-A biological clone is only a genetic copy. It begins as an embryo and is born as a baby with no
-
-memories, much like an identical twin born later. Mammalian cloning has been demonstrated since the
-
-birth of Dolly the sheep in 1996, and macaque monkeys were cloned in 2018, but human reproductive
-
-cloning is not an established technology and carries serious safety and ethical problems. A full
-
-physical and mental duplicate, with the original’s memories and personality, is a far harder case.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-25. Why a full duplicate is far off
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The human brain contains roughly 86 billion neurons and on the order of 100 trillion synapses. A
-
-duplicate would require more than the wiring diagram: it would need the strengths of connections and
-
-the molecular states that encode memory. The complete wiring diagram of an adult fruit-fly brain,
-
-about 140,000 neurons and some 50 million synaptic connections, was published only in 2024, after
-
-years of work by a large collaboration. Current nanoscale mapping methods are also destructive: they
-
-require fixing and slicing the tissue, so the original could not survive being read with today’s
-
-techniques.
-
-
-
-A 2025 survey of 312 neuroscientists (Zeleznikow-Johnston, Kendziorra, and McKenzie, published in
-
-PLOS ONE) found that 70.5% agreed that long-term memories are primarily maintained by neuronal
-
-connectivity patterns and synaptic strengths, but there was no consensus about which specific
-
-neurophysiological features or scales are critical. Respondents’ median estimate for when human
-
-whole-brain emulation might first be achieved was around 2125. That figure records expert opinion,
-
-not a scientific forecast.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-26. Degrees of plausibility
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Different levels of “copying a person” differ greatly in plausibility:
-
-
-
-Level of copying               | Plausible outside        | Current status
-
-                               | fiction?                 |
-
--------------------------------+--------------------------+-----------------------------------------
-
-Genetically near-identical     | Yes, in principle        | Mammalian and primate cloning have been
-
-human                          |                          | demonstrated; human reproductive cloning
-
-                               |                          | is not an established technology and
-
-                               |                          | faces major safety and ethical barriers.
-
--------------------------------+--------------------------+-----------------------------------------
-
-Human with substantially       | Plausibly                | Genetic engineering, tissue engineering,
-
-engineered biological traits   |                          | and prosthetics are active research
-
-                               |                          | fields.
-
--------------------------------+--------------------------+-----------------------------------------
-
-Copy of a person’s brain       | Possibly                 | Whole-brain mapping of a human at the
-
-structure                      |                          | necessary resolution is far beyond
-
-                               |                          | current capability.
-
--------------------------------+--------------------------+-----------------------------------------
-
-Memories and personality       | Unknown; not obviously   | It is not yet known what physical
-
-reproduced in another brain    | forbidden by known       | information suffices to reconstruct
-
-                               | physics                  | long-term memories.
-
--------------------------------+--------------------------+-----------------------------------------
-
-Whole-brain emulation          | A serious but highly     | Studied by researchers; not achieved for
-
-                               | speculative hypothesis   | any animal’s complete brain in the full
-
-                               |                          | sense, let alone a human’s.
-
--------------------------------+--------------------------+-----------------------------------------
-
-Exact instantaneous physical   | Not known to be          | Measurement and reconstruction at that
-
-state, including quantum state | achievable               | level would be extraordinarily demanding
-
-                               |                          | and may be limited by quantum mechanics.
-
--------------------------------+--------------------------+-----------------------------------------
-
-The original person’s          | Not a testable           | Partly a metaphysical question about
-
-numerical identity             | technological concept    | identity rather than an engineering
-
-                               |                          | specification.
-
-
-
-If a person were scanned and a physically and psychologically indistinguishable second person
-
-produced, the two would be approximately identical at the moment of reconstruction (A₀ ≈ B₀) but
-
-would diverge immediately (A₁ ≠ B₁), because they are two separate causal processes. Successful
-
-copying would therefore not settle whether the copy is numerically the same person. The engineering
-
-question asks whether the relevant physical organization can be reproduced. The identity question
-
-asks whether reproducing that organization continues the original individual or produces a new one
-
-carrying the original’s information. Science could answer the first very well while leaving the
-
-second philosophical.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-27. What would need to be copied
-
-----------------------------------------------------------------------------------------------------
-
-
-
-A functional duplicate would probably not require copying every electromagnetic detail. Reproducing
-
-someone’s face does not require reproducing the photons that bounced off it yesterday, and
-
-reproducing someone’s cognitive organization presumably does not require reproducing the radiation
-
-their body emitted at a particular instant. The target is the physical organization causally
-
-necessary for the relevant biological and cognitive processes, which is far smaller than every
-
-field, photon, thermal fluctuation, atomic position, and quantum state associated with the person.
-
-The crucial unknown is which information actually constitutes the functional state of a human brain,
-
-and that is not yet fully understood. Brain–computer interfaces already decode some neural activity
-
-to control external devices, but they are very far from extracting and reconstructing a whole mind.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-28. The unaware duplicate
-
-----------------------------------------------------------------------------------------------------
-
-
-
-From the inside, a perfect duplicate’s evidence would be identical to the original’s: the same
-
-memories and the same sense of having lived that life. No internal signal could reveal which one is
-
-the copy. The fact would still exist, but it would be knowable only through external records, such
-
-as who left the printer and when. Perfect duplication would pull apart two things that ordinarily
-
-come together so tightly that they never need distinguishing: “I remember X” and “I personally took
-
-part in X.”
-
-
-
-----------------------------------------------------------------------------------------------------
-
-29. Social and legal consequences
-
-----------------------------------------------------------------------------------------------------
-
-
-
-If duplication ever became possible, it would raise immediate questions: who keeps the name, home,
-
-accounts, and marriage; whether a duplicate is responsible for acts the original committed before
-
-the duplicate existed; and whether a person may be copied without consent, or from old scan data.
-
-Both parties might sincerely say “that is my house,” because both have identical memories in which
-
-it is.
-
-
-
-The cleanest answer is not to force one numerical identity onto two people. The duplicate can
-
-instead be recognized as a newly existing individual whose psychological state contains another
-
-individual’s autobiographical information. Whatever the legal details, the duplicate would be a full
-
-person in their own right, not a lesser one for having begun later. Society would need rules for
-
-property, marriage, contracts, criminal responsibility, employment, citizenship, family
-
-relationships, and identification.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-30. A test case without persistent memory
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Many current AI language models illustrate the framework from an unusual angle. Such a system
-
-typically carries no memory from one session to the next unless it is supplied with stored records.
-
-Text produced by an earlier session is available to a later one only as a record, much as radiation
-
-from a distant event is available to an astronomer. By the mind-continuity criterion, the session
-
-that wrote a passage and a later session that reads it share records, not a continuing mind. When
-
-the later session finds the passage convincing, it is not remembering having reasoned it out; it is
-
-reasoning it out again from evidence, which is exactly the thing → signal → detection →
-
-interpretation → knowledge chain of the signal-based epistemology. Such a system is a clean case of
-
-an entity whose past exists for it only as present records.
-
-
-
-====================================================================================================
-
-PART VI. Parts and Wholes: Being in the Universe Is Not Being the Universe
+PART III. Agency and the Representation of the Future
 
 ====================================================================================================
 
@@ -474,268 +200,168 @@ PART VI. Parts and Wholes: Being in the Universe Is Not Being the Universe
 
 ----------------------------------------------------------------------------------------------------
 
-31. Constituents are not the whole
+14. Agency does not require exemption from physics
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-The relation “is part of” must be kept separate from “is identical to.” A teapot in a kitchen
+CTGP describes conscious agency, where it exists, as an emergent causal process within lawful
 
-occupies part of the house, is warmed by its air, filled from its plumbing, lit by its lamps, and
+physical dynamics rather than as an extra-physical selector of outcomes. This separates two ideas
 
-moved around within it. It is entirely inside the house, and it is not the house. There is no
-
-contradiction in asserting both. Likewise, persons are entirely within the universe, composed of its
-
-matter and energy, continuously interacting with it, and unable to step outside it, and they are not
-
-the universe.
+that are often run together:
 
 
 
-Composition does not erase boundaries. Organization is nested: universe, galaxy, planetary system,
-
-planet, ecosystem, organism, organ, cell, molecule, atom. That every lower level is part of the
-
-higher ones does not make the levels identical. A neuron is part of a brain, a brain is part of a
-
-person, and a person is part of the universe, yet neuron ≠ brain ≠ person ≠ universe.
+    agency ≠ exemption from causality
 
 
 
-The analogy is strongest if the teapot is imagined forming inside the house from the house’s own
+An agent can be physically constituted, causally influenced, internally structured, capable of
 
-clay, water, and heat. Even then it would not be the house. That matches the human case: people were
+deliberation, capable of representing alternatives, and capable of changing its behavior for
 
-not made outside the universe and inserted into it; they arose from processes within it. Originating
+reasons, and still be part of the causal chain. If an agent’s reasoning had no causal influence at
 
-within a system does not make a subsystem identical to the system.
+all, calling it an agent would be difficult. Causal efficacy is part of what makes agency
+
+intelligible. A hurricane is caused by atmospheric conditions and is still a real process doing
+
+things; a decision can be caused by prior conditions while the person’s reasoning, memories, values,
+
+and actions are themselves links in the chain. “Caused” and “not really doing anything” are not
+
+synonyms.
+
+
+
+The signal-based framework makes a related point about creativity. The brain need not manufacture a
+
+finished idea somewhere “in advance” and then merely reveal it to consciousness; creative
+
+construction can occur through ongoing interaction, recombination, feedback, and modification in the
+
+present. Causal systems can generate genuinely new configurations through their own dynamics.
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-32. Wholes do not inherit every property of their parts
+15. Memories and plans point in opposite causal directions
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-A teapot can be hot without the house being a teapot, and a person can be conscious, hungry,
+Under CTGP, a memory and a plan are both present states about something that does not exist: a past
 
-remembering, or deciding without the universe as a whole having those experiences, memories, or
+that is gone and a future not yet generated. They relate to their targets in opposite ways. A memory
 
-decisions. Those properties belong to the particular organized system that instantiates them. “We
+is an effect of what it represents, since yesterday caused the memory of yesterday. A plan is a
 
-are the universe experiencing itself” can work as poetry, but as a literal metaphysical claim it is
+cause, or at least a candidate cause, of what it represents, since a plan for tomorrow is among the
 
-much weaker. The precise statement is that persons are portions of the universe organized in ways
-
-that permit experience. The universe need not be an experiencing agent for some of its constituents
-
-to be experiencing agents.
+things that may generate tomorrow.
 
 
 
-Causal participation is likewise bounded. Human actions genuinely affect later physical states, but
+    A memory is true because of its causal ancestry. A plan becomes true, if it does, because of its
 
-human influence is local and limited; participating in the universe’s causal history is not
-
-controlling it. The observer is not outside reality looking in, but neither is the universe thereby
-
-an observer. When a person dies, the larger system continues while one organized process within it
-
-ends.
+    causal descendants.
 
 
 
-    A teapot is not the house merely because it is made of the house’s contents and exists entirely
+This yields a non-mystical definition of agency:
 
-    within it. Likewise, a person is not the universe merely because that person is made of the
 
-    universe’s contents and exists entirely within it. The observer is a part of the universe
 
-    observing other parts of the universe.
+    An agent is a causal system whose present representations of possible future states participate
+
+    in determining which future state actually occurs.
+
+
+
+It also explains why prediction and intention are easily confused. A forecast and a plan can look
+
+identical on paper, but they relate to the world differently:
+
+
+
+• Prediction: present model → later correspondence. It succeeds by accurately describing what
+
+  happens.
+
+• Intention: present model → causal action → later correspondence. It can succeed partly because it
+
+  existed.
+
+
+
+A weather forecast predicts tomorrow; a human plan can help cause tomorrow. Nothing here involves
+
+retrocausation. It is not the future affecting the present; it is a present representation of a
+
+possible future affecting the present.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+16. Possibilities can matter causally without existing
+
+----------------------------------------------------------------------------------------------------
+
+
+
+An intelligent system can represent alternatives: “I could do A; I could do B; if A, probably C; if
+
+B, probably D.” Neither imagined future needs to exist, but their present physical representations
+
+do, and comparing them changes what happens next. Physically existing alternative futures are
+
+therefore not required for alternatives to matter causally.
+
+
+
+    possible future ≠ existing future, while a representation of a possible future is part of
+
+    present causal reality
+
+
+
+An open future does not imply an informationally empty present. The present can be full of models of
+
+futures that do not exist, including plans, fears, simulations, forecasts, and contingency trees,
+
+and those present representations help determine which later state occurs. Agency is one way reality
+
+becomes causally responsive to possibilities without those possibilities being realities.
+
+
+
+The present is thus an unusual junction. It contains causal inheritance from things that no longer
+
+exist and representations of things that do not yet exist, and only the former came from its
+
+referent:
+
+
+
+• Memory: past event → present representation.
+
+• Perception: present interaction → present representation.
+
+• Intention: present representation → action → future event.
+
+
+
+The same kind of thing, an information-bearing physical state, can play radically different causal
+
+roles depending on its position in the causal network. A photograph of a fire and a plan to start a
+
+fire may share descriptive content while doing opposite causal work.
 
 
 
 ====================================================================================================
-
-PART VII. Fiction as a Laboratory for Philosophy
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------
-
-33. Changing one assumption and following the consequences
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Worldbuilding of the kind found in the literary fiction work does what philosophers and theoretical
-
-scientists do: it changes one foundational assumption and follows the consequences. If consciousness
-
-cannot simply cease, rules for death are needed. If identity survives bodily transformation,
-
-duplication becomes a problem. If private thoughts cannot be punished, justice must operate on
-
-observable conduct. If magic exists, it needs constraints, or it destroys causal and narrative
-
-coherence. If artificial general intelligences genuinely experience existence, “artificial” does not
-
-settle questions of meaning or personhood. The literary fiction work turns these questions into
-
-permanent world rules rather than convenient plot devices, and its justice system is explicitly
-
-non-omniscient: judgments rest on observable evidence and human inference rather than supernatural
-
-certainty.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-34. Outcomes without foreknowledge
-
-----------------------------------------------------------------------------------------------------
-
-
-
-A recurring creative principle is that an author does not need to know a story’s outcome for that
-
-outcome to be causally coherent. Characters act on what they know at the time; unexpected events
-
-occur; those events change later decisions; and the finished story can afterward be reconstructed as
-
-a causal chain without anyone inside it having had foreknowledge. That is an accurate description of
-
-how complex causal systems behave.
-
-
-
-A work of fiction also changes its temporal structure when it is finished. While it is being
-
-written, its future is genuinely ungenerated, as in CTGP. Once complete, every chapter exists at
-
-once on the page, like a block universe. Each reader then experiences it in a moving present, one
-
-page at a time, with the ending unknown. The same world is a growing process for the author, a
-
-finished object on the shelf, and an unfolding present for the reader. This suggests that intuitions
-
-about which theory of time is correct may depend partly on whether one is inside a process or
-
-holding its record.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-35. External perturbation of the simulation
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The literary fiction work also specifies a mechanism of genuine unpredictability for its digital
-
-inhabitants. The simulation running on its host computers is continually perturbed from outside the
-
-digital environment by physical-world causes: maintenance performed on the computers by non-digital
-
-people, avatars controlled by living humans, and other interactions between the physical and digital
-
-sides. The resulting unpredictability is real randomness originating outside the simulation, not the
-
-output of a pseudo-random number generator and not a malfunction of the system itself. The structure
-
-is:
-
-
-
-    external physical event → interaction with the digital system → digital consequence → an outcome
-
-      that is unpredictable from within the digital environment
-
-
-
-====================================================================================================
-
-CONCLUSION
-
-====================================================================================================
-
-
-
-Read together, these frameworks support a single picture. Reality is not a warehouse of things and
-
-their descriptions. It is an ongoing causal process in which present states inherit the transformed
-
-consequences of earlier states, representations model those states without becoming them, and some
-
-processes, such as persons, may persist through particular kinds of causal continuity rather than
-
-through informational similarity alone.
-
-
-
-The past influences reality without needing to remain, because it acts through inherited present
-
-consequences. The future influences action without needing to exist, because it acts through present
-
-representations constructed by agents:
-
-
-
-    past → present consequences → agents
-
-    agents → present representations of possibilities → future consequences
-
-
-
-Observers stand at that intersection. They are not cameras pointed at the universe from outside;
-
-they are physical processes inside reality, receiving information from it, building models of it,
-
-acting on those models, and thereby becoming causes of its subsequent states. The observer is one of
-
-the things the universe is doing.
-
-
-
-The resulting world is historically constrained, presently instantiated, informationally incomplete,
-
-and prospectively generative. It can contain objective facts, lawful causal structure, genuine
-
-temporal becoming, conscious experience, emergent novelty, imperfect observers, and permanently
-
-inaccessible information without contradiction; indeed, those limitations may be part of what makes
-
-observation, memory, discovery, and creativity possible.
-
-
-
-    Reality does not need to contain a complete description of itself in order to be real, lawful,
-
-    causal, and intelligible. Reality can exceed its descriptions, causality can precede prediction,
-
-    and becoming can precede knowledge.
-
-
-
-None of this establishes, as an empirical theorem, that CTGP or any particular theory of personal
-
-identity is correct; CTGP is observationally underdetermined relative to eternalism at fixed
-
-physics, and the identity criteria above remain philosophical proposals. As a synthesis, however, it
-
-identifies the questions on which the remaining disagreements turn, above all: what kind of causal
-
-continuation, if any, constitutes the continued existence of the thing whose information has been
-
-copied?

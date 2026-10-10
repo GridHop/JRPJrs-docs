@@ -1,249 +1,263 @@
 # Deal's Worth
 
-Part 9 of 9
+Part 09 of 22 (1,652 words)
 
-"Wish-granter," the bird corrected, without heat, in the exhausted cadence of someone who had corrected this exact word more times than he cared to count. "Genie implies lamps. I have never once lived in a lamp. Call me whatever helps you sleep, but I reserve the right to sigh about it."
+Chapter 1 : Eric's Deal
 
+ 
 
+ 
 
-"And before anyone asks," Corwin said, holding up a hand, "no. He's not the reason I have any of this." He rapped a knuckle against his cracked breastplate. "Armor's mine. Axe is mine. The lightning thing is mine, six years running, long before this one showed up. He's granted me exactly two things in the whole of our acquaintance, and neither of them put a single joint of this armor on my body."
+ 
 
+The last ordinary thing Eric did was laugh at a lamp.
 
 
-"Name's Rook. If you need something to call me that isn't an insult to my intelligence," the bird said.
 
+It was in the window of the fourth trinket shop of the afternoon, a brass thing shaped like a duck wearing what appeared to be a very small business suit, and it cost more than his car payment. Amy pressed her forehead to the glass and said it had "presence". Eric said it had "a lawyer". She laughed hard enough that a man walking a terrier looked over, and Eric filed the sound away the way he always did, without knowing he was filing anything, because that's the thing nobody tells you about the last ordinary thing. It doesn't announce itself. It just stands there in a window, wearing a tiny suit.
 
 
-"You're new," Jeff said. "Recently summoned, I mean."
 
+The day was cloudless. He remembered that afterward with a kind of resentment. A cloudless day feels like a promise.
 
 
-"This morning," Corwin said. "Found the object two towns back. Carved thing, about the size of a walnut. I touched it and there he was, mid-sentence, like he'd already been having the conversation and just hadn't had anyone to have it with."
 
+At the crossing, Amy stepped off the curb first, the way she always did, three steps ahead and impatient with the world for being slower than her. Then she stopped, turned, and looked back at him — that look, chin down, eyebrows up, half a dare — and put her hand out.
 
 
-"I had been having the conversation the whole time," Rook said. "Standby doesn't prevent socializing."
 
+Eric raised his eyebrows back at her. He took her hand.
 
 
-"How long do you get him for?" Alicia asked.
 
+The horn arrived before the car did.
 
 
-"Eleven days," Rook said, "unless I die first, or he dies first, or he spends the last wish first, whichever gets there sooner. Then duty's over, the little walnut packs itself up and relocates several trillion miles in whatever direction feels appropriately dramatic, and somebody on some other planet gets to find a very lucky-looking rock."
 
+Not a warning. A verdict. It came in flat and enormous and "already close", and Eric's body understood the geometry of it a full second before his mind caught up: the angle, the speed, the absolute arithmetic of where that grille was going to be and where Amy was currently standing, which were the same place.
 
 
-"And the wishes he's spent," Jeff said, "so far—"
 
+He had time for exactly one decision.
 
 
-"First one," Corwin said, with the specific pride of a man who had rehearsed this speech and was thrilled to finally give it, "was worded exactly right. I wished for a magical livestream showing what I am seeing and hearing right now to be publicly accessible through a most viewed Sports Smart TV app. Precise. Airtight."
 
+He made it with his hands.
 
 
-"And the second," Rook said, "was, somehow, even more precise."
 
+---
 
 
-"'I wish for that livestream to continue following me wherever I go for the next 24 hours,'" Corwin said. "I workshopped that for four minutes before I said it out loud. Some people wing their wishes. I do not wing my wishes."
 
+Sound came back before anything else, and it came back wrong — underwater, edge-blurred, like the world was being played through a wall. Somewhere in it, Amy was screaming for someone to call an ambulance, and it wasn't her voice. Eric had known her nine years and had never heard that sound come out of her.
 
 
-"You're currently being watched," Jeff said slowly, "by an unknown number of strangers, on television, on this planet."
 
+Strangers were already dialing. Somebody was telling her not to move him. Somebody else was telling her he was still breathing, look, he's still breathing, and Eric wanted to tell them that he agreed, that he was in fact still breathing, that this was a real cornerstone of his current strategy —
 
 
-"Sports bars have odds on whether I survive the day," Corwin said, not without some satisfaction. "I checked before we left the last town. I was fourteen-to-one against. I intend to make several people very rich by staying alive out of spite alone."
 
+and then the light tipped sideways and went out.
 
 
-"You look like you walked out of a storybook and never walked back in," Alicia said to Rook, studying him with the same open, unhurried curiosity she'd have aimed at a rare stone, and which would have been rude aimed at a person.
 
+---
 
 
-"I wasn't granted into existence looking like this, if that's the theory." Rook tilted his head, considering how much of the answer was worth giving. "I was a plain gray fledgling once, a very long time ago, in a body that had nothing gold or black-teal about it whatsoever. This is several centuries and a great deal of editing later. Every life I've lived, I've been small enough and biological enough to set off objects sized for creatures like me — and every time one summoned a wish-granter for me, I spent at least one of my own three wishes on myself. A little more color here. A little more precision to the voice there. Nobody wishes a plain gray bird into existing this loudly. I did that. Slowly. Over and over. It's the only kind of vanity project available to something that keeps dying and coming back."
 
+He woke up into the shape of a room.
 
 
-"Coming back as what?" Jeff asked.
 
+That was the only way to describe it. He couldn't see the room; his eyes wouldn't open, and after a while he understood in a distant, administrative way that they weren't going to. But he could hear it — the pressurized hiss, the rhythmic chirp of something keeping score — and he could "feel" it with a clarity that would have been beautiful under literally any other circumstances.
 
 
-"Me. It's not reincarnation in this universe. Whenever I died, I was given options, same as anyone gets — and I've made the same one more times than I can comfortably count." Rook's gray eyes didn't waver. "Option Three. Almost every time. Doing standby duty, eventually summoned, granted somebody's wishes, sent back, leave eventually, another life, another death, and options. I've done this often enough that Corwin here is not even memorable competition for strangest grantee I've had."
 
+He could feel the sheet. He could feel the tape on the back of his hand and the cold creep of whatever was going into it. He could feel the specific weight of Amy's forehead when she put it down on his forearm and left it there, and the wet spot that spread under it, and the exact moment she lifted her head and wiped her face and made herself sound normal before she spoke.
 
 
-"That's insulting," Corwin said.
 
+Everything worked. "Everything worked". The touch, the temperature, the pain — all of it, head to feet, reporting in perfectly.
 
 
-"It's accurate. You're merely above average."
 
+The only thing that didn't work was the part where any of it got back out.
 
 
-"The voice," Alicia said. "It's clearer than his." She nodded at Corwin.
 
+---
 
 
-"That wish changed my life," Rook admitted, something almost like satisfaction in it. "Perfectly clear speech. 100% worth the wish. And while we're handing out the practical version of events rather than the flattering one: anyone within about thirty-seven feet of me gets the same courtesy, whether they asked for it or not. Whenever someone speaks to me and whenever I speak to them, the speech is magically translated translated into one's own language in real-time. It runs the whole time I'm active. I don't turn it off, and I can't turn it up. Professional courtesy of the position."
 
+A doctor came in on the fourth day and asked Amy's permission to see whether Eric was in there.
 
 
-"Handy," Jeff said.
 
+They explained it gently, the way you explain things to someone who has slept in a vinyl chair for ninety hours. There were indicators. Rapid eye movement under the lids. Patterns that didn't match a body that had nobody home. They wanted to run stimulus tests. They wanted to count.
 
 
-"Occasionally," Rook said, "it's the only interesting part of the job."
 
+"Eric," the doctor said, close to his ear, slow and loud in the way that people get slow and loud at the unconscious, "I'm going to count up from zero. When I reach three, I want you to move a finger. Any finger. Just once."
 
 
-They found the town by evening, which was less a discovery than a surrender — the mirrored maze of the forest kept redirecting them toward it with the polite insistence of a mall cop, and eventually Jeff decided that fighting a labyrinth's opinion about where he should be standing was a losing use of an already exhausting day. Rook rode the last mile perched on Corwin's pauldron, silent, watching the treeline with the specific attentiveness of something that had learned, across several centuries, exactly how often trouble waited at the edge of a forest for people who assumed they were done for the day.
 
+"Oh", Eric thought, with the first genuine emotion he'd had in four days. "Oh, this is going to be great".
 
 
-The town called itself Emberglass, according to a sign made of what looked like fused glass shards, their auras still faintly luminous, also luminous from whatever crystal had been ground down to make it. It was smaller than Jeff expected and busier than made sense for its size — stalls selling shard-cut jewelry that pulsed faintly when touched, a blacksmith reforging a blade that occasionally flickered translucent for no reason anyone bothered explaining, two kids racing each other on legs that weren't the legs they were born with, laughing in a way that suggested the new legs were, frankly, an upgrade.
 
+"One."
 
 
-Corwin, limping between them with his axe now serving as a cane, eyed the crowd like a man auditing a competitor's business. "This is one of those communities that grows up around a cluster of wish-granter-summoning objects. People migrate here because the odds are better. Somebody finds three wish-granters in a week, word spreads, suddenly you've got a town." He said it with the weary contempt of a man who considered wishing beneath him, which struck Jeff as rich coming from someone who fought dragons with a lightning axe for a hobby and no visible retirement plan.
 
+"Not that one".
 
 
-"You say that like you didn't grind your entire kit out of wishes."
 
+"Two."
 
 
-"That's different. I earned mine through struggle and sacrifice."
 
+"Definitely not that one".
 
 
-"How many different wish-granters did it take?"
 
+"Three."
 
 
-"...We don't need to relitigate wishes."
 
+Eric moved his middle finger.
 
 
-"For the record," Rook said, from the pauldron, without opening his eyes, "it was several. He's told me about several. Unprompted. Several times."
 
+There was a pause in the room that he would treasure for the rest of his life.
 
 
-Alicia, ignoring all three of them with the practiced ease of a woman who'd been married into this exact dynamic, had already drifted toward a stall where an older woman was laying out shards sorted by color with the reverence of someone arranging a wedding cake. "These are healing-crystal cuts," Alicia said, delighted, holding one up so the low sun came through it pale gold — and threw a matching gold across the very light tan of her own arm, a shade she liked to credit to a Cuban grandfather who'd spent sixty years insisting he had "fisherman's blood" like that was a documented ethnicity, and a Havana-born mother who barely tanned at all no matter how long she stood in the sun. "Real ones. Look at the veining."
 
+"...Again," the doctor said. "Zero. One. Two. Three. Four. Five — "
 
 
-"Freshest batch in three months," the woman said. "Crystal cluster two valleys over finally cycled out and reset. Testing a cluster's crystal yourself, before you know what it does, can sometimes trigger its aura to turn a part of you extremely heavy." She said this with the specific flatness of someone reciting a lesson she'd learned the hard way and intended to spare exactly one stranger from repeating.
 
+Eric, with enormous care and the only muscle group he had left in the world, moved his middle finger five times.
 
 
-Jeff bought four shards, mostly because Alicia gave him a look that communicated, without a single word, that they were leaving with four shards whether he participated in the transaction or not. He was getting good at reading that look. It had saved him from at least one bad decision a week since they'd married. He scrubbed a hand back over his dark cornrows while he waited, dislodging a small cascade of canyon grit — the rows sat tight and even, and stopped a clean couple of inches short of his shoulders, not dropping past mid-neck. 6ft and slender with cornrows, he never changed that about himself — height from his Georgia-raised father's side, slenderness from his Chilean mother's side.
 
+"That's — " The doctor cleared his throat. "That's a very consistent response."
 
 
-It was while they were haggling — well, while Alicia was haggling and Jeff was providing color commentary nobody asked for — that he noticed the reading room.
 
+"That's not a response," Amy said. Her voice had gone strange. "That's him. That's 'him', that's him doing that on purpose, he's — " and then she was laughing, which turned into something else halfway through, and a nurse put a hand on her shoulder and she leaned into it and cried so hard she had to sit down on the floor.
 
 
-It sat at the town's center, open on all sides, roofed but wall-less, shelves built into the support posts. A dozen people sat inside on cushions that had clearly been replaced more than once, reading. Not idly. Studying. A kid no older than ten had a page open and was mouthing the words with the concentration of someone memorizing scripture.
 
+It was the best conversation they'd had in four days. It was, technically, the only one.
 
 
-"Every room has one of those," Alicia murmured, following his gaze. "Every house, every building. It's in Eric's rules. Reading material disclosing plenty of rules. I think that kid's read the same page eleven times and isn't going to stop until it makes sense, and I think eventually it's going to make sense."
 
+Over the next week they mapped him the rest of the way. Touch, everywhere. Pain, everywhere. Full sensory function in a body that would not answer the phone.
 
 
-"Somebody should tell him some of it isn't for kids," Corwin said.
 
+The word the specialists settled on was "minimally conscious", which Eric found rude. He was maximally conscious. He was arguably the most conscious he had ever been in his life, lying there with nothing to do but be awake in a body that had become a very expensive coffin with excellent insulation.
 
 
-"Somebody should tell you that too," Rook said, "and yet."
 
+Three weeks in, nothing had changed except the flowers.
 
 
-They were three streets deeper into Emberglass, following a rumor about a map dealer, when Jeff started messing with his ring.
 
+---
 
 
-"My ring is so weird."
 
+Eric heard the briefcase before he heard the man.
 
 
-"Your ring's always been weird."
 
+It was a specific sound, a hard-sided case being set down on a hospital floor with the confidence of someone who has done it in a great many hospitals. Amy had been mid-sentence, reading him a news article about a lottery winner, which she'd started doing because the silence had begun to feel like an accusation.
 
 
-"Weirder than weird. Weird-weird." Jeff flexed his hand, and the ring on his finger sat there being smugly cryptic the way it always did, offering exactly zero additional context.
 
+"Hi," Amy said, in the flattened voice of a woman who has spent three weeks being approached by people with clipboards.
 
 
-Corwin, several paces ahead and clearly done pretending he wasn't eavesdropping, stopped walking. Rook lifted his head off the pauldron a half-second before Corwin spoke, which Jeff noticed and filed away.
 
+"Hello." The man's voice was pleasant and unhurried. "I'm aware of the situation you and your husband are in. I'm here to propose a solution."
 
 
-"There's someone doing something weird near here," Corwin said.
 
+A pause.
 
 
-Jeff and Alicia both turned. "Where?"
 
+"Forgive me," Amy said. "Who, may I ask, are you?"
 
 
-"There," Corwin said, pointing his axe toward an alley between a shuttered forge and a dye shop that smelled aggressively of crushed flowers. "That man is having a conversation with absolutely nobody, and he's using the specific hand gestures people use when a translated conversation is running a beat behind."
 
+"Oh my." A rustle, almost sheepish. "Forgive my rudeness. I'm with the VRC."
 
 
-He was right. A man stood in the alley's shadow, gesturing animatedly at empty air, occasionally pausing as if listening, his lips moving a half-second before sound would've caught up if there'd been any.
 
+"...VRC?"
 
 
-"Translated conversation," Jeff repeated slowly, and looked at Rook.
 
+"The Virtual Reality Corporation. We're not a government body but a private organization." A chair creaked as he sat, unbidden. "We've been quietly running hospital partnerships nationwide. In fact, you're standing in one of the hospitals. We've developed a new class of technology aimed specifically at patients in particular physical medical conditions, and we're in a testing phase, which means implementation would be at no cost to you. What it would offer, Mrs. — " a small pause, which Eric noticed, because the man already knew, " — what it would offer is 'communication'. Interaction. With your husband. Substantially more of it than a counted finger."
 
 
-"I'm thirty-one feet away," Rook said, already doing the math out loud, wings half-lifting off the pauldron. "He's well within range. Whatever he's saying, whatever's answering him, it's coming through clean on both ends — which means somewhere in that alley there's something else nearby that qualifies as a listener. Or a wish-granter of its own. I'd need to be closer to tell you which, and I'd genuinely rather not be."
 
+From the bed, Eric thought, very clearly and with great force: "keep talking".
 
 
-"He's talking to somebody, maybe," Alicia said slowly.
 
+"It would require multiple surgeries," the man went on, because of course it would. "Including brain surgery."
 
 
-"Unless he's talking to something, maybe," Jeff said.
 
+Amy didn't answer for a long time. Eric knew that silence intimately. It was the silence of Amy looking at him, at his hands lying on the blanket like two objects she was supposed to recognize.
 
 
-The man in the alley finished his conversation, nodded once at the empty air like he was thanking someone for their time, and turned to leave — and stopped dead when he saw the three of them watching him. Four, if the bird counted, and the way the man's eyes flicked to Rook and lingered a half-second too long suggested he counted.
 
+"If my husband can respond," she said finally, "does he get a say in this?"
 
 
-For a moment nobody moved. Somewhere behind them, the town went on being a town, oblivious — a child laughing, a hammer striking hot metal, the low murmur of people reading rules they didn't yet know were the walls of their world.
 
+"Of course he does."
 
 
-The man's expression didn't do anything dramatic. He didn't flinch or bolt or reach for a weapon. He just looked, very briefly, like someone who'd been caught doing something he'd assumed no one nearby would ever be equipped to notice — and then, worse, like someone recalculating, in real time, exactly how much that assumption was about to cost him.
 
+"Wrong answer", Eric thought — not because it was wrong, but because it had come too fast. It had come out the way a line comes out when it's been said before, in this room, in other rooms, to other people in vinyl chairs.
 
 
-Then he smiled, pleasant as a shopkeeper, and the smile didn't reach anywhere near his eyes.
 
+He filed that away too.
 
 
-He turned and walked deeper into the alley — not running, not even hurrying, just a man keeping an appointment he had no intention of missing — and by the time Jeff's legs remembered they were allowed to move, the alley bent, and the man was already gone around the corner of it, unhurried the entire way, like he'd known exactly how many seconds of shock he had to work with and had spent every one of them on purpose.
 
+---
 
 
-"I don't like him," Rook said, into the quiet that followed.
 
+They talked it over for days, and to their credit they did it in front of him. Amy insisted. She'd pull her chair to the bedside and say "okay, tell him the part about the interface again", and the man in the suit would tell him the part about the interface again, patiently, never once slipping into the third person the way everyone else did. Eric came to appreciate that about him. It was almost enough to distract from the fact that the man had answers ready for questions Amy hadn't asked yet.
 
 
-"Nobody asked," Corwin said, already limping toward the alley's mouth, axe held like it weighed nothing at all anymore.
 
+On the sixth day, Amy said yes.
 
 
-"Nobody had to," Rook said. "I'm telling you anyway. Professional courtesy."
 
+The paperwork went on for a long time. She read all of it, out loud, so he could hear it, asking questions in the gaps so he could listen to the answers. It aligned with everything they'd discussed. It also expanded on it in the way paperwork always expands on it, in appendices, in language that had clearly been through a room full of lawyers and come out the other side smooth as a river stone.
 
 
-To Be Continued.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+She signed her name twice. Once for herself. Once on his behalf, because he was documented as unable to consent, which was true in every legal sense and false in every sense that mattered to him.
+
+
+
+He heard the pen. It was a good pen. Heavy. The kind you bring when you expect people to sign things.
+
+
+
+They scheduled the surgery for the next morning, which gave Amy the night to call everyone. His mother came. His brother came. Somebody brought a folding chair from a waiting room two floors down and nobody slept, and around 3 a.m. his brother started telling a story about a canoe that Eric had heard eleven hundred times and had never once been so glad to hear.
+
+
