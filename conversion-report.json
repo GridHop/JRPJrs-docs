@@ -1,0 +1,283 @@
+{
+  "works": [
+    {
+      "title": "Signal-Based Epistemology \u2014 Explained",
+      "slug": "signal-based-epistemology",
+      "source_filename": "Signal-Based Epistemolog - SBE - Explained.docx",
+      "parts": 5,
+      "words": 17217,
+      "source_paragraphs": 4104,
+      "published_paragraphs": 4104
+    },
+    {
+      "title": "Cosmic-Time Generative Presentism (CTGP) \u2014 Explained",
+      "slug": "ctgp-explained",
+      "source_filename": "CTGP - explained(6).docx",
+      "parts": 10,
+      "words": 42321,
+      "source_paragraphs": 4151,
+      "published_paragraphs": 4151
+    },
+    {
+      "title": "Free Will \u2014 Humans Might Actually Have Will, Volition, and Self-Agency",
+      "slug": "free-will",
+      "source_filename": "Free Will - Humans Might Actually Have Will, Volition, and Self-agency.docx",
+      "parts": 2,
+      "words": 4768,
+      "source_paragraphs": 795,
+      "published_paragraphs": 795
+    },
+    {
+      "title": "Info",
+      "slug": "info",
+      "source_filename": "Info(7).docx",
+      "parts": 9,
+      "words": 38644,
+      "source_paragraphs": 6163,
+      "published_paragraphs": 6163
+    },
+    {
+      "title": "More Info \u2014 Causation, Information, Identity, and Becoming",
+      "slug": "more-info",
+      "source_filename": "More Info(5).docx",
+      "parts": 2,
+      "words": 7579,
+      "source_paragraphs": 878,
+      "published_paragraphs": 878
+    },
+    {
+      "title": "Deal's Worth",
+      "slug": "deals-worth",
+      "source_filename": "Deal's Worth(4).docx",
+      "parts": 9,
+      "words": 36425,
+      "source_paragraphs": 2393,
+      "published_paragraphs": 2393
+    }
+  ],
+  "parts": [
+    {
+      "work": "signal-based-epistemology",
+      "part": 1,
+      "paragraphs": 796,
+      "words": 4293
+    },
+    {
+      "work": "signal-based-epistemology",
+      "part": 2,
+      "paragraphs": 1013,
+      "words": 4289
+    },
+    {
+      "work": "signal-based-epistemology",
+      "part": 3,
+      "paragraphs": 1151,
+      "words": 4297
+    },
+    {
+      "work": "signal-based-epistemology",
+      "part": 4,
+      "paragraphs": 1141,
+      "words": 4291
+    },
+    {
+      "work": "signal-based-epistemology",
+      "part": 5,
+      "paragraphs": 3,
+      "words": 47
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 1,
+      "paragraphs": 404,
+      "words": 4292
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 2,
+      "paragraphs": 401,
+      "words": 4291
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 3,
+      "paragraphs": 391,
+      "words": 4290
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 4,
+      "paragraphs": 402,
+      "words": 4292
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 5,
+      "paragraphs": 417,
+      "words": 4298
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 6,
+      "paragraphs": 412,
+      "words": 4298
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 7,
+      "paragraphs": 408,
+      "words": 4292
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 8,
+      "paragraphs": 409,
+      "words": 4300
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 9,
+      "paragraphs": 512,
+      "words": 4299
+    },
+    {
+      "work": "ctgp-explained",
+      "part": 10,
+      "paragraphs": 395,
+      "words": 3669
+    },
+    {
+      "work": "free-will",
+      "part": 1,
+      "paragraphs": 747,
+      "words": 4299
+    },
+    {
+      "work": "free-will",
+      "part": 2,
+      "paragraphs": 48,
+      "words": 469
+    },
+    {
+      "work": "info",
+      "part": 1,
+      "paragraphs": 607,
+      "words": 4289
+    },
+    {
+      "work": "info",
+      "part": 2,
+      "paragraphs": 765,
+      "words": 4296
+    },
+    {
+      "work": "info",
+      "part": 3,
+      "paragraphs": 812,
+      "words": 4296
+    },
+    {
+      "work": "info",
+      "part": 4,
+      "paragraphs": 832,
+      "words": 4296
+    },
+    {
+      "work": "info",
+      "part": 5,
+      "paragraphs": 894,
+      "words": 4294
+    },
+    {
+      "work": "info",
+      "part": 6,
+      "paragraphs": 705,
+      "words": 4297
+    },
+    {
+      "work": "info",
+      "part": 7,
+      "paragraphs": 675,
+      "words": 4294
+    },
+    {
+      "work": "info",
+      "part": 8,
+      "paragraphs": 456,
+      "words": 4292
+    },
+    {
+      "work": "info",
+      "part": 9,
+      "paragraphs": 417,
+      "words": 4290
+    },
+    {
+      "work": "more-info",
+      "part": 1,
+      "paragraphs": 509,
+      "words": 4297
+    },
+    {
+      "work": "more-info",
+      "part": 2,
+      "paragraphs": 369,
+      "words": 3282
+    },
+    {
+      "work": "deals-worth",
+      "part": 1,
+      "paragraphs": 240,
+      "words": 4188
+    },
+    {
+      "work": "deals-worth",
+      "part": 2,
+      "paragraphs": 191,
+      "words": 4273
+    },
+    {
+      "work": "deals-worth",
+      "part": 3,
+      "paragraphs": 187,
+      "words": 4293
+    },
+    {
+      "work": "deals-worth",
+      "part": 4,
+      "paragraphs": 341,
+      "words": 4294
+    },
+    {
+      "work": "deals-worth",
+      "part": 5,
+      "paragraphs": 349,
+      "words": 4288
+    },
+    {
+      "work": "deals-worth",
+      "part": 6,
+      "paragraphs": 491,
+      "words": 4251
+    },
+    {
+      "work": "deals-worth",
+      "part": 7,
+      "paragraphs": 221,
+      "words": 4278
+    },
+    {
+      "work": "deals-worth",
+      "part": 8,
+      "paragraphs": 250,
+      "words": 4269
+    },
+    {
+      "work": "deals-worth",
+      "part": 9,
+      "paragraphs": 123,
+      "words": 2291
+    }
+  ],
+  "validation": "All original paragraph strings preserved in order; no tables in source documents."
+}
