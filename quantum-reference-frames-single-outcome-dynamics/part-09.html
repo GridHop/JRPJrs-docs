@@ -1,0 +1,156 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 09 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 09 of 40 · 1,690 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-09.md">Raw Markdown</a> <a href="part-08.html">Previous part</a> <a href="part-10.html">Next part</a></nav><main class="source"><div>8.1 Generative Law and Single Outcome</div>
+<div>&nbsp;</div>
+<div>With the law of §7, one stage-to-stage transition samples exactly one event k ∈ 𝒦 with probability</div>
+<div>‖F_k W Ψ_σ‖² and updates the state. The realized history is a single sequence of events. Unrealized</div>
+<div>sequences are not facts: they have kernel probabilities before the transition and no Had-properties</div>
+<div>afterward. This is single-outcome realism (C-d) at the level of the primitive ontology. Macroscopic</div>
+<div>outcomes would be patterns of many flashes, as in Bell’s flash ontology; in a three-particle model,</div>
+<div>each flash is already an event.</div>
+<div>&nbsp;</div>
+<div>8.2 Weak Non-Supervenience in the Sharp Regime</div>
+<div>&nbsp;</div>
+<div>Proposition 8.1 (Two histories, one present). Take the sharp limit s → 0 and set J = 0, so that W =</div>
+<div>exp(−iτ Σ v(r) P_{ij}(r)) is diagonal in the configuration basis and commutes with every P_{ij}(r).</div>
+<div>Let N ≥ 4, and let Ψ_{σ_0} be any state with nonzero amplitude on the configuration b−a = 1, c−a =</div>
+<div>3. The histories</div>
+<div>&nbsp;</div>
+<div>        ω = ((A,B,1), (A,C,3))     and     ω* = ((A,C,3), (A,B,1))</div>
+<div>&nbsp;</div>
+<div>both have nonzero probability, and both produce the present state Ψ_{σ_2} ≐ R_A^{−1}|1, 3⟩. The</div>
+<div>resulting truth profiles differ: L contains Had(σ_0 → σ_1, (A,B,1)) under ω and Had(σ_0 → σ_1,</div>
+<div>(A,C,3)) under ω*.</div>
+<div>&nbsp;</div>
+<div>Proof. In frame-A coordinates the two relevant flash operators are multiples of the projectors</div>
+<div>P_{AB}(1) → |x = 1⟩⟨x = 1| and P_{AC}(3) → |y = 3⟩⟨y = 3|. These commute, and their product is the</div>
+<div>rank-one projector</div>
+<div>&nbsp;</div>
+<div>        P_{AB}(1) P_{AC}(3) = P_{AC}(3) P_{AB}(1) = |1, 3⟩⟨1, 3|.</div>
+<div>&nbsp;</div>
+<div>With J = 0, W = exp(−iτ Σ v(r) P_{ij}(r)) is diagonal in the configuration basis, W |x, y⟩ =</div>
+<div>e^{iθ(x,y)} |x, y⟩, so it commutes with both projectors. Along ω the unnormalized final vector is</div>
+<div>therefore (λ/3) P_{AC}(3) W P_{AB}(1) W ψ_0 = (λ/3) P_{AC}(3) P_{AB}(1) W² ψ_0 = (λ/3) e^{2iθ(1,3)}</div>
+<div>⟨1, 3|ψ_0⟩ |1, 3⟩. Along ω* the projectors are applied in the opposite order, which by the identity</div>
+<div>above gives the same vector. Since ⟨1, 3|ψ_0⟩ ≠ 0, both histories have nonzero probability, and both</div>
+<div>final states are the ray [|1, 3⟩], that is, [R_A^{−1}|1, 3⟩] in the neutral description. □</div>
+<div>&nbsp;</div>
+<div>In this regime, the sharp flash (A,B,1) also makes the Tier 3 proposition “B is at separation 1 from</div>
+<div>A just after σ_1” determinately true, illustrating the special case noted after Proposition 4.4.</div>
+<div>&nbsp;</div>
+<div>8.3 Generic Parameters</div>
+<div>&nbsp;</div>
+<div>For finite width, the situation divides as follows.</div>
+<div>&nbsp;</div>
+<div>    (i) Strong non-supervenience holds for all parameters with s &gt; 0 and λ &lt; 1, by Proposition 4.12.</div>
+<div>    The numerical check (Appendix B, item 11) takes a random present state and two different three-</div>
+<div>    stage histories, reconstructs the unique initial state for each, and confirms that both</div>
+<div>    histories end in the given present state with nonzero probability.</div>
+<div>&nbsp;</div>
+<div>    (ii) Weak non-supervenience at generic parameters is open. Among all 4,096 three-stage histories</div>
+<div>    from one random initial state at the generic parameter values of §8.4, no two distinct histories</div>
+<div>    end in exactly the same present ray. This is evidence that fixed-initial-state coincidences are</div>
+<div>    non-generic, not a proof.</div>
+<div>&nbsp;</div>
+<div>    (iii) Near-coincidences occur. The largest overlap between the present states of two distinct</div>
+<div>    histories in that sample is 0.985, so by Proposition 5.19(iv) no measurement on the present</div>
+<div>    state distinguishes them with error probability below 0.414. Distinct histories can thus be</div>
+<div>    observationally nearly indistinguishable even when their present states are not equal.</div>
+<div>&nbsp;</div>
+<div>8.4 Numerical Verification</div>
+<div>&nbsp;</div>
+<div>The claims above were checked numerically with N = 5, λ = 0.6, s = 0.8, J = 0.7, g = 0.9, and τ =</div>
+<div>0.5 (and, for the continuous-time model of §9, hit rate Λ = 1.2 and total time T = 5), using a</div>
+<div>random initial frame-A state; the checks of Theorem 13.4, Proposition 13.2, and Proposition 14.2 use</div>
+<div>the separate settings stated in Appendix B. The checks of §§13.8–13.11 and §14.5 are reported</div>
+<div>separately, in Table C.1 of Appendix C. The numerical checks confirm the analytical results in a</div>
+<div>specific instance and guard against sign and ordering errors; they are not independent proofs.</div>
+<div>Agreement “to machine precision” means deviations of order 10⁻¹⁶, the rounding error of double-</div>
+<div>precision arithmetic. The script, its output, the software versions, and the random seeds are in</div>
+<div>Appendix B.</div>
+<div>&nbsp;</div>
+<div>Check                                          | Status      | Result</div>
+<div>-----------------------------------------------+-------------+--------------------------------------</div>
+<div>R_A, R_B, R_C unitary onto frame spaces        | Prop. 3.3   | Confirmed (machine precision)</div>
+<div>V_{A→B} equals |x,y⟩ ↦ |−x, y−x⟩               | §6.2        | Confirmed</div>
+<div>Groupoid law V_{B→C} V_{A→B} = V_{A→C}         | Prop. 3.5   | Confirmed</div>
+<div>Instrument complete; W and all F_k invariant   | §7.1–7.2    | Confirmed</div>
+<div>V F^A_k V^{−1} = F^B_k and V W^A V^{−1} = W^B  | Lemma 3.7   | Confirmed for all 16 events</div>
+<div>Measures over 3 stages (16³ = 4096 histories)  | Thm 5.12(a) | max |p_A − p_B| = 2.8 × 10⁻¹⁷</div>
+<div>Frame A vs neutral description                 | Thm 5.12(a) | max |p_A − p_neutral| = 1.4 × 10⁻¹⁷</div>
+<div>States along every history                     | Thm 5.12(b) | max (1 − |⟨Vψ^A, ψ^B⟩|) = 6.7 × 10⁻¹⁶</div>
+<div>Same-form law in frame B                       | Cor. 5.13   | Total-variation distance 0.180</div>
+<div>Two histories, one present (sharp, J = 0)      | Prop. 8.1   | Same present ray; different L</div>
+<div>Product state (frame A) → entangled (frame B)  | §6.3        | 0 bits → 1.000 bit</div>
+<div>Absolute collapse leakage                      | §7.4        | 0.894 = √(1 − 1/5)</div>
+<div>Continuous time: 200 trajectories, 1158 events | Prop. 9.2   | Identical event records in A, B</div>
+<div>Continuous time: final states                  | Prop. 9.2   | max (1 − |⟨Vψ^A, ψ^B⟩|) = 6.7 × 10⁻¹⁶</div>
+<div>Generic parameters: exact coincidences         | §8.3(ii)    | None among 4096 histories</div>
+<div>Generic parameters: largest overlap            | §8.3(iii)   | 0.985; Helstrom error ≥ 0.414</div>
+<div>Every history reaches a given present          | Prop. 4.12  | Confirmed for two 3-stage histories</div>
+<div>History-dependent law, across initial states   | Prop. 11.4a | Same present ray; TV = 0.1000</div>
+<div>History-dependent law, fixed initial state     | Prop. 11.4b | Same present ray; TV = 0.1000</div>
+<div>Doob kernel vs future-conditioned measure      | Prop. 11.1  | max diff = 8.3 × 10⁻¹⁷</div>
+<div>Foliation independence, causally local         | Thm 13.4(a) | All 136 foliations agree (7 × 10⁻¹⁸)</div>
+<div>No dependence outside the predecessor set      | Thm 13.4(c) | max marginal change 8 × 10⁻¹⁶</div>
+<div>Order-ideal law vs marginal of full law        | Prop. 13.7  | max diff 1.1 × 10⁻¹⁶</div>
+<div>Gapless detectors, three-region test           | Thm 13.9    | No shift (&lt; 10⁻¹⁵); formula (c) met</div>
+<div>Unsharp Lüders instrument at C                 | Ex. 13.10   | Shifts −0.0215 and −0.0466</div>
+<div>Gaussian field collapse at C                   | Cor. 13.14  | No shift (&lt; 10⁻¹³); formula met</div>
+<div>Non-commuting “spacelike” pair                 | §13.4       | Orders differ: TV = 0.165</div>
+<div>Same channel, different history measures       | Prop. 13.2  | Mutual information 0 vs 1 bit</div>
+<div>Drifting quantum clock, recorded readings      | Prop. 14.2  | P(backward) = 0.104 (exact, ring)</div>
+<div>&nbsp;</div>
+<div>Table 1. Numerical checks of the concrete model (N = 5). The “Status” column names the analytical</div>
+<div>result that each check instantiates.</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>9. Continuous-Time Embedding and the Status of Generative Stages</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>&nbsp;</div>
+<div>9.1 The Question</div>
+<div>&nbsp;</div>
+<div>CTGP describes generation as a continuous causal-temporal progression (C-h). Part II uses discrete</div>
+<div>stages σ_0 &lt; σ_1 &lt; … with one stochastic transition per stage. A discrete-stage model can represent</div>
+<div>selected stages of a continuous process, but it does not by itself establish compatibility with a</div>
+<div>continuous generative ontology. This section gives a continuous-time version of the model, proves</div>
+<div>that it has the properties of Part II, and states precisely what remains a postulate.</div>
+<div>&nbsp;</div>
+<div>9.2 A Relational Jump Process</div>
+<div>&nbsp;</div>
+<div>Definition 9.1 (Continuous-time relational flash process). Let H be the invariant Hamiltonian of</div>
+<div>§7.1, let Λ &gt; 0 be a hit rate, and define jump operators</div>
+<div>&nbsp;</div>
+<div>        J_{(i,j,d)} = √(Λ/3) · Σ_r √(w(r−d)) P_{ij}(r),     so that     Σ_k J_k† J_k = Λ · 1.</div>
+<div>&nbsp;</div>
+<div>The process runs as follows. Hit times t_1 &lt; t_2 &lt; … form a Poisson process of rate Λ. Between hits</div>
+<div>the state evolves by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k ψ‖² /</div>
+<div>Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.</div>
+<div>&nbsp;</div>
+<div>This is the standard quantum-jump unravelling of a Lindblad equation. Because Σ_k J_k† J_k is</div>
+<div>proportional to the identity, the effective non-Hermitian Hamiltonian H_eff = H − (i/2) Σ_k J_k† J_k</div>
+<div>= H − (iΛ/2) · 1 differs from H by a constant, so the evolution between hits is unitary up to a</div>
+<div>uniform decay of norm, and the hit times are independent of the state. This is precisely the</div>
+<div>structure of the original GRW model, here with relational jump operators.</div>
+<div>&nbsp;</div>
+<div>Proposition 9.2 (Well-definedness, invariance, and covariance). (i) The process of Definition 9.1 is</div>
+<div>a well-defined piecewise-deterministic Markov process on the unit sphere of H_phys, with almost</div>
+<div>surely finitely many hits in any bounded time interval. (ii) Every trajectory remains in H_phys.</div>
+<div>(iii) Its ensemble average ρ(t) obeys the Lindblad equation</div>
+<div>&nbsp;</div>
+<div>        dρ/dt = −i [H, ρ] + Σ_k J_k ρ J_k† − Λ ρ,</div>
+<div>&nbsp;</div>
+<div>which preserves the set of density operators supported on H_phys. (iv) The frame-A and frame-B</div>
+<div>processes, built from the frame forms H^A, J^A_k and H^B, J^B_k, assign the same probabilities to</div>
+<div>every finite sequence of (hit time, event) pairs, and along every trajectory their states satisfy</div>
+<div>ψ^B(t) ≐ V_{A→B} ψ^A(t) for all t.</div>
+<div>&nbsp;</div>
+<div>Proof. (i) In finite dimension, with bounded H and state-independent Poisson hit times, the</div>
+<div>construction is explicit: a Poisson process of finite rate has almost surely finitely many points in</div>
+<div>any bounded interval, and between them the evolution is a fixed unitary flow. (ii) H and every J_k</div>
+<div>are invariant, so exp(−iHt) and the normalized jumps map H_phys to itself. (iii) The Lindblad form</div>
+<div>follows from averaging the jump process, which is standard; the term −Λρ is −(1/2){Σ_k J_k† J_k, ρ}</div>
+<div>with Σ_k J_k† J_k = Λ · 1. Invariance of H and J_k implies that the generator commutes with</div>
+<div>conjugation by U_h, so density operators supported on H_phys remain so. (iv) By Lemma 3.7, ‖J^A_k</div>
+<div>exp(−iH^A t) R_A Ψ‖ = ‖J_k exp(−iHt) Ψ‖ and likewise for frame B; hit times do not depend on the</div>
+<div>state; so the joint law of (hit time, event) sequences is the same in every frame, and induction</div>
+<div>over hits gives the state relation, as in Theorem 5.12. □</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-09.md">Raw Markdown</a> <a href="part-08.html">Previous part</a> <a href="part-10.html">Next part</a></nav></body></html>

@@ -1,0 +1,159 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 02 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 02 of 40 · 1,610 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-02.md">Raw Markdown</a> <a href="part-01.html">Previous part</a> <a href="part-03.html">Next part</a></nav><main class="source"><div>&nbsp;</div>
+<div>Two clarifications fix the status of the results. First, QRF covariance is not discovered here;</div>
+<div>within the perspective-neutral framework it is automatic for any law defined on physical states</div>
+<div>(Remark 3.9). What is shown is that a CTGP interpretation can be placed on such dynamics</div>
+<div>consistently, and what follows when it is. Second, the question whether CTGP contributes anything</div>
+<div>beyond “a QRF-covariant single-outcome model with an attached historical truth profile” has a</div>
+<div>definite answer, given in §11: CTGP’s generability, single-outcome, frame-invariant determinacy, no-</div>
+<div>revision, and definite-ordering requirements each exclude models that are QRF-covariant, and, within</div>
+<div>the perspective-neutral construction, the requirement that every realized event carry physical</div>
+<div>states to physical states makes the collapse operators act as relational operators.</div>
+<div>&nbsp;</div>
+<div>In brief, the answers are as follows. Determinacy is not frame-relative (§5.1). Two frame</div>
+<div>descriptions describe the same present and the same history exactly when they belong to one orbit of</div>
+<div>frame descriptions of a single complete state, which is equivalent to an explicit criterion on</div>
+<div>stage, state, and truth profile (§5.2). Matching states is not sufficient, because a present state</div>
+<div>does not fix its past; what settles identity of history is the truth profile (§5.2, §5.5). Valid</div>
+<div>frame changes intertwine the generative law, so the probability measure over histories, the</div>
+<div>conditional independence of the future from the past, and the truth of every determinate proposition</div>
+<div>are the same in every frame (§5.3–5.4). And L sits beside the quantum state without driving it: it</div>
+<div>is not a function of the present state, the law never takes it as input, and given the law it is</div>
+<div>accurate to the state it accompanies (§4.6, §5.6). Part III shows that an explicit dynamics, in</div>
+<div>discrete-stage and continuous-time form, has all of these properties.</div>
+<div>&nbsp;</div>
+<div>Part V looks beyond the finite model. Relativistic quantum field theory, temporal quantum reference</div>
+<div>frames, and quantum gravity each put CTGP’s commitments under new pressure, and none of them can be</div>
+<div>settled by the constructions of Parts II–IV. Part V therefore turns the commitments into an</div>
+<div>admissibility criterion and proves what can be proved now. In finite form, this includes a realized-</div>
+<div>history consistency theorem under which, in causally local finite models, the choice of generative</div>
+<div>foliation is empirically invisible. In relativistic form, it includes networks of gapless detectors</div>
+<div>on a free field with operational no-signaling in Sorkin’s configuration, a regulated spontaneous-</div>
+<div>collapse network built from Gaussian collapses of smeared fields together with the exact energy cost</div>
+<div>of such collapses, a no-signaling criterion that does not depend on free fields, and collapses at</div>
+<div>Poisson-distributed locations, conditionally on causally orderable configurations, together with the</div>
+<div>obstructions to a fully covariant version and a candidate completion using cosmological time that is</div>
+<div>developed but not adopted. For quantum clocks, it includes a construction with two ideal clocks in</div>
+<div>which the interventions are part of the constraint. Part V also states the remaining obligations and</div>
+<div>possible obstructions precisely, so that each direction can be pursued as a sequence of mathematical</div>
+<div>results.</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>2. Background</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>&nbsp;</div>
+<div>2.1 Quantum Reference Frames and the Perspective-Neutral Framework</div>
+<div>&nbsp;</div>
+<div>In standard quantum mechanics, states are written relative to an external classical reference frame:</div>
+<div>positions are measured from a fixed origin. If the universe is treated as closed, there is no</div>
+<div>external frame, and only relations between subsystems are physical. The perspective-neutral</div>
+<div>framework (Vanrietvelde et al. 2020; de la Hamette &amp; Galley 2020; Krumm, Höhn &amp; Müller 2021)</div>
+<div>implements this by imposing invariance under a symmetry group G acting on all subsystems at once.</div>
+<div>The kinematical Hilbert space H_kin carries a unitary representation U of G, and the physical</div>
+<div>(perspective-neutral) Hilbert space H_phys is the subspace of states invariant under every U_g.</div>
+<div>These states make no reference to any external frame. Choosing a subsystem as reference frame</div>
+<div>defines a reduction map from H_phys to a frame-relative Hilbert space describing the remaining</div>
+<div>subsystems relative to that frame, and changes of quantum reference frame are compositions of one</div>
+<div>reduction map with the inverse of another. This construction reproduces the frame changes of</div>
+<div>Giacomini, Castro-Ruiz and Brukner (2019), and Krumm, Höhn and Müller (2021) show that QRF</div>
+<div>transformations are canonically defined on the invariant sector. Related ideas appear in the</div>
+<div>literature on reference frames and superselection (Aharonov &amp; Kaufherr 1984; Bartlett, Rudolph &amp;</div>
+<div>Spekkens 2007) and on relational quantities (Loveridge, Miyadera &amp; Busch 2018).</div>
+<div>&nbsp;</div>
+<div>Two features matter for CTGP. First, frame changes in this framework are not choices of “whose</div>
+<div>facts” to consider; they are changes of description of one invariant state, which is the reading</div>
+<div>CTGP needs. Second, operators that are not invariant under G do not in general map H_phys to itself,</div>
+<div>so a law written in absolute, non-relational terms is not well defined on physical states. This</div>
+<div>constraint does substantive work in §7.4.</div>
+<div>&nbsp;</div>
+<div>2.2 Single-Outcome Dynamics as Quantum Instruments and Jump Processes</div>
+<div>&nbsp;</div>
+<div>A stochastic quantum dynamics with definite outcomes can be written as a sequence of quantum</div>
+<div>instruments (Davies &amp; Lewis 1970; Kraus 1983). An instrument is a family of operators {F_k}, indexed</div>
+<div>by outcomes k, satisfying the completeness relation Σ_k F_k† F_k = 1. Given a normalized state ψ,</div>
+<div>outcome k occurs with probability ‖F_k ψ‖², and the state is updated to F_k ψ / ‖F_k ψ‖. In</div>
+<div>continuous time, the corresponding object is a piecewise-deterministic jump process: the state</div>
+<div>evolves smoothly between random jump times and jumps by normalized jump operators, and its ensemble</div>
+<div>average obeys a Lindblad master equation (Lindblad 1976; Gorini, Kossakowski &amp; Sudarshan 1976;</div>
+<div>Dalibard, Castin &amp; Mølmer 1992; Breuer &amp; Petruccione 2002).</div>
+<div>&nbsp;</div>
+<div>Objective-collapse models have this form. In the GRW model, a spontaneous “hit” multiplies the wave</div>
+<div>function by a Gaussian of fixed width centred at a random point, with the centre drawn according to</div>
+<div>the Born rule, and hits occur at the times of a Poisson process. Bell (1987) proposed taking the hit</div>
+<div>events themselves, the “flashes”, as the primitive ontology: the material world consists of the</div>
+<div>flashes, and the wave function governs their probabilities. Tumulka (2006) gave a relativistic</div>
+<div>version (rGRWf). Allori, Goldstein, Tumulka and Zanghì (2008) analyze the common structure of such</div>
+<div>primitive-ontology theories.</div>
+<div>&nbsp;</div>
+<div>The instrument picture gives the generative law a precise meaning. One stage-to-stage transition</div>
+<div>applies the deterministic part of the dynamics, then samples an outcome k from the instrument and</div>
+<div>updates the state. The pair (new state, outcome) is drawn from a probability kernel that depends</div>
+<div>only on the current state, which is the form of law required by CTGP’s generability constraint (CTGP</div>
+<div>– explained, §12.2): a law fixing transition probabilities P(S_{σ′} | S_σ) without reference to data</div>
+<div>on later stages.</div>
+<div>&nbsp;</div>
+<div>2.3 The CTGP Commitments Used Here</div>
+<div>&nbsp;</div>
+<div>The following CTGP commitments are used below, cited to CTGP – explained and More Info.</div>
+<div>&nbsp;</div>
+<div>    (C-a) Ontological primacy of the present (Postulate 1). Only the current stage exists.</div>
+<div>&nbsp;</div>
+<div>    (C-b) Lucretian truthmakers (§5.2.1; Definition 17.20). “At σ′ it was the case that φ” is true</div>
+<div>    at σ iff the present world W_σ instantiates the primitive property Had(σ′, φ). The accuracy</div>
+<div>    condition requires that W_σ instantiates Had(σ′, φ) iff W_σ′ ⊨ φ, and past-tensed properties,</div>
+<div>    once acquired, are retained (Proposition 17.22, No Revision of the Past).</div>
+<div>&nbsp;</div>
+<div>    (C-c) Non-supervenience. Past-tensed properties do not supervene on the present’s categorical</div>
+<div>    physical configuration: two present states could agree in every categorical respect while</div>
+<div>    differing in their pasts (§5.2.1).</div>
+<div>&nbsp;</div>
+<div>    (C-d) Single-outcome realism (§10.1). At each stage, each measurement has exactly one realized</div>
+<div>    macroscopic outcome. Relational interpretations that make facts relative to observers are not</div>
+<div>    available to CTGP.</div>
+<div>&nbsp;</div>
+<div>    (C-e) Definite generative ordering (§6.4). Of two causally related stages, one precedes the</div>
+<div>    other.</div>
+<div>&nbsp;</div>
+<div>    (C-f) Generability (§12.2). There is a state S_σ on each stage and a law fixing P(S_{σ′} | S_σ)</div>
+<div>    for σ′ &gt; σ without reference to later data. Enlarging the state space is legitimate only if the</div>
+<div>    added variables are physically instantiated on the present stage and have dynamics of their own.</div>
+<div>&nbsp;</div>
+<div>    (C-g) Causal inheritance (More Info, §11). Whatever part of history can still affect the future</div>
+<div>    must already be physically instantiated in the present; two present states that agree in every</div>
+<div>    physically instantiated respect have futures governed identically by the laws, whatever their</div>
+<div>    histories.</div>
+<div>&nbsp;</div>
+<div>    (C-h) Continuous generation (CTGP – explained, Abstract and §5.4). Generation is a continuous</div>
+<div>    causal-temporal progression, not a succession of disconnected states.</div>
+<div>&nbsp;</div>
+<div>    (C-i) Truth versus recoverability (More Info, §§4, 9–10). Whether something happened is settled</div>
+<div>    by the present world’s past-tensed profile; whether anyone can establish that it happened</div>
+<div>    depends on surviving records and available signals. Some truths may be structurally unknowable.</div>
+<div>&nbsp;</div>
+<div>    (C-j) Relational descriptive freedom. Different valid reference frames, clocks, and formulations</div>
+<div>    may describe the same physical history differently; CTGP requires one history, not one</div>
+<div>    description of it.</div>
+<div>&nbsp;</div>
+<div>    (C-k) Emergent classical cosmic time (CTGP – explained, §6). In the general-relativistic regime,</div>
+<div>    where the structure exists, the generative present is identified with the level sets of a</div>
+<div>    regular cosmological time function. This commitment is conditional on the classical spacetime</div>
+<div>    admitting that structure; §13.1 states the regularity results precisely.</div>
+<div>&nbsp;</div>
+<div>    (C-l) No density-weighted generation (CTGP – explained, §11). Generation laws on which regions</div>
+<div>    become real at rates set by local matter density fail CTGP’s consistency analysis; the</div>
+<div>    generation rate may vary with cosmic epoch but not across space.</div>
+<div>&nbsp;</div>
+<div>One terminological point prevents a misunderstanding. The model below uses relational quantities:</div>
+<div>the transition events concern separations between particles, not positions relative to an external</div>
+<div>origin. This is not a relational interpretation in the sense rejected by (C-d). Whether a given</div>
+<div>event occurred is an absolute, frame-independent fact; what is relational is the quantity the event</div>
+<div>concerns, in the same way that “the distance between two stones is one metre” is an absolute fact</div>
+<div>about a relational quantity.</div>
+<div>&nbsp;</div>
+<div>====================================================================================================</div>
+<div>PART II. The Formalism</div>
+<div>====================================================================================================</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>3. Kinematics: Perspective-Neutral States and Frame Reductions</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-02.md">Raw Markdown</a> <a href="part-01.html">Previous part</a> <a href="part-03.html">Next part</a></nav></body></html>

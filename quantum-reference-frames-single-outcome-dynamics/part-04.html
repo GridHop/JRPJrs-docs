@@ -1,0 +1,117 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 04 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 04 of 40 · 1,223 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-04.md">Raw Markdown</a> <a href="part-03.html">Previous part</a> <a href="part-05.html">Next part</a></nav><main class="source"><div>4.4 The Complete Ontological State and the Truth Profile</div>
+<div>&nbsp;</div>
+<div>Definition 4.5 (Complete ontological state). The complete ontological state at stage σ is</div>
+<div>&nbsp;</div>
+<div>        Ω_σ = (S_σ, L_σ),</div>
+<div>&nbsp;</div>
+<div>where S_σ = [Ψ_σ] is the ray of the perspective-neutral state, and L_σ, the Lucretian truth profile,</div>
+<div>is a set of past-tensed propositions of two kinds:</div>
+<div>&nbsp;</div>
+<div>    Had(σ″, [Ψ_{σ″}]), read “at stage σ″ the state was [Ψ_{σ″}]”, for σ″ &lt; σ;</div>
+<div>&nbsp;</div>
+<div>    Had(σ″ → σ‴, k), read “in the generation of σ‴ from σ″, transition event k occurred”, for σ‴ ≤</div>
+<div>    σ.</div>
+<div>&nbsp;</div>
+<div>The second kind extends the stage-indexed properties Had(σ′, φ) of CTGP – explained, Definition</div>
+<div>17.20, to transitions. This adds no commitment: a transition from σ″ to σ‴ is something that</div>
+<div>occurred, and the present world can have been such that it occurred.</div>
+<div>&nbsp;</div>
+<div>Definition 4.6 (Truth-profile update). When the transition σ → σ′ realizes event k,</div>
+<div>&nbsp;</div>
+<div>        L_{σ′} = L_σ ∪ ΔL_{σ→σ′},     ΔL_{σ→σ′} = { Had(σ, [Ψ_σ]), Had(σ → σ′, k) }.</div>
+<div>&nbsp;</div>
+<div>The truths acquired in a transition are exactly two: the state that was present has become past, and</div>
+<div>the event that occurred in the transition is something that was the case. The initial condition is</div>
+<div>L_{σ_0} = ∅ and S_{σ_0} = [Ψ_{σ_0}].</div>
+<div>&nbsp;</div>
+<div>4.5 Admissible Histories</div>
+<div>&nbsp;</div>
+<div>The truth profile is not an arbitrary set of past-tensed propositions. It ranges over a space fixed</div>
+<div>by the law.</div>
+<div>&nbsp;</div>
+<div>Histories, actuality, and futurity. Three uses of the word history must be kept apart, because the</div>
+<div>mathematics speaks of histories in a sense that carries no ontological commitment. The actual past</div>
+<div>history at a stage consists of the states and events that have occurred and are now past. Past</div>
+<div>stages do not continue to exist; truths about them are grounded in the present world’s Lucretian</div>
+<div>profile. The actual history through the present, where that phrase is needed, adds the presently</div>
+<div>existing state to its past; it does not mean that the present has already become past. An admissible</div>
+<div>history, by contrast, is a mathematical object: a possible sequence of events permitted by the law,</div>
+<div>an element of the probability space defined below. The set of admissible histories lists the</div>
+<div>alternatives the law permits. It does not represent alternative histories that exist side by side,</div>
+<div>and a probability measure on future trajectories describes possible continuations of the present,</div>
+<div>not an existing future.</div>
+<div>&nbsp;</div>
+<div>Within CTGP no state or event exists as future. Each state first exists as the present, and each</div>
+<div>realized transition becomes part of the actual past only after it has occurred. The actual past is</div>
+<div>therefore not a completed structure containing future events: it grows as successive presents are</div>
+<div>generated, without revision of what has occurred. What has occurred cannot later become something</div>
+<div>else (C-b), although records, memories, and evidence about it can change, which is the distinction</div>
+<div>between truth and recoverability (C-i). Only one history is ever realized. At each stage its actual</div>
+<div>past consists exclusively of events that have already occurred, and the other admissible histories</div>
+<div>are possibilities represented by the law, not additional existing histories. When the text speaks of</div>
+<div>a complete history, completeness is relative to a specified finite stage, or to a trajectory used in</div>
+<div>probabilistic analysis; it never means that the future has occurred or exists tenselessly.</div>
+<div>&nbsp;</div>
+<div>Definition 4.7 (Admissible histories and complete states). Fix the law and the initial state</div>
+<div>Ψ_{σ_0}. Let</div>
+<div>&nbsp;</div>
+<div>        ℋ_n = { ω ∈ 𝒦^n : Pr(ω | Ψ_{σ_0}) &gt; 0 }</div>
+<div>&nbsp;</div>
+<div>be the set of admissible histories of length n, the possible event sequences of nonzero probability.</div>
+<div>For ω ∈ ℋ_n write Ψ_m(ω) for the state after the first m events (Ψ_0(ω) = Ψ_{σ_0}), and define its</div>
+<div>truth profile</div>
+<div>&nbsp;</div>
+<div>        L(ω) = { Had(σ_m, [Ψ_m(ω)]) : 0 ≤ m &lt; n } ∪ { Had(σ_{m−1} → σ_m, k_m) : 1 ≤ m ≤ n }.</div>
+<div>&nbsp;</div>
+<div>The admissible truth profiles and admissible complete states at stage σ_n are</div>
+<div>&nbsp;</div>
+<div>        ℒ_n = { L(ω) : ω ∈ ℋ_n },     𝔒_n = { ([Ψ_n(ω)], L(ω)) : ω ∈ ℋ_n }.</div>
+<div>&nbsp;</div>
+<div>Theorem 4.8 (Characterization of admissible profiles). A set L of past-tensed propositions belongs</div>
+<div>to ℒ_n if and only if all of the following hold:</div>
+<div>&nbsp;</div>
+<div>    (o) Restricted language. Every element of L is a past-tensed proposition of one of the two forms</div>
+<div>    of Definition 4.5: a state proposition Had(σ_m, [Ψ]) with m ≥ 0 and Ψ ∈ H_phys, or a transition</div>
+<div>    proposition Had(σ_{m−1} → σ_m, k) with m ≥ 1 and k ∈ 𝒦.</div>
+<div>&nbsp;</div>
+<div>    (a) One event per transition. For each m = 1, …, n, L contains exactly one proposition of the</div>
+<div>    form Had(σ_{m−1} → σ_m, k).</div>
+<div>&nbsp;</div>
+<div>    (b) One state per past stage. For each m = 0, …, n−1, L contains exactly one proposition of the</div>
+<div>    form Had(σ_m, [Ψ]).</div>
+<div>&nbsp;</div>
+<div>    (c) Correct initial state. The state proposition for σ_0 is Had(σ_0, [Ψ_{σ_0}]).</div>
+<div>&nbsp;</div>
+<div>    (d) Lawful consistency. For each m = 1, …, n−1, if L contains Had(σ_{m−1}, [Ψ]) and Had(σ_{m−1}</div>
+<div>    → σ_m, k), then F_k W Ψ ≠ 0 and the state proposition for σ_m is Had(σ_m, [F_k W Ψ]); and, for</div>
+<div>    the last event k_n, F_{k_n} W Ψ ≠ 0 where [Ψ] is the state recorded for σ_{n−1}.</div>
+<div>&nbsp;</div>
+<div>    (e) Past-stage restriction. Every state proposition in L is indexed to a past stage σ_m with 0 ≤</div>
+<div>    m ≤ n−1, and every transition proposition is indexed to a transition σ_{m−1} → σ_m with 1 ≤ m ≤</div>
+<div>    n. Thus L contains no state proposition about the present stage σ_n and no proposition of either</div>
+<div>    kind about any later stage.</div>
+<div>&nbsp;</div>
+<div>When these hold, the history ω with L = L(ω) is unique. Moreover, admissible profiles are nested: if</div>
+<div>ω ∈ ℋ_n and ω|m is its initial segment of length m ≤ n, then L(ω|m) ⊆ L(ω).</div>
+<div>&nbsp;</div>
+<div>Proof. (⇒) Each condition holds by construction of L(ω) and the definition of ℋ_n. (⇐) By (a),</div>
+<div>reading off the event proposition for each transition gives a unique sequence ω = (k_1, …, k_n). By</div>
+<div>(c) and (d), induction on m shows that the state proposition for σ_m is Had(σ_m, [Ψ_m(ω)]) and that</div>
+<div>each factor of Pr(ω | Ψ_{σ_0}) is nonzero, so ω ∈ ℋ_n. By (o), every element of L is a state or</div>
+<div>transition proposition. By (e), its state propositions concern only the stages σ_0, …, σ_{n−1} and</div>
+<div>its transition propositions only the n transitions up to σ_n; by (a) and (b), each of these carries</div>
+<div>exactly one proposition, namely the one just identified. Hence L = L(ω). Uniqueness follows because</div>
+<div>ω is read off from L. Nesting holds because the propositions defining L(ω|m) are among those</div>
+<div>defining L(ω). □</div>
+<div>&nbsp;</div>
+<div>Theorem 4.8 makes precise the requirements that a truth profile must meet: propositions of the two</div>
+<div>permitted forms only, exactly one realized event per transition, state propositions only about past</div>
+<div>stages and consistent with the law, no incompatible state assignments, preservation of acquired</div>
+<div>truths, and no claim that an unrealized future event has occurred. The restriction of state</div>
+<div>propositions to past stages matters: the present state is part of S, not of the past-tensed profile</div>
+<div>L, and a set that added a state proposition about σ_n to an admissible profile would satisfy every</div>
+<div>other condition without belonging to ℒ_n. Theorem 4.8 establishes that the Lucretian profile is a</div>
+<div>consistent interpretation of the model’s realized histories. It does not establish that Lucretian</div>
+<div>properties exist in nature; that is a philosophical thesis of CTGP, which the model shows to be</div>
+<div>coherent.</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-04.md">Raw Markdown</a> <a href="part-03.html">Previous part</a> <a href="part-05.html">Next part</a></nav></body></html>

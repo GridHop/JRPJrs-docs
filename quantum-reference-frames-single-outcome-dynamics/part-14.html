@@ -1,0 +1,146 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 14 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 14 of 40 · 1,650 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-14.md">Raw Markdown</a> <a href="part-13.html">Previous part</a> <a href="part-15.html">Next part</a></nav><main class="source"><div>13.2 Hypersurface Evolution and Its Limits</div>
+<div>&nbsp;</div>
+<div>A natural starting point is the Tomonaga–Schwinger equation (Tomonaga 1946; Schwinger 1948),</div>
+<div>&nbsp;</div>
+<div>        i ħ δΨ_Σ / δΣ(x) = H_int(x) Ψ_Σ,</div>
+<div>&nbsp;</div>
+<div>which describes how a state changes under local deformations of a spacelike hypersurface. Its formal</div>
+<div>integrability condition is [H_int(x), H_int(y)] = 0 for spacelike-separated x and y. For interacting</div>
+<div>fields this expression requires a treatment of operator-valued distributions and their domains; it</div>
+<div>is not by itself an existence theorem. CTGP – explained proposes an open-system analogue, δρ_Σ /</div>
+<div>δΣ(x) = ℒ_x(ρ_Σ), with conditional integrability (Proposition 17.16) and a conditional continuum</div>
+<div>limit (Theorem 17.17). These are valuable starting points, but they are ensemble-level results: they</div>
+<div>concern density operators. The next subsection shows why a single-outcome ontology needs more.</div>
+<div>&nbsp;</div>
+<div>13.3 Ensemble Consistency Is Not Realized-History Consistency</div>
+<div>&nbsp;</div>
+<div>Proposition 13.2 (Equal ensembles, different histories). There exist two instrument sequences whose</div>
+<div>channels coincide at every stage, so that they assign the same density operator to every stage for</div>
+<div>every initial state, but whose realized-history measures differ.</div>
+<div>&nbsp;</div>
+<div>Proof. On a qubit, let the first instrument be either I_1 = { |0⟩⟨0|, |1⟩⟨1| } or I_2 = { 1/√2, Z/√2</div>
+<div>}, where Z = |0⟩⟨0| − |1⟩⟨1|, and let the second be the measurement of X with outcomes ±, {|+⟩⟨+|,</div>
+<div>|−⟩⟨−|}. Both first instruments implement the complete dephasing channel ρ ↦ |0⟩⟨0|ρ|0⟩⟨0| +</div>
+<div>|1⟩⟨1|ρ|1⟩⟨1|, so the averaged states agree at every stage. For the initial state |+⟩, I_1 yields</div>
+<div>outcomes 0 and 1 with probability 1/2 each and leaves |0⟩ or |1⟩, after which the X outcome is</div>
+<div>uniformly random. I_2 yields its two outcomes with probability 1/2 each and leaves |+⟩ or |−⟩, after</div>
+<div>which the X outcome is perfectly correlated with the first outcome. The joint laws of (first event,</div>
+<div>second event) are uniform in the first case and perfectly correlated in the second: the mutual</div>
+<div>information is 0 bits in one case and 1 bit in the other. □</div>
+<div>&nbsp;</div>
+<div>Proposition 13.2 is an instance of the non-uniqueness of unravellings of a quantum channel (Wiseman</div>
+<div>&amp; Milburn 2010). Its consequence for CTGP is direct: a covariant or hypersurface-consistent master</div>
+<div>equation does not by itself supply a covariant stochastic ontology. Two theories can agree on every</div>
+<div>density operator on every hypersurface and still disagree about the probabilities of the realized</div>
+<div>histories that, on CTGP, are what actually happened. Compatibility with a single-outcome ontology</div>
+<div>therefore needs a consistency theorem at the level of realized histories, not only at the level of</div>
+<div>states.</div>
+<div>&nbsp;</div>
+<div>13.4 A Realized-History Consistency Theorem for Causally Local Instruments</div>
+<div>&nbsp;</div>
+<div>The following theorem is a finite-dimensional analogue of the required relativistic result. Events</div>
+<div>occur at a finite set of slots, ordered by a partial order intended to represent causal precedence;</div>
+<div>a foliation is any way of advancing through the slots consistently with that order.</div>
+<div>&nbsp;</div>
+<div>Definition 13.3 (Causally local event structure). A causally local event structure consists of a</div>
+<div>finite partially ordered set (E, ≺) of event slots, a finite-dimensional Hilbert space H with</div>
+<div>initial state Ψ_0, and for each slot x an instrument {K^x_a : a ∈ A_x} on H, such that for every</div>
+<div>pair of incomparable (spacelike) slots x and y, every K^x_a commutes with every K^y_b. A foliation</div>
+<div>is a linear extension λ = (x_1, …, x_N) of ≺; its successive initial segments {x_1, …, x_j} are the</div>
+<div>regions to the past of its successive hypersurfaces. For an outcome assignment α = (a_x)_{x∈E}, set</div>
+<div>&nbsp;</div>
+<div>        v_λ(α) = K^{x_N}_{a_{x_N}} ⋯ K^{x_1}_{a_{x_1}} Ψ_0,     P_λ(α) = ‖v_λ(α)‖².</div>
+<div>&nbsp;</div>
+<div>Theorem 13.4 (Realized-history consistency). In a causally local event structure:</div>
+<div>&nbsp;</div>
+<div>    (a) Foliation independence. v_λ(α) does not depend on the foliation λ. Hence the probability of</div>
+<div>    every complete event history, P(α) = P_λ(α), and the corresponding final state are foliation-</div>
+<div>    independent, and Σ_α P(α) = 1.</div>
+<div>&nbsp;</div>
+<div>    (b) Consistency on every hypersurface. For every order ideal I ⊆ E (the past of some</div>
+<div>    hypersurface) and every assignment α_I of outcomes to the slots in I, the probability of α_I and</div>
+<div>    the conditional state on the hypersurface bounding I are the same for every foliation of I, and</div>
+<div>    they do not depend on the instruments at slots outside I.</div>
+<div>&nbsp;</div>
+<div>    (c) No dependence on instruments outside the designated predecessor set. For every set X ⊆ E,</div>
+<div>    the marginal law of the outcomes in X depends only on the instruments in its predecessor set</div>
+<div>    with respect to ≺, ↓X = { y : y ⪯ x for some x ∈ X }. Identifying ↓X with the operationally</div>
+<div>    relevant relativistic causal past of X requires additional physical assumptions, discussed after</div>
+<div>    Corollary 13.5.</div>
+<div>&nbsp;</div>
+<div>Proof. (a) Any two linear extensions of a finite partial order are connected by a sequence of</div>
+<div>adjacent transpositions of incomparable elements. To see this, let λ and λ′ first differ at position</div>
+<div>j, where λ′ has x′. In λ, x′ occurs later; every element between position j and x′ in λ precedes x′</div>
+<div>in λ, so it is not above x′, and follows x′ in λ′, so it is not below x′; hence it is incomparable</div>
+<div>with x′. Moving x′ leftward in λ by adjacent transpositions with these elements yields a linear</div>
+<div>extension that agrees with λ′ in one more position, and induction completes the argument. Each such</div>
+<div>transposition exchanges two commuting operators and leaves v_λ(α) unchanged. Normalization follows</div>
+<div>from Σ_a (K^x_a)† K^x_a = 1 applied slot by slot. (b) Because I is a down-set, any foliation of I</div>
+<div>extends to a foliation of E that lists I first, and (a) applied to the sub-order I gives</div>
+<div>independence of the foliation of I. Summing ‖v‖² over the outcomes of the slots after I and using</div>
+<div>completeness of their instruments gives ‖v_I(α_I)‖², which involves only instruments in I. (c) Apply</div>
+<div>(b) with I = ↓X, which is an order ideal containing X; the marginal on X is a marginal of the law of</div>
+<div>α_I. □</div>
+<div>&nbsp;</div>
+<div>Corollary 13.5 (Foliation-invisibility of the generative order in causally local finite models). In</div>
+<div>a causally local event structure, suppose CTGP’s generative order is one particular foliation λ*.</div>
+<div>Then every event proposition about any order ideal has the same probability whether computed along</div>
+<div>λ* or along any other foliation. The realized assignment α is a single object, which different</div>
+<div>foliations merely order differently; once the truth profile indexes events by slot rather than by</div>
+<div>stage number, the complete profile after the whole region has been generated is the same set of</div>
+<div>propositions whichever foliation is taken as generative.</div>
+<div>&nbsp;</div>
+<div>Proof. Theorem 13.4(a)–(b). □</div>
+<div>&nbsp;</div>
+<div>Corollary 13.5 is established for finite event structures under the stated locality assumption, not</div>
+<div>for arbitrary relativistic quantum dynamics. It is the realized-history counterpart of CTGP’s</div>
+<div>observational equivalence (CTGP – explained, §12.1): within causally local finite models, under the</div>
+<div>commutation assumption of Definition 13.3, the choice of generative foliation has no empirical</div>
+<div>signature, and a single realized history can be represented on any family of hypersurfaces without</div>
+<div>multiplying the number of histories. If each K^x_a is invariant under a symmetry group in the sense</div>
+<div>of §3, Lemma 3.7 applies slot by slot, and Theorem 13.4 holds in every frame.</div>
+<div>&nbsp;</div>
+<div>Foliation-independent probabilities do not by themselves establish that any foliation is</div>
+<div>ontologically privileged. What Corollary 13.5 shows is that privileging one foliation is empirically</div>
+<div>invisible under the stated assumptions. That one foliation is in fact generative is CTGP’s</div>
+<div>interpretive thesis, supplied separately, in the same way that Thesis 5.10 supplies the ontological</div>
+<div>reading of description orbits.</div>
+<div>&nbsp;</div>
+<div>The locality condition cannot be dropped. In the numerical check (Appendix B, item 14), a brickwork</div>
+<div>arrangement of eight two-outcome instruments on six qubits has 136 foliations, and all of them</div>
+<div>assign identical probabilities to all 256 outcome histories, to within 7 × 10⁻¹⁸. Changing the</div>
+<div>instruments outside the predecessor set of a slot changes that slot’s marginal by at most 8 × 10⁻¹⁶.</div>
+<div>But if two slots treated as spacelike act on overlapping qubits, so that their operators fail to</div>
+<div>commute, the two orders assign history measures that differ by total-variation distance 0.165.</div>
+<div>&nbsp;</div>
+<div>Theorem 13.4 must also be read with a caveat specific to quantum field theory. Part (c) is a</div>
+<div>statement about the abstract order ≺: it says that outcomes do not depend on instruments outside a</div>
+<div>designated predecessor set, not that relativistic operational no-signaling holds for arbitrary</div>
+<div>spacetime regions or measurement procedures. The two coincide only if ≺ is the operationally</div>
+<div>relevant causal order. For idealized point-like slots it is. For extended regions, however, the</div>
+<div>transitive closure of “overlaps the causal future of” can relate two regions that are in fact</div>
+<div>spacelike-separated, and naive local measurement rules then permit superluminal signaling (Sorkin</div>
+<div>1993). A relativistic version of the theorem therefore needs a measurement framework in which</div>
+<div>operations localized in regions respect relativistic causality; frameworks of this kind exist in</div>
+<div>algebraic quantum field theory (Fewster &amp; Verch 2020; Bostelmann, Fewster &amp; Ruep 2021). The finite</div>
+<div>theorem is an analogue of the relativistic result, not that result itself.</div>
+<div>&nbsp;</div>
+<div>The relativistic target can now be stated precisely.</div>
+<div>&nbsp;</div>
+<div>Target result 13.6 (Relativistic realized-history consistency). For a regulated relativistic single-</div>
+<div>outcome model on a fixed globally hyperbolic background, given by a hypersurface-dependent family of</div>
+<div>completely positive maps ℰ_{Σ_1→Σ_2} together with instruments assigning probabilities to realized</div>
+<div>events between hypersurfaces, establish: (i) existence and normalization of the event-history</div>
+<div>measure; (ii) composition consistency for nested regions; (iii) compatibility of operations in</div>
+<div>spacelike-separated regions, in a framework free of Sorkin-type signaling; (iv) consistent</div>
+<div>restriction of event histories to overlapping regions; and (v) a well-defined single-outcome</div>
+<div>realization. Then prove that the probability of every common event-history proposition is</div>
+<div>independent of the admissible intermediate hypersurface decomposition, and that the CTGP truth</div>
+<div>profile updates consistently from the realized history.</div>
+<div>&nbsp;</div>
+<div>Theorem 13.4 proves this for finitely many slots and finite-dimensional operators, Proposition 13.7</div>
+<div>(§13.5) extends it to countably many slots with finite pasts, and Theorem 13.9 (§13.6) establishes</div>
+<div>its measurement-model version for finite networks of gapless detectors on a free relativistic field.</div>
+<div>The assumptions of the relativistic version must be made precise enough not to assume the</div>
+<div>conclusion.</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-14.md">Raw Markdown</a> <a href="part-13.html">Previous part</a> <a href="part-15.html">Next part</a></nav></body></html>

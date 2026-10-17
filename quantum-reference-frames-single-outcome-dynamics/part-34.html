@@ -1,0 +1,222 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 34 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 34 of 40 · 1,693 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-34.md">Raw Markdown</a> <a href="part-33.html">Previous part</a> <a href="part-35.html">Next part</a></nav><main class="source"><div>&nbsp;</div>
+<div># frame-relative product state becomes entangled in the other frame</div>
+<div>def ket(x, y): v = np.zeros(d2); v[ridx(x, y)] = 1; return v</div>
+<div>prodA = (ket(1, 0) + ket(2, 0))/np.sqrt(2)</div>
+<div>def ent(v):</div>
+<div>    sv = np.linalg.svd(v.reshape(N, N), compute_uv=False)**2; sv = sv[sv &gt; 1e-12]</div>
+<div>    return -(sv*np.log2(sv)).sum()</div>
+<div>print(f&quot;7. entanglement entropy: frame A {ent(prodA):.3f} bits, &quot;</div>
+<div>      f&quot;frame B {ent(V_AB @ prodA):.3f} bits&quot;)</div>
+<div>&nbsp;</div>
+<div># an absolute (non-invariant) collapse operator leaves the physical sector</div>
+<div>Pabs = np.zeros((D, D))</div>
+<div>for t in itertools.product(range(N), repeat=3):</div>
+<div>    if t[2] == 0: Pabs[idx(*t), idx(*t)] = 1</div>
+<div>v = Pabs @ (JA @ phiA0)</div>
+<div>leak = np.linalg.norm(v - Pi @ v)/np.linalg.norm(v)</div>
+<div>print(f&quot;8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = {leak:.3f}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 9. continuous-time relational jump process (GRW-type), frames A and B</div>
+<div>Lam, T = 1.2, 5.0</div>
+<div>JA_ops = {k: red(K, JA) for k, K in kraus(s, lam_=1.0).items() if k != &#x27;none&#x27;}</div>
+<div>JB_ops = {k: V_AB @ K @ V_AB.T for k, K in JA_ops.items()}      # = frame-B forms</div>
+<div>HA, HB = red(H, JA), red(H, JB)</div>
+<div>assert np.allclose(sum(K.conj().T @ K for K in JA_ops.values()), np.eye(d2))</div>
+<div>def trajectory(psi, Hm, ops, r):</div>
+<div>    t, events = 0.0, []</div>
+<div>    while True:</div>
+<div>        dt = r.exponential(1/Lam)             # hit times: Poisson, rate Lam</div>
+<div>        if t + dt &gt; T:</div>
+<div>            psi = expm(-1j*Hm*(T-t)) @ psi; break</div>
+<div>        t += dt; psi = expm(-1j*Hm*dt) @ psi</div>
+<div>        keys = list(ops)</div>
+<div>        p = np.array([np.linalg.norm(ops[k] @ psi)**2 for k in keys])</div>
+<div>        k = keys[r.choice(len(keys), p=p/p.sum())]</div>
+<div>        psi = ops[k] @ psi; psi /= np.linalg.norm(psi)</div>
+<div>        events.append((round(t, 12), k))</div>
+<div>    return psi, events</div>
+<div>same, worst, nev = True, 0.0, 0</div>
+<div>for trial in range(200):</div>
+<div>    pa, ea = trajectory(phiA0, HA, JA_ops, np.random.default_rng(1000+trial))</div>
+<div>    pb, eb = trajectory(V_AB @ phiA0, HB, JB_ops, np.random.default_rng(1000+trial))</div>
+<div>    same &amp;= (ea == eb); nev += len(ea)</div>
+<div>    worst = max(worst, 1-abs(np.vdot(V_AB @ pa, pb)))</div>
+<div>print(f&quot;9. continuous time: 200 trajectories, {nev} events; &quot;</div>
+<div>      f&quot;identical event records in A and B: {same}&quot;)</div>
+<div>print(f&quot;   max(1-|&lt;V psi_A|psi_B&gt;|) at final time = {worst:.1e}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 10. generic parameters: do distinct histories reach the same present ray?</div>
+<div>fin = [(h, v[1]) for h, v in dA.items()]</div>
+<div>G = np.array([v for _, v in fin]); ov = np.abs(G.conj() @ G.T)</div>
+<div>np.fill_diagonal(ov, 0); best = ov.max()</div>
+<div>ncoinc = int((ov &gt; 1 - 1e-10).sum() // 2)</div>
+<div>F2 = best**2; helstrom = 0.5*(1 - np.sqrt(1 - F2))</div>
+<div>print(f&quot;10. generic parameters, {len(fin)} three-stage histories: &quot;</div>
+<div>      f&quot;exact coincidences = {ncoinc}; largest overlap = {best:.4f}&quot;)</div>
+<div>print(f&quot;    minimum error probability for telling that pair apart (Helstrom) = {helstrom:.3f}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 11. finite-width flashes: every present state is reachable by every history</div>
+<div>Phi = rng.normal(size=d2) + 1j*rng.normal(size=d2); Phi /= np.linalg.norm(Phi)</div>
+<div>hists = [((0, 1, 1), (1, 2, 4), &#x27;none&#x27;), (&#x27;none&#x27;, (0, 2, 0), (0, 1, 3))]</div>
+<div>res = []</div>
+<div>for h in hists:</div>
+<div>    psi = Phi.copy()</div>
+<div>    for k in reversed(h):                     # back-propagate: psi_prev ~ W^-1 F_k^-1 psi</div>
+<div>        psi = WA.conj().T @ np.linalg.solve(FA[k], psi); psi /= np.linalg.norm(psi)</div>
+<div>    psi0, pr = psi.copy(), 1.0</div>
+<div>    for k in h:                               # forward run from the reconstructed start</div>
+<div>        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)</div>
+<div>    res.append((abs(np.vdot(psi, Phi)), pr, psi0))</div>
+<div>print(f&quot;11. two different 3-stage histories, same present ray: &quot;</div>
+<div>      f&quot;|&lt;end|Phi&gt;| = {res[0][0]:.12f}, {res[1][0]:.12f}&quot;)</div>
+<div>print(f&quot;    history probabilities {res[0][1]:.2e}, {res[1][1]:.2e}; &quot;</div>
+<div>      f&quot;overlap of the two initial states = {abs(np.vdot(res[0][2], res[1][2])):.3f}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 12. a history-dependent (QRF-covariant) law is not a kernel on the present state</div>
+<div># second instrument: same flashes, pair weights q = (1/2, 1/4, 1/4) instead of 1/3 each</div>
+<div>def kraus_q(width, q):</div>
+<div>    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()</div>
+<div>    out = {&#x27;none&#x27;: np.sqrt(1-lam)*np.eye(D)}</div>
+<div>    for (i, j), qq in zip(pairs, q):</div>
+<div>        for dd in range(N):</div>
+<div>            out[(i, j, dd)] = np.sqrt(lam*qq)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)</div>
+<div>                                                  for r in range(N))</div>
+<div>    return out</div>
+<div>def law(Fa, Fb):                    # instrument for transitions after the first</div>
+<div>    return lambda first: Fa if (first != &#x27;none&#x27; and first[:2] == (0, 1)) else Fb</div>
+<div>def run_law(psi, hist, Fa, Fb, Wm):</div>
+<div>    pr = 1.0</div>
+<div>    for m, k in enumerate(hist):</div>
+<div>        Fm = Fa if m == 0 else law(Fa, Fb)(hist[0])</div>
+<div>        v = Fm[k] @ (Wm @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)</div>
+<div>    return psi, pr</div>
+<div>def next_law(psi, first, Fa, Fb, Wm):</div>
+<div>    Fm = law(Fa, Fb)(first)</div>
+<div>    return np.array([np.linalg.norm(Fm[k] @ (Wm @ psi))**2 for k in Fa])</div>
+<div># (a) finite width, across initial conditions: invert the two branch products</div>
+<div>FA_q = {k: red(K, JA) for k, K in kraus_q(s, (0.5, 0.25, 0.25)).items()}</div>
+<div>Phi_c = WA.conj().T @ ket(1, 3)                         # present ray; W Phi_c = |1,3&gt;</div>
+<div>br1, br2 = ((0, 1, 2), (1, 2, 0)), (&#x27;none&#x27;, (1, 2, 0))</div>
+<div>starts = []</div>
+<div>for hb in br1, br2:</div>
+<div>    Fsecond = law(FA, FA_q)(hb[0])</div>
+<div>    M = Fsecond[hb[1]] @ WA @ FA[hb[0]] @ WA</div>
+<div>    psi0 = np.linalg.solve(M, Phi_c); psi0 /= np.linalg.norm(psi0)</div>
+<div>    end, pr = run_law(psi0, hb, FA, FA_q, WA); starts.append((abs(np.vdot(end, Phi_c)), pr))</div>
+<div>tv_a = 0.5*np.abs(next_law(Phi_c, br1[0], FA, FA_q, WA)</div>
+<div>                  - next_law(Phi_c, br2[0], FA, FA_q, WA)).sum()</div>
+<div>print(f&quot;12a. finite width: both branches end at the same ray &quot;</div>
+<div>      f&quot;(|&lt;end|Phi&gt;| = {starts[0][0]:.12f}, {starts[1][0]:.12f}),&quot;)</div>
+<div>print(f&quot;     probabilities {starts[0][1]:.2e}, {starts[1][1]:.2e}; &quot;</div>
+<div>      f&quot;next-event total variation = {tv_a:.4f} (lambda/6 = {lam/6:.4f})&quot;)</div>
+<div># (b) sharp flashes, J = 0, one fixed initial state</div>
+<div>Fs1 = {k: red(K, JA) for k, K in kraus(0).items()}</div>
+<div>Fs2 = {k: red(K, JA) for k, K in kraus_q(0, (0.5, 0.25, 0.25)).items()}</div>
+<div>w1, w2 = ((0, 1, 1), (0, 2, 3)), ((0, 2, 3), (0, 1, 1))</div>
+<div>e1, p1 = run_law(phiA0, w1, Fs1, Fs2, Wd); e2, p2 = run_law(phiA0, w2, Fs1, Fs2, Wd)</div>
+<div>tv_b = 0.5*np.abs(next_law(e1, w1[0], Fs1, Fs2, Wd) - next_law(e2, w2[0], Fs1, Fs2, Wd)).sum()</div>
+<div>print(f&quot;12b. sharp, fixed initial state: same present ray: &quot;</div>
+<div>      f&quot;{np.isclose(abs(np.vdot(e1, e2)), 1.0)}; probabilities {p1:.3e}, {p2:.3e};&quot;)</div>
+<div>print(f&quot;     next-event total variation = {tv_b:.4f}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 13. conditioning on a future event = forward Markov law with a Doob h-transform</div>
+<div>E, nT = (1, 2, 0), 3</div>
+<div>def h(psi, m):                                          # Pr(event E at stage nT | psi at m)</div>
+<div>    if m == nT - 1: return np.linalg.norm(FA[E] @ (WA @ psi))**2</div>
+<div>    tot = 0.0</div>
+<div>    for k in F:</div>
+<div>        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real</div>
+<div>        if q &gt; 1e-15: tot += q*h(v/np.sqrt(q), m+1)</div>
+<div>    return tot</div>
+<div>cond = {hh: v[0] for hh, v in dA.items() if hh[-1] == E}</div>
+<div>Z = sum(cond.values()); cond = {hh: p_/Z for hh, p_ in cond.items()}</div>
+<div>def doob(hist):</div>
+<div>    psi, p_ = phiA0.copy(), 1.0</div>
+<div>    for m, k in enumerate(hist):</div>
+<div>        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; nxt = v/np.sqrt(q)</div>
+<div>        hn = (1.0 if k == E else 0.0) if m == nT-1 else h(nxt, m+1)</div>
+<div>        p_ *= q*hn/h(psi, m); psi = nxt</div>
+<div>    return p_</div>
+<div>dmax = max(abs(doob(hh) - pc) for hh, pc in cond.items())</div>
+<div>print(f&quot;13. conditioned on {E} at stage {nT}: Doob forward kernel vs conditioned law, &quot;</div>
+<div>      f&quot;max diff = {dmax:.1e}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 14. realized-history consistency for causally local instruments (brickwork circuit)</div>
+<div>rq = np.random.default_rng(2026)</div>
+<div>nq = 6</div>
+<div>slots = [(1, 0), (1, 2), (1, 4), (2, 1), (2, 3), (3, 0), (3, 2), (3, 4)]   # (layer, first qubit)</div>
+<div>def qubits(x): return {slots[x][1], slots[x][1] + 1}</div>
+<div>direct = {(x, y) for x in range(len(slots)) for y in range(len(slots))</div>
+<div>          if slots[x][0] &lt; slots[y][0] and qubits(x) &amp; qubits(y)}</div>
+<div>prec = set(direct)</div>
+<div>while True:                                             # transitive closure</div>
+<div>    new = {(a, d) for (a, b) in prec for (c, d) in prec if b == c} - prec</div>
+<div>    if not new: break</div>
+<div>    prec |= new</div>
+<div>def rand_instr(r):                                      # random 2-outcome instrument, 2 qubits</div>
+<div>    Z_ = r.normal(size=(8, 4)) + 1j*r.normal(size=(8, 4)); Q, _ = np.linalg.qr(Z_)</div>
+<div>    return [Q[0:4, :], Q[4:8, :]]</div>
+<div>def embed(K, q0, n=nq): return np.kron(np.kron(np.eye(2**q0), K), np.eye(2**(n - q0 - 2)))</div>
+<div>instr = {x: rand_instr(rq) for x in range(len(slots))}</div>
+<div>psi_c = rq.normal(size=2**nq) + 1j*rq.normal(size=2**nq); psi_c /= np.linalg.norm(psi_c)</div>
+<div>def lin_ext(r):</div>
+<div>    left, order = set(range(len(slots))), []</div>
+<div>    while left:</div>
+<div>        ready = [x for x in left if not any((y, x) in prec for y in left)]</div>
+<div>        x = ready[r.integers(len(ready))]; order.append(x); left.remove(x)</div>
+<div>    return tuple(order)</div>
+<div>def joint(order, ins, where=None):</div>
+<div>    where = where or {x: slots[x][1] for x in range(len(slots))}</div>
+<div>    out = {}</div>
+<div>    for outs in itertools.product((0, 1), repeat=len(slots)):</div>
+<div>        v = psi_c.copy()</div>
+<div>        for x in order: v = embed(ins[x][outs[x]], where[x]) @ v</div>
+<div>        out[outs] = v</div>
+<div>    return out</div>
+<div>def all_ext(left, prefix):</div>
+<div>    if not left: yield tuple(prefix); return</div>
+<div>    for x in sorted(left):</div>
+<div>        if not any((y, x) in prec for y in left):</div>
+<div>            yield from all_ext(left - {x}, prefix + [x])</div>
+<div>exts = set(all_ext(set(range(len(slots))), []))</div>
+<div>ref = joint(next(iter(exts)), instr)</div>
+<div>dp, ds = 0.0, 0.0</div>
+<div>for e in exts:</div>
+<div>    jj = joint(e, instr)</div>
+<div>    for o in ref:</div>
+<div>        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real</div>
+<div>        dp = max(dp, abs(pa - pb))</div>
+<div>        if pa &gt; 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))</div>
+<div>print(f&quot;14. causally local instruments: all {len(exts)} foliations (linear extensions), &quot;</div>
+<div>      f&quot;{len(ref)} outcome histories;&quot;)</div>
+<div>print(f&quot;    max |p - p&#x27;| = {dp:.1e}, max state deviation = {ds:.1e}&quot;)</div>
+<div># no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change</div>
+<div>X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}</div>
+<div>def marg(ins):</div>
+<div>    jj = joint(next(iter(exts)), ins); m = np.zeros(2)</div>
+<div>    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real</div>
+<div>    return m</div>
+<div>m0 = marg(instr); worst = 0.0</div>
+<div>for y in set(range(len(slots))) - past:</div>
+<div>    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())</div>
+<div>print(f&quot;    instruments changed outside the predecessor set of slot {X}: &quot;</div>
+<div>      f&quot;max change = {worst:.1e}&quot;)</div>
+<div># consistency on nested order ideals: law on I computed from instruments in I alone</div>
+<div>I_ideal = sorted(past)</div>
+<div>devI = 0.0</div>
+<div>full = joint(next(iter(exts)), instr)</div>
+<div>for oI in itertools.product((0, 1), repeat=len(I_ideal)):</div>
+<div>    v = psi_c.copy()</div>
+<div>    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v</div>
+<div>    pI = np.vdot(v, v).real</div>
+<div>    pm = sum(np.vdot(w, w).real for o, w in full.items()</div>
+<div>             if tuple(o[x] for x in I_ideal) == oI)</div>
+<div>    devI = max(devI, abs(pI - pm))</div>
+<div>print(f&quot;    order ideal {I_ideal}: law from its own instruments vs marginal of full law, &quot;</div>
+<div>      f&quot;max diff = {devI:.1e}&quot;)</div>
+<div># counterexample: two &#x27;spacelike&#x27; slots acting on overlapping qubits</div>
+<div>where_bad = {x: slots[x][1] for x in range(len(slots))}; where_bad[1] = 1   # slot 1 on (1,2)</div>
+<div>o1 = (0, 1, 2, 3, 4, 5, 6, 7); o2 = (1, 0, 2, 3, 4, 5, 6, 7)</div>
+<div>j1, j2 = joint(o1, instr, where_bad), joint(o2, instr, where_bad)</div>
+<div>tvb = 0.5*sum(abs(np.vdot(j1[o], j1[o]).real - np.vdot(j2[o], j2[o]).real) for o in j1)</div>
+<div>print(f&quot;    non-commuting &#x27;spacelike&#x27; pair: total variation between orders = {tvb:.3f}&quot;)</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-34.md">Raw Markdown</a> <a href="part-33.html">Previous part</a> <a href="part-35.html">Next part</a></nav></body></html>

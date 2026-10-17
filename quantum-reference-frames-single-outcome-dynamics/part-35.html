@@ -1,0 +1,161 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 35 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 35 of 40 · 1,323 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-35.md">Raw Markdown</a> <a href="part-34.html">Previous part</a> <a href="part-36.html">Next part</a></nav><main class="source"><div>&nbsp;</div>
+<div># ---- 15. equal ensembles, different realized-history measures (two unravellings)</div>
+<div>plus = np.array([1, 1])/np.sqrt(2); minus = np.array([1, -1])/np.sqrt(2)</div>
+<div>I1 = [np.diag([1, 0]), np.diag([0, 1])]</div>
+<div>I2 = [np.eye(2)/np.sqrt(2), np.diag([1, -1])/np.sqrt(2)]</div>
+<div>Xm = [np.outer(plus, plus), np.outer(minus, minus)]</div>
+<div>rho = rq.normal(size=(2, 2)) + 1j*rq.normal(size=(2, 2))</div>
+<div>rho = rho @ rho.conj().T; rho /= np.trace(rho)</div>
+<div>ch = lambda I, r: sum(K @ r @ K.conj().T for K in I)</div>
+<div>same_channel = np.allclose(ch(I1, rho), ch(I2, rho))</div>
+<div>def jd(I):</div>
+<div>    return np.array([[np.linalg.norm(M @ K @ plus)**2 for M in Xm] for K in I])</div>
+<div>J1, J2 = jd(I1), jd(I2)</div>
+<div>def mi(Jm):</div>
+<div>    pa, pb = Jm.sum(1), Jm.sum(0)</div>
+<div>    return sum(Jm[i, j]*np.log2(Jm[i, j]/(pa[i]*pb[j])) for i in range(2) for j in range(2)</div>
+<div>               if Jm[i, j] &gt; 1e-15)</div>
+<div>print(f&quot;15. same channel: {same_channel}; joint law of (first event, later X outcome):&quot;)</div>
+<div>print(f&quot;    {J1.round(3).tolist()} vs {J2.round(3).tolist()};&quot;)</div>
+<div>print(f&quot;    mutual information {mi(J1):.3f} vs {mi(J2):.3f} bits&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 16. imperfect quantum clocks: identity of events vs clock-relative timing</div>
+<div>Mc, th = 32, 0.9</div>
+<div>Sc = np.roll(np.eye(Mc), 1, axis=0)</div>
+<div>Uc = Sc @ expm(-1j*th*(Sc + Sc.T))</div>
+<div>step = np.abs(Uc[:, 0])**2                               # law of one recorded clock step</div>
+<div>signed = [(m if m &lt;= Mc//2 else m - Mc) for m in range(Mc)]</div>
+<div>p_inv = sum(step[m] for m in range(Mc) if signed[m] &lt; 0)</div>
+<div>p_stall = step[0]</div>
+<div>from scipy.special import jv</div>
+<div>bes_inv = (1 - jv(0, 2*th)**2 - 2*jv(1, 2*th)**2)/2; bes_stall = jv(1, 2*th)**2</div>
+<div>far = sum(step[m] for m in range(Mc) if abs(signed[m]) &gt;= 8)</div>
+<div>print(f&quot;16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):&quot;)</div>
+<div>print(f&quot;    P(backward) = {p_inv:.9f}, P(no advance) = {p_stall:.9f};&quot;)</div>
+<div>print(f&quot;    infinite-lattice Bessel values {bes_inv:.9f}, {bes_stall:.9f}&quot;)</div>
+<div>print(f&quot;    max difference = {max(abs(p_inv-bes_inv), abs(p_stall-bes_stall)):.1e}; &quot;</div>
+<div>      f&quot;P(|displacement| &gt;= 8) = {far:.1e}&quot;)</div>
+<div>per = [n % 2 for n in range(5)]</div>
+<div>print(f&quot;    period-2 counter readings at stages 0-4: {per};&quot;)</div>
+<div>print(&quot;    superposed counter: reading at stage n is n or n+4, each with probability 0.5&quot;)</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div># ---- 17. gapless detectors on a free field: three-region (Sorkin-type) signaling test</div>
+<div># two-mode realization of the commutation pattern E_AB = 0, E_AC = E_CB = 1:</div>
+<div># phi_A = q1, phi_C = p1 + q2, phi_B = p2; vacuum state; Fock cutoff nc per mode</div>
+<div>def sorkin(nc, lamA=0.9, lamC=0.8, lamB=0.7, kick=1.5):</div>
+<div>    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)</div>
+<div>    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)</div>
+<div>    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)</div>
+<div>    v0 = np.zeros(nc*nc, complex); v0[0] = 1</div>
+<div>    def fn(Hm, f):</div>
+<div>        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T</div>
+<div>    det = lambda ph, l: [fn(ph, lambda x: np.cos(l*x)), 1j*fn(ph, lambda x: np.sin(l*x))]</div>
+<div>    gg = lambda x: 0.5*(1 + np.tanh(2*x))</div>
+<div>    lud = lambda ph: [fn(ph, lambda x: np.sqrt(gg(x))), fn(ph, lambda x: np.sqrt(1 - gg(x)))]</div>
+<div>    def bob(KA, KC, KB):</div>
+<div>        pb = 0.0</div>
+<div>        for Ka in KA:</div>
+<div>            va = Ka @ v0</div>
+<div>            for Kc in KC: pb += np.linalg.norm(KB[1] @ (Kc @ va))**2</div>
+<div>        return pb</div>
+<div>    KB = det(phB, lamB); Id = [np.eye(nc*nc)]; kA = [fn(phA, lambda x: np.exp(1j*kick*x))]</div>
+<div>    out = {}</div>
+<div>    for nm, KC in ((&#x27;gapless&#x27;, det(phC, lamC)), (&#x27;luders&#x27;, lud(phC))):</div>
+<div>        base = bob(Id, KC, KB)</div>
+<div>        out[nm] = (base, bob(det(phA, lamA), KC, KB) - base, bob(kA, KC, KB) - base)</div>
+<div>    return out</div>
+<div>s40, s50 = sorkin(40), sorkin(50)</div>
+<div>ana = 0.5 - 0.5*np.cos(2*0.7*0.8)*np.exp(-0.7**2)</div>
+<div>print(f&quot;17. three-region test, Bob&#x27;s P(b=1) and its shift under Alice&#x27;s detector / kick:&quot;)</div>
+<div>print(f&quot;    gapless Charlie: P = {s50[&#x27;gapless&#x27;][0]:.10f} (analytic {ana:.10f}); shifts &quot;</div>
+<div>      f&quot;{s50[&#x27;gapless&#x27;][1]:.1e}, {s50[&#x27;gapless&#x27;][2]:.1e}&quot;)</div>
+<div>print(f&quot;    unsharp Lueders Charlie: P = {s50[&#x27;luders&#x27;][0]:.6f}; shifts &quot;</div>
+<div>      f&quot;{s50[&#x27;luders&#x27;][1]:.6f}, {s50[&#x27;luders&#x27;][2]:.6f}&quot;)</div>
+<div>print(f&quot;    cutoff 40 vs 50: max change = &quot;</div>
+<div>      f&quot;{max(abs(s40[k][i] - s50[k][i]) for k in s40 for i in range(3)):.1e}&quot;)</div>
+<div>&nbsp;</div>
+<div># ---- 18. Gaussian collapse of a smeared field at C (Weyl-diagonal): same three-region test</div>
+<div>def gauss_test(nc=40, lamA=0.9, lamB=0.7, kick=1.5, sig=0.6, p_hit=1.0, dy=0.02):</div>
+<div>    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)</div>
+<div>    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)</div>
+<div>    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)</div>
+<div>    v0 = np.zeros(nc*nc, complex); v0[0] = 1</div>
+<div>    def fn(Hm, f):</div>
+<div>        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T</div>
+<div>    wC, VC = np.linalg.eigh(phC); ys = np.arange(-10, 10 + dy/2, dy)</div>
+<div>    KB1 = 1j*fn(phB, lambda x: np.sin(lamB*x))</div>
+<div>    def bob(KA):</div>
+<div>        pb = 0.0</div>
+<div>        for Ka in KA:</div>
+<div>            w = VC.conj().T @ (Ka @ v0)</div>
+<div>            if p_hit &lt; 1: pb += (1 - p_hit)*np.linalg.norm(KB1 @ (VC @ w))**2</div>
+<div>            for y in ys:</div>
+<div>                k = (2*np.pi*sig**2)**-0.25*np.exp(-(wC - y)**2/(4*sig**2))</div>
+<div>                pb += p_hit*dy*np.linalg.norm(KB1 @ (VC @ (k*w)))**2</div>
+<div>        return pb</div>
+<div>    detA = [fn(phA, lambda x: np.cos(lamA*x)), 1j*fn(phA, lambda x: np.sin(lamA*x))]</div>
+<div>    base = bob([np.eye(nc*nc)])</div>
+<div>    ana = 0.5 - 0.5*np.exp(-lamB**2)*((1 - p_hit) + p_hit*np.exp(-lamB**2/(2*sig**2)))</div>
+<div>    shifts = (bob(detA) - base, bob([fn(phA, lambda x: np.exp(1j*kick*x))]) - base)</div>
+<div>    return base, ana, shifts</div>
+<div>for ph in (1.0, 0.4):</div>
+<div>    b_, a_, sh = gauss_test(p_hit=ph)</div>
+<div>    print(f&quot;18. Gaussian collapse at C (hit probability {ph}): P = {b_:.10f} &quot;</div>
+<div>          f&quot;(analytic {a_:.10f});&quot;)</div>
+<div>    print(f&quot;    shifts under Alice&#x27;s detector / kick: {sh[0]:.1e}, {sh[1]:.1e}&quot;)</div>
+<div>import sys, scipy</div>
+<div>print(f&quot;Environment: Python {sys.version.split()[0]}, NumPy {np.__version__}, &quot;</div>
+<div>      f&quot;SciPy {scipy.__version__}&quot;)</div>
+<div>print(&quot;Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); &quot;</div>
+<div>      &quot;2026 (items 14-15)&quot;)</div>
+<div>&nbsp;</div>
+<div>Output:</div>
+<div>&nbsp;</div>
+<div>1. reductions unitary; V_AB = explicit permutation: True</div>
+<div>   groupoid law V_BC V_AB = V_AC: True</div>
+<div>2. instrument complete: True | all generators G-invariant: True</div>
+<div>3. intertwining V K^A V^dag = K^B for W and every Kraus operator: True</div>
+<div>4. 4096 histories of 3 stages; max |p_A-p_B| = 2.78e-17, max |p_A-p_neutral| = 1.39e-17</div>
+<div>   max(1-|&lt;V phi_A|phi_B&gt;|) = 6.66e-16, total prob = 1.000000000000</div>
+<div>5. naive same-form frame-B rule: total-variation distance from correct record measure = 0.180</div>
+<div>6. records [(0, 1, 1), (0, 2, 3)] vs [(0, 2, 3), (0, 1, 1)] -&gt; same present ray: True</div>
+<div>7. entanglement entropy: frame A 0.000 bits, frame B 1.000 bits</div>
+<div>8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = 0.894</div>
+<div>9. continuous time: 200 trajectories, 1158 events; identical event records in A and B: True</div>
+<div>   max(1-|&lt;V psi_A|psi_B&gt;|) at final time = 6.7e-16</div>
+<div>10. generic parameters, 4096 three-stage histories: exact coincidences = 0; largest overlap = 0.9852</div>
+<div>    minimum error probability for telling that pair apart (Helstrom) = 0.414</div>
+<div>11. two different 3-stage histories, same present ray: |&lt;end|Phi&gt;| = 1.000000000000, 1.000000000000</div>
+<div>    history probabilities 4.15e-05, 7.62e-05; overlap of the two initial states = 0.552</div>
+<div>12a. finite width: both branches end at the same ray (|&lt;end|Phi&gt;| = 1.000000000000, 1.000000000000),</div>
+<div>     probabilities 5.04e-05, 1.62e-03; next-event total variation = 0.1000 (lambda/6 = 0.1000)</div>
+<div>12b. sharp, fixed initial state: same present ray: True; probabilities 8.254e-04, 1.238e-03;</div>
+<div>     next-event total variation = 0.1000</div>
+<div>13. conditioned on (1, 2, 0) at stage 3: Doob forward kernel vs conditioned law, max diff = 8.3e-17</div>
+<div>14. causally local instruments: all 136 foliations (linear extensions), 256 outcome histories;</div>
+<div>    max |p - p&#x27;| = 6.9e-18, max state deviation = 4.4e-16</div>
+<div>    instruments changed outside the predecessor set of slot 3: max change = 7.8e-16</div>
+<div>    order ideal [0, 1, 3]: law from its own instruments vs marginal of full law, max diff = 1.1e-16</div>
+<div>    non-commuting &#x27;spacelike&#x27; pair: total variation between orders = 0.165</div>
+<div>15. same channel: True; joint law of (first event, later X outcome):</div>
+<div>    [[0.25, 0.25], [0.25, 0.25]] vs [[0.5, 0.0], [0.0, 0.5]];</div>
+<div>    mutual information 0.000 vs 1.000 bits</div>
+<div>16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):</div>
+<div>    P(backward) = 0.104042655, P(no advance) = 0.338161965;</div>
+<div>    infinite-lattice Bessel values 0.104042655, 0.338161965</div>
+<div>    max difference = 1.1e-16; P(|displacement| &gt;= 8) = 7.4e-09</div>
+<div>    period-2 counter readings at stages 0-4: [0, 1, 0, 1, 0];</div>
+<div>    superposed counter: reading at stage n is n or n+4, each with probability 0.5</div>
+<div>17. three-region test, Bob&#x27;s P(b=1) and its shift under Alice&#x27;s detector / kick:</div>
+<div>    gapless Charlie: P = 0.3665447170 (analytic 0.3665447170); shifts -2.2e-16, -6.1e-16</div>
+<div>    unsharp Lueders Charlie: P = 0.275038; shifts -0.021492, -0.046628</div>
+<div>    cutoff 40 vs 50: max change = 8.8e-08</div>
+<div>18. Gaussian collapse at C (hit probability 1.0): P = 0.3449027185 (analytic 0.3449027185);</div>
+<div>    shifts under Alice&#x27;s detector / kick: -3.3e-16, -5.0e-14</div>
+<div>18. Gaussian collapse at C (hit probability 0.4): P = 0.2541731691 (analytic 0.2541731691);</div>
+<div>    shifts under Alice&#x27;s detector / kick: -8.3e-16, -2.0e-14</div>
+<div>Environment: Python 3.13.16, NumPy 2.5.3, SciPy 1.18.1</div>
+<div>Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); 2026 (items 14-15)</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-35.md">Raw Markdown</a> <a href="part-34.html">Previous part</a> <a href="part-36.html">Next part</a></nav></body></html>

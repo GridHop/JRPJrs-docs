@@ -1,0 +1,131 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 10 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 10 of 40 · 1,573 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-10.md">Raw Markdown</a> <a href="part-09.html">Previous part</a> <a href="part-11.html">Next part</a></nav><main class="source"><div>9.3 Continuous-Time Histories as Marked Point Processes</div>
+<div>&nbsp;</div>
+<div>In continuous time a history consists of event labels together with their times, and the truth</div>
+<div>profile contains a continuum of state propositions. Both must be defined explicitly.</div>
+<div>&nbsp;</div>
+<div>Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t &gt; 0. A record on [0, t] is a finite</div>
+<div>sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 &lt; t_1 &lt; ⋯ &lt; t_m ≤ t, and k_j ∈ 𝒦. The record</div>
+<div>space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference</div>
+<div>measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along</div>
+<div>ω, the state at time s ∈ [0, t] is the normalized vector</div>
+<div>&nbsp;</div>
+<div>        Ψ_s(ω) ∝ e^{−iH(s − t_j)} J_{k_j} e^{−iH(t_j − t_{j−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0</div>
+<div>                for t_j ≤ s &lt; t_{j+1},</div>
+<div>&nbsp;</div>
+<div>with t_0 = 0 and t_{m+1} = ∞, so that the state is right-continuous at each jump.</div>
+<div>&nbsp;</div>
+<div>Proposition 9.4 (Density of the record). The law of the record on [0, t] has density, with respect</div>
+<div>to the reference measure,</div>
+<div>&nbsp;</div>
+<div>        p_t(ω) = e^{−Λt} ‖J_{k_m} e^{−iH(t_m − t_{m−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0‖².</div>
+<div>&nbsp;</div>
+<div>The admissible records are the positive-density records, 𝒜_t = { ω ∈ Ω_t : p_t(ω) &gt; 0 }.</div>
+<div>&nbsp;</div>
+<div>Proof. The hit times of a Poisson process of rate Λ have density Λ^m e^{−Λt} on ordered m-tuples in</div>
+<div>(0, t]. Given the hit times, the labels are drawn successively with probabilities ‖J_{k_j} φ_j‖² /</div>
+<div>Λ, where φ_j is the normalized state just before t_j. The product of these probabilities times Λ^m</div>
+<div>is Π_j ‖J_{k_j} φ_j‖². Because the evolution between hits is unitary, this product telescopes into</div>
+<div>the squared norm of the unnormalized vector shown. □</div>
+<div>&nbsp;</div>
+<div>Definition 9.5 (Continuous-time truth profile). The past-tensed language in continuous time consists</div>
+<div>of state propositions Had(s, [Ψ]), read “at time s the state was [Ψ]”, and event propositions Had(s,</div>
+<div>k), read “at time s event k occurred”. For ω ∈ 𝒜_t the truth profile at time t is</div>
+<div>&nbsp;</div>
+<div>        L_t(ω) = { Had(s, [Ψ_s(ω)]) : 0 ≤ s &lt; t } ∪ { Had(t_j, k_j) : 1 ≤ j ≤ m }.</div>
+<div>&nbsp;</div>
+<div>An event at time t_m = t is counted as having occurred: it belongs to the generation of the present</div>
+<div>state, which is right-continuous.</div>
+<div>&nbsp;</div>
+<div>Remark 9.6 (Pointwise and almost-sure statements). Two kinds of statement about records must be kept</div>
+<div>apart. Pointwise statements hold for every record in a specified set: Definitions 9.3 and 9.5 assign</div>
+<div>a state path and a truth profile to every record, Theorem 9.7 characterizes the profiles of all</div>
+<div>admissible records, and Propositions 9.8 and 9.9 and Theorem 9.10 hold for every admissible record.</div>
+<div>Probabilistic statements hold almost surely, that is, outside a set of records of probability zero.</div>
+<div>Because p_t is a density, an individual record has probability zero. Admissibility means positive</div>
+<div>density, p_t(ω) &gt; 0; it does not mean that ω has positive probability, and positivity of a density</div>
+<div>is not in general the same as membership in the topological support of the law. Throughout,</div>
+<div>“admissible” is used only in the positive-density sense. In the finite-width model every Kraus</div>
+<div>operator is invertible, so every record has positive density. In particular, records with an event</div>
+<div>exactly at the terminal time t form a set of probability zero: for a fixed t, the Poisson process</div>
+<div>almost surely has no point at t. Such records are admitted so that the profile at time t is defined</div>
+<div>for every record, with right-continuous states, and so that the profiles of a single trajectory are</div>
+<div>nested at all times; no probabilistic statement depends on them. Since every result in this section</div>
+<div>is proved pointwise for all admissible records, it holds in particular almost surely. The</div>
+<div>conditional law in Proposition 9.9 is likewise given by an explicit density defined for every</div>
+<div>record, which is a version of the conditional distribution; any other version agrees with it almost</div>
+<div>surely.</div>
+<div>&nbsp;</div>
+<div>Theorem 9.7 (Admissible continuous-time profiles). A set L of propositions belongs to { L_t(ω) : ω ∈</div>
+<div>𝒜_t } if and only if: (o) every element of L is a state proposition Had(s, [Ψ]) with s ≥ 0 or an</div>
+<div>event proposition Had(s, k) with s &gt; 0; (a) the event propositions are finitely many, with distinct</div>
+<div>times in (0, t]; (b) for each s ∈ [0, t) there is exactly one state proposition with time s, and</div>
+<div>none with time s ≥ t; (c) the state proposition at time 0 is Had(0, [Ψ_0]); and (d) if ω is the</div>
+<div>record read off from the event propositions, then p_t(ω) &gt; 0 and, for every s ∈ [0, t), the state</div>
+<div>proposition at time s is Had(s, [Ψ_s(ω)]). The record is then unique, and profiles are nested: if t</div>
+<div>≤ t′, ω′ ∈ 𝒜_{t′}, and ω is the restriction of ω′ to [0, t] (its events with times at most t), then</div>
+<div>ω ∈ 𝒜_t and L_t(ω) ⊆ L_{t′}(ω′).</div>
+<div>&nbsp;</div>
+<div>Proof. As for Theorem 4.8. Conditions (o) and (a) determine a unique record ω; (d) states that ω is</div>
+<div>admissible and that every state proposition is the one the law assigns along ω; (b) and (o) exclude</div>
+<div>anything else. For nesting, the factorization in the proof of Proposition 9.9 gives p_{t′}(ω′) =</div>
+<div>p_t(ω) · c with c ≥ 0, so p_{t′}(ω′) &gt; 0 implies p_t(ω) &gt; 0 and hence ω ∈ 𝒜_t. Restriction preserves</div>
+<div>the event propositions with times up to t and the states at all times before t, so every element of</div>
+<div>L_t(ω) belongs to L_{t′}(ω′); for t &lt; t′ the later profile also contains the state proposition at</div>
+<div>time t, which is why the inclusion can be strict. □</div>
+<div>&nbsp;</div>
+<div>Proposition 9.8 (Reconstruction from an earlier time). For 0 ≤ s &lt; t and ω ∈ 𝒜_t, the present state</div>
+<div>S_t = [Ψ_t(ω)] is fixed by the state proposition Had(s, [Ψ_s(ω)]), the event propositions with times</div>
+<div>in (s, t], and the law: it is obtained by applying to Ψ_s(ω) the unitary evolution between those</div>
+<div>events and the corresponding jump operators.</div>
+<div>&nbsp;</div>
+<div>Proof. Definition 9.3, applied from time s rather than time 0. □</div>
+<div>&nbsp;</div>
+<div>Proposition 9.8 avoids any appeal to a “latest” earlier time, which does not exist in continuous</div>
+<div>time: any earlier time s, together with the events since s, suffices.</div>
+<div>&nbsp;</div>
+<div>Proposition 9.9 (Dynamical idleness in continuous time). For t &lt; t′, the conditional law of the</div>
+<div>record on (t, t′], given the complete state (S_t, L_t), depends only on S_t. Its density is e^{−Λ(t′</div>
+<div>− t)} ‖J_{k_r} e^{−iH(t_r − t_{r−1})} ⋯ J_{k_{m+1}} e^{−iH(t_{m+1} − t)} Ψ_t‖², where (t_{m+1},</div>
+<div>k_{m+1}), …, (t_r, k_r) are the events in (t, t′].</div>
+<div>&nbsp;</div>
+<div>Proof. Write the unnormalized vector of Proposition 9.4 on [0, t′] as A B Ψ_0, where B carries Ψ_0</div>
+<div>to the unnormalized state at time t and A carries the state from t to t′. Then ‖A B Ψ_0‖² = ‖A Ψ_t‖²</div>
+<div>‖B Ψ_0‖² with Ψ_t = B Ψ_0 / ‖B Ψ_0‖, and e^{−Λt′} = e^{−Λt} e^{−Λ(t′ − t)}. The density on [0, t′]</div>
+<div>therefore factorizes into the density on [0, t] and the stated factor, which depends on the past</div>
+<div>only through Ψ_t. □</div>
+<div>&nbsp;</div>
+<div>Theorem 9.10 (Continuous-time covariance, correspondence, and truth preservation). For a frame A,</div>
+<div>let the frame-A description at time t be D^A_t = (t, [R_A Ψ_t], τ_A(L_t)), where τ_A maps Had(s,</div>
+<div>[Ψ]) to Had(s, [R_A Ψ]) and Had(s, k) to Had(s, k, E^A_k). Then:</div>
+<div>&nbsp;</div>
+<div>    (a) For every record ω, the densities computed in frame A, in frame B, and in the neutral</div>
+<div>    description coincide, so the sets 𝒜_t of admissible records coincide in all frames.</div>
+<div>&nbsp;</div>
+<div>    (b) Along every ω ∈ 𝒜_t, the frame states satisfy [R_B Ψ_s(ω)] = [V_{A→B} R_A Ψ_s(ω)] for all s</div>
+<div>    ∈ [0, t].</div>
+<div>&nbsp;</div>
+<div>    (c) Criterion 5.5, with stage replaced by time, Theorem 5.6, and Proposition 5.8 hold for</div>
+<div>    continuous-time descriptions, and if the descriptions of two frames correspond at time 0, the</div>
+<div>    descriptions generated from them correspond at every later time along every admissible record.</div>
+<div>&nbsp;</div>
+<div>    (d) Truth preservation (Theorem 5.16) and no revision across frames (Proposition 5.17) hold at</div>
+<div>    every time.</div>
+<div>&nbsp;</div>
+<div>Proof. (a) By Lemma 3.7, R_A J_k = J^A_k R_A and R_A e^{−iHs} = e^{−iH^A s} R_A on H_phys. Hence the</div>
+<div>frame-A unnormalized vector of Proposition 9.4, applied to R_A Ψ_0, equals R_A applied to the</div>
+<div>neutral one, and its norm is the same because R_A is unitary; likewise for frame B. (b) The same</div>
+<div>identities show that the frame-A state at time s is proportional to R_A Ψ_s(ω), and R_B = V_{A→B}</div>
+<div>R_A on H_phys. (c) The proofs of Theorem 5.6 and Proposition 5.8 use only the unitarity of the</div>
+<div>reductions and the bijectivity of the translations, both of which hold here; preservation of</div>
+<div>correspondence follows from (a) and (b), because both frames add, at each time, the translations of</div>
+<div>the same neutral propositions. (d) The proofs of Theorem 5.16 and Proposition 5.17 carry over</div>
+<div>verbatim, using (c) and the nesting in Theorem 9.7. □</div>
+<div>&nbsp;</div>
+<div>The numerical check (Table 1) simulated 200 trajectories over total time T = 5 in frames A and B</div>
+<div>with common random numbers: the 1,158 events, and their times, were identical in the two frames, and</div>
+<div>the final states were related by V_{A→B} to machine precision.</div>
+<div>&nbsp;</div>
+<div>The resulting picture matches CTGP’s description of generation: continuous evolution of the present</div>
+<div>state, punctuated by discrete primitive events, with each moment’s state and each event passing into</div>
+<div>the past-tensed profile.</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-10.md">Raw Markdown</a> <a href="part-09.html">Previous part</a> <a href="part-11.html">Next part</a></nav></body></html>

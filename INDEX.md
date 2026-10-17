@@ -2,7 +2,7 @@
 
 Public site: https://gridhop.github.io/JRPJrs-docs/
 
-Six works. Each reading page has an HTML and a Markdown version. Part boundaries are chosen at paragraph boundaries, favoring headings.
+Seven works. Each reading page has an HTML and a Markdown version. Part boundaries are chosen at paragraph boundaries, favoring headings.
 
 ## Signal-Based Epistemology — Explained
 - [Contents](signal-based-epistemology/index.html) — 11 parts
@@ -118,4 +118,48 @@ Six works. Each reading page has an HTML and a Markdown version. Part boundaries
 - [Part 20 HTML](deals-worth/part-20.html) · [Markdown](deals-worth/part-20.md) — 1,632 words
 - [Part 21 HTML](deals-worth/part-21.html) · [Markdown](deals-worth/part-21.md) — 1,618 words
 - [Part 22 HTML](deals-worth/part-22.html) · [Markdown](deals-worth/part-22.md) — 1,543 words
+
+## Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
+- [Contents](quantum-reference-frames-single-outcome-dynamics/index.html) — 40 parts
+
+- [Part 01 HTML](quantum-reference-frames-single-outcome-dynamics/part-01.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-01.md) — 1,575 words — ABSTRACT
+- [Part 02 HTML](quantum-reference-frames-single-outcome-dynamics/part-02.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-02.md) — 1,610 words — 2.1 Quantum Reference Frames and the Perspective-Neutral Framework
+- [Part 03 HTML](quantum-reference-frames-single-outcome-dynamics/part-03.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-03.md) — 1,772 words — 3.1 The Perspective-Neutral State Space
+- [Part 04 HTML](quantum-reference-frames-single-outcome-dynamics/part-04.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-04.md) — 1,223 words — 4.4 The Complete Ontological State and the Truth Profile
+- [Part 05 HTML](quantum-reference-frames-single-outcome-dynamics/part-05.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-05.md) — 1,250 words — 4.6 L and S: Dynamical Idleness, Accuracy, and Non-Supervenience
+- [Part 06 HTML](quantum-reference-frames-single-outcome-dynamics/part-06.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-06.md) — 1,664 words — 5.2 Cross-Frame Identification (Task T2)
+- [Part 07 HTML](quantum-reference-frames-single-outcome-dynamics/part-07.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-07.md) — 1,713 words — 5.4 Truth Preservation (Task T3)
+- [Part 08 HTML](quantum-reference-frames-single-outcome-dynamics/part-08.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-08.md) — 1,698 words — 1 and Tier 2 truth without positing existing past events, at the acknowledged cost that these
+- [Part 09 HTML](quantum-reference-frames-single-outcome-dynamics/part-09.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-09.md) — 1,690 words — 8.1 Generative Law and Single Outcome
+- [Part 10 HTML](quantum-reference-frames-single-outcome-dynamics/part-10.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-10.md) — 1,573 words — 9.3 Continuous-Time Histories as Marked Point Processes
+- [Part 11 HTML](quantum-reference-frames-single-outcome-dynamics/part-11.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-11.md) — 1,150 words — 9.4 What Is Postulated: The Identification of t With Cosmic Time
+- [Part 12 HTML](quantum-reference-frames-single-outcome-dynamics/part-12.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-12.md) — 1,698 words — 1 a stage with Pr(k_n = E | Ψ_{σ_0}) > 0. For m < n define h_m(Ψ) as the probability that k_n = E
+- [Part 13 HTML](quantum-reference-frames-single-outcome-dynamics/part-13.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-13.md) — 1,624 words — PART V. A Compatibility Program: Quantum Fields, Quantum Clocks, and Quantum Gravity
+- [Part 14 HTML](quantum-reference-frames-single-outcome-dynamics/part-14.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-14.md) — 1,650 words — 13.2 Hypersurface Evolution and Its Limits
+- [Part 15 HTML](quantum-reference-frames-single-outcome-dynamics/part-15.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-15.md) — 1,574 words — 13.5 Toward the Relativistic Case: Countable Event Structures and the Remaining Assumptions
+- [Part 16 HTML](quantum-reference-frames-single-outcome-dynamics/part-16.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-16.md) — 1,389 words — (c) Explicit statistics. If detector B is preceded by detectors j_1, …, j_r whose outcomes are
+- [Part 17 HTML](quantum-reference-frames-single-outcome-dynamics/part-17.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-17.md) — 1,260 words — 13.7 Toward Spontaneous Events: Weyl-Diagonal Collapse
+- [Part 18 HTML](quantum-reference-frames-single-outcome-dynamics/part-18.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-18.md) — 1,626 words — 13.8 The Unread Collapse Channel: Random Kicks and Energy–Momentum Cost
+- [Part 19 HTML](quantum-reference-frames-single-outcome-dynamics/part-19.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-19.md) — 1,299 words — 13.9 Algebra Preservation: A Sufficient Condition for No-Signaling
+- [Part 20 HTML](quantum-reference-frames-single-outcome-dynamics/part-20.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-20.md) — 1,625 words — 13.10 Randomly Located Collapses
+- [Part 21 HTML](quantum-reference-frames-single-outcome-dynamics/part-21.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-21.md) — 1,561 words — 13.11 A Candidate Extension: Collapse Guided by Cosmological Time
+- [Part 22 HTML](quantum-reference-frames-single-outcome-dynamics/part-22.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-22.md) — 1,812 words — (i) Locations. Collapse centres form a Poisson process with intensity λ dVol_g in the region T >
+- [Part 23 HTML](quantum-reference-frames-single-outcome-dynamics/part-23.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-23.md) — 1,586 words — 13.29 and 13.31 state what holds for the second and the third.
+- [Part 24 HTML](quantum-reference-frames-single-outcome-dynamics/part-24.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-24.md) — 1,804 words — Proof. (a) Let t_K be the largest value of T on K. The level set Σ = { T = t_0 − τ } is a Cauchy
+- [Part 25 HTML](quantum-reference-frames-single-outcome-dynamics/part-25.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-25.md) — 1,580 words — to a phase. Tracing out the pointers integrates over the momenta with the density Π_k |η̂_k(p_k)|²,
+- [Part 26 HTML](quantum-reference-frames-single-outcome-dynamics/part-26.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-26.md) — 1,521 words — 13.12 Candidate Relativistic Realizations
+- [Part 27 HTML](quantum-reference-frames-single-outcome-dynamics/part-27.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-27.md) — 1,518 words — 13.13 Eight Distinctions Any Extension Must Respect
+- [Part 28 HTML](quantum-reference-frames-single-outcome-dynamics/part-28.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-28.md) — 1,614 words — 14.4 A Proposed Temporal Identification Criterion
+- [Part 29 HTML](quantum-reference-frames-single-outcome-dynamics/part-29.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-29.md) — 1,501 words — 14.6 The Possible Obstruction
+- [Part 30 HTML](quantum-reference-frames-single-outcome-dynamics/part-30.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-30.md) — 1,583 words — 15.5 First Test Problems
+- [Part 31 HTML](quantum-reference-frames-single-outcome-dynamics/part-31.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-31.md) — 1,805 words — 17.3 Open Problems
+- [Part 32 HTML](quantum-reference-frames-single-outcome-dynamics/part-32.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-32.md) — 1,753 words — References
+- [Part 33 HTML](quantum-reference-frames-single-outcome-dynamics/part-33.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-33.md) — 1,575 words — Appendix A. Frame-Relative Forms in the Ring Model
+- [Part 34 HTML](quantum-reference-frames-single-outcome-dynamics/part-34.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-34.md) — 1,693 words — # frame-relative product state becomes entangled in the other frame
+- [Part 35 HTML](quantum-reference-frames-single-outcome-dynamics/part-35.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-35.md) — 1,323 words — # ---- 15. equal ensembles, different realized-history measures (two unravellings)
+- [Part 36 HTML](quantum-reference-frames-single-outcome-dynamics/part-36.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-36.md) — 1,615 words — Appendix C. Verification of the Collapse and Two-Clock Results
+- [Part 37 HTML](quantum-reference-frames-single-outcome-dynamics/part-37.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-37.md) — 1,723 words — Phi = lambda z: 0.5 * (1 + erf(z / np.sqrt(2)))          # standard normal CDF
+- [Part 38 HTML](quantum-reference-frames-single-outcome-dynamics/part-38.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-38.md) — 1,613 words — def realize(E):
+- [Part 39 HTML](quantum-reference-frames-single-outcome-dynamics/part-39.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-39.md) — 1,588 words — 1.0   0.59905       0.79757
+- [Part 40 HTML](quantum-reference-frames-single-outcome-dynamics/part-40.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-40.md) — 862 words — print('Case 1: one record written by an interaction keyed to clock A')
 
