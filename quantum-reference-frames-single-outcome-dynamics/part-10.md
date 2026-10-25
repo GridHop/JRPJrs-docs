@@ -1,265 +1,341 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 10 of 40 (1,573 words)
+Part 10 of 35 (1,797 words)
 
-9.3 Continuous-Time Histories as Marked Point Processes
+law, every pair of frames, and every event k, the frame-A and frame-B single-step maps G^A_k(ψ) =
 
+F^A_k W^A ψ / ‖F^A_k W^A ψ‖ and G^B_k satisfy V_{A→B} ∘ G^A_k ≐ G^B_k ∘ V_{A→B}. The stage index is
 
+unchanged by every frame change. The same holds in continuous time, with hit times unchanged.
 
-In continuous time a history consists of event labels together with their times, and the truth
 
-profile contains a continuum of state propositions. Both must be defined explicitly.
 
+Proof. Lemma 3.7, Definition 3.4, and Proposition 9.2(iv). Frame changes are maps H_A → H_B at a
 
+fixed stage or time, and the stage or time index is a parameter of the law, not a quantum degree of
 
-Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t > 0. A record on [0, t] is a finite
+freedom. □
 
-sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 < t_1 < ⋯ < t_m ≤ t, and k_j ∈ 𝒦. The record
 
-space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference
 
-measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along
+The linear order of stages, and the order of events within a history, are therefore the same in
 
-ω, the state at time s ∈ [0, t] is the normalized vector
+every frame: event k_j precedes k_{j+1} in every description, and no frame change in this class
 
+superposes the order of events. This satisfies (C-e) for spatial QRFs. The status of this result
 
+should be stated plainly. The ordering is preserved because the stage or time index is a parameter
 
-        Ψ_s(ω) ∝ e^{−iH(s − t_j)} J_{k_j} e^{−iH(t_j − t_{j−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0
+on which frame changes do not act. That is an assumption of the class of models, not a derivation of
 
-                for t_j ≤ s < t_{j+1},
+definite order from more basic principles. Whether a definite order can be maintained when the
 
+reference frame is itself a quantum clock is the principal open problem (§14; §17.3, O3).
 
 
-with t_0 = 0 and t_{m+1} = ∞, so that the state is right-continuous at each jump.
 
+10.2 Generability
 
 
-Proposition 9.4 (Density of the record). The law of the record on [0, t] has density, with respect
 
-to the reference measure,
+The kernel of Definition 4.2, and the jump process of Definition 9.1, give the distribution of the
 
+next state and event from the present state alone. They use no data from later stages, no final-
 
+state condition, and no global self-consistency condition, so the model is generable in exactly the
 
-        p_t(ω) = e^{−Λt} ‖J_{k_m} e^{−iH(t_m − t_{m−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0‖².
+sense of (C-f). The state space on which the law acts is H_phys, the physically instantiated present
 
+state. The truth profile is not added to it (Proposition 4.9), so generability’s restriction on
 
+enlarging the state space is respected. By Corollary 5.14, the generability property holds in every
 
-The admissible records are the positive-density records, 𝒜_t = { ω ∈ Ω_t : p_t(ω) > 0 }.
+frame. The model is stochastic, which CTGP – explained, §12.2, explicitly allows.
 
 
 
-Proof. The hit times of a Poisson process of rate Λ have density Λ^m e^{−Λt} on ordered m-tuples in
+10.3 Open Future and Asymmetry
 
-(0, t]. Given the hit times, the labels are drawn successively with probabilities ‖J_{k_j} φ_j‖² /
 
-Λ, where φ_j is the normalized state just before t_j. The product of these probabilities times Λ^m
 
-is Π_j ‖J_{k_j} φ_j‖². Because the evolution between hits is unitary, this product telescopes into
+At stage σ, L_σ contains no proposition about a later stage (Theorem 4.8(e)), and no proposition
 
-the squared norm of the unnormalized vector shown. □
+about a later stage is determinate (Definition 5.1). Before a transition there are only kernel
 
+probabilities over possible events; after it there is one realized event and its Had-property. This
 
+matches clause (d) of CTGP’s Definition 17.20 and the claim that the future is ungenerated rather
 
-Definition 9.5 (Continuous-time truth profile). The past-tensed language in continuous time consists
+than merely unknown.
 
-of state propositions Had(s, [Ψ]), read “at time s the state was [Ψ]”, and event propositions Had(s,
 
-k), read “at time s event k occurred”. For ω ∈ 𝒜_t the truth profile at time t is
 
+10.4 No Relative Facts
 
 
-        L_t(ω) = { Had(s, [Ψ_s(ω)]) : 0 ≤ s < t } ∪ { Had(t_j, k_j) : 1 ≤ j ≤ m }.
 
+Every determinate proposition has the same truth value in every frame (Proposition 5.2 and Theorem
 
+5.16), so the model contains no frame-relative facts. It contains frame-relative descriptions and
 
-An event at time t_m = t is counted as having occurred: it belongs to the generation of the present
+relational quantities, which CTGP does not reject (§2.3).
 
-state, which is right-continuous.
 
 
+====================================================================================================
 
-Remark 9.6 (Pointwise and almost-sure statements). Two kinds of statement about records must be kept
+PART IV. Evaluation
 
-apart. Pointwise statements hold for every record in a specified set: Definitions 9.3 and 9.5 assign
+====================================================================================================
 
-a state path and a truth profile to every record, Theorem 9.7 characterizes the profiles of all
 
-admissible records, and Propositions 9.8 and 9.9 and Theorem 9.10 hold for every admissible record.
 
-Probabilistic statements hold almost surely, that is, outside a set of records of probability zero.
+----------------------------------------------------------------------------------------------------
 
-Because p_t is a density, an individual record has probability zero. Admissibility means positive
+11. What CTGP Adds Beyond QRF Covariance
 
-density, p_t(ω) > 0; it does not mean that ω has positive probability, and positivity of a density
+----------------------------------------------------------------------------------------------------
 
-is not in general the same as membership in the topological support of the law. Throughout,
 
-“admissible” is used only in the positive-density sense. In the finite-width model every Kraus
 
-operator is invertible, so every record has positive density. In particular, records with an event
+A skeptic can grant every theorem above and still ask whether CTGP contributes any substantive
 
-exactly at the terminal time t form a set of probability zero: for a fixed t, the Poisson process
+constraint beyond the existence of a QRF-covariant, single-outcome stochastic model with an attached
 
-almost surely has no point at t. Such records are admitted so that the profile at time t is defined
+historical truth profile. It does. The test of whether a commitment adds content is whether it
 
-for every record, with right-continuous states, and so that the profiles of a single trajectory are
+excludes some model that satisfies everything else. Each of the following commitments passes that
 
-nested at all times; no probabilistic statement depends on them. Since every result in this section
+test.
 
-is proved pointwise for all admissible records, it holds in particular almost surely. The
 
-conditional law in Proposition 9.9 is likewise given by an explicit density defined for every
 
-record, which is a version of the conditional distribution; any other version agrees with it almost
+CTGP commitment          | Formal content in this framework        | Excludes
 
-surely.
+-------------------------+-----------------------------------------+-------------------------------
 
+Generability (C-f)       | The law is a Markov kernel on present   | Laws depending on past facts
 
+                         | physical states; Cor. 4.10, Cor. 5.14   | not carried by the present
 
-Theorem 9.7 (Admissible continuous-time profiles). A set L of propositions belongs to { L_t(ω) : ω ∈
+                         |                                         | state (Example 11.3)
 
-𝒜_t } if and only if: (o) every element of L is a state proposition Had(s, [Ψ]) with s ≥ 0 or an
+Single-outcome (C-d)     | Exactly one event per transition;       | Everettian readings on which
 
-event proposition Had(s, k) with s > 0; (a) the event propositions are finitely many, with distinct
+                         | Theorem 4.8(a)                          | all branches are realized
 
-times in (0, t]; (b) for each s ∈ [0, t) there is exactly one state proposition with time s, and
+Frame-invariant          | Determinacy and truth invariant under   | Relational interpretations with
 
-none with time s ≥ t; (c) the state proposition at time 0 is Had(0, [Ψ_0]); and (d) if ω is the
+determinacy (C-d)        | all frame changes; Prop. 5.2, Thm 5.16  | frame-relative facts
 
-record read off from the event propositions, then p_t(ω) > 0 and, for every s ∈ [0, t), the state
+No revision (C-b)        | Admissible profiles are nested;         | Readings on which later events
 
-proposition at time s is Had(s, [Ψ_s(ω)]). The record is then unique, and profiles are nested: if t
+                         | Theorem 4.8; Prop. 5.17                 | fix earlier facts
 
-≤ t′, ω′ ∈ 𝒜_{t′}, and ω is the restriction of ω′ to [0, t] (its events with times at most t), then
+Definite ordering (C-e)  | Events totally ordered, order invariant | Fundamental indefinite causal
 
-ω ∈ 𝒜_t and L_t(ω) ⊆ L_{t′}(ω′).
+                         | under frame changes; Prop. 10.1         | order at the level of stages
 
+Lucretian accuracy (C-b) | Profiles are admissible and accurate;   | Truth profiles inconsistent
 
+                         | Theorem 4.8, Prop. 4.11                 | with the law
 
-Proof. As for Theorem 4.8. Conditions (o) and (a) determine a unique record ω; (d) states that ω is
 
-admissible and that every state proposition is the one the law assigns along ω; (b) and (o) exclude
 
-anything else. For nesting, the factorization in the proof of Proposition 9.9 gives p_{t′}(ω′) =
+Table 2. Constraints CTGP imposes and what each excludes, even among QRF-covariant models.
 
-p_t(ω) · c with c ≥ 0, so p_{t′}(ω′) > 0 implies p_t(ω) > 0 and hence ω ∈ 𝒜_t. Restriction preserves
 
-the event propositions with times up to t and the states at all times before t, so every element of
 
-L_t(ω) belongs to L_{t′}(ω′); for t < t′ the later profile also contains the state proposition at
+Generability needs the most care, because a law that looks future-dependent may have an equivalent
 
-time t, which is why the inclusion can be strict. □
+forward formulation. CTGP – explained, §12.2, builds this into its criterion: future dependence
 
+counts against generability only if no empirically equivalent generable formulation exists. Three
 
+cases must therefore be distinguished: conditioning on the future as a mathematical operation, a
 
-Proposition 9.8 (Reconstruction from an earlier time). For 0 ≤ s < t and ω ∈ 𝒜_t, the present state
+final-boundary requirement imposed as a fundamental input, and genuine non-generability relative to
 
-S_t = [Ψ_t(ω)] is fixed by the state proposition Had(s, [Ψ_s(ω)]), the event propositions with times
+the admissible present physical states. The first two are treated by Proposition 11.1 and Example
 
-in (s, t], and the law: it is obtained by applying to Ψ_s(ω) the unitary evolution between those
+11.2, the third by Example 11.3.
 
-events and the corresponding jump operators.
 
 
+Proposition 11.1 (Future conditioning has a forward representation). Let E be an event label and n ≥
 
-Proof. Definition 9.3, applied from time s rather than time 0. □
+1 a stage with Pr(k_n = E | Ψ_{σ_0}) > 0. For m < n define h_m(Ψ) as the probability that k_n = E
 
+given state Ψ at stage σ_m, computed from the kernel K. The measure over histories conditioned on
 
+k_n = E is generated forward by the stage-dependent kernel
 
-Proposition 9.8 avoids any appeal to a “latest” earlier time, which does not exist in continuous
 
-time: any earlier time s, together with the events since s, suffices.
 
+        K^h_m(k | Ψ) = K(k | Ψ) · h_{m+1}(Ψ_k) / h_m(Ψ)        for m < n−1,
 
+        K^h_{n−1}(k | Ψ) = K(k | Ψ) · 1[k = E] / h_{n−1}(Ψ),
 
-Proposition 9.9 (Dynamical idleness in continuous time). For t < t′, the conditional law of the
 
-record on (t, t′], given the complete state (S_t, L_t), depends only on S_t. Its density is e^{−Λ(t′
 
-− t)} ‖J_{k_r} e^{−iH(t_r − t_{r−1})} ⋯ J_{k_{m+1}} e^{−iH(t_{m+1} − t)} Ψ_t‖², where (t_{m+1},
+where Ψ_k = F_k W Ψ / ‖F_k W Ψ‖ and 1[k = E] is 1 if k = E and 0 otherwise. This kernel is Markov in
 
-k_{m+1}), …, (t_r, k_r) are the events in (t, t′].
+the present state at each stage, and it is frame-covariant.
 
 
 
-Proof. Write the unnormalized vector of Proposition 9.4 on [0, t′] as A B Ψ_0, where B carries Ψ_0
+Proof. This is the Doob h-transform. The product of the kernels K^h along a history telescopes to
 
-to the unnormalized state at time t and A carries the state from t to t′. Then ‖A B Ψ_0‖² = ‖A Ψ_t‖²
+Π_m K(k_{m+1} | Ψ_m) · 1[k_n = E] / h_0(Ψ_{σ_0}), which is the conditioned probability of the
 
-‖B Ψ_0‖² with Ψ_t = B Ψ_0 / ‖B Ψ_0‖, and e^{−Λt′} = e^{−Λt} e^{−Λ(t′ − t)}. The density on [0, t′]
+history; the normalization of each K^h_m follows from h_m(Ψ) = Σ_k K(k | Ψ) h_{m+1}(Ψ_k). Frame
 
-therefore factorizes into the density on [0, t] and the stated factor, which depends on the past
+covariance holds because K and the h_m are computed from frame-independent probabilities (Theorem
 
-only through Ψ_t. □
+5.12). □
 
 
 
-Theorem 9.10 (Continuous-time covariance, correspondence, and truth preservation). For a frame A,
+The numerical check (Appendix B, item 13) confirms that the forward kernel reproduces the
 
-let the frame-A description at time t be D^A_t = (t, [R_A Ψ_t], τ_A(L_t)), where τ_A maps Had(s,
+conditioned measure over all three-stage histories.
 
-[Ψ]) to Had(s, [R_A Ψ]) and Had(s, k) to Had(s, k, E^A_k). Then:
 
 
+Example 11.2 (What future conditioning does and does not violate). Take the model of Part III and
 
-    (a) For every record ω, the densities computed in frame A, in frame B, and in the neutral
+the event E = (B, C, 0) at stage σ_n.
 
-    description coincide, so the sets 𝒜_t of admissible records coincide in all frames.
 
 
+    (i) As a mathematical operation, conditioning on E computes probabilities given a hypothetical
 
-    (b) Along every ω ∈ 𝒜_t, the frame states satisfy [R_B Ψ_s(ω)] = [V_{A→B} R_A Ψ_s(ω)] for all s
+    later event. It imposes nothing on the world and is not excluded.
 
-    ∈ [0, t].
 
 
+    (ii) As a fundamental final-boundary requirement, the theory would consist of the ring dynamics
 
-    (c) Criterion 5.5, with stage replaced by time, Theorem 5.6, and Proposition 5.8 hold for
+    together with the stipulation that E occurs at σ_n, imposed as an independent input. The forward
 
-    continuous-time descriptions, and if the descriptions of two frames correspond at time 0, the
+    kernel K^h of Proposition 11.1 exists, but its definition refers to E and n, which are data
 
-    descriptions generated from them correspond at every later time along every admissible record.
+    about a later stage. A law of this kind is precisely a final condition imposed as an independent
 
+    input to fix earlier evolution, which CTGP – explained, §12.2, identifies as incompatible with
 
+    presentism.
 
-    (d) Truth preservation (Theorem 5.16) and no revision across frames (Proposition 5.17) hold at
 
-    every time.
 
+    (iii) If K^h_m is instead posited directly as a stage-dependent law, with no reference to E, it
 
+    is generable, and CTGP does not exclude it.
 
-Proof. (a) By Lemma 3.7, R_A J_k = J^A_k R_A and R_A e^{−iHs} = e^{−iH^A s} R_A on H_phys. Hence the
 
-frame-A unnormalized vector of Proposition 9.4, applied to R_A Ψ_0, equals R_A applied to the
 
-neutral one, and its norm is the same because R_A is unitary; likewise for frame B. (b) The same
+Since (ii) and (iii) are empirically equivalent, CTGP’s own criterion does not count finite-stage
 
-identities show that the frame-A state at time s is proportional to R_A Ψ_s(ω), and R_B = V_{A→B}
+future conditioning in this model as a genuine failure of generability: an equivalent forward
 
-R_A on H_phys. (c) The proofs of Theorem 5.6 and Proposition 5.8 use only the unitarity of the
+formulation exists. What CTGP rejects in case (ii) is the claim that the boundary condition is a
 
-reductions and the bijectivity of the translations, both of which hold here; preservation of
+fundamental input, not the probability measure that results. Conditioning is therefore not the right
 
-correspondence follows from (a) and (b), because both frames add, at each time, the translations of
+test case. A genuine failure must be one for which no forward formulation on the admissible present
 
-the same neutral propositions. (d) The proofs of Theorem 5.16 and Proposition 5.17 carry over
+physical states exists.
 
-verbatim, using (c) and the nesting in Theorem 9.7. □
 
 
+Example 11.3 (A QRF-covariant, history-dependent law). Fix the physical state space H_phys of Part
 
-The numerical check (Table 1) simulated 200 trajectories over total time T = 5 in frames A and B
+III and a width s ≥ 0, where s = 0 denotes the sharp limit. Besides the flash instrument {F_k} of
 
-with common random numbers: the 1,158 events, and their times, were identical in the two frames, and
+§7.2, which chooses each pair with weight 1/3, let {F″_k} be the instrument with the same flashes
 
-the final states were related by V_{A→B} to machine precision.
+but pair weights q_{AB} = 1/2, q_{AC} = q_{BC} = 1/4:
 
 
 
-The resulting picture matches CTGP’s description of generation: continuous evolution of the present
+        F″_∅ = √(1−λ) · 1,     F″_{(i,j,d)} = √(λ q_{ij}) · Σ_r √(w(r−d)) P_{ij}(r).
 
-state, punctuated by discrete primitive events, with each moment’s state and each event passing into
 
-the past-tensed profile.
 
+Completeness holds because the weights sum to 1. Define a law that applies {F_k} at the first
 
+transition and, at every later transition, applies {F_k} if the first event was a flash on the pair
+
+(A, B), and {F″_k} otherwise. Both instruments are invariant and the rule consults only an invariant
+
+event label, so the law is QRF-covariant; it is single-outcome; and each history carries a well-
+
+defined truth profile.
+
+
+
+The law is not generable on H_phys if two histories of the same length reach the same present ray
+
+while calling for different next-event distributions. Two versions of this claim should be
+
+distinguished: one across possible initial conditions, and one for a single fixed initial condition.
+
+Both hold, and the next proposition proves each by explicit construction.
+
+
+
+Proposition 11.4 (The history-dependent law is not generable on H_phys). No kernel on present states
+
+in H_phys, even one allowed to depend on the stage index, reproduces the law of Example 11.3.
+
+Specifically:
+
+
+
+    (a) Across initial conditions (s > 0). For every present ray of the form [Φ] with W Φ =
+
+    R_A^{−1}|x, y⟩, there are two histories of length 2, with different initial rays, that both
+
+    reach [Φ] with nonzero probability and whose next-event distributions differ in total variation
+
+    by exactly λ/6.
+
+
+
+    (b) With one fixed initial condition (s = 0, J = 0). For every initial state with nonzero
+
+    amplitude on the configuration b−a = 1, c−a = 3 (N ≥ 4), the two histories of Proposition 8.1
+
+    both have nonzero probability under the law of Example 11.3, both reach the same present ray,
+
+    and their next-event distributions again differ in total variation by exactly λ/6.
+
+
+
+Proof. A kernel on present states, even a stage-dependent one, assigns the same next-event
+
+distribution to any two histories of equal length that reach the same present ray. It therefore
+
+suffices to exhibit such pairs with different next-event distributions.
+
+
+
+(a) Take the histories ω_1 = ((A,B,d), k) and ω_2 = (∅, k) with any d and any flash k. Under the
+
+law, ω_1 applies F_k at its second transition (its first event is on the pair (A,B)), and ω_2
+
+applies F″_k (its first event is ∅). The branch products M_1 = F_k W F_{(A,B,d)} W and M_2 = F″_k W
+
+F_∅ W are invertible, because for s > 0 every Kraus operator of either instrument is invertible
+
+(w(r) > 0 for all r and λ < 1). Define the initial rays [M_1^{−1} Φ] and [M_2^{−1} Φ]. Running each
+
+history from its initial ray returns a vector proportional to Φ, and each transition has nonzero
+
+probability because invertible operators annihilate no nonzero vector. At the present stage, ω_1
+
+calls for {F_k} and ω_2 for {F″_k}. Since W Φ is the configuration state with separations x, y, and
+
+y−x for the pairs (A,B), (A,C), (B,C), the probability of the flash (i, j, d′) is λ · (1/3) ·
+
+w(r_{ij} − d′) under {F_k} and λ · q_{ij} · w(r_{ij} − d′) under {F″_k}, where r_{ij} is the

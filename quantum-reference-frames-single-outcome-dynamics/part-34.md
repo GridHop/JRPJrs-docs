@@ -1,447 +1,481 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 34 of 40 (1,693 words)
+Part 34 of 35 (1,800 words)
 
+var_alone = (np.trace(rho @ A2 @ A2) - np.trace(rho @ A2)**2).real
 
+print('   (e) overlapping pair, E(h1, h2) = %.6f:' % E[0, 1])
 
-# frame-relative product state becomes entangled in the other frame
+print('       increase of Var(y2) caused by collapse 1: %.10f; E^2/(4 sigma1^2) = %.10f'
 
-def ket(x, y): v = np.zeros(d2); v[ridx(x, y)] = 1; return v
+      % (var_after - var_alone, E[0, 1]**2 / (4 * sg[0]**2)))
 
-prodA = (ket(1, 0) + ket(2, 0))/np.sqrt(2)
+l12, l21 = binned_law((0, 1), eigs, sg, 2), binned_law((1, 0), eigs, sg, 2)
 
-def ent(v):
+print('       binned joint laws for the two orders: total-variation distance %.4f'
 
-    sv = np.linalg.svd(v.reshape(N, N), compute_uv=False)**2; sv = sv[sv > 1e-12]
+      % (0.5 * np.abs(l12 - l21).sum()))
 
-    return -(sv*np.log2(sv)).sum()
+A1 = cu[0] * qo + cw[0] * po
 
-print(f"7. entanglement entropy: frame A {ent(prodA):.3f} bits, "
+r12 = dephase(dephase(rho, A1, sg[0]), A2, sg[1])
 
-      f"frame B {ent(V_AB @ prodA):.3f} bits")
+r21 = dephase(dephase(rho, A2, sg[1]), A1, sg[0])
 
+print('       unread channels in the two orders: max difference of the final states %.1e'
 
+      % np.abs(r12 - r21).max())
 
-# an absolute (non-invariant) collapse operator leaves the physical sector
+eta, nbad, nchg, maxd = 0.6, 0, 0, 0.0
 
-Pabs = np.zeros((D, D))
+while nbad < 300:
 
-for t in itertools.product(range(N), repeat=3):
+    pts = rng.uniform(0, 2.0, size=(rng.poisson(6.0), 2))
 
-    if t[2] == 0: Pabs[idx(*t), idx(*t)] = 1
+    if len(pts) < 2 or topo(relation(pts, dl)) is not None:
 
-v = Pabs @ (JA @ phiA0)
+        continue
 
-leak = np.linalg.norm(v - Pi @ v)/np.linalg.norm(v)
+    n = len(pts)
 
-print(f"8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = {leak:.3f}")
+    R, E = geometry(pts, dl, scale)
 
+    sg = np.full(n, 0.8)
 
+    Sig = 0.5 * absE(E) + 0.3 * np.eye(n)
 
-# ---- 9. continuous-time relational jump process (GRW-type), frames A and B
+    o1 = list(np.argsort(pts[:, 0]))
 
-Lam, T = 1.2, 5.0
+    o2 = list(np.argsort(np.cosh(eta) * pts[:, 0] - np.sinh(eta) * pts[:, 1]))
 
-JA_ops = {k: red(K, JA) for k, K in kraus(s, lam_=1.0).items() if k != 'none'}
+    dC = np.abs(cov_closed(o1, E, Sig, sg) - cov_closed(o2, E, Sig, sg)).max()
 
-JB_ops = {k: V_AB @ K @ V_AB.T for k, K in JA_ops.items()}      # = frame-B forms
+    nbad, nchg, maxd = nbad + 1, nchg + (dC > 1e-12), max(maxd, dC)
 
-HA, HB = red(H, JA), red(H, JB)
+print('   (f) %d non-orderable configurations ordered by centre time in two frames' % nbad)
 
-assert np.allclose(sum(K.conj().T @ K for K in JA_ops.values()), np.eye(d2))
+print('       (relative rapidity 0.6): laws differ in %d, max covariance difference %.3f'
 
-def trajectory(psi, Hm, ops, r):
+      % (nchg, maxd))
 
-    t, events = 0.0, []
+print('   (g) centre-time order is a linear extension of the causal order in %d of the %d'
 
-    while True:
+      % (t_ext, nconf))
 
-        dt = r.exponential(1/Lam)             # hit times: Poisson, rate Lam
+print('       orderable configurations of item (c)')
 
-        if t + dt > T:
 
-            psi = expm(-1j*Hm*(T-t)) @ psi; break
 
-        t += dt; psi = expm(-1j*Hm*dt) @ psi
 
-        keys = list(ops)
 
-        p = np.array([np.linalg.norm(ops[k] @ psi)**2 for k in keys])
+# (h) cosmological-time-ordered collapses on a non-orderable Sorkin-type configuration:
 
-        k = keys[r.choice(len(keys), p=p/p.sum())]
+# j (tested operation), c1 and c2 (overlapping law collapses), y (target), applied in order
 
-        psi = ops[k] @ psi; psi /= np.linalg.norm(psi)
+# of t. Light-cone centres (u, v) give j < c1 < y causally, j and y causally separated.
 
-        events.append((round(t, 12), k))
+uvc = np.array([[0.0, 0.0], [-0.525, 1.2], [-0.225, 1.05], [-1.05, 2.3]])
 
-    return psi, events
+pts = np.column_stack([(uvc[:, 0] + uvc[:, 1]) / 2, (uvc[:, 1] - uvc[:, 0]) / 2])
 
-same, worst, nev = True, 0.0, 0
+R, E = geometry(pts, dl, 8.0)
 
-for trial in range(200):
+print('   (h) order j, c1, c2, y by t; c1 and c2 overlap; E(h_j, h_c1) = %.4f, E(h_c1, h_y) = %.4f,'
 
-    pa, ea = trajectory(phiA0, HA, JA_ops, np.random.default_rng(1000+trial))
+      % (E[0, 1], E[1, 3]))
 
-    pb, eb = trajectory(V_AB @ phiA0, HB, JB_ops, np.random.default_rng(1000+trial))
+print('       E(h_c1, h_c2) = %.4f, E(h_j, h_y) = %.1f' % (E[1, 2], abs(E[0, 3])))
 
-    same &= (ea == eb); nev += len(ea)
+gl = lambda x: (1 + np.tanh(2 * x)) / 2
 
-    worst = max(worst, 1-abs(np.vdot(V_AB @ pa, pb)))
+for nc in (36, 44):
 
-print(f"9. continuous time: 200 trajectories, {nev} events; "
+    a1, a2 = modes(nc, 2)
 
-      f"identical event records in A and B: {same}")
+    q1, q2 = [(a + a.T) / np.sqrt(2) for a in (a1, a2)]
 
-print(f"   max(1-|<V psi_A|psi_B>|) at final time = {worst:.1e}")
+    p1, p2 = [1j * (a.T - a) / np.sqrt(2) for a in (a1, a2)]
 
+    # two-mode realization of the commutation data with phi_j on mode 1 and phi_y on mode 2
 
+    phis = [q1, E[1, 2] / E[0, 2] * q1 + E[0, 1] * p1 - E[1, 3] * p2,
 
-# ---- 10. generic parameters: do distinct histories reach the same present ray?
+            E[0, 2] * p1 - E[2, 3] * p2, q2]
 
-fin = [(h, v[1]) for h, v in dA.items()]
+    for i in range(4):
 
-G = np.array([v for _, v in fin]); ov = np.abs(G.conj() @ G.T)
+        for k in range(4):
 
-np.fill_diagonal(ov, 0); best = ov.max()
+            c = (phis[i] @ phis[k] - phis[k] @ phis[i])[:8, :8]
 
-ncoinc = int((ov > 1 - 1e-10).sum() // 2)
+            assert np.abs(c - 1j * E[i, k] * np.eye(8)).max() < 1e-9
 
-F2 = best**2; helstrom = 0.5*(1 - np.sqrt(1 - F2))
+    ey = eigh(phis[3])
 
-print(f"10. generic parameters, {len(fin)} three-stage histories: "
+    w1, V1 = eigh(phis[1])
 
-      f"exact coincidences = {ncoinc}; largest overlap = {best:.4f}")
+    w0, V0 = eigh(phis[0])
 
-print(f"    minimum error probability for telling that pair apart (Helstrom) = {helstrom:.3f}")
 
 
+    def target_law(at_j, luders):
 
-# ---- 11. finite-width flashes: every present state is reachable by every history
+        rho = np.zeros((nc * nc, nc * nc), complex)
 
-Phi = rng.normal(size=d2) + 1j*rng.normal(size=d2); Phi /= np.linalg.norm(Phi)
+        rho[0, 0] = 1
 
-hists = [((0, 1, 1), (1, 2, 4), 'none'), ('none', (0, 2, 0), (0, 1, 3))]
+        if at_j == 'kick':
 
-res = []
+            U = expm(3j * phis[0])
 
-for h in hists:
+            rho = U @ rho @ U.conj().T
 
-    psi = Phi.copy()
+        elif at_j == 'collapse':
 
-    for k in reversed(h):                     # back-propagate: psi_prev ~ W^-1 F_k^-1 psi
+            rho = dephase(rho, phis[0], 0.8)
 
-        psi = WA.conj().T @ np.linalg.solve(FA[k], psi); psi /= np.linalg.norm(psi)
+        elif at_j == 'luders':                  # an operation outside the Weyl-diagonal class
 
-    psi0, pr = psi.copy(), 1.0
+            K = [V0 @ np.diag(np.sqrt(gl(w0))) @ V0.conj().T,
 
-    for k in h:                               # forward run from the reconstructed start
+                 V0 @ np.diag(np.sqrt(1 - gl(w0))) @ V0.conj().T]
 
-        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)
+            rho = sum(k @ rho @ k.conj().T for k in K)
 
-    res.append((abs(np.vdot(psi, Phi)), pr, psi0))
+        if luders:
 
-print(f"11. two different 3-stage histories, same present ray: "
+            K = [V1 @ np.diag(np.sqrt(gl(w1))) @ V1.conj().T,
 
-      f"|<end|Phi>| = {res[0][0]:.12f}, {res[1][0]:.12f}")
+                 V1 @ np.diag(np.sqrt(1 - gl(w1))) @ V1.conj().T]
 
-print(f"    history probabilities {res[0][1]:.2e}, {res[1][1]:.2e}; "
+            rho = sum(k @ rho @ k.conj().T for k in K)
 
-      f"overlap of the two initial states = {abs(np.vdot(res[0][2], res[1][2])):.3f}")
+        else:
 
+            rho = dephase(rho, phis[1], 0.8)
 
+        rho = dephase(rho, phis[2], 0.9)
 
-# ---- 12. a history-dependent (QRF-covariant) law is not a kernel on the present state
+        return np.array([bin_probability(rho, ey, b, 1.0) for b in range(4)])
 
-# second instrument: same flashes, pair weights q = (1/2, 1/4, 1/4) instead of 1/3 each
 
-def kraus_q(width, q):
 
-    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()
+    base = target_law(None, False)
 
-    out = {'none': np.sqrt(1-lam)*np.eye(D)}
+    dk = np.abs(target_law('kick', False) - base).max()
 
-    for (i, j), qq in zip(pairs, q):
+    dc = np.abs(target_law('collapse', False) - base).max()
 
-        for dd in range(N):
+    lb = target_law(None, True)
 
-            out[(i, j, dd)] = np.sqrt(lam*qq)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
+    dlk = np.abs(target_law('kick', True) - lb).max()
 
-                                                  for r in range(N))
+    print('       cutoff %d: Gaussian c1: change of the target law by a kick at j %.1e,' % (nc, dk))
 
-    return out
+    dlj = np.abs(target_law('luders', False) - base).max()
 
-def law(Fa, Fb):                    # instrument for transitions after the first
+    print('       by a collapse at j %.1e; target law sums to %.12f' % (dc, base.sum()))
 
-    return lambda first: Fa if (first != 'none' and first[:2] == (0, 1)) else Fb
+    print('       unsharp Lueders instrument at j (not Weyl-diagonal): change %.1e' % dlj)
 
-def run_law(psi, hist, Fa, Fb, Wm):
+    print('       unsharp Lueders c1 (negative control): change by the kick, largest bin %.7f'
 
-    pr = 1.0
+          % dlk)
 
-    for m, k in enumerate(hist):
 
-        Fm = Fa if m == 0 else law(Fa, Fb)(hist[0])
 
-        v = Fm[k] @ (Wm @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)
 
-    return psi, pr
 
-def next_law(psi, first, Fa, Fb, Wm):
+print('C4. Gapless pointer realization of the collapses (Proposition 13.31)')
 
-    Fm = law(Fa, Fb)(first)
+# Each collapse is realized by a pointer (q_k, p_k) with no Hamiltonian, coupled through the
 
-    return np.array([np.linalg.norm(Fm[k] @ (Wm @ psi))**2 for k in Fa])
+# density p_k h_k(x) phi(x). The matrix M below is Gamma_kl = E_ret(h_k, h_l), the retarded
 
-# (a) finite width, across initial conditions: invert the two branch products
+# part of E, with E_ret(t, x) = -theta(u) theta(v)/2, so that E = Gamma - Gamma^T.
 
-FA_q = {k: red(K, JA) for k, K in kraus_q(s, (0.5, 0.25, 0.25)).items()}
 
-Phi_c = WA.conj().T @ ket(1, 3)                         # present ray; W Phi_c = |1,3>
 
-br1, br2 = ((0, 1, 2), (1, 2, 0)), ('none', (1, 2, 0))
 
-starts = []
 
-for hb in br1, br2:
+def Mret(pts, dl, scale):
 
-    Fsecond = law(FA, FA_q)(hb[0])
+    u, v = pts[:, 0] - pts[:, 1], pts[:, 0] + pts[:, 1]
 
-    M = Fsecond[hb[1]] @ WA @ FA[hb[0]] @ WA
+    n = len(pts)
 
-    psi0 = np.linalg.solve(M, Phi_c); psi0 /= np.linalg.norm(psi0)
+    M = np.zeros((n, n))
 
-    end, pr = run_law(psi0, hb, FA, FA_q, WA); starts.append((abs(np.vdot(end, Phi_c)), pr))
+    for k in range(n):
 
-tv_a = 0.5*np.abs(next_law(Phi_c, br1[0], FA, FA_q, WA)
+        for l in range(n):
 
-                  - next_law(Phi_c, br2[0], FA, FA_q, WA)).sum()
+            M[k, l] = -scale**2 / 32 * ((1 + Sfun((u[k] - u[l]) / dl))
 
-print(f"12a. finite width: both branches end at the same ray "
+                                        * (1 + Sfun((v[k] - v[l]) / dl)))
 
-      f"(|<end|Phi>| = {starts[0][0]:.12f}, {starts[1][0]:.12f}),")
+    return M
 
-print(f"     probabilities {starts[0][1]:.2e}, {starts[1][1]:.2e}; "
 
-      f"next-event total variation = {tv_a:.4f} (lambda/6 = {lam/6:.4f})")
 
-# (b) sharp flashes, J = 0, one fixed initial state
 
-Fs1 = {k: red(K, JA) for k, K in kraus(0).items()}
 
-Fs2 = {k: red(K, JA) for k, K in kraus_q(0, (0.5, 0.25, 0.25)).items()}
+def ordered_sums(pts, dl, scale, nn, eta):
 
-w1, w2 = ((0, 1, 1), (0, 2, 3)), ((0, 2, 3), (0, 1, 1))
+    """sum of E(x_a - x_b) w_a w_b over node pairs with x_a later than x_b in the time
 
-e1, p1 = run_law(phiA0, w1, Fs1, Fs2, Wd); e2, p2 = run_law(phiA0, w2, Fs1, Fs2, Wd)
+    cosh(eta) t - sinh(eta) x: the phase of the time-ordered product of the couplings"""
 
-tv_b = 0.5*np.abs(next_law(e1, w1[0], Fs1, Fs2, Wd) - next_law(e2, w2[0], Fs1, Fs2, Wd)).sum()
+    z, wz = np.polynomial.legendre.leggauss(nn)
 
-print(f"12b. sharp, fixed initial state: same present ray: "
+    Zu, Zv = np.meshgrid(z, z, indexing='ij')
 
-      f"{np.isclose(abs(np.vdot(e1, e2)), 1.0)}; probabilities {p1:.3e}, {p2:.3e};")
+    w = (scale / 2) * np.outer(beta(z) * wz, beta(z) * wz).ravel()
 
-print(f"     next-event total variation = {tv_b:.4f}")
+    nodes = [((t - x) + dl * Zu.ravel(), (t + x) + dl * Zv.ravel()) for t, x in pts]
 
+    T = np.zeros((len(pts), len(pts)))
 
+    for k in range(len(pts)):
 
-# ---- 13. conditioning on a future event = forward Markov law with a Doob h-transform
+        for l in range(len(pts)):
 
-E, nT = (1, 2, 0), 3
+            for c in range(0, len(w), 512):
 
-def h(psi, m):                                          # Pr(event E at stage nT | psi at m)
+                du = nodes[k][0][c:c + 512, None] - nodes[l][0][None, :]
 
-    if m == nT - 1: return np.linalg.norm(FA[E] @ (WA @ psi))**2
+                dv = nodes[k][1][c:c + 512, None] - nodes[l][1][None, :]
 
-    tot = 0.0
+                later = np.cosh(eta) * (du + dv) - np.sinh(eta) * (dv - du) > 0
 
-    for k in F:
+                Ev = np.where(later, -(np.sign(du) + np.sign(dv)) / 4, 0.0)
 
-        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real
+                T[k, l] += w[c:c + 512] @ Ev @ w
 
-        if q > 1e-15: tot += q*h(v/np.sqrt(q), m+1)
+    return T
 
-    return tot
 
-cond = {hh: v[0] for hh, v in dA.items() if hh[-1] == E}
 
-Z = sum(cond.values()); cond = {hh: p_/Z for hh, p_ in cond.items()}
 
-def doob(hist):
 
-    psi, p_ = phiA0.copy(), 1.0
+def coherent_states(alphas, nc):
 
-    for m, k in enumerate(hist):
+    C = np.zeros((len(alphas), nc), complex)
 
-        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; nxt = v/np.sqrt(q)
+    C[:, 0] = np.exp(-np.abs(alphas)**2 / 2)
 
-        hn = (1.0 if k == E else 0.0) if m == nT-1 else h(nxt, m+1)
+    for n in range(1, nc):
 
-        p_ *= q*hn/h(psi, m); psi = nxt
+        C[:, n] = C[:, n - 1] * alphas / np.sqrt(n)
 
-    return p_
+    return C
 
-dmax = max(abs(doob(hh) - pc) for hh, pc in cond.items())
 
-print(f"13. conditioned on {E} at stage {nT}: Doob forward kernel vs conditioned law, "
 
-      f"max diff = {dmax:.1e}")
 
 
+dp, npg = 0.12, 81
 
-# ---- 14. realized-history consistency for causally local instruments (brickwork circuit)
+pg = (np.arange(npg) - npg // 2) * dp
 
-rq = np.random.default_rng(2026)
 
-nq = 6
 
-slots = [(1, 0), (1, 2), (1, 4), (2, 1), (2, 3), (3, 0), (3, 2), (3, 4)]   # (layer, first qubit)
 
-def qubits(x): return {slots[x][1], slots[x][1] + 1}
 
-direct = {(x, y) for x in range(len(slots)) for y in range(len(slots))
+def pointer_states(cu, cw, M, sg, chirp):
 
-          if slots[x][0] < slots[y][0] and qubits(x) & qubits(y)}
+    """field vector for each pair of pointer momenta after the coupling U, pointers prepared
 
-prec = set(direct)
+    in Gaussians of widths sg, pre-chirped by exp(i M_kk p_k^2/2) if chirp"""
 
-while True:                                             # transitive closure
+    P = np.stack([a.ravel() for a in np.meshgrid(pg, pg, indexing='ij')], 1)
 
-    new = {(a, d) for (a, b) in prec for (c, d) in prec if b == c} - prec
+    amp = np.prod((2 * sg**2 / np.pi)**0.25 * np.exp(-sg**2 * P**2), axis=1)
 
-    if not new: break
+    ph = -0.5 * np.einsum('gk,kl,gl->g', P, M, P) + (0.5 * P**2 @ np.diag(M) if chirp else 0)
 
-    prec |= new
+    alph = (P @ cw - 1j * (P @ cu)) / np.sqrt(2)       # exp(-i p.phi)|0> is coherent
 
-def rand_instr(r):                                      # random 2-outcome instrument, 2 qubits
+    return (amp * np.exp(1j * ph))[:, None] * coherent_states(alph, ncut)
 
-    Z_ = r.normal(size=(8, 4)) + 1j*r.normal(size=(8, 4)); Q, _ = np.linalg.qr(Z_)
 
-    return [Q[0:4, :], Q[4:8, :]]
 
-def embed(K, q0, n=nq): return np.kron(np.kron(np.eye(2**q0), K), np.eye(2**(n - q0 - 2)))
 
-instr = {x: rand_instr(rq) for x in range(len(slots))}
 
-psi_c = rq.normal(size=2**nq) + 1j*rq.normal(size=2**nq); psi_c /= np.linalg.norm(psi_c)
+def chi_pointer(F, n1, n2):
 
-def lin_ext(r):
+    """E exp(i s.y) = sum_p <F(p), F(p - s)> for s = (n1, n2) grid steps"""
 
-    left, order = set(range(len(slots))), []
+    G = F.reshape(npg, npg, -1)
 
-    while left:
+    A = G[max(n1, 0):npg + min(n1, 0), max(n2, 0):npg + min(n2, 0)]
 
-        ready = [x for x in left if not any((y, x) in prec for y in left)]
+    B = G[max(-n1, 0):npg + min(-n1, 0), max(-n2, 0):npg + min(-n2, 0)]
 
-        x = ready[r.integers(len(ready))]; order.append(x); left.remove(x)
+    return np.sum(A.conj() * B) * dp * dp
 
-    return tuple(order)
 
-def joint(order, ins, where=None):
 
-    where = where or {x: slots[x][1] for x in range(len(slots))}
 
-    out = {}
 
-    for outs in itertools.product((0, 1), repeat=len(slots)):
+def chi_sequential(order, eigs, sg, s):
 
-        v = psi_c.copy()
+    def ms(m, w_):
 
-        for x in order: v = embed(ins[x][outs[x]], where[x]) @ v
+        dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
 
-        out[outs] = v
+        return np.exp(-dd**2 / (8 * sg[m]**2) + 1j * s[m] * mm - s[m]**2 * sg[m]**2 / 2)
 
-    return out
+    return run_order(order, eigs, ms)
 
-def all_ext(left, prefix):
 
-    if not left: yield tuple(prefix); return
 
-    for x in sorted(left):
 
-        if not any((y, x) in prec for y in left):
 
-            yield from all_ext(left - {x}, prefix + [x])
+shifts = [(1, 0), (0, 1), (2, -1), (3, 2), (-2, 4), (5, 3), (-4, -3)]
 
-exts = set(all_ext(set(range(len(slots))), []))
+sg = np.array([0.8, 0.9])
 
-ref = joint(next(iter(exts)), instr)
+res = {}
 
-dp, ds = 0.0, 0.0
+for name, pts in (('overlap', np.array([[0.3, 0.1], [0.55, 0.25]])),
 
-for e in exts:
+                  ('one-way', np.array([[0.0, 0.0], [1.2, 0.3]]))):
 
-    jj = joint(e, instr)
+    R, E = geometry(pts, dl, scale)
 
-    for o in ref:
+    M = Mret(pts, dl, scale)
 
-        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real
+    r = {'E': E, 'M': M, 'R': R, 'split': np.abs(M - M.T - E).max()}
 
-        dp = max(dp, abs(pa - pb))
+    T0 = {nn: ordered_sums(pts, dl, scale, nn, 0.0) for nn in (32, 64)}
 
-        if pa > 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))
+    T1 = ordered_sums(pts, dl, scale, 64, 0.6)
 
-print(f"14. causally local instruments: all {len(exts)} foliations (linear extensions), "
+    r['fol'] = np.abs(T1 - T0[64]).max()
 
-      f"{len(ref)} outcome histories;")
+    r['disc'] = [np.abs(T0[nn] - M).max() for nn in (32, 64)]
 
-print(f"    max |p - p'| = {dp:.1e}, max state deviation = {ds:.1e}")
+    cu, cw = realize(E)
 
-# no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change
+    Sig = 0.5 * np.outer(cu, cu) + 0.5 * np.outer(cw, cw)
 
-X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}
+    D = np.diag(1 / (4 * sg**2))
 
-def marg(ins):
+    Mo = M - np.diag(np.diag(M))
 
-    jj = joint(next(iter(exts)), ins); m = np.zeros(2)
+    r['C'] = Sig + np.diag(sg**2) + Mo @ D @ Mo.T
 
-    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real
+    r['Cfull'] = Sig + np.diag(sg**2) + M @ D @ M.T
 
-    return m
+    r['Cord'] = cov_closed([0, 1], E, Sig, sg)
 
-m0 = marg(instr); worst = 0.0
+    eigs = [eigh(cu[i] * qo + cw[i] * po) for i in range(2)]
 
-for y in set(range(len(slots))) - past:
+    dev = {}
 
-    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())
+    for chirp in (True, False):
 
-print(f"    instruments changed outside the predecessor set of slot {X}: "
+        F = pointer_states(cu, cw, M, sg, chirp)
 
-      f"max change = {worst:.1e}")
+        C = r['C'] if chirp else r['Cfull']
 
-# consistency on nested order ideals: law on I computed from instruments in I alone
+        dev[chirp] = max(abs(chi_pointer(F, *n)
 
-I_ideal = sorted(past)
+                             - np.exp(-0.5 * dp**2 * np.array(n) @ C @ np.array(n)))
 
-devI = 0.0
+                         for n in shifts)
 
-full = joint(next(iter(exts)), instr)
+        if chirp:
 
-for oI in itertools.product((0, 1), repeat=len(I_ideal)):
+            r['seq'] = max(abs(chi_pointer(F, *n)
 
-    v = psi_c.copy()
+                               - chi_sequential([0, 1], eigs, sg, dp * np.array(n)))
 
-    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v
+                           for n in shifts)
 
-    pI = np.vdot(v, v).real
+            rho_p = (F.T @ F.conj()) * dp * dp
 
-    pm = sum(np.vdot(w, w).real for o, w in full.items()
+            rho0 = np.zeros((ncut, ncut), complex)
 
-             if tuple(o[x] for x in I_ideal) == oI)
+            rho0[0, 0] = 1
 
-    devI = max(devI, abs(pI - pm))
+            rho_s = dephase(dephase(rho0, cu[0] * qo + cw[0] * po, sg[0]),
 
-print(f"    order ideal {I_ideal}: law from its own instruments vs marginal of full law, "
+                            cu[1] * qo + cw[1] * po, sg[1])
 
-      f"max diff = {devI:.1e}")
+            r['unread'] = np.abs(rho_p - rho_s)[:60, :60].max()
 
-# counterexample: two 'spacelike' slots acting on overlapping qubits
+            r['trace'] = np.trace(rho_p).real
 
-where_bad = {x: slots[x][1] for x in range(len(slots))}; where_bad[1] = 1   # slot 1 on (1,2)
+    r['dev'] = dev
 
-o1 = (0, 1, 2, 3, 4, 5, 6, 7); o2 = (1, 0, 2, 3, 4, 5, 6, 7)
+    res[name] = r
 
-j1, j2 = joint(o1, instr, where_bad), joint(o2, instr, where_bad)
+ov, ow = res['overlap'], res['one-way']
 
-tvb = 0.5*sum(abs(np.vdot(j1[o], j1[o]).real - np.vdot(j2[o], j2[o]).real) for o in j1)
+print('   (a) E = Gamma - Gamma^T: max dev %.1e (overlapping pair), %.1e (one-way pair)'
 
-print(f"    non-commuting 'spacelike' pair: total variation between orders = {tvb:.3f}")
+      % (ov['split'], ow['split']))
+
+print('       overlapping pair: Gamma_12 = %.6f, Gamma_21 = %.6f, Gamma_11 = Gamma_22 = %.6f'
+
+      % (ov['M'][0, 1], ov['M'][1, 0], ov['M'][0, 0]))
+
+print('       phase of the time-ordered product, two foliations (relative rapidity 0.6):')
+
+print('       max difference %.1e and %.1e;' % (ov['fol'], ow['fol']))
+
+print('       deviation from Gamma, 32 and 64 nodes per axis: %.1e, %.1e (overlapping),'
+
+      % tuple(ov['disc']))
+
+print('       %.1e, %.1e (one-way)' % tuple(ow['disc']))
+
+print('   (b) overlapping pair, explicit pointers, characteristic function vs closed form:')
+
+print('       pre-chirped pointers %.1e; without the pre-chirp, full Gamma, %.1e'
+
+      % (ov['dev'][True], ov['dev'][False]))
+
+print('   (c) unread field channel vs two Gaussian collapse channels: max dev %.1e;'
+
+      % ov['unread'])
+
+print('       trace %.12f' % ov['trace'])
+
+print('   (d) one-way pair: pointers vs Gaussian collapses applied in causal order, direct')
+
+print('       characteristic functions: max dev %.1e; closed-form covariances: max diff %.1e'
+
+      % (ow['seq'], np.abs(ow['C'] - ow['Cord']).max()))
+
+dC = ov['C'] - ov['Cord']
+
+print('       overlapping pair, pointer law minus the law of collapses in centre-time order:')
+
+print('       Var(y1) %+.6f, Var(y2) %+.6f, Cov(y1, y2) %+.6f;' % (dC[0, 0], dC[1, 1], dC[0, 1]))
+
+print('       direct characteristic functions differ by up to %.4f' % ov['seq'])
+
+
+
+Output:
+
+
+
+C1. Random-kick form of the unread Gaussian collapse channel
+
+   Kraus integral over y vs exact multiplier:     max dev 2.4e-14
+
+   Gaussian mixture of kicks vs exact multiplier: max dev 7.8e-16
+
+C2. Energy-momentum cost
+
+   (a) cutoff 140: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
+
+   (a) cutoff 180: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
+
+   (b) two modes: vacuum 0.126367187500, random 0.126367187500; predicted 0.126367187500
+
+   (c) lattice: canonical 0.041729335207, Fourier formula 0.041729335207, relative diff. 5.0e-16

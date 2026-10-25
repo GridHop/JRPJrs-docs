@@ -1,50 +1,50 @@
 {
   "version": 2,
-  "source_fidelity": "Every python-docx paragraph text is preserved in order, including empty paragraphs; inline formatting not retained.",
+  "source_fidelity": "Each source DOCX paragraph's plain text is preserved in order, including empty paragraphs; inline formatting, embedded images, and tables are not converted.",
   "works": [
     {
       "title": "Signal-Based Epistemology — Explained",
       "slug": "signal-based-epistemology",
-      "source_filename": "Signal-Based Epistemolog - SBE - Explained.docx",
-      "source_paragraphs": 4104,
-      "published_paragraphs": 4104,
-      "words": 17217,
-      "parts": 11
+      "source_filename": "Signal-Based Epistemolog - SBE - Explained(4).docx",
+      "source_paragraphs": 4108,
+      "published_paragraphs": 4108,
+      "words": 17275,
+      "parts": 10
     },
     {
       "title": "Cosmic-Time Generative Presentism (CTGP) — Explained",
       "slug": "ctgp-explained",
-      "source_filename": "CTGP - explained(6).docx",
-      "source_paragraphs": 4151,
-      "published_paragraphs": 4151,
-      "words": 42321,
-      "parts": 26
+      "source_filename": "CTGP - explained(20261025-045342).docx",
+      "source_paragraphs": 4250,
+      "published_paragraphs": 4250,
+      "words": 43535,
+      "parts": 25
     },
     {
       "title": "Free Will — Humans Might Actually Have Will, Volition, and Self-Agency",
       "slug": "free-will",
-      "source_filename": "Free Will - Humans Might Actually Have Will, Volition, and Self-agency.docx",
-      "source_paragraphs": 795,
-      "published_paragraphs": 795,
-      "words": 4768,
+      "source_filename": "Free Will - Humans Might Actually Have Will Volition and Self-agency(2).docx",
+      "source_paragraphs": 801,
+      "published_paragraphs": 801,
+      "words": 4834,
       "parts": 3
     },
     {
       "title": "Info",
       "slug": "info",
-      "source_filename": "Info(7).docx",
-      "source_paragraphs": 6163,
-      "published_paragraphs": 6163,
-      "words": 38644,
-      "parts": 24
+      "source_filename": "Info(20261025-045342).docx",
+      "source_paragraphs": 6252,
+      "published_paragraphs": 6252,
+      "words": 39921,
+      "parts": 23
     },
     {
       "title": "More Info — Causation, Information, Identity, and Becoming",
       "slug": "more-info",
-      "source_filename": "More Info(5).docx",
-      "source_paragraphs": 878,
-      "published_paragraphs": 878,
-      "words": 7579,
+      "source_filename": "More Info(20261025-045342).docx",
+      "source_paragraphs": 907,
+      "published_paragraphs": 907,
+      "words": 7942,
       "parts": 5
     },
     {
@@ -55,6 +55,15 @@
       "published_paragraphs": 2393,
       "words": 36425,
       "parts": 22
+    },
+    {
+      "title": "Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism",
+      "slug": "quantum-reference-frames-single-outcome-dynamics",
+      "source_filename": "QUANTUM REFERENCE FRAMES AND SINGLE-OUTCOME DYNAMICS - Generative Presentism Compatibility(20261025-045342).docx",
+      "source_paragraphs": 6107,
+      "published_paragraphs": 6107,
+      "words": 62665,
+      "parts": 35
     }
   ],
   "parts": [

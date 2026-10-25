@@ -1,384 +1,110 @@
 # Info
 
-Part 18 of 24 (1,652 words)
+Part 18 of 23 (1,795 words)
 
-Predictive and self-organizing mechanisms may explain how parts of thought are processed and
+“nobody is responsible for anything,”
 
-formally assembled, but they may not by themselves fully explain the origin of the emergent self-
 
-generated directive component(s) that help(s) determine what is being articulated or aimed toward.
 
-Strong emergence is not ruled out, but it is not experimentally established. Mechanistic accounts
+nor:
 
-remain incomplete; however, regarding the origin of such directive components, that incompleteness
 
-does not by itself constitute evidence of irreducible self-causation.
 
+“people are metaphysically self-created evil generators deserving infinite suffering.”
 
 
-Can Self-agency be an emergent layer within thought formation that both arises from prior causal
 
-processes & feeds back into them as a new causal contributor? Can volition be a causally embedded
+Which is probably healthier than either extreme.
 
-selection-&-initiation process within the chain itself, volition being both effect (of prior causes)
 
-& cause (of future outcomes)?
 
+Regarding consciousness specifically, it’s interesting that humanity currently does not possess a
 
+complete theory of consciousness, yet accountability is widely regarded as justifiedly applying to
 
-This is how I define free will: in my compatibilist view, free will isn’t absolute uncaused freedom
+humans.
 
-or “breaking physics”. It’s the capacity of a brain to form intentions, evaluate options, select
 
-actions, and initiate behavior through its own internally integrated, self-referential processes
 
-rather than through immediate external override or coercion.
+That suggests an important principle:
 
 
 
-Will = forming an internal commitment or goal. Volition = selecting and initiating an action. Self-
+Complete understanding of consciousness is not necessary for accountability to be justifiedly
 
-agency = the functional + felt authorship that emerges when the brain’s predictions and outcomes
+applied.
 
-align in its feedback loops.
 
 
+The question then becomes:
 
-So the system is still fully physical and causally embedded, but the causation meaningfully flows
 
-through the organism’s own decision-making architecture.
 
+Which aspects of consciousness matter for accountability, and which aspects may remain unknown?
 
 
-Why this isn’t just “+x where x = 0”: Higher-level organization can still be causally real even if
 
-it’s fully grounded in lower-level physics. A hurricane is made of molecules, but “hurricane” still
+One way to think about it is to distinguish between explanatory aspects and functional aspects.
 
-identifies a real dynamical structure with predictive and causal usefulness. Same with brains.
 
 
+Explanatory aspects
 
-If we only described reality at the lowest level (“just particles” or “just neurons firing”), we’d
 
-lose explanatory power about planning, self-control, prediction, error correction, long-term goals,
 
-and decision-making. Those higher-level processes constrain and guide future system behavior through
+These concern what consciousness ultimately is:
 
-feedback, modeling, and internal state integration.
 
 
+• Is consciousness physical, nonphysical, or both?
 
-So I’m not saying that agency floats above physics. I’m saying that sufficiently organized physical
+• How does subjective experience (“what it is like”) arise?
 
-systems can become genuine control systems whose internally generated evaluations and selections
+• Why does consciousness exist at all?
 
-affect future outcomes in non-trivial ways.
+• Is consciousness fundamental or emergent?
 
 
 
-Humans might actually have will, volition, and self-agency as real but fully physical emergent
+These are profound questions, but notice something:
 
-processes that emerge from brain activity. These are conceptually distinguishable aspects of an
 
-ongoing, distributed control process rather than separate stages: The brain integrates sensory info,
 
-memories, emotions, and goals to form intentions (that’s will - the internal commitment to do
+Human accountability practices do not appear to depend on having definitive answers to them.
 
-something without immediate outside force pushing it). Volition involves evaluating options, picking
 
-one, and turning that intention into actual movement or speech through areas like the prefrontal
 
-cortex and motor pathways (with selection/execution outcomes looping back to inform ongoing
+Courts, parents, schools, and societies generally do not ask:
 
-computation/evaluation). Self-agency is the feeling and function of being the author of your
 
-actions, happening when your brain’s predictions about what you’ll do match the outcomes, creating a
 
-sense of control and a feedback loop for adjusting on the fly.
+“Has the hard problem of consciousness been solved?”
 
 
 
-Even though everything here is caused by prior brain states, biology, memories, and limits on what
+before assigning responsibility.
 
-we know, agency still feels genuine because your actions come from internal computation and self-
 
-referential processing rather than just straight stimulus-response. It’s like the system generates
 
-directives through its own ongoing internal dynamics instead of being a puppet. This fits best with
+Functional aspects
 
-“compatibilism: free will exists when you act according to your own internal decision-making, even
 
-if that system has causes behind it”. We don’t directly “see” our will but infer it from internal
 
-cues and results. Decisions unfold only in the present moment, and predictive brain mechanisms help
+Instead, accountability tends to depend on observable or inferable capacities such as:
 
-assemble thoughts. The “guiding, self-directed part” isn’t an extra ingredient on top of physics -
 
-it’s the integrative architecture itself acting as a real causal handle. On an interventionist
 
-reading of higher-level causation, interventions at the level of intentions can track organizational
+• awareness of one’s actions,
 
-structure that is not well described by isolating individual neurons, because the higher-level
+• understanding of rules or norms,
 
-organization constrains and stabilizes which lower-level trajectories are realized. That’s the work
+• ability to foresee consequences,
 
-the emergent layer is doing - no mystery spark required. So, self-agency can work as an emergent
+• intentionality,
 
-layer in thought formation - it arises from earlier causes but then operates as a causal factor at
+• capacity to respond to reasons,
 
-its own level, influencing what comes next. Volition acts as a selection-and-initiation process
-
-embedded right in the causal chain, volition being both an effect of what came before and a cause
-
-shaping future outcomes. This keeps things mechanistic without needing absolute freedom, while
-
-leaving room for the brain’s integrated, anticipatory nature to generate real influence from within.
-
-
-
-Also compatible with quantum indeterminacy/randomness. My framework is compatible with quantum
-
-indeterminacy at the micro level, but that doesn’t mean macro-level behavior becomes random. Higher-
-
-level emergent systems routinely constrain and stabilize lower-level variability. Brains, like other
-
-complex control systems, integrate noisy lower-level activity into coherent large-scale behavior
-
-through feedback, prediction, error correction, and organizational structure.
-
-
-
-So even if quantum mechanics allows microscopic differences across reruns, that does not imply
-
-scientists would behave chaotically or lose coherent agency. The whole point of the emergent
-
-architecture is that macro-level organization remains causally operative despite lower-level
-
-stochasticity.
-
-
-
-And I don’t think randomness by itself solves the free-will problem anyway. A different outcome
-
-caused purely by quantum fluctuation would not automatically count as greater authorship or control.
-
-Compatibilism, at least in my framework, is about whether actions genuinely flow through the
-
-organism’s internally integrated evaluative architecture, not whether the universe contains
-
-microscopic indeterminacy.
-
-
-
-Moral responsibility doesn’t hinge on the determinism/indeterminism debate because it’s grounded in
-
-something that holds regardless of which side wins - namely, that humans are genuine causal agents
-
-whose reasoning, intentions, and choices do real causal work.
-
-
-
-Such matters because:
-
-
-
-1. Human beings demonstrably deliberate, form intentions, weigh reasons, select actions, and
-
-   initiate behavior through internally integrated processes. That’s observable, confirmable through
-
-   signals (behavior, self-report, neural patterns, outcomes), and it does real causal work. Whether
-
-   the universe is fully determined or probabilistically open, the question of whether a person
-
-   acted through their own internally integrated evaluative architecture - their goals, reasoning,
-
-   values - remains the same. A puppet is not just “something that was caused.” Everything physical
-
-   is caused. A puppet is a system whose behavior bypasses internal evaluation entirely. Humans are
-
-   structurally different from that.
-
-2. Intentions and reasoning are causally real, not epiphenomenal. On an interventionist account of
-
-   higher-level causation, intervening at the level of intentions reliably changes behavior in ways
-
-   that aren’t well-captured by describing isolated neurons. That means reasoning does work in the
-
-   causal chain — it’s not just decorative. If reasoning matters causally, then responses to
-
-   reasoning (praise, blame, punishment, reward) can actually do something.
-
-3. Behavioral systems respond to incentives and norms regardless of the metaphysics. Whether
-
-   determinism is true or not, the fact that humans update their future behavior based on
-
-   consequences and moral feedback is itself a feature of their agentive architecture. Punishment
-
-   and reward function as:
-
-
-
-feedback that modifies future behavior constraints that alter the incentive landscape protection for
-
-others incentive shaping through the agent’s own evaluative processes moral communication that can
-
-be internalized
-
-
-
-None of this requires “ultimate origination” or uncaused choices. It requires only that the agent’s
-
-decision-making architecture be the thing that’s actually being engaged.
-
-
-
-Is retributive punishment - punishment as desert for its own sake - justified without libertarian
-
-free will? That’s a real debate. But consequentialist justifications for moral responsibility
-
-systems (shaping behavior, protecting society, communicating norms) are valid if they work through
-
-the very agentive architecture that makes people moral agents in the first place.
-
-
-
-(From my compatibilist perspective, internally generated commitments, selection-and-initiation, the
-
-predictive alignment and authorship feedback that lets the system treat itself as the source in its
-
-own modeling - These aren’t absolute uncaused powers - They’re higher-level organizational
-
-structures that emerge from and feed back into the causal stream. Like a hurricane organizing
-
-molecules into something that genuinely steers weather patterns, even though it’s all physics all
-
-the way down.)
-
-
-
-Yes — that’s essentially the core of moral and political philosophy around justice:
-
-
-
-Different systems of justice prioritize different things:
-
-
-
-protection, fairness, restoration, deterrence, revenge, accountability, rehabilitation, social
-
-stability, proportionality, mercy, rights, or moral desert.
-
-
-
-And people argue endlessly over which combinations are the most justified or “righteous.”
-
-
-
-The examples you gave actually represent very different justice models under the hood.
-
-
-
-“An eye for an eye”
-
-
-
-This is classic retributive justice.
-
-
-
-The idea is:
-
-
-
-wrongdoing deserves proportional punishment.
-
-
-
-Importantly, historically it was originally a *limitation* on vengeance:
-
-
-
-not “destroy their entire family because they stole a goat,”
-
-
-
-but:
-
-
-
-punishment should be proportionate.
-
-
-
-Modern retributivists often argue:
-
-
-
-punishment respects moral agency, because it treats people as responsible choosers, rather than as
-
-malfunctioning machines.
-
-
-
-Critics respond:
-
-
-
-retribution can collapse into institutionalized revenge, especially if free will is weaker than
-
-assumed.
-
-
-
-“Do unto others as you want done unto you”
-
-
-
-That’s closer to:
-
-
-
-reciprocal ethics, moral symmetry, empathy-based ethics, and social cooperation principles.
-
-
-
-It’s less about punishment specifically and more about:
-
-
-
-how agents ought to treat one another.
-
-
-
-This can support:
-
-
-
-restorative justice, compassion, fairness, and mutual accountability.
-
-
-
-It’s fundamentally relational.
-
-
-
-The United States legal system
-
-
-
-The U.S. system is actually a hybrid monster stitched together from multiple theories like
-
-philosophical Frankenstein wearing a courthouse wig.
-
-
-
-It mixes:
-
-
-
-retributive justice, deterrence, incapacitation, rehabilitation, plea-bargaining pragmatism, rights
-
-protections, and social-order maintenance.
+• self-control to some degree.
 
 
 
@@ -386,50 +112,398 @@ For example:
 
 
 
-prison can be justified as punishment, deterrence, public safety, rehabilitation, or all
+• A sleeping person may have reduced accountability.
 
-simultaneously.
+• A very young child may have reduced accountability.
 
-
-
-That’s why debates over sentencing become so heated:
+• Someone acting under coercion may have reduced accountability.
 
 
 
-people are often operating from entirely different justice theories without realizing it.
+Why?
 
 
 
-Compatibilism fits pretty naturally into accountability-based justice
+Not because their capacity for consciousness ceases to exist, but because certain relevant
+
+capacities of consciousness are diminished or absent.
 
 
 
-Your framework especially supports:
+Thus, if accountability is the issue, the specific aspects of consciousness that may matter most are
+
+not necessarily its ultimate nature, but rather whether it enables:
 
 
 
-responsibility, accountability, social correction, and proportional response.
+1. Awareness
 
 
 
-Because under your view:
+• Does the entity recognize itself and its surroundings?
 
 
 
-people are genuine causal agents, reasoning matters, intentions matter, choices affect future
-
-outcomes, and behavioral systems can respond to incentives and norms.
+1. Intentionality
 
 
 
-So punishment/reward can make sense as:
+• Can it act toward goals?
 
 
 
-feedback, constraint, protection, incentive shaping, and moral communication.
+1. Understanding
 
 
 
-Where things become morally dangerous
+• Can it comprehend relevant information or rules?
 
 
+
+1. Consequence recognition
+
+
+
+• Can it appreciate how actions affect others?
+
+
+
+1. Behavioral control
+
+
+
+• Can it regulate its actions to some degree?
+
+
+
+1. Responsiveness
+
+
+
+• Can it learn from feedback, reasons, or norms?
+
+
+
+If these capacities are present to a sufficient degree, accountability may be justified even if
+
+consciousness itself remains only partially understood.
+
+
+
+Your sports analogy fits here too.
+
+
+
+A child need not understand:
+
+
+
+• neurons,
+
+• qualia,
+
+• the neural correlates of consciousness,
+
+• the metaphysics of mind,
+
+
+
+to be accountable for intentionally breaking a rule during a game.
+
+
+
+Similarly, humanity may not fully understand consciousness yet still possess enough understanding of
+
+these relevant capacities for accountability to apply.
+
+
+
+So one possible answer to your question is:
+
+
+
+Accountability may not require full knowledge of consciousness itself; it may require sufficient
+
+evidence that consciousness supports the capacities relevant to intentional participation in shared
+
+systems of interaction.
+
+
+
+In that sense, accountability may depend less on solving the mystery of consciousness and more on
+
+identifying the particular features of consciousness that enable agency, understanding, and
+
+participation.
+
+
+
+Is “a system based on externalized physical conduct and its associated ‘intent (only insofar as it
+
+is “evidenced by or inferred from” observable conduct and circumstances, rather than treated as an
+
+independently [without any associated correlation to an external doing, such correlation would
+
+normally be what establishes if intent was acted upon] punishable thing)’, while categorically
+
+excluding purely mental phenomena from accountability” better than “a system that includes
+
+thoughtcrime and doesn’t exclude mental/internal phenomena”? (“Temporary intent” is also a factor,
+
+for example, “I had intended to try out skydiving but I changed my mind about doing that”)
+
+
+
+I think a system based on externalized physical conduct and its associated intent, while
+
+categorically excluding purely mental phenomena from accountability, is better.
+
+
+
+By “excluding purely mental phenomena,” I mean that private thoughts, imaginings, fantasies,
+
+desires, feelings, beliefs, and similar internal mental states should not themselves be grounds for
+
+punishment or accountability. Accountability should arise from what a person actually does in the
+
+world and the effects their conduct has on other people.
+
+
+
+This does not mean intent is irrelevant. Intent, motive, knowledge, recklessness, fear, and similar
+
+mental states can still matter when evaluating conduct. However, they should be considered only
+
+insofar as they are “evidenced by or inferred from” observable conduct and circumstances, rather
+
+than treated as independently punishable things.
+
+
+
+I think the world is a safer and more pleasant place when justice systems focus on what people
+
+actually externalize into the shared world rather than what exists solely within their minds. A
+
+system that punishes thoughts creates incentives for surveillance, mind-reading, fear of one’s own
+
+thoughts, self-censorship, and punishment of people who have not actually harmed anyone. In
+
+contrast, a system focused on externalized conduct provides clearer boundaries and better protects
+
+individual freedom of thought.
+
+
+
+I also think such a system results in less overall suffering when applied equally and without
+
+exception. People remain accountable for intentional mistreatment, callous conduct, recklessness,
+
+coercion, fraud, violence, and other actions that affect others, while remaining free to think,
+
+imagine, question, doubt, fantasize, or internally struggle without fear of punishment merely for
+
+having certain thoughts.
+
+
+
+In short, I believe accountability should be tied to what a person brings into the shared world
+
+through their conduct and its effects on others, not to the mere existence of unexternalized mental
+
+phenomena.
+
+
+
+For example, whether a killing was murder, self-defense, accidental, reckless, or intentional may
+
+depend on evidence that allows us to infer the actor’s state of mind from what they said, did, knew,
+
+or reasonably perceived at the time. Likewise, evidence that an assault was motivated by hatred can
+
+be relevant because it helps explain an observable act that actually occurred.
+
+
+
+The distinction I am drawing is between judging someone for what they did and judging someone merely
+
+for what existed in their mind. This is about a system that holds people accountable for
+
+externalized conduct, with intent helping to interpret that conduct, vs a system that includes
+
+holding people accountable for thoughts, desires, fantasies, beliefs, or other purely internal
+
+mental states even when they were never acted upon or externalized.
+
+
+
+Intent, motive, knowledge, recklessness, fear, or similar mental states can be inferred from
+
+observable conduct, statements, circumstances, preparations, patterns of behavior, known
+
+information, and other external evidence. Inference necessarily involves some degree of assumption
+
+in the sense that we never directly observe another person’s intent. The question, though, is
+
+whether those assumptions are constrained by evidence or are merely speculative. Inferences can
+
+still be more or less justified depending on how well they explain/“correspond with” the available
+
+facts.
+
+
+
+For example, intent can be inferred when someone purchases poison, researches lethal doses, secretly
+
+administers the poison to a victim, and then attempts to conceal the act. We do not observe the
+
+intent directly; we infer it from the conduct.
+
+
+
+Motive can be inferred when someone stands to gain a large inheritance from a death, repeatedly
+
+expresses hostility toward the deceased, and then engages in conduct leading to that death. The
+
+motive is not directly visible, but external evidence may support the inference.
+
+
+
+Knowledge can be inferred when someone receives repeated warnings that a bridge is unsafe,
+
+acknowledges those warnings, and then continues sending people across it. Their knowledge is
+
+evidenced by what they were told and how they responded.
+
+
+
+Fear can be inferred when someone is cornered by an armed attacker, attempts to retreat, calls for
+
+help, visibly panics, and then uses force against the attacker. We cannot directly observe fear
+
+itself, but the surrounding conduct may provide evidence that fear was present.
+
+
+
+Recklessness can be inferred when someone knowingly drives at extreme speeds through a crowded area,
+
+fires a weapon into an occupied building, or ignores obvious and substantial risks that a reasonable
+
+person would recognize. The recklessness is inferred from the choice to proceed despite the apparent
+
+danger.
+
+
+
+Suppose a person privately fantasizes about harming someone for twenty years but never threatens,
+
+attempts, plans, encourages, or commits any harmful act. Under the system I am describing, the
+
+fantasy alone would not create accountability.
+
+
+
+Suppose another person secretly poisons someone and is never caught. The poisoning itself remains an
+
+observable-type event because it is a physical action occurring in the world, even if no one
+
+actually discovers who did it. Accountability would attach to the poisoning, not to whether
+
+observers happened to identify the culprit.
+
+
+
+Suppose a person accidentally causes harm while exercising reasonable care. The harmful outcome
+
+alone would not automatically establish malicious intent, recklessness, or callousness.
+
+
+
+Suppose a person claims an action was an accident, but evidence shows extensive preparation, prior
+
+threats, concealment efforts, and attempts to benefit from the outcome. Those observable facts may
+
+justify inferring intent despite the claim.
+
+
+
+Suppose a person genuinely fears for their life and acts in self-defense. Their fear is not directly
+
+observed, but it may be inferred from the circumstances and their conduct. Conversely, if someone
+
+merely claims fear while the evidence strongly indicates aggression or retaliation, the claim may
+
+not be supported.
+
+
+
+“Experience is dynamic/‘non-stop temporally unfolding flow’. Staticness can’t produce/constitute
+
+something dynamic. A continuous geometric curve isn’t the same as lived flow”, correct? Can block
+
+universe’s 4D static block produce dynamic experience?
+
+
+
+“Staticness = paused (e.g., paused movie/flow). Paused doesn’t = activity. ‘A portfolio of static
+
+snapshots of mid-activity’ isn’t activity. ‘Related-to-each-other static snapshots’ doesn’t = being
+
+actual activity”, correct?
+
+
+
+Is a static pattern able to “do or be” functioning?
+
+
+
+Does the block universe explain why we experience temporal passage if it’s an illusion, and why that
+
+illusion has the specific character it does?
+
+
+
+Does the block universe explain “If all of a person’s brain states exist equally (as in the block
+
+universe), why is one particular state the one currently experienced, instead of another—or instead
+
+of ‘multiple or all’ of them simultaneously?”?
+
+
+
+Appendix D.
+
+
+
+Two analytically distinct levels are kept separate here. Appendix D extends temporal ontology into
+
+the domain of mind and experience. This extension is motivated by the core hypothesis — Qualia is
+
+naturally located in the Present — but it is not a prerequisite for the core temporal ontology, and
+
+its conclusions do not feed back into it. The discussion of conscious temporal experience throughout
+
+this appendix is intended as phenomenological motivation for the framework rather than as empirical
+
+evidence for it.
+
+
+
+D.1 Qualia Ontology:
+
+
+
+Qualia— the intrinsic, subjective character of experience — is located in the Present. The claim is
+
+that qualia are intrinsic to ongoing, physically instantiated processes in the present.
+
+
+
+Qualia are features of the present moment. They exist only as properties of processes that are
+
+actively unfolding in the present.
+
+
+
+Past brain states belong to the formal history M(σ). They were fully real when present, and their
+
+consequences persist as causal records in present neural structure, but they do not persist as

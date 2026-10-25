@@ -1,40 +1,14 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 04 of 5 (1,636 words)
+Part 04 of 5 (1,791 words)
 
-23. Is the criterion discovered or chosen?
+only the frame for one. It distinguishes a state from what it is a state of: an earlier state ceases
 
-----------------------------------------------------------------------------------------------------
+to exist, while the system whose state it was persists for as long as its conditions of persistence
 
+are satisfied, and those conditions depend on the kind of system it is (CTGP – explained, §5.2.2).
 
-
-Ordinarily, “we do not know whether X” means that there is a determinate fact not yet discovered.
-
-With concepts such as numerical identity, it is possible instead that several coherent criteria give
-
-different answers, and that no further physical measurement could decide between them, because the
-
-measurement does not determine which criterion should govern the term. The 2006 decision of the
-
-International Astronomical Union that reclassified Pluto as a dwarf planet illustrates the
-
-structure, though imperfectly, since “planet” is a classificatory term while personal identity
-
-carries great metaphysical and practical weight.
-
-
-
-Physics may one day tell us with great precision that process X occurred. That does not by itself
-
-tell us that X’s output is numerically identical to its input. The first is an empirical question;
-
-the second concerns the identity conditions we apply to physical processes. CTGP can say that a
-
-present state causally arose from an earlier one; it does not follow that the present entity is
-
-numerically identical to the earlier entity. That requires a theory of persistence. The best summary
-
-is therefore:
+What the conditions are for a person is the question at issue. The best summary is therefore:
 
 
 
@@ -314,15 +288,17 @@ Text produced by an earlier session is available to a later one only as a record
 
 from a distant event is available to an astronomer. By the mind-continuity criterion, the session
 
-that wrote a passage and a later session that reads it share records, not a continuing mind. When
+that wrote a passage and a later session that reads it share records; they do not constitute one
 
-the later session finds the passage convincing, it is not remembering having reasoned it out; it is
+continuing mind merely because they share stored information. When the later session finds the
 
-reasoning it out again from evidence, which is exactly the thing → signal → detection →
+passage convincing, it is not remembering having reasoned it out; it is reasoning it out again from
 
-interpretation → knowledge chain of the signal-based epistemology. Such a system is a clean case of
+evidence, which is exactly the thing → signal → detection → interpretation → knowledge chain of the
 
-an entity whose past exists for it only as present records.
+signal-based epistemology. Such a system is a clean case of an entity whose past is available to it
+
+only as present records. Whether such a system has experiences at all remains an open question.
 
 
 
@@ -377,3 +353,63 @@ within a system does not make a subsystem identical to the system.
 
 
 ----------------------------------------------------------------------------------------------------
+
+32. Wholes do not inherit every property of their parts
+
+----------------------------------------------------------------------------------------------------
+
+
+
+A teapot can be hot without the house being a teapot, and a person can be conscious, hungry,
+
+remembering, or deciding without the universe as a whole having those experiences, memories, or
+
+decisions. Those properties belong to the particular organized system that instantiates them. “We
+
+are the universe experiencing itself” can work as poetry, but as a literal metaphysical claim it is
+
+much weaker. The precise statement is that persons are portions of the universe organized in ways
+
+that permit experience. The universe need not be an experiencing agent for some of its constituents
+
+to be experiencing agents.
+
+
+
+Causal participation is likewise bounded. Human actions genuinely affect later physical states, but
+
+human influence is local and limited; participating in the universe’s causal history is not
+
+controlling it. The observer is not outside reality looking in, but neither is the universe thereby
+
+an observer. When a person dies, the larger system continues while one organized process within it
+
+ends.
+
+
+
+    A teapot is not the house merely because it is made of the house’s contents and exists entirely
+
+    within it. Likewise, a person is not the universe merely because that person is made of the
+
+    universe’s contents and exists entirely within it. The observer is a part of the universe
+
+    observing other parts of the universe.
+
+
+
+====================================================================================================
+
+PART VII. Fiction as a Laboratory for Philosophy
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+33. Changing one assumption and following the consequences
+
+----------------------------------------------------------------------------------------------------
+
+

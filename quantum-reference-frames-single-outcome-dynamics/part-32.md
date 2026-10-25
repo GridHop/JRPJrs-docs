@@ -1,457 +1,339 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 32 of 40 (1,753 words)
+Part 32 of 35 (1,800 words)
 
-                                             | 13.24); no-signaling by algebra preservation (Thm
+      | distance between the two orders; unread        | states agree to          | 13.28(e)
 
-                                             | 13.17); a candidate cosmic-time completion and
+      | channels in either order give the same state   | 6.8 × 10⁻¹⁵              |
 
-                                             | its gapless-pointer variant (§13.11, not
+C3(f) | Non-admissible configurations ordered by       | laws differ in 234 of    | Prop. 13.23
 
-                                             | adopted); covariant, matter-localizing, and
+      | centre time in two frames                      | 300                      |
 
-                                             | interacting cases open.
+C3(g) | Centre-time order is a linear extension of the | 300 of 300               | Lemma 13.26(b)
 
-Temporal quantum reference frames?           | Generation, readings, and conditional descriptions
+      | causal order, 300 admissible configurations    |                          |
 
-                                             | distinguished (Def. 14.1, Prop. 14.2); criterion
+C3(h) | Time-ordered collapses, non-admissible Sorkin- | at most 1.6 × 10⁻¹⁵;     | Prop. 13.28(c)
 
-                                             | for overlapping descriptions (Def. 14.3), proved
+      | type configuration: target law with and        | Lüders shift 8.1 × 10⁻⁴  |
 
-                                             | for late-record instruments with ideal clocks
+      | without a causally separated kick, collapse,   |                          |
 
-                                             | (Prop. 14.5); imperfect clocks open (Conj. 14.4).
+      | or Lüders instrument; Lüders negative control  |                          |
 
-Quantum gravity?                             | Generative order distinguished from classical cosmic
+C4(a) | Gapless pointers: E = Γ − Γᵀ; phase of the     | exact; 0 between         | Prop. 13.31(a)
 
-                                             | time; conditions Q1–Q5, obstructions R1–R4, and
+      | time-ordered coupling along two foliations,    | foliations; 9.0 × 10⁻³   |
 
-                                             | test problems G1–G3 (§15).
+      | and its approach to Γ                          | at 64 nodes per axis     |
 
+C4(b) | Explicit pointers, overlapping pair:           | 7.3 × 10⁻¹⁴; 2.0 × 10⁻¹³ | Prop. 13.31(b)
 
+      | characteristic function vs closed form, with   |                          |
 
-Table 5. The open questions and where they are answered.
+      | and without the pre-chirp                      |                          |
 
+C4(c) | Unread field channel vs two unread Gaussian    | 1.7 × 10⁻¹⁴              | Prop. 13.31(c)
 
+      | collapses                                      |                          |
 
-----------------------------------------------------------------------------------------------------
+C4(d) | One-way pair: pointers vs sequential collapse  | 1.8 × 10⁻¹³; variances   | Prop. 13.31(d)
 
-19. Conclusion
+      | in causal order; overlapping pair: pointers    | differ by 0.0011 and     |
 
-----------------------------------------------------------------------------------------------------
+      | vs collapses in centre-time order              | 0.0537                   |
 
+C.2   | Record keyed to A: P_phys = P_A = P_B at late  | 12 digits                | Prop. 14.5(c)
 
+      | readings                                       |                          |
 
-The present world is represented here by a perspective-neutral quantum state together with a
+C.2   | One interaction per clock: record law =        | 12 digits                | Prop. 14.5(d)
 
-Lucretian truth profile drawn from an exactly specified space of admissible histories. The
+      | mixture of the definite orders                 |                          |
 
-generative law is a relational, single-outcome instrument in discrete stages, or equivalently a
+C.2   | Offset-coherent observable: P(+) = (1 +        | 12 digits; 0.5           | Prop. 14.5(e)
 
-relational GRW-type jump process in continuous time. Its primitive events are occurrences whose
+      | Re⟨W_1ψ, W_2ψ⟩)/2 in all three descriptions;   |                          |
 
-probabilities the law fixes, not sharp values of observables. Frame descriptions are unitary
+      | incoherent mixture of offsets                  |                          |
 
-reductions of the neutral state, and two descriptions describe one complete state exactly when they
 
-lie in one description orbit. The interpretive thesis that such an orbit is one realized world with
 
-one history is what CTGP adds, and it is stated as a thesis, not presented as a theorem.
+Table C.1. Checks of §§13.8–13.11 (script C.1) and §14.5 (script C.2), with the result each
 
+instantiates.
 
 
-The truth profile does work that the quantum state cannot do. With finite-width collapse, any
 
-present state can be reached along any sequence of events from a suitable initial state, so nothing
+Two analytical ingredients of the scripts should be stated. First, for a quasi-free state with
 
-in the present physical state settles what happened; what settles it is what the present world has
+vanishing one-point function, the characteristic function of the outcomes of Gaussian collapses
 
-been. That is the Lucretian thesis, given an exact form. The same results separate what is true
+applied in a given order follows from the identity ∫ e^{isy} K_y W(g) K_y dy = exp(−E(g, h)²/(8σ²) −
 
-about the past from what can be recovered about it and from what still influences the future: the
+s²σ²/2) W(g + sh), applied from the last collapse to the first. The outcomes are then jointly
 
-past is definite, it may be unrecoverable, and it acts on the future only through the present.
+Gaussian with covariance
 
 
 
-Beyond the finite model, the same structure points to a definite program. The distinction that
+        C = Σ + diag(σ_m²) + Σ_m e_m e_mᵀ / (4σ_m²),
 
-matters most is between agreement about states and agreement about realized histories: theories can
 
-agree on every density operator and still disagree about what happened, so single-outcome
 
-compatibility with relativity must be proved at the level of histories. For causally local
+where Σ is the covariance of the smeared fields in the state, and (e_m)_{m′} = E(h_{m′}, h_m) if
 
-instruments in finite models it holds, and the choice of generative foliation is then empirically
+collapse m′ follows collapse m in the order and 0 otherwise. When the order is a linear extension of
 
-invisible, as CTGP’s observational equivalence requires. For gapless detectors on a free
+an admissible configuration, every nonzero entry of e_m belongs to a collapse in the causal future
 
-relativistic field it holds as well, with operational no-signaling even in Sorkin’s configuration,
+of collapse m, so C does not depend on the linear extension; items C3(c) and C3(d) test this formula
 
-and it extends to spontaneous Gaussian collapses of smeared fields on a fixed family of regions and
+against direct computation. Second, for a massless field in 1 + 1 dimensions the causal propagator
 
-to collapses at Poisson-distributed locations on every causally orderable configuration. Beyond
+is E(t, x) = −(sgn u + sgn v)/4 in light-cone coordinates u = t − x and v = t + x, up to an overall
 
-that, a covariant law needs structure at each event: orderability is lost in large volumes,
+sign convention. For smearings that are products β(u)β(v) supported in causal diamonds, E(h_i, h_j)
 
-interfering collapses then depend on their order, and no Lorentz-invariant smearing law exists.
+therefore reduces to one-dimensional integrals. It equals zero exactly when the diamonds are
 
-Within CTGP, cosmological time can supply that structure consistently, as a candidate extension, but
+causally separated. Third, for the gapless pointers of Proposition 13.31, the retarded part of the
 
-only by giving the generative order a dynamical role, which is a decision for the framework rather
+propagator is E_ret(t, x) = −θ(u)θ(v)/2, so Γ_kl also reduces to products of one-dimensional
 
-than a result. Realizing each collapse by a gapless pointer coupled to the field removes the need to
+integrals, and in a one-mode realization the field vector exp(−i Σ_k p_k φ(h_k))|0⟩ produced from
 
-order the collapses, although cosmological time still fixes their smearings and the definite pointer
+the vacuum at given pointer momenta is a coherent state. The script uses this to compute the joint
 
-readings must still be postulated. A covariant spontaneous-collapse theory that localizes matter
+state of the field and the pointers on a grid of pointer momenta. The sums of item C4(a) place the
 
-remains to be established. Quantum clocks may repeat readings, delocalize events, and order them
+smearings on Gauss–Legendre nodes and add E over the pairs of nodes ordered by each foliation.
 
-differently from generation without touching event identity, and for two ideal clocks with the
 
-interventions inside the constraint, late-record events are clock-neutral even when the order of the
 
-interactions that write them is superposed, and that superposition has observable consequences for
+Reproducibility. The software is that of Appendix B: Python 3.13.16, NumPy 2.5.3, and SciPy 1.18.1.
 
-offset-coherent measurements. Deriving a definite generative order from clock-neutral data, treating
+Script C.1 runs in about four minutes, most of it in item C3(h), and script C.2 in about 5 seconds.
 
-realistic clocks, and carrying generation into quantum gravity remain open.
+Seeds are 31 and 32 for the random states of item C2, 2027 for the configurations of item C3, and 5
 
+for the system states of script C.2. Item C1 uses two oscillator modes with Fock cutoff 24 per mode,
 
+A = 0.6 q_1 − 0.3 q_2 + 0.2 p_1 + 0.5 p_2, σ = 0.8, an outcome grid of step 0.01, and 80-point
 
-The law generates the history, and the truth profile records it. Frames describe the result
+Gauss–Hermite quadrature for the kicks. Item C2(a) uses m = 1.7, ω = 1.3, V(Q) = ½mω²Q² + 0.2 Q⁴, σ
 
-differently, but they never disagree about what happened.
+= 0.7, and cutoffs of 140 and 180 quanta. Item C2(b) uses the modes of C1 with the coupling matrix
 
+((1.3, −0.4), (−0.4, 0.9)). Item C2(c) uses a periodic lattice of 48 sites with mass 0.6, σ = 0.9,
 
+and a product smearing of half-widths 2.5 in time and 3 sites in space. Item C2(d) uses mass 1, σ =
 
-----------------------------------------------------------------------------------------------------
+0.9, and a boost of rapidity 0.5. Item C3 uses causal diamonds of half-size 0.5 with smearings
 
-References
+scaled by 4. The intensities are 6 in C3(a), 1.5 in C3(b) and C3(f), and 0.4 in C3(c), in square
 
-----------------------------------------------------------------------------------------------------
+boxes of side 4, 1 to 2.5, 2, and 4, and the three-collapse configurations of C3(d) are drawn
 
+uniformly in a box of side 1.6. Item C3(h) uses diamonds with light-cone centres (u, v) = (0, 0),
 
+(−0.525, 1.2), (−0.225, 1.05), and (−1.05, 2.3) for j, c1, c2, and y, smearings scaled by 8, widths
 
-Aharonov, Y., & Kaufherr, T. (1984). Quantum frames of reference. Physical Review D, 30, 368–385.
+0.8, 0.9, and 1 for c1, c2, and y, a kick W(3 f_j), a Gaussian collapse of width 0.8, or the unsharp
 
+Lüders instrument of Example 13.10 at j, a two-mode Fock realization in which φ(h_j) and φ(h_y) act
 
+on different modes, with cutoffs of 36 and 44 quanta per mode, and, as the negative control, the
 
-Allori, V., Goldstein, S., Tumulka, R., & Zanghì, N. (2008). On the common structure of Bohmian
+same Lüders instrument at c1. Item C4 uses the overlapping pair of C3(e) and a one-way pair with
 
-mechanics and the Ghirardi–Rimini–Weber theory. British Journal for the Philosophy of Science, 59,
+centres (t, x) = (0, 0) and (1.2, 0.3), smearings scaled by 4, pointer widths 0.8 and 0.9, 81
 
-353–389.
+momenta per pointer with spacing 0.12, the one-mode realization with cutoff 140, the foliations by t
 
+and by cosh(0.6) t − sinh(0.6) x, and 32 and 64 Gauss–Legendre nodes per light-cone axis. The widths
 
+σ are drawn uniformly from [0.5, 1.2] in C3(c) and fixed at 0.8, 0.9, and 1.0 in C3(d). Items C3(d)
 
-Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
+and C3(e) use a one-mode Fock realization of the commutation data with cutoff 140 and outcome bins
 
-Quantum Gravity, 15, 309–322.
+with edges −0.7, 0, and 0.7. Items C3(c) and C3(f) use quasi-free states with covariance ½|E| + 0.3.
 
+In script C.2 the clocks are ideal, the grid step is 0.01, and the wave packets in the offset are
 
+smooth bumps of half-width 0.25. Case 3 of script C.2 uses one system state in both offset packets.
 
-Araújo, M., Branciard, C., Costa, F., Feix, A., Giarmatzi, C., & Brukner, Č. (2015). Witnessing
+Throughout, smooth bumps are exp(−1/(1 − z²)) on (−1, 1).
 
-causal nonseparability. New Journal of Physics, 17, 102001.
 
 
+C.1 Collapse Networks
 
-Bartlett, S. D., Rudolph, T., & Spekkens, R. W. (2007). Reference frames, superselection rules, and
 
-quantum information. Reviews of Modern Physics, 79, 555–609.
 
+# Verification of the collapse results of Sections 13.8-13.10 (Appendix C.1).
 
+# C1: random-kick form of the unread Gaussian collapse channel (Proposition 13.15).
 
-Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
+# C2: energy-momentum cost of Gaussian collapse (Proposition 13.16).
 
-collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
+# C3: Poisson-located Gaussian collapses on a massless field in 1+1 dimensions
 
+#     (Theorem 13.21, Propositions 13.22 and 13.23, Lemma 13.26, Proposition 13.28).
 
+# C4: the same collapses realized by gapless pointers coupled to the field (Proposition 13.31).
 
-Baumann, V., & Lock, M. P. E. (2026). Time delocalization and causality across temporal quantum
+import numpy as np
 
-reference frames. arXiv:2603.08845.
+from scipy.linalg import eigh, schur, expm
 
+from scipy.special import erf
 
 
-Bedingham, D. J. (2011). Relativistic state reduction dynamics. Foundations of Physics, 41, 686–704.
 
+Phi = lambda z: 0.5 * (1 + erf(z / np.sqrt(2)))          # standard normal CDF
 
+bump = lambda z: np.where(np.abs(z) < 1, np.exp(-1 / np.maximum(1 - z**2, 1e-300)), 0.0)
 
-Bell, J. S. (1987). Are there quantum jumps? In C. W. Kilmister (Ed.), Schrödinger: Centenary
 
-Celebration of a Polymath (pp. 41–52). Cambridge University Press. Reprinted in Speakable and
 
-Unspeakable in Quantum Mechanics.
 
 
+def ladder(nc):
 
-Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
+    return np.diag(np.sqrt(np.arange(1, nc)), 1)
 
-Communications in Mathematical Physics, 243, 461–470.
 
 
 
-Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
 
-globally hyperbolic spacetimes. Communications in Mathematical Physics, 257, 43–50.
+def modes(nc, m):
 
+    """annihilation operators of m modes, each truncated at nc quanta"""
 
+    a1, I = ladder(nc), np.eye(nc)
 
-Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
+    out = []
 
+    for k in range(m):
 
+        A = np.array([[1.0]])
 
-Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
+        for j in range(m):
 
-Review Letters, 59, 521–524.
+            A = np.kron(A, a1 if j == k else I)
 
+        out.append(A)
 
+    return out
 
-Bostelmann, H., Fewster, C. J., & Ruep, M. H. (2021). Impossible measurements require impossible
 
-apparatus. Physical Review D, 103, 025017.
 
 
 
-Bourne, C. (2006). A Future for Presentism. Oxford University Press.
+def dephase(rho, A, sig):
 
+    """unread Gaussian collapse of A: multiplier exp(-(a - a')^2/(8 sig^2)) in A's eigenbasis"""
 
+    w, V = eigh(A)
 
-Breuer, H.-P., & Petruccione, F. (2002). The Theory of Open Quantum Systems. Oxford University
+    M = np.exp(-(w[:, None] - w[None, :])**2 / (8 * sig**2))
 
-Press.
+    return V @ ((V.conj().T @ rho @ V) * M) @ V.conj().T
 
 
 
-Brown, J. D., & Kuchař, K. V. (1995). Dust as a standard of space and time in canonical quantum
 
-gravity. Physical Review D, 51, 5600–5629.
 
+print('C1. Random-kick form of the unread Gaussian collapse channel')
 
+nc, sig = 24, 0.8
 
-Castro-Ruiz, E., Giacomini, F., Belenchia, A., & Brukner, Č. (2020). Quantum clocks and the temporal
+a1, a2 = modes(nc, 2)
 
-localisability of events in the presence of gravitating quantum systems. Nature Communications, 11,
+q = [(a + a.T) / np.sqrt(2) for a in (a1, a2)]
 
-2672.
+p = [1j * (a.T - a) / np.sqrt(2) for a in (a1, a2)]
 
+A = 0.6 * q[0] - 0.3 * q[1] + 0.2 * p[0] + 0.5 * p[1]
 
+w, V = eigh(A)
 
-Crisp, T. M. (2007). Presentism and the grounding objection. Noûs, 41, 90–109.
+d = w[:, None] - w[None, :]
 
+Mex = np.exp(-d**2 / (8 * sig**2))
 
+dy = 0.01
 
-Dalibard, J., Castin, Y., & Mølmer, K. (1992). Wave-function approach to dissipative processes in
+ys = np.arange(w.min() - 8 * sig, w.max() + 8 * sig, dy)
 
-quantum optics. Physical Review Letters, 68, 580–583.
+kap = lambda y: (2 * np.pi * sig**2)**-0.25 * np.exp(-(w - y)**2 / (4 * sig**2))
 
+Mk = sum(dy * np.outer(kap(y), kap(y)) for y in ys)
 
+tq, wq = np.polynomial.hermite.hermgauss(80)
 
-Davies, E. B., & Lewis, J. T. (1970). An operational approach to quantum probability. Communications
+st = 1 / (2 * sig)                     # standard deviation of the kick parameter t
 
-in Mathematical Physics, 17, 239–260.
+Mru = sum(wt * np.exp(-1j * np.sqrt(2) * st * tt * d) for tt, wt in zip(tq, wq))
 
+Mru = Mru / np.sqrt(np.pi)
 
+print('   Kraus integral over y vs exact multiplier:     max dev %.1e' % np.abs(Mk - Mex).max())
 
-de la Hamette, A.-C., & Galley, T. D. (2020). Quantum reference frames for general symmetry groups.
+print('   Gaussian mixture of kicks vs exact multiplier: max dev %.1e' % np.abs(Mru - Mex).max())
 
-Quantum, 4, 367.
 
 
+print('C2. Energy-momentum cost')
 
-de Ramón, J., Papageorgiou, M., & Martín-Martínez, E. (2021). Relativistic causality in particle
+# (a) one particle, position collapse, anharmonic potential; expected hbar^2/(8 m sig^2)
 
-detector models: Faster-than-light signalling and “impossible measurements”. Physical Review D, 103,
+mass, om, g4, sig = 1.7, 1.3, 0.2, 0.7
 
-085002.
+for nc in (140, 180):
 
+    a = ladder(nc + 8)
 
+    Q = (a + a.T) / np.sqrt(2 * mass * om)
 
-Dürr, D., Goldstein, S., Münch-Berndl, K., & Zanghì, N. (1999). Hypersurface Bohm–Dirac models.
+    P = 1j * np.sqrt(mass * om / 2) * (a.T - a)
 
-Physical Review A, 60, 2729–2736.
+    H = P @ P / (2 * mass) + 0.5 * mass * om**2 * Q @ Q + g4 * np.linalg.matrix_power(Q, 4)
 
+    H, Qt = H[:nc, :nc], Q[:nc, :nc]
 
+    e0, U0 = eigh(H)
 
-Dürr, D., Goldstein, S., Norsen, T., Struyve, W., & Zanghì, N. (2014). Can Bohmian mechanics be made
+    rng = np.random.default_rng(31)
 
-relativistic? Proceedings of the Royal Society A, 470, 20130699.
+    c = rng.normal(size=8) + 1j * rng.normal(size=8)
 
+    psi = np.zeros(nc, complex)
 
+    psi[:8] = c / np.linalg.norm(c)
 
-Fewster, C. J., & Verch, R. (2020). Quantum fields and local measurements. Communications in
+    dE = []
 
-Mathematical Physics, 378, 851–889.
+    for vec in (U0[:, 0], psi):
 
+        rho = np.outer(vec, vec.conj())
 
+        dE.append(np.trace(dephase(rho, Qt, sig) @ H).real - np.trace(rho @ H).real)
 
-Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+    print('   (a) cutoff %d: ground %.12f, random %.12f; 1/(8 m sig^2) = %.12f'
 
-systems. Physical Review D, 34, 470–491.
+          % (nc, dE[0], dE[1], 1 / (8 * mass * sig**2)))
 
+# (b) two coupled modes, A linear in (q, p), H quadratic: (|a|^2 + b.K.b)/(8 sig^2)
 
+nc, sig = 24, 0.8
 
-Giacomini, F., Castro-Ruiz, E., & Brukner, Č. (2019). Quantum mechanics and the covariance of
+Kc = np.array([[1.3, -0.4], [-0.4, 0.9]])
 
-physical laws in quantum reference frames. Nature Communications, 10, 494.
+H2 = 0.5 * (p[0] @ p[0] + p[1] @ p[1])
 
+H2 = H2 + 0.5 * sum(Kc[i, j] * q[i] @ q[j] for i in range(2) for j in range(2))
 
-
-Gorini, V., Kossakowski, A., & Sudarshan, E. C. G. (1976). Completely positive dynamical semigroups
-
-of N-level systems. Journal of Mathematical Physics, 17, 821–825.
-
-
-
-Helstrom, C. W. (1976). Quantum Detection and Estimation Theory. Academic Press.
-
-
-
-Höhn, P. A., Smith, A. R. H., & Lock, M. P. E. (2021). Trinity of relational quantum dynamics.
-
-Physical Review D, 104, 066001.
-
-
-
-Hollands, S., & Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.
-
-
-
-Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort & M. A.
-
-Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).
-
-Kluwer.
-
-
-
-Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
-
-Modern Physics, 83, 11–31.
-
-
-
-Kraus, K. (1983). States, Effects, and Operations: Fundamental Notions of Quantum Theory. Springer.
-
-
-
-Krumm, M., Höhn, P. A., & Müller, M. P. (2021). Quantum reference frame transformations as
-
-symmetries and the paradox of the third particle. Quantum, 5, 530.
-
-
-
-Kuchař, K. V. (1992). Time and interpretations of quantum gravity. In G. Kunstatter, D. Vincent, &
-
-J. Williams (Eds.), Proceedings of the 4th Canadian Conference on General Relativity and
-
-Relativistic Astrophysics (pp. 211–314). World Scientific.
-
-
-
-Last, G., & Penrose, M. (2017). Lectures on the Poisson Process. Cambridge University Press.
-
-
-
-Lindblad, G. (1976). On the generators of quantum dynamical semigroups. Communications in
-
-Mathematical Physics, 48, 119–130.
-
-
-
-Loveridge, L., Miyadera, T., & Busch, P. (2018). Symmetry, reference frames, and relational
-
-quantities in quantum mechanics. Foundations of Physics, 48, 135–198.
-
-
-
-Merricks, T. (2007). Truth and Ontology. Oxford University Press.
-
-
-
-Page, D. N., & Wootters, W. K. (1983). Evolution without evolution: Dynamics described by stationary
-
-observables. Physical Review D, 27, 2885–2892.
-
-
-
-Palin, J. R., Jr. (2026). Cosmic-Time Generative Presentism (CTGP) – explained. JRPJr’s docs,
-
-https://gridhop.github.io/JRPJrs-docs/.
-
-
-
-Palin, J. R., Jr. (2026). More Info: Causation, Information, Identity, and Becoming. JRPJr’s docs,
-
-https://gridhop.github.io/JRPJrs-docs/.
-
-
-
-Planck Collaboration (2020). Planck 2018 results. I. Overview and the cosmological legacy of Planck.
-
-Astronomy & Astrophysics, 641, A1.
-
-
-
-Polo-Gómez, J., Garay, L. J., & Martín-Martínez, E. (2022). A detector-based measurement theory for
-
-quantum field theory. Physical Review D, 105, 065003.
-
-
-
-Rideout, D. P., & Sorkin, R. D. (2000). Classical sequential growth dynamics for causal sets.
-
-Physical Review D, 61, 024002.
-
-
-
-Schwinger, J. (1948). Quantum electrodynamics. I. A covariant formulation. Physical Review, 74,
-
-1439–1461.
-
-
-
-Sider, T. (2001). Four-Dimensionalism: An Ontology of Persistence and Time. Oxford University Press.
-
-
-
-Sorkin, R. D. (1993). Impossible measurements on quantum fields. In B. L. Hu & T. A. Jacobson
-
-(Eds.), Directions in General Relativity, Vol. 2 (pp. 293–305). Cambridge University Press.
-
-
-
-Tomonaga, S. (1946). On a relativistically invariant formulation of the quantum theory of wave
-
-fields. Progress of Theoretical Physics, 1, 27–42.
-
-
-
-Tumulka, R. (2006). A relativistic version of the Ghirardi–Rimini–Weber model. Journal of
-
-Statistical Physics, 125, 821–840.
-
-
-
-Vanrietvelde, A., Höhn, P. A., Giacomini, F., & Castro-Ruiz, E. (2020). A change of perspective:
-
-switching quantum reference frames via a perspective-neutral framework. Quantum, 4, 225.
-
-
-
-Wald, R. M. (1994). Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics.
-
-University of Chicago Press.
-
-
-
-Wiseman, H. M., & Milburn, G. J. (2010). Quantum Measurement and Control. Cambridge University
-
-Press.
-
-
-
-----------------------------------------------------------------------------------------------------
+av, bv = np.array([0.6, -0.3]), np.array([0.2, 0.5])

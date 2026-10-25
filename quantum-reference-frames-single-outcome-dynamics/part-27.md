@@ -1,289 +1,329 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 27 of 40 (1,518 words)
+Part 27 of 35 (1,798 words)
 
-13.13 Eight Distinctions Any Extension Must Respect
+    its independent role is ontological, as the present ground for past-tense truths required by
 
+    CTGP’s truthmaker principle, and the choice between this reading and an eternalist flash
 
+    ontology rests on CTGP’s independent arguments (§5.7).
 
-    (D1) Geometric covariance versus physical foliation independence. A foliation defined
 
-    covariantly from the metric is not arbitrary, but a quantum dynamics built around it may still
 
-    produce physically detectable preferred-frame effects. Theorem 13.4 identifies, for finite event
+    (11) CTGP’s commitments exclude models that are otherwise QRF-covariant (Table 2); in
 
-    structures, one sufficient condition under which it does not: causal locality of the realized-
+    particular, a QRF-covariant law that depends on past facts not carried by the present state is
 
-    event dynamics, relative to an order that must itself be shown to be the operationally relevant
+    not generable (Proposition 11.4), whereas conditioning on a future event has an equivalent
 
-    causal order.
+    forward formulation and is not by itself a failure of generability (Proposition 11.1, Example
 
+    11.2). Within the perspective-neutral construction, events that carry physical states to
 
+    physical states require collapse operators whose action on physical states agrees with that of
 
-    (D2) Ensemble consistency versus realized-history consistency. A covariant master equation does
+    invariant, relational operators; this does not single out the particular flash ontology used
 
-    not by itself supply a covariant stochastic ontology (Proposition 13.2).
+    here (§7.4).
 
 
 
-    (D3) Clock neutrality versus absence of ontological ordering. A constrained quantum theory can
+    (12) The finite model is CTGP-admissible on its domain under the proposed criterion of
 
-    lack a preferred clock variable while still admitting an additional generative interpretation;
+    Definition 12.1 (Proposition 12.2).
 
-    whether that interpretation is consistent must be proved (§14).
 
 
+    (13) The level sets of regular cosmological time are future Cauchy surfaces, and a level set is
 
-    (D4) Conditional compatibility propositions versus completed existence theorems. The
+    a Cauchy surface exactly when every future-inextendible causal curve passes beyond it
 
-    Tomonaga–Schwinger and continuum-limit results of CTGP – explained (Proposition 17.16 and
+    (Proposition 13.1).
 
-    Theorem 17.17) are conditional, and their operator-theoretic and stochastic assumptions require
 
-    further justification before they can count as existence theorems.
 
+    (14) Agreement of density operators on every hypersurface does not fix the probabilities of
 
+    realized histories (Proposition 13.2). For causally local instruments on a finite causal order,
 
-    (D5) Selective versus unread updates. Operational no-signaling concerns the unconditioned
+    realized-history probabilities are foliation-independent and outcome marginals do not depend on
 
-    statistics of target outcomes, with the outcomes of all other operations summed over.
+    instruments outside the designated predecessor set, so within such finite models the choice of
 
-    Conditioning on an intermediate outcome is a different question, and Theorem 13.17 does not
+    generative foliation is empirically invisible (Theorem 13.4, Corollary 13.5); the result extends
 
-    address it.
+    to countably many events with finite pasts (Proposition 13.7), and identifying the predecessor
 
+    set with the relativistic causal past requires the further assumptions (E1)–(E6).
 
 
-    (D6) Covariance of a law versus invariance of a realization. A Poisson law for collapse centres
 
-    can be covariant under every isometry, although no realized configuration is invariant, and a
+    (15) For finite networks of gapless detectors on a free relativistic field, realized-history
 
-    covariant law for locations does not by itself supply covariant extended events (Theorem
+    probabilities are foliation-independent, detector statistics are given explicitly, and there is
 
-    13.21(d), Proposition 13.24). Likewise, events triggered by the law rather than by an
+    no operational signaling between causally separated regions, including in Sorkin’s three-region
 
-    experimenter are spontaneous whether or not their locations have a covariant law.
+    configuration (Theorem 13.9). Localizing the Kraus operators of an operation does not by itself
 
+    secure this (Example 13.10).
 
 
-    (D7) Localization of a field amplitude versus localization of matter. A collapse that localizes
 
-    a smeared linear field observable does not thereby localize matter, and macroscopic localization
+    (16) The same conclusions hold for every finite, causally orderable network of Weyl-diagonal
 
-    is an independent obligation of physical adequacy (L2).
+    instruments on a free field (Theorem 13.13). Gaussian collapse of a smeared field is Weyl-
 
+    diagonal (Proposition 13.12), which yields a regulated spontaneous-collapse network with
 
+    foliation-independent histories and no signaling between causally separated regions (Corollary
 
-    (D8) Lorentz invariance, covariance with background structure, preferred-frame effects, and
+    13.14), subject to the limitations (L1)–(L4).
 
-    superluminal signaling. A law can be covariant under all isometries while depending on
 
-    background structure such as cosmological time; such structure can produce preferred-frame
 
-    effects, which are measurable only if an operational prediction shows how they reach a record;
+    (17) Generative succession, clock readings, and clock-conditional descriptions are distinct;
 
-    and a theory with preferred-frame effects need not permit superluminal signaling (§13.11). Each
+    with an external generative order, imperfect clocks can repeat readings, delocalize events, and
 
-    of the four must be established or excluded separately.
+    invert their recorded order without affecting event identity or probability (Proposition 14.2).
 
 
 
-----------------------------------------------------------------------------------------------------
+    (18) The unread Gaussian collapse channel is a Gaussian mixture of unitary kicks. Position
 
-14. Temporal Quantum Reference Frames
+    collapse of a particle injects exactly ħ²/(8mσ²), whatever the potential, and Gaussian collapse
 
-----------------------------------------------------------------------------------------------------
+    of a smeared free field in 3 + 1 dimensions injects a state-independent, future-timelike
 
+    energy–momentum equal to that of the classical solution Eh divided by 4σ². On a curved
 
+    background it changes the renormalized stress–energy of a Hadamard state by the classical
 
-14.1 Clock-Neutral Descriptions
+    stress–energy of Eh divided by 4σ² (Propositions 13.15 and 13.16).
 
 
 
-A temporal quantum reference frame is not merely a coordinate clock. It is a quantum subsystem whose
+    (19) If the operations performed between a tested operation and the targets preserve an algebra
 
-correlations with the rest define the evolution of another subsystem. In a constrained system,
+    on which the tested operation acts trivially, the tested operation cannot signal to the targets,
 
-physical states satisfy Ĉ Ψ_phys = 0, and such a state is clock-neutral: it is not yet a description
+    whatever the field theory; microcausality supplies only the second condition (Theorem 13.17,
 
-relative to any particular clock. Choosing clock A yields a conditional description ψ^{(A)}(τ_A) of
+    Corollary 13.18).
 
-the remaining degrees of freedom; choosing clock B yields ψ^{(B)}(τ_B). Höhn, Smith and Lock (2021)
 
-show, for a class of constrained systems whose constraint is a sum of clock and system Hamiltonians,
 
-that three formulations of relational dynamics are equivalent (clock-neutral relational observables,
+    (20) For Gaussian collapses at Poisson-distributed locations with a covariant law, histories are
 
-Page–Wootters conditional states, and quantum deparametrization), and they develop transformations
+    foliation-independent and non-signaling conditionally on causally orderable configurations,
 
-between temporal frames.
+    which is not yet an unconditional collapse law (Theorem 13.21). Orderability fails in large
 
+    volumes, the order of interfering collapses then matters physically, and no Lorentz-invariant
 
+    law for point-centred smearings exists (Propositions 13.22–13.24). Covariant repairs require
 
-The spatial construction of Part II transfers only in part. Temporal reduction maps R_A and R_B can
+    additional structure at each event, and those that use cosmological time would give the
 
-be defined, and where their inverses exist on the relevant sectors one can form V_{A→B} = R_B
+    generative order a dynamical role (Remark 13.25).
 
-R_A^{−1}. For realistic clocks, however, these maps involve conditional states, clock POVMs, and
 
-sector restrictions, and they are not in general global unitaries of the kind used in Proposition
 
-3.3. For ideal clocks they are unitary (Proposition 14.5).
+    (21) For two ideal clocks with the interventions in the constraint, a family of late-record
 
+    projective instruments has clock-neutral identities, probabilities, and instruments, which
 
+    intertwine with both reductions, while temporal localization differs between the clocks. When
 
-14.2 Generation, Clock Readings, and Clock-Conditional Descriptions
+    the order of interactions depends on the clock offset, an offset-coherent observable exhibits
 
+    interference between the orders (Proposition 14.5).
 
 
-Definition 14.1 (Three temporal notions). In a CTGP model with clock subsystems:
 
+    (22) A candidate extension, not adopted, in which cosmological time fixes the smearing and the
 
+    order of collapses, is complete and normalized on every domain of finite four-volume, and on
 
-    (i) The generative succession is the order of stages, or of event slots, in which the history is
+    infinite histories when cosmological-time slabs have finite volume; it can be generated forward
 
-    generated.
+    along cosmological time in its free-field representation and admits no signaling between
 
+    causally separated regions for the operations it covers. It agrees with the causal-order
 
+    dynamics wherever that is defined in the flat local model. It injects energy at rest in the
 
-    (ii) A clock reading is the value of a clock observable of a physical subsystem at a stage. It
+    cosmic frame and makes the correlations among collapse outcomes depend on that frame, which is
 
-    is a Tier 3 proposition (§5.1) unless a recording event makes it a Tier 1 fact.
+    distinct from superluminal signaling and not yet shown to be operationally detectable (Lemma
 
+    13.26, Proposition 13.28). Ordering the collapses by the completion of their regions gives the
 
+    same law, with forward generation from the generated past (Proposition 13.29). Realizing each
 
-    (iii) A clock-conditional description is a description of the rest of the world conditioned on
+    collapse as the reading of a gapless pointer coupled locally to the field derives the collapse
 
-    the readings of a chosen clock.
+    statistics and gives a variant with no ordering rule: its evolution is foliation-independent on
 
+    every finite configuration, it admits no signaling by the modeled pointers and classical sources
 
+    outside the causal past of the targets, it agrees with sequential collapse on causally orderable
 
-CTGP identifies the ontological order of existence with (i) alone. A clock reading is physically
+    configurations, it has a law of outcome records on every FLRW spacetime of the class, and it
 
-instantiated information about a process, in the sense of the signal-based epistemology discussed in
+    injects the same energy–momentum, while its outcome law differs from the candidate’s where
 
-More Info, not automatically the fundamental ordering of existence.
+    collapses interfere (Lemma 13.30, Proposition 13.31). Its forward generation is established for
 
+    finite configurations, and its definite readings require a primitive single-outcome postulate,
 
+    which the coupling does not supply. The energy–momentum injection is a theoretical prediction;
 
-14.3 A Worked Model With Imperfect Clocks
+    an experimental signature would require a collapse law for matter and an account of how an
 
+    apparatus records the effect.
 
 
-Proposition 14.2 (Imperfect clocks in a generative model). Consider a model of the kind defined in
 
-Part II whose physical state includes one or more clock subsystems.
+17.3 Open Problems
 
 
 
-    (a) Clock-independence of event identity and probability. The measure over histories of Tier 1
+    (O1) Continuous groups. Physical QRFs use translations, rotations, and boosts, which form
 
-    events is fixed by the law and the complete initial state. Describing those events relative to
+    continuous groups (Giacomini et al. 2019). For non-compact groups, invariant states are not
 
-    one clock rather than another changes no event label, no stage, and no probability.
+    normalizable in H_kin, and H_phys must be built by group averaging with a physical inner
 
+    product. Reduction maps remain unitary in the perspective-neutral framework (Vanrietvelde et al.
 
+    2020), so Part II is expected to carry over, but the flash dynamics needs a relational version
 
-    (b) Periodic clocks. A clock of period M takes the same reading at stages σ_n and σ_{n+M}, so
+    of the GRW or CSL smearing in continuous space, and its well-definedness must be proved.
 
-    equal readings do not imply equal stages: τ_A(σ_1) = τ_A(σ_2) is compatible with σ_1 ≠ σ_2. A
 
-    repeated reading means that the clock fails to distinguish two stages, not that generation has
 
-    reversed.
+    (O2) Relativistic quantum fields. The ring model is non-relativistic, and Theorem 13.4 and
 
+    Proposition 13.7 are discrete analogues; the assumptions a relativistic extension must supply
 
+    are listed in §13.5 as (E1)–(E6). Theorem 13.9 settles the measurement-model case for finite
 
-    (c) Temporal delocalization. If a clock is in a superposition of readings at the stage of an
+    networks of gapless detectors on a free field. Theorem 13.13 with Corollary 13.14 gives a
 
-    event, the Tier 3 proposition “the clock read r when the event occurred” has no determinate
+    regulated spontaneous-collapse network for Gaussian collapse of smeared fields on a fixed family
 
-    value, although the event and its stage are determinate. For example, a counter prepared in an
+    of regions, and Theorem 13.21 extends it to Poisson-distributed locations on causally orderable
 
-    equal superposition of the readings 0 and 4 and advancing by one per stage reads n or n + 4,
+    configurations. Open are a covariant law for extended collapse events, for which Propositions
 
-    each with probability 1/2, at stage n.
+    13.22–13.24 identify the obstructions, Remark 13.25 the available repairs, and §13.11 a
 
+    candidate completion that uses cosmological time, together with a gapless-pointer variant that
 
+    needs no ordering rule (Proposition 13.31), neither of which is adopted; a physical account of
 
-    (d) Clock-relative order can disagree with generative order. If a non-ideal clock’s readings are
+    the pointers and of their definite readings, which the variant postulates; a forward evolution
 
-    recorded at successive events, the later event can carry an earlier reading. Consider a drifting
+    of the present state with infinitely many pointers; a local probe field in place of single-
 
-    quantum-walk clock on a ring of 32 sites, which advances one site per stage on average under the
+    degree-of-freedom pointers; an operational prediction for the predicted preferred-frame energy
 
-    one-step propagator S exp(−i θ (S + S†)) with θ = 0.9. Because a ring has no intrinsic linear
+    injection; collapse of matter density rather than of linear field observables; detectors with
 
-    order, comparing two readings requires a convention: the displacement between consecutive
+    internal dynamics; interacting fields, for which Theorem 13.17 gives a sufficient condition and
 
-    readings r_1 and r_2 is the representative m of r_2 − r_1 modulo 32 in {−15, …, 16}, and the
+    Target 13.19 a first test; and continuously distributed events. The relativistic realized-
 
-    second reading counts as lower when m < 0 and as equal when m = 0. Assume that each event
+    history consistency result (Target 13.6) is open: it requires an event-history measure for a
 
-    records the clock’s reading by a projective measurement of its position, so that the first
+    regulated relativistic single-outcome model, a measurement framework free of Sorkin-type
 
-    recording leaves the clock in a definite position state, and that exactly one stage transition
+    signaling, and, for CTGP, a generable representation on cosmological-time hypersurfaces that
 
-    separates two consecutive recordings. Then, conditional on the first recorded reading, the exact
+    would derive the identification postulated in §9.4. CTGP’s ensemble-level results (CTGP –
 
-    probabilities on the 32-site ring are P(m < 0) = 0.104042655 and P(m = 0) = 0.338161965, to nine
+    explained, Proposition 17.16 and Theorem 17.17) are conditional and do not by themselves supply
 
-    decimal places. They agree to better than 10⁻¹² with the infinite-lattice expressions (1 −
+    a covariant stochastic ontology (Proposition 13.2).
 
-    J_0(1.8)² − 2 J_1(1.8)²)/2 and J_1(1.8)², where J_n are Bessel functions. By translation
 
-    invariance these values do not depend on the first reading. Displacements of eight or more sites
 
-    have total probability below 10⁻⁸, so any comparison convention that agrees with this one on
+    (O3) Temporal QRFs. This is the most consequential open problem; §14 sets out the distinctions,
 
-    displacements of fewer than eight sites gives the same values to that accuracy. The values do
+    a worked model, a proposed identification criterion for overlapping descriptions (Definition
 
-    depend on the preparation and recording procedure: a clock not recorded at the first event, an
+    14.3), its proof for late-record instruments with ideal clocks and the interventions in the
 
-    unsharp recording, or a comparison across more than one transition gives different values.
+    constraint (Proposition 14.5), and a target for imperfect clocks (Conjecture 14.4). The
 
+    construction here assumes a shared stage or time index, and Proposition 10.1 preserves it
 
+    because frame changes act only on spatial relational degrees of freedom. Temporal QRFs, in which
 
-Proof. (a) Clock subsystems are part of the physical state, and the law takes the complete present
+    a quantum clock is the frame (Page & Wootters 1983; Höhn, Smith & Lock 2021), can assign
 
-state as input; the choice of a subsystem as clock for purposes of description is not an input to
+    superposed readings to one clock relative to another and can make the temporal localization of
 
-the law. If a clock interacts with the system, event probabilities depend on the clock’s physical
+    events indefinite (Castro-Ruiz, Giacomini, Belenchia & Brukner 2020). Two structures must then
 
-state, but that is a dependence on the present physical state, not on the choice of description. (b)
+    be distinguished: the ontological generation order, which CTGP requires to be definite, and
 
-and (c) follow from the definitions. (d) The first recording projects the clock onto a position
+    quantum-clock relational time, the readings of physical clock subsystems relative to one
 
-eigenstate |r⟩. During the single intervening transition the clock evolves by the stated propagator.
+    another. CTGP does not require quantum clocks to reveal a preferred cosmic time. It requires an
 
-By the Jacobi–Anger expansion, exp(−i θ (S + S†)) = Σ_{k∈ℤ} (−i)^k J_k(2θ) S^k, so on the infinite
+    account of how relational clock descriptions correspond to an underlying generative order, if
 
-lattice the amplitude to move from r to r + m is, up to a phase, J_{m−1}(2θ). On the ring S^{32} =
+    there is one. The research question is whether a temporally relational model can be constructed
 
-1, and the amplitude for displacement m is the sum of the lattice amplitudes for all displacements
+    with a definite underlying order of events that remains invariant under every admissible clock-
 
-congruent to m modulo 32. For m ∈ {−15, …, 16} the additional terms involve J_k(1.8) with |k| ≥ 16,
+    frame transformation, without that order being assumed and then merely preserved. One candidate
 
-each of magnitude below 10⁻¹⁴, so the ring probabilities differ from the lattice values
+    route is to add a quantum clock subsystem to the ring model: clock-relative descriptions would
 
-J_{m−1}(1.8)² by less than 10⁻¹² in total. Summing the lattice values over m ≤ −1 gives Σ_{k≥2}
+    assign superpositions of readings to events, while the order of events in the record is fixed by
 
-J_k(2θ)² = (1 − J_0(2θ)² − 2 J_1(2θ)²)/2, using Σ_k J_k² = 1 and J_{−k}² = J_k², and m = 0 gives
+    generation. A second is a material reference system of the Brown–Kuchař dust type (Brown &
 
-J_{−1}(2θ)² = J_1(2θ)². The exact ring values were computed directly from the 32-site propagator.
+    Kuchař 1995), whose proper time could serve as a physically instantiated cosmic time akin to
 
-The computation is item 16 of Appendix B. □
+    CTGP’s matter-frame cosmological time. Both are conjectures, and the result of Baumann and Lock
 
+    (2026) on causal consistency across clocks (§14.6) indicates that temporal delocalization, and
 
+    possibly indefinite causal order, must be expected in clock-relative descriptions.
 
-Proposition 14.2 has an external generative order built in: the stage index is a parameter of the
 
-model. It therefore shows that the three-way distinction of Definition 14.1 is consistent, and that
 
-clock-relative localization and ordering can differ from generative order without contradiction. It
+    (O4) Quantum gravity and indefinite causal order. As CTGP – explained notes (§6.4), if quantum
 
-does not derive a definite generative order from clock-neutral data. That is the task of
+    gravity requires indefinite causal order at the level of spacetime itself, CTGP’s primitive
 
-§§14.4–14.6.
+    ordering would require generalization. Proposition 10.1 holds for the class of models here but
 
+    says nothing about such theories. Section 15 distinguishes fundamental generative order from
 
+    classical cosmological time, sets out three pathways, and lists the conditions a quantum-gravity
+
+    theory would have to meet (Q1–Q5) and the findings that would rule out compatibility (R1–R4),
+
+    and §15.5 states three finite test problems.
+
+
+
+    (O5) Records. The model has no record subsystems; evidence about the past is whatever the
+
+    present state encodes. Adding pointer or environment systems would allow a formal treatment of
+
+    how records serve as evidence for L across frames, of how records degrade while L does not (CTGP
+
+    – explained, §14.6), and of observers with access to records rather than to the full present
+
+    state.
+
+
+
+    (O6) Weak non-supervenience at generic parameters. Whether two distinct histories from a fixed

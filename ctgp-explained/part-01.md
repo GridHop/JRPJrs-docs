@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 26 (1,680 words)
+Part 01 of 25 (1,797 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -28,21 +28,21 @@ progression in which each present state emerges from the lawful evolution of imm
 
 states. Earlier states no longer exist as independently real regions of spacetime; the specific
 
-physical organizations constituting those earlier states cease to exist as present realities, while
+physical organizations constituting those earlier states cease to exist, while their causal
 
-their causal consequences continue propagating through later physical structures. Present systems
+consequences persist as present matter, fields, and records. Present systems therefore inherit
 
-therefore inherit transformed physical continuities, causal records, and distributed consequences of
+transformed physical continuities, causal records, and distributed consequences of prior states,
 
-prior states, rather than preserving those earlier states themselves. Unlike static block-universe
+rather than preserving those earlier states themselves. Unlike static block-universe interpretations
 
-interpretations of relativity, CTGP treats spacetime as a continuously generated structure emerging
+of relativity, CTGP treats spacetime as a continuously generated structure emerging through causal
 
-through causal propagation governed by physical law. The framework preserves relativistic causal
+propagation governed by physical law. The framework preserves relativistic causal structure while
 
-structure while identifying cosmological time, which on large scales is the proper time of the
+identifying cosmological time, which in FLRW models is the proper time of the cosmic matter flow, as
 
-cosmic matter flow, as the natural parameter governing the progression of physical reality.
+the natural parameter governing the progression of physical reality.
 
 
 
@@ -98,7 +98,9 @@ present state, with no dependence on future boundary data and no global consiste
 
 requiring the whole history at once — a structural commitment that a confirmed chronology violation,
 
-interventionist retrocausal dependence, or fundamental final-state condition would refute. A unique
+interventionist retrocausal dependence, or an indispensable future boundary condition or global
+
+consistency requirement that precludes an adequate forward-generative account would refute. A unique
 
 final state that simply results from deterministic evolution does not count; only a final condition
 
@@ -280,17 +282,17 @@ The framework therefore pursues three interlocking goals: (a) preserving local r
 
 constraints, (b) articulating a global ontology in which only the present physical state exists,
 
-while causal consequences of prior states continue propagating through transformed matter-energy
+while causal consequences of prior states persist as transformed matter-energy configurations,
 
-configurations, inherited structure, and causal records within later states — without implying that
+inherited structure, and causal records within the present state — without implying that such
 
-such records exhaust all truths about the past, and without implying that physical existence
+records exhaust all truths about the past, and without implying that physical existence vanishes
 
-vanishes except for surviving traces, since CTGP locates non-persistence specifically at the level
+except for surviving traces, since CTGP locates non-persistence specifically at the level of the
 
-of the earlier state’s organization rather than at the level of physical continuity itself — and the
+earlier state’s organization rather than at the level of physical continuity itself — and the future
 
-future remains ungenerated, and (c) grounding the phenomenology of temporal experience — including
+remains ungenerated, and (c) grounding the phenomenology of temporal experience — including
 
 conscious qualia — in the generative structure of the present hypersurface. These goals are
 
@@ -325,5 +327,39 @@ discrete approaches to quantum gravity are compatible with CTGP as possible disc
 its generative-ordering principles, but they are not its ontological foundation. CTGP’s fundamental
 
 picture is a continuously advancing generative flow, not a sequence of discrete frames.
+
+
+
+1.1 Empirical Posture
+
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP is a thesis about what exists: the present, not the past or the future. Two readings of the
+
+same physics that differ only in this respect make identical predictions for every measurement
+
+(§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
+
+past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
+
+the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
+
+which the paper tests (§11).
+
+
+
+----------------------------------------------------------------------------------------------------
+
+2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
+
+----------------------------------------------------------------------------------------------------
+
+
+
+2.1 The Standard Taxonomy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

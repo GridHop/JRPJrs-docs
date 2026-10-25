@@ -1,259 +1,257 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 20 of 40 (1,625 words)
+Part 20 of 35 (1,790 words)
 
-13.10 Randomly Located Collapses
+different properties. Four notions must be kept apart: a Lorentz-invariant law, which refers to no
 
+frame; a covariant formulation with additional background structure, here the cosmological time,
 
+which is covariant under all isometries but not Lorentz-invariant on scales where that structure
 
-Corollary 13.14 fixes the possible collapse regions in advance. The natural next step is to let the
+matters; preferred-frame effects, which are physical consequences of such structure that single out
 
-law choose the locations, with a distribution that refers to no coordinates or foliation. This
+the background frame, such as the energy–momentum injection of part (e), and which amount to
 
-subsection carries out that step on a fixed globally hyperbolic background, proves what survives
+measurable Lorentz violation only once an operational prediction for them is given; and superluminal
 
-exactly, and identifies the two places where the construction meets obstructions.
+signaling, which is excluded for the operations of part (c). The candidate contains preferred-frame
 
+structure and satisfies operational no-signaling for the class of interventions covered by
 
+Proposition 13.28(c). Whether a complete physical implementation remains non-signaling under
 
-Definition 13.20 (Poisson collapse network). Fix the free field of §13.6 on a globally hyperbolic
+arbitrary admissible interventions is open, and so is the quantitative question whether its
 
-spacetime (M, g), in a quasi-free state such as the vacuum or another quasi-free Hadamard state. Fix
+preferred-frame effects are experimentally viable.
 
-a Borel set D ⊆ M of finite four-volume, an intensity λ > 0, a width σ > 0, and a smearing rule x ↦
 
-h_x that assigns to each x ∈ D a real test function whose compact support O_x contains x,
 
-continuously in the topology of test functions. The collapse centres form a Poisson point process Ξ
+Predicted preferred-frame effects and measurable signatures. The energy–momentum statement of
 
-on D with intensity measure λ dVol_g: the numbers of centres in disjoint Borel sets are independent
+Proposition 13.28(e) is a theoretical prediction of the free-field model about expectation values:
 
-Poisson variables whose means are λ times the four-volumes of the sets (Last & Penrose 2017). A
+per unit four-volume, the collapses inject on average the four-momentum λΔP(h), which is at rest in
 
-realized configuration ξ = {x_1, …, x_n} is admissible if the regions O_{x_1}, …, O_{x_n} are
+the cosmic frame. In a laboratory moving with velocity β, in units of c, relative to that frame,
 
-causally orderable in the sense of Definition 13.8. At each centre of an admissible configuration a
+this four-vector has energy component γλΔP⁰ and momentum component −γλΔP⁰ β, so the injected
 
-Gaussian collapse of φ(h_{x_i}) with width σ occurs (Proposition 13.12), in any order compatible
+momentum is a fraction |β| of the injected energy and points against the laboratory’s motion. If the
 
-with the causal order of the regions. The realized history is the finite marked configuration {(x_i,
+cosmic frame is identified with the rest frame of the cosmic microwave background, relative to which
 
-y_i)} of centres and outcomes.
+the Solar System moves at about 370 km/s (Planck Collaboration 2020), then |β| ≈ 1.2 × 10⁻³. This is
 
+a predicted preferred-frame effect. It is not a demonstrated measurable Lorentz-violation signature,
 
+for four reasons. First, the prediction concerns a free scalar field, whereas an apparatus is made
 
-The location of each collapse is fixed by the law, independently of the field state; only its
+of matter, for which no collapse law has been given (L2, D7). Second, an operational prediction
 
-outcome is drawn by the Born rule. A separate hit probability is unnecessary, since thinning a
+needs an account of how the apparatus couples to the field, so that the injected energy–momentum
 
-Poisson process independently with probability p yields a Poisson process of intensity pλ.
+appears in a recorded quantity: a heating rate of a sample, a stress–energy response, or a
 
+directional effect, such as a mean momentum transfer aligned with the velocity of the cosmic frame,
 
+which an Earth-fixed apparatus would see modulated with the sidereal day. Third, the size of any
 
-Theorem 13.21 (Poisson collapse networks: what holds exactly). The construction of Definition 13.20
+such effect depends on λ, σ, τ, ℓ, and c, which are not fixed. Fourth, any predicted signal must be
 
-defines a normalized collapse dynamics conditionally on the admissible sector 𝒜. It does not define
+compared with the experimental bounds on collapse-induced heating (Bassi et al. 2013) and on
 
-the dynamics on inadmissible configurations, so it is not an unconditional collapse law on the full
+preferred-frame effects (Kostelecký & Russell 2011). Until these are supplied, the energy–momentum
 
-Poisson configuration space. Within that scope:
+injection is a stated prediction of the candidate, not an established observable consequence, and
 
+the same holds for the other effects named in the third limit.
 
 
-    (a) Conditional foliation independence. For every admissible configuration ξ, the joint law Q_ξ
 
-    of the outcomes is the same for every linear extension of the causal order of its regions, and
+Timing and physical realization. The first limit raises the question whether the collapses can be
 
-    it depends measurably on ξ.
+timed or realized differently. Three implementations can be compared. Centre-time ordering, rule
 
+(iii) of Candidate extension 13.27, applies each collapse when the generative present reaches the
 
+centre of its region. Completion-time ordering applies it only when the whole region lies in the
 
-    (b) Averaging over locations. On the event 𝒜 of admissible configurations, the joint law of
+generated past. A physical realization replaces each postulated instrument by the reading of a probe
 
-    centres and outcomes, Π(dξ) Q_ξ(dy) with Π the law of Ξ, is foliation independent, and so is the
+coupled locally to the field and derives the instrument from the coupled dynamics. Propositions
 
-    law conditioned on 𝒜. Because the centres are drawn independently of the field, conditioning on
+13.29 and 13.31 state what holds for the second and the third.
 
-    𝒜 does not bias the outcomes: given an admissible ξ, they have the Born-rule law Q_ξ.
 
 
+Proposition 13.29 (Completion-time ordering). In Candidate extension 13.27, replace rule (iii) by
 
-    (c) Conditional no-signaling. For an admissible ξ and any set Y of its collapses, the
+the rule that the collapse at x is applied when the generative present reaches T(x) + τ, the largest
 
-    unconditioned joint law of the outcomes in Y is unchanged by any operation j whose Kraus
+value of T on its support, collapses being applied in order of increasing T(x) + τ.
 
-    operators commute with every W(g), g in the span of the h_y with y ∈ Y. This holds in particular
 
-    for every Weyl-diagonal operation localized in a region causally separated from all the regions
 
-    O_y, y ∈ Y.
+    (a) Same law. Because every smearing has the same half-width τ, the completion-time order of
 
+    every configuration is its centre-time order. The two rules therefore define the same joint law
 
+    of centres and outcomes on every domain of finite four-volume, and the same measure on infinite
 
-    (d) Covariance of the law. Let ψ be a time-orientation-preserving isometry of (M, g) with ψ(D) =
+    histories in the setting of Proposition 13.28(f).
 
-    D, and suppose the smearing rule is ψ-covariant, h_{ψ(x)} = h_x ∘ ψ^{−1}. Then transforming the
 
-    field state by ψ transforms the joint law of centres and outcomes by ψ. This is covariance of
 
-    the law. A realized configuration is not ψ-invariant.
+    (b) Surviving properties. Parts (a), (b), (c), (e), and (f) of Proposition 13.28 hold for the
 
+    completion-time rule, with the same proofs.
 
 
-    (e) Incremental sampling of the locations. For disjoint Borel sets D_1, D_2 ⊆ D, the
 
-    configurations Ξ ∩ D_1 and Ξ ∩ D_2 are independent, so the centres in each newly generated
+    (c) Forward generation from the generated past. When the collapse at x is applied, its support
 
-    region can be drawn from that region alone, without reference to later regions. This concerns
+    lies in the region T ≤ T(x) + τ, which has already been generated, and φ(h_x) is a function of
 
-    the locations only. It does not show that the quantum-state updates can be carried out
+    the Cauchy data of the field on the level set T = T(x) + τ within the compact set in which that
 
-    generatively along a succession of cosmic-time presents, particularly when collapse regions
+    level set meets the causal future of O_x.
 
-    straddle the level sets. That is a separate obligation, (E5) of §13.5, which §13.11 meets for
 
-    one candidate ordering rule.
 
+    (d) Varying half-widths. If the half-width varied from centre to centre, the two rules would
 
+    order some configurations differently. Lemma 13.26(b), which concerns translates of a single
 
-Proof. (a) For a fixed admissible ξ, Theorem 13.13 applies, with the Gaussian collapses of
+    region, would then apply to neither rule, and part (b) of Proposition 13.28 would need a
 
-Proposition 13.12 as its Weyl-diagonal operations. In the GNS representation of a quasi-free state,
+    separate proof for whichever rule was used.
 
-h ↦ W(h) is strongly continuous, so the Kraus operators, and with them the history probabilities,
 
-depend continuously on the centres. (b) Integrate (a) against Π over 𝒜. The conditional law of the
 
-outcomes given ξ is Q_ξ, because Ξ is independent of the field. (c) Apply Theorem 13.17 with 𝔐 the
+Proof. (a) T(x) + τ < T(x′) + τ exactly when T(x) < T(x′), so the two rules apply the same
 
-von Neumann algebra generated by the W(g), g in the span of { h_y : y ∈ Y }. Condition (i) holds
+instruments in the same order. (b) This follows from (a). (c) Every point of O_x has T ≤ T(x) + τ.
 
-because the Kraus operators of the target collapses lie in 𝔐, (ii) holds by Corollary 13.18, and
+Let Σ be the level set T = T(x) + τ. Since T increases strictly along future-directed causal curves,
 
-(iii) holds by the commutation assumption. (d) An isometry preserves dVol_g, so by the mapping
+a point of Σ in the causal past of O_x lies in O_x. The solution Eh_x vanishes outside the union of
 
-theorem for Poisson processes ψ(Ξ) has the law of Ξ. The free-field dynamics is covariant: the map
+the causal past and the causal future of O_x, so on Σ it vanishes outside the intersection of Σ with
 
-W(f) ↦ W(f ∘ ψ^{−1}) preserves the Weyl relations, because E is invariant under isometries, and it
+the causal future of O_x, which is compact because Σ is a Cauchy surface and O_x is compact. The
 
-carries the collapse at x to the collapse at ψ(x). (e) This is the complete independence property of
+formula for φ(h_x) in the proof of Proposition 13.28(d) then involves only the Cauchy data in that
 
-Poisson processes. □
+set. (d) With half-widths τ_x that depend on the centre, the order of the values T(x) + τ_x differs
 
+in general from the order of the values T(x). □
 
 
-Theorem 13.21 settles the conditional question. Two questions remain: whether admissible
 
-configurations are typical, and whether the smearing rule can be chosen covariantly. The answer to
+Completion-time ordering thus changes when, in the generative succession, each collapse is applied,
 
-both is negative, in a precise sense.
+and it changes no probability. It removes the feature that a collapse is applied before part of its
 
+region has been generated. It does not supply a mechanism: the collapse is still an instantaneous
 
+update of the state on one level set by a function of field data in a region whose size is set by ℓ
 
-Proposition 13.22 (Orderability fails in large volume). Suppose D contains N pairwise disjoint Borel
+and τ, and its outcome refers to a field configuration that by then lies in the generated past.
 
-cells C_1, …, C_N, each of four-volume at least v, such that O_x ∩ O_{x′} ≠ ∅ whenever x and x′ lie
 
-in a common cell. Then
 
+Gapless pointers. Section 13.6 derives a two-outcome instrument from a gapless two-level detector.
 
+The Gaussian collapse is obtained in the same way from a pointer with a continuous reading, in the
 
-        Pr(Ξ is admissible) ≤ [e^{−λv} (1 + λv)]^N.
+manner of von Neumann’s measurement model (see Wiseman & Milburn 2010). Write the causal propagator
 
+as E(f, h) = E_ret(f, h) − E_ret(h, f), where E_ret(f, h) = ±∫ f (G_ret h) dVol_g, G_ret is the
 
+retarded fundamental solution of the field equation, and the sign is fixed by the convention for E.
 
-In Minkowski space, if every h_x is a translate of one test function whose support has nonempty
+Then E_ret(f, h) = 0 unless the support of f meets the causal future of the support of h. For a
 
-interior, the cells can be taken as coordinate cubes of a fixed size. The probability that a
+finite configuration of centres x_1, …, x_n with smearings h_k = h_{x_k} and regions O_k, set Γ_kl =
 
-configuration in a large box is admissible then decays exponentially with the box’s four-volume.
+E_ret(h_k, h_l). Thus E(h_k, h_l) = Γ_kl − Γ_lk, and Γ_kl = 0 unless O_k meets the causal future of
 
+O_l; the diagonal entries Γ_kk are in general nonzero. Attach to centre k a pointer, one canonical
 
+degree of freedom with [q_k, p_k] = i and no Hamiltonian of its own, coupled to the field through
 
-Proof. Every region lies in its own causal future, so two overlapping regions each meet the causal
+the interaction density p_k h_k(x) φ(x), and let its reading be a value of q_k obtained after its
 
-future of the other, and the relation of Definition 13.8 has a cycle. An admissible configuration
+coupling has ended. Proposition 13.31 gives the Born-rule statistics of the readings; whether the
 
-therefore has at most one centre in each cell. The cell counts are independent Poisson variables
+readings are definite events is a separate question, taken up after its proof. Let η_k(q) =
 
-with means μ_i ≥ λv, and Pr(count ≤ 1) = e^{−μ}(1 + μ) is decreasing in μ. For translates, suppose
+(2πσ_k²)^{−1/4} exp(−q²/(4σ_k²)). The pointer is pre-chirped if it is prepared in the state
 
-the support contains a coordinate ball of radius r about some point c. If x and x′ lie in a cube of
+exp(iΓ_kk p_k²/2) η_k, a Gaussian state whose position and momentum are correlated so as to cancel
 
-side r/2, then |x − x′| < r, so c + x lies in both translated supports. □
+the pointer’s back-reaction on its own reading.
 
 
 
-Proposition 13.23 (The order of interfering collapses matters). Let h_1 and h_2 be real test
+The following lemma supplies the geometric input for infinite configurations of centres.
 
-functions, σ_1, σ_2 > 0, and ρ a state in which φ(h_1) and φ(h_2) have finite variances V_1 and V_2.
 
-Apply Gaussian collapses of φ(h_1) and φ(h_2) to ρ in either order. If collapse 1 is applied first,
 
-the outcomes have variances V_1 + σ_1² and V_2 + σ_2² + E(h_1, h_2)²/(4σ_1²). If collapse 2 is
+Lemma 13.30 (Finitely many causal antecedents). Let (M, g) be an FLRW spacetime with a big-bang
 
-applied first, the outcomes have variances V_1 + σ_1² + E(h_1, h_2)²/(4σ_2²) and V_2 + σ_2². Hence,
+singularity, M = (0, T_max) × S with T_max ≤ ∞ and g = dT² − a(T)² γ, where a is smooth and positive
 
-whenever E(h_1, h_2) ≠ 0, the two orders give different joint laws, for every such state.
+and (S, γ) is a complete Riemannian three-manifold of constant curvature, so that T is the
 
+cosmological time. Write π(p) ∈ S for the comoving position of a point p. Fix τ > 0, ℓ > 0, and t_0
 
+> τ, and let the region of centres be the set of points x with t_0 < T(x) < T_max − τ, the upper
 
-Proof. Each outcome is the Born-rule value of the collapsed observable in the state at its collapse,
+bound being absent if T_max = ∞. For such x, let R_x be the set of points p with |T(p) − T(x)| ≤ τ
 
-plus independent Gaussian noise of variance σ_k² (Proposition 13.15(a)). If collapse 1 comes first,
+and a(T(p)) d_γ(π(p), π(x)) ≤ ℓ, which lies in M and contains the support of the smearing h_x of
 
-its unread effect on the second outcome is the random kick of Proposition 13.15(b). Since
+Candidate extension 13.27(ii).
 
-e^{itφ(h_1)} φ(h_2) e^{−itφ(h_1)} = φ(h_2) − t E(h_1, h_2), the distribution of φ(h_2) after the
 
-kick is that of its value in ρ shifted by −t E(h_1, h_2), with t independent of the state, of mean
 
-zero and of variance 1/(4σ_1²). The mean is unchanged and the variance grows by E(h_1,
+    (a) For every compact set K ⊂ M, the centres x whose sets R_x meet the causal past J⁻(K) lie in
 
-h_2)²/(4σ_1²). The other order is symmetric. □
+    a compact subset of M, which has finite four-volume.
 
 
 
-Proposition 13.24 (No Lorentz-invariant law for random smearings). On four-dimensional Minkowski
+    (b) Let the centres form a Poisson process with intensity λ dVol_g on the region of centres.
 
-space, with a free field of mass m ≥ 0, or in any dimension with m > 0, let x be a point and μ a
+    Almost surely every compact set contains only finitely many centres, and then, for every finite
 
-Borel probability measure on the set of real test functions h with Eh ≠ 0. Then μ is not invariant
+    set S of centres, the set S⁻ of centres whose regions meet the causal past of the union of the
 
-under the Lorentz transformations about x. In particular, no single test function with Eh ≠ 0 is
+    regions O_k, k ∈ S, is finite.
 
-invariant under them.
 
 
+Proof. (a) Let t_K be the largest value of T on K. The level set Σ = { T = t_0 − τ } is a Cauchy
 
-Proof. By Proposition 13.16(c), and its analogue in other dimensions for m > 0, the unit vector u(h)
+surface, because t_0 − τ > 0, and in a globally hyperbolic spacetime the intersection of the causal
 
-= ΔP(h)/(ΔP(h) · ΔP(h))^{1/2} is a continuous, Lorentz-equivariant map into the hyperboloid H³ of
+past of a compact set with the causal future of a Cauchy surface is compact. Hence A = J⁻(K) ∩ { T ≥
 
-future-directed unit timelike vectors, and it is unaffected by translating h. If μ were invariant,
+t_0 − τ } is compact, and so is its projection π(A) ⊆ S. Suppose that R_x meets J⁻(K) at a point p.
 
-its image under u would be a Lorentz-invariant probability measure ν on H³. Choose R with ν(K) >
+Then T(p) ≥ T(x) − τ > t_0 − τ, so p ∈ A, and T(x) ≤ T(p) + τ ≤ t_K + τ, because T increases along
 
-1/2, where K is the closed hyperbolic ball of radius R about a unit vector e. A boost of rapidity
+future-directed causal curves. The value T(p) lies in the compact interval [t_0 − τ, t_K], on which
 
-greater than 2R carries K onto the ball of radius R about a point at hyperbolic distance greater
+a has a positive minimum a_*, so the condition a(T(p)) d_γ(π(p), π(x)) ≤ ℓ gives d_γ(π(x), π(A)) ≤
 
-than 2R from e, which is disjoint from K. By invariance it also has measure greater than 1/2, so the
+ℓ/a_*. The set N of points of S within γ-distance ℓ/a_* of π(A) is closed and bounded, hence compact
 
-total measure would exceed 1. □
+by the Hopf–Rinow theorem. Therefore x lies in the compact set [t_0, t_1] × N, where t_1 is the
 
+smaller of t_K + τ and T_max − τ, and a compact set has finite four-volume. (b) The intensity
 
+measure is finite on compact sets, so the number of centres in a compact set is a Poisson variable
 
-The hypothesis on dimension and mass excludes one genuine exception. For a massless field in 1 + 1
-
-dimensions, ΔP(h) is null whenever ĥ vanishes on one of the two null rays of the light cone, and the
-
-map u is then undefined; the proof does not apply to such smearings. The proposition concerns the
-
-class it states: point-centred smearings of a free field, drawn from a law attached to the centre.
-
-It does not exclude every conceivable Lorentz-invariant stochastic localization mechanism.
-
-Constructions with additional dynamical fields, different primitive ontologies, or event laws not of
-
-this form lie outside it, and routes (iv) and (vi) of Remark 13.25 are of that kind.
+with finite mean and is finite almost surely. Exhausting M by countably many compact sets shows

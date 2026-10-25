@@ -1,6 +1,44 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 26 (1,738 words)
+Part 06 of 25 (1,794 words)
+
+to remain timelike: ∇_μσ ∇^μσ < 0. This condition — guaranteed wherever τ is differentiable, since
+
+∇_μτ is then a unit timelike covector — ensures that the generative ordering corresponds to a
+
+physically admissible temporal direction and that Σ_σ is everywhere spacelike. CTGP does not claim
+
+that general relativity singles out a unique foliation in every spacetime. It claims that
+
+cosmological time, defined from the causal and metric structure alone, supplies a physically
+
+distinguished foliation wherever it is regular, and that in our universe this foliation
+
+approximately coincides, on large scales, with the rest frame of the cosmic matter distribution. The
+
+construction does not presuppose the idealized fundamental observers of standard cosmology: the
+
+maximizing geodesics of cosmological time play the role those observers would play, and they are
+
+fixed by the geometry wherever cosmological time is regular, however lumpy the matter distribution.
+
+
+
+This encodes CTGP’s generative temporal asymmetry: future hypersurfaces Σ_{σ′>σ} are excluded from
+
+M(σ). Figure 2 illustrates this structure.
+
+
+
+[FIGURE: Figure 2]
+
+  Figure 2. The generated domain M(σ). The present edge Σ_σ is the active boundary of generation;
+
+  earlier stages Σ_{σ′} (σ′ < σ) constitute the formal history M(σ), and future stages are not part
+
+  of the domain. Lines are schematic level sets of σ, not independently existing slices.
+
+
 
 6.2 Causal-Theoretic Foundation of the Generation Parameter
 
@@ -70,21 +108,21 @@ However, a continuous causal ordering is not yet sufficient for CTGP, which requ
 
 hypersurfaces Σ_σ suitable for Cauchy evolution. This refinement is provided by the Bernal–Sánchez
 
-theorems. In any globally hyperbolic spacetime (M, g), there exists a smooth temporal function τ
+theorems. In any globally hyperbolic spacetime (M, g), there exists a smooth temporal function t
 
-whose gradient is everywhere timelike, and whose level sets Σ_τ = const are smooth spacelike Cauchy
+whose gradient is everywhere timelike, and whose level sets Σ_t = const are smooth spacelike Cauchy
 
-hypersurfaces, with M ≅ ℝ × Σ globally (Bernal and Sánchez 2003, 2005). The existence of σ as a
+hypersurfaces, with M ≅ ℝ × Σ globally (Bernal and Sánchez 2003, 2005). The existence of time
 
-smooth temporal function whose level sets are spacelike Cauchy hypersurfaces is therefore not an
+functions of this kind is therefore not an additional physical postulate but a consequence of the
 
-additional physical postulate but a consequence of the causal geometry of globally hyperbolic
+causal geometry of globally hyperbolic spacetimes. The logical structure is: causal ordering exists
 
-spacetimes. The logical structure is: causal ordering exists (HKM, Malament) → a continuous time
+(HKM, Malament) → a continuous time function exists (Geroch) → a smooth Cauchy temporal function
 
-function exists (Geroch) → a smooth Cauchy temporal function exists (Bernal–Sánchez) → CTGP
+exists (Bernal–Sánchez) → CTGP selects, within the class of Cauchy time functions, the one fixed by
 
-interprets σ as a physically calibrated member of this class.
+cosmological time (§6.3), which is smooth wherever τ is differentiable (§6.1).
 
 
 
@@ -168,7 +206,7 @@ Reconstruction Principle requires.
 
 
 
-In the emergent regime the continuum generation parameter is σ = F(τ) with F strictly increasing.
+In the emergent regime the continuum generation parameter is σ = F(τ) with F smooth and F′ > 0.
 
 Wherever τ is differentiable, ∇_μσ = F′(τ)∇_μτ, and σ satisfies the norm condition
 
@@ -289,29 +327,3 @@ existence of events that occur independently of all prerequisite physical struct
 
 
 Retrocausality is a speculative interpretive option rather than a settled feature of quantum
-
-physics, and it would conflict with CTGP’s postulate that the future is ontologically absent; CTGP
-
-does not require it. Singularities — black hole interiors and the Big Bang — mark the breakdown of
-
-the smooth continuum description, not the breakdown of causal ordering itself.
-
-
-
-One assumption deserves explicit statement. CTGP’s primitive ordering is definite: of two causally
-
-related stages, one precedes the other. Quantum processes with indefinite causal order, such as the
-
-quantum switch (Chiribella et al. 2013), which has been realized in photonic experiments (Procopio
-
-et al. 2015), superpose the order in which operations act on a target system. Such processes are
-
-described by a single definite evolution of the total system, including the control degree of
-
-freedom, and are in that sense compatible with a definite generative ordering at the level of the
-
-whole. Whether quantum gravity requires indefinite causal order at the level of spacetime itself is
-
-an open question; if it did, CTGP’s primitive ordering would require generalization.
-
-

@@ -1,277 +1,291 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 22 of 40 (1,812 words)
+Part 22 of 35 (1,791 words)
 
+states agree; Theorem 13.21 identifies the law of the sequential collapses as Q_ξ. For the non-
 
+admissible case, item C4(d) of Appendix C.1 gives an example. (e) By (a), the readings in S are
 
-    (i) Locations. Collapse centres form a Poisson process with intensity λ dVol_g in the region T >
+functions of q_k and φ(h_k) for k ∈ S and of the p_l with Γ_kl ≠ 0 for some k ∈ S, that is, of
 
-    t_0, as in Definition 13.20, where t_0 > τ is fixed by condition (ii). If the universe
+pointers in S and in S⁻. In the product state, the joint law of these commuting operators is fixed
 
-    recollapses at a finite cosmological time T_max, the region is t_0 < T < T_max − τ, so that
+by the data listed. A classical source f adds E_ret(h_k, f) to the k-th reading, as a pointer with a
 
-    every collapse region lies in the spacetime.
+definite momentum would, and this vanishes unless the support of f meets the causal past of O_k.
 
+Reading other pointers measures operators that commute with the readings in S, and summing over
 
+their outcomes leaves the law of S unchanged. (f) By Lemma 13.30(b), almost surely S⁻ is finite for
 
-    (ii) Smearing law. Each smearing h_x is built from T and g alone and is supported in the slab |T
+every finite set S of centres. Given the configuration, the law of the readings in S is the same for
 
-    − T(x)| ≤ τ: h_x(p) = c χ((T(p) − T(x))/τ) ψ₀(d_x(p)²/ℓ²), where d_x(p) is the proper distance,
+every finite configuration containing S ∪ S⁻, by (e), because the further pointers have regions that
 
-    within the level set of p, from the comoving worldline through x, χ and ψ₀ are fixed smooth
+do not meet the causal past of the regions in S. For S ⊆ S′, S⁻ ⊆ S′⁻, so the marginal on S of the
 
-    functions with ψ₀ supported in [0, 1), and c is a constant. The radius ℓ and the earliest time
+law for S′ is the law for S. There are countably many centres, so the Kolmogorov extension theorem
 
-    t_0 of item (i) are chosen so that, for every centre with T(x) > t_0, the slab stays away from
+gives a unique law on the readings with these marginals. It depends measurably on the configuration,
 
-    the big bang and the support lies within a normal neighbourhood of the worldline in every level
+because the characteristic functions of part (b) depend continuously on the centres in a quasi-free
 
-    set it meets, that is, inside the injectivity radius of those level sets, which is infinite for
+state. (g) By (a), the coupled evolution may be computed slab by slab along T, and within a slab the
 
-    flat and open FLRW slices and equals π times the curvature radius for closed ones. There d_x² is
+source involves only the pointers whose regions meet that slab. Each pointer is read after its
 
-    smooth, so h_x is a smooth test function of compact support; the distance itself can fail to be
+coupling has ended, so by (a) the readings and conditional states are those of the complete
 
-    smooth at cut points, which this choice excludes.
+evolution. For finitely many centres, the field together with finitely many pointers has a density
 
+operator conditioned on the realized readings, and the next increment, namely evolution through the
 
+next slab, preparation of the pointers whose regions begin there, and reading of those whose regions
 
-    (iii) Ordering rule. Collapses are applied in order of increasing T(x); ties have probability
+end there, depends only on it. For the Poisson centres of Candidate extension 13.27, the centres
 
-    zero.
+whose regions begin in a new slab are those with T(x) − τ in it, and they can be drawn from that
 
+region alone (Theorem 13.21(e)). On a spatially closed FLRW spacetime, the centres with T(x) − τ
 
+below a given value lie in a set of finite four-volume, because the level sets are compact, so there
 
-    (iv) Update. Each collapse is the Gaussian collapse of φ(h_x) with width σ (Proposition 13.12).
+are finitely many of them almost surely. □
 
 
 
-The parameters are λ, τ, ℓ, σ, c, and t_0.
+Because the pointers have no Hamiltonian, their coupling densities at spacelike-separated points
 
+commute, as for the gapless detectors of §13.6, and part (e) holds without any rule for ordering
 
+overlapping couplings. Pointers with internal dynamics would require a separate analysis (compare de
 
-Proposition 13.28 (Properties of the candidate extension).
+Ramón, Papageorgiou & Martín-Martínez 2021). In the numerical checks (Appendix C.1, item C4), the
 
+sums that give the phase of the time-ordered coupling agree exactly along two foliations of relative
 
+rapidity 0.6 and approach Γ as the grid is refined, with largest deviations 2.8 × 10⁻² and 9.0 ×
 
-    (a) Completeness. Every finite configuration of centres, admissible or not, receives a
+10⁻³ at 32 and 64 nodes per axis. Explicit pointer computations reproduce the characteristic
 
-    normalized joint law of outcomes. The candidate therefore defines an unconditional collapse
+function of part (b) to 7.3 × 10⁻¹⁴ and the unread channel of part (c) to 1.7 × 10⁻¹⁴. For a pair of
 
-    dynamics on the full Poisson configuration space of any domain of finite four-volume.
+regions in which one meets the causal future of the other but not conversely, the pointer law equals
 
+that of sequential collapse in causal order to 1.8 × 10⁻¹³. For the overlapping pair of item C3(e),
 
+the pointer law differs from the law of collapses in centre-time order: the variances of the two
 
-    (b) Agreement with the causal-order dynamics. The ordering rule agrees with causal precedence
+readings are larger by 0.0011 and 0.0537.
 
-    for every pair of collapses whose centres differ in cosmological time by more than 2τ. In the
 
-    flat local model of Lemma 13.26(b), the law coincides with that of Theorem 13.21 on every
 
-    admissible configuration, and the candidate extends it to the remaining configurations.
+Statistics and definite outcomes. Proposition 13.31 derives the statistics of the readings from
 
+local coupling densities. It does not derive that the readings have definite values. The coupled
 
+evolution U is unitary and selects no outcome: it produces an entangled state of the field and the
 
-    (c) No signaling for the covered operations. In any finite configuration, let Y be a set of
+pointers in which every reading allowed by the Born-rule density is represented. A spontaneous-
 
-    collapses, and let j be an operation, inserted at any position in the sequence, whose Kraus
+collapse reading of the construction therefore needs, in addition, a primitive single-outcome
 
-    operators commute with every W(g), g in the span of the h_y with y ∈ Y, the other operations
+postulate for the pointers.
 
-    being the law’s collapses or Weyl-diagonal operations. Then the unconditioned joint law of the
 
-    outcomes in Y does not depend on whether j is performed. This holds in particular when j is
 
-    localized in a region causally separated from every O_y.
+    (R) Reading postulate. When the coupling of a pointer ends, a reading event occurs. Its value y
 
+    has the Born-rule probability density of q_k in the present state of the field and the pointers,
 
+    conditioned on the readings already made, and the event replaces that state by the normalized
 
-    (d) Forward generation in the free-field representation. The collapse at x is a function of
+    conditional state, given y, of the field and the other pointers, together with the record y.
 
-    φ(h_x), which equals the symplectic product of Eh_x with the Cauchy data of the field on the
 
-    level set T = T(x). It can therefore be applied when the generative present reaches T(x), and
 
-    the centres in each successive slab of cosmological time are drawn from that slab alone. The
+The state after a reading can be stated exactly. Write the present state as a density operator ρ on
 
-    process is generated forward along cosmological time from the present field state and the
+L²(ℝ) ⊗ H_r = L²(ℝ, H_r), where L²(ℝ) carries the pointer being read in its position representation
 
-    realized events, with no future input. This is forward generation of the mathematical
+and H_r is the space of the field and the other present pointers. Then ρ = Σ_i w_i |Φ_i⟩⟨Φ_i| with
 
-    description; it is not a fully local dynamical implementation, because the support of h_x
+weights w_i ≥ 0 summing to 1 and unit vectors Φ_i ∈ L²(ℝ, H_r), and for almost every y the operator
 
-    extends to T(x) + τ.
+ρ(y) = Σ_i w_i |Φ_i(y)⟩⟨Φ_i(y)| on H_r is positive and trace-class, with trace p(y), the Born-rule
 
+density of the reading, since Σ_i w_i ∫ ‖Φ_i(y)‖² dy = 1. For every such y with p(y) > 0, the post-
 
+reading state is the normalized density operator ρ(y)/p(y) on H_r together with the record y. The
 
-    (e) Preferred-frame structure. Each collapse changes the expected renormalized stress–energy
+pointer that has been read does not enter this state as a quantum system: it takes no further part
 
-    tensor by T^cl[Eh_x]/(4σ²) (Proposition 13.16(d)), which is invariant under the rotations about
+in the dynamics, and its idealized position eigenvector, which is not normalizable, is not needed.
 
-    the comoving worldline through x. In the flat local model with rotation-invariant smearings, the
+The present physical state after a reading is therefore well defined, as generability requires, for
 
-    mean four-momentum injected per unit four-volume is λ ΔP(h), a fixed timelike vector at rest in
+every reading outside a set of probability zero.
 
-    the cosmic frame. This is a property of field expectation values and a theoretical prediction of
 
-    the free-field model, not by itself a measurable signature (see the discussion of measurable
 
-    signatures below). The order that the rule assigns to law collapses among themselves, by
+Three achievements should be kept apart.
 
-    contrast, affects only the joint law of their outcomes: their unread channels commute, so
 
-    reordering law collapses among themselves, without changing their positions relative to other
 
-    operations, leaves every unconditioned statistic of those other operations unchanged. For two
+    (i) Deriving the Gaussian measurement statistics, the effective field instruments, and their
 
-    collapses with E(h_i, h_j) ≠ 0 whose centres differ in cosmological time by at most 2τ, the
+    causal properties from local coupling densities: established in the stated free-field model
 
-    joint law of the outcomes depends on which centre is earlier in cosmological time (Proposition
+    (Proposition 13.31(a)–(e)).
 
-    13.23). When such centres are spacelike-separated, different inertial frames would order them
 
-    differently, so the ordering rule produces cosmic-frame-dependent correlations among collapse
 
-    outcomes.
+    (ii) Constructing a consistent probability law for the pointer records, including infinitely
 
+    many centres: established under the stated assumptions (Lemma 13.30, Proposition 13.31(f)), as a
 
+    law of records rather than a global present state; it does not establish infinite-volume
 
-    (f) Infinite histories when past regions are finite. Suppose that every past region D_t = { p :
+    generability.
 
-    t_0 < T(p) ≤ t } has finite four-volume, as in spatially closed FLRW spacetimes; every level set
 
-    of T has four-volume zero. Then almost surely only finitely many centres lie in each D_t and no
 
-    two share a value of T, so the centres form a sequence x_1, x_2, … ordered by T, which is finite
+    (iii) Deriving objectively definite, spontaneous pointer outcomes without a further postulate:
 
-    if the region of centres has finite four-volume and infinite otherwise. There is a unique
+    not established. The local unitary coupling does not select a single outcome, and the
 
-    probability measure on the corresponding histories of marked centres, finite or infinite, whose
+    construction relies on postulate (R) instead.
 
-    marginal on the centres and outcomes in each D_t is the law of part (a) for the domain D_t. This
 
-    projective consistency holds for the nested past regions D_t. It does not hold for an arbitrary
 
-    subdomain D of finite four-volume: collapses outside D that precede some of those in D change
+Postulate (R) is of the same kind as the event law of the finite model (Definition 4.1) and as the
 
-    the state before them, so the marginal of the global law on D differs in general from the law of
+collapse law of Candidate extension 13.27: in each, the occurrence of a definite event, with
 
-    part (a) for D, which applies only the collapses in D. If these regions have infinite four-
+probabilities fixed by the law, is primitive. What the pointer variant changes is where the
 
-    volume, as in spatially infinite FLRW spacetimes, every slab of cosmological time contains
+postulate acts. Candidate extension 13.27 postulates an instrument on the field; the pointer variant
 
-    infinitely many centres almost surely, so its collapses cannot be applied one after another in
+postulates readings of pointers and derives the instrument on the field. It thus relocates the
 
-    order of T, and the existence of a global process is open.
+collapse postulate from the field to the pointers; it does not remove it. For CTGP the postulate has
 
+three consequences. First, a reading event is a Tier 1 event (Definition 5.1): its occurrence,
 
+labelled by y, is primitive, and the truth profile past-tenses it. The pointer takes no further part
 
-Proof. (a) A finite sequence of normalized instruments composes to a normalized instrument. (b)
+in the dynamics and serves afterwards as the record of y, and the present physical state after the
 
-Lemma 13.26 and Theorem 13.21(a). (c) Theorem 13.17 with Corollary 13.18; the conditions of the
+reading is the normalized conditional state of the field and the other pointers together with that
 
-theorem do not depend on how the order of the operations was chosen. (d) For a free field on a
+record. Second, causal inheritance (C-g) and physical instantiation (C-f) require the pointers to
 
-globally hyperbolic spacetime, φ(h) = ∫_Σ ((Eh) ∇_nφ − φ ∇_n(Eh)) dΣ for every Cauchy surface Σ, up
+belong to the present physical state: during its coupling a pointer is part of that state, and the
 
-to a sign fixed by the convention for E (Wald 1994), and the level sets of T are Cauchy surfaces by
+law of its reading depends only on that state, so the variant is generable for finite configurations
 
-assumption. The statement about the centres is Theorem 13.21(e). (e) Proposition 13.16(c) and (d),
+(Proposition 13.31(g)). Third, physical adequacy requires an account, not given here, of what the
 
-the rotational symmetry of h_x, and Campbell’s formula give the energy–momentum. The unread channels
+pointers are, why one exists at each Poisson centre without an experimenter, what prepares it in the
 
-commute because each multiplies every Weyl operator by a number, so their duals commute on the Weyl
+pre-chirped state, and what physical system carries its record. Without such an account, the pointer
 
-operators and, being normal, on the von Neumann algebra those operators generate, which contains
+variant is a measurement construction read as a spontaneous law, and it shifts the collapse problem
 
-every observable of the field. The order dependence of the joint outcome law is Proposition 13.23.
+from the field to the pointers rather than solving it.
 
-(f) Since Vol_g(D_t) is finite, the Poisson count in D_t is finite almost surely, and since level
 
-sets have four-volume zero, ties in T have probability zero. Given the past, the next centre is the
 
-first Poisson point above the current value of T, by the complete independence of the Poisson
+Which properties survive. Measured against the six parts of Proposition 13.28, the three
 
-process, or there is no further centre, an outcome of probability exp(−λ v(t′)) at the current value
+implementations compare as follows.
 
-t′, where v(t′) is the four-volume of the part of the region of centres with T > t′; this
 
-probability is positive when v(t′) is finite. Including that terminal state, both the kernel for the
 
-next centre and the Born-rule kernel for the next outcome are measurable on standard Borel spaces,
+    (a) Completeness. Centre-time ordering: proved. Completion-time ordering: unchanged, with the
 
-and the Ionescu-Tulcea theorem gives a unique measure on histories with these kernels. Its marginal
+    same proof. Gapless pointers: holds for every finite configuration, with a separate proof
 
-on D_t is the law of part (a) for D_t, because every collapse in D_t precedes every collapse outside
+    (Proposition 13.31(a)–(b)), and needs no ordering rule.
 
-it, and the later collapses, with their outcomes summed over, are trace-preserving. For an arbitrary
 
-subdomain this argument fails at its first step, since collapses outside the subdomain can precede
 
-collapses inside it. A Poisson process of infinite intensity measure on a slab has infinitely many
+    (b) Agreement with the causal-order dynamics. Centre-time ordering: proved in the flat local
 
-points there almost surely. □
+    model. Completion-time ordering: unchanged for a uniform half-width; a separate proof would be
 
+    needed if the half-width varied. Gapless pointers: holds on every admissible configuration of
 
+    any globally hyperbolic background, with a separate proof (Proposition 13.31(d)), provided that
 
-In the numerical checks (Appendix C.1, items C3(g) and C3(h)), ordering by the times of the centres
+    the pointers are pre-chirped; without the pre-chirp it fails by the self-terms of Proposition
 
-is a linear extension of the causal order in all 300 admissible configurations of item C3(c), as
+    13.31(b).
 
-Lemma 13.26(b) requires for causal diamonds. In a Sorkin-type configuration whose two intermediate
 
-law collapses overlap, so that it is not admissible, applying the collapses in order of time leaves
 
-the target’s binned law unchanged, to within 1.6 × 10⁻¹⁵, when a kick, a Gaussian collapse, or an
+    (c) No signaling. Centre-time and completion-time ordering: proved for the covered operations.
 
-unsharp Lüders instrument, which is not Weyl-diagonal, is applied in a region causally separated
+    Gapless pointers: holds, with a separate proof, for every pointer or classical source whose
 
-from the target. If an unsharp Lüders instrument replaces the first intermediate collapse, the kick
+    region does not meet the causal past of the targets, on every configuration (Proposition
 
-shifts the target law by 8.1 × 10⁻⁴. In the tested configuration, the cosmological-time ordering
+    13.31(e)); it is not established for arbitrary interventions. The second limit above does not
 
-rule produces no signaling for the specified interventions. The Lüders control shows that this
+    arise for such operations, since no rule orders them.
 
-conclusion cannot be extended to arbitrary intervening instruments. In item C3(e), the unread
 
-channels of two overlapping collapses give the same final state in either order, to 6.8 × 10⁻¹⁵,
 
-although the joint laws of their outcomes differ.
+    (d) Forward generation. Centre-time ordering: forward computability from present Cauchy data,
 
+    not a mechanism. Completion-time ordering: strengthened to computability from the generated past
 
+    (Proposition 13.29(c)), still without a mechanism. Gapless pointers: replaced, for finite
 
-Four limits of Proposition 13.28 should be stated. First, part (d) establishes computability from
+    configurations and given postulate (R), by forward generation through a local coupling, each
 
-present Cauchy data, not physical causal locality. A smeared free-field observable can always be
+    collapse being the reading of a pointer whose coupling has ended (Proposition 13.31(g)); on
 
-rewritten through the causal propagator as an observable on a single Cauchy surface, but the
+    spatially flat or open FLRW spacetimes, a forward evolution of the present state is not
 
-collapse of φ(h_x) concerns the field smeared over a region that extends to cosmological time T(x) +
+    constructed.
 
-τ, so its physical localization is extended in time, and a fully local dynamical implementation of
 
-the centre-time rule, for instance through a coupled field, has not been given; Propositions 13.29
 
-and 13.31 below examine two alternatives. Second, part (c) covers the stated class of operations. It
+    (e) Preferred-frame structure. Centre-time and completion-time ordering: proved. Gapless
 
-does not show that arbitrary physically implementable interventions can be inserted without
+    pointers: the energy–momentum injection survives unchanged, because the unread channel is the
 
-detectable effects of the ordering rule: an intervention whose region interferes, within 2τ in
+    same (Proposition 13.31(c)); the cosmic-frame dependence of the outcome correlations that comes
 
-cosmological time, with a law collapse is ordered relative to it by the rule, and the joint
+    from the ordering rule fails: the law of Proposition 13.31(b) contains no ordering rule, and its
 
-statistics can then depend on that order, as in Proposition 13.23. In the realization of Proposition
+    correlations depend on the cosmic frame only through the smearings.
 
-13.31, where the law’s collapses and the interventions are all realized by gapless pointers, no rule
 
-orders them, and this limit does not arise. Third, the correlation structure of part (e) is a
 
-statement about the collapse outcomes, which CTGP treats as primitive occurrences. It shows that the
+    (f) Infinite histories. Centre-time and completion-time ordering: proved when the past regions
 
-event statistics depend on the cosmic frame; it does not by itself show measurable Lorentz
+    have finite four-volume, and open otherwise. Gapless pointers: a law of the pointer records
 
-violation. By part (e), no unconditioned statistic of other operations reveals the order of law
+    exists and is unique on every FLRW spacetime of the class, including spatially infinite ones,
 
-collapses among themselves, so whether these correlations induce operationally detectable signatures
+    with a separate proof (Lemma 13.30, Proposition 13.31(f)); it is a law of records, not a global
 
-requires an explicit account of how collapse outcomes are recorded in accessible observables. The
+    present state containing infinitely many pointers, and it does not establish the generation of
+
+    those records in an infinite volume.
+
+
+
+What fails is the identification of the pointer law with the law of Candidate extension 13.27. On
+
+non-admissible configurations the two differ, so the gapless-pointer construction is a different
+
+candidate law, not a physical implementation of rule (iii). The gapless pointer, the natural local
+
+realization of a Gaussian collapse, does not reproduce centre-time ordering: it yields a law with no
+
+ordering rule.
+
+

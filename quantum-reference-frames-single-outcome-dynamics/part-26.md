@@ -1,271 +1,433 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 26 of 40 (1,521 words)
+Part 26 of 35 (1,798 words)
 
+    (i) Semiclassical and quantum-geometric emergence. Begin with quantum matter on an approximately
 
+    classical metric and progressively allow gravitational degrees of freedom to fluctuate. This is
 
-Which properties survive. Measured against the six parts of Proposition 13.28, the three
+    the most incremental route from the constructions of this preprint, and it tests how much
 
-implementations compare as follows.
+    geometric uncertainty CTGP can accommodate before its definition of a unique present becomes
 
+    problematic.
 
 
-    (a) Completeness. Centre-time ordering: proved. Completion-time ordering: unchanged, with the
 
-    same proof. Gapless pointers: holds for every finite configuration, with a separate proof
+    (ii) Canonical quantum gravity. Start from constrained gravitational dynamics, with the
 
-    (Proposition 13.31(a)–(b)), and needs no ordering rule.
+    Hamiltonian constraint written schematically as ĤΨ = 0, and ask whether an internal or emergent
 
+    time permits a single-history generative interpretation. A formally stationary physical state
 
+    does not mean that relational observables are static (Kuchař 1992; Isham 1993), but an objective
 
-    (b) Agreement with the causal-order dynamics. Centre-time ordering: proved in the flat local
+    succession of unique outcomes requires further interpretation or dynamics. Material reference
 
-    model. Completion-time ordering: unchanged for a uniform half-width; a separate proof would be
+    systems such as Brown–Kuchař dust (Brown & Kuchař 1995) are candidates for a physically
 
-    needed if the half-width varied. Gapless pointers: holds on every admissible configuration of
+    instantiated time.
 
-    any globally hyperbolic background, with a separate proof (Proposition 13.31(d)), provided that
 
-    the pointers are pre-chirped; without the pre-chirp it fails by the self-terms of Proposition
 
-    13.31(b).
+    (iii) Causal sets. Causal-set approaches make causal order fundamental, and classical sequential
 
+    growth models generate a causal set element by element (Bombelli, Lee, Meyer & Sorkin 1987;
 
+    Rideout & Sorkin 2000). The labels of the growth sequence are, however, gauge: the physics is
 
-    (c) No signaling. Centre-time and completion-time ordering: proved for the covered operations.
+    required to be independent of the order in which elements are born. Theorem 13.4 and Proposition
 
-    Gapless pointers: holds, with a separate proof, for every pointer or classical source whose
+    13.7 offer an analogue of this situation: for a past-finite causal order with commuting
 
-    region does not meet the causal past of the targets, on every configuration (Proposition
+    operations at unrelated elements, every natural labeling generates the same history measure, so
 
-    13.31(e)); it is not established for arbitrary interventions. The second limit above does not
+    the choice of generative labeling is empirically invisible (Corollary 13.5, Proposition
 
-    arise for such operations, since no rule orders them.
+    13.7(b)). A CTGP reading would then treat one labeling as ontologically generative without
 
+    physical effect, which places it in the interpretive case of §14.6, unless an invariant ordering
 
+    or an appropriate continuum limit can be found.
 
-    (d) Forward generation. Centre-time ordering: forward computability from present Cauchy data,
 
-    not a mechanism. Completion-time ordering: strengthened to computability from the generated past
 
-    (Proposition 13.29(c)), still without a mechanism. Gapless pointers: replaced, for finite
+The recommended order is to begin with pathway (i), to use pathway (ii) to examine the problem of
 
-    configurations and given postulate (R), by forward generation through a local coupling, each
+time, and to treat pathway (iii) as a possible realization rather than CTGP’s presumed foundation.
 
-    collapse being the reading of a pointer whose coupling has ended (Proposition 13.31(g)); on
 
-    spatially flat or open FLRW spacetimes, a forward evolution of the present state is not
 
-    constructed.
+15.3 Compatibility Conditions
 
 
 
-    (e) Preferred-frame structure. Centre-time and completion-time ordering: proved. Gapless
+A candidate quantum-gravity theory would have to answer five questions affirmatively.
 
-    pointers: the energy–momentum injection survives unchanged, because the unread channel is the
 
-    same (Proposition 13.31(c)); the cosmic-frame dependence of the outcome correlations that comes
 
-    from the ordering rule fails: the law of Proposition 13.31(b) contains no ordering rule, and its
+    (Q1) Forward generation. Does it admit a physically meaningful forward-generative formulation? A
 
-    correlations depend on the cosmic frame only through the smearings.
+    global mathematical description is not disqualifying; an indispensable independent future
 
+    boundary input would conflict with generability.
 
 
-    (f) Infinite histories. Centre-time and completion-time ordering: proved when the past regions
 
-    have finite four-volume, and open otherwise. Gapless pointers: a law of the pointer records
+    (Q2) One realized history. Can it support one realized physical history? A superposition in a
 
-    exists and is unique on every FLRW spacetime of the class, including spatially infinite ones,
+    quantum state is not a contradiction, but CTGP requires a definite factual history rather than
 
-    with a separate proof (Lemma 13.30, Proposition 13.31(f)); it is a law of records, not a global
+    many equally realized branches.
 
-    present state containing infinitely many pointers, and it does not establish the generation of
 
-    those records in an infinite volume.
 
+    (Q3) Gauge symmetry. Does it respect the relevant gauge symmetries? A proposed generation
 
+    parameter must not promote an arbitrary coordinate label to a physical observable.
 
-What fails is the identification of the pointer law with the law of Candidate extension 13.27. On
 
-non-admissible configurations the two differ, so the gapless-pointer construction is a different
 
-candidate law, not a physical implementation of rule (iii). The gapless pointer, the natural local
+    (Q4) Classical spacetime. Can it recover classical spacetime, reproducing Einstein’s equations
 
-realization of a Gaussian collapse, does not reproduce centre-time ordering: it yields a law with no
+    and the cosmological-time construction wherever CTGP’s classical assumptions hold?
 
-ordering rule.
 
 
+    (Q5) Phenomenology. Does it preserve acceptable relativistic phenomenology? Any preferred-
 
-The pointer realization has further costs. First, as explained above, it adds physical degrees of
+    ordering dynamics must avoid experimentally excluded effects.
 
-freedom, one pointer at each Poisson centre prepared in a fixed state that depends on the smearing
 
-through Γ_kk, together with postulate (R). Second, cosmological time still enters the law, through
 
-the smearing law of Candidate extension 13.27(ii), which Proposition 13.24 makes necessary for
+The classical-limit requirement can be written schematically as 𝒬_CTGP → (M, g, Σ_{T_g}) in the
 
-point-centred smearings; only the ordering rule is removed. Third, the coupling is a prescribed
+appropriate semiclassical limit, where 𝒬_CTGP denotes a hypothetical completed quantum-generative
 
-function on spacetime, so the energy of Proposition 13.31(c) is supplied by the prescribed coupling,
+theory. The arrow represents a research objective, not an existing derivation.
 
-and no dynamical account of the energy budget is given. Fourth, each pointer is a single degree of
 
-freedom coupled throughout an extended region. It is a regulated probe, not a local probe field in
 
-the sense of Fewster and Verch (2020), and the results depend on the free field and on the absence
+15.4 What Would, and What Would Not, Rule Out Compatibility
 
-of pointer dynamics. Fifth, the readings localize smeared field amplitudes, not matter (L2, D7). In
 
-Bedingham’s (2011) model, a mediating relativistic field attaches a quantized degree of freedom to
 
-each spacetime point; the pointers here attach one degree of freedom to each Poisson centre. The
+The following would be genuinely problematic for CTGP:
 
-pointer realization is recorded as a further candidate, alongside Candidate extension 13.27, and is
 
-not adopted.
 
+    (R1) a fundamental theory that requires independent final boundary conditions which cannot be
 
+    replaced by legitimate present-state dynamics;
 
-Comparison with a covariant alternative. Routes (iv) and (vi) of Remark 13.25 avoid a preferred
 
-frame, and the two kinds of construction differ point by point. In frame, the candidate refers every
 
-collapse to the cosmic rest frame, a structure CTGP already posits, whereas rGRWf refers each flash
+    (R2) a theory in which no invariant notion of realized physical history can be defined;
 
-to an earlier flash and Bedingham’s model works through an additional relativistic field. In scope,
 
-the candidate is defined for a free field on a fixed background, on every domain of finite four-
 
-volume and, when cosmological-time slabs have finite volume, on infinite histories (Proposition
+    (R3) a quantum-gravity framework whose physical predictions necessarily depend on mutually
 
-13.28(f)), and in its gapless-pointer form, as a law of outcome records, on every FLRW spacetime of
+    incompatible fundamental generative orderings;
 
-the class (Proposition 13.31(f)), whereas rGRWf is defined for a fixed number of non-interacting
 
-particles from given initial data. In generability, the candidate can be generated forward along
 
-cosmological time in its free-field representation (Proposition 13.28(d)), and in its gapless-
+    (R4) a demonstrated impossibility of recovering CTGP’s classical cosmic-time structure in the
 
-pointer form, for finite configurations and given its reading postulate, through a local coupling
+    domain where CTGP claims to apply.
 
-(Proposition 13.31(g)), whereas for rGRWf causal inheritance requires the earlier flash locations to
 
-be physically instantiated in the present state, which is open (§13.12). In phenomenology, the
 
-candidate predicts, as theoretical consequences of the free-field model, energy injected at rest in
+By contrast, indefinite causal order, timeless constraint equations, and quantum superpositions of
 
-the cosmic frame and, at the scales τ and ℓ, order effects for interfering interventions and cosmic-
+geometries are not by themselves sufficient to establish any of these conclusions. They are reasons
 
-frame-dependent correlations among collapse outcomes. The last two arise from the ordering rule and
+to investigate, not refutations.
 
-are absent in the gapless-pointer form, whose outcome correlations depend on the cosmic frame only
 
-through the smearings. None of these effects has yet been turned into an operational prediction for
 
-an apparatus; any that become observable must respect the experimental bounds on collapse effects
+15.5 First Test Problems
 
-(Bassi et al. 2013) and on preferred-frame effects (Kostelecký & Russell 2011), whereas a fully
 
-covariant model predicts no such frame dependence. In localization, both leave open how matter,
 
-rather than a field amplitude, is localized (L2, D7).
+Three finite problems would test the quantum-gravity conditions without attempting a complete
 
+theory. Each is a target, not a result.
 
 
-Adopting the candidate would change CTGP in one respect only: cosmological time would enter the
 
-collapse law, and the generative foliation would become empirically accessible in principle. In the
+    (G1) Label-invariant realized causal-set histories. Define a stochastic growth law on labeled
 
-gapless-pointer form it would enter only through the smearing law. That is a substantive commitment,
+    causal sets, in which each step adds one element to the future of some of the existing ones,
 
-whose consequences become testable once its predicted preferred-frame effects are turned into
+    with a quantum-instrument version in which operations at unrelated elements commute. Impose a
 
-operational predictions. It is recorded here as a candidate, with its law, its variants, and its
+    discrete form of general covariance and prove that the probabilities of unlabeled completed
 
-predicted signatures stated, and it is not adopted.
+    causal sets do not depend on the natural labeling used to compute them. For a fixed causal order
 
+    this is Theorem 13.4 and Proposition 13.7. For growth models it adapts the discrete general
 
+    covariance of classical sequential growth (Rideout & Sorkin 2000), and it should be presented as
 
-13.12 Candidate Relativistic Realizations
+    an adaptation rather than as a new theorem. CTGP’s contribution would be ontological: whether
 
+    one birth order can be real while its labeling is unobservable. That reading faces a genuine
 
+    tension. If the birth orders of unrelated elements are pure gauge, asserting that one of them is
 
-Relativistic flash model. Tumulka’s relativistic GRW model (rGRWf) treats discrete spacetime flashes
+    physically real adds structure that the invariant theory cannot detect. That may be acceptable
 
-as objectively realized events, with a Lorentz-invariant law for their joint distribution, for a
+    as empirically inaccessible ontology, the interpretive case of §14.6, but it requires a
 
-fixed number of non-interacting distinguishable particles (Tumulka 2006). Its law refers to
+    principled defense.
 
-hyperboloids centred on each particle’s previous flash, which is one way of supplying the local
 
-frame that, by Proposition 13.24, a point-centred law needs. It is the natural first test case. A
 
-continuous generative present can contain a locally finite set of discrete flash events, so discrete
+    (G2) A finite quantum-geometry model. Take finitely many geometric configurations q, a physical
 
-flashes do not imply discrete ontological time. The open questions are whether the flash law can be
+    state Σ_q c_q |q⟩, and an instrument representing geometry-related events. Prove that each
 
-represented as a generable process on CTGP’s cosmic-time hypersurfaces, with a physically
+    update maps physical states to physical states, that outcome probabilities are gauge-invariant,
 
-instantiated present state on each, and whether the construction extends to interacting fields,
+    that the law generates one realized history without a future boundary condition, and that the
 
-particle creation, renormalization, and curved backgrounds. A realistic interacting relativistic
+    history measure is consistent under admissible changes of description. Such a model would be a
 
-quantum field theory is a much harder target than a non-interacting model.
+    controlled finite analogue, not compatibility with an established theory of quantum gravity.
 
 
 
-Spontaneous events. The detector networks of §13.6 are a measurement model: their events are
+    (G3) Two semiclassical branches. Take a state concentrated on two classical geometries whose
 
-triggered by specified couplings. A spontaneous relativistic model would replace them by events
+    cosmological-time functions T_1 and T_2 differ, without assuming that any cosmological time
 
-prescribed by the law itself, with a conditional intensity λ(x | S_Σ) defined from the present
+    exists on the superposition. Ask whether one branch-independent ordering of events can be
 
-state, together with the state update associated with each event. Such a law must be covariant
+    defined that reduces in each branch i to F_i(T_i), with F_i increasing, wherever T_i is regular.
 
-across admissible hypersurface descriptions, well defined on a regulated field state space, causally
+    The possible outcomes are that a common ordering exists, that it exists only approximately, that
 
-admissible in the sense of (E3), normalized and free of pathological accumulation of events, and
+    an additional physical clock or reference field such as Brown–Kuchař dust is needed, or that the
 
-generable from the physically instantiated present state. This is the relativistic objective-
+    construction fails. A failure would be informative, since it would identify a genuine
 
-collapse realization that CTGP contemplates. Section 13.7 constructs a regulated version, Gaussian
+    incompatibility between a particular formulation of CTGP and a particular model of quantum
 
-collapse of smeared fields on a fixed family of regions (Corollary 13.14), and §13.10 lets a
+    geometry.
 
-covariant Poisson law choose the locations (Theorem 13.21) and identifies the obstructions to a
 
-fully covariant version (Propositions 13.22–13.24). A covariant version that localizes matter,
 
-rather than linear field observables, remains open.
+----------------------------------------------------------------------------------------------------
 
+16. Roadmap
 
+----------------------------------------------------------------------------------------------------
 
-Bohmian dynamics. A second route keeps a definite configuration rather than collapsing the quantum
 
-state: the present state is S_Σ = (Ψ_Σ, Q_Σ), with Q_Σ a particle or field configuration on the
 
-hypersurface, and the dynamics is a guidance law. Such a theory already contains one actual
+Stage                     | Goal and deliverable                 | Status in this preprint
 
-configuration and therefore one realized history. Relativistic Bohmian theories typically require a
+--------------------------+--------------------------------------+-------------------------------
 
-distinguished foliation (Dürr, Goldstein, Münch-Berndl & Zanghì 1999), and the foliation may itself
+1. Formal specification   | Definitions, conditions, exclusions; | Done for the finite domain
 
-be determined covariantly, for instance by the wave function (Dürr, Goldstein, Norsen, Struyve &
+                          | L and S related precisely            | (Parts II–IV, §12)
 
-Zanghì 2014). CTGP’s cosmological-time foliation is a natural candidate. It must be shown that the
+2. Relativistic toy model | Regulated single-outcome model on a  | Discrete analogues (Thm 13.4,
 
-resulting predictions remain compatible with relativistic observations.
+                          | fixed background: normalization,     | Prop. 13.7); free-field
 
+                          | history consistency, covariance      | detectors (Thm 13.9); fixed-
 
+                          |                                      | region Gaussian collapse (Cor.
 
-Success in either route would mean that at least one mathematically consistent single-outcome
+                          |                                      | 13.14) and its energy cost
 
-relativistic quantum model can be equipped with CTGP’s ontology and its generability requirement
+                          |                                      | (Prop. 13.16); Poisson
 
-without unacceptable observational effects. It would not mean that every relativistic quantum field
+                          |                                      | locations, conditional (Thm
 
-theory or every interpretation is compatible with CTGP.
+                          |                                      | 13.21); obstructions to full
 
+                          |                                      | covariance (Props 13.22–13.24);
 
+                          |                                      | candidate cosmic-time
+
+                          |                                      | completion and its gapless-
+
+                          |                                      | pointer variant (§13.11), not
+
+                          |                                      | adopted
+
+3. Temporal QRFs          | Clock reductions from a neutral      | Distinctions and Prop. 14.2;
+
+                          | description; event identity across   | late-record instruments with
+
+                          | clock changes                        | ideal clocks (Prop. 14.5);
+
+                          |                                      | Conjecture 14.4 open
+
+4. Interacting, curved    | Interactions, regularization,        | Sufficient condition (Thm
+
+   quantum field theory   | continuum limits, curved backgrounds | 13.17); probe test (Target
+
+                          |                                      | 13.19) open
+
+5. Quantum geometry       | Constrained or pre-geometric model;  | Test problems G1–G3 (§15.5);
+
+                          | event ontology; semiclassical limit  | open
+
+
+
+Table 4. A staged program, with the status of each stage.
+
+
+
+Each stage should be independently publishable if it yields a substantive result. Failure at a stage
+
+would also be informative: it would identify either a needed refinement of CTGP or a genuine
+
+incompatibility, rather than leaving the question open. CTGP does not need to abandon its continuous
+
+global generation, its rejection of density-weighted generation, or its unique factual past to
+
+pursue this program. It does need to keep a clear line between its foundational ontology and any
+
+particular quantum implementation.
+
+
+
+====================================================================================================
+
+PART VI. Results and Outlook
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+17. Scope, Results, and Open Problems
+
+----------------------------------------------------------------------------------------------------
+
+
+
+17.1 What Kind of Result This Is
+
+
+
+The preprint establishes an existence result, conditional on the CTGP interpretation: at least one
+
+well-defined model, within an explicitly specified class, has a structure that jointly satisfies the
+
+formal counterparts of CTGP’s quantum commitments. The mathematics establishes the structure;
+
+reading that structure as one realized present grounded in primitive past-tensed properties is
+
+CTGP’s interpretation (Ontological Reading 4.3, Thesis 5.10, §5.7), and mathematical consistency is
+
+not metaphysical vindication. It does not establish general compatibility, which would require
+
+showing that every physically admissible QRF theory can accommodate those commitments. It does not
+
+establish physical adequacy, which would require reproducing the relevant features of established
+
+quantum physics, including relativistic quantum field theory, and of general relativity. Existence
+
+results of this kind are a standard and useful form of progress: they show that a set of commitments
+
+is consistent and provide a concrete object on which objections can be tested. In the terms of Table
+
+3, the finite model establishes mathematical compatibility on its own domain. Part V establishes
+
+finite-dimensional analogues of the relativistic and temporal results it requires, and states the
+
+rest as targets.
+
+
+
+17.2 Established
+
+
+
+Within the class of models of Part II (finite symmetry group, regular representations, invariant
+
+unitary-plus-instrument dynamics) and its continuous-time form (§9), and in the explicit instance of
+
+Part III:
+
+
+
+    (1) Two frame descriptions describe one complete state iff they satisfy Criterion 5.5, iff they
+
+    lie in one description orbit; the orbits partition the frame descriptions (Theorem 5.6,
+
+    Proposition 5.8). Ontological identity of the represented world is the further interpretive
+
+    Thesis 5.10.
+
+
+
+    (2) Admissible truth profiles are characterized exactly (Theorem 4.8).
+
+
+
+    (3) State correspondence does not settle identity of history (Proposition 5.9); for invertible
+
+    laws, every present ray is reachable along every finite event sequence from a suitably chosen
+
+    initial ray (Proposition 4.12).
+
+
+
+    (4) Determinacy is frame-independent, with a three-tier criterion in which primitive events,
+
+    distinguished from sharp values, carry single-outcome realism (Definition 5.1, Propositions 4.4
+
+    and 5.2).
+
+
+
+    (5) Valid frame changes intertwine the generative law: the measure over histories, the
+
+    conditional independence of future from past given the present, and the truth of every
+
+    determinate proposition are frame-invariant and preserved by generation (Theorems 5.12 and 5.16,
+
+    Corollary 5.14). Laws that merely look alike in different frames do not describe one world
+
+    (Corollary 5.13).
+
+
+
+    (6) Ontological identity, physical equivalence, and observational indistinguishability are
+
+    distinct relations, ordered by strict implication (Proposition 5.19).
+
+
+
+    (7) L is generated, admissible, not reducible to S, accurate, frame-covariant, and dynamically
+
+    idle (Theorem 5.20).
+
+
+
+    (8) The model has a continuous-time form, with histories as marked point processes, for which
+
+    admissibility, reconstruction, dynamical idleness, cross-frame correspondence, and truth
+
+    preservation are proved (Propositions 9.2–9.9, Theorems 9.7 and 9.10); the identification of its
+
+    time parameter with cosmic time is stated as a postulate (§9.4).
+
+
+
+    (9) Within the class, generative order is shared by all frames, the law is generable, the future
+
+    is open, and there are no relative facts (§10).
+
+
+
+    (10) The truth profile is formally interchangeable with the event history (Proposition 5.21);

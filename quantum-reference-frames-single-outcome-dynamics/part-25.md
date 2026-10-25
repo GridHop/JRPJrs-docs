@@ -1,223 +1,285 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 25 of 40 (1,580 words)
+Part 25 of 35 (1,791 words)
 
-to a phase. Tracing out the pointers integrates over the momenta with the density Π_k |η̂_k(p_k)|²,
+    (e) Interference between the orders. Suppose H_S = 0, let f be a wave packet in the offset whose
 
-where η̂_k is the momentum-space wave function of η_k; the pre-chirp does not change this density.
+    translates by δ_1 and δ_2 have disjoint supports in I, let ψ be a unit vector in K, and let χ(Δ)
 
-Each factor is the kick density γ of Proposition 13.15(b) with σ = σ_k, so the unread channel is the
+    = (f(Δ − δ_1) + f(Δ − δ_2)) ψ/√2. Suppose that U_Δ(s*) equals a fixed unitary W_k for every Δ in
 
-composition of the unread Gaussian collapses, which commute (proof of Proposition 13.28(e)).
+    the support of f(· − δ_k), as when each interaction is completed within either branch. Let 𝒰*
 
-Proposition 13.16 gives the energy–momentum. (d) A Gaussian collapse of φ(h_k) with width σ_k is the
+    multiply χ(Δ) by U_Δ(s*), let F_+ be the projection onto the offset-coherent wave function f_+ =
 
-instrument obtained from an unchirped pointer by the instantaneous coupling V_k = exp(−i p_k φ(h_k))
+    (f(· − δ_1) + f(· − δ_2))/√2, acting trivially on K, and let O_+ = 𝒰*† F_+ 𝒰*. As in (a),
 
-followed by reading q_k: its Kraus operator for the reading y is ⟨y|V_k|η_k⟩ = η_k(y − φ(h_k)), the
+    physical states are represented by their initial data χ, so 𝒰* carries a physical state to its
 
-operator K_y of Proposition 13.12. For collapses applied in the order 1, …, n, the first Weyl
+    late-time data, and O_+ is the late-time projection F_+ expressed in the initial-data
 
-relation gives V_n ⋯ V_1 = exp(−(i/2) Σ_{k>l} E(h_k, h_l) p_k p_l) exp(−i Σ_k p_k φ(h_k)). In a
+    representation. Then O_+ is a projection on H_phys. Relative to A at τ ≥ s*, and relative to B
 
-linear extension of the causal order of an admissible configuration, if l precedes k then O_l does
+    at τ′ ≥ s* − δ_−, it is the projection onto the corresponding coherent superposition of readings
 
-not meet the causal future of O_k, so Γ_lk = 0 and Γ_kl = E(h_k, h_l). Hence Σ_{k,l} Γ_kl p_k p_l =
+    of the other clock, and
 
-Σ_k Γ_kk p_k² + Σ_{k>l} E(h_k, h_l) p_k p_l, and the diagonal part of the phase in U cancels the
 
-pre-chirp. U applied to the pre-chirped pointers therefore gives the same joint state of the field
 
-and the pointers as V_n ⋯ V_1 applied to the unchirped ones, and the readings and conditional field
+        ⟨Ψ, O_+ Ψ⟩ = ½ (1 + Re⟨W_1 ψ, W_2 ψ⟩).
 
-states agree; Theorem 13.21 identifies the law of the sequential collapses as Q_ξ. For the non-
 
-admissible case, item C4(d) of Appendix C.1 gives an example. (e) By (a), the readings in S are
 
-functions of q_k and φ(h_k) for k ∈ S and of the p_l with Γ_kl ≠ 0 for some k ∈ S, that is, of
+    For an incoherent mixture of the two offsets the same probability is ½, and when W_1ψ = W_2ψ it
 
-pointers in S and in S⁻. In the product state, the joint law of these commuting operators is fixed
+    is 1. Its departure from ½ is half the real part of the overlap of the states produced by the
 
-by the data listed. A classical source f adds E_ret(h_k, f) to the k-th reading, as a pointer with a
+    two orders of the interactions.
 
-definite momentum would, and this vanishes unless the support of f meets the causal past of O_k.
 
-Reading other pointers measures operators that commute with the readings in S, and summing over
 
-their outcomes leaves the law of S unchanged. (f) By Lemma 13.30(b), almost surely S⁻ is finite for
+Proof. (a) The operator ∂_{t_A} + ∂_{t_B} differentiates along the lines of constant Δ, with s = t_A
 
-every finite set S of centres. Given the configuration, the law of the readings in S is the same for
+as parameter, so on each line the constraint reads i dΨ/ds = H_Δ(s)Ψ, whose solutions are
 
-every finite configuration containing S ∪ S⁻, by (e), because the further pointers have regions that
+U_Δ(s)χ(Δ). The offset commutes with P_A + P_B, since [P_A, T_A] = [P_B, T_B] = −i, and with every
 
-do not meet the causal past of the regions in S. For S ⊆ S′, S⁻ ⊆ S′⁻, so the marginal on S of the
+function of T_A and T_B. Relative to A, the conditional state is ψ_A(τ)(t_B) = U_{τ − t_B}(τ) χ(τ −
 
-law for S′ is the law for S. There are countably many centres, so the Kolmogorov extension theorem
+t_B). Its norm is ∫ ‖χ(Δ)‖² dΔ because each U_Δ(τ) is unitary, and every ψ is attained, with χ(Δ) =
 
-gives a unique law on the readings with these marginals. It depends measurably on the configuration,
+U_Δ(τ)^{−1} ψ(τ − Δ). The argument for B, with ψ_B(τ′)(t_A) = U_{t_A − τ′}(t_A) χ(t_A − τ′), is the
 
-because the characteristic functions of part (b) depend continuously on the centres in a quasi-free
+same. (b) This follows from the form of H_Δ, read along the lines t_A = τ (relative to A) or t_B =
 
-state. (g) By (a), the coupled evolution may be computed slab by slab along T, and within a slab the
+τ′ (relative to B). (c) For Δ ∈ I and s ≥ s*, no interaction is active, so U_Δ(s) = e^{−iH_S(s −
 
-source involves only the pointers whose regions meet that slab. Each pointer is read after its
+s*)} U_Δ(s*), and E_j commutes with the first factor. For τ ≥ s* this gives U_Δ(τ) O_j(Δ) = E_j
 
-coupling has ended, so by (a) the readings and conditional states are those of the complete
+U_Δ(τ), pointwise in t_B = τ − Δ, which is the first identity. For τ′ ≥ s* − δ_−, every point t_A =
 
-evolution. For finitely many centres, the field together with finitely many pointers has a density
+τ′ + Δ with Δ ∈ I satisfies t_A ≥ s*, and the same computation gives the second. The O_j are
 
-operator conditioned on the realized readings, and the next increment, namely evolution through the
+projections that commute because the E_j do, and they preserve H_phys^I because they act pointwise
 
-next slab, preparation of the pointers whose regions begin there, and reading of those whose regions
+in Δ. Probabilities agree because the reductions are unitary. (d) Each O_j acts pointwise in Δ, so
 
-end there, depends only on it. For the Poisson centres of Candidate extension 13.27, the centres
+‖Π_j O_j^{(α_j)} Ψ‖² = ∫ ‖Π_j O_j^{(α_j)}(Δ) χ(Δ)‖² dΔ. (e) The probability is ⟨χ, 𝒰*† F_+ 𝒰* χ⟩ =
 
-whose regions begin in a new slab are those with T(x) − τ in it, and they can be drawn from that
+‖F_+ 𝒰* χ‖², in which the evolution 𝒰* is applied once, to the initial data χ = f_+ ⊗ ψ. By
 
-region alone (Theorem 13.21(e)). On a spatially closed FLRW spacetime, the centres with T(x) − τ
+construction 𝒰*χ = (f(· − δ_1) W_1ψ + f(· − δ_2) W_2ψ)/√2, so F_+ 𝒰*χ = f_+ ⊗ (W_1ψ + W_2ψ)/2, whose
 
-below a given value lie in a set of finite four-volume, because the level sets are compact, so there
+squared norm is ½(1 + Re⟨W_1ψ, W_2ψ⟩). Since H_S = 0, U_Δ(s) = U_Δ(s*) for s ≥ s*, so at late
 
-are finitely many of them almost surely. □
+readings R_A(τ) and R_B(τ′) differ from 𝒰* only by relabelling the offset as a reading of the other
 
+clock, which gives the stated forms. For a mixture, each branch has overlap ½ with f_+. □
 
 
-Because the pointers have no Hamiltonian, their coupling densities at spacelike-separated points
 
-commute, as for the gapless detectors of §13.6, and part (e) holds without any rule for ordering
+Proposition 14.5 proves clock-neutral equivalence for a specified family of instruments, late-record
 
-overlapping couplings. Pointers with internal dynamics would require a separate analysis (compare de
+projective measurements built from commuting projections, together with the offset-coherent
 
-Ramón, Papageorgiou & Martín-Martínez 2021). In the numerical checks (Appendix C.1, item C4), the
+projection of part (e), in an ideal two-clock constrained model. It is the ideal-clock case of
 
-sums that give the phase of the time-ordered coupling agree exactly along two foliations of relative
+Conjecture 14.4 for this family only. It does not establish equivalence for arbitrary clock-neutral
 
-rapidity 0.6 and approach Γ as the grid is refined, with largest deviations 2.8 × 10⁻² and 9.0 ×
+instruments, for events that occur while interactions are active, or for an indefinitely extended
 
-10⁻³ at 32 and 64 nodes per axis. Explicit pointer computations reproduce the characteristic
+succession of physically generated records, and it is not a general solution of temporal-QRF
 
-function of part (b) to 7.3 × 10⁻¹⁴ and the unread channel of part (c) to 1.7 × 10⁻¹⁴. For a pair of
+compatibility. In the numerical check (Appendix C.2), a record written by an interaction keyed to A,
 
-regions in which one meets the causal future of the other but not conversely, the pointer law equals
+with the offset spread over [0.06, 1.64], has probability 0.139627690767 in the clock-neutral
 
-that of sequential collapse in causal order to 1.8 × 10⁻¹³. For the overlapping pair of item C3(e),
+description and in both reductions at late readings. Relative to A, the record probability is
 
-the pointer law differs from the law of collapses in centre-time order: the variances of the two
+exactly zero before A-time 0, the start of the interaction. Relative to B, it is already 0.021 at
 
-readings are larger by 0.0011 and 0.0537.
+B-time −1.0, because in part of the offset distribution the interaction has begun. For these
 
+instruments, the event, its probability, and its instrument are the same in both descriptions; only
 
+its temporal localization differs. With one interaction keyed to each clock and the offset in an
 
-Statistics and definite outcomes. Proposition 13.31 derives the statistics of the readings from
+equal superposition of two wave packets centred at −1.6 and +1.6, the record law is 0.706791827009
 
-local coupling densities. It does not derive that the readings have definite values. The coupled
+in all three descriptions. This equals the equal-weight mixture of the two definite-order values,
 
-evolution U is unitary and selects no outcome: it produces an entangled state of the field and the
+0.868488 and 0.545095.
 
-pointers in which every reading allowed by the Born-rule density is represented. A spontaneous-
 
-collapse reading of the construction therefore needs, in addition, a primitive single-outcome
 
-postulate for the pointers.
+Part (e) answers the question that part (d) leaves open: whether the superposition of orders has
 
+operational consequences. It does, for an observable that measures the clocks’ relative offset in a
 
+coherent basis. In the numerical check, this probability is 0.926776695297 in the clock-neutral
 
-    (R) Reading postulate. When the coupling of a pointer ends, a reading event occurs. Its value y
+description and in both reductions, equal to ½(1 + Re⟨W_1ψ, W_2ψ⟩), whereas an incoherent mixture of
 
-    has the Born-rule probability density of q_k in the present state of the field and the pointers,
+the two offsets gives exactly ½. The statistic depends jointly on both orders. It is reproduced
 
-    conditioned on the readings already made, and the event replaces that state by the normalized
+neither by one definite order common to both offsets, which would give 1, nor by an order correlated
 
-    conditional state, given y, of the field and the other pointers, together with the record y.
+classically with the offset, which would give ½. This is a calculation within the model, not a
 
+device-independent certification of indefinite causal order, which would require a causal witness in
 
+the sense of Araújo et al. (2015).
 
-The state after a reading can be stated exactly. Write the present state as a density operator ρ on
 
-L²(ℝ) ⊗ H_r = L²(ℝ, H_r), where L²(ℝ) carries the pointer being read in its position representation
 
-and H_r is the space of the field and the other present pointers. Then ρ = Σ_i w_i |Φ_i⟩⟨Φ_i| with
+For CTGP, parts (d) and (e) have a specific lesson. The order of unitary interactions keyed to
 
-weights w_i ≥ 0 summing to 1 and unit vectors Φ_i ∈ L²(ℝ, H_r), and for almost every y the operator
+different clocks can be indefinite, with operational consequences, as in the analyses of Castro-Ruiz
 
-ρ(y) = Σ_i w_i |Φ_i(y)⟩⟨Φ_i(y)| on H_r is positive and trace-class, with trace p(y), the Born-rule
+et al. (2020) and Baumann and Lock (2026). The realized events, the record outcomes and the outcome
 
-density of the reading, since Σ_i w_i ∫ ‖Φ_i(y)‖² dy = 1. For every such y with p(y) > 0, the post-
+of an offset-coherent measurement, nevertheless have clock-neutral identities, probabilities, and
 
-reading state is the normalized density operator ρ(y)/p(y) on H_r together with the record y. The
+instruments. CTGP’s definite-ordering commitment (C-e) concerns stages and the realized events
 
-pointer that has been read does not enter this state as a quantum system: it takes no further part
+located in them, not unitary couplings, so parts (d) and (e) do not conflict with it. What
 
-in the dynamics, and its idealized position eigenvector, which is not normalizable, is not needed.
+Proposition 14.5 does not supply is a generative order of the record events. Their instruments
 
-The present physical state after a reading is therefore well defined, as generability requires, for
+commute, so every order gives the same law, and designating one order as generative is interpretive
 
-every reading outside a set of probability zero.
+in the sense of §14.6. The proposition is also limited by its idealizations. Ideal clocks have
 
+Hamiltonians unbounded below, and for clocks with bounded Hamiltonians the reductions are no longer
 
+unitary (Höhn, Smith & Lock 2021). Events that occur while interactions are active, and
 
-Three achievements should be kept apart.
+interventions that do not single out one clock, are not covered.
 
 
 
-    (i) Deriving the Gaussian measurement statistics, the effective field instruments, and their
+14.6 The Possible Obstruction
 
-    causal properties from local coupling densities: established in the stated free-field model
 
-    (Proposition 13.31(a)–(e)).
 
+A fully relational quantum theory may treat all clock choices as physically equivalent and deny that
 
+any further, objective generative ordering exists. CTGP could then still be added as an ontological
 
-    (ii) Constructing a consistent probability law for the pointer records, including infinitely
+interpretation, but the added structure would have to be compatible with the theory’s constraints
 
-    many centres: established under the stated assumptions (Lemma 13.30, Proposition 13.31(f)), as a
+and gauge symmetries. Two cases must be distinguished. If the added ordering has no physical
 
-    law of records rather than a global present state; it does not establish infinite-volume
+effects, it is interpretive rather than a new physical variable. If it affects event probabilities,
 
-    generability.
+it is a physical hypothesis subject to empirical test. Section 13.10 meets the same alternative from
 
+the side of collapse dynamics: cosmological time could fix the local frame and the order of
 
+conflicting collapses covariantly, but only as a dynamical ordering (Remark 13.25).
 
-    (iii) Deriving objectively definite, spontaneous pointer outcomes without a further postulate:
 
-    not established. The local unitary coupling does not select a single outcome, and the
 
-    construction relies on postulate (R) instead.
+Recent work sharpens the problem. Baumann and Lock (2026) report that, of the ways of modeling
 
+interventions within relational dynamics, only one that builds the interventions into the constraint
 
+remains causally consistent across multiple clocks, that it requires some temporal delocalization,
 
-Postulate (R) is of the same kind as the event law of the finite model (Definition 4.1) and as the
+and that it naturally describes indefinite causal order. CTGP cannot simply stipulate that every
 
-collapse law of Candidate extension 13.27: in each, the occurrence of a definite event, with
+clock-relative temporal ordering is the same. It must identify which physical ordering is
 
-probabilities fixed by the law, is primitive. What the pointer variant changes is where the
+ontologically fundamental and prove that legitimate temporal descriptions can be related to it. If
 
-postulate acts. Candidate extension 13.27 postulates an instrument on the field; the pointer variant
+indefinite causal order turned out to be fundamental, rather than a feature of clock-relative
 
-postulates readings of pointers and derives the instrument on the field. It thus relocates the
+descriptions, CTGP’s primitive ordering would require generalization (C-e; CTGP – explained, §6.4).
 
-collapse postulate from the field to the pointers; it does not remove it. For CTGP the postulate has
 
-three consequences. First, a reading event is a Tier 1 event (Definition 5.1): its occurrence,
 
-labelled by y, is primitive, and the truth profile past-tenses it. The pointer takes no further part
+Three claims must be kept apart in assessing this possibility. (i) Every effective quantum operation
 
-in the dynamics and serves afterwards as the record of y, and the present physical state after the
+has a definite classical order. The quantum switch (Chiribella, D’Ariano, Perinotti & Valiron 2013)
 
-reading is the normalized conditional state of the field and the other pointers together with that
+is the standard example of a process for which this fails, and photonic quantum-switch experiments
 
-record. Second, causal inheritance (C-g) and physical instantiation (C-f) require the pointers to
+(Procopio et al. 2015) support processes whose effective operations cannot be represented as
 
-belong to the present physical state: during its coupling a pointer is part of that state, and the
+ordinary probabilistic mixtures of fixed orders within the relevant operational framework. (ii) The
 
-law of its reading depends only on that state, so the variant is generable for finite configurations
+finer-grained physical interactions have a definite causal order. A failure of (i) does not
 
-(Proposition 13.31(g)). Third, physical adequacy requires an account, not given here, of what the
+establish a failure of (ii): for realizations in a classical background spacetime, and under
 
-pointers are, why one exists at each Poisson centre without an experimenter, what prepares it in the
+specified assumptions about relativistic causality and the spacetime localization of systems,
 
-pre-chirped state, and what physical system carries its record. Without such an account, the pointer
+Vilasini and Renner (2024) show that such processes admit a fine-grained description with a definite
 
-variant is a measurement construction read as a spontaneous law, and it shifts the collapse problem
+acyclic causal order. This is not a general theorem that every quantum process has a definite
 
-from the field to the pointers rather than solving it.
+underlying causal order, and it does not address superpositions of spacetime geometry (§15.1).
+
+(iii) A single history of physical events is realized. Neither (i) nor (ii) supplies this; it
+
+requires single-outcome realism (C-d). In suitable models, Bohmian mechanics supplies definite
+
+trajectories and thereby one realized history; a GRW flash ontology supplies definite flashes, but
+
+those flashes need not identify which effective operation order was realized. These are
+
+illustrations, not established relativistic solutions. CTGP’s definite-ordering commitment (C-e)
+
+concerns stages and the realized events located in them, so operational causal nonseparability alone
+
+neither establishes nor refutes CTGP. The generalization contemplated above would be needed only if
+
+indefinite order proved fundamental, at the level of (ii) or of the generative ordering itself,
+
+rather than a feature of effective operations or clock-relative descriptions.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+15. Quantum Gravity
+
+----------------------------------------------------------------------------------------------------
+
+
+
+15.1 Fundamental Generative Order Versus Classical Cosmological Time
+
+
+
+In the classical regime, CTGP identifies the present with a level set of the cosmological time
+
+T_g(p) = sup { L_g(γ) : γ a past-directed causal curve from p }, subject to the regularity
+
+conditions of §13.1. A fundamental quantum theory of gravity may have no single classical metric. A
+
+state of the schematic form α|g_1⟩ + β|g_2⟩, with g_1 and g_2 inducing different cosmological-time
+
+functions, has no unique classical T. The program therefore distinguishes
+
+
+
+        fundamental generative order  ≠  classical cosmological-time function.
+
+
+
+The two must agree in the appropriate classical limit, but they need not coincide at the fundamental
+
+level. This develops the distinction between primitive generation and emergent geometry that CTGP
+
+already draws (CTGP – explained, §§10.3–10.4). It also raises a demanding question: what physical
+
+structure carries the objective generative ordering before classical spacetime exists? Naming a
+
+parameter does not answer it.
+
+
+
+15.2 Three Pathways
+
+

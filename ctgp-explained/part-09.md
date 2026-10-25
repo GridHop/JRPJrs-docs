@@ -1,6 +1,24 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 09 of 26 (1,582 words)
+Part 09 of 25 (1,796 words)
+
+presence of stages (§6.1), and the initial-value formulation supplies the lawful connection between
+
+successive stages. Neither supplies becoming itself, which is the posit that CTGP adds to both.
+
+
+
+[FIGURE: Figure 4]
+
+  Figure 4. Minkowski spacetime diagram with the light cone of an event p and simultaneity slices of
+
+  two inertial frames, illustrating the causal structure (I⁺, I⁻) underlying CTGP’s notion of
+
+  generation.
+
+
+
+----------------------------------------------------------------------------------------------------
 
 8. ADM Decomposition and Hypersurface Evolution
 
@@ -110,17 +128,19 @@ identically for the configuration λ = 0 adopted in §6.9.
 
 
 
-The variational grounding answers the question of why σ should obey any particular equation at all:
+The variational formulation shows how the norm condition enters a standard action principle: it is
 
-σ obeys ∇_μσ ∇^μσ = −f(σ) for the same reason that geodesics obey the geodesic equation — because it
+what stationarity with respect to the multiplier requires. It does not by itself explain why σ
 
-is what the variational principle demands. The formal statement is given in Proposition 17.7 (§17).
+should obey that condition; the reason is geometric, since cosmological time satisfies it (§6.3,
+
+Theorem 17.4). The formal statement is given in Proposition 17.7 (§17).
 
 
 
-The restriction of the integration domain to the generated manifold M(σ) is the central ontological
+The restriction of the integration domain to M(σ) is the formal expression of the framework’s
 
-commitment of the framework — not merely a heuristic convenience. In the standard block universe
+central ontological commitment — not merely a heuristic convenience. In the standard block universe
 
 interpretation, the action is implicitly integrated over the entire four-dimensional manifold,
 
@@ -132,23 +152,23 @@ definition of the theory at stage σ. The future is not simply unknown; it is no
 
 of the physical laws that generate the present. This transforms the interpretation from a passive
 
-description of a pre-existing structure to an active generation of new structure from existing
+description of a pre-existing structure to an active generation of new structure. The Euler–Lagrange
 
-structure. The Euler-Lagrange equations derived from this action are therefore not constraints on a
+equations derived from this action are therefore not constraints on a static block, but rules by
 
-static block, but rules for constructing the next increment of reality from the existing one. The
+which each successor state is generated from the present one. The domain of the action, M(σ), is the
 
-domain of the action is itself a growing entity, and the field equations are defined only over that
+formal representation of the history generated up to the present stage, and the field equations are
 
-domain. Because Euler–Lagrange equations are local, this restriction does not alter the field
+defined only over that domain. Because Euler–Lagrange equations are local, this restriction does not
 
-equations at any point of M(σ); the distinction it draws concerns the domain over which the laws are
+alter the field equations at any point of M(σ); the distinction it draws concerns the domain over
 
-defined, not their local form. A completed block would serve as the domain for an action defined
+which the laws are defined, not their local form. A completed block would serve as the domain for an
 
-over the whole of M; the CTGP action has no such domain. This distinction is formalized in Theorem
+action defined over the whole of M; the CTGP action has no such domain. This distinction is
 
-17.9 (§17).
+formalized in Theorem 17.9 (§17).
 
 
 
@@ -323,3 +343,41 @@ in a particular configuration — fixes a metric whose cosmological time is, on 
 rest frame.
 
 
+
+9.4 Cosmological Simultaneity and Relativistic Locality
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP distinguishes three senses of “present” that are often conflated in objections to the
+
+framework.
+
+
+
+    Local physical present: what an observer experiences at their worldline. This is the
+
+    phenomenological present, dependent on local physical processes and subject to the usual
+
+    relativistic effects of time dilation and gravitational redshift.
+
+
+
+    Cosmological present: the foliation naturally selected by the large-scale matter distribution of
+
+    the universe, approximated observationally by the CMB rest frame. This is a physically motivated
+
+    but not observer-dependent quantity: any observer can in principle determine the CMB frame and
+
+    locate themselves within it.
+
+
+
+    Ontological present: the boundary between the generated domain M(σ) and the ungenerated future.
+
+    This is the active edge at which new hypersurfaces are produced, parameterized by σ.
+
+
+
+CTGP’s present edge Σ_σ is identified with the cosmological present rather than with Newtonian

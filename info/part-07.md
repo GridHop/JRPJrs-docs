@@ -1,6 +1,46 @@
 # Info
 
-Part 07 of 24 (1,658 words)
+Part 07 of 23 (1,797 words)
+
+Organization is exactly what differentiates “mind” from “neural soup”.
+
+
+
+Criterion met.
+
+
+
+(5) Whole-level properties
+
+
+
+This is the key one.
+
+
+
+Conscious phenomena such as:
+
+
+
+unified experience intentional thought deliberation self-reference reportability are not properties
+
+of any single neuron, synapse, or isolated module.
+
+
+
+They appear only at the organized whole level.
+
+
+
+Whether one calls this “emergence” or “global integration” doesn’t matter—the criterion is satisfied
+
+either way.
+
+
+
+Criterion met.
+
+
 
 1. What kind of “system” this is (to avoid category mistakes)
 
@@ -635,5 +675,51 @@ No interface, no external effect. Full stop.
 
 
 That also quietly kills a lot of wishful metaphysics without being hostile about it.
+
+
+
+7) Physical anchoring keeps epistemic honesty intact
+
+
+
+The continuity-of-mind argument isn’t trying to disprove afterlife claims—it’s doing something more
+
+important:
+
+
+
+it refuses to promote them to “knowledge” without confirmation channels
+
+
+
+That’s epistemic hygiene.
+
+
+
+Belief? Fine.
+
+
+
+Hope? Human.
+
+
+
+Knowledge? Not without signals.
+
+
+
+Consistent with the framework’s own rules. That internal consistency matters.
+
+
+
+8) Hypotheses should not be worn like trophies
+
+
+
+This is a rare point people emotionally resist:
+
+
+
+hypotheses feel meaningful meaning ≠ confirmation
 
 

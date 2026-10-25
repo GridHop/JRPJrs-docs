@@ -1,295 +1,299 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 14 of 40 (1,650 words)
+Part 14 of 35 (1,800 words)
 
-13.2 Hypersurface Evolution and Its Limits
+each occurring with probability 1/2 in |0⟩. A unitary kick W(α f_j) acts in the same diagonal way:
 
+W(−α f_j) W(g) W(α f_j) = e^{i α E(f_j,g)} W(g).
 
 
-A natural starting point is the Tomonaga–Schwinger equation (Tomonaga 1946; Schwinger 1948),
 
+Theorem 13.9 (Gapless detector networks). In a gapless detector network on a free field, for any
 
+state of the field:
 
-        i ħ δΨ_Σ / δΣ(x) = H_int(x) Ψ_Σ,
 
 
+    (a) Realized-history consistency. The probability of every complete outcome history, and the
 
-which describes how a state changes under local deformations of a spacelike hypersurface. Its formal
+    corresponding conditional state, are the same for every foliation, that is, for every linear
 
-integrability condition is [H_int(x), H_int(y)] = 0 for spacelike-separated x and y. For interacting
+    extension of ≺.
 
-fields this expression requires a treatment of operator-valued distributions and their domains; it
 
-is not by itself an existence theorem. CTGP – explained proposes an open-system analogue, δρ_Σ /
 
-δΣ(x) = ℒ_x(ρ_Σ), with conditional integrability (Proposition 17.16) and a conditional continuum
+    (b) Operational no-signaling, including Sorkin configurations. Let X be a set of detectors, and
 
-limit (Theorem 17.17). These are valuable starting points, but they are ensemble-level results: they
+    let j ∉ X be a detector with E(f_j, f_x) = 0 for every x ∈ X; this holds in particular when no
 
-concern density operators. The next subsection shows why a single-outcome ontology needs more.
+    causal curve joins O_j to any O_x. Then the joint law of the outcomes of the detectors in X is
 
+    the same whether detector j is operated with any coupling λ_j, replaced by a kick W(α f_j), or
 
+    not operated at all, whatever other detectors are operated before, between, or after them.
 
-13.3 Ensemble Consistency Is Not Realized-History Consistency
 
 
+    (c) Explicit statistics. If detector B is preceded by detectors j_1, …, j_r whose outcomes are
 
-Proposition 13.2 (Equal ensembles, different histories). There exist two instrument sequences whose
+    not conditioned on, and the field is in a quasi-free state with vanishing one-point function,
 
-channels coincide at every stage, so that they assign the same density operator to every stage for
+    then
 
-every initial state, but whose realized-history measures differ.
 
 
+        P(B reads 1) = ½ − ½ exp(−2 λ_B² ω(φ(f_B)²))
 
-Proof. On a qubit, let the first instrument be either I_1 = { |0⟩⟨0|, |1⟩⟨1| } or I_2 = { 1/√2, Z/√2
+                         · Π_{k=1}^{r} cos(2 λ_B λ_{j_k} E(f_{j_k}, f_B)).
 
-}, where Z = |0⟩⟨0| − |1⟩⟨1|, and let the second be the measurement of X with outcomes ±, {|+⟩⟨+|,
 
-|−⟩⟨−|}. Both first instruments implement the complete dephasing channel ρ ↦ |0⟩⟨0|ρ|0⟩⟨0| +
 
-|1⟩⟨1|ρ|1⟩⟨1|, so the averaged states agree at every stage. For the initial state |+⟩, I_1 yields
+Proof. (a) If two regions are incomparable, no causal curve joins them, so E(f_i, f_j) = 0, the Weyl
 
-outcomes 0 and 1 with probability 1/2 each and leaves |0⟩ or |1⟩, after which the X outcome is
+operators W(s f_i) and W(t f_j) commute for all s and t, and so do all bounded functions of φ(f_i)
 
-uniformly random. I_2 yields its two outcomes with probability 1/2 each and leaves |+⟩ or |−⟩, after
+and φ(f_j). The Kraus operators of incomparable detectors therefore commute. Theorem 13.4 applies,
 
-which the X outcome is perfectly correlated with the first outcome. The joint laws of (first event,
+in the form for bounded Kraus operators noted in the proof of Proposition 13.7, in the GNS
 
-second event) are uniform in the first case and perfectly correlated in the second: the mutual
+representation of the state.
 
-information is 0 bits in one case and 1 bit in the other. □
 
 
+(b) Compute the joint law of X in the Heisenberg picture, along any foliation. Every detector
 
-Proposition 13.2 is an instance of the non-uniqueness of unravellings of a quantum channel (Wiseman
+outside X is marginalized, so it contributes its nonselective update N_k*. Every detector in X
 
-& Milburn 2010). Its consequence for CTGP is direct: a covariant or hypersurface-consistent master
+contributes a selective update K† (·) K with K = cos(λφ(f_x)) or i sin(λφ(f_x)); each of these maps
 
-equation does not by itself supply a covariant stochastic ontology. Two theories can agree on every
+a Weyl operator W(g) to a linear combination of Weyl operators W(g + c f_x) with real c. Starting
 
-density operator on every hypersurface and still disagree about the probabilities of the realized
+from the identity W(0), the operator under evaluation is therefore at every step a finite linear
 
-histories that, on CTGP, are what actually happened. Compatibility with a single-outcome ontology
+combination of Weyl operators W(g) with g in the real span V_X of { f_x : x ∈ X }. Each nonselective
 
-therefore needs a consistency theorem at the level of realized histories, not only at the level of
+update of a detector k ∉ X multiplies such a W(g) by cos(λ_k E(f_k, g)). For k = j, E(f_j, g) = 0
 
-states.
+for every g ∈ V_X by linearity, so the factor is 1, and the same holds for a kick. Detector j
 
+therefore drops out of the joint law of X.
 
 
-13.4 A Realized-History Consistency Theorem for Causally Local Instruments
 
+(c) Write sin²(λ_B φ(f_B)) = ½ − ¼ (W(2λ_B f_B) + W(−2λ_B f_B)). Each preceding detector,
 
+marginalized, multiplies W(±2λ_B f_B) by cos(2 λ_B λ_{j_k} E(f_{j_k}, f_B)), and ω(W(±2λ_B f_B)) =
 
-The following theorem is a finite-dimensional analogue of the required relativistic result. Events
+exp(−2 λ_B² ω(φ(f_B)²)). □
 
-occur at a finite set of slots, ordered by a partial order intended to represent causal precedence;
 
-a foliation is any way of advancing through the slots consistently with that order.
 
+Part (b) is the statement that matters for CTGP, and its scope should be stated exactly. It is
 
+state-independent; it holds for arbitrary smooth, compactly supported real smearings within finite,
 
-Definition 13.3 (Causally local event structure). A causally local event structure consists of a
+causally orderable networks, under the free-field and gapless-detector assumptions; and it holds in
 
-finite partially ordered set (E, ≺) of event slots, a finite-dimensional Hilbert space H with
+Sorkin’s configuration. There, Alice’s region A is causally separated from Bob’s region B, while an
 
-initial state Ψ_0, and for each slot x an instrument {K^x_a : a ∈ A_x} on H, such that for every
+intermediate region C overlaps the causal future of A and the causal past of B. A gapless detector
 
-pair of incomparable (spacelike) slots x and y, every K^x_a commutes with every K^y_b. A foliation
+at C cannot carry Alice’s choice to Bob, because its nonselective update multiplies each Weyl
 
-is a linear extension λ = (x_1, …, x_N) of ≺; its successive initial segments {x_1, …, x_j} are the
+operator by a number instead of spreading it. Part (c) makes this explicit: Bob’s statistics depend
 
-regions to the past of its successive hypersurfaces. For an outcome assignment α = (a_x)_{x∈E}, set
+on a preceding detector only through the factor cos(2 λ_B λ_j E(f_j, f_B)), which equals 1 for every
 
+detector causally separated from B. The essential property is that the nonselective update is
 
+diagonal on Weyl operators. It holds for gapless linear couplings with any such smearing. It can
 
-        v_λ(α) = K^{x_N}_{a_{x_N}} ⋯ K^{x_1}_{a_{x_1}} Ψ_0,     P_λ(α) = ‖v_λ(α)‖².
+fail for detectors with internal dynamics during the interaction, and de Ramón, Papageorgiou and
 
+Martín-Martínez (2021) find that spatially extended non-relativistic detector models can propagate a
 
+field’s initial conditions faster than light. The conclusion agrees with detector-based measurement
 
-Theorem 13.4 (Realized-history consistency). In a causally local event structure:
+theory, in which updates induced by local probe couplings avoid Sorkin-type signaling (Polo-Gómez,
 
+Garay & Martín-Martínez 2022; compare Fewster & Verch 2020).
 
 
-    (a) Foliation independence. v_λ(α) does not depend on the foliation λ. Hence the probability of
 
-    every complete event history, P(α) = P_λ(α), and the corresponding final state are foliation-
+Three things should be distinguished in interpreting the theorem: the spacetime support O_j of the
 
-    independent, and Σ_α P(α) = 1.
+detector–field interaction; the location and timing of the detector’s readout; and the effective
 
+instrument on the field obtained by conditioning on that readout. Theorem 13.9 concerns the third.
 
+It proves causal properties of the effective field instruments of the network, assuming that each
 
-    (b) Consistency on every hypersurface. For every order ideal I ⊆ E (the past of some
+detector is read out after its interaction and treating the detector as an idealized probe. When a
 
-    hypersurface) and every assignment α_I of outcomes to the slots in I, the probability of α_I and
+coupling region is extended, a fully spacetime-local implementation of the detector together with
 
-    the conditional state on the hypersurface bounding I are the same for every foliation of I, and
+its readout would require further modeling of the probe itself. This qualification concerns physical
 
-    they do not depend on the instruments at slots outside I.
+realization; it does not affect the algebraic proof.
 
 
 
-    (c) No dependence on instruments outside the designated predecessor set. For every set X ⊆ E,
+Theorem 13.9 is exact within its model, and the numerical checks below only illustrate it. Exactness
 
-    the marginal law of the outcomes in X depends only on the instruments in its predecessor set
+within a model is not physical completeness. The model assumes a fixed spacetime, a free field,
 
-    with respect to ≺, ↓X = { y : y ⪯ x for some x ∈ X }. Identifying ↓X with the operationally
+externally specified couplings, and detectors with no internal Hamiltonian during the interaction,
 
-    relevant relativistic causal past of X requires additional physical assumptions, discussed after
+and these assumptions are central to the proof. A nonzero energy gap makes the coupled detector
 
-    Corollary 13.5.
+observable time-dependent, and the nonselective update then generally ceases to be diagonal on Weyl
 
+operators. The theorem is therefore not a claim about arbitrary relativistic detector measurements,
 
+realistic detector hardware, or interacting fields.
 
-Proof. (a) Any two linear extensions of a finite partial order are connected by a sequence of
 
-adjacent transpositions of incomparable elements. To see this, let λ and λ′ first differ at position
 
-j, where λ′ has x′. In λ, x′ occurs later; every element between position j and x′ in λ precedes x′
+Example 13.10 (Localized Kraus operators are not enough). Replace the detector at C by the unsharp
 
-in λ, so it is not above x′, and follows x′ in λ′, so it is not below x′; hence it is incomparable
+Lüders instrument with Kraus operators √(g(φ(f_C))) and √(1 − g(φ(f_C))), where g(x) = (1 + tanh
 
-with x′. Moving x′ leftward in λ by adjacent transpositions with these elements yields a linear
+2x)/2. Its Kraus operators are bounded functions of the smeared field in C, so it satisfies (E2),
 
-extension that agrees with λ′ in one more position, and induction completes the argument. Each such
+and they commute with every operation localized in a region causally separated from C. But its
 
-transposition exchanges two commuting operators and leaves v_λ(α) unchanged. Normalization follows
+nonselective update is not diagonal on Weyl operators:
 
-from Σ_a (K^x_a)† K^x_a = 1 applied slot by slot. (b) Because I is a down-set, any foliation of I
 
-extends to a foliation of E that lists I first, and (a) applied to the sub-order I gives
 
-independence of the foliation of I. Summing ‖v‖² over the outcomes of the slots after I and using
+        Σ_s √(g_s(φ(f_C))) W(h) √(g_s(φ(f_C))) = W(h) Σ_s √(g_s(φ(f_C) + E(h, f_C))) √(g_s(φ(f_C))),
 
-completeness of their instruments gives ‖v_I(α_I)‖², which involves only instruments in I. (c) Apply
 
-(b) with I = ↓X, which is an order ideal containing X; the marginal on X is a marginal of the law of
 
-α_I. □
+with g_+ = g and g_− = 1 − g. The right-hand side is W(h) times a non-constant function of φ(f_C),
 
+which fails to commute with φ(f_A) when E(f_A, f_C) ≠ 0. An operation by Alice can therefore change
 
+Bob’s statistics through C even though A and B are causally separated. This is Sorkin’s problem. A
 
-Corollary 13.5 (Foliation-invisibility of the generative order in causally local finite models). In
+numerical realization reproduces the commutation pattern of Sorkin’s configuration (E(f_A, f_B) = 0,
 
-a causally local event structure, suppose CTGP’s generative order is one particular foliation λ*.
+E(f_A, f_C) = E(f_C, f_B) = 1) with two oscillator modes in the vacuum state, using λ_A = 0.9, λ_C =
 
-Then every event proposition about any order ideal has the same probability whether computed along
+0.8, λ_B = 0.7, and a kick with α = 1.5 (Appendix B, item 17). With a gapless detector at C, Bob’s
 
-λ* or along any other foliation. The realized assignment α is a single object, which different
+probability of reading 1 is 0.3665447170, equal to the formula of Theorem 13.9(c), and neither
 
-foliations merely order differently; once the truth profile indexes events by slot rather than by
+Alice’s detector nor her kick changes it by more than 10⁻¹⁵. With the unsharp Lüders instrument at
 
-stage number, the complete profile after the whole region has been generated is the same set of
+C, Bob’s probability is 0.275038, and Alice’s detector shifts it by −0.021492 and her kick by
 
-propositions whichever foliation is taken as generative.
+−0.046628. These values change by less than 10⁻⁷ when the Fock cutoff is raised from 40 to 50 quanta
 
+per mode. Because Theorem 13.9(b) is state-independent and uses only the commutation relations, the
 
+two-mode realization is an exact test of the algebraic mechanism, not a computation in a particular
 
-Proof. Theorem 13.4(a)–(b). □
+spacetime.
 
 
 
-Corollary 13.5 is established for finite event structures under the stated locality assumption, not
+Example 13.10 shows why (E2) and (E3) must be kept separate. Localizing the Kraus operators of each
 
-for arbitrary relativistic quantum dynamics. It is the realized-history counterpart of CTGP’s
+operation is not enough. Causal admissibility is a property of the actual instruments and of their
 
-observational equivalence (CTGP – explained, §12.1): within causally local finite models, under the
+composition, and it must be proved for the class of operations in use; Theorem 13.9 proves it for
 
-commutation assumption of Definition 13.3, the choice of generative foliation has no empirical
+gapless detector networks on a free field, and Theorem 13.13 for every network of Weyl-diagonal
 
-signature, and a single realized history can be represented on any family of hypersurfaces without
+instruments.
 
-multiplying the number of histories. If each K^x_a is invariant under a symmetry group in the sense
 
-of §3, Lemma 3.7 applies slot by slot, and Theorem 13.4 holds in every frame.
 
+Connection to CTGP. In a gapless detector network the realized detector outcomes are Tier 1 events,
 
+and the complete present state on an admissible hypersurface consists of the field state together
 
-Foliation-independent probabilities do not by themselves establish that any foliation is
+with the detectors’ records. For a specified network, the law of the next outcome depends only on
 
-ontologically privileged. What Corollary 13.5 shows is that privileging one foliation is empirically
+that present state, so the network is generable in the sense of Definition 12.1, (A2)–(A5). The
 
-invisible under the stated assumptions. That one foliation is in fact generative is CTGP’s
+truth profile records the realized outcomes and is dynamically idle. Because cosmological time is in
 
-interpretive thesis, supplied separately, in the same way that Thesis 5.10 supplies the ontological
+general only locally Lipschitz (§13.1), the construction is formulated for arbitrary admissible
 
-reading of description orbits.
+orderings. A generic globally hyperbolic spacetime also admits smooth Cauchy temporal functions
 
+(Bernal & Sánchez 2003, 2005). Whenever the coupling regions can be separated by level sets of the
 
+cosmological time T, ordering them by T is a linear extension of ≺, because T increases strictly
 
-The locality condition cannot be dropped. In the numerical check (Appendix B, item 14), a brickwork
+along future-directed causal curves. CTGP’s generative order is then one of the admissible
 
-arrangement of eight two-outcome instruments on six qubits has 136 foliations, and all of them
+foliations, and by Theorem 13.9(a) and Corollary 13.5 the history law is the same for it as for any
 
-assign identical probabilities to all 256 outcome histories, to within 7 × 10⁻¹⁸. Changing the
+other. Three steps must be kept apart here. First, the network’s history law is independent of the
 
-instruments outside the predecessor set of a slot changes that slot’s marginal by at most 8 × 10⁻¹⁶.
+admissible ordering of its regions; Theorem 13.9 establishes this. Second, the background spacetime
 
-But if two slots treated as spacelike act on overlapping qubits, so that their operators fail to
+admits a regular cosmological time whose level sets separate the regions; this is an assumption
 
-commute, the two orders assign history measures that differ by total-variation distance 0.165.
+about the geometry. Third, those level sets are the ontological presents; this is CTGP’s
 
+interpretation. Theorem 13.9 supports only the first step, which is what makes the other two
 
+consistent with it. Within this class, then, the measurement-model version of Target 13.6 holds for
 
-Theorem 13.4 must also be read with a caveat specific to quantum field theory. Part (c) is a
+finite networks: (i)–(v) are satisfied, with (iii) secured by part (b). What remains open is the
 
-statement about the abstract order ≺: it says that outcomes do not depend on instruments outside a
+spontaneous version, detectors with internal dynamics, interacting fields, and infinitely many or
 
-designated predecessor set, not that relativistic operational no-signaling holds for arbitrary
+continuously distributed events, that is, (E4) and (E6).
 
-spacetime regions or measurement procedures. The two coincide only if ≺ is the operationally
 
-relevant causal order. For idealized point-like slots it is. For extended regions, however, the
 
-transitive closure of “overlaps the causal future of” can relate two regions that are in fact
+13.7 Toward Spontaneous Events: Weyl-Diagonal Collapse
 
-spacelike-separated, and naive local measurement rules then permit superluminal signaling (Sorkin
 
-1993). A relativistic version of the theorem therefore needs a measurement framework in which
 
-operations localized in regions respect relativistic causality; frameworks of this kind exist in
+The proof of Theorem 13.9(b) uses one property of the gapless detector: its nonselective update
 
-algebraic quantum field theory (Fewster & Verch 2020; Bostelmann, Fewster & Ruep 2021). The finite
+multiplies every Weyl operator by a number. Inserting arbitrary stochastic collapses into the model
 
-theorem is an analogue of the relativistic result, not that result itself.
+would risk reintroducing the signaling of Example 13.10. The natural route toward spontaneous events
 
+is therefore to keep that property and ask which event-generating instruments have it.
 
 
-The relativistic target can now be stated precisely.
 
+Definition 13.11 (Weyl-diagonal instrument). Let O be a bounded spacetime region and H_O a finite-
 
+dimensional space of real test functions supported in O. An instrument with finitely or continuously
 
-Target result 13.6 (Relativistic realized-history consistency). For a regulated relativistic single-
+many outcomes is a Weyl-diagonal instrument localized in O if (i) its Kraus operators belong to the
 
-outcome model on a fixed globally hyperbolic background, given by a hypersurface-dependent family of
+von Neumann algebra generated by the Weyl operators W(h), h ∈ H_O, and (ii) its nonselective update
 
-completely positive maps ℰ_{Σ_1→Σ_2} together with instruments assigning probabilities to realized
+satisfies N*(W(g)) = c(g) W(g) for every test function g, for some function c.
 
-events between hypersurfaces, establish: (i) existence and normalization of the event-history
 
-measure; (ii) composition consistency for nested regions; (iii) compatibility of operations in
 
-spacelike-separated regions, in a framework free of Sorkin-type signaling; (iv) consistent
+Examples are the gapless detector of Definition 13.8, with c(g) = cos(λ E(f, g)), and the unitary
 
-restriction of event histories to overlapping regions; and (v) a well-defined single-outcome
+kick, with c(g) = e^{iαE(f,g)}. The random-displacement channel ρ ↦ ∫ W(h) ρ W(h)* dμ(h), with μ a
 
-realization. Then prove that the probability of every common event-history proposition is
+probability measure on H_O, is also Weyl-diagonal, with c(g) = ∫ e^{iE(h,g)} dμ(h). The nonselective
 
-independent of the admissible intermediate hypersurface decomposition, and that the CTGP truth
+gapless detector is exactly the random displacement by +λf or −λf, each with probability 1/2.
 
-profile updates consistently from the realized history.
 
 
+Proposition 13.12 (Gaussian collapse of a smeared field). Let h be a real test function supported in
 
-Theorem 13.4 proves this for finitely many slots and finite-dimensional operators, Proposition 13.7
+O and σ > 0. The instrument with outcome y ∈ ℝ and Kraus operators
 
-(§13.5) extends it to countably many slots with finite pasts, and Theorem 13.9 (§13.6) establishes
 
-its measurement-model version for finite networks of gapless detectors on a free relativistic field.
 
-The assumptions of the relativistic version must be made precise enough not to assume the
-
-conclusion.
+        K_y = (2πσ²)^{−1/4} exp(−(φ(h) − y)² / (4σ²))
 
 

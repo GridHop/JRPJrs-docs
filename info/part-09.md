@@ -1,30 +1,6 @@
 # Info
 
-Part 09 of 24 (1,606 words)
-
-Conclusion: “teaching” is literally: *making someone else’s loop cheaper to run*.
-
-
-
-Civilizations don’t scale on facts; they scale on portable loop-packages (math, protocols,
-
-contracts, measurement standards, reproducible methods). When those degrade, you don’t merely lose
-
-knowledge—you lose *coordination bandwidth* and *safety margins*.
-
-
-
-—
-
-
-
-----------------------------------------------------------------------------------------------------
-
-D) Intention/meaning inference is “reverse engineering,” so it has predictable failure modes
-
-----------------------------------------------------------------------------------------------------
-
-
+Part 09 of 23 (1,792 words)
 
 If meaning is inferred from use and intention is inferred from behavior/cues/logs, then
 
@@ -717,3 +693,85 @@ So: consciousness is what you get when distinguishable processes are tightly cou
 updating control-and-modeling loop.
 
 
+
+2) “Anchoring”: consciousness stays with the physical process that’s currently doing the thinking
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+My main claim/hypothesis (pulled straight from the documents’ core idea and then stated cleanly) is:
+
+
+
+Consciousness is anchored to a form exactly as long as the relevant physical process that
+
+constitutes its thinking remains functional in that form.
+
+
+
+When that physical process stops being functional *for that form*, the consciousness is no longer
+
+anchored to a form “any time soon.”
+
+
+
+This isn’t trying to “prove” souls don’t exist or anything metaphysical like that—it’s just a
+
+constraint: *whatever consciousness is, in practice it tracks the functioning of the thinking-
+
+process, not the container’s label.*
+
+
+
+3) Independence and “being a system” are compatible
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The documents also tackle a common confusion: “If you’re a system, are you not an independent
+
+existence?”
+
+
+
+You can be both, if “independent” means *functionally autonomous under shared constraints*. Like
+
+multiple computers on the same network: each is a self-contained system, not a subroutine of
+
+another, even though they share environment and laws.
+
+
+
+So a conscious person can be:
+
+
+
+• a system (organized interacting multiplicity with whole-level properties), and
+
+• an independent existence (not functionally subordinate to another person’s mind).
+
+
+
+----------------------------------------------------------------------------------------------------
+
+My “consciousness hypothesis” (if I must state one)
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Here’s my own hypothesis in a tight form, consistent with the documents:
+
+
+
+The Anchored, Integrated Control Hypothesis
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+1. Consciousness is a whole-system property of an organized set of interacting subsystems
+
+   (perception, memory, regulation, symbolic modeling, etc.).

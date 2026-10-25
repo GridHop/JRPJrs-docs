@@ -1,128 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 03 of 11 (1,694 words)
-
-1.  A system or event produces or alters a signal
-
-
-
-2.  A detector (biological or technological) receives that signal
-
-
-
-3.  The signal is processed into usable information
-
-
-
-4.  An interpretation is formed
-
-
-
-This applies universally:
-
-
-
-• Vision → detection of reflected light
-
-
-
-• Hearing → detection of pressure waves
-
-
-
-• Smell → detection of chemical particles
-
-
-
-• Scientific instruments → detection of specialized physical signals
-
-
-
-Even highly abstract measurements—such as those in particle physics—ultimately rely on detecting
-
-secondary effects (e.g., particle tracks, energy deposits) rather than the entities themselves.
-
-
-
-3.3 Environmental Imprints and Residual Traces
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Not all signals are produced in real time. Many are residual traces—signals that persist after the
-
-originating event has occurred.
-
-
-
-These include:
-
-
-
-• Footprints, wear patterns, and physical deformations
-
-
-
-• Thermal residues (e.g., heat left on a surface)
-
-
-
-• Chemical traces (e.g., scent trails, molecular residue)
-
-
-
-• Radiation relics (e.g., cosmic background radiation)
-
-
-
-• Recorded data (e.g., images, logs, measurements)
-
-
-
-Such traces function as environmental imprints—present-day structures that encode information
-
-about past events.
-
-
-
-This leads to an important principle:
-
-
-
-> Access to the past is mediated through present signals.
-
-
-
-We do not observe past events directly; we observe the current state of systems that carry
-
-information about those events. The past persists only insofar as it has left detectable traces in
-
-the present.
-
-
-
-3.4 Limits of Detection
-
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The ability to detect signals is not unlimited. It is constrained by:
-
-
-
-• Biological limitations (e.g., human sensory ranges)
-
-
-
-• Technological limitations (e.g., resolution, sensitivity, noise)
-
-
-
-• Physical constraints (e.g., signal attenuation, quantum limits)
-
-
+Part 03 of 10 (1,798 words)
 
 • Information loss (e.g., entropy, degradation of traces)
 
@@ -721,5 +599,155 @@ From this analysis, several implications follow:
    they are not merely inferred in the same way as external states --- they are co-constructed
 
    within the process of awareness.
+
+
+
+2.  All agents share the same epistemic tools
+
+
+
+> There is no privileged method for detecting intention versus desire versus emotion.
+
+
+
+3.  Interpretation is unavoidable
+
+
+
+> Even with advanced measurement, internal states must be inferred from patterns.
+
+
+
+4.  Uncertainty is intrinsic
+
+
+
+> Complete certainty about internal states—especially those of others—is unattainable.
+
+
+
+5.  Mental transparency is limited
+
+
+
+> Neither self-knowledge nor knowledge of others is absolute.
+
+
+
+4.6 Summary
+
+~~~~~~~~~~~
+
+
+
+The signal-based framework extends naturally from external observation to internal cognition:
+
+
+
+• Just as external reality is accessed through signals,
+
+
+
+• internal mental states are accessed through processes that involve both active generation and
+
+  interpretation of internal and external signals.
+
+
+
+There is no direct window into intention, desire, or emotion—as with external reality, knowledge
+
+of these arises from signal-mediated generation and interpretation rather than unmediated access.
+
+
+
+This reinforces the broader thesis of the paper:
+
+
+
+> All knowledge, whether of the external world or internal experience, is mediated through signals
+
+and constructed through processes of generation, detection, and interpretation.
+
+
+
+The next section builds on this foundation by examining memory, where the distinction between past
+
+reality and present reconstruction becomes especially significant.
+
+
+
+—----------------------------------------------------------------------------------------------—
+
+5. Memory: Reconstruction, Not Recording
+
+—----------------------------------------------------------------------------------------------—
+
+
+
+5.1 Biological Storage Mechanisms
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Human memory is often intuitively treated as a form of recording—a stored replay of past events.
+
+However, neuroscientific evidence indicates that memory operates through a fundamentally different
+
+mechanism: distributed physical changes within neural networks.
+
+
+
+At the biological level, memories are encoded through processes collectively referred to as synaptic
+
+plasticity, including:
+
+
+
+• Long-Term Potentiation (LTP): strengthening of synaptic connections through repeated activation
+
+
+
+• Long-Term Depression (LTD): weakening of synaptic connections through reduced activation
+
+
+
+• Structural changes such as dendritic spine remodeling
+
+
+
+• Gene expression and protein-level modifications affecting neural responsiveness
+
+
+
+These changes do not store complete, self-contained representations of events. Instead, they encode
+
+patterns of relationships across vast networks of neurons.
+
+
+
+This leads to a crucial clarification:
+
+
+
+> Memory is not stored as a discrete "file," but as a distributed configuration of physical and
+
+electrochemical states.
+
+
+
+5.2 Reconstruction and Reconsolidation
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Because memory is stored as distributed patterns rather than complete recordings, recall is not
+
+playback—it is reconstruction.
+
+
+
+When a memory is retrieved:
 
 

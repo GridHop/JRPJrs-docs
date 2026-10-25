@@ -1,214 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 26 (1,505 words)
+Part 15 of 25 (1,793 words)
 
-11.5 No Intrinsic Cosmological Axis
+formalism, not a second ontological ingredient. What generability excludes is dependence on an
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+independently existing future, not indeterminacy. The reading carries a commitment: laws must be
 
+grounded in the present rather than supervening on the whole spacetime mosaic, as Humean accounts of
 
-
-Three directions on the sky must be distinguished. The kinematic dipole n̂_{kin}, near Galactic (l,
-
-b) ≈ (264°, 48°), records the motion of the Solar System relative to the CMB rest frame at about 370
-
-km s⁻¹. The axis n̂_{mod} of the observed large-angle hemispherical power modulation, with amplitude
-
-A ≈ 0.07, lies near (l, b) ≈ (220°, −20°) (Hoftuft et al. 2009; Planck Collaboration 2020), roughly
-
-70–80° from n̂_{kin}. A third direction, n̂_σ, would be the spatial projection of ∇_μσ on the
-
-present hypersurface, if such a projection existed.
-
-
-
-On a homogeneous background it does not: ∇_μσ̄ = (σ̄̇, 0, 0, 0), so the spatial projection vanishes
-
-and n̂_σ is undefined. An intrinsic axis would require a long-wavelength gradient mode of σ, which
-
-by Proposition 11.2 is a tilt of the generation foliation relative to matter. For admissible
-
-generation laws such a tilt decays as 1/a, leaving no intrinsic axis at late times; for density-
-
-weighted laws it grows by a factor of order 10²⁶ and is either fine-tuned or runaway. Superhorizon
-
-modes invoked to generate hemispherical asymmetry are further constrained by the low multipoles they
-
-induce through the Grishchuk–Zel’dovich effect (Erickcek, Carroll, and Kamionkowski 2008).
-
-
-
-CTGP therefore predicts no intrinsic cosmological axis and offers no explanation of the observed
-
-large-angle anomalies, which remain questions for standard cosmology. This is a consequence of the
-
-framework rather than an omission: the generative present is a geometric structure, and geometry
-
-alone does not single out a spatial direction in a homogeneous, isotropic universe.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-12. Empirical Standing of the Ontology
-
-----------------------------------------------------------------------------------------------------
-
-
-
-This section states precisely what observation can and cannot establish about CTGP’s ontology. The
-
-results are general: they apply to any presentist reading of physics, not only to CTGP.
-
-
-
-12.1 Observational Equivalence
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Proposition 12.1 (Observational equivalence of presentist and eternalist readings). Let P
-
-(presentist) and E (eternalist) be two ontological readings of the same physical content 𝒦 = (M,
-
-g_{μν}, matter fields, dynamical laws, probability measure μ over admissible histories). Call a
-
-quantity *observable* if it is a function of the physical records present to an observer at the
-
-stage where the observation occurs — for the presentist, the records on the present surface Σ_σ.
-
-Then every observable has the same probability distribution under P and under E, and no experiment
-
-can discriminate between them.
-
-
-
-Proof. An observation is a physical process, and its outcome is a function of the records present at
-
-the stage where it occurs. Both readings assign the same admissible histories and the same measure
-
-μ, and hence the same distribution of present records at every stage, so each observable has the
-
-same distribution — the pushforward of μ — under both. □
-
-
-
-Remark (what is observed). Every observation available to an observer is an observation of present
-
-records. A fossil, a memory, a photograph, a detector event, or a photon arriving from SN1987A
-
-carries information about an earlier state, but information about another time is not the existence
-
-of that time: under CTGP the earlier state has ceased to exist, and a present observer cannot
-
-observe it as a presently existing state — not as a limitation of instruments but because, under
-
-CTGP, a presently existing past state is not there to be observed; the notion of observing one is
-
-incoherent within the ontology. The same holds for the future, which a present observer can predict
-
-or represent but cannot observe, because it has not been generated. This does not break the
-
-equivalence; it is the reason the equivalence holds. Eternalism does not permit observation of
-
-another time either: its earlier events exist, but not at the observer’s location, and an observer
-
-interacts only with the records present there. Neither ontology allows an observer to observe
-
-another time as present. They differ only over whether the unobserved earlier events exist, and
-
-present records — the same under both — cannot decide that. A theory that did allow observation of
-
-another time as present would be different physics, with different records, and would fall under
-
-§§12.2–12.3 rather than under this proposition.
-
-
-
-Remark (indeterminism). The result does not depend on determinism. For stochastic laws, E represents
-
-the realized history as one member of the ensemble, weighted by μ; P represents it as generated
-
-stage by stage with the same transition probabilities. The observable statistics coincide.
-
-
-
-Remark (scope). The proposition assumes that every observation, including an observer’s reports
-
-about experience, is a physical record. First-person temporal phenomenology is not observable in
-
-this sense; it enters CTGP as an explanatory datum through the Phenomenological Completeness
-
-Principle (§4.5), not as experimental evidence.
-
-
-
-Corollary. With the physics held fixed, the ontology cannot be verified by measurement. Empirical
-
-bearing on it must come either from constraints the ontology places on which physics is possible
-
-(§12.2) or from physical content added to 𝒦, which bears directly on that content and only
-
-indirectly on the ontology.
-
-
-
-12.2 The Generability Constraint
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Observational equivalence holds for fixed physical content. The two ontologies do not, however, make
-
-the same demands on what that content can be. If only the present exists, each new state must be
-
-producible from the current one alone: the fundamental dynamics must admit a generative initial-
-
-value formulation relative to the existing present, with no dependence on future boundary data and
-
-no global consistency conditions that require the whole history at once. Eternalism carries no such
-
-requirement. A block universe can contain initial-value laws, but it can equally contain laws with
-
-future boundary conditions, final-state constraints, or self-consistency conditions on closed causal
-
-loops.
-
-
-
-Let G denote the proposition that the fundamental laws are generable in this sense. Because
-
-generability is part of what CTGP means by presentism, a confirmed failure of G would directly
-
-contradict the ontology, whereas eternalism merely permits generable laws. Finding that our best
-
-theories admit generative initial-value formulations is therefore evidence the ontology could have
-
-failed and did not.
-
-
-
-The criterion stated precisely. Generability requires a state S_σ on each level set and a law fixing
-
-the transition probabilities P(S_{σ′} | S_σ) for σ′ > σ — a point mass in the deterministic case —
-
-without reference to data on later level sets. Future dependence counts against generability only if
-
-no empirically equivalent formulation of this kind exists. Enlarging the state space is legitimate
-
-only if the added variables are physically instantiated on Σ_σ and have dynamics of their own, not
-
-if they are defined by reference to later data; without that restriction, any history could be made
-
-generable by encoding its future in the present state. Global formulations do not count against
-
-generability when they are equivalent to a well-posed initial-value problem: general relativity can
-
-be derived from an action over spacetime, but its classical content is captured by the Cauchy
-
-problem of §7.
+laws hold. A presentist must therefore take laws to govern rather than merely summarize.
 
 
 
@@ -260,22 +60,294 @@ does not establish generability.
 
 
 
-Future tests. The constraint is exposed to physics still to come. A fundamental final-state
+Future tests. The constraint is exposed to physics still to come. It would fail with the
 
-condition in quantum gravity, such as the black-hole final-state proposal (Horowitz and Maldacena
+establishment of fundamental dynamics whose physical evolution cannot be specified by an adequate
 
-2004; for its difficulties, see Gottesman and Preskill 2004), would be incompatible with CTGP’s
+forward-generative law on the cosmological-time slices, because an independently imposed future
 
-generability requirement and would therefore provide strong evidence against its presentist
+boundary condition or a global consistency requirement is indispensable to determining the realized
 
-ontology; resolution of black-hole evaporation through ordinary initial-value dynamics would be a
+history. Here an adequate forward-generative account is one that satisfies the generability
 
-further survived risk. A unique final state that simply results from deterministic evolution does
+criterion stated above while reproducing the relevant empirical predictions of the theory, including
 
-not count; only a final condition that must be imposed as an independent input to fix earlier
+those concerning admissible interventions. Failure of a well-posed initial-value formulation would
 
-evolution would. A requirement that quantum gravity involve indefinite causal order at the level of
+provide one possible indication of an obstruction, but mathematical ill-posedness alone would not
 
-spacetime itself would similarly bear on CTGP’s definite primitive ordering (§6.4).
+establish future dependence. Conversely, the existence of a forward representation of selected
+
+trajectory probabilities would not automatically establish physical generability. A fundamental
+
+final-state proposal, such as the black-hole final state of Horowitz and Maldacena (2004; for its
+
+difficulties, see Gottesman and Preskill 2004), would therefore count against CTGP only if its
+
+indispensable physical requirements could not be accommodated by an adequate forward-generative
+
+account.
 
 
+
+In classical stochastic models, conditioning on a later event of nonzero probability can yield a
+
+forward law for a specified experimental arrangement. However, reproducing the predictions for each
+
+fixed arrangement does not necessarily establish a single forward-generative account valid across
+
+freely chosen later interventions. The relevant empirical question is whether the statistics of
+
+earlier outcomes in unselected experiments depend on those later interventions, after accounting for
+
+common causes and ordinary post-selection. Such dependence, if established as a genuine physical
+
+effect rather than a selection artifact, would be the interventionist retrocausal dependence of
+
+§12.3. Whether particular quantum final-state proposals admit an adequate forward-generative account
+
+across admissible interventions requires separate analysis.
+
+
+
+A requirement that quantum gravity involve indefinite causal order at the level of spacetime itself
+
+would similarly bear on CTGP’s definite primitive ordering (§6.4). By contrast, resolution of black-
+
+hole evaporation through ordinary initial-value dynamics would count as a survived risk.
+
+
+
+12.3 Refuting Observations and Preferred-Frame Tests
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Two kinds of observation would count directly against the ontology: a confirmed physically realized
+
+closed timelike curve, and a retrocausal dependence in the interventionist sense, P(O_t |
+
+do(F_{t+Δ})) ≠ P(O_t) that cannot be reduced to correlations from common causes or to post-selection
+
+in the analysis of data, and cannot be eliminated by an empirically equivalent formulation without
+
+retrocausation. Time-symmetric descriptions and correlations with later variables do not meet this
+
+standard. Either would contradict the requirement that each present be generated from its past alone
+
+(§9.4.2; §13). No maintained physical connection between the present and a past or future moment has
+
+ever been observed; phenomena that suggest one — entanglement between photons that never coexisted,
+
+delayed-choice erasure, violations of temporal Leggett–Garg inequalities — establish correlations
+
+among present records, not persisting links across time.
+
+
+
+Other observations would change the cost of holding the ontology without deciding it. A physically
+
+preferred global foliation, whether detected as preferred-frame effects or required by an
+
+empirically successful theory of quantum gravity, would remove the principal relativistic objection
+
+to presentism, though an eternalist may accept such a foliation too. Conversely, Lorentz invariance
+
+confirmed to ever deeper levels raises the cost without refuting the view.
+
+
+
+CTGP inherits the local phenomenology of general relativity: the cosmological frame has no effect on
+
+local physics. Because the generative present is defined by cosmological time and introduces no new
+
+field, the preferred-frame parameters that would couple local physics to the CMB rest frame vanish.
+
+For an observer moving through that frame at v/c ≈ 1.2 × 10⁻³, such couplings of strength α would
+
+produce sidereal and annual modulations of clock rates and propagation of order α(v/c)². Pulsar
+
+timing bounds the relevant post-Newtonian preferred-frame parameters at about 4 × 10⁻⁵ and 2 × 10⁻⁹,
+
+and lunar laser ranging gives weaker independent bounds (Will 2014), and atomic-clock and
+
+spectroscopic comparisons bound preferred-frame effects on matter far more tightly (Kostelecký and
+
+Russell 2011). All such results are null, as CTGP requires. They are consistent with CTGP but do not
+
+discriminate it from eternalism, which makes the same prediction. Preferred-frame theories with a
+
+dynamical timelike vector, such as Einstein–æther and khronometric gravity (Jacobson and Mattingly
+
+2001; Hořava 2009), are the natural comparison class, and their bounds apply to any Layer 3
+
+extension of CTGP that would give the generation flow independent dynamics. The two halves of this
+
+claim should be stated together. CTGP introduces no local Lorentz violation and no new local field;
+
+it does commit to a globally distinguished foliation wherever cosmological time is regular. The null
+
+results above bear on the first half, not the second, and no measurement of local physics could bear
+
+on the second.
+
+
+
+12.4 Operational Locatability of the Present
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The generative present is not a posit beyond the reach of measurement. The universe contains nearly
+
+universal reference structures through which it becomes measurable: the CMB, the most comprehensive
+
+cosmological rest-frame reference, and the 21 cm hyperfine line, a spectroscopic reference for
+
+redshift and motion across cosmological distances (since reionization carried mainly by neutral
+
+hydrogen in and around galaxies). Neither generates time; both make its large-scale ordering
+
+observable. Any observer can determine the cosmic time of their own stage from the local CMB
+
+temperature, which falls in inverse proportion to the scale factor, and their motion relative to the
+
+cosmological frame from the CMB dipole, about 370 km s⁻¹ for the Solar System. The question “which
+
+stage of the cosmic present am I in” therefore has an operational answer, and the correction it
+
+requires can be computed in practice: for SN1987A the difference between the cosmological-time
+
+placement and the naive light-travel-time subtraction is at most about 200 years out of 168,000
+
+(Appendix E). This establishes that CTGP’s present is physically well defined. It does not
+
+discriminate CTGP from eternalism, which can use the same cosmic clock. That observers always find
+
+their own present real is guaranteed under both readings, since every observation occurs at the
+
+observer’s stage; it therefore confirms physical instantiation without bearing on ontological
+
+exclusivity.
+
+
+
+12.5 Summary of Empirical Standing
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Level           | Claim                                        | Empirical status
+
+----------------+----------------------------------------------+-----------------------------------
+
+Ontology        | Only the present exists                      | Not observable (Proposition 12.1)
+
+Structural      | Fundamental laws are generable from the      | Empirically exposed; refutable;
+
+constraint      | present (entailed by CTGP, merely permitted  | consistent with current physics
+
+                | by eternalism)                               | (§12.2)
+
+Physical        | Generation law, couplings, and signatures of | Ordinary empirical hypotheses;
+
+realization     | σ                                            | density-weighted forms excluded
+
+                |                                              | (§11)
+
+
+
+Three outcomes are possible for any physical realization of CTGP. If the added physics fails, as
+
+density-weighted generation does, that refutes the realization, not the ontology. If the added
+
+physics succeeds but is observationally equivalent to its rivals, CTGP is a physically coherent
+
+formulation of presentism without experimental discrimination. If it succeeds and yields
+
+observations its rivals do not naturally reproduce, the support runs along a chain: the observation
+
+supports a physical theory, the theory supports objective becoming, and becoming lends indirect
+
+support to presentism. At no step does an observation verify the ontology directly. CTGP does not
+
+seek an experiment that detects the nonexistence of the past; it seeks a coherent realization of
+
+objective becoming whose empirical consequences, if any, are carried by explicitly stated physics.
+
+
+
+====================================================================================================
+
+PART IV. Evaluation
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+13. Objections and Replies
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Objection O1 (Relativity of simultaneity): Presentism requires a global present, but SR denies
+
+absolute simultaneity.
+
+
+
+Reply: CTGP does not require an operationally absolute simultaneity relation between arbitrary
+
+spacelike-separated events. It requires a foliation adequate for cosmology and compatible with GR's
+
+initial-value structure. Cosmological time provides a physically grounded, non-absolute global
+
+'now', which on large scales is the rest frame of the CMB — not a kinematic absolute but a physical
+
+fact about our universe. The metaphysical claim concerns the ontological structure of M(σ), defined
+
+by cosmological time, not the conventions individual observers use to label events as simultaneous
+
+(§9.4).
+
+
+
+Objection O2 (Lorentz invariance): Any preferred foliation violates Lorentz invariance.
+
+
+
+Reply: A global foliation can be physically emergent while local laws remain Lorentz-invariant
+
+(§9.3.1). Preferred frames in cosmology are properties of solutions, not new physics, and CTGP
+
+predicts no preferred-frame effects on local physics, consistent with existing null results (§12.3).
+
+
+
+Objection O3 (Diffeomorphism invariance): 'Growth' is a gauge artifact.
+
+
+
+Reply: Growth is not a gauge artifact. The temporal ordering CTGP relies on begins from the causal
+
+structure of spacetime itself: by the Hawking–King–McCarthy and Malament theorems, the causal
+
+ordering relation already determines the conformal structure of the spacetime metric. Geroch and
+
+Bernal–Sánchez then show that this causal ordering can be represented by smooth temporal functions
+
+whose level sets are spacelike Cauchy hypersurfaces. CTGP does not introduce temporal ordering; it
+
+selects a physically preferred representative of a class of orderings already latent in globally
+
+hyperbolic GR. The representative is cosmological time, defined from the causal and metric structure
+
+alone, which in cosmology coincides with the matter rest frame. The ontology is not a coordinate
+
+artifact but a claim about causal structure. Equivalence classes under diffeomorphisms are

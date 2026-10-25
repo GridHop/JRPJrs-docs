@@ -1,236 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 26 (1,676 words)
-
-The significance of this proposition is methodological as much as technical. Any framework that
-
-introduces a new field equation faces the challenge of justifying why that equation holds. Lagrange
-
-multiplier actions are a well-established method for implementing constraints without the
-
-constraints being arbitrary: the multiplier enforces the condition exactly, and the condition itself
-
-becomes a consequence of the variational principle. CTGP’s adoption of this structure places the σ
-
-kinematic equation on the same foundational footing as every other equation of motion in fundamental
-
-physics — it holds because the action is stationary, not because it is assumed. This structure
-
-answers the objection that σ’s equation of motion is ad hoc. □
-
-
-
-Proposition 17.8 (Geometric invariance of the generative present). Let Φ : (M, g) → (M′, g′) be an
-
-isometry between spacetimes with regular cosmological time. Then τ′ ∘ Φ = τ. Consequently, the
-
-generative present is fixed by the geometry and is not a gauge choice: diffeomorphisms that preserve
-
-the metric map its stages to stages, and no relabeling of coordinates can alter which events are co-
-
-present. The only freedom is the labeling σ = F(τ), which leaves the stages unchanged.
-
-
-
-Proof. Isometries map causal curves to causal curves and preserve Lorentzian length, so the supremum
-
-defining τ′(Φ(p)) ranges over the images of exactly the curves defining τ(p). □
-
-
-
-Theorem 17.9 (Stage-Relative Representation). Let M(σ) = ⋃_{σ′ < σ} Σ_{σ′} be the domain of the CTGP
-
-action S(σ) (§9.1). If (1) σ is monotonic, (2) Σ_σ obeys hyperbolic evolution, and (3) future
-
-hypersurfaces are excluded from the domain, then the family {M(σ)} is nested, M(σ′) ⊂ M(σ) for σ′ <
-
-σ, and each M(σ) is determined by data on Σ_σ and its causal past alone. The formalism therefore
-
-represents reality stage-relatively, without modifying the field equations. This representation is
-
-not by itself inequivalent to a completed manifold: a block theorist may read each M(σ) as a region
-
-of a pre-existing spacetime. Whether the nested family is a growing whole or a sequence of regions
-
-of a fixed whole is settled by an ontological assumption about the existence of future stages, not
-
-by the mathematics. CTGP adopts the first reading; the theorem shows that its formalism expresses
-
-that reading consistently, not that the field equations or observations favor it (§12.1).
-
-
-
-Proposition 17.10 (Domain Restriction and Local Dynamics). Let S_{block} = ∫_M √(−g) L_{GR} d⁴x and
-
-S_{CTGP}(σ₀) = ∫_{M(σ₀)} √(−g) [L_{GR} + λ(∇_μσ ∇^μσ + f(σ))] d⁴x. (i) At every point of M(σ₀), the
-
-Euler–Lagrange equations of S_{CTGP} with λ = 0 coincide with those of S_{block} together with the
-
-norm condition. (ii) M(σ₀) has a future boundary Σ_{σ₀} and M does not, so the two domains are not
-
-diffeomorphic as manifolds with boundary. The domain restriction is therefore not a difference in
-
-local dynamics or in any observable (Proposition 12.1). It is the formal expression of the stage-
-
-relative ontology, and whether the future boundary marks the edge of reality or only the edge of a
-
-description is an interpretive question.
-
-
-
-Proof. Part (i) holds because Euler–Lagrange equations are local and the constraint sector
-
-contributes nothing when λ = 0. Part (ii) holds because diffeomorphisms map boundary points to
-
-boundary points. □
-
-
-
-Corollary 17.11 (A Formal, Not Empirical, Distinction). The CTGP and block-universe variational
-
-principles differ in domain but not in local field equations or observable consequences. The
-
-distinction they encode is ontological: whether the domain of the laws is a growing entity or a
-
-fixed manifold. Empirical bearing on that distinction comes only through the generability constraint
-
-(§12.2).
-
-
-
-Definition 17.12 (Geometric Growth Measure). Let u^μ be the timelike congruence aligned with the
-
-cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. CTGP identifies θ as the
-
-physically meaningful local measure of geometric growth: it equals d(ln √h)/dτ and thus measures the
-
-fractional rate of change of local hypersurface volume along the matter congruence. Rather than
-
-defining ontological growth as dM/dσ — which treats the generated domain as if it were a scalar
-
-quantity — CTGP uses the foliation expansion to characterize growth. The evolution of θ is governed
-
-by Proposition 17.6; it is constrained directly by matter content through the Einstein equations.
-
-Cosmologically, this yields a physically meaningful picture: in the early dense universe, θ is large
-
-(rapid geometric expansion); in the matter-dominated and late universe, the Raychaudhuri equation
-
-predicts the observed deceleration and re-acceleration through the curvature and energy-condition
-
-terms, without requiring the parameter dM/dσ to be interpreted as a rate of literal spacetime
-
-production.
-
-
-
-Proposition 17.13 (Compatibility with Causal-Set Quantum Gravity). Let a discrete causal set (C, ≺)
-
-be generated via sequential growth dynamics in the sense of Rideout and Sorkin (2000). Assume the
-
-continuum limit of (C, ≺) yields a globally hyperbolic spacetime (M, g) with a smooth temporal
-
-function σ whose level sets are spacelike Cauchy hypersurfaces (Bernal–Sánchez). Then: (1) the
-
-directional causal structure — past ⊂ M(σ), future ∉ M(σ) — is preserved in the continuum limit; (2)
-
-every element in the causal set has a finite causal past at any finite stage of growth, and no
-
-future elements are present at that stage; (3) the element-by-element addition of causal elements in
-
-sequential growth dynamics represents one possible discrete realization of CTGP’s fundamentally
-
-continuous generative flow, whose large-N limit may correspond to the continuum σ (§6.2). The
-
-direction of compatibility runs from CTGP’s continuous generative-flow ontology to causal-set models
-
-as discrete instantiations, not the reverse. Therefore, CTGP’s commitment to causality and the
-
-ontologically open future is compatible with at least one well-defined approach to quantum gravity.
-
-The claim that quantum gravity necessarily violates causality is accordingly a contingent
-
-interpretive claim, not a result established by any current quantum-gravity framework with empirical
-
-support. Remark: This result is stated as a compatibility proposition rather than a theorem because
-
-it depends on the unestablished identification of causal set theory as the correct theory of quantum
-
-gravity. Its purpose is to demonstrate that CTGP’s causal commitments are not undermined by quantum-
-
-gravity considerations in at least one well-developed approach.
-
-
-
-Because sequential growth dynamics is label-invariant, the birth order of elements is not itself
-
-physical; the compatibility asserted here concerns the directional causal structure of (1) and (2),
-
-not the identification of a global present, which CTGP supplies separately through cosmological time
-
-(§15.2).
-
-
-
-Theorem 17.14 (Constraint Stability under CTGP Perturbations). Let U = (h_{ij}, K_{ij}, matter)
-
-denote ADM variables evolving under ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
-
-evolution and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
-
-(ℋ, ℋ_i). Then the constraint propagation system satisfies ∂_t C = A^i(U)∂_i C + B(U)C + ε S(U). For
-
-Sobolev index s > 5/2 and vanishing initial constraints C(0) = 0, ‖C(t)‖_{Hs-1} ≤ ε e^{Kt} ∫_0^t
-
-‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite evolution
-
-intervals. If the source term S(U) lies within the standard gauge sector, the violation is
-
-absorbable by lapse and shift adjustment. The appropriate statement is a Sobolev-norm control bound
-
-rather than a fixed numerical tolerance: CTGP-compatible perturbations preserve constraint structure
-
-to leading order. □
-
-
-
-Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} be solutions of the
-
-Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
-
-V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity
-
-subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
-
-projection onto the constraint manifold via the conformal method, provided the constraint mismatch
-
-on the overlap is sufficiently small in H^{s-1}, there exists T > 0 and a unique local solution U ∈
-
-C([0,T], H^s) ∩ C^1([0,T], H^{s-1}) with stability bound ‖U − U^{(a)}‖_{Hs-1(V′a)} ≤ C_T ‖overlap
-
-mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim is thereby a standard PDE
-
-construction: local CTGP foliations may be patched only through overlap data first reconciled at the
-
-level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
-
-corrected blended data. □
-
-
-
-Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be a family of smooth
-
-spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
-
-ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
-
-Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
-
-(2) Energy-boundedness — each smeared generator ℒ(f) = ∫_Σ f(x) ℒ_x dΣ is closable on D and
-
-satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
-
-on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
+Part 20 of 25 (1,798 words)
 
 swept out, not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-
 
@@ -263,5 +33,409 @@ theorem gives the finite-mode-to-continuum passage the form of a trace-norm conv
 supplying the reference Hamiltonian, common domain, UV tail parameter, and finite-time control that
 
 make the claim a genuine mathematical program. □
+
+
+
+Proposition 17.18 (Emergent Status of σ Near Planck Scale). For curvature invariants satisfying
+
+|R_{μνρσ}| ≪ M_{Pl}^2, σ exists as a time function whose level sets are Cauchy surfaces, given by
+
+cosmological time as in §§6.1–6.3, and it is a smooth temporal scalar field wherever the maximizing
+
+congruence is single-valued. Near Planck curvature, the smooth representation may break down; CTGP
+
+then treats σ as the continuum image of an underlying growth ordering variable, with causal-set
+
+counting as the preferred candidate discrete realization. CTGP is therefore fundamental at the
+
+ordering level, not necessarily at the smooth-manifold level: the smooth σ-field is emergent in the
+
+classical regime, and singular classical regions mark breakdown of the continuum representation
+
+rather than breakdown of temporal ordering itself. This avoids a false dichotomy between “σ is
+
+fundamental as a smooth field everywhere” and “CTGP fails wherever classical GR fails.” □
+
+
+
+Proposition 17.19 (Bridge-Model Identifiability Conditions). Let q = Θ F(X) represent a candidate
+
+mapping from physiological state vector X to phenomenological proxy q. The mapping is empirically
+
+meaningful for CTGP’s psychophysical research program only if: (1) it generalizes to held-out
+
+subjects not used in fitting; (2) it remains predictive after nuisance regression controlling for
+
+arousal, task difficulty, medication status, and global signal; (3) it retains predictive power
+
+under causal perturbation (TMS, anesthesia, sleep-stage shifts, focal lesions); (4) nested model
+
+comparison suggests CTGP-style substrate-sensitive models outperform purely functional baselines;
+
+(5) a primary endpoint is pre-registered. These criteria convert the mapping problem from an
+
+unfalsifiable metaphysical claim into a testable research program. Note that identifiability in this
+
+strong sense is required for the psychophysical extension of Appendix D but is not a prerequisite
+
+for the core spacetime ontology of the main text, which stands on its own physics and philosophy-of-
+
+physics merits. □
+
+
+
+Definition 17.20 (Tense Semantics). Let W_σ denote the present world at stage σ, and for σ′ < σ let
+
+Had(σ′, φ) denote the primitive property *having been, at stage σ′, such that φ* (§5.2.1), where φ
+
+ranges over non-tensed propositions.
+
+
+
+    (a) *Truth condition.* “At σ′ it was the case that φ” is true at σ iff W_σ instantiates Had(σ′,
+
+    φ).
+
+
+
+    (b) *Accuracy condition.* For every σ′ < σ, W_σ instantiates Had(σ′, φ) iff W_σ′ ⊨ φ.
+
+
+
+    (c) *Representation.* M(σ) = ⋃_{σ′<σ} Σ_{σ′} is the formal representation of the history carried
+
+    by the present world’s past-tensed profile. For each σ′ < σ, the represented stage Σ_{σ′}
+
+    satisfies φ in M(σ) exactly when W_σ instantiates Had(σ′, φ).
+
+
+
+    (d) *Asymmetry.* W_σ instantiates no property grounded in a future stage, since no stage Σ_{σ″}
+
+    with σ″ > σ exists.
+
+
+
+Corollary 17.21 (Nesting). For σ < σ″, M(σ) ⊂ M(σ″).
+
+
+
+Proof. Every stage in ⋃_{σ′<σ} Σ_{σ′} also lies in ⋃_{σ′<σ″} Σ_{σ′}. Nesting is a property of the
+
+formal representation; it does not imply that earlier stages continue to exist. □
+
+
+
+Proposition 17.22 (No Revision of the Past). For σ < σ″ and every σ′ < σ, Σ_{σ′} satisfies φ in M(σ)
+
+iff Σ_{σ′} satisfies φ in M(σ″).
+
+
+
+Proof. By (c) and (b), Σ_{σ′} satisfies φ in M(σ) iff W_σ instantiates Had(σ′, φ) iff W_σ′ ⊨ φ. The
+
+same chain holds with σ″ in place of σ. □
+
+
+
+Proposition 17.22 is the formal counterpart of the claim in §5.2.1 that losing a record does not
+
+change what happened. Records can degrade between σ and σ″; the represented history of every earlier
+
+stage cannot.
+
+
+
+Proposition 17.23 (Surface-Relative Cosmological Time). Let (M, g) be globally hyperbolic and S a
+
+spacelike Cauchy surface, and let τ_S be the signed Lorentzian distance from S (§6.10.1). Then on
+
+each side of S, τ_S is the cosmological time of that region with S as its past (respectively future)
+
+boundary; it is finite, tends to zero on approach to S, and its level sets are Cauchy surfaces.
+
+Consequently σ = F(τ_S), with F strictly increasing, is an admissible generation parameter through
+
+S. In an exact FLRW universe with a single bounce, taking S to be the surface of zero mean curvature
+
+at the bounce makes τ_S cosmic time measured from the bounce.
+
+
+
+Proof sketch. Restrict to the open region I⁺(S), itself globally hyperbolic. Every past-inextendible
+
+causal curve in it approaches S, and J⁻(p) ∩ J⁺(S) is compact for each p, so the supremum defining
+
+τ_S(p) is finite and τ_S → 0 along curves approaching S: the cosmological time of I⁺(S) is regular.
+
+Theorem 17.4 then applies to that region, and the same argument with time reversed applies to I⁻(S).
+
+□
+
+
+
+----------------------------------------------------------------------------------------------------
+
+References
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
+
+    Quantum Gravity, 15, 309–322.
+
+
+
+Arkani-Hamed, N., Cheng, H.-C., Luty, M. A., & Mukohyama, S. (2004). Ghost condensation and a
+
+    consistent infrared modification of gravity. Journal of High Energy Physics, 2004(05), 074.
+
+
+
+Arnowitt, R., Deser, S., & Misner, C. W. (1962). The dynamics of general relativity. In L. Witten
+
+    (Ed.), Gravitation: An Introduction to Current Research (pp. 227–265). Wiley. (arXiv:gr-
+
+    qc/0405109)
+
+
+
+Babichev, E., & Ramazanov, S. (2017). Caustic free completion of pressureless perfect fluid and
+
+    k-essence. Journal of High Energy Physics, 2017(08), 040.
+
+
+
+Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
+
+    collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
+
+
+
+Bell, J. S. (1987). Speakable and Unspeakable in Quantum Mechanics. Cambridge University Press.
+
+
+
+Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
+
+    Communications in Mathematical Physics, 243(3), 461–470.
+
+
+
+Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
+
+    globally hyperbolic spacetimes. Communications in Mathematical Physics, 257(1), 43–50.
+
+
+
+Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
+
+
+
+Bohm, D. (1952). A suggested interpretation of the quantum theory in terms of 'hidden' variables.
+
+    Physical Review, 85, 166–179; 180–193.
+
+
+
+Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
+
+    Review Letters, 59(5), 521–524.
+
+
+
+Broad, C. D. (1923). Scientific Thought. Routledge.
+
+
+
+Brown, H. R. (2005). Physical Relativity: Space-Time Structure from a Dynamical Perspective. Oxford
+
+    University Press.
+
+
+
+Callender, C. (2017). What Makes Time Special? Oxford University Press.
+
+
+
+Carroll, S. M. (2004). Spacetime and Geometry: An Introduction to General Relativity. Addison-
+
+    Wesley.
+
+
+
+Carroll, S. M. (2010). From Eternity to Here: The Quest for the Ultimate Theory of Time. Dutton.
+
+
+
+Chalmers, D. J. (1996). The Conscious Mind. Oxford University Press.
+
+
+
+Chamseddine, A. H., & Mukhanov, V. (2013). Mimetic dark matter. Journal of High Energy Physics,
+
+    2013(11), 135.
+
+
+
+Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum computations without
+
+    definite causal structure. Physical Review A, 88, 022318.
+
+
+
+Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
+
+    Physical Review D, 58, 116002.
+
+
+
+Craig, W. L. (2001). Time and the Metaphysics of Relativity. Kluwer Academic Publishers.
+
+
+
+Dehaene, S. (2014). Consciousness and the Brain. Viking.
+
+
+
+Deng, N. (2013). The block universe: A metaphysical analysis. In R. Ciuni et al. (Eds.), New Papers
+
+    on the Present. Philosophia Verlag.
+
+
+
+Dieks, D. (Ed.). (2006). The Ontology of Spacetime. Elsevier.
+
+
+
+Doob, J. L. (1957). Conditional Brownian motion and the boundary limits of harmonic functions.
+
+    Bulletin de la Société Mathématique de France, 85, 431–458.
+
+
+
+Dowker, F. (2005). Causal sets and the deep structure of spacetime. In 100 Years of Relativity.
+
+    World Scientific.
+
+
+
+Earman, J. (2006). Two challenges to the requirement of substantive general covariance. Synthese,
+
+    148, 443–468.
+
+
+
+Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Preussischen Akademie
+
+    der Wissenschaften.
+
+
+
+Ellis, G. F. R. (2014). The evolving block universe and the meshing together of times. Annals of the
+
+    New York Academy of Sciences, 1326, 26–41.
+
+
+
+Ellis, G. F. R., & Rothman, T. (2010). Time and spacetime: The crystallizing block universe.
+
+    International Journal of Theoretical Physics, 49, 988–1003.
+
+
+
+Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
+
+    University Press.
+
+
+
+Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
+
+    cosmic microwave background. Physical Review D, 78, 083012.
+
+
+
+Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
+
+    29, 454–462.
+
+
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
+
+    11, 127–138.
+
+
+
+Garriga, J., & Mukhanov, V. F. (1999). Perturbations in k-inflation. Physics Letters B, 458,
+
+    219–225.
+
+
+
+Geroch, R. (1970). Domain of dependence. Journal of Mathematical Physics, 11(2), 437–449.
+
+
+
+Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+
+    systems. Physical Review D, 34(2), 470–491.
+
+
+
+Gödel, K. (1949). An example of a new type of cosmological solutions of Einstein’s field equations.
+
+    Reviews of Modern Physics, 21, 447–450.
+
+
+
+Gottesman, D., & Preskill, J. (2004). Comment on “The black hole final state.” Journal of High
+
+    Energy Physics, 2004(03), 026.
+
+
+
+Hartle, J. B., & Hawking, S. W. (1983). Wave function of the universe. Physical Review D, 28(12),
+
+    2960–2975.
+
+
+
+Hawking, S. W., & Ellis, G. F. R. (1973). The Large Scale Structure of Space-Time. Cambridge
+
+    University Press.
+
+
+
+Hawking, S. W., King, A. R., & McCarthy, P. J. (1976). A new topology for curved space-time which
+
+    incorporates the causal, differential, and conformal structures. Journal of Mathematical
+
+    Physics, 17(2), 174–181.
+
+
+
+Hoftuft, J., Eriksen, H. K., Banday, A. J., Górski, K. M., Hansen, F. K., & Lilje, P. B. (2009).
+
+    Increasing evidence for hemispherical power asymmetry in the five-year WMAP data. The
+
+    Astrophysical Journal, 699, 985–989.
+
+
+
+Hořava, P. (2009). Quantum gravity at a Lifshitz point. Physical Review D, 79, 084008.
+
+
+
+Horowitz, G. T., & Maldacena, J. (2004). The black hole final state. Journal of High Energy Physics,
+
+    2004(02), 008.
+
+
+
+Ismael, J. (2016). How Physics Makes Us Free. Oxford University Press.
 
 

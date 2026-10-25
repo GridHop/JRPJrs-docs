@@ -1,211 +1,271 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 19 of 40 (1,299 words)
+Part 19 of 35 (1,794 words)
 
+    (ii) Smearing law. Each smearing h_x is built from T and g alone and is supported in the slab |T
 
+    − T(x)| ≤ τ: h_x(p) = c χ((T(p) − T(x))/τ) ψ₀(d_x(p)²/ℓ²), where d_x(p) is the proper distance,
 
-The dimension matters for the last statement of (c). In 1 + 1 dimensions the same formula holds with
+    within the level set of p, from the comoving worldline through x, χ and ψ₀ are fixed smooth
 
-d³k/(2π)³ replaced by dk/(2π), and ΔP(h) is timelike if m > 0. For m = 0, however, the light cone
+    functions with ψ₀ supported in [0, 1), and c is a constant. The radius ℓ and the earliest time
 
-consists of two null rays, ĥ can vanish on one of them, and ΔP(h) is then null.
+    t_0 of item (i) are chosen so that, for every centre with T(x) > t_0, the slab stays away from
 
+    the big bang and the support lies within a normal neighbourhood of the worldline in every level
 
+    set it meets, that is, inside the injectivity radius of those level sets, which is infinite for
 
-Three consequences follow. First, the exact cost agrees with the standard collapse-model result.
+    flat and open FLRW slices and equals π times the curvature radius for closed ones. There d_x² is
 
-With σ² = r_C²/2, K_y is the GRW localization operator of width r_C, and part (a) gives 3ħ²/(4m
+    smooth, so h_x is a smooth test function of compact support; the distance itself can fail to be
 
-r_C²) per hit, hence 3λħ²/(4m r_C²) per unit time at hit rate λ (compare Bassi et al. 2013). Second,
+    smooth at cut points, which this choice excludes.
 
-part (b) is the exact case of the weak-collapse expansion N* = exp(−ad_A²/(8σ²)), with ad_A(B) = [A,
 
-B], which gives N*(H) − H = −(1/(8σ²)) [A, [A, H]] + O(σ^{−4}) whenever the series makes sense. The
 
-expansion terminates when [A, [A, H]] is a multiple of the identity. Third, the field cost grows as
+    (iii) Ordering rule. Collapses are applied in order of increasing T(x); ties have probability
 
-the collapse region shrinks. For a massless field and h_ℓ(x) = ℓ^{−4} χ(x/ℓ), substituting k → k/ℓ
+    zero.
 
-gives ΔP(h_ℓ) = ℓ^{−3} ΔP(χ) at fixed σ, while the vacuum variance of φ(h_ℓ) scales as ℓ^{−2}. At a
 
-fixed ratio ε of σ to the vacuum spread of φ(h_ℓ), the energy injected per collapse is therefore
 
-proportional to ħc/(ε² ℓ). Part (d) gives the corresponding local statement on a curved background.
+    (iv) Update. Each collapse is the Gaussian collapse of φ(h_x) with width σ (Proposition 13.12).
 
 
 
-In the numerical checks (Appendix C.1, items C1 and C2), the Kraus integral and the Gaussian mixture
+The parameters are λ, τ, ℓ, σ, c, and t_0.
 
-of kicks both reproduce the multiplier exp(−(a − a′)²/(8σ²)), to 2.4 × 10⁻¹⁴ and 7.8 × 10⁻¹⁶. For a
 
-particle with an anharmonic potential, the energy increment is ħ²/(8mσ²) to twelve digits, in the
 
-ground state and in a random state alike. On a lattice field, the double-commutator and Fourier
+Proposition 13.28 (Properties of the candidate extension).
 
-expressions agree to 5 × 10⁻¹⁶. For a massive field in 1 + 1 dimensions, under a boost of rapidity
 
-0.5, ΔP transforms as a four-vector to 1.3 × 10⁻¹⁶.
 
+    (a) Completeness. Every finite configuration of centres, admissible or not, receives a
 
+    normalized joint law of outcomes. The candidate therefore defines an unconditional collapse
 
-13.9 Algebra Preservation: A Sufficient Condition for No-Signaling
+    dynamics on the full Poisson configuration space of any domain of finite four-volume.
 
 
 
-The proofs of Theorems 13.9(b) and 13.13(b) use the free field only to show that a certain algebra
+    (b) Agreement with the causal-order dynamics. The ordering rule agrees with causal precedence
 
-of observables is carried into itself by the operations between the one being tested and the
+    for every pair of collapses whose centres differ in cosmological time by more than 2τ. In the
 
-targets. That structure can be isolated, and it does not depend on central commutators.
+    flat local model of Lemma 13.26(b), the law coincides with that of Theorem 13.21 on every
 
+    admissible configuration, and the candidate extends it to the remaining configurations.
 
 
-Theorem 13.17 (No-signaling by algebra preservation). Let ω be a normal state on B(H), and let o_1,
 
-…, o_n be operations performed in this order, each a normal instrument I_m with a standard Borel
+    (c) No signaling for the covered operations. In any finite configuration, let Y be a set of
 
-outcome space (Ω_m, 𝔉_m). Write I_m*(Δ) for the Heisenberg dual of I_m(Δ) and N_m* = I_m*(Ω_m) for
+    collapses, and let j be an operation, inserted at any position in the sequence, whose Kraus
 
-the dual of its unread channel. For a set X of target operations and Borel sets Δ_x, x ∈ X, the
+    operators commute with every W(g), g in the span of the h_y with y ∈ Y, the other operations
 
-unconditioned joint probability of the target outcomes is
+    being the law’s collapses or Weyl-diagonal operations. Then the unconditioned joint law of the
 
+    outcomes in Y does not depend on whether j is performed. This holds in particular when j is
 
+    localized in a region causally separated from every O_y.
 
-        P(Δ_x : x ∈ X) = ω(T_1*(T_2*(⋯ T_n*(1) ⋯))),
 
 
+    (d) Forward generation in the free-field representation. The collapse at x is a function of
 
-where T_m* = I_m*(Δ_m) if m ∈ X and T_m* = N_m* otherwise, so that the outcomes of all non-target
+    φ(h_x), which equals the symplectic product of Eh_x with the Cauchy data of the field on the
 
-operations are summed over rather than conditioned on. Fix a non-target operation j, and suppose
+    level set T = T(x). It can therefore be applied when the generative present reaches T(x), and
 
-there is a linear subspace 𝔐 ⊆ B(H) containing 1 such that:
+    the centres in each successive slab of cosmological time are drawn from that slab alone. The
 
+    process is generated forward along cosmological time from the present field state and the
 
+    realized events, with no future input. This is forward generation of the mathematical
 
-    (i) I_x*(Δ)(𝔐) ⊆ 𝔐 for every target operation x performed after j and every Δ;
+    description; it is not a fully local dynamical implementation, because the support of h_x
 
+    extends to T(x) + τ.
 
 
-    (ii) N_k*(𝔐) ⊆ 𝔐 for every non-target operation k ≠ j performed after j;
 
+    (e) Preferred-frame structure. Each collapse changes the expected renormalized stress–energy
 
+    tensor by T^cl[Eh_x]/(4σ²) (Proposition 13.16(d)), which is invariant under the rotations about
 
-    (iii) N_j*(B) = B for every B ∈ 𝔐.
+    the comoving worldline through x. In the flat local model with rotation-invariant smearings, the
 
+    mean four-momentum injected per unit four-volume is λ ΔP(h), a fixed timelike vector at rest in
 
+    the cosmic frame. This is a property of field expectation values and a theoretical prediction of
 
-Then the joint law of the target outcomes is the same whether j is performed, omitted, or replaced
+    the free-field model, not by itself a measurable signature (see the discussion of measurable
 
-by any other operation satisfying (iii). Condition (iii) holds in particular whenever j has Kraus
+    signatures below). The order that the rule assigns to law collapses among themselves, by
 
-operators in the commutant 𝔐′, and operations performed before j are unrestricted.
+    contrast, affects only the joint law of their outcomes: their unread channels commute, so
 
+    reordering law collapses among themselves, without changing their positions relative to other
 
+    operations, leaves every unconditioned statistic of those other operations unchanged. For two
 
-Proof. Let j be the m-th operation and set B = T_{m+1}*(⋯ T_n*(1) ⋯). Starting from 1 ∈ 𝔐 and
+    collapses with E(h_i, h_j) ≠ 0 whose centres differ in cosmological time by at most 2τ, the
 
-applying the maps T_n*, …, T_{m+1}* in turn, conditions (i) and (ii) keep every intermediate
+    joint law of the outcomes depends on which centre is earlier in cosmological time (Proposition
 
-operator in 𝔐, so B ∈ 𝔐. By (iii), T_j*(B) = N_j*(B) = B, which is the value obtained when j is
+    13.23). When such centres are spacelike-separated, different inertial frames would order them
 
-omitted, and the same holds for any replacement satisfying (iii). The remaining maps T_{m−1}*, …,
+    differently, so the ordering rule produces cosmic-frame-dependent correlations among collapse
 
-T_1* and the state ω are unchanged. If K_y ∈ 𝔐′ for almost every outcome y of j, then N_j*(B) = ∫
+    outcomes.
 
-K_y† B K_y dν(y) = B ∫ K_y† K_y dν(y) = B. □
 
 
+    (f) Infinite histories when past regions are finite. Suppose that every past region D_t = { p :
 
-Corollary 13.18 (Random local automorphisms). Suppose that every unread non-target operation k
+    t_0 < T(p) ≤ t } has finite four-volume, as in spatially closed FLRW spacetimes; every level set
 
-performed after j is an average of automorphisms, N_k*(B) = ∫ U_k(t)* B U_k(t) dμ_k(t) with
+    of T has four-volume zero. Then almost surely only finitely many centres lie in each D_t and no
 
-unitaries U_k(t) and a probability measure μ_k, and that 𝔐 is σ-weakly closed and mapped into itself
+    two share a value of T, so the centres form a sequence x_1, x_2, … ordered by T, which is finite
 
-by B ↦ U_k(t)* B U_k(t) for μ_k-almost every t. Then (ii) holds. For a free field, Gaussian
+    if the region of centres has finite four-volume and infinite otherwise. There is a unique
 
-collapses and random displacements are of this form with U_k(t) = e^{−itφ(h_k)} or W(h), each of
+    probability measure on the corresponding histories of marked centres, finite or infinite, whose
 
-which multiplies every Weyl operator by a phase. They therefore preserve the von Neumann algebra 𝔐_X
+    marginal on the centres and outcomes in each D_t is the law of part (a) for the domain D_t. This
 
-generated by { W(g) : g ∈ V_X }, for every target set X, and Theorem 13.17 gives Theorem 13.13(b)
+    projective consistency holds for the nested past regions D_t. It does not hold for an arbitrary
 
-for these operations.
+    subdomain D of finite four-volume: collapses outside D that precede some of those in D change
 
+    the state before them, so the marginal of the global law on D differs in general from the law of
 
+    part (a) for D, which applies only the collapses in D. If these regions have infinite four-
 
-Proof. A weak integral of a bounded measurable family in a σ-weakly closed subspace lies in that
+    volume, as in spatially infinite FLRW spacetimes, every slab of cosmological time contains
 
-subspace, since a normal functional that vanishes on the subspace vanishes on every member of the
+    infinitely many centres almost surely, so its collapses cannot be applied one after another in
 
-family and hence on the integral. □
+    order of T, and the existence of a global process is open.
 
 
 
-The theorem locates the role of relativistic causality exactly. Microcausality supplies (iii): if 𝔐
+Proof. (a) A finite sequence of normalized instruments composes to a normalized instrument. (b)
 
-is generated by observables localized in the target regions and j is localized in a region causally
+Lemma 13.26 and Theorem 13.21(a). (c) Theorem 13.17 with Corollary 13.18; the conditions of the
 
-separated from all of them, the Kraus operators of j commute with 𝔐. It does not supply (ii), which
+theorem do not depend on how the order of the operations was chosen. (d) For a free field on a
 
-is a condition on the composed dynamics of the intervening operations. Example 13.10 is a case in
+globally hyperbolic spacetime, φ(h) = ∫_Σ ((Eh) ∇_nφ − φ ∇_n(Eh)) dΣ for every Cauchy surface Σ, up
 
-which (ii) fails. The unread Lüders instrument at C maps W(s f_B) to W(s f_B) G(φ(f_C)) for a non-
+to a sign fixed by the convention for E (Wald 1994), and the level sets of T are Cauchy surfaces by
 
-constant function G, which lies outside the algebra generated by W(s f_B), and Alice can then signal
+assumption. The statement about the centres is Theorem 13.21(e). (e) Proposition 13.16(c) and (d),
 
-to Bob. Microcausality alone therefore does not exclude Sorkin-type signaling. What must be
+the rotational symmetry of h_x, and Campbell’s formula give the energy–momentum. The unread channels
 
-controlled is closure of a target algebra under the composed intervening operations. The theorem
+commute because each multiplies every Weyl operator by a number, so their duals commute on the Weyl
 
-also concerns unconditioned statistics only: conditioning on the outcome of an intervening operation
+operators and, being normal, on the von Neumann algebra those operators generate, which contains
 
-is not covered, and in general it can reveal what was done at j. Its scope is that of a sufficient
+every observable of the field. The order dependence of the joint outcome law is Proposition 13.23.
 
-condition. It shows that one particular unread operation cannot influence the unconditioned target
+(f) Since Vol_g(D_t) is finite, the Poisson count in D_t is finite almost surely, and since level
 
-statistics; it does not cover protocols in which later operations are chosen according to earlier
+sets have four-volume zero, ties in T have probability zero. Given the past, the next centre is the
 
-outcomes, and it is not a theorem about every relativistic signaling protocol. Its operational
+first Poisson point above the current value of T, by the complete independence of the Poisson
 
-reading depends on identifying correctly where each operation is localized and which regions are
+process, or there is no further centre, an outcome of probability exp(−λ v(t′)) at the current value
 
-causally separated, and for interacting fields its hypotheses must be verified for physically
+t′, where v(t′) is the four-volume of the part of the region of centres with T > t′; this
 
-realizable instruments before it yields any conclusion.
+probability is positive when v(t′) is finite. Including that terminal state, both the kernel for the
 
+next centre and the Born-rule kernel for the next outcome are measurable on standard Borel spaces,
 
+and the Ionescu-Tulcea theorem gives a unique measure on histories with these kernels. Its marginal
 
-Nothing in Theorem 13.17 refers to free fields. For interacting fields, conjugation by e^{itA}, with
+on D_t is the law of part (a) for D_t, because every collapse in D_t precedes every collapse outside
 
-A an interacting local observable, does not in general map a target algebra into itself, and the
+it, and the later collapses, with their outcomes summed over, are trace-preserving. For an arbitrary
 
-problem is to find nontrivial instruments for which (i)–(iii) hold. Instruments induced by coupling
+subdomain this argument fails at its first step, since collapses outside the subdomain can precede
 
-a probe to the field in a compact region are natural candidates, because their causal properties are
+collapses inside it. A Poisson process of infinite intensity measure on a slab has infinitely many
 
-controlled by the coupled dynamics (Fewster & Verch 2020). An operationally causal measurement
+points there almost surely. □
 
-scheme is not, however, a spontaneous collapse law, and the latter needs an additional physical
 
-mechanism.
 
+In the numerical checks (Appendix C.1, items C3(g) and C3(h)), ordering by the times of the centres
 
+is a linear extension of the causal order in all 300 admissible configurations of item C3(c), as
 
-Target result 13.19 (Interacting probe instruments). For a scalar field with a λφ⁴/4! self-
+Lemma 13.26(b) requires for causal diamonds. In a Sorkin-type configuration whose two intermediate
 
-interaction, coupled to a probe in a compact region, compute the induced instrument to the lowest
+law collapses overlap, so that it is not admissible, applying the collapses in order of time leaves
 
-nontrivial order in λ. Check that the free limit reproduces §13.6. Then determine whether conditions
+the target’s binned law unchanged, to within 1.6 × 10⁻¹⁵, when a kick, a Gaussian collapse, or an
 
-(i)–(iii), or the causal factorization of the probe framework, hold at that order for composed
+unsharp Lüders instrument, which is not Weyl-diagonal, is applied in a region causally separated
 
-operations, including an intermediate operation in Sorkin’s configuration, with a deliberately
+from the target. If an unsharp Lüders instrument replaces the first intermediate collapse, the kick
 
-inadmissible instrument as a negative control. Such a calculation establishes a result to the order
+shifts the target law by 8.1 × 10⁻⁴. In the tested configuration, the cosmological-time ordering
 
-computed. It is not an existence theorem for interacting quantum field theory in four dimensions.
+rule produces no signaling for the specified interventions. The Lüders control shows that this
 
+conclusion cannot be extended to arbitrary intervening instruments. In item C3(e), the unread
 
+channels of two overlapping collapses give the same final state in either order, to 6.8 × 10⁻¹⁵,
+
+although the joint laws of their outcomes differ.
+
+
+
+Four limits of Proposition 13.28 should be stated. First, part (d) establishes computability from
+
+present Cauchy data, not physical causal locality. A smeared free-field observable can always be
+
+rewritten through the causal propagator as an observable on a single Cauchy surface, but the
+
+collapse of φ(h_x) concerns the field smeared over a region that extends to cosmological time T(x) +
+
+τ, so its physical localization is extended in time, and a fully local dynamical implementation of
+
+the centre-time rule, for instance through a coupled field, has not been given; Propositions 13.29
+
+and 13.31 below examine two alternatives. Second, part (c) covers the stated class of operations. It
+
+does not show that arbitrary physically implementable interventions can be inserted without
+
+detectable effects of the ordering rule: an intervention whose region interferes, within 2τ in
+
+cosmological time, with a law collapse is ordered relative to it by the rule, and the joint
+
+statistics can then depend on that order, as in Proposition 13.23. In the realization of Proposition
+
+13.31, where the law’s collapses and the interventions are all realized by gapless pointers, no rule
+
+orders them, and this limit does not arise. Third, the correlation structure of part (e) is a
+
+statement about the collapse outcomes, which CTGP treats as primitive occurrences. It shows that the
+
+event statistics depend on the cosmic frame; it does not by itself show measurable Lorentz
+
+violation. By part (e), no unconditioned statistic of other operations reveals the order of law
+
+collapses among themselves, so whether these correlations induce operationally detectable signatures
+
+requires an explicit account of how collapse outcomes are recorded in accessible observables. The
+
+candidate preferred-frame effects identified so far are the energy–momentum injection of part (e)
+
+and the order effects for interfering interventions described under the second limit; neither has
+
+yet been shown to be measurable, as explained below. Fourth, no-signaling and Lorentz invariance are

@@ -1,36 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 03 of 5 (1,684 words)
-
-PART IV. Personal Identity
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------
-
-17. Identity as the continuity of one’s own mind
-
-----------------------------------------------------------------------------------------------------
-
-
-
-A natural criterion of personal identity is the continuity of the individual’s own mind. This is
-
-stronger and more precise than requiring the same body, atoms, or physical configuration, all of
-
-which change over a lifetime: molecules are replaced, appearance changes, neural configuration
-
-shifts from moment to moment, and memories are formed and lost. The relevant continuity is
-
-continuity of the mind as an ongoing process, which makes identity fundamentally diachronic rather
-
-than configurational. A snapshot of a person at 10:00 and another at 20:00 can be different physical
-
-configurations while belonging to the same continuing individual.
-
-
+Part 03 of 5 (1,788 words)
 
 “Mind” must mean more than the mental contents present at a given moment; otherwise sleep,
 
@@ -228,9 +198,13 @@ existence can transition between different forms without being duplicated; non-d
 
 world rule. That rule does real metaphysical work. It answers a question that psychological
 
-continuity alone leaves open, namely what happens when continuity branches. In the actual world
+continuity alone leaves open, namely what happens when continuity branches. In the actual world,
 
-nothing in known physics forbids branching in principle, so a real-world continuity view needs an
+known physics does not rule out producing two successors that are alike in every physical and
+
+psychological respect that plausibly matters (the no-cloning theorem forbids exact copies of unknown
+
+quantum states, not copies at that level of detail), so a real-world continuity view needs an
 
 explicit non-branching condition or an alternative criterion.
 
@@ -308,7 +282,7 @@ One candidate criterion is therefore:
 
 
 
-Applied consistently, it yields the following verdicts:
+If this criterion is adopted and applied consistently, it yields the following verdicts:
 
 
 
@@ -363,3 +337,35 @@ of Theseus at once.
 
 
 ----------------------------------------------------------------------------------------------------
+
+23. Is the criterion discovered or chosen?
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Ordinarily, “we do not know whether X” means that there is a determinate fact not yet discovered.
+
+With concepts such as numerical identity, it is possible instead that several coherent criteria give
+
+different answers, and that no further physical measurement could decide between them, because the
+
+measurement does not determine which criterion should govern the term. The 2006 decision of the
+
+International Astronomical Union that reclassified Pluto as a dwarf planet illustrates the
+
+structure, though imperfectly, since “planet” is a classificatory term while personal identity
+
+carries great metaphysical and practical weight.
+
+
+
+Physics may one day tell us with great precision that process X occurred. That does not by itself
+
+tell us that X’s output is numerically identical to its input. The first is an empirical question;
+
+the second concerns the identity conditions we apply to physical processes. CTGP can say that a
+
+present state causally arose from an earlier one; it does not follow that the present entity is
+
+numerically identical to the earlier entity. That requires a theory of persistence. CTGP supplies

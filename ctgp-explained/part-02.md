@@ -1,40 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 02 of 26 (1,667 words)
-
-1.1 Empirical Posture
-
-~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP is a thesis about what exists: the present, not the past or the future. Two readings of the
-
-same physics that differ only in this respect make identical predictions for every measurement
-
-(§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
-
-past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
-
-the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
-
-which the paper tests (§11).
-
-
-
-----------------------------------------------------------------------------------------------------
-
-2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
-
-----------------------------------------------------------------------------------------------------
-
-
-
-2.1 The Standard Taxonomy
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+Part 02 of 25 (1,797 words)
 
 Three major ontological positions on time are standardly distinguished in the philosophy of physics
 
@@ -309,3 +275,45 @@ mathematically precise: the present is ontologically real, the past is historica
 longer existent, and the future is excluded from realization.
 
 
+
+3.4 Alignment of Phenomenological and Physical Arrows
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP offers a single ontological account of three phenomena that are typically treated as
+
+independent explananda: experiential temporal flow, the thermodynamic arrow of time, and the
+
+directional structure of causal propagation. In standard physics, these are often traced to separate
+
+origins — subjective flow to neuroscience or philosophy of mind, thermodynamic asymmetry to low-
+
+entropy initial conditions, and causal directionality to the light-cone structure of relativity.
+
+CTGP provides a single underlying account: all three arise from the continuously advancing
+
+generative flow represented by M(σ), whose present boundary Σ_σ advances in one direction only along
+
+the generation flow vector n^μ.
+
+
+
+The following arrows all point in the same direction within CTGP, and their alignment is not
+
+coincidental. The causal and memory-formation arrows point in the direction of generation by
+
+construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
+
+not reduced to it, since each also depends on contingent features of our universe’s initial
+
+conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
+
+to future — runs in the direction in which stages are generated, since each new hypersurface is
+
+generated from its predecessor and never the reverse. Generation supplies the orientation, not the
+
+gradient: as in standard cosmology, the increase itself requires a low-entropy initial condition,
+
+which CTGP must assume exactly as eternalism does. What the generative flow contributes is the

@@ -1,6 +1,56 @@
 # Info
 
-Part 03 of 24 (1,720 words)
+Part 03 of 23 (1,796 words)
+
+Repeated recall over time Gradually less accurate Reconsolidation and reinterpretation
+
+
+
+Long-term memory (years later) Can diverge significantly Emotional bias, cultural reinforcement,
+
+suggestion
+
+
+
+“Digital is able to simulate biology/biological, but digital is never able to be
+
+biology/biological”, correct?
+
+
+
+Yes, digital systems can simulate or model biological processes with increasing
+
+sophistication—mimicking patterns, behaviors, and even some functional outcomes of living systems.
+
+But simulation is fundamentally different from instantiation.
+
+
+
+Here’s the key distinction:
+
+
+
+Simulation vs. Being:
+
+
+
+• A digital weather simulation isn’t actual weather—it’s symbolic representation running on
+
+  computational substrates
+
+• A digital neural network isn’t a biological brain—it processes information differently, lacks
+
+  organic metabolism, consciousness (arguably), and embodied biological constraints
+
+• A simulated cell division isn’t actual cellular reproduction—no DNA replication, no protein
+
+  synthesis, no membrane dynamics in physical reality
+
+
+
+Why digital ≠ biological:
+
+
 
 1. Substrate matters: Biology operates through organic chemistry, electrochemical gradients, carbon-
 
@@ -232,11 +282,19 @@ This is possible through several programming techniques:
 
 
 
-This is fundamentally different from physical 3D space, where the Pauli exclusion principle prevents
+This is fundamentally different from physical 3D space. There, the Pauli exclusion principle
 
-fermions (like the atoms making up solid matter) from occupying the same quantum state/space. In
+prevents identical fermions (such as the electrons in atoms) from occupying the same quantum state,
 
-physical reality, two solid objects genuinely cannot occupy identical coordinates simultaneously.
+and the quantum many-body structure of matter, involving both Pauli exclusion and electromagnetic
+
+interactions, keeps ordinary solid objects from passing through one another. Two solid objects
+
+therefore cannot occupy identical coordinates simultaneously, although particles themselves can
+
+overlap in space (bosons can share a quantum state, and neutrinos pass through matter almost
+
+unimpeded).
 
 
 
@@ -413,53 +471,3 @@ Theories Proposing Extra Dimensions/Universes
 
 
 ----------------------------------------------------------------------------------------------------
-
-What Has NOT Been Confirmed
-
-----------------------------------------------------------------------------------------------------
-
-
-
-No direct detection of another universe/realm
-
-
-
-No mechanism for accessing other universes via “frequency/vibration”
-
-
-
-No observations of people/instruments crossing domains via vibrational tuning
-
-
-
-No empirical support for metaphysical ideas of “raising frequency” to shift realms
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Why the Gap?
-
-----------------------------------------------------------------------------------------------------
-
-
-
-1. Extra dimensions in theory are too small (Planck scale or smaller) — undetectable with current
-
-   tech
-
-2. Truly separate universes can’t interact by definition — making them unobservable
-
-3. “Accessing via vibration” has no scientific basis — string theory’s “vibration” is mathematical,
-
-   not a method for universe-hopping
-
-
-
-—–
-
-

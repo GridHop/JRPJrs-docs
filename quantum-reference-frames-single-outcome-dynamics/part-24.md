@@ -1,263 +1,303 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 24 of 40 (1,804 words)
+Part 24 of 35 (1,798 words)
 
+Proposition 14.2 (Imperfect clocks in a generative model). Consider a model of the kind defined in
 
+Part II whose physical state includes one or more clock subsystems.
 
-Proof. (a) Let t_K be the largest value of T on K. The level set Σ = { T = t_0 − τ } is a Cauchy
 
-surface, because t_0 − τ > 0, and in a globally hyperbolic spacetime the intersection of the causal
 
-past of a compact set with the causal future of a Cauchy surface is compact. Hence A = J⁻(K) ∩ { T ≥
+    (a) Clock-independence of event identity and probability. The measure over histories of Tier 1
 
-t_0 − τ } is compact, and so is its projection π(A) ⊆ S. Suppose that R_x meets J⁻(K) at a point p.
+    events is fixed by the law and the complete initial state. Describing those events relative to
 
-Then T(p) ≥ T(x) − τ > t_0 − τ, so p ∈ A, and T(x) ≤ T(p) + τ ≤ t_K + τ, because T increases along
+    one clock rather than another changes no event label, no stage, and no probability.
 
-future-directed causal curves. The value T(p) lies in the compact interval [t_0 − τ, t_K], on which
 
-a has a positive minimum a_*, so the condition a(T(p)) d_γ(π(p), π(x)) ≤ ℓ gives d_γ(π(x), π(A)) ≤
 
-ℓ/a_*. The set N of points of S within γ-distance ℓ/a_* of π(A) is closed and bounded, hence compact
+    (b) Periodic clocks. A clock of period M takes the same reading at stages σ_n and σ_{n+M}, so
 
-by the Hopf–Rinow theorem. Therefore x lies in the compact set [t_0, t_1] × N, where t_1 is the
+    equal readings do not imply equal stages: τ_A(σ_1) = τ_A(σ_2) is compatible with σ_1 ≠ σ_2. A
 
-smaller of t_K + τ and T_max − τ, and a compact set has finite four-volume. (b) The intensity
+    repeated reading means that the clock fails to distinguish two stages, not that generation has
 
-measure is finite on compact sets, so the number of centres in a compact set is a Poisson variable
+    reversed.
 
-with finite mean and is finite almost surely. Exhausting M by countably many compact sets shows
 
-that, almost surely, every compact set contains finitely many centres. For a finite set S of
 
-centres, the union K of the regions O_k ⊆ R_{x_k}, k ∈ S, is compact, and S⁻ lies in the compact set
+    (c) Temporal delocalization. If a clock is in a superposition of readings at the stage of an
 
-of part (a), which then contains finitely many centres. □
+    event, the Tier 3 proposition “the clock read r when the event occurred” has no determinate
 
+    value, although the event and its stage are determinate. For example, a counter prepared in an
 
+    equal superposition of the readings 0 and 4 and advancing by one per stage reads n or n + 4,
 
-The lemma uses the FLRW structure: the product form of M, the positive minimum of the scale factor
+    each with probability 1/2, at stage n.
 
-on compact time intervals, and the completeness of the spatial sections. It is not claimed for
 
-arbitrary globally hyperbolic spacetimes.
 
+    (d) Clock-relative order can disagree with generative order. If a non-ideal clock’s readings are
 
+    recorded at successive events, the later event can carry an earlier reading. Consider a drifting
 
-Proposition 13.31 (Collapse by gapless pointers). Let φ be the free field of §13.6 on a globally
+    quantum-walk clock on a ring of 32 sites, which advances one site per stage on average under the
 
-hyperbolic spacetime, in a state ω, and consider any finite configuration of centres, admissible or
+    one-step propagator S exp(−i θ (S + S†)) with θ = 0.9. Because a ring has no intrinsic linear
 
-not, with pointers as just described.
+    order, comparing two readings requires a convention: the displacement between consecutive
 
+    readings r_1 and r_2 is the representative m of r_2 − r_1 modulo 32 in {−15, …, 16}, and the
 
+    second reading counts as lower when m < 0 and as equal when m = 0. Assume that each event
 
-    (a) Foliation-independent coupled evolution. Ordered by any Cauchy time function, the coupled
+    records the clock’s reading by a projective measurement of its position, so that the first
 
-    evolution from before all couplings to after them is the same unitary,
+    recording leaves the clock in a definite position state, and that exactly one stage transition
 
+    separates two consecutive recordings. Then, conditional on the first recorded reading, the exact
 
+    probabilities on the 32-site ring are P(m < 0) = 0.104042655 and P(m = 0) = 0.338161965, to nine
 
-        U = exp(−(i/2) Σ_{k,l} Γ_kl p_k p_l) exp(−i Σ_k p_k φ(h_k)).
+    decimal places. They agree to better than 10⁻¹² with the infinite-lattice expressions (1 −
 
+    J_0(1.8)² − 2 J_1(1.8)²)/2 and J_1(1.8)², where J_n are Bessel functions. By translation
 
+    invariance these values do not depend on the first reading. Displacements of eight or more sites
 
-    After the coupling, the pointer positions are
+    have total probability below 10⁻⁸, so any comparison convention that agrees with this one on
 
+    displacements of fewer than eight sites gives the same values to that accuracy. The values do
 
+    depend on the preparation and recording procedure: a clock not recorded at the first event, an
 
-        U† q_k U = q_k + φ(h_k) + Σ_l Γ_kl p_l,
+    unsharp recording, or a comparison across more than one transition gives different values.
 
 
 
-    where, as in U, φ is the field of the uncoupled theory. These operators commute with one
+Proof. (a) Clock subsystems are part of the physical state, and the law takes the complete present
 
-    another. Each q_k commutes with the interaction after the coupling of pointer k has ended. The
+state as input; the choice of a subsystem as clock for purposes of description is not an input to
 
-    joint law of the readings, and the field state conditional on them, therefore do not depend on
+the law. If a clock interacts with the system, event probabilities depend on the clock’s physical
 
-    when or in what order the pointers are read, provided that each is read after its own coupling
+state, but that is a dependence on the present physical state, not on the choice of description. (b)
 
-    has ended.
+and (c) follow from the definitions. (d) The first recording projects the clock onto a position
 
+eigenstate |r⟩. During the single intervening transition the clock evolves by the stated propagator.
 
+By the Jacobi–Anger expansion, exp(−i θ (S + S†)) = Σ_{k∈ℤ} (−i)^k J_k(2θ) S^k, so on the infinite
 
-    (b) Outcome law. For pre-chirped pointers, the readings y_1, …, y_n have the characteristic
+lattice the amplitude to move from r to r + m is, up to a phase, J_{m−1}(2θ). On the ring S^{32} =
 
-    function χ(s), the expectation of exp(i Σ_k s_k y_k) for s ∈ ℝⁿ, given by
+1, and the amplitude for displacement m is the sum of the lattice amplitudes for all displacements
 
+congruent to m modulo 32. For m ∈ {−15, …, 16} the additional terms involve J_k(1.8) with |k| ≥ 16,
 
+each of magnitude below 10⁻¹⁴, so the ring probabilities differ from the lattice values
 
-        χ(s) = ω(W(Σ_k s_k h_k)) exp(−½ Σ_k σ_k² s_k² − ½ Σ_l b_l² / (4σ_l²)),
+J_{m−1}(1.8)² by less than 10⁻¹² in total. Summing the lattice values over m ≤ −1 gives Σ_{k≥2}
 
+J_k(2θ)² = (1 − J_0(2θ)² − 2 J_1(2θ)²)/2, using Σ_k J_k² = 1 and J_{−k}² = J_k², and m = 0 gives
 
+J_{−1}(2θ)² = J_1(2θ)². The exact ring values were computed directly from the 32-site propagator.
 
-    with b_l = Σ_{k≠l} s_k Γ_kl. In a quasi-free state with vanishing one-point function, the
+The computation is item 16 of Appendix B. □
 
-    readings are jointly Gaussian with covariance Σ + diag(σ_k²) + Σ_l g_l g_lᵀ / (4σ_l²), where Σ
 
-    is the covariance of the smeared fields, (g_l)_k = Γ_kl for k ≠ l, and (g_l)_l = 0. Without the
 
-    pre-chirp, (g_l)_l = Γ_ll, so the readings acquire further terms from each pointer’s back-
+Proposition 14.2 has an external generative order built in: the stage index is a parameter of the
 
-    reaction on its own reading.
+model. It therefore shows that the three-way distinction of Definition 14.1 is consistent, and that
 
+clock-relative localization and ordering can differ from generative order without contradiction. It
 
+does not derive a definite generative order from clock-neutral data. That is the task of
 
-    (c) Unread channel. With all readings summed over, the field undergoes the composition, in any
+§§14.4–14.6.
 
-    order, of the unread Gaussian collapses of φ(h_1), …, φ(h_n) with widths σ_1, …, σ_n
 
-    (Proposition 13.15), with or without the pre-chirp and for every configuration. The
 
-    energy–momentum and the stress–energy injected are therefore those of Proposition 13.16, added
+14.4 A Proposed Temporal Identification Criterion
 
-    over the collapses.
 
 
+Definition 14.3 (Temporal cross-frame identification; a proposal). A clock-relative description
 
-    (d) Agreement with sequential collapse. If the configuration is admissible, then for pre-chirped
+consists of a valid clock reduction, which may be partial, state-dependent, or defined only on a
 
-    pointers the joint law of the readings, together with the conditional field state, is that of
+subspace, together with its domain of physical states. Two clock-relative descriptions identify the
 
-    the Gaussian collapses of φ(h_k) with widths σ_k (Proposition 13.12) applied in any linear
+same CTGP history when (i) the physical state lies in both domains, (ii) they arise from the same
 
-    extension of the causal order; in particular, in a quasi-free state, the law of the readings is
+realized event history, and (iii) they agree on every clock-neutral event proposition, that is,
 
-    the law Q_ξ of Theorem 13.21. If the configuration is not admissible, Γ_kl and Γ_lk can both be
+every Tier 1 proposition stated without reference to clock readings, that can be evaluated in both.
 
-    nonzero, and the law of part (b) then differs in general from the law of the collapses applied
+A family of clock-relative descriptions is consistent when every pair satisfies (i)–(iii) on the
 
-    in order of their centres.
+intersection of their domains, and when, wherever three descriptions share a domain, the
 
+correspondences between events that they induce compose.
 
 
-    (e) No signaling without an ordering rule. For a set S of pointers, let S⁻ be the set of
 
-    pointers whose regions meet the causal past of some O_k with k ∈ S. The joint law of the
+The criterion deliberately does not require that two clocks assign the same time coordinates to
 
-    readings in S depends only on the values ω(W(g)) for g in the span of the h_k with k ∈ S, and on
+events, nor that their conditional state vectors coincide. It is the temporal counterpart of
 
-    the smearings and states of the pointers in S and in S⁻. It is therefore unchanged by adding,
+Criterion 5.5, with clock-neutral event propositions in place of the translated truth profile.
 
-    removing, re-preparing, or reading any further pointer, or by coupling the field to a classical
+Criterion 5.5 identifies descriptions through a single global orbit, which presupposes globally
 
-    source, which acts as a kick, provided that its region does not meet the causal past of any O_k
+defined unitary reductions. Definition 14.3 replaces that orbit by a family of overlapping
 
-    with k ∈ S, in particular when that region is causally separated from all of them. This holds
+admissible descriptions with consistency conditions on their common domains, which is what is needed
 
-    for every configuration, admissible or not, including Sorkin’s. Part (e) concerns the modeled
+when temporal reductions are partial, state-dependent, or available only locally (§14.1).
 
-    operations, namely gapless pointers and classical sources. It is not a statement about arbitrary
 
-    interventions, such as operations involving interacting matter, probes with internal dynamics,
 
-    or measurements that such pointers do not realize.
+Conjecture 14.4 (Clock-neutral realized-history equivalence). For a specified class of constrained
 
+systems with two admissible quantum clocks, possibly imperfect, and a clock-neutral normalized event
 
+instrument whose interventions are represented within the constraint, all valid clock reductions
 
-    (f) A law of records for infinite configurations. Let the centres form the Poisson process of
+assign the same probabilities to corresponding finite realized-event histories. Moreover, on the
 
-    Candidate extension 13.27, with the smearings of its item (ii) and pre-chirped pointers of width
+domains of the reductions, the clock-neutral instrument intertwines with clock-relative instruments,
 
-    σ, on any FLRW spacetime of that class, whether its spatial sections are closed, flat, or open,
+R_A ∘ ℐ^phys = ℐ^A ∘ R_A and R_B ∘ ℐ^phys = ℐ^B ∘ R_B, for compositions of events as well as single
 
-    and let ω be quasi-free. Almost surely S⁻ is finite for every finite set S of centres, and there
+events. This holds although the two descriptions can assign different temporal localizations, and
 
-    is a unique probability law on the readings of all centres whose marginal on every finite set S
+different orderings, to the events.
 
-    is the law of part (b) for the configuration S ∪ S⁻. Averaged over the Poisson process, it gives
 
-    a law of marked centres. Neither an enumeration of the centres in order of T nor finiteness of
 
-    the past regions is needed. This is a probability law for the readings, which are the outcome
+A statement of the conjecture for a given class must specify the domains of the reductions and what
 
-    records. It is not a present quantum state containing infinitely many pointers, and no such
+makes events in two descriptions correspond. Agreement of probabilities is not enough, because one
 
-    state is constructed here. The law is compatible with a single-outcome reading, in which each
+physical state supports many instrument decompositions (Proposition 13.2). The conjecture therefore
 
-    record is one definite event, but it does not establish the physical generation of infinitely
+concerns a clock-neutral instrument, not merely a clock-neutral effect. A counterexample is
 
-    many actual events, one present after another, in an infinite volume; that infinite-volume
+possible: a clock-relative description may admit no globally valid ordering of the events. Section
 
-    generability is open.
+14.5 proves it for one family of instruments, late-record projective measurements, in a model with
 
+two ideal clocks. A proof for a broader class would establish a realized-history measure shared
 
+across clocks. It would not show that the events are generated in a fundamental succession, which
 
-    (g) Forward generation for finite configurations. For a finite configuration, let each pointer
+requires an ordering compatible with the constraint and its gauge symmetries (§14.6).
 
-    be prepared when the generative present reaches the smallest value of T on its region and read
 
-    when it reaches the largest, which are T(x) − τ and T(x) + τ for the smearings of Candidate
 
-    extension 13.27. Between successive presents, the field then evolves by its field equation with
+14.5 Two Ideal Clocks With the Interventions in the Constraint
 
-    the local source Σ_k p_k h_k, each pointer interacts only within its region, and each reading
 
-    concerns a single pointer whose coupling has ended. The present state at each value of T,
 
-    consisting of the field and the pointers whose couplings have begun, conditioned on the readings
+The construction of this subsection removes the external stage index of Proposition 14.2. The
 
-    already made, is a density operator, and the law of the next increment depends only on it. The
+interventions are part of the constraint, and the events, their probabilities, and their instruments
 
-    readings and conditional states are those of parts (a)–(d). For the Poisson centres of Candidate
+are defined on the physical Hilbert space.
 
-    extension 13.27 on a spatially closed FLRW spacetime, only finitely many pointers begin before
 
-    any given value of T, almost surely, so the construction applies at every present. On spatially
 
-    flat or open FLRW spacetimes, infinitely many pointers begin in every slab of cosmological time,
+Setting. Clocks A and B are ideal: each has Hilbert space L²(ℝ) and a canonical pair (T, P) with [T,
 
-    and a complete stochastic evolution of a present state containing them is not constructed here;
+P] = i (ħ = 1). The system and its records have a finite-dimensional Hilbert space K and a
 
-    for these spacetimes part (f) supplies the law of the records only.
+Hamiltonian H_S. Interactions k = 1, …, r have Hermitian operators V_k on K and bounded continuous
 
+switching functions g_k supported in [a_k, b_k], and each interaction is keyed to one clock, c(k) ∈
 
+{A, B}. The constraint is
 
-Proof. (a) The coupling commutes with every p_k, so the momenta are conserved, and in their joint
 
-spectral representation the field is driven, for each value of the momenta, by the classical source
 
-j = Σ_k p_k h_k. For a free field driven by a classical source of compact support, the interaction-
+        Ĉ = P_A + P_B + H_S + Σ_k g_k(T_{c(k)}) V_k.
 
-picture evolution through the support of the source is W(−j) times the phase exp(−(i/2) E_ret(j,
 
-j)). To see this, order the coupling by a Cauchy time function and split j into pieces j_1, …, j_N
 
-supported in successive thin slabs. The slab unitaries are W(−j_a) up to corrections that vanish as
+Proposition 14.5 (Two ideal clocks and record events).
 
-the slabs are refined, and by the first Weyl relation W(−j_N) ⋯ W(−j_1) = exp(−(i/2) Σ_{a>b} E(j_a,
 
-j_b)) W(−j). For a > b and slabs that do not overlap, the support of j_b does not meet the causal
 
-future of the support of j_a, so E_ret(j_b, j_a) = 0 and E(j_a, j_b) = E_ret(j_a, j_b). The phase
+    (a) Physical states and reductions. In the representation in which T_A and T_B act by
 
-therefore tends to exp(−(i/2) E_ret(j, j)) as the slabs are refined, the terms with a = b vanishing
+    multiplication, ĈΨ = 0 is the transport equation i(∂_{t_A} + ∂_{t_B})Ψ = H_Δ(t_A)Ψ along the
 
-in the limit, and E_ret(j, j) = Σ_{k,l} Γ_kl p_k p_l does not refer to the time function. Since U is
+    lines of constant offset Δ = t_A − t_B, where
 
-unitary and the q_k commute, so do the U† q_k U. To compute them, conjugate q_k first by the phase
 
-factor, which adds Σ_l Θ_kl p_l with Θ = (Γ + Γᵀ)/2, and then by exp(−i Σ_l p_l φ(h_l)), which adds
 
-φ(h_k) + ½ Σ_l E(h_k, h_l) p_l, the commutator series terminating because E is a number; and Θ_kl +
+        H_Δ(s) = H_S + Σ_{c(k)=A} g_k(s) V_k + Σ_{c(k)=B} g_k(s − Δ) V_k.
 
-½ E(h_k, h_l) = Γ_kl. After the coupling of pointer k has ended, the interaction density no longer
 
-contains p_k, so it commutes with q_k, and measuring q_k then has the same effect as measuring it at
 
-the end. (b) Because exp(−iΓ_kk p_k²/2) q_k exp(iΓ_kk p_k²/2) = q_k − Γ_kk p_k, expectations in the
+    Its solutions are Ψ(t_A, t_B) = U_Δ(t_A) χ(Δ), with U_Δ(s) the unitary propagator of H_Δ from a
 
-pre-chirped states equal expectations in the states η_k with q_k replaced by q_k − Γ_kk p_k. The
+    fixed initial value s_0 and χ: ℝ → K. With the inner product ⟨Ψ, Ψ′⟩ = ∫ ⟨χ(Δ), χ′(Δ)⟩ dΔ, the
 
-readings thus become q_k + φ(h_k) + Σ_{l≠k} Γ_kl p_l in the state ω ⊗ η_1 ⊗ ⋯ ⊗ η_n. Then Σ_k s_k
+    physical Hilbert space is H_phys ≅ L²(ℝ, K). The offset T_A − T_B commutes with Ĉ. For every
 
-y_k corresponds to φ(Σ_k s_k h_k) + Σ_l (s_l q_l + b_l p_l), a sum of commuting terms, and for the
+    pair of readings τ and τ′, the reductions R_A(τ): Ψ ↦ Ψ(τ, ·) and R_B(τ′): Ψ ↦ Ψ(·, τ′) are
 
-Gaussian η_l, ⟨exp(i(s q_l + b p_l))⟩ = exp(−½ (s² σ_l² + b²/(4σ_l²))). The covariance is the
+    unitary from H_phys onto L²(ℝ, K).
 
-quadratic term in s of the logarithm. Without the pre-chirp, the term Γ_kk p_k remains in the k-th
 
-reading. (c) In the momentum representation of the pointers, U acts for each value of the momenta as
 
-a phase times exp(−i Σ_k p_k φ(h_k)), which is the product of the single kicks exp(−i p_k φ(h_k)) up
+    (b) Temporal localization. Relative to clock A, interactions keyed to A act at the definite
+
+    A-times [a_k, b_k], and interactions keyed to B act at the A-times [a_k + Δ, b_k + Δ], which are
+
+    spread according to the distribution of the offset in the state. Relative to clock B the roles
+
+    are exchanged.
+
+
+
+    (c) Record events. Let E_1, …, E_n be commuting projections on K, each commuting with H_S. Let
+
+    H_phys^I be the subspace of physical states whose offsets lie in a bounded interval I = [δ_−,
+
+    δ_+], and let s* be an A-time after every interaction for every Δ ∈ I, that is, s* ≥ b_k for
+
+    interactions keyed to A and s* ≥ b_k + δ_+ for those keyed to B. Then the operators O_j =
+
+    U_Δ(s*)† E_j U_Δ(s*), acting pointwise in Δ, are commuting projections on H_phys^I, and
+
+
+
+        R_A(τ) O_j = E_j R_A(τ)  for τ ≥ s*,     R_B(τ′) O_j = E_j R_B(τ′)  for τ′ ≥ s* − δ_−.
+
+
+
+    Every finite history of record outcomes therefore has the same probability in the clock-neutral
+
+    description and in either reduction at late readings. The clock-neutral instruments {O_j, 1 −
+
+    O_j} intertwine with the record measurements {E_j, 1 − E_j} relative to either clock, and they
+
+    compose in any order.
+
+
+
+    (d) Superposed order. If an interaction keyed to A and one keyed to B have non-commuting
+
+    operators, the order in which they act depends on Δ. The law of the record outcomes is then the
+
+    mixture ∫ ‖χ(Δ)‖² P_Δ(α) dΔ of the laws P_Δ for the definite orders fixed by each offset, with
+
+    P_Δ computed from χ(Δ)/‖χ(Δ)‖. Interference between the orders appears only in observables that
+
+    are not diagonal in the offset.
+
+

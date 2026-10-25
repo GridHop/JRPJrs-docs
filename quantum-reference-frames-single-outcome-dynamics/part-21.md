@@ -1,251 +1,265 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 21 of 40 (1,561 words)
+Part 21 of 35 (1,799 words)
 
+that, almost surely, every compact set contains finitely many centres. For a finite set S of
 
+centres, the union K of the regions O_k ⊆ R_{x_k}, k ∈ S, is compact, and S⁻ lies in the compact set
 
-What the obstructions teach. Randomizing the locations does not by itself yield a covariant
+of part (a), which then contains finitely many centres. □
 
-spontaneous-collapse law. The construction holds exactly on every admissible configuration (Theorem
 
-13.21). It fails in two precise places. First, admissibility is lost in large volumes (Proposition
 
-13.22), and the order of interfering collapses then has physical consequences (Proposition 13.23).
+The lemma uses the FLRW structure: the product form of M, the positive minimum of the scale factor
 
-Second, no Lorentz-invariant law for the smearing of a free field at a centre exists (Proposition
+on compact time intervals, and the completeness of the spatial sections. It is not claimed for
 
-13.24). A point process with a covariant law therefore does not supply covariant extended events.
+arbitrary globally hyperbolic spacetimes.
 
-Each available repair adds structure at each event, and the structure should be named.
 
 
+Proposition 13.31 (Collapse by gapless pointers). Let φ be the free field of §13.6 on a globally
 
-Remark 13.25 (Repairs and their costs).
+hyperbolic spacetime, in a state ω, and consider any finite configuration of centres, admissible or
 
+not, with pointers as just described.
 
 
-    (i) A background frame. Translates of a fixed smearing are covariant under translations, and
 
-    under whatever rotations leave the smearing invariant, but not under boosts. By Campbell’s
+    (a) Foliation-independent coupled evolution. Ordered by any Cauchy time function, the coupled
 
-    formula, the expected energy–momentum injected by the collapses centred in D is then λ Vol(D)
+    evolution from before all couplings to after them is the same unitary,
 
-    ΔP(h). It is finite, and it is a fixed future-directed four-vector whose rest frame is a
 
-    preferred frame for the energy injection.
 
+        U = exp(−(i/2) Σ_{k,l} Γ_kl p_k p_l) exp(−i Σ_k p_k φ(h_k)).
 
 
-    (ii) Conditioning on admissibility. By Proposition 13.22 this conditions on an event whose
 
-    probability tends to zero as the domain grows, so it has no infinite-volume version without
+    After the coupling, the pointer positions are
 
-    further work. On a finite domain the conditioned law has a forward form (Proposition 11.1), but
 
-    that form depends on the extent of the domain still to be generated.
 
+        U† q_k U = q_k + φ(h_k) + Σ_l Γ_kl p_l,
 
 
-    (iii) Ordering conflicting collapses by a rule. Ordering them by the times of their centres in a
 
-    chosen frame makes the law frame-dependent. In the numerical check, 234 of 300 sampled non-
+    where, as in U, φ is the field of the uncoupled theory. These operators commute with one
 
-    admissible configurations receive different laws in two frames of relative rapidity 0.6
+    another. Each q_k commutes with the interaction after the coupling of pointer k has ended. The
 
-    (Appendix C.1, item C3(f)). A thinning rule applied in generative order, which keeps a candidate
+    joint law of the readings, and the field state conditional on them, therefore do not depend on
 
-    centre only if its region does not conflict with one already kept, is generable and produces
+    when or in what order the pointers are read, provided that each is read after its own coupling
 
-    admissible configurations by construction. But which collapses occur then depends on the
+    has ended.
 
-    generative order.
 
 
+    (b) Outcome law. For pre-chirped pointers, the readings y_1, …, y_n have the characteristic
 
-    (iv) Structure carried by realized events. In Tumulka’s rGRWf, the law for each flash refers to
+    function χ(s), the expectation of exp(i Σ_k s_k y_k) for s ∈ ℝⁿ, given by
 
-    hyperboloids centred on the same particle’s previous flash (Tumulka 2006). The local frame is
 
-    then supplied covariantly by an earlier realized event rather than by a background. For CTGP the
 
-    law would depend on the location of a past event, so causal inheritance (C-g) requires that
+        χ(s) = ω(W(Σ_k s_k h_k)) exp(−½ Σ_k σ_k² s_k² − ½ Σ_l b_l² / (4σ_l²)),
 
-    location to be physically instantiated in the present state; whether rGRWf admits such a
 
-    representation is the open question noted in §13.12.
 
+    with b_l = Σ_{k≠l} s_k Γ_kl. In a quasi-free state with vanishing one-point function, the
 
+    readings are jointly Gaussian with covariance Σ + diag(σ_k²) + Σ_l g_l g_lᵀ / (4σ_l²), where Σ
 
-    (v) Cosmological structure. Where cosmological time T is regular, it is defined by the metric
+    is the covariance of the smeared fields, (g_l)_k = Γ_kl for k ≠ l, and (g_l)_l = 0. Without the
 
-    alone, so T ∘ ψ = T for every time-orientation-preserving isometry ψ. A smearing rule built only
+    pre-chirp, (g_l)_l = Γ_ll, so the readings acquire further terms from each pointer’s back-
 
-    from T and g is then covariant under the entire isometry group. In an FLRW spacetime, for
+    reaction on its own reading.
 
-    example, h_x can be the product of a function of T(p) − T(x) and a function of the distance from
 
-    the comoving worldline through x, measured within the level set of p, with support small enough
 
-    for that function to be smooth (Candidate extension 13.27). In FLRW spacetimes with a big-bang
+    (c) Unread channel. With all readings summed over, the field undergoes the composition, in any
 
-    singularity the isometries fixing a point form a compact group, the rotations about the comoving
+    order, of the unread Gaussian collapses of φ(h_1), …, φ(h_n) with widths σ_1, …, σ_n
 
-    worldline through it, so the obstruction of Proposition 13.24 does not arise. By symmetry, the
+    (Proposition 13.15), with or without the pre-chirp and for every configuration. The
 
-    stress–energy injected by a collapse then singles out the cosmic rest frame. Cosmological time
+    energy–momentum and the stress–energy injected are therefore those of Proposition 13.16, added
 
-    could also fix the order of conflicting collapses covariantly.
+    over the collapses.
 
 
 
-    (vi) A mediating field. Bedingham (2011) obtains a Lorentz-covariant collapse dynamics free of
+    (d) Agreement with sequential collapse. If the configuration is admissible, then for pre-chirped
 
-    the divergences of point-like collapse by letting the collapse act through an additional
+    pointers the joint law of the readings, together with the conditional field state, is that of
 
-    relativistic field. Whether a construction of this kind can be represented generably on CTGP’s
+    the Gaussian collapses of φ(h_k) with widths σ_k (Proposition 13.12) applied in any linear
 
-    hypersurfaces is open.
+    extension of the causal order; in particular, in a quasi-free state, the law of the readings is
 
+    the law Q_ξ of Theorem 13.21. If the configuration is not admissible, Γ_kl and Γ_lk can both be
 
+    nonzero, and the law of part (b) then differs in general from the law of the collapses applied
 
-    (vii) State-dependent smearings would make the unread dynamics nonlinear in the state. Theorem
+    in order of their centres.
 
-    13.17, which concerns linear maps, would then no longer apply, and such rules are not pursued
 
-    here.
 
+    (e) No signaling without an ordering rule. For a set S of pointers, let S⁻ be the set of
 
+    pointers whose regions meet the causal past of some O_k with k ∈ S. The joint law of the
 
-The CTGP-specific conclusion should be stated carefully. Route (v) uses only structure that CTGP
+    readings in S depends only on the values ω(W(g)) for g in the span of the h_k with k ∈ S, and on
 
-already posits, and §13.11 shows that it addresses both obstructions consistently: the resulting
+    the smearings and states of the pointers in S and in S⁻. It is therefore unchanged by adding,
 
-dynamics is complete and normalized on every domain of finite four-volume, it can be generated
+    removing, re-preparing, or reading any further pointer, or by coupling the field to a classical
 
-forward along cosmological time in its free-field representation, and it admits no signaling between
+    source, which acts as a kick, provided that its region does not meet the causal past of any O_k
 
-causally separated regions for the operations it covers. But it gives cosmological time a dynamical
+    with k ∈ S, in particular when that region is causally separated from all of them. This holds
 
-role. The collapse law, and in principle its observable consequences, would then refer to the
+    for every configuration, admissible or not, including Sorkin’s. Part (e) concerns the modeled
 
-generative foliation, which would change from empirically invisible, as in Corollary 13.5, to a
+    operations, namely gapless pointers and classical sources. It is not a statement about arbitrary
 
-physical hypothesis subject to test, the dynamical case of §14.6. The same holds for thinning in
+    interventions, such as operations involving interacting matter, probes with internal dynamics,
 
-generative order in route (iii). Whether CTGP should accept such a role is a decision about the
+    or measurements that such pointers do not realize.
 
-framework, not a result. Section 13.11 therefore develops route (v) as an explicitly labelled
 
-candidate extension, so that what it would assert and predict can be assessed, and does not adopt
 
-it. Without it, the remaining covariant options are routes (iv) and (vi) and a formulation of local
+    (f) A law of records for infinite configurations. Let the centres form the Poisson process of
 
-collapse that does not attach an extended region to a point. None of these has yet been given for
+    Candidate extension 13.27, with the smearings of its item (ii) and pre-chirped pointers of width
 
-fields in a form that CTGP can adopt.
+    σ, on any FLRW spacetime of that class, whether its spatial sections are closed, flat, or open,
 
+    and let ω be quasi-free. Almost surely S⁻ is finite for every finite set S of centres, and there
 
+    is a unique probability law on the readings of all centres whose marginal on every finite set S
 
-The numerical checks (Appendix C.1, item C3) use a massless field in 1 + 1 dimensions, with causal
+    is the law of part (b) for the configuration S ∪ S⁻. Averaged over the Poisson process, it gives
 
-diamonds of half-size 0.5 as regions. For these smearings the causal propagator can be computed
+    a law of marked centres. Neither an enumeration of the centres in order of T nor finiteness of
 
-exactly, and it vanishes exactly for causally separated regions. Poisson counts have mean 96.00 and
+    the past regions is needed. This is a probability law for the readings, which are the outcome
 
-variance 96.35 at expected value 96. At intensity 1.5, the fraction of admissible configurations
+    records. It is not a present quantum state containing infinitely many pointers, and no such
 
-falls from 0.599 to 0.015 as the box side grows from 1 to 2.5, below the bound of Proposition 13.22
+    state is constructed here. The law is compatible with a single-outcome reading, in which each
 
-throughout. Over 300 admissible configurations, with 1265 collapses and 1176 distinct linear
+    record is one definite event, but it does not establish the physical generation of infinitely
 
-extensions, the outcome covariances agree to 1.8 × 10⁻¹⁵. In direct Hilbert-space computations for
+    many actual events, one present after another, in an infinite volume; that infinite-volume
 
-three-collapse configurations, the history laws of different linear extensions agree to 4.8 × 10⁻¹⁶,
+    generability is open.
 
-and the characteristic function matches the closed form to 1.8 × 10⁻¹⁴. For two overlapping regions,
 
-the variance shift is E(h_1, h_2)²/(4σ_1²) to ten digits, and the two orders differ in total
 
-variation by 0.057.
+    (g) Forward generation for finite configurations. For a finite configuration, let each pointer
 
+    be prepared when the generative present reaches the smallest value of T on its region and read
 
+    when it reaches the largest, which are T(x) − τ and T(x) + τ for the smearings of Candidate
 
-13.11 A Candidate Extension: Collapse Guided by Cosmological Time
+    extension 13.27. Between successive presents, the field then evolves by its field equation with
 
+    the local source Σ_k p_k h_k, each pointer interacts only within its region, and each reading
 
+    concerns a single pointer whose coupling has ended. The present state at each value of T,
 
-This subsection develops route (v) of Remark 13.25 as a candidate extension of CTGP. It is not
+    consisting of the field and the pointers whose couplings have begun, conditioned on the readings
 
-adopted. It gives cosmological time a role in the collapse law, which CTGP’s postulates do not
+    already made, is a density operator, and the law of the next increment depends only on it. The
 
-contain, and accepting that role would be a decision about the framework (§14.6). The purpose is to
+    readings and conditional states are those of parts (a)–(d). For the Poisson centres of Candidate
 
-state exactly what the extension would assert, what can be proved about it, what it would predict,
+    extension 13.27 on a spatially closed FLRW spacetime, only finitely many pointers begin before
 
-and how far it can be realized by a physical coupling.
+    any given value of T, almost surely, so the construction applies at every present. On spatially
 
+    flat or open FLRW spacetimes, infinitely many pointers begin in every slab of cosmological time,
 
+    and a complete stochastic evolution of a present state containing them is not constructed here;
 
-Lemma 13.26 (Cosmological-time order and causal order). Let T be a time function, and suppose that
+    for these spacetimes part (f) supplies the law of the records only.
 
-every collapse region lies in a slab of cosmological time around its centre, O_x ⊆ { p : |T(p) −
 
-T(x)| ≤ τ }.
 
+Proof. (a) The coupling commutes with every p_k, so the momenta are conserved, and in their joint
 
+spectral representation the field is driven, for each value of the momenta, by the classical source
 
-    (a) If T(x_j) − T(x_i) > 2τ, then O_i does not meet the causal future of O_j. Ordering collapses
+j = Σ_k p_k h_k. For a free field driven by a classical source of compact support, the interaction-
 
-    by the cosmological time of their centres therefore agrees with causal precedence for every pair
+picture evolution through the support of the source is W(−j) times the phase exp(−(i/2) E_ret(j,
 
-    whose centres differ in cosmological time by more than 2τ.
+j)). To see this, order the coupling by a Cauchy time function and split j into pieces j_1, …, j_N
 
+supported in successive thin slabs. The slab unitaries are W(−j_a) up to corrections that vanish as
 
+the slabs are refined, and by the first Weyl relation W(−j_N) ⋯ W(−j_1) = exp(−(i/2) Σ_{a>b} E(j_a,
 
-    (b) In Minkowski space with T = t, suppose the regions are translates of one compact convex
+j_b)) W(−j). For a > b and slabs that do not overlap, the support of j_b does not meet the causal
 
-    region that is symmetric under time reflection about its centre. If O_j meets the causal future
+future of the support of j_a, so E_ret(j_b, j_a) = 0 and E(j_a, j_b) = E_ret(j_a, j_b). The phase
 
-    of O_i but O_i does not meet the causal future of O_j, then t(x_i) < t(x_j). Consequently, on
+therefore tends to exp(−(i/2) E_ret(j, j)) as the slabs are refined, the terms with a = b vanishing
 
-    every admissible configuration, ordering by the times of the centres is a linear extension of
+in the limit, and E_ret(j, j) = Σ_{k,l} Γ_kl p_k p_l does not refer to the time function. Since U is
 
-    the causal order.
+unitary and the q_k commute, so do the U† q_k U. To compute them, conjugate q_k first by the phase
 
+factor, which adds Σ_l Θ_kl p_l with Θ = (Γ + Γᵀ)/2, and then by exp(−i Σ_l p_l φ(h_l)), which adds
 
+φ(h_k) + ½ Σ_l E(h_k, h_l) p_l, the commutator series terminating because E is a number; and Θ_kl +
 
-Proof. (a) T increases strictly along future-directed causal curves, and every point of O_i has T ≤
+½ E(h_k, h_l) = Γ_kl. After the coupling of pointer k has ended, the interaction density no longer
 
-T(x_i) + τ < T(x_j) − τ, which is at most the value of T at every point of O_j. (b) Write vectors as
+contains p_k, so it commutes with q_k, and measuring q_k then has the same effect as measuring it at
 
-a = (a⁰, a^s), with a^s the spatial part, and let O_k = O + x_k, d = x_j − x_i, and D = O − O. Then
+the end. (b) Because exp(−iΓ_kk p_k²/2) q_k exp(iΓ_kk p_k²/2) = q_k − Γ_kk p_k, expectations in the
 
-O_j meets the causal future of O_i exactly when d ∈ J⁺ + D, with J⁺ the closed future cone, and O_i
+pre-chirped states equal expectations in the states η_k with q_k replaced by q_k − Γ_kk p_k. The
 
-meets the causal future of O_j exactly when −d ∈ J⁺ + D. The set D is convex and invariant under a ↦
+readings thus become q_k + φ(h_k) + Σ_{l≠k} Γ_kl p_l in the state ω ⊗ η_1 ⊗ ⋯ ⊗ η_n. Then Σ_k s_k
 
-−a, and, because O is symmetric under time reflection, it is also invariant under (a⁰, a^s) ↦ (−a⁰,
+y_k corresponds to φ(Σ_k s_k h_k) + Σ_l (s_l q_l + b_l p_l), a sum of commuting terms, and for the
 
-a^s). Suppose d⁰ ≤ 0 and d = k + w with k ∈ J⁺ and w ∈ D. Then w⁰ = d⁰ − k⁰ ≤ d⁰ ≤ 0. The set D
+Gaussian η_l, ⟨exp(i(s q_l + b p_l))⟩ = exp(−½ (s² σ_l² + b²/(4σ_l²))). The covariance is the
 
-contains (−w⁰, −w^s) and (w⁰, −w^s), and hence, by convexity, w′ = (w⁰ − 2d⁰, −w^s), because w⁰ ≤ w⁰
+quadratic term in s of the logarithm. Without the pre-chirp, the term Γ_kk p_k remains in the k-th
 
-− 2d⁰ ≤ −w⁰. Then −d − w′ = (k⁰, −k^s), which lies in J⁺, so −d ∈ J⁺ + D and the relation is mutual.
+reading. (c) In the momentum representation of the pointers, U acts for each value of the momenta as
 
-A one-way relation therefore forces d⁰ > 0. On an admissible configuration every relation between
+a phase times exp(−i Σ_k p_k φ(h_k)), which is the product of the single kicks exp(−i p_k φ(h_k)) up
 
-regions is one-way, and the causal order is the transitive closure of these relations, so it
+to a phase. Tracing out the pointers integrates over the momenta with the density Π_k |η̂_k(p_k)|²,
 
-increases the time of the centres. □
+where η̂_k is the momentum-space wave function of η_k; the pre-chirp does not change this density.
 
+Each factor is the kick density γ of Proposition 13.15(b) with σ = σ_k, so the unread channel is the
 
+composition of the unread Gaussian collapses, which commute (proof of Proposition 13.28(e)).
 
-Candidate extension 13.27 (Collapse guided by cosmological time; not adopted). Let (M, g) be an FLRW
+Proposition 13.16 gives the energy–momentum. (d) A Gaussian collapse of φ(h_k) with width σ_k is the
 
-spacetime with a big-bang singularity, so that its cosmological time T is regular, coincides with
+instrument obtained from an unchirped pointer by the instantaneous coupling V_k = exp(−i p_k φ(h_k))
 
-the FLRW time, is smooth, and has Cauchy surfaces as level sets (§13.1), and let φ be the free field
+followed by reading q_k: its Kraus operator for the reading y is ⟨y|V_k|η_k⟩ = η_k(y − φ(h_k)), the
 
-of §13.6. The candidate is stated for this class only. For other spacetimes with regular
+operator K_y of Proposition 13.12. For collapses applied in the order 1, …, n, the first Weyl
 
-cosmological time, a smooth smearing law built from T and g alone would first have to be specified.
+relation gives V_n ⋯ V_1 = exp(−(i/2) Σ_{k>l} E(h_k, h_l) p_k p_l) exp(−i Σ_k p_k φ(h_k)). In a
+
+linear extension of the causal order of an admissible configuration, if l precedes k then O_l does
+
+not meet the causal future of O_k, so Γ_lk = 0 and Γ_kl = E(h_k, h_l). Hence Σ_{k,l} Γ_kl p_k p_l =
+
+Σ_k Γ_kk p_k² + Σ_{k>l} E(h_k, h_l) p_k p_l, and the diagonal part of the phase in U cancels the
+
+pre-chirp. U applied to the pre-chirped pointers therefore gives the same joint state of the field
+
+and the pointers as V_n ⋯ V_1 applied to the unchirped ones, and the readings and conditional field

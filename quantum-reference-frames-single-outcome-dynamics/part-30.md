@@ -1,367 +1,483 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 30 of 40 (1,583 words)
+Part 30 of 35 (1,794 words)
 
-15.5 First Test Problems
+n = 3
 
+dA = record_dist(phiA0, WA, FA, n)
 
+dB = record_dist(V_AB @ phiA0, WB, FB, n)
 
-Three finite problems would test the quantum-gravity conditions without attempting a complete
+dN = record_dist(JA @ phiA0, W, F, n)
 
-theory. Each is a target, not a result.
+maxdp = max(abs(dA[h][0]-dB[h][0]) for h in dA)
 
+maxdpN = max(abs(dA[h][0]-dN[h][0]) for h in dA)
 
+maxdev = max(1-abs(np.vdot(V_AB @ dA[h][1], dB[h][1])) for h in dA)
 
-    (G1) Label-invariant realized causal-set histories. Define a stochastic growth law on labeled
+print(f"4. {len(dA)} histories of {n} stages; max |p_A-p_B| = {maxdp:.2e}, "
 
-    causal sets, in which each step adds one element to the future of some of the existing ones,
+      f"max |p_A-p_neutral| = {maxdpN:.2e}")
 
-    with a quantum-instrument version in which operations at unrelated elements commute. Impose a
+print(f"   max(1-|<V phi_A|phi_B>|) = {maxdev:.2e}, "
 
-    discrete form of general covariance and prove that the probabilities of unlabeled completed
+      f"total prob = {sum(v[0] for v in dA.values()):.12f}")
 
-    causal sets do not depend on the natural labeling used to compute them. For a fixed causal order
 
-    this is Theorem 13.4 and Proposition 13.7. For growth models it adapts the discrete general
 
-    covariance of classical sequential growth (Rideout & Sorkin 2000), and it should be presented as
+# naive 'same-form' rule in frame B (B copies A's matrices in its own coordinates)
 
-    an adaptation rather than as a new theorem. CTGP’s contribution would be ontological: whether
+dBnaive = record_dist(V_AB @ phiA0, WA, FA, n)
 
-    one birth order can be real while its labeling is unobservable. That reading faces a genuine
+tv = 0.5*sum(abs(dB.get(h, (0,))[0]-dBnaive.get(h, (0,))[0]) for h in set(dB) | set(dBnaive))
 
-    tension. If the birth orders of unrelated elements are pure gauge, asserting that one of them is
+print(f"5. naive same-form frame-B rule: total-variation distance "
 
-    physically real adds structure that the invariant theory cannot detect. That may be acceptable
+      f"from correct record measure = {tv:.3f}")
 
-    as empirically inaccessible ontology, the interpretive case of §14.6, but it requires a
 
-    principled defense.
 
+# non-injectivity: same present state, different histories (sharp flashes, no hopping)
 
+Hd = sum(g*np.cos(2*np.pi*r/N)*P(i, j, r) for (i, j) in pairs for r in range(N))
 
-    (G2) A finite quantum-geometry model. Take finitely many geometric configurations q, a physical
+Wd = red(expm(-1j*tau*Hd), JA)
 
-    state Σ_q c_q |q⟩, and an instrument representing geometry-related events. Prove that each
+Fs = {k: red(K, JA) for k, K in kraus(0).items()}
 
-    update maps physical states to physical states, that outcome probabilities are gauge-invariant,
+def run(psi, hist):
 
-    that the law generates one realized history without a future boundary condition, and that the
+    for k in hist:
 
-    history measure is consistent under admissible changes of description. Such a model would be a
+        psi = Fs[k] @ (Wd @ psi); psi /= np.linalg.norm(psi)
 
-    controlled finite analogue, not compatibility with an established theory of quantum gravity.
+    return psi
 
+h1, h2 = [(0, 1, 1), (0, 2, 3)], [(0, 2, 3), (0, 1, 1)]
 
+s1, s2 = run(phiA0, h1), run(phiA0, h2)
 
-    (G3) Two semiclassical branches. Take a state concentrated on two classical geometries whose
+print("6. records", h1, "vs", h2, "-> same present ray:", np.isclose(abs(np.vdot(s1, s2)), 1.0))
 
-    cosmological-time functions T_1 and T_2 differ, without assuming that any cosmological time
 
-    exists on the superposition. Ask whether one branch-independent ordering of events can be
 
-    defined that reduces in each branch i to F_i(T_i), with F_i increasing, wherever T_i is regular.
+# frame-relative product state becomes entangled in the other frame
 
-    The possible outcomes are that a common ordering exists, that it exists only approximately, that
+def ket(x, y): v = np.zeros(d2); v[ridx(x, y)] = 1; return v
 
-    an additional physical clock or reference field such as Brown–Kuchař dust is needed, or that the
+prodA = (ket(1, 0) + ket(2, 0))/np.sqrt(2)
 
-    construction fails. A failure would be informative, since it would identify a genuine
+def ent(v):
 
-    incompatibility between a particular formulation of CTGP and a particular model of quantum
+    sv = np.linalg.svd(v.reshape(N, N), compute_uv=False)**2; sv = sv[sv > 1e-12]
 
-    geometry.
+    return -(sv*np.log2(sv)).sum()
 
+print(f"7. entanglement entropy: frame A {ent(prodA):.3f} bits, "
 
+      f"frame B {ent(V_AB @ prodA):.3f} bits")
 
-----------------------------------------------------------------------------------------------------
 
-16. Roadmap
 
-----------------------------------------------------------------------------------------------------
+# an absolute (non-invariant) collapse operator leaves the physical sector
 
+Pabs = np.zeros((D, D))
 
+for t in itertools.product(range(N), repeat=3):
 
-Stage                     | Goal and deliverable                 | Status in this preprint
+    if t[2] == 0: Pabs[idx(*t), idx(*t)] = 1
 
---------------------------+--------------------------------------+-------------------------------
+v = Pabs @ (JA @ phiA0)
 
-1. Formal specification   | Definitions, conditions, exclusions; | Done for the finite domain
+leak = np.linalg.norm(v - Pi @ v)/np.linalg.norm(v)
 
-                          | L and S related precisely            | (Parts II–IV, §12)
+print(f"8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = {leak:.3f}")
 
-2. Relativistic toy model | Regulated single-outcome model on a  | Discrete analogues (Thm 13.4,
 
-                          | fixed background: normalization,     | Prop. 13.7); free-field
 
-                          | history consistency, covariance      | detectors (Thm 13.9); fixed-
+# ---- 9. continuous-time relational jump process (GRW-type), frames A and B
 
-                          |                                      | region Gaussian collapse (Cor.
+Lam, T = 1.2, 5.0
 
-                          |                                      | 13.14) and its energy cost
+JA_ops = {k: red(K, JA) for k, K in kraus(s, lam_=1.0).items() if k != 'none'}
 
-                          |                                      | (Prop. 13.16); Poisson
+JB_ops = {k: V_AB @ K @ V_AB.T for k, K in JA_ops.items()}      # = frame-B forms
 
-                          |                                      | locations, conditional (Thm
+HA, HB = red(H, JA), red(H, JB)
 
-                          |                                      | 13.21); obstructions to full
+assert np.allclose(sum(K.conj().T @ K for K in JA_ops.values()), np.eye(d2))
 
-                          |                                      | covariance (Props 13.22–13.24);
+def trajectory(psi, Hm, ops, r):
 
-                          |                                      | candidate cosmic-time
+    t, events = 0.0, []
 
-                          |                                      | completion and its gapless-
+    while True:
 
-                          |                                      | pointer variant (§13.11), not
+        dt = r.exponential(1/Lam)             # hit times: Poisson, rate Lam
 
-                          |                                      | adopted
+        if t + dt > T:
 
-3. Temporal QRFs          | Clock reductions from a neutral      | Distinctions and Prop. 14.2;
+            psi = expm(-1j*Hm*(T-t)) @ psi; break
 
-                          | description; event identity across   | late-record instruments with
+        t += dt; psi = expm(-1j*Hm*dt) @ psi
 
-                          | clock changes                        | ideal clocks (Prop. 14.5);
+        keys = list(ops)
 
-                          |                                      | Conjecture 14.4 open
+        p = np.array([np.linalg.norm(ops[k] @ psi)**2 for k in keys])
 
-4. Interacting, curved    | Interactions, regularization,        | Sufficient condition (Thm
+        k = keys[r.choice(len(keys), p=p/p.sum())]
 
-   quantum field theory   | continuum limits, curved backgrounds | 13.17); probe test (Target
+        psi = ops[k] @ psi; psi /= np.linalg.norm(psi)
 
-                          |                                      | 13.19) open
+        events.append((round(t, 12), k))
 
-5. Quantum geometry       | Constrained or pre-geometric model;  | Test problems G1–G3 (§15.5);
+    return psi, events
 
-                          | event ontology; semiclassical limit  | open
+same, worst, nev = True, 0.0, 0
 
+for trial in range(200):
 
+    pa, ea = trajectory(phiA0, HA, JA_ops, np.random.default_rng(1000+trial))
 
-Table 4. A staged program, with the status of each stage.
+    pb, eb = trajectory(V_AB @ phiA0, HB, JB_ops, np.random.default_rng(1000+trial))
 
+    same &= (ea == eb); nev += len(ea)
 
+    worst = max(worst, 1-abs(np.vdot(V_AB @ pa, pb)))
 
-Each stage should be independently publishable if it yields a substantive result. Failure at a stage
+print(f"9. continuous time: 200 trajectories, {nev} events; "
 
-would also be informative: it would identify either a needed refinement of CTGP or a genuine
+      f"identical event records in A and B: {same}")
 
-incompatibility, rather than leaving the question open. CTGP does not need to abandon its continuous
+print(f"   max(1-|<V psi_A|psi_B>|) at final time = {worst:.1e}")
 
-global generation, its rejection of density-weighted generation, or its unique factual past to
 
-pursue this program. It does need to keep a clear line between its foundational ontology and any
 
-particular quantum implementation.
+# ---- 10. generic parameters: do distinct histories reach the same present ray?
 
+fin = [(h, v[1]) for h, v in dA.items()]
 
+G = np.array([v for _, v in fin]); ov = np.abs(G.conj() @ G.T)
 
-====================================================================================================
+np.fill_diagonal(ov, 0); best = ov.max()
 
-PART VI. Results and Outlook
+ncoinc = int((ov > 1 - 1e-10).sum() // 2)
 
-====================================================================================================
+F2 = best**2; helstrom = 0.5*(1 - np.sqrt(1 - F2))
 
+print(f"10. generic parameters, {len(fin)} three-stage histories: "
 
+      f"exact coincidences = {ncoinc}; largest overlap = {best:.4f}")
 
-----------------------------------------------------------------------------------------------------
+print(f"    minimum error probability for telling that pair apart (Helstrom) = {helstrom:.3f}")
 
-17. Scope, Results, and Open Problems
 
-----------------------------------------------------------------------------------------------------
 
+# ---- 11. finite-width flashes: every present state is reachable by every history
 
+Phi = rng.normal(size=d2) + 1j*rng.normal(size=d2); Phi /= np.linalg.norm(Phi)
 
-17.1 What Kind of Result This Is
+hists = [((0, 1, 1), (1, 2, 4), 'none'), ('none', (0, 2, 0), (0, 1, 3))]
 
+res = []
 
+for h in hists:
 
-The preprint establishes an existence result, conditional on the CTGP interpretation: at least one
+    psi = Phi.copy()
 
-well-defined model, within an explicitly specified class, has a structure that jointly satisfies the
+    for k in reversed(h):                     # back-propagate: psi_prev ~ W^-1 F_k^-1 psi
 
-formal counterparts of CTGP’s quantum commitments. The mathematics establishes the structure;
+        psi = WA.conj().T @ np.linalg.solve(FA[k], psi); psi /= np.linalg.norm(psi)
 
-reading that structure as one realized present grounded in primitive past-tensed properties is
+    psi0, pr = psi.copy(), 1.0
 
-CTGP’s interpretation (Ontological Reading 4.3, Thesis 5.10, §5.7), and mathematical consistency is
+    for k in h:                               # forward run from the reconstructed start
 
-not metaphysical vindication. It does not establish general compatibility, which would require
+        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)
 
-showing that every physically admissible QRF theory can accommodate those commitments. It does not
+    res.append((abs(np.vdot(psi, Phi)), pr, psi0))
 
-establish physical adequacy, which would require reproducing the relevant features of established
+print(f"11. two different 3-stage histories, same present ray: "
 
-quantum physics, including relativistic quantum field theory, and of general relativity. Existence
+      f"|<end|Phi>| = {res[0][0]:.12f}, {res[1][0]:.12f}")
 
-results of this kind are a standard and useful form of progress: they show that a set of commitments
+print(f"    history probabilities {res[0][1]:.2e}, {res[1][1]:.2e}; "
 
-is consistent and provide a concrete object on which objections can be tested. In the terms of Table
+      f"overlap of the two initial states = {abs(np.vdot(res[0][2], res[1][2])):.3f}")
 
-3, the finite model establishes mathematical compatibility on its own domain. Part V establishes
 
-finite-dimensional analogues of the relativistic and temporal results it requires, and states the
 
-rest as targets.
+# ---- 12. a history-dependent (QRF-covariant) law is not a kernel on the present state
 
+# second instrument: same flashes, pair weights q = (1/2, 1/4, 1/4) instead of 1/3 each
 
+def kraus_q(width, q):
 
-17.2 Established
+    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()
 
+    out = {'none': np.sqrt(1-lam)*np.eye(D)}
 
+    for (i, j), qq in zip(pairs, q):
 
-Within the class of models of Part II (finite symmetry group, regular representations, invariant
+        for dd in range(N):
 
-unitary-plus-instrument dynamics) and its continuous-time form (§9), and in the explicit instance of
+            out[(i, j, dd)] = np.sqrt(lam*qq)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
 
-Part III:
+                                                  for r in range(N))
 
+    return out
 
+def law(Fa, Fb):                    # instrument for transitions after the first
 
-    (1) Two frame descriptions describe one complete state iff they satisfy Criterion 5.5, iff they
+    return lambda first: Fa if (first != 'none' and first[:2] == (0, 1)) else Fb
 
-    lie in one description orbit; the orbits partition the frame descriptions (Theorem 5.6,
+def run_law(psi, hist, Fa, Fb, Wm):
 
-    Proposition 5.8). Ontological identity of the represented world is the further interpretive
+    pr = 1.0
 
-    Thesis 5.10.
+    for m, k in enumerate(hist):
 
+        Fm = Fa if m == 0 else law(Fa, Fb)(hist[0])
 
+        v = Fm[k] @ (Wm @ psi); q = np.vdot(v, v).real; pr *= q; psi = v/np.sqrt(q)
 
-    (2) Admissible truth profiles are characterized exactly (Theorem 4.8).
+    return psi, pr
 
+def next_law(psi, first, Fa, Fb, Wm):
 
+    Fm = law(Fa, Fb)(first)
 
-    (3) State correspondence does not settle identity of history (Proposition 5.9); for invertible
+    return np.array([np.linalg.norm(Fm[k] @ (Wm @ psi))**2 for k in Fa])
 
-    laws, every present ray is reachable along every finite event sequence from a suitably chosen
+# (a) finite width, across initial conditions: invert the two branch products
 
-    initial ray (Proposition 4.12).
+FA_q = {k: red(K, JA) for k, K in kraus_q(s, (0.5, 0.25, 0.25)).items()}
 
+Phi_c = WA.conj().T @ ket(1, 3)                         # present ray; W Phi_c = |1,3>
 
+br1, br2 = ((0, 1, 2), (1, 2, 0)), ('none', (1, 2, 0))
 
-    (4) Determinacy is frame-independent, with a three-tier criterion in which primitive events,
+starts = []
 
-    distinguished from sharp values, carry single-outcome realism (Definition 5.1, Propositions 4.4
+for hb in br1, br2:
 
-    and 5.2).
+    Fsecond = law(FA, FA_q)(hb[0])
 
+    M = Fsecond[hb[1]] @ WA @ FA[hb[0]] @ WA
 
+    psi0 = np.linalg.solve(M, Phi_c); psi0 /= np.linalg.norm(psi0)
 
-    (5) Valid frame changes intertwine the generative law: the measure over histories, the
+    end, pr = run_law(psi0, hb, FA, FA_q, WA); starts.append((abs(np.vdot(end, Phi_c)), pr))
 
-    conditional independence of future from past given the present, and the truth of every
+tv_a = 0.5*np.abs(next_law(Phi_c, br1[0], FA, FA_q, WA)
 
-    determinate proposition are frame-invariant and preserved by generation (Theorems 5.12 and 5.16,
+                  - next_law(Phi_c, br2[0], FA, FA_q, WA)).sum()
 
-    Corollary 5.14). Laws that merely look alike in different frames do not describe one world
+print(f"12a. finite width: both branches end at the same ray "
 
-    (Corollary 5.13).
+      f"(|<end|Phi>| = {starts[0][0]:.12f}, {starts[1][0]:.12f}),")
 
+print(f"     probabilities {starts[0][1]:.2e}, {starts[1][1]:.2e}; "
 
+      f"next-event total variation = {tv_a:.4f} (lambda/6 = {lam/6:.4f})")
 
-    (6) Ontological identity, physical equivalence, and observational indistinguishability are
+# (b) sharp flashes, J = 0, one fixed initial state
 
-    distinct relations, ordered by strict implication (Proposition 5.19).
+Fs1 = {k: red(K, JA) for k, K in kraus(0).items()}
 
+Fs2 = {k: red(K, JA) for k, K in kraus_q(0, (0.5, 0.25, 0.25)).items()}
 
+w1, w2 = ((0, 1, 1), (0, 2, 3)), ((0, 2, 3), (0, 1, 1))
 
-    (7) L is generated, admissible, not reducible to S, accurate, frame-covariant, and dynamically
+e1, p1 = run_law(phiA0, w1, Fs1, Fs2, Wd); e2, p2 = run_law(phiA0, w2, Fs1, Fs2, Wd)
 
-    idle (Theorem 5.20).
+tv_b = 0.5*np.abs(next_law(e1, w1[0], Fs1, Fs2, Wd) - next_law(e2, w2[0], Fs1, Fs2, Wd)).sum()
 
+print(f"12b. sharp, fixed initial state: same present ray: "
 
+      f"{np.isclose(abs(np.vdot(e1, e2)), 1.0)}; probabilities {p1:.3e}, {p2:.3e};")
 
-    (8) The model has a continuous-time form, with histories as marked point processes, for which
+print(f"     next-event total variation = {tv_b:.4f}")
 
-    admissibility, reconstruction, dynamical idleness, cross-frame correspondence, and truth
 
-    preservation are proved (Propositions 9.2–9.9, Theorems 9.7 and 9.10); the identification of its
 
-    time parameter with cosmic time is stated as a postulate (§9.4).
+# ---- 13. conditioning on a future event = forward Markov law with a Doob h-transform
 
+E, nT = (1, 2, 0), 3
 
+def h(psi, m):                                          # Pr(event E at stage nT | psi at m)
 
-    (9) Within the class, generative order is shared by all frames, the law is generable, the future
+    if m == nT - 1: return np.linalg.norm(FA[E] @ (WA @ psi))**2
 
-    is open, and there are no relative facts (§10).
+    tot = 0.0
 
+    for k in F:
 
+        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real
 
-    (10) The truth profile is formally interchangeable with the event history (Proposition 5.21);
+        if q > 1e-15: tot += q*h(v/np.sqrt(q), m+1)
 
-    its independent role is ontological, as the present ground for past-tense truths required by
+    return tot
 
-    CTGP’s truthmaker principle, and the choice between this reading and an eternalist flash
+cond = {hh: v[0] for hh, v in dA.items() if hh[-1] == E}
 
-    ontology rests on CTGP’s independent arguments (§5.7).
+Z = sum(cond.values()); cond = {hh: p_/Z for hh, p_ in cond.items()}
 
+def doob(hist):
 
+    psi, p_ = phiA0.copy(), 1.0
 
-    (11) CTGP’s commitments exclude models that are otherwise QRF-covariant (Table 2); in
+    for m, k in enumerate(hist):
 
-    particular, a QRF-covariant law that depends on past facts not carried by the present state is
+        v = FA[k] @ (WA @ psi); q = np.vdot(v, v).real; nxt = v/np.sqrt(q)
 
-    not generable (Proposition 11.4), whereas conditioning on a future event has an equivalent
+        hn = (1.0 if k == E else 0.0) if m == nT-1 else h(nxt, m+1)
 
-    forward formulation and is not by itself a failure of generability (Proposition 11.1, Example
+        p_ *= q*hn/h(psi, m); psi = nxt
 
-    11.2). Within the perspective-neutral construction, events that carry physical states to
+    return p_
 
-    physical states require collapse operators whose action on physical states agrees with that of
+dmax = max(abs(doob(hh) - pc) for hh, pc in cond.items())
 
-    invariant, relational operators; this does not single out the particular flash ontology used
+print(f"13. conditioned on {E} at stage {nT}: Doob forward kernel vs conditioned law, "
 
-    here (§7.4).
+      f"max diff = {dmax:.1e}")
 
 
 
-    (12) The finite model is CTGP-admissible on its domain under the proposed criterion of
+# ---- 14. realized-history consistency for causally local instruments (brickwork circuit)
 
-    Definition 12.1 (Proposition 12.2).
+rq = np.random.default_rng(2026)
 
+nq = 6
 
+slots = [(1, 0), (1, 2), (1, 4), (2, 1), (2, 3), (3, 0), (3, 2), (3, 4)]   # (layer, first qubit)
 
-    (13) The level sets of regular cosmological time are future Cauchy surfaces, and a level set is
+def qubits(x): return {slots[x][1], slots[x][1] + 1}
 
-    a Cauchy surface exactly when every future-inextendible causal curve passes beyond it
+direct = {(x, y) for x in range(len(slots)) for y in range(len(slots))
 
-    (Proposition 13.1).
+          if slots[x][0] < slots[y][0] and qubits(x) & qubits(y)}
 
+prec = set(direct)
 
+while True:                                             # transitive closure
 
-    (14) Agreement of density operators on every hypersurface does not fix the probabilities of
+    new = {(a, d) for (a, b) in prec for (c, d) in prec if b == c} - prec
 
-    realized histories (Proposition 13.2). For causally local instruments on a finite causal order,
+    if not new: break
 
-    realized-history probabilities are foliation-independent and outcome marginals do not depend on
+    prec |= new
 
-    instruments outside the designated predecessor set, so within such finite models the choice of
+def rand_instr(r):                                      # random 2-outcome instrument, 2 qubits
 
-    generative foliation is empirically invisible (Theorem 13.4, Corollary 13.5); the result extends
+    Z_ = r.normal(size=(8, 4)) + 1j*r.normal(size=(8, 4)); Q, _ = np.linalg.qr(Z_)
 
-    to countably many events with finite pasts (Proposition 13.7), and identifying the predecessor
+    return [Q[0:4, :], Q[4:8, :]]
 
-    set with the relativistic causal past requires the further assumptions (E1)–(E6).
+def embed(K, q0, n=nq): return np.kron(np.kron(np.eye(2**q0), K), np.eye(2**(n - q0 - 2)))
 
+instr = {x: rand_instr(rq) for x in range(len(slots))}
 
+psi_c = rq.normal(size=2**nq) + 1j*rq.normal(size=2**nq); psi_c /= np.linalg.norm(psi_c)
 
-    (15) For finite networks of gapless detectors on a free relativistic field, realized-history
+def lin_ext(r):
 
-    probabilities are foliation-independent, detector statistics are given explicitly, and there is
+    left, order = set(range(len(slots))), []
 
-    no operational signaling between causally separated regions, including in Sorkin’s three-region
+    while left:
 
-    configuration (Theorem 13.9). Localizing the Kraus operators of an operation does not by itself
+        ready = [x for x in left if not any((y, x) in prec for y in left)]
 
-    secure this (Example 13.10).
+        x = ready[r.integers(len(ready))]; order.append(x); left.remove(x)
 
+    return tuple(order)
 
+def joint(order, ins, where=None):
 
-    (16) The same conclusions hold for every finite, causally orderable network of Weyl-diagonal
+    where = where or {x: slots[x][1] for x in range(len(slots))}
 
-    instruments on a free field (Theorem 13.13). Gaussian collapse of a smeared field is Weyl-
+    out = {}
 
-    diagonal (Proposition 13.12), which yields a regulated spontaneous-collapse network with
+    for outs in itertools.product((0, 1), repeat=len(slots)):
 
-    foliation-independent histories and no signaling between causally separated regions (Corollary
+        v = psi_c.copy()
 
-    13.14), subject to the limitations (L1)–(L4).
+        for x in order: v = embed(ins[x][outs[x]], where[x]) @ v
+
+        out[outs] = v
+
+    return out
+
+def all_ext(left, prefix):
+
+    if not left: yield tuple(prefix); return
+
+    for x in sorted(left):
+
+        if not any((y, x) in prec for y in left):
+
+            yield from all_ext(left - {x}, prefix + [x])
+
+exts = set(all_ext(set(range(len(slots))), []))
+
+ref = joint(next(iter(exts)), instr)
+
+dp, ds = 0.0, 0.0
+
+for e in exts:
+
+    jj = joint(e, instr)
+
+    for o in ref:
+
+        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real
+
+        dp = max(dp, abs(pa - pb))
+
+        if pa > 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))
+
+print(f"14. causally local instruments: all {len(exts)} foliations (linear extensions), "
+
+      f"{len(ref)} outcome histories;")
+
+print(f"    max |p - p'| = {dp:.1e}, max state deviation = {ds:.1e}")
+
+# no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change
+
+X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}
+
+def marg(ins):
+
+    jj = joint(next(iter(exts)), ins); m = np.zeros(2)
+
+    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real
+
+    return m
+
+m0 = marg(instr); worst = 0.0
+
+for y in set(range(len(slots))) - past:
+
+    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())
+
+print(f"    instruments changed outside the predecessor set of slot {X}: "
+
+      f"max change = {worst:.1e}")
+
+# consistency on nested order ideals: law on I computed from instruments in I alone
+
+I_ideal = sorted(past)
+
+devI = 0.0
+
+full = joint(next(iter(exts)), instr)
+
+for oI in itertools.product((0, 1), repeat=len(I_ideal)):
+
+    v = psi_c.copy()
+
+    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v
+
+    pI = np.vdot(v, v).real

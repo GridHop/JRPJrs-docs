@@ -1,6 +1,6 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 01 of 3 (1,683 words)
+Part 01 of 3 (1,792 words)
 
 FREE WILL — HUMANS MIGHT ACTUALLY HAVE WILL, VOLITION, AND SELF-AGENCY
 
@@ -344,6 +344,18 @@ teleological force.
 
 
 
+Plans illustrate this prospective organization. A plan is a presently instantiated representation of
+
+an intended future outcome and a proposed course of action. It is not the future outcome itself, and
+
+neither possessing nor executing a plan guarantees that outcome: mistakes, accidents, imperfect
+
+execution, and unforeseen circumstances can intervene. Agency consists partly in using such
+
+representations to guide action, detect deviations, and revise behavior under uncertainty.
+
+
+
 This framework aligns naturally with predictive processing models in cognitive science and
 
 neuroscience, according to which brains are fundamentally prediction-generating systems rather than
@@ -391,3 +403,15 @@ free action is not the absence of causation but the structural relationship betw
 motivational hierarchy and their behavior.
 
 
+
+5. Source Incompatibilism and "Ultimate" Authorship
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+A stronger objection comes from source incompatibilism, which argues that individuals cannot possess
+
+genuine authorship because they did not create the underlying architecture that generates their
+
+decisions (Strawson, 1994; Pereboom, 2001). Genes, developmental history, environmental conditions,

@@ -1,141 +1,151 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 12 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 12 of 40 · 1,698 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-12.md">Raw Markdown</a> <a href="part-11.html">Previous part</a> <a href="part-13.html">Next part</a></nav><main class="source"><div>1 a stage with Pr(k_n = E | Ψ_{σ_0}) &gt; 0. For m &lt; n define h_m(Ψ) as the probability that k_n = E</div>
-<div>given state Ψ at stage σ_m, computed from the kernel K. The measure over histories conditioned on</div>
-<div>k_n = E is generated forward by the stage-dependent kernel</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 12 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 12 of 35 · 1,784 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-12.md">Raw Markdown</a><a href="part-11.html">Previous part</a><a href="part-13.html">Next part</a></nav><main class="source"><div>g) with a regular cosmological time function T(p) = sup { L(γ) : γ a past-directed causal curve from</div>
+<div>p }, and take the proposed CTGP presents to be the level sets Σ_t = T^{−1}(t).</div>
 <div>&nbsp;</div>
-<div>        K^h_m(k | Ψ) = K(k | Ψ) · h_{m+1}(Ψ_k) / h_m(Ψ)        for m &lt; n−1,</div>
-<div>        K^h_{n−1}(k | Ψ) = K(k | Ψ) · 1[k = E] / h_{n−1}(Ψ),</div>
+<div>The relevant regularity results are those of Andersson, Galloway and Howard (1998), and they must be</div>
+<div>stated with care. If T is regular, meaning finite everywhere and tending to zero along every past-</div>
+<div>inextendible causal curve, then (M, g) is globally hyperbolic; T is a time function, continuous and</div>
+<div>strictly increasing along future-directed causal curves; every point p lies at the future end of a</div>
+<div>maximal timelike geodesic of length T(p) issuing from the initial singularity; and T is locally</div>
+<div>Lipschitz, with first and second derivatives existing almost everywhere. The nonempty level sets are</div>
+<div>closed, acausal, edgeless, and future Cauchy surfaces: their future Cauchy horizons are empty</div>
+<div>(Andersson, Galloway &amp; Howard 1998, Corollary 2.6). They need not be Cauchy surfaces in the full,</div>
+<div>two-sided sense, and the paper says so explicitly. The following proposition states exactly when</div>
+<div>they are.</div>
 <div>&nbsp;</div>
-<div>where Ψ_k = F_k W Ψ / ‖F_k W Ψ‖ and 1[k = E] is 1 if k = E and 0 otherwise. This kernel is Markov in</div>
-<div>the present state at each stage, and it is frame-covariant.</div>
+<div>Proposition 13.1 (When a level set is a Cauchy surface). Let T be regular and let S_a = T^{−1}(a) be</div>
+<div>nonempty. Then S_a is a Cauchy surface if and only if every future-inextendible causal curve</div>
+<div>contains points at which T &gt; a.</div>
 <div>&nbsp;</div>
-<div>Proof. This is the Doob h-transform. The product of the kernels K^h along a history telescopes to</div>
-<div>Π_m K(k_{m+1} | Ψ_m) · 1[k_n = E] / h_0(Ψ_{σ_0}), which is the conditioned probability of the</div>
-<div>history; the normalization of each K^h_m follows from h_m(Ψ) = Σ_k K(k | Ψ) h_{m+1}(Ψ_k). Frame</div>
-<div>covariance holds because K and the h_m are computed from frame-independent probabilities (Theorem</div>
-<div>5.12). □</div>
+<div>Proof. (⇐) Let γ be an inextendible causal curve. By regularity, T tends to zero toward the past end</div>
+<div>of γ, and by hypothesis T exceeds a somewhere on γ. Since T is continuous and strictly increasing</div>
+<div>along γ, γ meets S_a exactly once. Every inextendible causal curve therefore meets S_a exactly once,</div>
+<div>so S_a is a Cauchy surface. (⇒) Suppose some future-inextendible causal curve γ has T ≤ a at all of</div>
+<div>its points, and extend it to the past to an inextendible causal curve. Because T is strictly</div>
+<div>increasing, T &lt; a along the whole extended curve (were T = a at some point, T would exceed a beyond</div>
+<div>it). The curve never meets S_a, so S_a is not a Cauchy surface. □</div>
 <div>&nbsp;</div>
-<div>The numerical check (Appendix B, item 13) confirms that the forward kernel reproduces the</div>
-<div>conditioned measure over all three-stage histories.</div>
+<div>In FLRW models with a big-bang singularity, whether they expand forever or recollapse, cosmological</div>
+<div>time is the FLRW time and every level set is a Cauchy surface. But a causal curve that ends at a</div>
+<div>singularity inside a black hole typically has bounded T, and level sets beyond that bound are not</div>
+<div>met by it. In universes containing black holes, later level sets can therefore be future Cauchy</div>
+<div>surfaces without being Cauchy surfaces. Any CTGP claim that the present is a Cauchy surface should</div>
+<div>accordingly be restricted to the level sets satisfying Proposition 13.1, with the future Cauchy</div>
+<div>property as the general statement.</div>
 <div>&nbsp;</div>
-<div>Example 11.2 (What future conditioning does and does not violate). Take the model of Part III and</div>
-<div>the event E = (B, C, 0) at stage σ_n.</div>
+<div>For quantum fields on such a background, a state is assigned to each admissible hypersurface, as a</div>
+<div>density operator ρ_Σ or a vector state Ψ_Σ in a suitable representation. In curved-spacetime quantum</div>
+<div>field theory there is in general no single preferred Fock representation, and the algebraic</div>
+<div>formulation, in which states are positive normalized functionals on a net of local observable</div>
+<div>algebras, is the more appropriate setting (Wald 1994; Hollands &amp; Wald 2015).</div>
 <div>&nbsp;</div>
-<div>    (i) As a mathematical operation, conditioning on E computes probabilities given a hypothetical</div>
-<div>    later event. It imposes nothing on the world and is not excluded.</div>
+<div>13.2 Hypersurface Evolution and Its Limits</div>
 <div>&nbsp;</div>
-<div>    (ii) As a fundamental final-boundary requirement, the theory would consist of the ring dynamics</div>
-<div>    together with the stipulation that E occurs at σ_n, imposed as an independent input. The forward</div>
-<div>    kernel K^h of Proposition 11.1 exists, but its definition refers to E and n, which are data</div>
-<div>    about a later stage. A law of this kind is precisely a final condition imposed as an independent</div>
-<div>    input to fix earlier evolution, which CTGP – explained, §12.2, identifies as incompatible with</div>
-<div>    presentism.</div>
+<div>A natural starting point is the Tomonaga–Schwinger equation (Tomonaga 1946; Schwinger 1948),</div>
 <div>&nbsp;</div>
-<div>    (iii) If K^h_m is instead posited directly as a stage-dependent law, with no reference to E, it</div>
-<div>    is generable, and CTGP does not exclude it.</div>
+<div>        i ħ δΨ_Σ / δΣ(x) = H_int(x) Ψ_Σ,</div>
 <div>&nbsp;</div>
-<div>Since (ii) and (iii) are empirically equivalent, CTGP’s own criterion does not count finite-stage</div>
-<div>future conditioning in this model as a genuine failure of generability: an equivalent forward</div>
-<div>formulation exists. What CTGP rejects in case (ii) is the claim that the boundary condition is a</div>
-<div>fundamental input, not the probability measure that results. Conditioning is therefore not the right</div>
-<div>test case. A genuine failure must be one for which no forward formulation on the admissible present</div>
-<div>physical states exists.</div>
+<div>which describes how a state changes under local deformations of a spacelike hypersurface. Its formal</div>
+<div>integrability condition is [H_int(x), H_int(y)] = 0 for spacelike-separated x and y. For interacting</div>
+<div>fields this expression requires a treatment of operator-valued distributions and their domains; it</div>
+<div>is not by itself an existence theorem. CTGP – explained proposes an open-system analogue, δρ_Σ /</div>
+<div>δΣ(x) = ℒ_x(ρ_Σ), with conditional integrability (Proposition 17.16) and a conditional continuum</div>
+<div>limit (Theorem 17.17). These are valuable starting points, but they are ensemble-level results: they</div>
+<div>concern density operators. The next subsection shows why a single-outcome ontology needs more.</div>
 <div>&nbsp;</div>
-<div>Example 11.3 (A QRF-covariant, history-dependent law). Fix the physical state space H_phys of Part</div>
-<div>III and a width s ≥ 0, where s = 0 denotes the sharp limit. Besides the flash instrument {F_k} of</div>
-<div>§7.2, which chooses each pair with weight 1/3, let {F″_k} be the instrument with the same flashes</div>
-<div>but pair weights q_{AB} = 1/2, q_{AC} = q_{BC} = 1/4:</div>
+<div>13.3 Ensemble Consistency Is Not Realized-History Consistency</div>
 <div>&nbsp;</div>
-<div>        F″_∅ = √(1−λ) · 1,     F″_{(i,j,d)} = √(λ q_{ij}) · Σ_r √(w(r−d)) P_{ij}(r).</div>
+<div>Proposition 13.2 (Equal ensembles, different histories). There exist two instrument sequences whose</div>
+<div>channels coincide at every stage, so that they assign the same density operator to every stage for</div>
+<div>every initial state, but whose realized-history measures differ.</div>
 <div>&nbsp;</div>
-<div>Completeness holds because the weights sum to 1. Define a law that applies {F_k} at the first</div>
-<div>transition and, at every later transition, applies {F_k} if the first event was a flash on the pair</div>
-<div>(A, B), and {F″_k} otherwise. Both instruments are invariant and the rule consults only an invariant</div>
-<div>event label, so the law is QRF-covariant; it is single-outcome; and each history carries a well-</div>
-<div>defined truth profile.</div>
+<div>Proof. On a qubit, let the first instrument be either I_1 = { |0⟩⟨0|, |1⟩⟨1| } or I_2 = { 1/√2, Z/√2</div>
+<div>}, where Z = |0⟩⟨0| − |1⟩⟨1|, and let the second be the measurement of X with outcomes ±, {|+⟩⟨+|,</div>
+<div>|−⟩⟨−|}. Both first instruments implement the complete dephasing channel ρ ↦ |0⟩⟨0|ρ|0⟩⟨0| +</div>
+<div>|1⟩⟨1|ρ|1⟩⟨1|, so the averaged states agree at every stage. For the initial state |+⟩, I_1 yields</div>
+<div>outcomes 0 and 1 with probability 1/2 each and leaves |0⟩ or |1⟩, after which the X outcome is</div>
+<div>uniformly random. I_2 yields its two outcomes with probability 1/2 each and leaves |+⟩ or |−⟩, after</div>
+<div>which the X outcome is perfectly correlated with the first outcome. The joint laws of (first event,</div>
+<div>second event) are uniform in the first case and perfectly correlated in the second: the mutual</div>
+<div>information is 0 bits in one case and 1 bit in the other. □</div>
 <div>&nbsp;</div>
-<div>The law is not generable on H_phys if two histories of the same length reach the same present ray</div>
-<div>while calling for different next-event distributions. Two versions of this claim should be</div>
-<div>distinguished: one across possible initial conditions, and one for a single fixed initial condition.</div>
-<div>Both hold, and the next proposition proves each by explicit construction.</div>
+<div>Proposition 13.2 is an instance of the non-uniqueness of unravellings of a quantum channel (Wiseman</div>
+<div>&amp; Milburn 2010). Its consequence for CTGP is direct: a covariant or hypersurface-consistent master</div>
+<div>equation does not by itself supply a covariant stochastic ontology. Two theories can agree on every</div>
+<div>density operator on every hypersurface and still disagree about the probabilities of the realized</div>
+<div>histories that, on CTGP, are what actually happened. Compatibility with a single-outcome ontology</div>
+<div>therefore needs a consistency theorem at the level of realized histories, not only at the level of</div>
+<div>states.</div>
 <div>&nbsp;</div>
-<div>Proposition 11.4 (The history-dependent law is not generable on H_phys). No kernel on present states</div>
-<div>in H_phys, even one allowed to depend on the stage index, reproduces the law of Example 11.3.</div>
-<div>Specifically:</div>
+<div>13.4 A Realized-History Consistency Theorem for Causally Local Instruments</div>
 <div>&nbsp;</div>
-<div>    (a) Across initial conditions (s &gt; 0). For every present ray of the form [Φ] with W Φ =</div>
-<div>    R_A^{−1}|x, y⟩, there are two histories of length 2, with different initial rays, that both</div>
-<div>    reach [Φ] with nonzero probability and whose next-event distributions differ in total variation</div>
-<div>    by exactly λ/6.</div>
+<div>The following theorem is a finite-dimensional analogue of the required relativistic result. Events</div>
+<div>occur at a finite set of slots, ordered by a partial order intended to represent causal precedence;</div>
+<div>a foliation is any way of advancing through the slots consistently with that order.</div>
 <div>&nbsp;</div>
-<div>    (b) With one fixed initial condition (s = 0, J = 0). For every initial state with nonzero</div>
-<div>    amplitude on the configuration b−a = 1, c−a = 3 (N ≥ 4), the two histories of Proposition 8.1</div>
-<div>    both have nonzero probability under the law of Example 11.3, both reach the same present ray,</div>
-<div>    and their next-event distributions again differ in total variation by exactly λ/6.</div>
+<div>Definition 13.3 (Causally local event structure). A causally local event structure consists of a</div>
+<div>finite partially ordered set (E, ≺) of event slots, a finite-dimensional Hilbert space H with</div>
+<div>initial state Ψ_0, and for each slot x an instrument {K^x_a : a ∈ A_x} on H, such that for every</div>
+<div>pair of incomparable (spacelike) slots x and y, every K^x_a commutes with every K^y_b. A foliation</div>
+<div>is a linear extension λ = (x_1, …, x_N) of ≺; its successive initial segments {x_1, …, x_j} are the</div>
+<div>regions to the past of its successive hypersurfaces. For an outcome assignment α = (a_x)_{x∈E}, set</div>
 <div>&nbsp;</div>
-<div>Proof. A kernel on present states, even a stage-dependent one, assigns the same next-event</div>
-<div>distribution to any two histories of equal length that reach the same present ray. It therefore</div>
-<div>suffices to exhibit such pairs with different next-event distributions.</div>
+<div>        v_λ(α) = K^{x_N}_{a_{x_N}} ⋯ K^{x_1}_{a_{x_1}} Ψ_0,     P_λ(α) = ‖v_λ(α)‖².</div>
 <div>&nbsp;</div>
-<div>(a) Take the histories ω_1 = ((A,B,d), k) and ω_2 = (∅, k) with any d and any flash k. Under the</div>
-<div>law, ω_1 applies F_k at its second transition (its first event is on the pair (A,B)), and ω_2</div>
-<div>applies F″_k (its first event is ∅). The branch products M_1 = F_k W F_{(A,B,d)} W and M_2 = F″_k W</div>
-<div>F_∅ W are invertible, because for s &gt; 0 every Kraus operator of either instrument is invertible</div>
-<div>(w(r) &gt; 0 for all r and λ &lt; 1). Define the initial rays [M_1^{−1} Φ] and [M_2^{−1} Φ]. Running each</div>
-<div>history from its initial ray returns a vector proportional to Φ, and each transition has nonzero</div>
-<div>probability because invertible operators annihilate no nonzero vector. At the present stage, ω_1</div>
-<div>calls for {F_k} and ω_2 for {F″_k}. Since W Φ is the configuration state with separations x, y, and</div>
-<div>y−x for the pairs (A,B), (A,C), (B,C), the probability of the flash (i, j, d′) is λ · (1/3) ·</div>
-<div>w(r_{ij} − d′) under {F_k} and λ · q_{ij} · w(r_{ij} − d′) under {F″_k}, where r_{ij} is the</div>
-<div>corresponding separation; the probability of ∅ is 1 − λ in both. Summing |λ(q_{ij} − 1/3)| over the</div>
-<div>three pairs and over d′ (using Σ_{d′} w = 1) gives λ(1/6 + 1/12 + 1/12) = λ/3, so the total-</div>
-<div>variation distance is λ/6.</div>
+<div>Theorem 13.4 (Realized-history consistency). In a causally local event structure:</div>
 <div>&nbsp;</div>
-<div>(b) Take ω = ((A,B,1), (A,C,3)) and ω* = ((A,C,3), (A,B,1)), as in Proposition 8.1. With s = 0 the</div>
-<div>Kraus operators of both instruments are multiples of configuration projectors: F_{(i,j,d)} = √(λ/3)</div>
-<div>P_{ij}(d) and F″_{(i,j,d)} = √(λ q_{ij}) P_{ij}(d). With J = 0, W is diagonal in the configuration</div>
-<div>basis. Under the law, ω applies {F_k} at its second transition (its first event is on (A,B)), and ω*</div>
-<div>applies {F″_k} (its first event is on (A,C)). In both cases the second operator is a nonzero</div>
-<div>multiple of a configuration projector (√(λ/3) P_{AC}(3) along ω and √(λ/2) P_{AB}(1) along ω*), and</div>
-<div>the first is √(λ/3) times the other projector. Since W is diagonal and commutes with both</div>
-<div>projectors, and P_{AB}(1) P_{AC}(3) = P_{AC}(3) P_{AB}(1) = |1, 3⟩⟨1, 3| in frame-A coordinates, the</div>
-<div>unnormalized final vectors are (λ/3) e^{2iθ(1,3)} ⟨1, 3|ψ_0⟩ |1, 3⟩ and (λ/√6) e^{2iθ(1,3)} ⟨1,</div>
-<div>3|ψ_0⟩ |1, 3⟩, which differ only by a positive factor. Hence, as in Proposition 8.1: both histories</div>
-<div>have nonzero probability, because the initial state has nonzero amplitude on the configuration (x,</div>
-<div>y) = (1, 3), and both reach the present ray [R_A^{−1}|1, 3⟩]. At that ray, W Φ is the configuration</div>
-<div>state (1, 3), and the computation in (a) gives next-event distributions differing in total variation</div>
-<div>by λ/6. □</div>
+<div>    (a) Foliation independence. v_λ(α) does not depend on the foliation λ. Hence the probability of</div>
+<div>    every complete event history, P(α) = P_λ(α), and the corresponding final state are foliation-</div>
+<div>    independent, and Σ_α P(α) = 1.</div>
 <div>&nbsp;</div>
-<div>The numerical check (Appendix B, item 12) carries out both constructions explicitly at the</div>
-<div>parameters of §8.4, with present configuration (x, y) = (1, 3): in each case the two histories end</div>
-<div>at the same present ray with nonzero probability, and the next-event distributions differ in total</div>
-<div>variation by 0.1000 = λ/6.</div>
+<div>    (b) Consistency on every hypersurface. For every order ideal I ⊆ E (the past of some</div>
+<div>    hypersurface) and every assignment α_I of outcomes to the slots in I, the probability of α_I and</div>
+<div>    the conditional state on the hypersurface bounding I are the same for every foliation of I, and</div>
+<div>    they do not depend on the instruments at slots outside I.</div>
 <div>&nbsp;</div>
-<div>Example 11.3 is a genuine failure of generability relative to the model’s physical state space. The</div>
-<div>law depends on a past fact that the present state does not carry, so it is not a Markov kernel on</div>
-<div>admissible present physical states, whether the comparison is made across initial conditions or with</div>
-<div>the initial condition held fixed. It could be made generable only by adding a record variable, such</div>
-<div>as a bit registering whether the first event was on the pair (A, B), to the present physical state.</div>
-<div>CTGP permits such an enlargement only if the variable is physically instantiated on the present</div>
-<div>stage and has dynamics of its own (C-f). The result is then a different theory with an enlarged</div>
-<div>physical ontology, not a forward formulation of the original one. In this sense generability does</div>
-<div>independent work: it excludes the history-dependent law on H_phys while QRF covariance does not. The</div>
-<div>exclusion is an ontological restriction imposed by CTGP, not a mathematical impossibility. Any</div>
-<div>history-dependent process becomes Markov on a suitably enlarged state space, for instance by</div>
-<div>adjoining a memory bit. What CTGP adds is the requirement that the enlarged state be physically</div>
-<div>instantiated in the present, rather than serve as a bookkeeping variable that records the past.</div>
+<div>    (c) No dependence on instruments outside the designated predecessor set. For every set X ⊆ E,</div>
+<div>    the marginal law of the outcomes in X depends only on the instruments in its predecessor set</div>
+<div>    with respect to ≺, ↓X = { y : y ⪯ x for some x ∈ X }. Identifying ↓X with the operationally</div>
+<div>    relevant relativistic causal past of X requires additional physical assumptions, discussed after</div>
+<div>    Corollary 13.5.</div>
 <div>&nbsp;</div>
-<div>Two further consequences arise from combining CTGP’s commitments with the perspective-neutral</div>
-<div>construction. First, requiring every realized event to carry physical states to physical states</div>
-<div>makes each collapse operator act on physical states as an invariant, relational operator does</div>
-<div>(§7.4). This constrains how a collapse realization of CTGP acts on physical states within the</div>
-<div>construction; it does not single out the particular flash ontology of §7.2. Second, for invertible</div>
-<div>single-outcome laws the complete past is not a function of the present state (Proposition 4.12),</div>
-<div>which gives CTGP’s acknowledged cost (C-c) an exact form.</div>
+<div>Proof. (a) Any two linear extensions of a finite partial order are connected by a sequence of</div>
+<div>adjacent transpositions of incomparable elements. To see this, let λ and λ′ first differ at position</div>
+<div>j, where λ′ has x′. In λ, x′ occurs later; every element between position j and x′ in λ precedes x′</div>
+<div>in λ, so it is not above x′, and follows x′ in λ′, so it is not below x′; hence it is incomparable</div>
+<div>with x′. Moving x′ leftward in λ by adjacent transpositions with these elements yields a linear</div>
+<div>extension that agrees with λ′ in one more position, and induction completes the argument. Each such</div>
+<div>transposition exchanges two commuting operators and leaves v_λ(α) unchanged. Normalization follows</div>
+<div>from Σ_a (K^x_a)† K^x_a = 1 applied slot by slot. (b) Because I is a down-set, any foliation of I</div>
+<div>extends to a foliation of E that lists I first, and (a) applied to the sub-order I gives</div>
+<div>independence of the foliation of I. Summing ‖v‖² over the outcomes of the slots after I and using</div>
+<div>completeness of their instruments gives ‖v_I(α_I)‖², which involves only instruments in I. (c) Apply</div>
+<div>(b) with I = ↓X, which is an order ideal containing X; the marginal on X is a marginal of the law of</div>
+<div>α_I. □</div>
 <div>&nbsp;</div>
-<div>The answer to the skeptic, then, is that CTGP picks out a proper subclass of QRF-covariant single-</div>
-<div>outcome models: those whose laws are Markov kernels on the present physical state, whose determinacy</div>
-<div>is frame-invariant, whose truth profiles are admissible and nested, whose events are definitely</div>
-<div>ordered, and, within the perspective-neutral construction, whose collapse operators act on physical</div>
-<div>states as relational operators do. The model of Part III shows that this subclass is not empty.</div>
+<div>Corollary 13.5 (Foliation-invisibility of the generative order in causally local finite models). In</div>
+<div>a causally local event structure, suppose CTGP’s generative order is one particular foliation λ*.</div>
+<div>Then every event proposition about any order ideal has the same probability whether computed along</div>
+<div>λ* or along any other foliation. The realized assignment α is a single object, which different</div>
+<div>foliations merely order differently; once the truth profile indexes events by slot rather than by</div>
+<div>stage number, the complete profile after the whole region has been generated is the same set of</div>
+<div>propositions whichever foliation is taken as generative.</div>
 <div>&nbsp;</div>
-<div>====================================================================================================</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-12.md">Raw Markdown</a> <a href="part-11.html">Previous part</a> <a href="part-13.html">Next part</a></nav></body></html>
+<div>Proof. Theorem 13.4(a)–(b). □</div>
+<div>&nbsp;</div>
+<div>Corollary 13.5 is established for finite event structures under the stated locality assumption, not</div>
+<div>for arbitrary relativistic quantum dynamics. It is the realized-history counterpart of CTGP’s</div>
+<div>observational equivalence (CTGP – explained, §12.1): within causally local finite models, under the</div>
+<div>commutation assumption of Definition 13.3, the choice of generative foliation has no empirical</div>
+<div>signature, and a single realized history can be represented on any family of hypersurfaces without</div>
+<div>multiplying the number of histories. If each K^x_a is invariant under a symmetry group in the sense</div>
+<div>of §3, Lemma 3.7 applies slot by slot, and Theorem 13.4 holds in every frame.</div>
+<div>&nbsp;</div>
+<div>Foliation-independent probabilities do not by themselves establish that any foliation is</div>
+<div>ontologically privileged. What Corollary 13.5 shows is that privileging one foliation is empirically</div>
+<div>invisible under the stated assumptions. That one foliation is in fact generative is CTGP’s</div>
+<div>interpretive thesis, supplied separately, in the same way that Thesis 5.10 supplies the ontological</div>
+<div>reading of description orbits.</div>
+<div>&nbsp;</div>
+<div>The locality condition cannot be dropped. In the numerical check (Appendix B, item 14), a brickwork</div>
+<div>arrangement of eight two-outcome instruments on six qubits has 136 foliations, and all of them</div>
+<div>assign identical probabilities to all 256 outcome histories, to within 7 × 10⁻¹⁸. Changing the</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-12.md">Raw Markdown</a><a href="part-11.html">Previous part</a><a href="part-13.html">Next part</a></nav></body></html>

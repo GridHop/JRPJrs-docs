@@ -1,313 +1,435 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 29 of 40 (1,501 words)
+Part 29 of 35 (1,799 words)
 
+Krumm, M., Höhn, P. A., & Müller, M. P. (2021). Quantum reference frame transformations as
 
+symmetries and the paradox of the third particle. Quantum, 5, 530.
 
-Proposition 14.5 proves clock-neutral equivalence for a specified family of instruments, late-record
 
-projective measurements built from commuting projections, together with the offset-coherent
 
-projection of part (e), in an ideal two-clock constrained model. It is the ideal-clock case of
+Kuchař, K. V. (1992). Time and interpretations of quantum gravity. In G. Kunstatter, D. Vincent, &
 
-Conjecture 14.4 for this family only. It does not establish equivalence for arbitrary clock-neutral
+J. Williams (Eds.), Proceedings of the 4th Canadian Conference on General Relativity and
 
-instruments, for events that occur while interactions are active, or for an indefinitely extended
+Relativistic Astrophysics (pp. 211–314). World Scientific.
 
-succession of physically generated records, and it is not a general solution of temporal-QRF
 
-compatibility. In the numerical check (Appendix C.2), a record written by an interaction keyed to A,
 
-with the offset spread over [0.06, 1.64], has probability 0.139627690767 in the clock-neutral
+Last, G., & Penrose, M. (2017). Lectures on the Poisson Process. Cambridge University Press.
 
-description and in both reductions at late readings. Relative to A, the record probability is
 
-exactly zero before A-time 0, the start of the interaction. Relative to B, it is already 0.021 at
 
-B-time −1.0, because in part of the offset distribution the interaction has begun. For these
+Lindblad, G. (1976). On the generators of quantum dynamical semigroups. Communications in
 
-instruments, the event, its probability, and its instrument are the same in both descriptions; only
+Mathematical Physics, 48, 119–130.
 
-its temporal localization differs. With one interaction keyed to each clock and the offset in an
 
-equal superposition of two wave packets centred at −1.6 and +1.6, the record law is 0.706791827009
 
-in all three descriptions. This equals the equal-weight mixture of the two definite-order values,
+Loveridge, L., Miyadera, T., & Busch, P. (2018). Symmetry, reference frames, and relational
 
-0.868488 and 0.545095.
+quantities in quantum mechanics. Foundations of Physics, 48, 135–198.
 
 
 
-Part (e) answers the question that part (d) leaves open: whether the superposition of orders has
+Merricks, T. (2007). Truth and Ontology. Oxford University Press.
 
-operational consequences. It does, for an observable that measures the clocks’ relative offset in a
 
-coherent basis. In the numerical check, this probability is 0.926776695297 in the clock-neutral
 
-description and in both reductions, equal to ½(1 + Re⟨W_1ψ, W_2ψ⟩), whereas an incoherent mixture of
+Page, D. N., & Wootters, W. K. (1983). Evolution without evolution: Dynamics described by stationary
 
-the two offsets gives exactly ½. The statistic depends jointly on both orders. It is reproduced
+observables. Physical Review D, 27, 2885–2892.
 
-neither by one definite order common to both offsets, which would give 1, nor by an order correlated
 
-classically with the offset, which would give ½. This is a calculation within the model, not a
 
-device-independent certification of indefinite causal order, which would require a causal witness in
+Palin, J. R., Jr. (2026). Cosmic-Time Generative Presentism (CTGP) – explained. JRPJr’s docs,
 
-the sense of Araújo et al. (2015).
+https://gridhop.github.io/JRPJrs-docs/.
 
 
 
-For CTGP, parts (d) and (e) have a specific lesson. The order of unitary interactions keyed to
+Palin, J. R., Jr. (2026). More Info: Causation, Information, Identity, and Becoming. JRPJr’s docs,
 
-different clocks can be indefinite, with operational consequences, as in the analyses of Castro-Ruiz
+https://gridhop.github.io/JRPJrs-docs/.
 
-et al. (2020) and Baumann and Lock (2026). The realized events, the record outcomes and the outcome
 
-of an offset-coherent measurement, nevertheless have clock-neutral identities, probabilities, and
 
-instruments. CTGP’s definite-ordering commitment (C-e) concerns stages and the realized events
+Planck Collaboration (2020). Planck 2018 results. I. Overview and the cosmological legacy of Planck.
 
-located in them, not unitary couplings, so parts (d) and (e) do not conflict with it. What
+Astronomy & Astrophysics, 641, A1.
 
-Proposition 14.5 does not supply is a generative order of the record events. Their instruments
 
-commute, so every order gives the same law, and designating one order as generative is interpretive
 
-in the sense of §14.6. The proposition is also limited by its idealizations. Ideal clocks have
+Polo-Gómez, J., Garay, L. J., & Martín-Martínez, E. (2022). A detector-based measurement theory for
 
-Hamiltonians unbounded below, and for clocks with bounded Hamiltonians the reductions are no longer
+quantum field theory. Physical Review D, 105, 065003.
 
-unitary (Höhn, Smith & Lock 2021). Events that occur while interactions are active, and
 
-interventions that do not single out one clock, are not covered.
 
+Procopio, L. M., Moqanaki, A., Araújo, M., Costa, F., Alonso Calafell, I., Dowd, E. G., Hamel,
 
+D. R., Rozema, L. A., Brukner, Č., & Walther, P. (2015). Experimental superposition of orders of
 
-14.6 The Possible Obstruction
+quantum gates. Nature Communications, 6, 7913.
 
 
 
-A fully relational quantum theory may treat all clock choices as physically equivalent and deny that
+Rideout, D. P., & Sorkin, R. D. (2000). Classical sequential growth dynamics for causal sets.
 
-any further, objective generative ordering exists. CTGP could then still be added as an ontological
+Physical Review D, 61, 024002.
 
-interpretation, but the added structure would have to be compatible with the theory’s constraints
 
-and gauge symmetries. Two cases must be distinguished. If the added ordering has no physical
 
-effects, it is interpretive rather than a new physical variable. If it affects event probabilities,
+Schwinger, J. (1948). Quantum electrodynamics. I. A covariant formulation. Physical Review, 74,
 
-it is a physical hypothesis subject to empirical test. Section 13.10 meets the same alternative from
+1439–1461.
 
-the side of collapse dynamics: cosmological time could fix the local frame and the order of
 
-conflicting collapses covariantly, but only as a dynamical ordering (Remark 13.25).
 
+Sider, T. (2001). Four-Dimensionalism: An Ontology of Persistence and Time. Oxford University Press.
 
 
-Recent work sharpens the problem. Baumann and Lock (2026) report that, of the ways of modeling
 
-interventions within relational dynamics, only one that builds the interventions into the constraint
+Sorkin, R. D. (1993). Impossible measurements on quantum fields. In B. L. Hu & T. A. Jacobson
 
-remains causally consistent across multiple clocks, that it requires some temporal delocalization,
+(Eds.), Directions in General Relativity, Vol. 2 (pp. 293–305). Cambridge University Press.
 
-and that it naturally describes indefinite causal order. CTGP cannot simply stipulate that every
 
-clock-relative temporal ordering is the same. It must identify which physical ordering is
 
-ontologically fundamental and prove that legitimate temporal descriptions can be related to it. If
+Tomonaga, S. (1946). On a relativistically invariant formulation of the quantum theory of wave
 
-indefinite causal order turned out to be fundamental, rather than a feature of clock-relative
+fields. Progress of Theoretical Physics, 1, 27–42.
 
-descriptions, CTGP’s primitive ordering would require generalization (C-e; CTGP – explained, §6.4).
+
+
+Tumulka, R. (2006). A relativistic version of the Ghirardi–Rimini–Weber model. Journal of
+
+Statistical Physics, 125, 821–840.
+
+
+
+Vanrietvelde, A., Höhn, P. A., Giacomini, F., & Castro-Ruiz, E. (2020). A change of perspective:
+
+switching quantum reference frames via a perspective-neutral framework. Quantum, 4, 225.
+
+
+
+Vilasini, V., & Renner, R. (2024). Fundamental limits for realising quantum processes in spacetime.
+
+Physical Review Letters, 133, 080201.
+
+
+
+Wald, R. M. (1994). Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics.
+
+University of Chicago Press.
+
+
+
+Wiseman, H. M., & Milburn, G. J. (2010). Quantum Measurement and Control. Cambridge University
+
+Press.
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-15. Quantum Gravity
+Appendix A. Frame-Relative Forms in the Ring Model
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-15.1 Fundamental Generative Order Versus Classical Cosmological Time
+Frame coordinates: frame A uses (x, y) = (b−a, c−a); frame B uses (u, v) = (a−b, c−b); frame C uses
 
+(p, q) = (a−c, b−c).
 
 
-In the classical regime, CTGP identifies the present with a level set of the cosmological time
 
-T_g(p) = sup { L_g(γ) : γ a past-directed causal curve from p }, subject to the regularity
+Invariant operator      | Frame A form        | Frame B form        | Frame C form
 
-conditions of §13.1. A fundamental quantum theory of gravity may have no single classical metric. A
+------------------------+---------------------+---------------------+--------------------
 
-state of the schematic form α|g_1⟩ + β|g_2⟩, with g_1 and g_2 inducing different cosmological-time
+P_{AB}(r): b − a = r    | x = r               | u = −r              | q − p = r
 
-functions, has no unique classical T. The program therefore distinguishes
+P_{AC}(r): c − a = r    | y = r               | v − u = r           | p = −r
 
+P_{BC}(r): c − b = r    | y − x = r           | v = r               | q = −r
 
+S_A (shift A by +1)     | (x, y) → (x−1, y−1) | u → u+1             | p → p+1
 
-        fundamental generative order  ≠  classical cosmological-time function.
+S_B (shift B by +1)     | x → x+1             | (u, v) → (u−1, v−1) | q → q+1
 
+S_C (shift C by +1)     | y → y+1             | v → v+1             | (p, q) → (p−1, q−1)
 
 
-The two must agree in the appropriate classical limit, but they need not coincide at the fundamental
 
-level. This develops the distinction between primitive generation and emergent geometry that CTGP
+Table A.1. Frame-relative forms of the invariant operators used in the model. Each row is a single
 
-already draws (CTGP – explained, §§10.3–10.4). It also raises a demanding question: what physical
+invariant operator; the three entries are its conjugates under the frame changes of §6.2.
 
-structure carries the objective generative ordering before classical spacetime exists? Naming a
 
-parameter does not answer it.
 
+Frame changes: V_{A→B}|x, y⟩ = |−x, y−x⟩; V_{B→C}|u, v⟩ = |u−v, −v⟩; V_{A→C}|x, y⟩ = |−y, x−y⟩; and
 
+V_{B→A} = V_{A→B}^{−1} maps |u, v⟩ to |−u, v−u⟩.
 
-15.2 Three Pathways
 
 
+----------------------------------------------------------------------------------------------------
 
-    (i) Semiclassical and quantum-geometric emergence. Begin with quantum matter on an approximately
+Appendix B. Verification Script and Output
 
-    classical metric and progressively allow gravitational degrees of freedom to fluctuate. This is
+----------------------------------------------------------------------------------------------------
 
-    the most incremental route from the constructions of this preprint, and it tests how much
 
-    geometric uncertainty CTGP can accommodate before its definition of a unique present becomes
 
-    problematic.
+The following Python script builds the model of Part III in the kinematical space, constructs the
 
+reduction maps for all three frames, and performs the checks of Table 1. Each frame reduction is
 
+represented by its inverse embedding J_F = R_F^{−1}, so that R_F = J_F† on H_phys. Items 1–8 concern
 
-    (ii) Canonical quantum gravity. Start from constrained gravitational dynamics, with the
+the discrete-stage model, item 9 the continuous-time model of §9, item 10 generic-parameter non-
 
-    Hamiltonian constraint written schematically as ĤΨ = 0, and ask whether an internal or emergent
+injectivity (§8.3), item 11 strong non-supervenience (Proposition 4.12), item 12 the two
 
-    time permits a single-history generative interpretation. A formally stationary physical state
+constructions of Proposition 11.4 for the history-dependent law of Example 11.3, item 13 the forward
 
-    does not mean that relational observables are static (Kuchař 1992; Isham 1993), but an objective
+representation of future conditioning (Proposition 11.1), item 14 realized-history consistency for
 
-    succession of unique outcomes requires further interpretation or dynamics. Material reference
+causally local instruments (Theorem 13.4) and consistency of the laws on nested order ideals
 
-    systems such as Brown–Kuchař dust (Brown & Kuchař 1995) are candidates for a physically
+(Proposition 13.7), item 15 the equal-ensemble, different-history example (Proposition 13.2), item
 
-    instantiated time.
+16 the imperfect clocks of Proposition 14.2, with the clock probabilities computed exactly from the
 
+32-site propagator and compared with the infinite-lattice Bessel expressions, item 17 the three-
 
+region test of Theorem 13.9 and Example 13.10, and item 18 the same test with a Gaussian field
 
-    (iii) Causal sets. Causal-set approaches make causal order fundamental, and classical sequential
+collapse at C (Proposition 13.12, Corollary 13.14).
 
-    growth models generate a causal set element by element (Bombelli, Lee, Meyer & Sorkin 1987;
 
-    Rideout & Sorkin 2000). The labels of the growth sequence are, however, gauge: the physics is
 
-    required to be independent of the order in which elements are born. Theorem 13.4 and Proposition
+Reproducibility. The script requires Python 3 with NumPy and SciPy; the output below was produced
 
-    13.7 offer an analogue of this situation: for a past-finite causal order with commuting
+with Python 3.13.16, NumPy 2.5.3, and SciPy 1.18.1. Random numbers come from NumPy’s default
 
-    operations at unrelated elements, every natural labeling generates the same history measure, so
+generator, with seed 7 for the initial state and for the present state used in item 11, seeds
 
-    the choice of generative labeling is empirically invisible (Corollary 13.5, Proposition
+1000–1199 for the 200 trajectories of item 9, and seed 2026 for the random instruments, initial
 
-    13.7(b)). A CTGP reading would then treat one labeling as ontologically generative without
+state, and density operator of items 14 and 15. Parameters: N = 5, λ = 0.6, s = 0.8 (s = 0 and J = 0
 
-    physical effect, which places it in the interpretive case of §14.6, unless an invariant ordering
+in items 6 and 12b), pair weights (1/2, 1/4, 1/4) for the second instrument of item 12, J = 0.7, g =
 
-    or an appropriate continuum limit can be found.
+0.9, τ = 0.5, Λ = 1.2, T = 5, with ħ = 1. Item 14 uses six qubits and eight random two-outcome
 
+instruments arranged as a three-layer brickwork of nearest-neighbour slots; item 16 uses a ring of
 
+32 clock sites with θ = 0.9; item 17 uses two oscillator modes in the vacuum, φ(f_A) = q_1, φ(f_C) =
 
-The recommended order is to begin with pathway (i), to use pathway (ii) to examine the problem of
+p_1 + q_2, φ(f_B) = p_2, with λ_A = 0.9, λ_C = 0.8, λ_B = 0.7, kick α = 1.5, and Fock cutoffs of 40
 
-time, and to treat pathway (iii) as a possible realization rather than CTGP’s presumed foundation.
+and 50 quanta per mode; item 18 uses the same realization with σ = 0.6, hit probabilities 1 and 0.4,
 
+cutoff 40, and the outcome integral evaluated on a grid of step 0.02 over [−10, 10]. Particles are
 
+indexed 0, 1, 2 for A, B, C, and an event (i, j, d) in the output is a flash on the pair (i, j)
 
-15.3 Compatibility Conditions
+centred at separation d. Analytical results are proved in the text; the script checks them
 
+numerically to double-precision tolerance.
 
 
-A candidate quantum-gravity theory would have to answer five questions affirmatively.
 
+# Numerical checks for the Z_N three-particle QRF model with
 
+# flash-type stochastic collapse (companion to "Quantum Reference Frames
 
-    (Q1) Forward generation. Does it admit a physically meaningful forward-generative formulation? A
+# and the Lucretian Truth Profile in CTGP").
 
-    global mathematical description is not disqualifying; an indispensable independent future
+import itertools
 
-    boundary input would conflict with generability.
+import numpy as np
 
+from scipy.linalg import expm
 
 
-    (Q2) One realized history. Can it support one realized physical history? A superposition in a
 
-    quantum state is not a contradiction, but CTGP requires a definite factual history rather than
+N = 5                      # sites on the ring Z_N
 
-    many equally realized branches.
+lam = 0.6                  # hit probability per stage
 
+s = 0.8                    # flash width (in lattice units)
 
+Jhop, g, tau = 0.7, 0.9, 0.5
 
-    (Q3) Gauge symmetry. Does it respect the relevant gauge symmetries? A proposed generation
+rng = np.random.default_rng(7)
 
-    parameter must not promote an arbitrary coordinate label to a physical observable.
 
 
+def idx(a, b, c): return ((a % N) * N + (b % N)) * N + (c % N)
 
-    (Q4) Classical spacetime. Can it recover classical spacetime, reproducing Einstein’s equations
+def ridx(x, y): return (x % N) * N + (y % N)
 
-    and the cosmological-time construction wherever CTGP’s classical assumptions hold?
+D, d2 = N**3, N**2
 
 
 
-    (Q5) Phenomenology. Does it preserve acceptable relativistic phenomenology? Any preferred-
+# global translation U_g and projector onto the invariant (physical) sector
 
-    ordering dynamics must avoid experimentally excluded effects.
+def U(gg):
 
+    M = np.zeros((D, D))
 
+    for a, b, c in itertools.product(range(N), repeat=3):
 
-The classical-limit requirement can be written schematically as 𝒬_CTGP → (M, g, Σ_{T_g}) in the
+        M[idx(a+gg, b+gg, c+gg), idx(a, b, c)] = 1
 
-appropriate semiclassical limit, where 𝒬_CTGP denotes a hypothetical completed quantum-generative
+    return M
 
-theory. The arrow represents a research objective, not an existing derivation.
+Pi = sum(U(gg) for gg in range(N)) / N
 
 
 
-15.4 What Would, and What Would Not, Rule Out Compatibility
+# embeddings J_F : reduced space of frame F -> physical sector (J_F = R_F^{-1})
 
+def J(frame):
 
+    M = np.zeros((D, d2))
 
-The following would be genuinely problematic for CTGP:
+    for f in range(N):
 
+        for x, y in itertools.product(range(N), repeat=2):
 
+            if frame == 'A': k = idx(f, f+x, f+y)      # (x_B, x_C) rel. to A
 
-    (R1) a fundamental theory that requires independent final boundary conditions which cannot be
+            if frame == 'B': k = idx(f+x, f, f+y)      # (x_A, x_C) rel. to B
 
-    replaced by legitimate present-state dynamics;
+            if frame == 'C': k = idx(f+x, f+y, f)      # (x_A, x_B) rel. to C
 
+            M[k, ridx(x, y)] += 1/np.sqrt(N)
 
+    return M
 
-    (R2) a theory in which no invariant notion of realized physical history can be defined;
+JA, JB, JC = J('A'), J('B'), J('C')
 
+for M in (JA, JB, JC):
 
+    assert np.allclose(M.T @ M, np.eye(d2)) and np.allclose(M @ M.T, Pi)
 
-    (R3) a quantum-gravity framework whose physical predictions necessarily depend on mutually
+V_AB, V_BC, V_AC = JB.T @ JA, JC.T @ JB, JC.T @ JA
 
-    incompatible fundamental generative orderings;
+perm = np.zeros((d2, d2))
 
+for x, y in itertools.product(range(N), repeat=2):
 
+    perm[ridx(-x, y-x), ridx(x, y)] = 1
 
-    (R4) a demonstrated impossibility of recovering CTGP’s classical cosmic-time structure in the
+print("1. reductions unitary; V_AB = explicit permutation:", np.allclose(V_AB, perm))
 
-    domain where CTGP claims to apply.
+print("   groupoid law V_BC V_AB = V_AC:", np.allclose(V_BC @ V_AB, V_AC))
 
 
 
-By contrast, indefinite causal order, timeless constraint equations, and quantum superpositions of
+# invariant generators: hopping + relational potential, and relational flashes
 
-geometries are not by themselves sufficient to establish any of these conclusions. They are reasons
+def shift(i):
 
-to investigate, not refutations.
+    M = np.zeros((D, D))
 
+    for a, b, c in itertools.product(range(N), repeat=3):
 
+        t = [a, b, c]; t2 = list(t); t2[i] += 1
+
+        M[idx(*t2), idx(*t)] = 1
+
+    return M
+
+def P(i, j, r):            # projector onto x_j - x_i = r (mod N)
+
+    M = np.zeros((D, D))
+
+    for t in itertools.product(range(N), repeat=3):
+
+        if (t[j]-t[i]) % N == r % N: M[idx(*t), idx(*t)] = 1
+
+    return M
+
+pairs = [(0, 1), (0, 2), (1, 2)]                       # (A,B), (A,C), (B,C)
+
+H = sum(-Jhop*(shift(i)+shift(i).T) for i in range(3)) \
+
+    + sum(g*np.cos(2*np.pi*r/N)*P(i, j, r) for (i, j) in pairs for r in range(N))
+
+W = expm(-1j*tau*H)
+
+def wfun(r, width):
+
+    dist = np.minimum(r % N, (-r) % N)
+
+    return np.exp(-dist**2/(2*width**2)) if width > 0 else (dist == 0)*1.0
+
+def kraus(width, lam_=lam):
+
+    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()
+
+    F = {'none': np.sqrt(1-lam_)*np.eye(D)}
+
+    for (i, j) in pairs:
+
+        for dd in range(N):
+
+            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
+
+                                                for r in range(N))
+
+    return F
+
+F = kraus(s)
+
+comp = sum(K.conj().T @ K for K in F.values())
+
+inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])
+
+print("2. instrument complete:", np.allclose(comp, np.eye(D)), "| all generators G-invariant:", inv)
+
+
+
+red = lambda O, JF: JF.T @ O @ JF
+
+WA, WB = red(W, JA), red(W, JB)
+
+FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}
+
+ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \
+
+     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)
+
+print("3. intertwining V K^A V^dag = K^B for W and every Kraus operator:", ok)
+
+
+
+# exhaustive record distribution over n stages, frame A vs frame B vs neutral
+
+def record_dist(psi0, Wm, Fm, n):
+
+    out = {}
+
+    def rec(psi, hist, p):
+
+        if len(hist) == n: out[hist] = (p, psi); return
+
+        phi = Wm @ psi
+
+        for k, K in Fm.items():
+
+            v = K @ phi; q = np.vdot(v, v).real
+
+            if q > 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)
+
+    rec(psi0, (), 1.0); return out
+
+phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)

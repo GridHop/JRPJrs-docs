@@ -1,6 +1,64 @@
 # Info
 
-Part 02 of 24 (1,720 words)
+Part 02 of 23 (1,798 words)
+
+• To keep it alive, surgeons would need to reconnect all major arteries and veins seamlessly in
+
+  seconds to prevent hypoxia.
+
+• A delay of even a few minutes without blood supply leads to irreversible neuron death.
+
+
+
+C. Immune System Rejection
+
+
+
+• The body’s immune system would likely treat the transplanted brain as foreign tissue, or
+
+  conversely, the brain’s own immune-protected environment (the blood–brain barrier) might react
+
+  violently to the host’s immune system.
+
+• Unlike other organs, the brain’s immune privilege is unique and fragile; any mismatch could cause
+
+  neuroinflammation, edema, or death.
+
+
+
+D. Electrochemical Incompatibility
+
+
+
+• The nervous system is not “plug-and-play.”
+
+• Every person’s neurochemical balance, neurotransmitter ratios, and receptor densities are unique
+
+  and adapt over time to the specific body they inhabit.
+
+• Transplanting a brain into a foreign body would lead to mismatched feedback loops—the brain might
+
+  interpret all sensory input, hormones, and motor signals as distorted, nonsensical, or
+
+  overwhelming.
+
+
+
+E. Ethical & Identity Complexity
+
+
+
+• Philosophically and ethically, such a procedure challenges definitions of self, continuity, and
+
+  death.
+
+• Whose consciousness would awaken—does the body’s genetic influence alter the mind? What if partial
+
+  connection causes cognitive dissonance or new personalities?
+
+• Research approaching this faces strong ethical opposition because of these unresolved quandaries.
+
+
 
 3. What Is “Required” But Currently Unmet
 
@@ -442,7 +500,7 @@ happened?
 
 – that question gets right to the core of what memory truly is, and the answer reveals something
 
-both fascinating anda bit unsettling about how our minds work.
+both fascinating and a bit unsettling about how our minds work.
 
 
 
@@ -530,7 +588,7 @@ Every time you recall a memory:
 
 
 
-1. The memory is temporarily made malleable(this is called reconsolidation).
+1. The memory is temporarily made malleable (this is called reconsolidation).
 
 2. Your brain then re-saves it, possibly with small edits — like blending in current emotions, new
 
@@ -540,7 +598,7 @@ knowledge, or other memories.
 
 
 
-1. These edits feel just as real as the original content afterward.
+3. These edits feel just as real as the original content afterward.
 
 
 
@@ -571,55 +629,5 @@ Encoding (initial storage) Partially accurate Selective attention, perception bi
 
 
 Short-term recall Fairly accurate Minimal distortion
-
-
-
-Repeated recall over time Gradually less accurate Reconsolidation and reinterpretation
-
-
-
-Long-term memory (years later) Can diverge significantly Emotional bias, cultural reinforcement,
-
-suggestion
-
-
-
-“Digital is able to simulate biology/biological, but digital is never able to be
-
-biology/biological”, correct?
-
-
-
-Yes, digital systems can simulate or model biological processes with increasing
-
-sophistication—mimicking patterns, behaviors, and even some functional outcomes of living systems.
-
-But simulation is fundamentally different from instantiation.
-
-
-
-Here’s the key distinction:
-
-
-
-Simulation vs. Being:
-
-
-
-• A digital weather simulation isn’t actual weather—it’s symbolic representation running on
-
-  computational substrates
-
-• A digital neural network isn’t a biological brain—it processes information differently, lacks
-
-  organic metabolism, consciousness (arguably), and embodied biological constraints
-
-• A simulated cell division isn’t actual cellular reproduction—no DNA replication, no protein
-
-  synthesis, no membrane dynamics in physical reality
-
-
-
-Why digital ≠ biological:
 
 

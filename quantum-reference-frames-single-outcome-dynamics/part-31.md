@@ -1,345 +1,413 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 31 of 40 (1,805 words)
+Part 31 of 35 (1,798 words)
 
+    pm = sum(np.vdot(w, w).real for o, w in full.items()
 
+             if tuple(o[x] for x in I_ideal) == oI)
 
-    (17) Generative succession, clock readings, and clock-conditional descriptions are distinct;
+    devI = max(devI, abs(pI - pm))
 
-    with an external generative order, imperfect clocks can repeat readings, delocalize events, and
+print(f"    order ideal {I_ideal}: law from its own instruments vs marginal of full law, "
 
-    invert their recorded order without affecting event identity or probability (Proposition 14.2).
+      f"max diff = {devI:.1e}")
 
+# counterexample: two 'spacelike' slots acting on overlapping qubits
 
+where_bad = {x: slots[x][1] for x in range(len(slots))}; where_bad[1] = 1   # slot 1 on (1,2)
 
-    (18) The unread Gaussian collapse channel is a Gaussian mixture of unitary kicks. Position
+o1 = (0, 1, 2, 3, 4, 5, 6, 7); o2 = (1, 0, 2, 3, 4, 5, 6, 7)
 
-    collapse of a particle injects exactly ħ²/(8mσ²), whatever the potential, and Gaussian collapse
+j1, j2 = joint(o1, instr, where_bad), joint(o2, instr, where_bad)
 
-    of a smeared free field in 3 + 1 dimensions injects a state-independent, future-timelike
+tvb = 0.5*sum(abs(np.vdot(j1[o], j1[o]).real - np.vdot(j2[o], j2[o]).real) for o in j1)
 
-    energy–momentum equal to that of the classical solution Eh divided by 4σ². On a curved
+print(f"    non-commuting 'spacelike' pair: total variation between orders = {tvb:.3f}")
 
-    background it changes the renormalized stress–energy of a Hadamard state by the classical
 
-    stress–energy of Eh divided by 4σ² (Propositions 13.15 and 13.16).
 
+# ---- 15. equal ensembles, different realized-history measures (two unravellings)
 
+plus = np.array([1, 1])/np.sqrt(2); minus = np.array([1, -1])/np.sqrt(2)
 
-    (19) If the operations performed between a tested operation and the targets preserve an algebra
+I1 = [np.diag([1, 0]), np.diag([0, 1])]
 
-    on which the tested operation acts trivially, the tested operation cannot signal to the targets,
+I2 = [np.eye(2)/np.sqrt(2), np.diag([1, -1])/np.sqrt(2)]
 
-    whatever the field theory; microcausality supplies only the second condition (Theorem 13.17,
+Xm = [np.outer(plus, plus), np.outer(minus, minus)]
 
-    Corollary 13.18).
+rho = rq.normal(size=(2, 2)) + 1j*rq.normal(size=(2, 2))
 
+rho = rho @ rho.conj().T; rho /= np.trace(rho)
 
+ch = lambda I, r: sum(K @ r @ K.conj().T for K in I)
 
-    (20) For Gaussian collapses at Poisson-distributed locations with a covariant law, histories are
+same_channel = np.allclose(ch(I1, rho), ch(I2, rho))
 
-    foliation-independent and non-signaling conditionally on causally orderable configurations,
+def jd(I):
 
-    which is not yet an unconditional collapse law (Theorem 13.21). Orderability fails in large
+    return np.array([[np.linalg.norm(M @ K @ plus)**2 for M in Xm] for K in I])
 
-    volumes, the order of interfering collapses then matters physically, and no Lorentz-invariant
+J1, J2 = jd(I1), jd(I2)
 
-    law for point-centred smearings exists (Propositions 13.22–13.24). Covariant repairs require
+def mi(Jm):
 
-    additional structure at each event, and those that use cosmological time would give the
+    pa, pb = Jm.sum(1), Jm.sum(0)
 
-    generative order a dynamical role (Remark 13.25).
+    return sum(Jm[i, j]*np.log2(Jm[i, j]/(pa[i]*pb[j])) for i in range(2) for j in range(2)
 
+               if Jm[i, j] > 1e-15)
 
+print(f"15. same channel: {same_channel}; joint law of (first event, later X outcome):")
 
-    (21) For two ideal clocks with the interventions in the constraint, a family of late-record
+print(f"    {J1.round(3).tolist()} vs {J2.round(3).tolist()};")
 
-    projective instruments has clock-neutral identities, probabilities, and instruments, which
+print(f"    mutual information {mi(J1):.3f} vs {mi(J2):.3f} bits")
 
-    intertwine with both reductions, while temporal localization differs between the clocks. When
 
-    the order of interactions depends on the clock offset, an offset-coherent observable exhibits
 
-    interference between the orders (Proposition 14.5).
+# ---- 16. imperfect quantum clocks: identity of events vs clock-relative timing
 
+Mc, th = 32, 0.9
 
+Sc = np.roll(np.eye(Mc), 1, axis=0)
 
-    (22) A candidate extension, not adopted, in which cosmological time fixes the smearing and the
+Uc = Sc @ expm(-1j*th*(Sc + Sc.T))
 
-    order of collapses, is complete and normalized on every domain of finite four-volume, and on
+step = np.abs(Uc[:, 0])**2                               # law of one recorded clock step
 
-    infinite histories when cosmological-time slabs have finite volume; it can be generated forward
+signed = [(m if m <= Mc//2 else m - Mc) for m in range(Mc)]
 
-    along cosmological time in its free-field representation and admits no signaling between
+p_inv = sum(step[m] for m in range(Mc) if signed[m] < 0)
 
-    causally separated regions for the operations it covers. It agrees with the causal-order
+p_stall = step[0]
 
-    dynamics wherever that is defined in the flat local model. It injects energy at rest in the
+from scipy.special import jv
 
-    cosmic frame and makes the correlations among collapse outcomes depend on that frame, which is
+bes_inv = (1 - jv(0, 2*th)**2 - 2*jv(1, 2*th)**2)/2; bes_stall = jv(1, 2*th)**2
 
-    distinct from superluminal signaling and not yet shown to be operationally detectable (Lemma
+far = sum(step[m] for m in range(Mc) if abs(signed[m]) >= 8)
 
-    13.26, Proposition 13.28). Ordering the collapses by the completion of their regions gives the
+print(f"16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):")
 
-    same law, with forward generation from the generated past (Proposition 13.29). Realizing each
+print(f"    P(backward) = {p_inv:.9f}, P(no advance) = {p_stall:.9f};")
 
-    collapse as the reading of a gapless pointer coupled locally to the field derives the collapse
+print(f"    infinite-lattice Bessel values {bes_inv:.9f}, {bes_stall:.9f}")
 
-    statistics and gives a variant with no ordering rule: its evolution is foliation-independent on
+print(f"    max difference = {max(abs(p_inv-bes_inv), abs(p_stall-bes_stall)):.1e}; "
 
-    every finite configuration, it admits no signaling by the modeled pointers and classical sources
+      f"P(|displacement| >= 8) = {far:.1e}")
 
-    outside the causal past of the targets, it agrees with sequential collapse on causally orderable
+per = [n % 2 for n in range(5)]
 
-    configurations, it has a law of outcome records on every FLRW spacetime of the class, and it
+print(f"    period-2 counter readings at stages 0-4: {per};")
 
-    injects the same energy–momentum, while its outcome law differs from the candidate’s where
+print("    superposed counter: reading at stage n is n or n+4, each with probability 0.5")
 
-    collapses interfere (Lemma 13.30, Proposition 13.31). Its forward generation is established for
 
-    finite configurations, and its definite readings require a primitive single-outcome postulate,
 
-    which the coupling does not supply. The energy–momentum injection is a theoretical prediction;
 
-    an experimental signature would require a collapse law for matter and an account of how an
 
-    apparatus records the effect.
+# ---- 17. gapless detectors on a free field: three-region (Sorkin-type) signaling test
 
+# two-mode realization of the commutation pattern E_AB = 0, E_AC = E_CB = 1:
 
+# phi_A = q1, phi_C = p1 + q2, phi_B = p2; vacuum state; Fock cutoff nc per mode
 
-17.3 Open Problems
+def sorkin(nc, lamA=0.9, lamC=0.8, lamB=0.7, kick=1.5):
 
+    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)
 
+    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)
 
-    (O1) Continuous groups. Physical QRFs use translations, rotations, and boosts, which form
+    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)
 
-    continuous groups (Giacomini et al. 2019). For non-compact groups, invariant states are not
+    v0 = np.zeros(nc*nc, complex); v0[0] = 1
 
-    normalizable in H_kin, and H_phys must be built by group averaging with a physical inner
+    def fn(Hm, f):
 
-    product. Reduction maps remain unitary in the perspective-neutral framework (Vanrietvelde et al.
+        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T
 
-    2020), so Part II is expected to carry over, but the flash dynamics needs a relational version
+    det = lambda ph, l: [fn(ph, lambda x: np.cos(l*x)), 1j*fn(ph, lambda x: np.sin(l*x))]
 
-    of the GRW or CSL smearing in continuous space, and its well-definedness must be proved.
+    gg = lambda x: 0.5*(1 + np.tanh(2*x))
 
+    lud = lambda ph: [fn(ph, lambda x: np.sqrt(gg(x))), fn(ph, lambda x: np.sqrt(1 - gg(x)))]
 
+    def bob(KA, KC, KB):
 
-    (O2) Relativistic quantum fields. The ring model is non-relativistic, and Theorem 13.4 and
+        pb = 0.0
 
-    Proposition 13.7 are discrete analogues; the assumptions a relativistic extension must supply
+        for Ka in KA:
 
-    are listed in §13.5 as (E1)–(E6). Theorem 13.9 settles the measurement-model case for finite
+            va = Ka @ v0
 
-    networks of gapless detectors on a free field. Theorem 13.13 with Corollary 13.14 gives a
+            for Kc in KC: pb += np.linalg.norm(KB[1] @ (Kc @ va))**2
 
-    regulated spontaneous-collapse network for Gaussian collapse of smeared fields on a fixed family
+        return pb
 
-    of regions, and Theorem 13.21 extends it to Poisson-distributed locations on causally orderable
+    KB = det(phB, lamB); Id = [np.eye(nc*nc)]; kA = [fn(phA, lambda x: np.exp(1j*kick*x))]
 
-    configurations. Open are a covariant law for extended collapse events, for which Propositions
+    out = {}
 
-    13.22–13.24 identify the obstructions, Remark 13.25 the available repairs, and §13.11 a
+    for nm, KC in (('gapless', det(phC, lamC)), ('luders', lud(phC))):
 
-    candidate completion that uses cosmological time, together with a gapless-pointer variant that
+        base = bob(Id, KC, KB)
 
-    needs no ordering rule (Proposition 13.31), neither of which is adopted; a physical account of
+        out[nm] = (base, bob(det(phA, lamA), KC, KB) - base, bob(kA, KC, KB) - base)
 
-    the pointers and of their definite readings, which the variant postulates; a forward evolution
+    return out
 
-    of the present state with infinitely many pointers; a local probe field in place of single-
+s40, s50 = sorkin(40), sorkin(50)
 
-    degree-of-freedom pointers; an operational prediction for the predicted preferred-frame energy
+ana = 0.5 - 0.5*np.cos(2*0.7*0.8)*np.exp(-0.7**2)
 
-    injection; collapse of matter density rather than of linear field observables; detectors with
+print(f"17. three-region test, Bob's P(b=1) and its shift under Alice's detector / kick:")
 
-    internal dynamics; interacting fields, for which Theorem 13.17 gives a sufficient condition and
+print(f"    gapless Charlie: P = {s50['gapless'][0]:.10f} (analytic {ana:.10f}); shifts "
 
-    Target 13.19 a first test; and continuously distributed events. The relativistic realized-
+      f"{s50['gapless'][1]:.1e}, {s50['gapless'][2]:.1e}")
 
-    history consistency result (Target 13.6) is open: it requires an event-history measure for a
+print(f"    unsharp Lueders Charlie: P = {s50['luders'][0]:.6f}; shifts "
 
-    regulated relativistic single-outcome model, a measurement framework free of Sorkin-type
+      f"{s50['luders'][1]:.6f}, {s50['luders'][2]:.6f}")
 
-    signaling, and, for CTGP, a generable representation on cosmological-time hypersurfaces that
+print(f"    cutoff 40 vs 50: max change = "
 
-    would derive the identification postulated in §9.4. CTGP’s ensemble-level results (CTGP –
+      f"{max(abs(s40[k][i] - s50[k][i]) for k in s40 for i in range(3)):.1e}")
 
-    explained, Proposition 17.16 and Theorem 17.17) are conditional and do not by themselves supply
 
-    a covariant stochastic ontology (Proposition 13.2).
 
+# ---- 18. Gaussian collapse of a smeared field at C (Weyl-diagonal): same three-region test
 
+def gauss_test(nc=40, lamA=0.9, lamB=0.7, kick=1.5, sig=0.6, p_hit=1.0, dy=0.02):
 
-    (O3) Temporal QRFs. This is the most consequential open problem; §14 sets out the distinctions,
+    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)
 
-    a worked model, a proposed identification criterion for overlapping descriptions (Definition
+    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)
 
-    14.3), its proof for late-record instruments with ideal clocks and the interventions in the
+    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)
 
-    constraint (Proposition 14.5), and a target for imperfect clocks (Conjecture 14.4). The
+    v0 = np.zeros(nc*nc, complex); v0[0] = 1
 
-    construction here assumes a shared stage or time index, and Proposition 10.1 preserves it
+    def fn(Hm, f):
 
-    because frame changes act only on spatial relational degrees of freedom. Temporal QRFs, in which
+        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T
 
-    a quantum clock is the frame (Page & Wootters 1983; Höhn, Smith & Lock 2021), can assign
+    wC, VC = np.linalg.eigh(phC); ys = np.arange(-10, 10 + dy/2, dy)
 
-    superposed readings to one clock relative to another and can make the temporal localization of
+    KB1 = 1j*fn(phB, lambda x: np.sin(lamB*x))
 
-    events indefinite (Castro-Ruiz, Giacomini, Belenchia & Brukner 2020). Two structures must then
+    def bob(KA):
 
-    be distinguished: the ontological generation order, which CTGP requires to be definite, and
+        pb = 0.0
 
-    quantum-clock relational time, the readings of physical clock subsystems relative to one
+        for Ka in KA:
 
-    another. CTGP does not require quantum clocks to reveal a preferred cosmic time. It requires an
+            w = VC.conj().T @ (Ka @ v0)
 
-    account of how relational clock descriptions correspond to an underlying generative order, if
+            if p_hit < 1: pb += (1 - p_hit)*np.linalg.norm(KB1 @ (VC @ w))**2
 
-    there is one. The research question is whether a temporally relational model can be constructed
+            for y in ys:
 
-    with a definite underlying order of events that remains invariant under every admissible clock-
+                k = (2*np.pi*sig**2)**-0.25*np.exp(-(wC - y)**2/(4*sig**2))
 
-    frame transformation, without that order being assumed and then merely preserved. One candidate
+                pb += p_hit*dy*np.linalg.norm(KB1 @ (VC @ (k*w)))**2
 
-    route is to add a quantum clock subsystem to the ring model: clock-relative descriptions would
+        return pb
 
-    assign superpositions of readings to events, while the order of events in the record is fixed by
+    detA = [fn(phA, lambda x: np.cos(lamA*x)), 1j*fn(phA, lambda x: np.sin(lamA*x))]
 
-    generation. A second is a material reference system of the Brown–Kuchař dust type (Brown &
+    base = bob([np.eye(nc*nc)])
 
-    Kuchař 1995), whose proper time could serve as a physically instantiated cosmic time akin to
+    ana = 0.5 - 0.5*np.exp(-lamB**2)*((1 - p_hit) + p_hit*np.exp(-lamB**2/(2*sig**2)))
 
-    CTGP’s matter-frame cosmological time. Both are conjectures, and the result of Baumann and Lock
+    shifts = (bob(detA) - base, bob([fn(phA, lambda x: np.exp(1j*kick*x))]) - base)
 
-    (2026) on causal consistency across clocks (§14.6) indicates that temporal delocalization, and
+    return base, ana, shifts
 
-    possibly indefinite causal order, must be expected in clock-relative descriptions.
+for ph in (1.0, 0.4):
 
+    b_, a_, sh = gauss_test(p_hit=ph)
 
+    print(f"18. Gaussian collapse at C (hit probability {ph}): P = {b_:.10f} "
 
-    (O4) Quantum gravity and indefinite causal order. As CTGP – explained notes (§6.4), if quantum
+          f"(analytic {a_:.10f});")
 
-    gravity requires indefinite causal order at the level of spacetime itself, CTGP’s primitive
+    print(f"    shifts under Alice's detector / kick: {sh[0]:.1e}, {sh[1]:.1e}")
 
-    ordering would require generalization. Proposition 10.1 holds for the class of models here but
+import sys, scipy
 
-    says nothing about such theories. Section 15 distinguishes fundamental generative order from
+print(f"Environment: Python {sys.version.split()[0]}, NumPy {np.__version__}, "
 
-    classical cosmological time, sets out three pathways, and lists the conditions a quantum-gravity
+      f"SciPy {scipy.__version__}")
 
-    theory would have to meet (Q1–Q5) and the findings that would rule out compatibility (R1–R4),
+print("Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); "
 
-    and §15.5 states three finite test problems.
+      "2026 (items 14-15)")
 
 
 
-    (O5) Records. The model has no record subsystems; evidence about the past is whatever the
+Output:
 
-    present state encodes. Adding pointer or environment systems would allow a formal treatment of
 
-    how records serve as evidence for L across frames, of how records degrade while L does not (CTGP
 
-    – explained, §14.6), and of observers with access to records rather than to the full present
+1. reductions unitary; V_AB = explicit permutation: True
 
-    state.
+   groupoid law V_BC V_AB = V_AC: True
 
+2. instrument complete: True | all generators G-invariant: True
 
+3. intertwining V K^A V^dag = K^B for W and every Kraus operator: True
 
-    (O6) Weak non-supervenience at generic parameters. Whether two distinct histories from a fixed
+4. 4096 histories of 3 stages; max |p_A-p_B| = 2.78e-17, max |p_A-p_neutral| = 1.39e-17
 
-    initial state can end in exactly the same present state for generic finite-width parameters is
+   max(1-|<V phi_A|phi_B>|) = 6.66e-16, total prob = 1.000000000000
 
-    open (§8.3). It is not needed for CTGP, which requires only strong non-supervenience
+5. naive same-form frame-B rule: total-variation distance from correct record measure = 0.180
 
-    (Proposition 4.12).
+6. records [(0, 1, 1), (0, 2, 3)] vs [(0, 2, 3), (0, 1, 1)] -> same present ray: True
 
+7. entanglement entropy: frame A 0.000 bits, frame B 1.000 bits
 
+8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = 0.894
 
-    (O7) Empirical parameters. The parameters used here are illustrative. Real collapse models are
+9. continuous time: 200 trajectories, 1158 events; identical event records in A and B: True
 
-    tightly constrained by experiment (Bassi et al. 2013), and a relational collapse model must
+   max(1-|<V psi_A|psi_B>|) at final time = 6.7e-16
 
-    respect the same bounds.
+10. generic parameters, 4096 three-stage histories: exact coincidences = 0; largest overlap = 0.9852
+
+    minimum error probability for telling that pair apart (Helstrom) = 0.414
+
+11. two different 3-stage histories, same present ray: |<end|Phi>| = 1.000000000000, 1.000000000000
+
+    history probabilities 4.15e-05, 7.62e-05; overlap of the two initial states = 0.552
+
+12a. finite width: both branches end at the same ray (|<end|Phi>| = 1.000000000000, 1.000000000000),
+
+     probabilities 5.04e-05, 1.62e-03; next-event total variation = 0.1000 (lambda/6 = 0.1000)
+
+12b. sharp, fixed initial state: same present ray: True; probabilities 8.254e-04, 1.238e-03;
+
+     next-event total variation = 0.1000
+
+13. conditioned on (1, 2, 0) at stage 3: Doob forward kernel vs conditioned law, max diff = 8.3e-17
+
+14. causally local instruments: all 136 foliations (linear extensions), 256 outcome histories;
+
+    max |p - p'| = 6.9e-18, max state deviation = 4.4e-16
+
+    instruments changed outside the predecessor set of slot 3: max change = 7.8e-16
+
+    order ideal [0, 1, 3]: law from its own instruments vs marginal of full law, max diff = 1.1e-16
+
+    non-commuting 'spacelike' pair: total variation between orders = 0.165
+
+15. same channel: True; joint law of (first event, later X outcome):
+
+    [[0.25, 0.25], [0.25, 0.25]] vs [[0.5, 0.0], [0.0, 0.5]];
+
+    mutual information 0.000 vs 1.000 bits
+
+16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):
+
+    P(backward) = 0.104042655, P(no advance) = 0.338161965;
+
+    infinite-lattice Bessel values 0.104042655, 0.338161965
+
+    max difference = 1.1e-16; P(|displacement| >= 8) = 7.4e-09
+
+    period-2 counter readings at stages 0-4: [0, 1, 0, 1, 0];
+
+    superposed counter: reading at stage n is n or n+4, each with probability 0.5
+
+17. three-region test, Bob's P(b=1) and its shift under Alice's detector / kick:
+
+    gapless Charlie: P = 0.3665447170 (analytic 0.3665447170); shifts -2.2e-16, -6.1e-16
+
+    unsharp Lueders Charlie: P = 0.275038; shifts -0.021492, -0.046628
+
+    cutoff 40 vs 50: max change = 8.8e-08
+
+18. Gaussian collapse at C (hit probability 1.0): P = 0.3449027185 (analytic 0.3449027185);
+
+    shifts under Alice's detector / kick: -3.3e-16, -5.0e-14
+
+18. Gaussian collapse at C (hit probability 0.4): P = 0.2541731691 (analytic 0.2541731691);
+
+    shifts under Alice's detector / kick: -8.3e-16, -2.0e-14
+
+Environment: Python 3.13.16, NumPy 2.5.3, SciPy 1.18.1
+
+Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); 2026 (items 14-15)
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-18. Answers to the Original Questions
+Appendix C. Verification of the Collapse and Two-Clock Results
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-Question                                     | Answer in this preprint
+The results of §§13.8–13.11 and §14.5 are checked by two separate scripts, one for each branch of
 
----------------------------------------------+------------------------------------------------------
+the program, so that each can be rerun and audited independently of Appendix B. As there, the checks
 
-(T1) Which propositions are determinate?     | Three tiers (Def. 5.1): events, states, sharp
+confirm the analytical results in specific instances and guard against sign and ordering errors.
 
-                                             | properties; events are not sharp values (Prop. 4.4).
+They do not prove anything about all states, all configurations, or the continuum. Table C.1 lists,
 
-                                             | Determinacy is frame-independent (Prop. 5.2).
+for each check, the quantity computed, the identity tested, the result, and the analytical argument
 
-(T2) How are facts identified across QRFs?   | Criterion 5.5 ⇔ one description orbit (Thm 5.6,
+that establishes the identity.
 
-                                             | Prop. 5.8); identity of the world is Thesis 5.10.
 
-                                             | State alone is insufficient (Prop. 5.9).
 
-(T3) Do valid QRF changes preserve truth?    | Yes (Thm 5.16), and preservation persists under
+Item  | Quantity and identity tested                   | Result                   | Proved in
 
-                                             | generation (Thm 5.12).
+------+------------------------------------------------+--------------------------+---------------
 
-(T4) Where does L sit relative to the state? | Generated, admissible, not a function of S, accurate,
+C1    | Unread Gaussian channel: Kraus integral and    | max dev 2.4 × 10⁻¹⁴ and  | Prop. 13.15
 
-                                             | frame-covariant, dynamically idle (Thm 5.20).
+      | kick mixture vs exp(−(a − a′)²/(8σ²))          | 7.8 × 10⁻¹⁶              |
 
-(T5) Generative ordering and generability?   | Order shared by all frames (Prop. 10.1); generable
+C2(a) | Position collapse, anharmonic potential: ΔE =  | 12 digits, both states   | Prop. 13.16(a)
 
-                                             | in every frame (Cor. 5.14); continuous form (§9).
+      | ħ²/(8mσ²) in the ground state and in a random  | and cutoffs              |
 
-Same history, or merely assumed?             | Exact criterion (C3) that can fail and is preserved
+      | state                                          |                          |
 
-                                             | by the dynamics; checkable only through records,
+C2(b) | Two coupled modes, A linear: ΔE =              | 12 digits, both states   | Prop. 13.16(b)
 
-                                             | and possibly unknowable (Prop. 5.19).
+      | −[A,[A,H]]/(8σ²) in the vacuum and in a random |                          |
 
-Does CTGP add anything beyond covariance?    | Yes: it excludes otherwise QRF-covariant models,
+      | state                                          |                          |
 
-                                             | e.g. history-dependent laws (Prop. 11.4), and,
+C2(c) | Lattice field: double commutator vs Fourier    | relative diff. 5 × 10⁻¹⁶ | Prop. 13.16(c)
 
-                                             | within the construction, requires collapse
+      | formula                                        |                          |
 
-                                             | operators that act relationally on physical
+C2(d) | ΔP(Λh) = Λ ΔP(h) under a boost; ΔP timelike    | 1.3 × 10⁻¹⁶; timelike    | Prop. 13.16(c)
 
-                                             | states (§7.4, §11).
+C3(a) | Poisson counts in a box: mean and variance     | 96.00 and 96.35          | Def. 13.20
 
-Why a primitive profile, not an encoding?    | Formally interchangeable (Prop. 5.21); given CTGP’s
+      | both equal to λ × area = 96                    |                          |
 
-                                             | truthmaker principle and the non-existence of past
+C3(b) | Probability of admissibility against the cell  | below the bound; 0.599   | Prop. 13.22
 
-                                             | events, the profile supplies the present ground for
+      | bound                                          | to 0.015                 |
 
-                                             | past-tense truths (§5.7).
+C3(c) | Outcome covariance across linear extensions,   | max diff. 1.8 × 10⁻¹⁵    | Thm 13.21(a)
 
-Concrete single-outcome model?               | Three particles on ℤ_N, relational flashes (§§6–9).
+      | 300 admissible configurations                  |                          |
 
-Relativistic quantum field theory?           | Admissibility criterion (Def. 12.1); ensembles do
+C3(d) | Direct Hilbert-space history laws: across      | 4.8 × 10⁻¹⁶; 1.8 × 10⁻¹⁴ | Thm 13.21(a)
 
-                                             | not fix histories (Prop. 13.2); finite realized-
+      | linear extensions; vs closed-form              |                          |
 
-                                             | history consistency (Thm 13.4, Prop. 13.7); free-
+      | characteristic function                        |                          |
 
-                                             | field detectors with no-signaling (Thm 13.9);
-
-                                             | Gaussian collapse on fixed regions (Cor. 13.14),
-
-                                             | its energy cost (Prop. 13.16), and at Poisson
-
-                                             | locations, conditionally (Thm 13.21), with the
-
-                                             | obstructions to full covariance (Props 13.22–
+C3(e) | Overlapping pair: variance shift E²/(4σ_1²);   | 10 digits; TV 0.057;     | Props 13.23,

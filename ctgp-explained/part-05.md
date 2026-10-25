@@ -1,14 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 05 of 26 (2,027 words)
-
-5.3 Postulate 5 and the Generative Minimality Principle
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 5 (Hierarchical Law Emergence): Reality is governed at all stages by minimal generative
+Part 05 of 25 (1,791 words)
 
 laws sufficient for the lawful progression of the present boundary Σ_σ. These laws admit a hierarchy
 
@@ -66,13 +58,13 @@ through lawful causal continuity.
 
 
 
-Earlier states cease to exist as present realities, yet the transition from one state to the next is
+Earlier states cease to exist, yet the transition from one state to the next is not a discontinuous
 
-not a discontinuous replacement but a continuous evolution of physical reality itself. Accordingly,
+replacement but a continuous evolution of physical reality itself. Accordingly, CTGP views time as
 
-CTGP views time as an ongoing causal-temporal progression in which reality continuously becomes what
+an ongoing causal-temporal progression in which reality continuously becomes what it next is through
 
-it next is through lawful physical transformation.
+lawful physical transformation.
 
 
 
@@ -339,41 +331,3 @@ events rather than a coordinate-dependent slicing, and no preferred coordinate f
 the foliation is fixed by the level sets of cosmological time, of which σ is a relabeling, and
 
 involves no additional field dynamics. To ensure causal consistency, the gradient ∇_μσ is required
-
-to remain timelike: ∇_μσ ∇^μσ < 0. This condition — guaranteed wherever τ is differentiable, since
-
-∇_μτ is then a unit timelike covector — ensures that the generative ordering corresponds to a
-
-physically admissible temporal direction and that Σ_σ is everywhere spacelike. CTGP does not claim
-
-that general relativity singles out a unique foliation in every spacetime. It claims that
-
-cosmological time, defined from the causal and metric structure alone, supplies a physically
-
-distinguished foliation wherever it is regular, and that in our universe this foliation
-
-approximately coincides, on large scales, with the rest frame of the cosmic matter distribution. The
-
-construction does not presuppose the idealized fundamental observers of standard cosmology: the
-
-maximizing geodesics of cosmological time play the role those observers would play, and they are
-
-fixed by the geometry wherever cosmological time is regular, however lumpy the matter distribution.
-
-
-
-This encodes CTGP’s generative temporal asymmetry: future hypersurfaces Σ_{σ′>σ} are excluded from
-
-M(σ). Figure 2 illustrates this structure.
-
-
-
-[FIGURE: Figure 2]
-
-  Figure 2. The generated domain M(σ). The present edge Σ_σ is the active boundary of generation;
-
-  earlier stages Σ_{σ′} (σ′ < σ) constitute the formal history M(σ), and future stages are not part
-
-  of the domain. Lines are schematic level sets of σ, not independently existing slices.
-
-

@@ -1,66 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 05 of 5 (984 words)
-
-32. Wholes do not inherit every property of their parts
-
-----------------------------------------------------------------------------------------------------
-
-
-
-A teapot can be hot without the house being a teapot, and a person can be conscious, hungry,
-
-remembering, or deciding without the universe as a whole having those experiences, memories, or
-
-decisions. Those properties belong to the particular organized system that instantiates them. “We
-
-are the universe experiencing itself” can work as poetry, but as a literal metaphysical claim it is
-
-much weaker. The precise statement is that persons are portions of the universe organized in ways
-
-that permit experience. The universe need not be an experiencing agent for some of its constituents
-
-to be experiencing agents.
-
-
-
-Causal participation is likewise bounded. Human actions genuinely affect later physical states, but
-
-human influence is local and limited; participating in the universe’s causal history is not
-
-controlling it. The observer is not outside reality looking in, but neither is the universe thereby
-
-an observer. When a person dies, the larger system continues while one organized process within it
-
-ends.
-
-
-
-    A teapot is not the house merely because it is made of the house’s contents and exists entirely
-
-    within it. Likewise, a person is not the universe merely because that person is made of the
-
-    universe’s contents and exists entirely within it. The observer is a part of the universe
-
-    observing other parts of the universe.
-
-
-
-====================================================================================================
-
-PART VII. Fiction as a Laboratory for Philosophy
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------
-
-33. Changing one assumption and following the consequences
-
-----------------------------------------------------------------------------------------------------
-
-
+Part 05 of 5 (776 words)
 
 Worldbuilding of the kind found in the literary fiction work does what philosophers and theoretical
 
@@ -136,11 +76,13 @@ digital environment by physical-world causes: maintenance performed on the compu
 
 people, avatars controlled by living humans, and other interactions between the physical and digital
 
-sides. The resulting unpredictability is real randomness originating outside the simulation, not the
+sides. The resulting unpredictability originates outside the simulation: it is not the output of a
 
-output of a pseudo-random number generator and not a malfunction of the system itself. The structure
+pseudo-random number generator and not a malfunction of the system itself. From the inhabitants’
 
-is:
+perspective, these influences are inaccessible and unpredictable, even if the external processes
+
+themselves are deterministic; fundamental randomness is not required. The structure is:
 
 
 
@@ -170,11 +112,13 @@ through informational similarity alone.
 
 
 
-The past influences reality without needing to remain, because it acts through inherited present
+What happened shapes reality without needing to remain: it is causally ancestral to the present, but
 
-consequences. The future influences action without needing to exist, because it acts through present
+the causal work is done by the consequences the present inherits. What may happen guides action
 
-representations constructed by agents:
+without needing to exist: the guidance comes from present representations of possibilities that
+
+agents construct:
 
 
 

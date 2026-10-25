@@ -1,359 +1,337 @@
 # Info
 
-Part 22 of 24 (1,651 words)
+Part 22 of 23 (1,784 words)
 
-1. Pure mathematical consistency.
+For conceptual/technical analysis on AI style control — dynamic, context-based, non-random selection
 
-2. Physical possibility according to our current best theories.
+and combination of predefined style templates/parts. It touches on prompting techniques, system
 
-3. Actual realization or observation in nature.
+design, style consistency in LLMs/generative AI, and enabling diverse “AI personalities” or outputs.
 
 
 
-These categories overlap but are not identical. A mathematical structure may be logically consistent
+I think that such would create stylistic variation. Two AIs using different template libraries,
 
-without corresponding to any known physical reality. Conversely, a mathematically motivated idea may
+different weighting rules, or different selection criteria could appear to have noticeably different
 
-initially lack observational support yet later prove physically real.
+personalities or communication styles even if their underlying reasoning system were identical.
 
 
 
-The relationship between mathematics and physics is also more intertwined than a simple “language
+I think that such would definitely enable many different AI styles. It would not necessarily create
 
-versus filter” analogy suggests. Mathematics does not merely describe candidate physical theories;
+fundamentally different intelligences unless the style-selection mechanism also influences
 
-it often constrains them. In modern physics, requirements such as symmetry principles, anomaly
+reasoning, priorities, interpretation, planning, or decision-making rather than merely wording and
 
-cancellation, internal consistency, and mathematical well-posedness can eliminate theoretical
+presentation. “Different clothes on the same mind” gives different styles, while changing how the
 
-possibilities before experimental testing occurs. In this sense, mathematics serves not only as a
+system interprets and responds to situations can begin to produce what people might regard as
 
-descriptive tool but also as a source of constraints on what may count as a viable physical theory.
+different Ais.
 
 
 
-Examples often cited as mathematically conceivable but physically problematic illustrate this
+Lightweight adapters (LoRA/PEFT) (cheap, and this is a real answer to one of your questions). This
 
-complexity. Perfectly rigid bodies conflict with relativity because they would permit instantaneous
+is a genuinely interesting tier and feasible. Instead of retraining a whole model per AI, you freeze
 
-transmission of information. Faster-than-light signaling is generally regarded as impossible within
+the giant base and train a tiny adapter — often well under 1% of the parameters — on each AI’s
 
-relativistic physics because it would enable causal paradoxes. Negative mass appears in certain
+specific data. A LoRA for a 7–8B model can be trained for low single-digit dollars to low tens of
 
-mathematical solutions of gravitational theories and remains a topic of speculative investigation,
+dollars on rented GPU time, and the adapter file is megabytes, not gigabytes. You can host one base
 
-but no confirmed physical examples are known. These cases are not merely “forbidden by physics” in
+model in memory and hot-swap hundreds or thousands of adapters against it. That is, concretely,
 
-an arbitrary sense; rather, they conflict with specific theoretical principles or lack empirical
+financially feasible mass-production of weight-level-distinct AIs. Each adapter is a real,
 
-support within our current framework.
+persistent “upbringing” baked into parameters while sharing the expensive base. This is the sweet
 
+spot the economics actually allow today.
 
 
-At the same time, a lack of observation alone does not imply a violation of natural laws. Black
 
-holes, antimatter, gravitational waves, and the expansion of spacetime were all predicted
+Does each form of a human’s non-mental effort count as one of that human’s doings? What about “a
 
-mathematically before they were observed. Something unobserved today may be impossible,
+human’s audibly speaking”?
 
-technologically inaccessible, extraordinarily rare, hidden behind observational limits, or simply
 
-undiscovered.
 
+Hypothetically, if a BCI feeds custom signals to the brain but the signals are solely based on an
 
+external surveilance electronic device-camera that records the external world in real time and the
 
-Ultimately, mathematics defines a vast landscape of logically possible structures, while physics
+brain receives “live streams of that camera’s data in real time” converted into brain signals for
 
-seeks to determine which portions of that landscape correspond to reality. The boundary between the
+the brain to “figure out”/interpret, and that brain is limited to “experience without any raw what-
 
-mathematically possible and the physically possible is shaped by both empirical evidence and
+it-is-likeness” but with “deliberative evaluation” capabilities intact, that brain is unequivocally
 
-theoretical consistency, and that boundary can shift as scientific understanding advances. For that
+“experiencing” its observing, imagining, and evaluating.
 
-reason, a mathematical construct that does not currently correspond to anything observed is not
 
-automatically outside our universe’s natural laws - but neither does mathematical consistency alone
 
-guarantee physical possibility.
+Without invoking raw qualia even once:
 
 
 
-Would any “progress regarding any new Science Physics-related
+“Experience” has a legitimate, non-phenomenal definition - the cognitive-scientific or enactive
 
-discoveries/breakthroughs/frameworks/progress” have taken much longer without AI use?
+definition. Under this definition, experience = the dynamic, situated process of engaging with,
 
+modeling, and responding to internal and external states.
 
 
-What ultimately gives rise to the subjective felt quality of emotion, and are those feelings
 
-emergent or non-emergent?
+The brain, with the BCI camera feed, is doing all three simultaneously:
 
 
 
-May reality contain higher levels of organization (e.g., organized structure [e.g., hurricane
+1. Observing the external world → It is continuously coupled to the surveillance feed. Its neural
 
-comprised of molecules] comprised of quantum things) “beyond or too mathematically complex for”
+   dynamics track, predict, and react to real-time events in that distant environment. This is
 
-current humans’ grasping/tools, possibly even regarding universe-span?
+   experiential coupling—the brain lives through that data stream.
 
+2. Imagining → It deliberately generates offline simulations (the “what-if” scenarios). These
 
+   simulations are not just static files; they are active constructions that compete with and
 
-Is “all is one” incoherent when meaning “no existence of distinctions at all”, but “all is one” has
+   modulate the incoming BCI data. The brain lives through those generated models.
 
-coherence when meaning “there are varying aspects of ‘the one and only’ reality and that
+3. Evaluating → It weighs alternatives, runs self-referential loops, and initiates behavior based on
 
-aforementioned reality has everything as its parts”?
+   its own conclusions. It lives through the tension of choosing, the resolution of deciding, and
 
+   the feedback from its actions.
 
 
-Can a human originate “a coherent consistent logic that is entirely different from
 
-Mathematics/English and does not align with any basis acquired via observation/experience acquired
+Crucially, these three processes are not isolated. They continuously interact:
 
-via our universe/reality” (genuine logical novelty from scratch)?
 
 
+The camera feed triggers an imaginative simulation of where the car will be in 5 seconds.
 
-Symbols don’t have to directly reference physical objects, the mind capable of generating and
 
-manipulating abstract symbols at all was/is itself shaped by existing in this universe. The
 
-abstraction being untethered doesn’t mean the mind performing it is. Whether mathematics itself is
+That simulation feeds back into the evaluation: “What are the potential possibilities?”
 
-independent of reality is a separate philosophical question from whether humans can originate
 
-mathematical or logical concepts completely detached from reality.
 
+That evaluation changes how the brain attends to the next chunk of camera data.
 
 
-Even if mathematics exists independently of our universe, it does not automatically follow that a
 
-human mind can access or originate mathematical concepts without any influence from the universe
+This ongoing, interwoven causal dance between perception, imagination, and deliberation is a form of
 
-that shaped that mind.
+experiencing—what philosophers call access consciousness, as distinct from phenomenal consciousness
 
+(the “feel”).
 
 
-Symbols or abstractions don’t have to directly correspond to a physical object. The mind generating
 
-and manipulating those abstractions developed within a particular reality and acquired its cognitive
+Think of it this way:
 
-tools through interaction with that reality.
 
 
+When you are deeply absorbed in a complex task - say, driving a race car at 200 mph - you are not
 
-So even if mathematics is “alien to” or independent of our universe in some abstract sense, that
+introspecting on the “rawness” of the colors or the “feeling” of the G-forces. You are in the zone:
 
-would not by itself show that a human can originate a coherent logical system whose foundational
+purely coupling, predicting, and deciding. If we subtracted the raw feels from that zone, would we
 
-concepts carry no trace of the cognitive resources, experiences, or conceptual frameworks ultimately
+say you are “not experiencing” the race? No—you are intensely experiencing it in every functional,
 
-derived from living in this universe.
+cognitive, and behavioral sense. Your brain is living that race.
 
 
 
-What extra exceptions are required to be added to “a singularity state of ‘no existence of
+So, the brain is not a detached automaton passively crunching numbers. It is an active, situated,
 
-distinctions at all except temporal progression’” that would enable that singularity to go Big Bang?
+anticipatory agent engaged in a continuous loop with an external world (via camera) and its own
 
+internal generative models (imagination) and self-regulatory controls (evaluation). That loop is its
 
+experience.
 
-Is a human’s sleep-dream generated by that human’s own brain? Is a human’s sleep-dream solely
 
-(being) that human’s own mental activity?
 
+“Experience” successfully isolated from “raw feel.” And in that isolated, purely cognitive-
 
+operational sense - the brain is experiencing its world, its imaginings, and its deliberations,
 
-Does any particle ever lack extent of motion over any nonzero interval? So, do “particles moving”
+richly and continuously.
 
-occur “universe-span in simultaneity”? Do various causal chains occur “universe-span in
 
-simultaneity”? Are there currently able to be parts of the universe where “no causal chain is
 
-happening at a location-coordinate of/in the universe” while “a causal chain is happening at a
+One stripped of the specific sensory qualia tied to the old signals, while retaining the functional
 
-different location-coordinate of/in the universe”?
+activity of observing/deliberating. Same person, different constraints.
 
 
 
-Are the “CMB (Cosmic Microwave Background)” and “The 21cm Hydrogen Line” the top two best
+If a brain received signals for raw what-it-is-likeness experience, but is now limited to
 
-“observable/physical things for ‘utilization and reference’ that are not absent anywhere in the
+“experience without any raw what-it-is-likeness”, however, “observation & deliberative evaluation”
 
-universe”?
+capabilities intact, does the brain still have consciousness?
 
 
 
-Isn’t each existence in the universe always simultaneously never-at-classical-rest, even when it
+I believe that “deliberative evaluation is part of what makes consciousness ‘consciousness’” even if
 
-comes to stationary quantum states?
+such deliberative evaluation is most minimal/limited. Is deliberative evaluation part of what makes
 
+consciousness “consciousness” under your view?
 
 
-Current physics provides no clear example of a non-abstract physical existence that is known to be
 
-“‘absolutely static’ from any one instant to the next instant” in the strongest possible sense. But
+Do dust mites have DNA, and are dust mites capable of deliberative evaluation?
 
-physics has not conclusively proven that such is logically or metaphysically impossible.
 
 
+If independent consciousness can emerge/arise from/“due to” representations/simulations, would that
 
-For how long right after the Big Bang did life not exist in the solar system until “the right
+mean independent consciousness can emerge/arise from/“due to” one’s imaginings? Imaginings don’t
 
-conditions were met” in order for life to form, which resulted in life forming?
+persist in structure, would such consciousness cease?
 
 
 
-The solar system did not exist immediately after the Big Bang; it formed about 4.57 billion years
+Regarding substrate-dependence, per conscious existence, does a conscious existence’s substrate
 
-ago, whereas the Big Bang occurred about 13.8 billion years ago. Thus, for roughly 9.2 billion years
+always non-stop constrain “‘what is possible’ experience-wise” for that conscious existence to be
 
-after the Big Bang, there was no solar system in which life could arise. Even after the solar system
+able to possibly potentially experience?
 
-formed, Earth likely remained lifeless for several hundred million years before conditions became
 
-suitable and life emerged, with the earliest evidence of life dating to at least about 3.5–3.8
 
-billion years ago.
+If your severed left arm got pointed at, did you get pointed at? If your right arm got stung by a
 
+bee, did you get stung? If you claim fondness of someone, is just their mind referred to? If 1 of
 
+your cells convulsed or died, did you convulse or die?
 
-Would quantum physics still be a structure and behavior of the physical and natural world if mind,
 
-imagination, and consciousness never exist/existed?
 
+The answer to all four is “it depends on which ‘self’ is being referred to”- and the four cases are
 
+interesting precisely because they don’t all land the same way. “Self” quietly switches between two
 
-According to mainstream physics, yes. Quantum physics is currently understood as describing the
+meanings depending on the relation in play, and a couple of these cases test a third thing: whether
 
-behavior of physical systems rather than depending on the existence of minds, imagination, or
+what’s true of a part is true of the whole person.
 
-consciousness. Under that view, stars, atoms, radiation, and quantum processes would still occur
 
-even in a universe that never contained conscious beings.
 
+Two senses of “self” first. There’s the narrow self - you as experiencing subject: your mind,
 
+perspective, who-you-are, the seat of personality and memory. And there’s the wide self - you as
 
-Can our universe possibly currently simultaneously be “with finite information content, perfect
+embodied person, mind and living body as one acting whole. Everyday language picks between them
 
-records of all prior states, unlimited storage and processing capability, and an enabler for the
+based on what kind of relation is being described. Relations of regard and identity often point at
 
-acquisition of complete knowledge of the governing laws”?
+the narrow self. Relations of physical harm or location point at the wide self. Same word, selected
 
+by context.
 
 
-No.
 
+“If your severed left arm got pointed at, did you get pointed at?” No. Once detached, the arm is a
 
+former part of your body, not you. Nobody addresses a severed limb as the person. This shows the
 
-Regarding conscious existences, do different substrates permit different classes of signal exchange
+body is a part-having system - parts can leave - and losing one subtracts tissue, not self. You
 
-and therefore different participatory capacities?
+could lose the arm and lose zero self, which tells you “body” and “self” don’t share identity
 
+conditions.
 
 
-Regarding no causality during Planck time, doesn’t change-occurrence (e.g., expansion/cooling)
 
-suggest “underlying enabler of change, ordering principle, or transition structure” (e.g.,
+“If your right arm got stung by a bee, did you get stung?” Yes. Here the arm is still part of the
 
-Indefinite Causal Order) was likely so during such Planck time?
+embodied “me,” so the wide self is what’s referred to - the bee didn’t sting your perspective, it
 
+stung the embodied you, and that counts as you getting stung. Note the contrast with the severed
 
+arm: attachment and being part of the live whole is what makes the difference between “that’s me”
 
-Is there any uncaused phenomena (e.g., Radioactive Decay) that doesn’t require a prerequisite (e.g.,
+and “that’s a former part of me.”
 
-the universe)?
 
 
+“If you claim fondness of someone, is just their mind referred to?” It can depend - when you’re fond
 
-Is “a BCI information-extraction device that obtains info via extracting it” plausible/feasible? Or
+of someone, you can be, but are’t limited to being, fond of who they are: their mind, character,
 
-does the info always need to be being thought about in order for the BCI to be able to obtain that
+perspective even able to be excluding being fond of their tissue. That’s why fondness survives them
 
-info?
+cutting their hair, aging, or losing a limb. The body isn’t always the target of the regard; the
 
+person-as-subject often is.
 
 
-Does “experiencing backwards (T1→T0)”=one’s experiences reverse-propagate, one is ‘passenger of
 
-experience’ “observing ‘already present-in-own-brain info’” via the ‘outcome’ arrives before the
+“If 1 of your cells convulsed or died, did you convulse or die?” No - and this is the sharpest of
 
-‘prediction’, making authorship/evaluation impossible?
+the four, because it’s testing something different from the first three. A single cell is a sub-
 
+personal constituent. Its activity doesn’t automatically become true of the whole person. Cells die
 
+in you constantly and “you” don’t die; one cell convulsing doesn’t make “you” convulse. This reveals
 
-If “experiencing backwards (T1→T0)” means that conscious experience itself traverses an already-
+that being part of the body isn’t enough for something to be predicated of you - some part-events
 
-existing sequence of brain states in reverse order, then outcomes would indeed be encountered before
+scale up to the person (the bee sting → “I got stung”) and some don’t (one cell dying → not “I
 
-predictions, conclusions before inferences, and answers before questions. In that sense, the
+died”). The difference is whether the event registers as a unified, whole-system event or stays
 
-experiencer would not be generating those outcomes within their experienced direction of time. They
+isolated at the sub-personal level.
 
-would encounter informational states that are already present in the brain state being traversed.
 
 
+Putting the four together, you get a gradient, not a single rule. The severed arm is no longer part
 
-However, saying that the experiencer is “observing already-present-in-own-brain information” may be
+of the self at all. The stung arm is part of the wide embodied self, and the harm scales to the
 
-too strong. Observation, evaluation, interpretation, deduction, and judgment are themselves
+whole. Fondness, at times, is the being fond of another’s narrow self, their mind. The dying cell is
 
-cognitive processes. Under a strict reversal, those processes would not be experienced as
+part of the body but too sub-personal to scale to “you” at all. So “self” isn’t ambiguous by
 
-constructive activities. The subject would not first receive information and then actively work on
+accident - it tracks the relation, and predication about the self is sensitive to both which self
 
-it. Rather, each instant would simply contain whatever conscious (if the “experiencing backwards
+(mind vs. embodied person) and what scale (whole-system vs. sub-personal constituent) the event
 
-(T1→T0)” setup even enables being conscious) content belongs to that instant’s brain state.
+lives at.
 
 
 
-Likewise, saying that the outcome arrives before the prediction is broadly correct, but the reverse
+One underlying point ties it together: your self is not something shared out among your parts.
 
-experiencer may not even experience these as an “outcome” and a “prediction.” Those labels arise
+Whatever a single cell is or does, it isn’t a co-owner of your perspective - there’s one experiencer
 
-from relating multiple states across time. The reverse experiencer may lack access to the temporal
+here, not a federation of cell-selves. That’s why the cell can die without you dying, and why the
 
-organization needed to identify one state as the result of another.
+body can count as part of “you” (wide self) without any individual part of the body being a self in
 
+its own right. Being part of the self and being a self are different things. The body is the shared
 
+physical system with parts; the self is the unshared experiencer those parts don’t get a vote in.
 
-For the same reason, authorship would not merely become difficult; the ordinary experience of
 
-authorship could disappear altogether. Authorship normally involves experiencing oneself as
 
-contributing to the production of later states. In a reversed experiential sequence, later states
 
-are encountered first. The subject would not experience themselves as bringing them about.
 
 
 
-The same applies to evaluation. Evaluation is not simply hidden behind the outcome; evaluation
+Belief tracks two different things depending on whether confirmation occurred.
 
-itself is one of the states being traversed. The reverse experiencer would not necessarily
 
-experience evaluation as an activity occurring. They would merely pass through states that, from a
 
-forward-time description, correspond to stages of an evaluation process.
-
-
-
-Thus, a strict T1→T0 experiential stream would not merely make authorship and evaluation impossible
-
-in the ordinary sense. It would undermine the very appearance of cognitive activity as activity. The
-
-experiencer would not primarily be a thinker who receives outcomes before predictions. Rather, they
-
-would be a conscious (if the “experiencing backwards (T1→T0)” setup even enables being conscious)
-
-succession of already-formed experiential states, lacking the temporal structure required for
-
-learning, inference, evaluation, authorship, or even the recognition that such processes are absent.
-
-The notions of “outcome,” prediction,knowledge gain,knowledge loss,evaluation, and “authorship”
-
-would largely belong to an external description of the sequence rather than to what the experiencer
-
-could identify from within it.
+For something confirmed, belief is not really belief anymore. Once one has confirmed something oneself, it is effectively settled for that person, because confirming is what closed the gap, unless new evidence shows that the confirmation itself was mistaken (perception, memory, and instruments can err). There is nothing left for belief to bridge. The strength of the position comes from the act of confirming, not from an estimate.
 
 

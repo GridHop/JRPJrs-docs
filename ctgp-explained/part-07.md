@@ -1,6 +1,42 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 07 of 26 (1,664 words)
+Part 07 of 25 (1,796 words)
+
+physics, and it would conflict with CTGP’s postulate that the future is ontologically absent; CTGP
+
+does not require it. Singularities — black hole interiors and the Big Bang — mark the breakdown of
+
+the smooth continuum description, not the breakdown of causal ordering itself.
+
+
+
+One assumption deserves explicit statement. CTGP’s primitive ordering is definite: of two causally
+
+related stages, one precedes the other. Quantum processes with indefinite causal order, such as the
+
+quantum switch (Chiribella et al. 2013), which has been realized in photonic experiments (Procopio
+
+et al. 2015), superpose the order in which operations act on a target system. Their effective
+
+operations are causally nonseparable: they cannot be represented as a classical mixture of fixed
+
+operation orders. This does not by itself show that the underlying interactions lack definite causal
+
+relations; in fixed-spacetime implementations, a suitably fine-grained description has a definite
+
+acyclic causal order (Vilasini and Renner 2024). A definite causal structure is not, however, a
+
+uniquely realized history, which requires the single-outcome commitments of §10.1. CTGP requires one
+
+realized history, not a definite classical order for every effective quantum operation, so
+
+operational causal nonseparability alone neither establishes nor refutes it. Whether quantum gravity
+
+requires indefinite causal order at the level of spacetime itself is an open question; if it did,
+
+CTGP’s primitive ordering would require generalization.
+
+
 
 6.5 Timelike Character of the Spacetime Generation Field
 
@@ -246,11 +282,11 @@ existing ADM variables, increases monotonically in expanding cosmologies, and de
 
 without being an independent physical degree of freedom. σ plays an exactly analogous role: it is a
 
-physically calibrated member of the class of smooth Cauchy temporal functions guaranteed by the
+physically calibrated member of the class of Cauchy time functions that every globally hyperbolic
 
-Bernal–Sánchez theorems, selected by maximal elapsed proper time rather than stipulated as an
+spacetime possesses, selected by maximal elapsed proper time rather than stipulated as an
 
-independent field.
+independent field, and smooth wherever τ is differentiable.
 
 
 
@@ -289,19 +325,3 @@ framework are constructed from the metric, its causal structure, and scalar inva
 Consequently, the theory remains invariant under arbitrary spacetime diffeomorphisms. The Einstein
 
 field equations G_{μν} = 8πG T_{μν} are unchanged (§9.1), and the generative dynamics operate only
-
-at the level of the ontological realization of spacetime events rather than modifying the local
-
-gravitational field equations. In this sense CTGP extends the interpretation of spacetime evolution
-
-without altering the empirically verified structure of General Relativity. Within the emergent
-
-geometric regime, σ is represented by cosmological time, a geometric scalar, and therefore
-
-transforms covariantly under diffeomorphisms. Fundamentally, however, σ is interpreted as a pre-
-
-geometric generative ordering parameter rather than as a scalar field defined on a pre-existing
-
-manifold. This covariance is guaranteed by construction and does not require additional assumptions.
-
-

@@ -1,355 +1,361 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 23 of 26 (1,647 words)
+Part 23 of 25 (1,796 words)
 
-Appendix C. Vulnerability Assessment
+in causal sets or loop quantum gravity — so why should discrete computation lack what discrete
 
-----------------------------------------------------------------------------------------------------
+physics may have? The answer turns on the distinction between ontological discreteness and symbolic
 
+discreteness. The discreteness that quantum gravity posits is discreteness of the physical causal
 
+structure itself: actual causal events are generated sequentially, each inheriting the full
 
-The three principal vulnerabilities of CTGP concern foliation dependence, underdetermination with
+intrinsic character of its physical substrate. Digital computation, by contrast, is symbolic
 
-respect to eternalism, and the use of a preferred cosmological frame. The responses to each are
+discreteness: a finite state machine manipulates representations of structure according to rules,
 
-developed in the main text (§§6.10, 11.4, 12, 9.3.1); this appendix records the residual assessment.
+without thereby instantiating the intrinsic properties of the system it represents. Whether the
 
+computing hardware has experiential properties of its own is a separate question this criterion
 
+leaves open. One necessary condition can nonetheless be stated for psychological pain in particular,
 
-After these responses, the residual severity of each vulnerability is as follows. The foliation
+such as grief, shame, or dread. Such pain is constituted by appraisal rather than by a raw signal,
 
-criticism is answered: the present is geometrically unique wherever cosmological time is regular,
+so it requires a self-model, meaning, memory, and anticipation that matter to the system itself. A
 
-aligned with matter in cosmology, and globally defined through structure formation; the open cases
+system lacking those capacities could not have psychological pain, whatever it computes or
 
-are past-eternal, cyclic, and emergent cosmologies and non-uniform bounces, with single uniform
+represents. Having them would be necessary but not sufficient, and whether any artificial system has
 
-bounces covered by §6.10.1. The underdetermination criticism is correct and is accepted in its
+them is an open question, partly empirical. A Planck-scale causal element in a growing causal set is
 
-precise form: the ontology is observationally equivalent to eternalism for fixed physics, and its
+a genuine event with intrinsic physical properties; a bit in a register is a representation of such
 
-empirical exposure is structural rather than observational (§12). The preferred-frame criticism is
+an event. The distinction is not between fine-grained and coarse-grained physics but between
 
-answered in its usual form, since cosmology already employs the same frame and CTGP predicts no
+instantiation and representation. Russellian monism makes this precise: physical processes have both
 
-local preferred-frame effects.
+structural (relational) properties, which can be encoded and simulated, and intrinsic properties,
 
+which are not fixed by that structure. CTGP identifies the latter as the vehicle of qualia. What
 
+follows is a claim about level of description rather than about substrate: the represented structure
 
-The deep philosophical challenge that remains is whether a generative ontology is more than an
+— the sequence of symbolic states a computation implements — is an abstractum, and an abstractum is
 
-interpretive preference. That question cannot be settled by formal argument or by measurement alone;
+not a locus of experience. This leaves entirely open what the physical system carrying out the
 
-it belongs to the broader debate over scientific realism, underdetermination, and inference to the
+computation may instantiate on its own account, which is a question about that system's intrinsic
 
-best explanation. CTGP’s contribution is to make the debate concrete: to specify the present
+properties and is not settled by the fact that the system is being used to represent something else.
 
-precisely, to show which physical realizations of it are consistent, and to identify the structural
+This argument does not require physics to be continuous; it requires only that computation be
 
-commitment through which the ontology remains exposed to evidence.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix D. CTGP and Conscious Experience
-
-----------------------------------------------------------------------------------------------------
+representational, which is constitutive of what computation is.
 
 
 
-The relationship between CTGP's temporal ontology and the philosophy of mind is among the
+This distinction can be stated formally as the Representation–Instantiation Distinction.
 
-framework's most distinctive contributions. This appendix develops the connection systematically.
+Computational systems implement syntactic state transitions: S_{n+1} = f(S_n), where S denotes a
 
+symbolic state and f is an effective rule. Physical systems instantiate intrinsic causal dynamics:
 
+dφ/dt = F(φ), where φ is a genuine physical field evolving under real forces. The crucial asymmetry
 
-Structural note on scope. CTGP operates at two analytically distinct levels that should be kept
+is that computation manipulates representations of states, while physics evolves actual states. A
 
-separate when evaluating the framework’s physics credentials. The core theory — comprising §§1–12,
+computation is therefore a mapping between symbolic states that represents a physical process; a
 
-the σ formalism, ADM evolution, cosmological foliation, and the empirical standing set out in §12 —
+physical process instantiates that process. The corollary is familiar at the macroscopic level: a
 
-is a standalone spacetime ontology that can be evaluated entirely on physics and philosophy-of-
+perfect simulation of a hurricane does not produce wind. CTGP extends this principle into the domain
 
-physics merits, independent of the consciousness discussion. Appendix D extends CTGP’s temporal
+of consciousness: a perfect simulation of a brain does not thereby instantiate the intrinsic causal
 
-ontology into the domain of mind and experience. This extension is motivated by the core theory —
+dynamics of the brain it represents, because the simulation operates on representations of those
 
-the present-edge structure of M(σ) provides a natural locus for qualia — but it is not a
+dynamics rather than on the dynamics themselves. The claim is that the simulated brain is not a
 
-prerequisite for accepting the core framework. Readers primarily interested in the physics case may
+second locus of experience; it is not a claim about whether the simulating machine is one. The
 
-treat Appendix D as an optional philosophical appendix. Its conclusions do not feed back into the
+physically instantiated criterion is thus not a free-standing metaphysical stipulation but a direct
 
-formal theorems of §17 or the empirical analysis of §§11–12. The physically instantiated criterion
+application of the Representation–Instantiation Distinction to the case of qualia—grounded in the
 
-(§D.4) and the mapping problem (§§D.5–D.6) are philosophical elaborations, not physical postulates
-
-of the core theory. The discussion of conscious temporal experience throughout this appendix is
-
-intended as phenomenological motivation for the CTGP framework rather than as empirical evidence for
-
-it. This scope restriction applies to the qualia material collected here and not to the explanatory
-
-arguments of the main text. In particular, the explanatory challenge to the block universe in §2.2
-
-and the convergence of the thermodynamic, causal, cosmological, and memory-formation arrows in §3.4
-
-are main-body arguments from explanatory economy, not claims about phenomenal consciousness, and
-
-they stand or fall independently of anything in this appendix.
+philosophy of computation, not merely asserted.
 
 
 
-D.1 Qualia Ontology: Locus on Σ_σ
+Clarification of Intrinsic Physical Properties. The distinction between digital representation and
+
+ontological physical process requires clarification. CTGP’s physically instantiated criterion does
+
+not deny that physical theories may admit discrete microstructures (as in causal-set theory or loop
+
+quantum gravity). Rather, the claim concerns the difference between representation and
+
+instantiation.
+
+
+
+A digital register encodes information symbolically. The bit “1” possesses no intrinsic physical
+
+property corresponding to redness, pain, or any other qualitative character. Its significance is
+
+purely relational and interpreter-dependent. The point concerns what a symbol is, not what the
+
+system implementing it may possess. By contrast, a physical event in spacetime possesses intrinsic
+
+properties determined by its participation in causal interactions. These properties are not merely
+
+structural relations but include the local physical character of the event itself.
+
+
+
+This position aligns with Russellian monism, which holds that physics describes relational structure
+
+while leaving the intrinsic nature of physical properties underdetermined. CTGP therefore adopts the
+
+following ontological claim: physical events possess intrinsic properties that ground both causal
+
+powers and qualitative character. Physics describes the structural relations between these events,
+
+while the intrinsic properties provide the ontological substrate of experience.
+
+
+
+The criterion also presupposes a distinction that is easy to lose: the conditions for intelligence
+
+and the conditions for qualitative experience are not the same conditions. Intelligence is specified
+
+functionally — by what a system does — and is therefore settled by functional duplication.
+
+Qualitative character is not specified functionally, and no argument from task performance
+
+establishes it. A system may satisfy the first set of conditions completely while the second remains
+
+an open question.
+
+
+
+The argument against strong functionalism does not depend on the representation/instantiation
+
+framing and is not weakened by the scoping above. It follows from Russellian monism alone:
+
+functional equivalence is specified structurally; intrinsic character is not fixed by structure;
+
+therefore functional duplication does not settle phenomenal identity. This holds whatever the
+
+substrate of either system, and it is unaffected by any question about what a simulating machine
+
+instantiates.
+
+
+
+The physically instantiated criterion therefore asserts: a digital simulation may reproduce the
+
+structural relations between events without thereby instantiating the intrinsic physical properties
+
+of the processes it represents. This claim is metaphysical rather than empirical, but it functions
+
+analogously to other ontological commitments in physics (e.g., the existence of spacetime events or
+
+quantum states).
+
+
+
+Three further claims should be kept apart here. The first is what the criterion denies: a system
+
+that represents another system's experience does not thereby have that experience. Experience is
+
+here understood to involve subject-relative registration — there being someone for whom the content
+
+occurs — and a representation of a subject does not constitute one. This is a clarification of terms
+
+rather than a theory of consciousness, and nothing in it turns on whether experienced content is
+
+also available for report, attention, or behavioral control. The denial concerns representation
+
+only, and carries no implication about what the representing system may undergo on its own account.
+
+The second concerns range: a conscious existence can only be aware of what can reach it, and what
+
+can reach it is fixed by the classes of signal exchange its substrate, architecture, and interfaces
+
+permit. Differently constituted systems therefore differ in their participatory capacities — in what
+
+they can receive, register, and enter into — and their experiential ranges, including the scope,
+
+integration, persistence, and contents of awareness, are correspondingly not identical. These
+
+constraints are specifiable in physical terms, whereas experiential range is not; the former
+
+constrains the latter without determining or revealing it. The criterion asserts the non-identity of
+
+ranges; it does not specify the content of any range, and it does not hold that experience is
+
+available only to non-digital substrates. The third concerns realization: within a shared
+
+experiential category, each experiencer instantiates that experience in a way particular to itself —
+
+a point holding between any two experiencers and implying nothing about substrate in particular.
+
+
+
+D.5 Substrate-Sensitivity and the Mapping Problem
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP adopts a substrate-sensitive account of qualia: not every physical process that satisfies the
+
+necessary conditions in §D.3 necessarily instantiates qualia of any given qualitative character. The
+
+substrate's specific dynamical properties — the particular way in which it integrates, amplifies,
+
+and causally continues information — shape the character of experience. This is the mapping problem,
+
+explicitly named in CTGP: the framework provides the metaphysical arena (the present + physically
+
+instantiated process + causal continuity) but does not by itself derive the specific pattern-to-
+
+quale mapping. That mapping requires additional theoretical work.
+
+
+
+Three bridge principle options are available:
+
+
+
+• Russellian intrinsic properties: the intrinsic (non-structural) properties of physical processes
+
+  at Σ_σ just are the qualitative characters of experience. This is Russellian monism adapted to
+
+  CTGP's temporal ontology.
+
+• IIT-style lawlike mapping: integrated information (or a generalization thereof) determines quale
+
+  character via a law-like relation. CTGP's classicalization conditions set the stage; IIT or a
+
+  successor theory provides the specific mapping.
+
+• Protopanpsychist composition: micro-experiential properties combine — via rules that CTGP's
+
+  present-slice structure constrains — into macro-experiential properties. CTGP's physically
+
+  instantiated criterion then rules out purely combinatorial accounts based on abstract functional
+
+  roles.
+
+
+
+CTGP's working hypothesis is a combination of the Russellian and IIT-style options: a lawlike
+
+mapping from the intrinsic properties of causally continuous, classicalized physical processes at
+
+Σ_σ to qualitative experience, with the specific mapping remaining an open empirical and theoretical
+
+question. CTGP is compatible with Russellian intrinsic-property accounts, IIT-style functional
+
+mapping, and protopanpsychist composition — the framework constrains but does not decide between
+
+them.
+
+
+
+D.6 The Remaining Mapping Problem
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
-CTGP locates qualia — the intrinsic, subjective character of experience — on the present
+CTGP intentionally distinguishes between two explanatory levels: (1) ontological placement of
 
-hypersurface Σ_σ. The claim is not that qualia are identical to physical processes on Σ_σ (that
+experience, and (2) specific mapping from physical processes to qualitative character. CTGP resolves
 
-would presuppose a solution to the hard problem that CTGP does not claim to provide), but that
+the first but leaves the second partially open.
 
-qualia are intrinsic to ongoing, physically instantiated processes at the present edge. The key
 
-ontological theses are:
 
+The framework establishes that qualia occur only in ongoing, causally continuous physical processes
 
+located on the present hypersurface Σ_σ. It also provides constraints on candidate processes
 
-• Qualia are features of the present moment Σ_σ. They exist only as properties of processes that are
+(physically instantiated, classically resolved, causally integrated dynamics). However, CTGP does
 
-  actively unfolding at the present edge of M(σ).
+not derive why a particular neural process corresponds to a particular qualitative character (e.g.,
 
-• Past brain states belong to the formal history M(σ). They were fully real when present, and their
+why a given neural pattern corresponds to the experience of red rather than blue).
 
-  consequences persist as causal records in present neural structure, but they do not persist as
 
-  qualia. The qualia associated with a past experience are not still 'present' in any ontologically
 
-  loaded sense.
+D.6.1 Scope of the Mapping Claim
 
-• Memory is re-instantiation, not continuation. When one remembers a past experience, the relevant
 
-  neural patterns are re-activated at the present Σ_σ, producing a current experience that
 
-  represents the past. This maps onto empirical findings about memory reconsolidation.
+CTGP does not claim to solve the hard problem of consciousness, the bridge problem, or the character
 
+problem. Its contribution is more limited.
 
 
-Which experience is occurring. One may ask, of a four-dimensional person, why one particular brain
 
-state is the one being experienced rather than another or all of them at once. Posed as a request
+The framework proposes:
 
-for a selection mechanism, the question has a ready eternalist answer: nothing selects, each state
 
-is experienced at its own location, and “now” is indexical. The question that remains is sharper.
 
-Assigning experiences to temporal parts establishes that each part has its experience; it is less
+    (a) a temporal locus for conscious processes (the present hypersurface Σ_σ);
 
-clear that it accounts for the diachronic fact of being an experiencer whose experience is actually
 
-going on, rather than redescribing that fact in four-dimensional terms. CTGP answers with an
 
-additional ontological fact: only the generatively active state is presently real and presently
+    (b) candidate necessary conditions for conscious processes (physical instantiation, causal
 
-undergoing physical realization. Earlier states were experienced when they were present and are not
+    continuity, and classicalized dynamics);
 
-experienced now, because they no longer exist; later states are not yet experienced, because they
 
-have not been generated.
 
+    (c) constraints on acceptable bridge theories.
 
 
-CTGP also provides a principled explanation for the apparent privacy and inaccessibility of fine-
 
-grained experience. Because many internal processes leave limited or non-redundant causal traces,
+The framework does not derive a unique mapping from physical states to phenomenal states. Such a
 
-the detailed structure of subjective experience is often underdetermined by publicly accessible
+mapping would require additional psychophysical principles beyond those supplied by the current CTGP
 
-data. This follows directly from the limited persistence and recoverability of causal encodings,
+formalism.
 
-rather than from any non-physical property of consciousness.
 
 
+Consequently, CTGP should be understood as providing an ontological framework within which a
 
-D.2 Classicalization as the Bridge Mechanism
+consciousness theory might operate, rather than as a complete theory of consciousness itself.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+D.7 Empirical Implications
 
-How do microscopic quantum processes at Σ_σ give rise to determinate experiential states? CTGP
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-proposes classicalization — the combination of decoherence, amplification, and causal continuity —
 
-as the physical bridge from microphysics to determinate experience. The mechanism works in three
 
-stages:
+CTGP's account of qualia generates several empirical implications, distinguishing it from purely
 
+abstract philosophy-of-mind positions:
 
 
-First, decoherence suppresses quantum interference between macroscopically distinct states, yielding
 
-effective classicality at the scale of neural dynamics. Second, amplification through biological
+• No macroscopic quantum consciousness: CTGP suggests that qualia require classicalized dynamics.
 
-signal cascades converts microscopic state distinctions into macroscopic, causally potent
+  Proposals requiring quantum coherence at the neural scale (e.g., Penrose-Hameroff) are
 
-differences. Third, causal continuity — the fact that each Σ_{σ+Δσ} is generated from Σ_σ by
+  incompatible with CTGP's classicalization requirement.
 
-deterministic or stochastic lawful evolution — ensures that experiential states are embedded in a
+• Substrate signatures: if the physically instantiated criterion is correct, there should in
 
-continuous causal history, not isolated events.
+  principle be signatures distinguishing genuinely qualia-capable processes from digital
 
+  simulations, even when they are functionally equivalent. Identifying such signatures is a research
 
-
-These three stages together produce the physical conditions under which determinate experiential
-
-states are possible. CTGP does not claim that classicalization provides an account of why there is
-
-experience at all (the 'hard problem' in Chalmers's sense) but that it identifies the physical
-
-architecture necessary for the qualia-capable processes that CTGP posits.
-
-
-
-D.3 Necessary Conditions for Qualia on Σ_σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP proposes the following as necessary (not sufficient) conditions for a physical process to be a
-
-vehicle of qualia:
-
-
-
-• Robust classical dynamics: the process must be sufficiently decohered that quantum interference is
-
-  negligible at the relevant scale.
-
-• Organized integration: the process must integrate information across multiple degrees of freedom
-
-  in an organized, non-random way. (This condition is related to but not identical to IIT's phi; see
-
-  below.)
-
-• Causal continuity: the process must be embedded in a continuous causal chain connecting it to past
-
-  states within M(σ). Isolated, causally disconnected events are not qualia-capable on this account.
-
-• Physical instantiation: the vehicle of qualia must be an actual, physically instantiated process,
-
-  not the structure that a description or simulation represents. This condition excludes represented
-
-  structure as a locus of experience; it does not by itself exclude any physical system, including
-
-  the physical system carrying out a simulation. See §D.4.
-
-
-
-D.4 Domain-Relative Instantiation Criterion
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-D.4.1 Operational Clarification of the Physically Instantiated Criterion
-
-
-
-The physically instantiated criterion should not be interpreted as a presently established empirical
-
-discriminator between conscious and non-conscious systems. Rather, it functions as a research
-
-hypothesis concerning the relationship between phenomenal experience and physical realization.
-
-
-
-Formally, CTGP distinguishes three claims:
-
-
-
-    (1) Structural Equivalence Claim: Two systems may exhibit identical input-output behavior and
-
-    implement isomorphic computational structures.
-
-
-
-    (2) Instantiation Claim: Structural equivalence alone does not guarantee identity of physically
-
-    realized causal dynamics.
-
-
-
-    (3) Phenomenal Dependence Claim: If phenomenal experience depends in part upon intrinsic
-
-    physical properties rather than solely upon abstract functional organization, then structurally
-
-    equivalent systems may differ phenomenally despite computational equivalence.
-
-
-
-CTGP does not presently provide an experimentally validated criterion capable of determining whether
-
-a given substrate possesses the intrinsic properties relevant to phenomenal experience. The
-
-framework therefore treats the physically instantiated criterion as a philosophical hypothesis that
-
-motivates empirical investigation rather than as a demonstrated result.
-
-
-
-Accordingly, CTGP does not claim that digital simulations are known to lack qualia. It claims only
-
-that functional equivalence by itself is insufficient to establish phenomenal equivalence. Whether
-
-artificial substrates instantiate the relevant intrinsic properties remains an open question.
-
-
-
-D.4.2 Representation and Instantiation
-
-
-
-One of CTGP's most distinctive commitments is the domain-relative instantiation criterion. It claims
-
-that representing a process is not the same as instantiating it, and that this distinction matters
-
-for qualia.
-
-
-
-A computational simulation of neural dynamics encodes structural patterns and may reproduce
-
-input–output behaviour, but the simulation's states are symbolic representations of a process rather
-
-than the process itself. CTGP suggests that qualia depend on the actual physical instantiation of
-
-processes at Σ_σ—physical dynamics actively unfolding in the present—rather than on the manipulation
-
-of representations. This view leaves open whether some digital or other substrates might instantiate
-
-the relevant dynamics; it cautions only that functional equivalence alone does not guarantee that
-
-the requisite physical processes are present.
-
-
-
-This criterion grounds CTGP's cautious stance on strong functionalism. While functional organisation
-
-may be necessary for qualia, it may not be sufficient: the nature of the underlying physical process
-
-could matter. CTGP's domain-relative instantiation criterion is a philosophical elaboration of the
-
-Representation–Instantiation Distinction and does not modify any equation of the core framework. It
-
-emphasises that the framework's claims about mind are metaphysical extensions of its temporal
-
-ontology, not empirically settled facts.
-
-
+  program, not a settled result.

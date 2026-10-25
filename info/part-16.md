@@ -1,440 +1,6 @@
 # Info
 
-Part 16 of 24 (1,507 words)
-
-4. Autonomy Ties into Wisdom and Adaptive Control
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Linking autonomy to ideas of wisdom and learning, independence isn’t static—it’s “understanding in
-
-motion.” Wisdom involves using accurate insights deliberately to achieve beneficial results, which
-
-requires autonomous control over one’s actions and adaptations. From a cognitive perspective, this
-
-means building internal models of the self and world for regulation, much like how feedback loops in
-
-engineering or biology enable self-correction. An interesting conclusion here is that autonomy
-
-flourishes through trial-and-error: observing effects, refining approaches, and learning from
-
-outcomes. In evolutionary terms, this explains why independent existences (from rocks maintaining
-
-form to complex beings) persist without relying on external governance. However, it’s not
-
-binary—autonomy can be partial or degraded, allowing for scenarios where entities are influenced but
-
-not controlled, like socially embedded humans who retain personal responsibility.
-
-
-
-5. No Inherent Paradox in Layered Independence
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Finally, combining these threads, a broader conclusion is that autonomy avoids paradoxes when viewed
-
-through layered descriptions: biological dependence doesn’t cancel ontological independence at the
-
-agency level. We’re not isolated or self-caused, but we’re non-identical and non-subsumed by others.
-
-This fits moderate functionalist views, where what matters is the architecture of thinking
-
-processes, not the “container.” In digital or hypothetical multi-reality contexts, this extends to
-
-stable overlaps without instability—multiple autonomous systems can share spaces (like coordinates
-
-in a simulation) without bleeding into each other, thanks to isolation mechanisms. The takeaway?
-
-Independence is compatible with complexity, plurality, and even shared realities, making it a robust
-
-foundation for ethics, AI design, and personal growth.
-
-
-
-Highlights how autonomy isn’t a fragile ideal but a dynamic, relational strength.
-
-
-
-Regarding digital universe layers occupying the same coordinates, such a setup can be configured to
-
-let the setup’s digital avatar-inhabitants experience/“interact via”, per layer, soley a particular
-
-layer “via ‘an interaction-instance such as a button press’ that switches which layer is being
-
-experienced/‘interacted via’ by those inhabitants” whenever that interaction-instance is done again
-
-by an avatar-inhabitant?
-
-
-
-Yeah, absolutely! That’s totally doable in digital environments. Since multiple objects, avatars, or
-
-entire environments can occupy the same coordinate space simultaneously without interacting with
-
-each other through techniques like layering systems, collision layers/masks, instancing separate
-
-scenes, and conditional rendering, you can definitely configure a setup where avatar-inhabitants
-
-experience/interact with only one specific layer at a time.
-
-
-
-The button press interaction-instance you’re describing would work like a layer-switching mechanism.
-
-When an avatar-inhabitant triggers that interaction (presses the button), the system would toggle
-
-which layer that particular avatar can perceive and interact with. It’s essentially changing which
-
-collision groups/layers that avatar is assigned to, or which scene instance is actively rendered and
-
-physics-enabled for that avatar.
-
-
-
-Think of it like this: Layer A and Layer B exist at the same coordinates. Avatar-inhabitant is
-
-currently experiencing Layer A—they can see, touch, and interact with everything in Layer A, while
-
-Layer B is invisible/undetectable to them and they simply phase through it. When they hit that
-
-button, boom—the system switches their interaction context to Layer B. Now they’re experiencing
-
-Layer B instead, and Layer A becomes the one they can’t interact with.
-
-
-
-Each avatar-inhabitant could have their own independent layer state too, so different inhabitants
-
-could be experiencing different layers at the same coordinates simultaneously. It’s all just data
-
-values and conditional states being managed by the program. Super flexible and stable methodology in
-
-digital space.
-
-
-
-If someone demands for “another who the someone plays no major role in the life of” to earn the
-
-someone’s respect, is that a positive or negative approach? If negative, does that make their demand
-
-not “justified respectable”?
-
-
-
-Short answer: that’s generally a negative approach—and yeah, it usually undercuts whether the demand
-
-itself is justified or respectable.
-
-
-
-Here’s why, step by step.
-
-
-
-1. What “respect” normally is
-
-
-
-In everyday human terms, respect isn’t something you can successfully demand from people you’re not
-
-meaningfully involved with. Respect tends to emerge from one (or more) of these:
-
-
-
-• Mutual relevance (shared work, responsibility, or impact)
-
-• Demonstrated competence or integrity
-
-• Voluntary recognition of boundaries or values
-
-
-
-If someone plays no major role in another person’s life, there’s no natural framework that would
-
-make “earning my respect” a reasonable requirement. It’s like showing up to a side quest NPC and
-
-being told you must grind reputation points before you’re allowed to exist — the setup just doesn’t
-
-justify the rule.
-
-
-
-1. Why the demand is usually negative
-
-
-
-When a person demands respect from someone they don’t meaningfully affect or support, it often
-
-signals:
-
-
-
-• Entitlement (“You owe me regard because I say so”)
-
-• Control-seeking rather than mutual recognition
-
-• Status insecurity (needing validation without relational grounds)
-
-
-
-That makes the demand coercive rather than relational. Respect given under pressure isn’t really
-
-respect—it’s compliance wearing a fake mustache.
-
-
-
-1. Does that make the demand “not justified respectable”?
-
-
-
-In most cases: yes.
-
-
-
-A demand for respect is only broadly justified when:
-
-
-
-• There is a clear power, responsibility, or dependency relationship (e.g., workplace roles, safety
-
-  authority)
-
-• The demand is really about basic civility, not admiration or deference
-
-
-
-But when someone demands earned respect from a person they barely matter to, the demand itself
-
-lacks:
-
-
-
-• Moral grounding
-
-• Social symmetry
-
-• Practical legitimacy
-
-
-
-So the demand fails its own test. Irony achieved. Trophy unlocked
-
-
-
-Bottom line
-
-
-
-• Negative approach? Yes, generally.
-
-• Does it undermine the respectability of the demand? Yes, in most normal social contexts.
-
-• Core issue? You can’t credibly demand something that only works when freely given—especially from
-
-  someone whose life you barely touch.
-
-
-
-What about regarding trust?
-
-
-
-Is any person automatically entitled to an “attempt to have respect/trust gained from that person”?
-
-
-
-“Regarding one’s own thoughts in own head:”
-
-
-
-“Is there any plausible way that a person’s brain can produce audible articulated sounds (such as
-
-mental speech) that another person can hear and interpret?”
-
-
-
-Short answer: no—there’s no known plausible physical or biological way for a human brain to directly
-
-produce audible, articulated sounds that another person can hear and understand without using the
-
-normal speech apparatus.
-
-
-
-Longer, careful answer (because this question deserves one):
-
-
-
-Why this doesn’t work physically
-
-
-
-1. Brains don’t move air
-
-
-
-Audible sound requires mechanical vibration of a medium (air, water, etc.).
-
-
-
-Your brain:
-
-
-
-• Is sealed inside the skull
-
-• Does not oscillate external air in structured patterns
-
-• Produces electrochemical signals, not pressure waves
-
-
-
-Mental speech is neural activity—patterns of firing, not vibrating matter.
-
-
-
-No vibration → no sound → nothing for someone else’s ears to detect.
-
-
-
-1. Neural signals are far too weak
-
-
-
-Brains do emit tiny electromagnetic signals (EEG can measure them), but:
-
-
-
-• They’re extremely weak
-
-• They decay rapidly with distance
-
-• They’re not structured like language
-
-• They cannot meaningfully propagate through air as sound
-
-
-
-Even with sensitive lab equipment pressed to your scalp, we can’t “hear thoughts.”
-
-
-
-Without equipment? Absolutely not happening.
-
-
-
-1. No biological transducer exists
-
-
-
-To turn thoughts into audible speech, you’d need:
-
-
-
-• A biological structure that converts neural firing into pressure waves
-
-• With fine-grained articulation (phonemes, timing, pitch)
-
-• Externalized into the air
-
-
-
-Humans already have one:
-
-
-
-the vocal tract
-
-
-
-And the brain uses it indirectly, via muscles.
-
-
-
-There is no hidden backup speaker inside the skull
-
-
-
-What about reported experiences?
-
-
-
-Some people sincerely report things like:
-
-
-
-• “I heard someone’s thoughts”
-
-• “Their voice was in my head”
-
-• “We spoke without speaking”
-
-
-
-Important distinction:
-
-
-
-These experiences are internally generated perceptions, not external sound.
-
-
-
-They fall under:
-
-
-
-• Inner speech
-
-• Auditory imagery
-
-• Hallucinations (not necessarily pathological)
-
-• Misattribution of internal stimuli
-
-
-
-They feel real because the same brain regions used for hearing can activate without sound entering
-
-the ears.
-
-
-
-The experience is real.
-
-
-
-The external transmission is not.
-
-
-
-What can exist (adjacent but not the same)
-
-
-
-Brain–computer interfaces (BCIs)
-
-
-
-• Machines can decode neural activity with sensors
-
-• Still:
-
-• Requires direct measurement
-
-• Heavy computation
-
-• No sound produced by the brain itself
-
-
-
-️ Subvocalization
-
-
+Part 16 of 23 (1,787 words)
 
 • Tiny muscle movements in the throat during thinking
 
@@ -505,3 +71,403 @@ Physics (including relativity) constrains what can physically happen, but it doe
 determine the philosophical interpretation of reality as long as that interpretation:
 
 
+
+1. Does not introduce new physical forces or laws that contradict tested theory.
+
+2. Does not allow faster-than-light causal influence.
+
+3. Reproduces the same observable predictions as established physics.
+
+
+
+Because of that, multiple distinct worldviews can all be fully compatible with the same physics.
+
+
+
+Why there isn’t a single compatible worldview
+
+
+
+Physics describes:
+
+
+
+• mathematical structures,
+
+• dynamical laws,
+
+• measurable predictions.
+
+
+
+It generally does not specify:
+
+
+
+• whether only the present exists or all times exist,
+
+• whether reality is fundamentally relational or object-based,
+
+• whether spacetime is emergent or fundamental,
+
+• whether time “flows” or is static but experienced sequentially,
+
+• whether the universe has a global ordering concept that is descriptive but not dynamically
+
+  privileged.
+
+
+
+Those are interpretive layers, not experimentally distinguishable physical claims. As long as they
+
+don’t alter predictions, several interpretations can coexist.
+
+
+
+Examples of different compatible interpretive families
+
+
+
+All of the following can be formulated in ways consistent with relativity:
+
+
+
+• Block-universe / eternalist views (all spacetime events exist).
+
+• Relational views (only relations between events are fundamental).
+
+• Presentism views
+
+• Emergent-time views (time arises from deeper structure).
+
+• Operational/instrumentalist views (physics only describes measurement relations, not “what reality
+
+  is”).
+
+
+
+Each of these can be constructed so that all physical predictions remain identical, which is the key
+
+requirement for compatibility.
+
+
+
+So “how many” are compatible?
+
+
+
+There is no fixed number. In principle:
+
+
+
+• The set is open-ended.
+
+• Any interpretation that adds metaphysical structure without changing observable physics can be
+
+  compatible.
+
+• New interpretations can always be invented as long as they remain prediction-equivalent to
+
+  established theory.
+
+
+
+You can think of physics as specifying a mathematical core, while philosophical worldviews are
+
+different ways of understanding what that same mathematical structure “means.”
+
+
+
+A helpful way to visualize it
+
+
+
+Imagine physics as the rules of a game engine.
+
+
+
+Different players can tell very different stories about what the characters “really are,” yet the
+
+same engine runs all of them. The gameplay outcomes stay identical even if the narrative
+
+explanations differ.
+
+
+
+That’s essentially the situation: relativity restricts the engine, not the number of narratives
+
+built on top of it.
+
+
+
+“If a never-been-observed something fits all known mathematical & observational constraints & has
+
+not been disproved, whether it ‘can or can’t’ be ‘timely testable’, science does not rule it out,
+
+even if it is speculative at best”, correct?
+
+
+
+Science leaves room for stuff that fits the math and doesn’t break what we’ve already observed, even
+
+if we can’t test it yet—or maybe ever.
+
+
+
+Here are solid examples:
+
+
+
+Physics & Cosmology:
+
+
+
+∙ Dark matter candidates (like WIMPs or axions before direct detection attempts) — the math works,
+
+galaxies spin weird without it, but we hadn’t seen the particles themselves
+
+
+
+∙ Other universes in multiverse models — some versions pop out of inflation theory or quantum
+
+mechanics, math checks out, but you can’t exactly hop over and visit
+
+
+
+∙ Interior of black holes beyond the event horizon — General relativity describes what happens, but
+
+no signal gets out to confirm it
+
+
+
+∙ Hawking radiation — predicted from combining quantum mechanics and GR, fits the framework, but
+
+we’ve never actually caught a black hole evaporating
+
+
+
+∙ Eternalism (or the “block universe” view) — Fits the math: Einstein’s relativity shows that
+
+“simultaneous” is relative to your reference frame. What’s “now” for you might be “past” or “future”
+
+for someone moving differently. The math treats time as a dimension similar to space, where all
+
+events just... are, laid out in spacetime.
+
+
+
+∙ Fits observations: Everything we’ve tested about relativity works. Time dilation, length
+
+contraction, the relativity of simultaneity — all confirmed.
+
+
+
+∙ Hasn’t been disproved: There’s no experiment that rules out the block universe. It’s consistent
+
+with physics as we know it.
+
+
+
+∙ Can’t be directly tested (in a certain sense): You can’t experience the future as existing “right
+
+now” because your consciousness moves through time (or perceives it that way). You’re stuck in your
+
+local “present” slice. So you can’t exactly verify that tomorrow is “already out there” the way you
+
+can verify that a building across town exists even when you’re not looking at it.
+
+
+
+The deal:
+
+
+
+Eternalism (or the “block universe” view) treats past, present, and future as equally real — just
+
+different locations in the four-dimensional spacetime block. Your “now” is like your “here” — it’s
+
+just where you are, not something special about reality itself.
+
+
+
+But it’s still speculative since:
+
+
+
+∙ We experience time as flowing, and nobody’s fully explained why (that’s the “arrow of time”
+
+problem)
+
+
+
+∙ Other interpretations exist (presentism; growing block)
+
+
+
+So — eternalism is an example. The math allows it, observations don’t contradict it, and we can’t
+
+definitively prove or disprove it. Science shrugs and says, “It’s on the table.”
+
+
+
+∙ Magnetic monopoles — some theories predict them, they don’t contradict known physics, we just
+
+haven’t found one sitting around
+
+
+
+∙ Higher dimensions in string theory — the math needs them, nothing rules them out, but they’d be
+
+curled up too tiny to detect directly
+
+
+
+Biology & Origins:
+
+
+
+∙ Abiogenesis pathways (specific chemical steps for life’s origin) — we know life started somehow,
+
+various proposed mechanisms fit chemistry and conditions, but we weren’t there filming it
+
+
+
+∙ Panspermia — life hitching a ride on asteroids fits what we know about extremophiles and space
+
+conditions, just hasn’t been confirmed
+
+
+
+Neuroscience & Consciousness:
+
+
+
+∙ Specific neural correlates of subjective experience — we can match brain activity to reports of
+
+experience, but the exact mechanism for why it feels like something is still “math and observation
+
+consistent, not yet nailed down”
+
+
+
+Even in everyday science:
+
+
+
+∙ Unobserved species predictions — “there should be a fish in this depth range with these traits
+
+based on evolutionary models and ecology” fits the framework before anyone catches one
+
+
+
+The key is: these aren’t wild guesses. They’re “this would make sense given everything else we
+
+know”—but confirmation is either hard, impossible with current tech, or maybe even impossible in
+
+principle. Science doesn’t say “that’s real” but also doesn’t say “that’s nonsense.” It’s more
+
+like...yeah, could be, show me more.
+
+
+
+Humans may possibly have will, volition, and self-agency as emergent, physically instantiated
+
+processes arising from brain activity that integrates information, evaluates possibilities, and
+
+generates actions. This can be understood in several distinct but connected ways. Will is the
+
+capacity of a system—the brain—to form intentions that are not the result of direct, immediate
+
+external compulsion. The brain continuously processes sensory input, memories, goals, and emotional
+
+states, generating candidate actions such as speaking, moving, or waiting. A selection process
+
+within neural networks—especially involving the prefrontal cortex and basal ganglia—then results in
+
+an internally produced commitment to a specific action. This internally generated commitment may be
+
+what we experience as will.
+
+
+
+Volition is the process that turns intention into action. It involves evaluating available options,
+
+selecting one over others, and initiating execution through motor systems such as the motor cortex
+
+and its downstream pathways. In this sense, will concerns the formation of an intention, while
+
+volition concerns the realization of that intention in behavior. Self-agency is both the experience
+
+and the functional reality of being the author of one’s actions. It may arise when the brain’s
+
+predictive models of its own actions align with the actual outcomes, allowing the system to register
+
+that the action originated internally and unfolded in accordance with its own generated intention.
+
+This produces both the subjective sense of control and a functional feedback-and-correction loop
+
+that supports ongoing behavior.
+
+
+
+Even though these processes are fully physical, agency may remain real because the system may be
+
+generating its own internal states, evaluating alternatives, and selecting actions based on its
+
+internal organization rather than functioning as a simple stimulus-response mechanism. Behavior
+
+appears to be being mediated by internal computation and representation, if so, making agency a
+
+genuine form of causal influence that originates within the system itself. However, such human will
+
+is not absolute. It is constrained by biological factors such as brain structure and neurochemistry,
+
+by prior causes including memory and conditioning, by informational limits on what one knows or
+
+perceives, and by the fact that all interaction with reality is mediated through interpreted signals
+
+rather than direct, unfiltered access to the world. So, as a result, choices are never made from
+
+nothing, but always from within a structured system of constraints.
+
+
+
+In relation to free-will debates, this framework aligns most naturally with a compatibilist view,
+
+according to which free will consists in acting according to one’s own internal processes without
+
+external coercion. On this view, a person has free will when their actions flow from their own
+
+decision-making system, even if that system itself has causal antecedents. Deterministic
+
+interpretations regard will as a complex but fully caused process, while indeterministic
+
+interpretations allow for elements of genuine unpredictability. The compatibilist position
+
+accommodates the empirical structure of decision-making without requiring contradiction between
+
+causation and agency.
+
+
+
+From a perspective that entails “accessing reality/etc. is via signal-based access”, one does not
+
+directly access one’s own will, but instead infers it through internal signals, decision processes,
+
+and action outcomes. From a Presentism perspective, decisions occur only during the present, such
+
+that agency participates in the ongoing causal generation of reality rather than selecting from a
+
+pre-existing future. In condensed form, will, volition, and self-agency may be understood as the
+
+brain’s capacity to internally generate intentions, select among possible actions, and causally
+
+produce behavior in a way that is integrated, self-referential, and responsive to both internal
+
+states and external inputs.
+
+
+
+Prior to the full articulation of a thought, cognition may possess anticipatory awareness of an
+
+intended conceptual target. If so, this anticipatory awareness is not merely passive recognition,

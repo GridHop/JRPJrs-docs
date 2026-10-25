@@ -1,100 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 03 of 40 (1,772 words)
-
-3.1 The Perspective-Neutral State Space
-
-
-
-Let G be a finite group with identity e. Consider M + 1 subsystems labelled 0, 1, …, M, each with
-
-Hilbert space ℓ²(G), the space of complex functions on G, with orthonormal basis {|g⟩ : g ∈ G}. The
-
-basis state |g⟩ represents the subsystem having “orientation” g, for example being at site g of a
-
-lattice. This setting is chosen because every statement in it can be proved exactly.
-
-
-
-Definition 3.1 (QRF system). The kinematical space is H_kin = ℓ²(G)^{⊗(M+1)}. The group acts
-
-diagonally by
-
-
-
-        U_h |g_0, g_1, …, g_M⟩ = |h g_0, h g_1, …, h g_M⟩,
-
-
-
-and the physical, or perspective-neutral, space is the invariant subspace
-
-
-
-        H_phys = { Ψ ∈ H_kin : U_h Ψ = Ψ for all h ∈ G },  with projector  Π = (1/|G|) Σ_{h∈G} U_h.
-
-
-
-A state Ψ in H_phys assigns amplitudes only to relations among subsystems: its wave function
-
-satisfies Ψ(h g_0, …, h g_M) = Ψ(g_0, …, g_M) for all h.
-
-
-
-3.2 Frame Reductions
-
-
-
-Definition 3.2 (Frame reduction). Choosing subsystem A as the reference frame, the frame-relative
-
-space is H_A = ℓ²(G)^{⊗M}, describing the other M subsystems relative to A. The reduction map R_A :
-
-H_phys → H_A conditions the frame on the identity orientation and rescales:
-
-
-
-        (R_A Ψ)(x_1, …, x_M) = √|G| · Ψ(e, x_1, …, x_M)       (frame A taken as subsystem 0).
-
-
-
-Its inverse embeds a frame-relative state into the invariant sector:
-
-
-
-        R_A^{−1} φ = |G|^{−1/2} Σ_{a∈G} Σ_{x} φ(x_1, …, x_M) |a, a x_1, …, a x_M⟩.
-
-
-
-The same definitions apply with any other subsystem as the frame, with the remaining subsystems
-
-listed in a fixed order.
-
-
-
-Proposition 3.3 (Reductions are unitary). For every subsystem A, R_A is a unitary map from H_phys
-
-onto H_A, with inverse given above.
-
-
-
-Proof. Let Ψ ∈ H_phys. Invariance gives Ψ(g_0, g_1, …, g_M) = Ψ(e, g_0^{−1} g_1, …, g_0^{−1} g_M).
-
-Write φ(x) = Ψ(e, x_1, …, x_M). Then ‖Ψ‖² = Σ_{g_0} Σ_{x} |φ(x)|² = |G| ‖φ‖², so ‖R_A Ψ‖ = √|G| ‖φ‖
-
-= ‖Ψ‖. Conversely, for any φ ∈ H_A the vector R_A^{−1} φ defined above is invariant (left
-
-multiplication by h permutes the summation index a), and R_A R_A^{−1} φ = φ by direct substitution.
-
-Hence R_A is an isometry onto H_A, that is, unitary. □
-
-
-
-Definition 3.4 (Valid frame change). For frames A and B, the frame change is
-
-
-
-        V_{A→B} = R_B R_A^{−1} : H_A → H_B.
-
-
+Part 03 of 35 (1,799 words)
 
 Proposition 3.5 (Groupoid law). V_{A→B} is unitary; V_{A→A} = 1; V_{B→A} = V_{A→B}^{−1}; and V_{B→C}
 
@@ -369,3 +275,95 @@ event is not the readout of a pre-existing value, and not the acquisition of a s
 primitive occurrence whose probability the law fixes.
 
 
+
+4.4 The Complete Ontological State and the Truth Profile
+
+
+
+Definition 4.5 (Complete ontological state). The complete ontological state at stage σ is
+
+
+
+        Ω_σ = (S_σ, L_σ),
+
+
+
+where S_σ = [Ψ_σ] is the ray of the perspective-neutral state, and L_σ, the Lucretian truth profile,
+
+is a set of past-tensed propositions of two kinds:
+
+
+
+    Had(σ″, [Ψ_{σ″}]), read “at stage σ″ the state was [Ψ_{σ″}]”, for σ″ < σ;
+
+
+
+    Had(σ″ → σ‴, k), read “in the generation of σ‴ from σ″, transition event k occurred”, for σ‴ ≤
+
+    σ.
+
+
+
+The second kind extends the stage-indexed properties Had(σ′, φ) of CTGP – explained, Definition
+
+17.20, to transitions. This adds no commitment: a transition from σ″ to σ‴ is something that
+
+occurred, and the present world can have been such that it occurred.
+
+
+
+Definition 4.6 (Truth-profile update). When the transition σ → σ′ realizes event k,
+
+
+
+        L_{σ′} = L_σ ∪ ΔL_{σ→σ′},     ΔL_{σ→σ′} = { Had(σ, [Ψ_σ]), Had(σ → σ′, k) }.
+
+
+
+The truths acquired in a transition are exactly two: the state that was present has become past, and
+
+the event that occurred in the transition is something that was the case. The initial condition is
+
+L_{σ_0} = ∅ and S_{σ_0} = [Ψ_{σ_0}].
+
+
+
+4.5 Admissible Histories
+
+
+
+The truth profile is not an arbitrary set of past-tensed propositions. It ranges over a space fixed
+
+by the law.
+
+
+
+Histories, actuality, and futurity. Three uses of the word history must be kept apart, because the
+
+mathematics speaks of histories in a sense that carries no ontological commitment. The actual past
+
+history at a stage consists of the states and events that have occurred and are now past. Past
+
+stages do not continue to exist; truths about them are grounded in the present world’s Lucretian
+
+profile. The actual history through the present, where that phrase is needed, adds the presently
+
+existing state to its past; it does not mean that the present has already become past. An admissible
+
+history, by contrast, is a mathematical object: a possible sequence of events permitted by the law,
+
+an element of the probability space defined below. The set of admissible histories lists the
+
+alternatives the law permits. It does not represent alternative histories that exist side by side,
+
+and a probability measure on future trajectories describes possible continuations of the present,
+
+not an existing future.
+
+
+
+Within CTGP no state or event exists as future. Each state first exists as the present, and each
+
+realized transition becomes part of the actual past only after it has occurred. The actual past is
+
+therefore not a completed structure containing future events: it grows as successive presents are

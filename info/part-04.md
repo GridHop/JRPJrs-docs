@@ -1,6 +1,58 @@
 # Info
 
-Part 04 of 24 (1,661 words)
+Part 04 of 23 (1,800 words)
+
+What Has NOT Been Confirmed
+
+----------------------------------------------------------------------------------------------------
+
+
+
+No direct detection of another universe/realm
+
+
+
+No mechanism for accessing other universes via “frequency/vibration”
+
+
+
+No observations of people/instruments crossing domains via vibrational tuning
+
+
+
+No empirical support for metaphysical ideas of “raising frequency” to shift realms
+
+
+
+—–
+
+
+
+----------------------------------------------------------------------------------------------------
+
+Why the Gap?
+
+----------------------------------------------------------------------------------------------------
+
+
+
+1. In most models, extra dimensions are compactified at very small scales (in some models, as large
+
+   as a fraction of a millimeter) — beyond current detection
+
+2. Universes that never interact with ours would be unobservable; some models predict indirect
+
+   signatures (such as bubble collisions), but none has been detected
+
+3. “Accessing via vibration” has no scientific basis — string theory’s “vibration” is mathematical,
+
+   not a method for universe-hopping
+
+
+
+—–
+
+
 
 Conclusion
 
@@ -28,6 +80,18 @@ Impossibilities according to current theories
 
 
 
+Not every entry below is impossible in the same sense. Tags: [L] logically or mathematically
+
+impossible; [T] forbidden by a well-tested physical theory (a deeper theory could revise this); [P]
+
+not forbidden, but overwhelmingly improbable; [F] not known to be forbidden, but technologically
+
+infeasible. Items that are only unobserved or unresolved are collected in section X, because they
+
+are not impossibilities.
+
+
+
 ----------------------------------------------------------------------------------------------------
 
 I. Logical Impossibilities
@@ -36,13 +100,13 @@ I. Logical Impossibilities
 
 
 
-• Contradictions being true (married bachelor, square circle)
+• Contradictions being true (married bachelor, square circle) [L]
 
-• Something existing and not existing simultaneously
+• Something existing and not existing simultaneously [L]
 
-• Effects preceding causes (in standard causality)
+• Effects preceding causes (in standard causality) [L]
 
-• Self-caused existence in literal causal sense
+• Self-caused existence in literal causal sense [L]
 
 
 
@@ -64,13 +128,13 @@ Thermodynamics
 
 
 
-• Perpetual motion machines (both kinds)
+• Perpetual motion machines (both kinds) [T]
 
-• Spontaneous entropy decrease in closed systems
+• Sustained macroscopic entropy decrease in an isolated system (small fluctuations do occur) [P]
 
-• 100% efficient heat engines
+• 100% efficient heat engines [T]
 
-• Reaching absolute zero (0 K exactly)
+• Reaching absolute zero (0 K exactly) [T]
 
 
 
@@ -80,11 +144,9 @@ Relativity
 
 
 
-• Exceeding light speed (for mass)
+• Exceeding light speed (for mass) [T]
 
-• FTL information transmission
-
-• Classical time travel to the past
+• FTL information transmission [T]
 
 
 
@@ -94,15 +156,15 @@ Quantum Mechanics
 
 
 
-• Simultaneously knowing position and momentum exactly (Heisenberg)
+• Simultaneously knowing position and momentum exactly (Heisenberg) [T]
 
-• Cloning unknown quantum states (No-Cloning Theorem)
+• Cloning unknown quantum states (No-Cloning Theorem) [T]
 
-• Measurement without affecting the system
+• Gaining information about an unknown quantum state without, in general, disturbing it [T]
 
 • “Deterministic prediction of quantum outcomes” depending on whether the universe is deterministic,
 
-  “having an extent of stochasticness”, or “having an extent of inscrutably complexness”
+  “having an extent of stochasticness”, or “having an extent of inscrutably complexness” [T]
 
 
 
@@ -112,13 +174,15 @@ Cosmology/Gravity
 
 
 
-• Escaping black hole event horizons classically
+• Escaping black hole event horizons classically [T]
 
-• Transmitting information from inside event horizons
+• Transmitting information from inside event horizons (classically; whether information escapes
 
-• Observing beyond cosmic event horizon
+  through Hawking radiation is unresolved) [T]
 
-• Instant movement without inertia
+• Observing beyond cosmic event horizon [T]
+
+• Instant movement without inertia [T]
 
 
 
@@ -134,13 +198,13 @@ III. Chemical/Biological Impossibilities
 
 
 
-• Creating/destroying atoms in chemical reactions
+• Creating/destroying atoms in chemical reactions [T]
 
-• Abiogenesis without energy and chemistry
+• Abiogenesis without energy and chemistry [T]
 
-• Reversing death after necrosis (information loss)
+• Reversing death after necrosis (information loss) [F]
 
-• Life at 0 K or infinite temperature
+• Life at 0 K or infinite temperature [T]
 
 
 
@@ -156,13 +220,13 @@ IV. Computational/Informational Impossibilities
 
 
 
-• Perfect lossless compression of all data
+• Perfect lossless compression of all data [L]
 
-• Solving the Halting Problem
+• Solving the Halting Problem [L]
 
-• Perfectly predicting chaotic systems infinitely forward
+• Perfectly predicting chaotic systems infinitely forward (from finite-precision data) [L]
 
-• Deterministically generating true randomness
+• Deterministically generating true randomness [L]
 
 
 
@@ -178,13 +242,9 @@ V. Macroscopic/Metaphysical Impossibilities
 
 
 
-• Macroscopic objects in two places simultaneously
+• Changing the past (linear time, consistent causality) [L]
 
-• Changing the past (linear time, consistent causality)
-
-• Observing universe from “outside”
-
-• Existing without spacetime (in natural science)
+• Observing universe from “outside” [L]
 
 
 
@@ -200,13 +260,7 @@ VI. Energy/Matter Conservation
 
 
 
-• Violating baryon/lepton number conservation
-
-• Matter-to-energy conversion without radiation
-
-• Creating negative mass (experimentally)
-
-• Dark matter/dark energy conversion to normal matter
+• Locally creating or destroying energy (energy–momentum is locally conserved) [T]
 
 
 
@@ -222,13 +276,11 @@ VII. Temporal/Perceptual Impossibilities
 
 
 
-• Perceiving events before information arrival
+• Perceiving events before information arrival [T]
 
-• Re-experiencing the same moment in continuous time
+• Re-experiencing the same moment in continuous time [L]
 
-• Consciousness experiencing zero time while changing
-
-• Remembering the future (precognition — unverified)
+• Consciousness experiencing zero time while changing [L]
 
 
 
@@ -244,13 +296,13 @@ VIII. Structural/Geometric Impossibilities
 
 
 
-• True 4D objects in 3D space
+• True 4D objects in 3D space [L]
 
-• Perfectly rigid bodies (requires FTL signals)
+• Perfectly rigid bodies (requires FTL signals) [T]
 
-• Perfect vacuum with zero energy (quantum fluctuations)
+• Perfect vacuum with zero energy (quantum fluctuations) [T]
 
-• Perfectly flat infinite planes (quantum fields fluctuate)
+• Perfectly flat infinite planes (quantum fields fluctuate) [T]
 
 
 
@@ -266,13 +318,59 @@ IX. Causal/Existential Impossibilities
 
 
 
-• Self-causation without external input
+• Self-causation without external input [L]
 
-• Consistent universe violating its own conservation laws
+• Consistent universe violating its own conservation laws [L]
 
-• Energy ceasing to exist entirely
+• Energy ceasing to exist entirely [T]
 
-• Observing “nothing” (observation requires interaction)
+• Observing “nothing” (observation requires interaction) [L]
+
+
+
+—–
+
+
+
+----------------------------------------------------------------------------------------------------
+
+X. Not Observed or Unresolved (Not Impossibilities)
+
+----------------------------------------------------------------------------------------------------
+
+
+
+• Classical time travel to the past (general relativity has solutions with closed timelike curves,
+
+  but none is known to be physically realizable)
+
+• Macroscopic objects in two places simultaneously (standard quantum mechanics does not forbid it;
+
+  superpositions of molecules of about 2,000 atoms have been demonstrated, but never of everyday
+
+  objects)
+
+• Physical existence without spacetime (some quantum-gravity approaches treat spacetime as emergent;
+
+  unresolved)
+
+• Violation of total baryon number (e.g., proton decay) or total lepton number (e.g., neutrinoless
+
+  double-beta decay): neither has been observed, but neither is ruled out. The Standard Model itself
+
+  permits B + L violation through rare nonperturbative processes while conserving B − L, and
+
+  neutrino oscillations already violate the individual lepton-flavor numbers
+
+• Negative (gravitational) mass (it appears in some mathematical solutions but has never been
+
+  observed or created)
+
+• Conversion of dark matter or dark energy into ordinary matter (not observed; their nature is
+
+  unknown)
+
+• Precognition, or “remembering the future” (no verified evidence)
 
 
 
@@ -282,7 +380,7 @@ IX. Causal/Existential Impossibilities
 
 Important caveat: Many past “impossibilities” (flight, splitting atoms, cloning) were merely limits
 
-of understanding. The above list represents current structural limits — but science evolves.
+of understanding. Sections I–IX represent current structural limits — but science evolves.
 
 
 
@@ -376,11 +474,15 @@ Great scientists have been spectacularly wrong:
 
 
 
-• Einstein: Proposed cosmological constant to preserve static universe (initially abandoned, later
+• Einstein: Proposed a static universe, adding the cosmological constant to keep it static (he
 
-  revised)
+  abandoned both after the universe’s expansion was established; a cosmological constant was later
 
-• Linus Pauling (Nobel winner): Claimed mega-dose vitamin C cures cancer — unsupported by evidence
+  revived to explain accelerating expansion)
+
+• Linus Pauling (two-time Nobel winner): Claimed mega-dose vitamin C substantially benefits cancer
+
+  patients — controlled trials did not support it
 
 • 19th-century physicists: Luminiferous ether — disproven by experiment
 
@@ -524,7 +626,9 @@ Each species has evolved sensory organs tuned to specific environmental frequenc
 
 • Humans: sight, hearing, touch, smell, taste — plus proprioception, vestibular sense (balance), and
 
-  subtle electromagnetic sensitivity.
+  temperature sense; no human electromagnetic sense beyond seeing light and feeling heat has been
+
+  established.
 
 • Dogs, cats, rodents: powerful olfaction (smell-based signature tracking), hearing beyond human
 
@@ -644,15 +748,15 @@ Type of Tracker - Natural Signatures Used - Methods of Detection
 
 
 
-Humans & animals - “Light, sound, heat, scent, EM fields, behavior” - Senses, pattern memory,
+Humans & animals - “Light, sound, heat, scent, EM fields (some animals), behavior” - Senses, pattern
 
-intuition
+memory, intuition
 
 
 
 Insects / fish / birds - “Chemical, vibrational, electric, magnetic” - Specialized organs (antennae,
 
-lateral lines, magnetite crystals)
+lateral lines, magnetoreceptors)
 
 
 
@@ -683,123 +787,5 @@ both are simply reading existence’s resonance in its medium.
 
 
 Different hardware, same metaphysical idea
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Natural Ways (Living Beings)
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The only ways living things track non-written signatures:
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-1. Sensory organs evolved for specific signal types
-
-
-
-• Vision (photoreceptors detecting electromagnetic radiation in visible/UV/IR spectra)
-
-• Audition (mechanoreceptors detecting pressure waves)
-
-• Olfaction (chemoreceptors detecting volatile molecules)
-
-• Electroreception (ampullae of Lorenzini in sharks, electroreceptors in platypuses)
-
-• Magnetoreception (cryptochrome proteins in bird retinas, magnetite crystals)
-
-• Mechanoreception (touch, vibration, pressure—like a spider sensing web vibrations)
-
-• Thermoreception (pit organs in snakes detecting infrared heat signatures)
-
-
-
-1. Biological pattern recognition and memory
-
-
-
-• Neural networks that learn to associate specific sensory patterns with identities or meanings
-
-• Hippocampal/cortical encoding of “this scent = my offspring,” this gait = threat, etc.
-
-
-
-1. Temporal pattern detection
-
-
-
-• Circadian rhythms syncing to light/temperature cycles
-
-• Predictive timing based on repeated exposure (anticipating when something arrives)
-
-
-
-Key limitation: Living beings can *only* detect what their evolved sensory hardware can transduce
-
-into neural signals. A human can’t naturally “see” radio waves or “hear” ultrasound above ~20kHz.
-
-The signature has to interact with receptor biology.
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-️ Technological Ways (Machines)
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The only ways technology tracks non-written signatures:
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-1. Sensors that convert physical phenomena into measurable data
-
-
-
-• Photodetectors (cameras, spectrometers)
-
-• Microphones and hydrophones (acoustic)
-
-• Thermal/infrared sensors
-
-• Chemical sensors (e-noses, gas chromatography)
-
-• Electromagnetic field sensors (magnetometers, RF detectors)
-
-• Radiation detectors (Geiger counters, scintillators)
-
-• Motion/pressure sensors (accelerometers, seismographs)
-
-• Biometric scanners (fingerprint, retina, vein pattern, heartbeat rhythm)
-
-
-
-1. Signal processing and pattern extraction
-
-
-
-• Fourier transforms for frequency analysis
-
-• Machine learning models trained on labeled signature datasets
-
-• Statistical correlation and anomaly detection
 
 

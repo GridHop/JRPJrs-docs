@@ -1,22 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 02 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 02 of 40 · 1,610 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-02.md">Raw Markdown</a> <a href="part-01.html">Previous part</a> <a href="part-03.html">Next part</a></nav><main class="source"><div>&nbsp;</div>
-<div>Two clarifications fix the status of the results. First, QRF covariance is not discovered here;</div>
-<div>within the perspective-neutral framework it is automatic for any law defined on physical states</div>
-<div>(Remark 3.9). What is shown is that a CTGP interpretation can be placed on such dynamics</div>
-<div>consistently, and what follows when it is. Second, the question whether CTGP contributes anything</div>
-<div>beyond “a QRF-covariant single-outcome model with an attached historical truth profile” has a</div>
-<div>definite answer, given in §11: CTGP’s generability, single-outcome, frame-invariant determinacy, no-</div>
-<div>revision, and definite-ordering requirements each exclude models that are QRF-covariant, and, within</div>
-<div>the perspective-neutral construction, the requirement that every realized event carry physical</div>
-<div>states to physical states makes the collapse operators act as relational operators.</div>
-<div>&nbsp;</div>
-<div>In brief, the answers are as follows. Determinacy is not frame-relative (§5.1). Two frame</div>
-<div>descriptions describe the same present and the same history exactly when they belong to one orbit of</div>
-<div>frame descriptions of a single complete state, which is equivalent to an explicit criterion on</div>
-<div>stage, state, and truth profile (§5.2). Matching states is not sufficient, because a present state</div>
-<div>does not fix its past; what settles identity of history is the truth profile (§5.2, §5.5). Valid</div>
-<div>frame changes intertwine the generative law, so the probability measure over histories, the</div>
-<div>conditional independence of the future from the past, and the truth of every determinate proposition</div>
-<div>are the same in every frame (§5.3–5.4). And L sits beside the quantum state without driving it: it</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 02 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 02 of 35 · 1,790 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-02.md">Raw Markdown</a><a href="part-01.html">Previous part</a><a href="part-03.html">Next part</a></nav><main class="source"><div>are the same in every frame (§5.3–5.4). And L sits beside the quantum state without driving it: it</div>
 <div>is not a function of the present state, the law never takes it as input, and given the law it is</div>
 <div>accurate to the state it accompanies (§4.6, §5.6). Part III shows that an explicit dynamics, in</div>
 <div>discrete-stage and continuous-time form, has all of these properties.</div>
@@ -156,4 +138,51 @@
 <div>----------------------------------------------------------------------------------------------------</div>
 <div>3. Kinematics: Perspective-Neutral States and Frame Reductions</div>
 <div>----------------------------------------------------------------------------------------------------</div>
-<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-02.md">Raw Markdown</a> <a href="part-01.html">Previous part</a> <a href="part-03.html">Next part</a></nav></body></html>
+<div>&nbsp;</div>
+<div>3.1 The Perspective-Neutral State Space</div>
+<div>&nbsp;</div>
+<div>Let G be a finite group with identity e. Consider M + 1 subsystems labelled 0, 1, …, M, each with</div>
+<div>Hilbert space ℓ²(G), the space of complex functions on G, with orthonormal basis {|g⟩ : g ∈ G}. The</div>
+<div>basis state |g⟩ represents the subsystem having “orientation” g, for example being at site g of a</div>
+<div>lattice. This setting is chosen because every statement in it can be proved exactly.</div>
+<div>&nbsp;</div>
+<div>Definition 3.1 (QRF system). The kinematical space is H_kin = ℓ²(G)^{⊗(M+1)}. The group acts</div>
+<div>diagonally by</div>
+<div>&nbsp;</div>
+<div>        U_h |g_0, g_1, …, g_M⟩ = |h g_0, h g_1, …, h g_M⟩,</div>
+<div>&nbsp;</div>
+<div>and the physical, or perspective-neutral, space is the invariant subspace</div>
+<div>&nbsp;</div>
+<div>        H_phys = { Ψ ∈ H_kin : U_h Ψ = Ψ for all h ∈ G },  with projector  Π = (1/|G|) Σ_{h∈G} U_h.</div>
+<div>&nbsp;</div>
+<div>A state Ψ in H_phys assigns amplitudes only to relations among subsystems: its wave function</div>
+<div>satisfies Ψ(h g_0, …, h g_M) = Ψ(g_0, …, g_M) for all h.</div>
+<div>&nbsp;</div>
+<div>3.2 Frame Reductions</div>
+<div>&nbsp;</div>
+<div>Definition 3.2 (Frame reduction). Choosing subsystem A as the reference frame, the frame-relative</div>
+<div>space is H_A = ℓ²(G)^{⊗M}, describing the other M subsystems relative to A. The reduction map R_A :</div>
+<div>H_phys → H_A conditions the frame on the identity orientation and rescales:</div>
+<div>&nbsp;</div>
+<div>        (R_A Ψ)(x_1, …, x_M) = √|G| · Ψ(e, x_1, …, x_M)       (frame A taken as subsystem 0).</div>
+<div>&nbsp;</div>
+<div>Its inverse embeds a frame-relative state into the invariant sector:</div>
+<div>&nbsp;</div>
+<div>        R_A^{−1} φ = |G|^{−1/2} Σ_{a∈G} Σ_{x} φ(x_1, …, x_M) |a, a x_1, …, a x_M⟩.</div>
+<div>&nbsp;</div>
+<div>The same definitions apply with any other subsystem as the frame, with the remaining subsystems</div>
+<div>listed in a fixed order.</div>
+<div>&nbsp;</div>
+<div>Proposition 3.3 (Reductions are unitary). For every subsystem A, R_A is a unitary map from H_phys</div>
+<div>onto H_A, with inverse given above.</div>
+<div>&nbsp;</div>
+<div>Proof. Let Ψ ∈ H_phys. Invariance gives Ψ(g_0, g_1, …, g_M) = Ψ(e, g_0^{−1} g_1, …, g_0^{−1} g_M).</div>
+<div>Write φ(x) = Ψ(e, x_1, …, x_M). Then ‖Ψ‖² = Σ_{g_0} Σ_{x} |φ(x)|² = |G| ‖φ‖², so ‖R_A Ψ‖ = √|G| ‖φ‖</div>
+<div>= ‖Ψ‖. Conversely, for any φ ∈ H_A the vector R_A^{−1} φ defined above is invariant (left</div>
+<div>multiplication by h permutes the summation index a), and R_A R_A^{−1} φ = φ by direct substitution.</div>
+<div>Hence R_A is an isometry onto H_A, that is, unitary. □</div>
+<div>&nbsp;</div>
+<div>Definition 3.4 (Valid frame change). For frames A and B, the frame change is</div>
+<div>&nbsp;</div>
+<div>        V_{A→B} = R_B R_A^{−1} : H_A → H_B.</div>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-02.md">Raw Markdown</a><a href="part-01.html">Previous part</a><a href="part-03.html">Next part</a></nav></body></html>

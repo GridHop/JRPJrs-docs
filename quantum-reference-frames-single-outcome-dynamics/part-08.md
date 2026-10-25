@@ -1,355 +1,333 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 08 of 40 (1,698 words)
+Part 08 of 35 (1,787 words)
 
-    1 and Tier 2 truth without positing existing past events, at the acknowledged cost that these
+afterward. This is single-outcome realism (C-d) at the level of the primitive ontology. Macroscopic
 
-    properties do not supervene on the present’s categorical physical state (C-c; Sider 2001).
+outcomes would be patterns of many flashes, as in Bell’s flash ontology; in a three-particle model,
 
-
-
-The independent work done by the Lucretian profile is therefore ontological, not mathematical. Given
-
-presentism together with CTGP’s truthmaker principle, the profile is what makes the truths about
-
-realized events true: what the eternalist locates in existing past flashes, the presentist locates
-
-in the present world’s past-tensed properties. Proposition 5.21 is what one should expect: the
-
-profile carries the same structure as the history it grounds, located in the present rather than
-
-spread across existing times. Within the formalism the profile does two further jobs that any
-
-adequate ontology must assign to something: it settles identity of history across frames when the
-
-present state does not (Proposition 5.9), and it does so without acting dynamically (Theorem 5.20).
+each flash is already an event.
 
 
 
-The disagreement with eternalism should be stated precisely. Eternalism is not the claim that past,
-
-present, and future times exist simultaneously, which would identify distinct times with one time.
-
-In its standard sense, it holds that entities and events located at different times exist
-
-tenselessly, each at its own time, and their equal ontological status does not make those times
-
-simultaneous. CTGP’s disagreement with eternalism is therefore not that eternalism collapses
-
-different times into one. It is that CTGP denies that past and future stages exist alongside the
-
-present stage in the unrestricted sense that eternalism accepts. Past events are determinate but no
-
-longer exist as stages, future events do not yet exist, the past is grounded in present Lucretian
-
-properties, and the future becomes actual only through generation. This ontological question is
-
-distinct from the questions of objective passage, of A-theoretic versus B-theoretic accounts of
-
-tense, and of how objects persist through time.
+8.2 Weak Non-Supervenience in the Sharp Regime
 
 
 
-Whether CTGP’s presentist reading is preferable to an eternalist flash ontology is not settled by
+Proposition 8.1 (Two histories, one present). Take the sharp limit s → 0 and set J = 0, so that W =
 
-the model. The two readings are empirically equivalent, as CTGP itself emphasizes (CTGP – explained,
+exp(−iτ Σ v(r) P_{ij}(r)) is diagonal in the configuration basis and commutes with every P_{ij}(r).
 
-§12.1). The choice rests on CTGP’s independent arguments: explanatory economy, the phenomenological
+Let N ≥ 4, and let Ψ_{σ_0} be any state with nonzero amplitude on the configuration b−a = 1, c−a =
 
-constraint, and the generability commitment that presentism makes and eternalism does not (CTGP –
-
-explained, §§3, 4.5, and 12.2). What the present construction shows is that the presentist reading
-
-is consistent, precisely specified, and costs nothing empirically.
+3. The histories
 
 
 
-====================================================================================================
+        ω = ((A,B,1), (A,C,3))     and     ω* = ((A,C,3), (A,B,1))
 
-PART III. A Concrete Single-Outcome Model
 
-====================================================================================================
+
+both have nonzero probability, and both produce the present state Ψ_{σ_2} ≐ R_A^{−1}|1, 3⟩. The
+
+resulting truth profiles differ: L contains Had(σ_0 → σ_1, (A,B,1)) under ω and Had(σ_0 → σ_1,
+
+(A,C,3)) under ω*.
+
+
+
+Proof. In frame-A coordinates the two relevant flash operators are multiples of the projectors
+
+P_{AB}(1) → |x = 1⟩⟨x = 1| and P_{AC}(3) → |y = 3⟩⟨y = 3|. These commute, and their product is the
+
+rank-one projector
+
+
+
+        P_{AB}(1) P_{AC}(3) = P_{AC}(3) P_{AB}(1) = |1, 3⟩⟨1, 3|.
+
+
+
+With J = 0, W = exp(−iτ Σ v(r) P_{ij}(r)) is diagonal in the configuration basis, W |x, y⟩ =
+
+e^{iθ(x,y)} |x, y⟩, so it commutes with both projectors. Along ω the unnormalized final vector is
+
+therefore (λ/3) P_{AC}(3) W P_{AB}(1) W ψ_0 = (λ/3) P_{AC}(3) P_{AB}(1) W² ψ_0 = (λ/3) e^{2iθ(1,3)}
+
+⟨1, 3|ψ_0⟩ |1, 3⟩. Along ω* the projectors are applied in the opposite order, which by the identity
+
+above gives the same vector. Since ⟨1, 3|ψ_0⟩ ≠ 0, both histories have nonzero probability, and both
+
+final states are the ray [|1, 3⟩], that is, [R_A^{−1}|1, 3⟩] in the neutral description. □
+
+
+
+In this regime, the sharp flash (A,B,1) also makes the Tier 3 proposition “B is at separation 1 from
+
+A just after σ_1” determinately true, illustrating the special case noted after Proposition 4.4.
+
+
+
+8.3 Generic Parameters
+
+
+
+For finite width, the situation divides as follows.
+
+
+
+    (i) Strong non-supervenience holds for all parameters with s > 0 and λ < 1, by Proposition 4.12.
+
+    The numerical check (Appendix B, item 11) takes a random present state and two different three-
+
+    stage histories, reconstructs the unique initial state for each, and confirms that both
+
+    histories end in the given present state with nonzero probability.
+
+
+
+    (ii) Weak non-supervenience at generic parameters is open. Among all 4,096 three-stage histories
+
+    from one random initial state at the generic parameter values of §8.4, no two distinct histories
+
+    end in exactly the same present ray. This is evidence that fixed-initial-state coincidences are
+
+    non-generic, not a proof.
+
+
+
+    (iii) Near-coincidences occur. The largest overlap between the present states of two distinct
+
+    histories in that sample is 0.985, so by Proposition 5.19(iv) no measurement on the present
+
+    state distinguishes them with error probability below 0.414. Distinct histories can thus be
+
+    observationally nearly indistinguishable even when their present states are not equal.
+
+
+
+8.4 Numerical Verification
+
+
+
+The claims above were checked numerically with N = 5, λ = 0.6, s = 0.8, J = 0.7, g = 0.9, and τ =
+
+0.5 (and, for the continuous-time model of §9, hit rate Λ = 1.2 and total time T = 5), using a
+
+random initial frame-A state; the checks of Theorem 13.4, Proposition 13.2, and Proposition 14.2 use
+
+the separate settings stated in Appendix B. The checks of §§13.8–13.11 and §14.5 are reported
+
+separately, in Table C.1 of Appendix C. The numerical checks confirm the analytical results in a
+
+specific instance and guard against sign and ordering errors; they are not independent proofs.
+
+Agreement “to machine precision” means deviations of order 10⁻¹⁶, the rounding error of double-
+
+precision arithmetic. The script, its output, the software versions, and the random seeds are in
+
+Appendix B.
+
+
+
+Check                                          | Status      | Result
+
+-----------------------------------------------+-------------+--------------------------------------
+
+R_A, R_B, R_C unitary onto frame spaces        | Prop. 3.3   | Confirmed (machine precision)
+
+V_{A→B} equals |x,y⟩ ↦ |−x, y−x⟩               | §6.2        | Confirmed
+
+Groupoid law V_{B→C} V_{A→B} = V_{A→C}         | Prop. 3.5   | Confirmed
+
+Instrument complete; W and all F_k invariant   | §7.1–7.2    | Confirmed
+
+V F^A_k V^{−1} = F^B_k and V W^A V^{−1} = W^B  | Lemma 3.7   | Confirmed for all 16 events
+
+Measures over 3 stages (16³ = 4096 histories)  | Thm 5.12(a) | max |p_A − p_B| = 2.8 × 10⁻¹⁷
+
+Frame A vs neutral description                 | Thm 5.12(a) | max |p_A − p_neutral| = 1.4 × 10⁻¹⁷
+
+States along every history                     | Thm 5.12(b) | max (1 − |⟨Vψ^A, ψ^B⟩|) = 6.7 × 10⁻¹⁶
+
+Same-form law in frame B                       | Cor. 5.13   | Total-variation distance 0.180
+
+Two histories, one present (sharp, J = 0)      | Prop. 8.1   | Same present ray; different L
+
+Product state (frame A) → entangled (frame B)  | §6.3        | 0 bits → 1.000 bit
+
+Absolute collapse leakage                      | §7.4        | 0.894 = √(1 − 1/5)
+
+Continuous time: 200 trajectories, 1158 events | Prop. 9.2   | Identical event records in A, B
+
+Continuous time: final states                  | Prop. 9.2   | max (1 − |⟨Vψ^A, ψ^B⟩|) = 6.7 × 10⁻¹⁶
+
+Generic parameters: exact coincidences         | §8.3(ii)    | None among 4096 histories
+
+Generic parameters: largest overlap            | §8.3(iii)   | 0.985; Helstrom error ≥ 0.414
+
+Every history reaches a given present          | Prop. 4.12  | Confirmed for two 3-stage histories
+
+History-dependent law, across initial states   | Prop. 11.4a | Same present ray; TV = 0.1000
+
+History-dependent law, fixed initial state     | Prop. 11.4b | Same present ray; TV = 0.1000
+
+Doob kernel vs future-conditioned measure      | Prop. 11.1  | max diff = 8.3 × 10⁻¹⁷
+
+Foliation independence, causally local         | Thm 13.4(a) | All 136 foliations agree (7 × 10⁻¹⁸)
+
+No dependence outside the predecessor set      | Thm 13.4(c) | max marginal change 8 × 10⁻¹⁶
+
+Order-ideal law vs marginal of full law        | Prop. 13.7  | max diff 1.1 × 10⁻¹⁶
+
+Gapless detectors, three-region test           | Thm 13.9    | No shift (< 10⁻¹⁵); formula (c) met
+
+Unsharp Lüders instrument at C                 | Ex. 13.10   | Shifts −0.0215 and −0.0466
+
+Gaussian field collapse at C                   | Cor. 13.14  | No shift (< 10⁻¹³); formula met
+
+Non-commuting “spacelike” pair                 | §13.4       | Orders differ: TV = 0.165
+
+Same channel, different history measures       | Prop. 13.2  | Mutual information 0 vs 1 bit
+
+Drifting quantum clock, recorded readings      | Prop. 14.2  | P(backward) = 0.104 (exact, ring)
+
+
+
+Table 1. Numerical checks of the concrete model (N = 5). The “Status” column names the analytical
+
+result that each check instantiates.
 
 
 
 ----------------------------------------------------------------------------------------------------
 
-6. Three Particles on a Ring: Kinematics
+9. Continuous-Time Embedding and the Status of Generative Stages
 
 ----------------------------------------------------------------------------------------------------
 
 
 
-6.1 The Model
+9.1 The Question
 
 
 
-Take G = ℤ_N, the integers modulo N, written additively, and three particles A, B, C, each located
+CTGP describes generation as a continuous causal-temporal progression (C-h). Part II uses discrete
 
-at one of the sites 0, 1, …, N−1 of a ring. Then H_kin = ℓ²(ℤ_N)^{⊗3}, with basis |a, b, c⟩, and the
+stages σ_0 < σ_1 < … with one stochastic transition per stage. A discrete-stage model can represent
 
-global translation is
+selected stages of a continuous process, but it does not by itself establish compatibility with a
 
+continuous generative ontology. This section gives a continuous-time version of the model, proves
 
+that it has the properties of Part II, and states precisely what remains a postulate.
 
-        U_g |a, b, c⟩ = |a+g, b+g, c+g⟩.
 
 
+9.2 A Relational Jump Process
 
-H_phys is the N²-dimensional subspace of translation-invariant states. With no external origin, only
 
-the separations b−a, c−a, and c−b are physical.
 
+Definition 9.1 (Continuous-time relational flash process). Let H be the invariant Hamiltonian of
 
+§7.1, let Λ > 0 be a hit rate, and define jump operators
 
-6.2 Frames and Frame Changes
 
 
+        J_{(i,j,d)} = √(Λ/3) · Σ_r √(w(r−d)) P_{ij}(r),     so that     Σ_k J_k† J_k = Λ · 1.
 
-Frame A uses the coordinates (x, y) = (b−a, c−a), the positions of B and C relative to A. Frame B
 
-uses (u, v) = (a−b, c−b), and frame C uses (p, q) = (a−c, b−c). The reductions are
 
+The process runs as follows. Hit times t_1 < t_2 < … form a Poisson process of rate Λ. Between hits
 
+the state evolves by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k ψ‖² /
 
-        (R_A Ψ)(x, y) = √N Ψ(0, x, y),    (R_B Ψ)(u, v) = √N Ψ(u, 0, v),
+Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.
 
-        (R_C Ψ)(p, q) = √N Ψ(p, q, 0).
 
 
+This is the standard quantum-jump unravelling of a Lindblad equation. Because Σ_k J_k† J_k is
 
-By Proposition 3.3 they are unitary. The frame changes are permutations of basis states:
+proportional to the identity, the effective non-Hermitian Hamiltonian H_eff = H − (i/2) Σ_k J_k† J_k
 
+= H − (iΛ/2) · 1 differs from H by a constant, so the evolution between hits is unitary up to a
 
+uniform decay of norm, and the hit times are independent of the state. This is precisely the
 
-        V_{A→B} |x, y⟩ = |−x, y−x⟩,    V_{B→C} |u, v⟩ = |u−v, −v⟩,    V_{A→C} |x, y⟩ = |−y, x−y⟩.
+structure of the original GRW model, here with relational jump operators.
 
 
 
-The groupoid law can be checked directly: V_{B→C} V_{A→B} |x, y⟩ = V_{B→C} |−x, y−x⟩ = |−x−(y−x),
+Proposition 9.2 (Well-definedness, invariance, and covariance). (i) The process of Definition 9.1 is
 
-−(y−x)⟩ = |−y, x−y⟩ = V_{A→C} |x, y⟩.
+a well-defined piecewise-deterministic Markov process on the unit sphere of H_phys, with almost
 
+surely finitely many hits in any bounded time interval. (ii) Every trajectory remains in H_phys.
 
+(iii) Its ensemble average ρ(t) obeys the Lindblad equation
 
-6.3 A Worked Example of Frame-Relative Form
 
 
+        dρ/dt = −i [H, ρ] + Σ_k J_k ρ J_k† − Λ ρ,
 
-Let the frame-A description be
 
 
+which preserves the set of density operators supported on H_phys. (iv) The frame-A and frame-B
 
-        ψ^A = (|1, 0⟩ + |2, 0⟩) / √2.
+processes, built from the frame forms H^A, J^A_k and H^B, J^B_k, assign the same probabilities to
 
+every finite sequence of (hit time, event) pairs, and along every trajectory their states satisfy
 
+ψ^B(t) ≐ V_{A→B} ψ^A(t) for all t.
 
-Relative to A, particle C is definitely at separation 0, and B is in an equal superposition of
 
-separations 1 and 2. The state is a product state of B and C relative to A, with zero entanglement.
 
-Applying V_{A→B} gives
+Proof. (i) In finite dimension, with bounded H and state-independent Poisson hit times, the
 
+construction is explicit: a Poisson process of finite rate has almost surely finitely many points in
 
+any bounded interval, and between them the evolution is a fixed unitary flow. (ii) H and every J_k
 
-        ψ^B = (|−1, −1⟩ + |−2, −2⟩) / √2,
+are invariant, so exp(−iHt) and the normalized jumps map H_phys to itself. (iii) The Lindblad form
 
+follows from averaging the jump process, which is standard; the term −Λρ is −(1/2){Σ_k J_k† J_k, ρ}
 
+with Σ_k J_k† J_k = Λ · 1. Invariance of H and J_k implies that the generator commutes with
 
-so relative to B, particles A and C are each in a superposition and are perfectly correlated, with
+conjugation by U_h, so density operators supported on H_phys remain so. (iv) By Lemma 3.7, ‖J^A_k
 
-one bit of entanglement.
+exp(−iH^A t) R_A Ψ‖ = ‖J_k exp(−iHt) Ψ‖ and likewise for frame B; hit times do not depend on the
 
+state; so the joint law of (hit time, event) sequences is the same in every frame, and induction
 
+over hits gives the state relation, as in Theorem 5.12. □
 
-Consider the Tier 3 proposition “C is at separation 0 from A”, with invariant projector Q onto c−a =
 
-0. In frame A its form is Q^A = projector onto y = 0, and Q^A ψ^A = ψ^A, so the proposition is
 
-determinately true. In frame B its form is Q^B = projector onto v−u = 0, a statement about the
+9.3 Continuous-Time Histories as Marked Point Processes
 
-correlation of two frame-B coordinates rather than about a single coordinate, and Q^B ψ^B = ψ^B, so
 
-it is determinately true there as well. By contrast, “B is at separation 1 from A” has no
 
-determinate value in frame A, because x is superposed, and its frame-B form, “A is at separation −1
+In continuous time a history consists of event labels together with their times, and the truth
 
-from B”, has no determinate value in frame B either. Determinacy and truth agree across frames, as
+profile contains a continuum of state propositions. Both must be defined explicitly.
 
-Proposition 5.2 requires, even though one frame represents the situation as a product state and the
 
-other as an entangled state.
 
+Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t > 0. A record on [0, t] is a finite
 
+sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 < t_1 < ⋯ < t_m ≤ t, and k_j ∈ 𝒦. The record
 
-----------------------------------------------------------------------------------------------------
+space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference
 
-7. Dynamics: Relational Flashes
+measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along
 
-----------------------------------------------------------------------------------------------------
+ω, the state at time s ∈ [0, t] is the normalized vector
 
 
 
-7.1 Deterministic Part
+        Ψ_s(ω) ∝ e^{−iH(s − t_j)} J_{k_j} e^{−iH(t_j − t_{j−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0
 
-
-
-Let S_A, S_B, S_C shift the respective particle by one site, and let P_{ij}(r) be the projector onto
-
-configurations with x_j − x_i = r (mod N) for each ordered pair (i, j) ∈ {(A,B), (A,C), (B,C)}.
-
-Define
-
-
-
-        H = −J Σ_{i∈{A,B,C}} (S_i + S_i†) + Σ_{(i,j)} Σ_{r} v(r) P_{ij}(r),     v(r) = g cos(2πr/N),
-
-
-
-        W = exp(−i τ H)       (units with ħ = 1; τ is the duration of one stage).
-
-
-
-Each S_i commutes with the global translation, because translations on ℤ_N commute, and each
-
-P_{ij}(r) depends only on a separation. So H and W are invariant.
-
-
-
-7.2 The Flash Instrument
-
-
-
-Let w be a normalized discrete Gaussian on ℤ_N of width s > 0:
-
-
-
-        w(r) ∝ exp(−|r|_N² / (2 s²)),     Σ_r w(r) = 1,
-
-
-
-where |r|_N is the distance from r to 0 around the ring. Let λ ∈ (0, 1) be the hit probability per
-
-stage. The transition events are 𝒦 = {∅} ∪ {(i, j, d) : (i, j) an ordered pair as above, d ∈ ℤ_N},
-
-with Kraus operators
-
-
-
-        F_∅ = √(1−λ) · 1,     F_{(i,j,d)} = √(λ/3) · Σ_r √(w(r−d)) P_{ij}(r).
-
-
-
-Event (i, j, d) is a relational flash: an objective event centred on the separation d between
-
-particles i and j. Completeness holds because Σ_d w(r−d) = 1 for every r, so Σ_d F_{(i,j,d)}†
-
-F_{(i,j,d)} = (λ/3) · 1 for each pair, and the three pairs together with F_∅ sum to the identity.
-
-Every F_k is invariant, since it is a function of separations. Because w(r) > 0 for every r and λ <
-
-1, every F_k is invertible, so Proposition 4.12 applies. The sharp limit s → 0 gives w(r) = δ_{r,0},
-
-in which a flash projects exactly onto separation d and is no longer invertible.
-
-
-
-7.3 Frame Forms
-
-
-
-In frame A the relational projectors take the forms P_{AB}(r) → [x = r], P_{AC}(r) → [y = r],
-
-P_{BC}(r) → [y − x = r]; in frame B they become [u = −r], [v − u = r], [v = r]. Appendix A lists all
-
-three frames. Hopping of the frame particle itself appears as a joint shift of all relative
-
-coordinates: in frame A, moving A one site to the right lowers both x and y by one. This is how
-
-“motion of the reference frame” appears inside the frame’s own description. By Lemma 3.7, each of
-
-these forms is the conjugate of the others by the appropriate V, so the frame-relative laws satisfy
-
-Definition 5.11.
-
-
-
-7.4 Why the Flashes Must Be Relational
-
-
-
-Suppose one tried to use an absolute collapse operator, for example the projector P_abs onto “C is
-
-at site 0”. P_abs is not invariant. Applied to any Ψ ∈ H_phys, it produces a vector supported on
-
-configurations with c = 0, and its translation-averaged part has squared norm only 1/N of the total,
-
-because the N translates of that support are mutually orthogonal and only the untranslated term
-
-contributes. Hence
-
-
-
-        ‖(1 − Π) P_abs Ψ‖ / ‖P_abs Ψ‖ = √(1 − 1/N)
-
-
-
-for every Ψ ∈ H_phys with P_abs Ψ ≠ 0, which is about 0.894 for N = 5. Most of the collapsed state
-
-lies outside the physical space, so an absolute collapse operator does not carry physical states to
-
-physical states.
-
-
-
-The point generalizes within the perspective-neutral construction. If an operator X maps H_phys into
-
-itself, then for every Ψ ∈ H_phys we have Ψ = Π Ψ and X Ψ = Π X Ψ, so X agrees on H_phys with Π X Π,
-
-which is invariant. Hence, if every realized event is to carry a physical state to a physical state,
-
-as Definition 4.1 requires and as single-outcome realism needs when each event is to be a gauge-
-
-invariant fact, then each Kraus operator must act on physical states exactly as an invariant,
-
-relational operator does.
-
-
-
-Two qualifications fix the scope of this conclusion. First, it holds within the chosen framework.
-
-Other formulations require only that an instrument be covariant as a whole, with the symmetry
-
-permuting its Kraus operators; standard GRW, whose collapse centres are absolute positions, is of
-
-this kind. In such formulations the averaged channel can preserve the physical sector even though
-
-individual updates do not, and an account is then owed of what gauge-invariant fact an outcome with
-
-an absolute label records in a closed universe. Second, the CSL equation cited in CTGP – explained,
-
-§10.1, uses smeared mass-density operators A(x) at absolute positions x. Reformulating CSL in terms
-
-of mass densities relative to material frames is a natural route for CTGP’s collapse option (Q2),
-
-but whether CSL must be so reformulated depends on the formulation and would require further
-
-argument. What the present construction establishes is sufficiency: invariant relational collapse
-
-operators provide an explicit, verified realization of QRF-compatible single-outcome dynamics. The
-
-equivalence proved above concerns the action of an operator on physical states; it does not show
-
-that every physically acceptable collapse theory must use the particular relational flash ontology
-
-of §7.2, which is one realization among others.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-8. The Criteria in the Model, With Numerical Checks
-
-----------------------------------------------------------------------------------------------------
+                for t_j ≤ s < t_{j+1},
 
 

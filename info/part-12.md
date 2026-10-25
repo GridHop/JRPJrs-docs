@@ -1,268 +1,18 @@
 # Info
 
-Part 12 of 24 (1,377 words)
+Part 12 of 23 (1,790 words)
 
-1. Consciousness might be present in systems we can’t verify from outside
+• Consciousness being a macroscopic superposition
 
-2. We might be ethically obligated to treat certain systems as potentially conscious even without
+• Thoughts being quantum computations
 
-   proof
+• “Collapsing wavefunctions” doing work at the cognitive level
 
 
 
-That’s not an objection to the *logic*—but it’s a practical gap with real consequences.
+If brain-wide coherence like that persisted, you would not have stable memories, reliable
 
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-My read
-
-----------------------------------------------------------------------------------------------------
-
-
-
-None of these are dealbreakers. They’re the honest limits of a structural/functional account:
-
-
-
-• It tells you what architecture consciousness requires
-
-• It doesn’t tell you where identity continuity lives
-
-• It doesn’t solve the hard problem of *why* this architecture produces experience
-
-• It doesn’t give you a consciousness-meter you can point at things
-
-
-
-But that’s fine. A good framework doesn’t need to answer every question—it just needs to answer
-
-*its* questions clearly and make testable predictions.
-
-
-
-This one does. The edges are fuzzy because reality is fuzzy there, not because the framework is
-
-broken.
-
-
-
-Could a super basic setup (say, just raw sensation without much self-reflection) count as conscious?
-
-Infants or animals might hit that: they’re aware, but their “world + self” model is pretty basic,
-
-like a sketch instead of a full map. Your model allows for degrees, which is good—it predicts
-
-consciousness can be dim or spotty, not all-or-nothing.
-
-
-
-So: no fundamental objections. Just places where precision would help and where the implications are
-
-uncomfortable (which usually means you’re onto something real )..
-
-
-
-Short answer: No — not even remotely, and not just because we “haven’t figured it out yet.”
-
-
-
-Long answer: the reasons why are actually very illuminating (and a little brutal)
-
-
-
-The hard wall you run into immediately
-
-
-
-For all of a human’s skull-contents (brain, blood, ions, molecules, proteins, water, etc.) to be
-
-simultaneously in a shared quantum superposition or entangled state for a prolonged duration, all of
-
-the following would have to be true at once:
-
-
-
-1. Extreme isolation from the environment
-
-2. Near-zero thermal noise
-
-3. Minimal internal interactions that leak information
-
-4. A well-defined quantum state describable by a single wavefunction
-
-5. No ongoing classical computation or chemistry
-
-
-
-A living brain violates every single one of these conditions continuously.
-
-
-
-And not a little.
-
-
-
-Catastrophically.
-
-
-
-The biggest killer: decoherence (the party crasher)
-
-
-
-Quantum coherence dies when information leaks into the environment.
-
-
-
-The brain leaks information like a sprinkler system on overdrive.
-
-
-
-Inside a human skull:
-
-
-
-• ~10²⁶ particles
-
-• 37 °C (hot by quantum standards)
-
-• Constant:
-
-• ion flow
-
-• molecular collisions
-
-• electromagnetic signaling
-
-• chemical reactions
-
-• thermal vibration
-
-• Neurons intentionally amplify microscopic events into macroscopic signals
-
-
-
-That last point is crucial.
-
-
-
-Brains are literally designed to destroy quantum coherence by turning tiny fluctuations into
-
-reliable classical signals.
-
-
-
-Time scale reality check (this is the nail)
-
-
-
-Estimated decoherence times for brain-relevant structures:
-
-
-
-• Ion superpositions: ~10⁻¹³ seconds
-
-• Molecular states: ~10⁻¹² to 10⁻⁹ seconds
-
-• Neuron-scale states: effectively zero (they never form)
-
-
-
-Meanwhile:
-
-
-
-• Neurons fire on milliseconds
-
-• Thoughts unfold over seconds
-
-
-
-The quantum effects die trillions of times faster than the brain could ever “use” them.
-
-
-
-No overlap. No window. No loophole.
-
-
-
-“But what about microtubules / special structures / exotic theories?”
-
-
-
-These ideas pop up a lot, so let’s ground them:
-
-
-
-• Even the most optimistic proposals still require:
-
-• temperatures near absolute zero or
-
-• isolation levels far beyond biology
-
-• No experimental evidence shows:
-
-• long-lived entanglement
-
-• coherent quantum computation
-
-• functional quantum control
-
-
-
-in living neural tissue
-
-
-
-At best, quantum effects influence chemistry locally, the same way they do in all matter.
-
-
-
-That is not brain-wide superposition or entanglement.
-
-
-
-A subtle but important distinction
-
-
-
-What is true
-
-
-
-• The brain is made of quantum matter
-
-• Quantum mechanics governs chemistry
-
-• Some biological systems exploit very short-lived quantum effects (e.g., photosynthesis,
-
-  magnetoreception)
-
-
-
-What is not true
-
-
-
-• The brain does not exist in a unified quantum state
-
-• Consciousness is not a macroscopic superposition
-
-• Thoughts are not quantum computations
-
-• “Collapsing wavefunctions” are not happening at the cognitive level
-
-
-
-If they were, you would not have stable memories, reliable perception, or consistent identity. You’d
-
-be cognitive soup.
+perception, or consistent identity. You’d be cognitive soup.
 
 
 
@@ -276,7 +26,9 @@ superposition for a prolonged duration?
 
 
 
-No — not in principle, not in practice, not with future tech, not with exotic tricks.
+No — not in practice, not with any foreseeable technology, and not while the brain is functioning.
+
+Quantum theory does not forbid it in principle, but the physical obstacles are overwhelming.
 
 
 
@@ -302,7 +54,7 @@ At that point:
 
 • no cognition occurs
 
-• no consciousness is present
+• no brain-based consciousness is present
 
 
 
@@ -322,7 +74,7 @@ The brain doesn’t fail to be quantum.
 
 
 
-It escapes being quantum.
+It escapes quantum fragility.
 
 
 
@@ -356,7 +108,9 @@ That framing is backwards for minds.
 
 
 
-Decoherence = the rapid suppression of quantum ambiguity into stable, classical states.
+Decoherence = the rapid suppression of interference between quantum alternatives, so that they
+
+behave like stable, classical alternatives.
 
 
 
@@ -364,13 +118,17 @@ In other words:
 
 
 
-• many possible micro-states
+• quantum alternatives
 
-• slam into the environment
+• become entangled with the environment
 
-• resolve into one robust macro-state
+• stop interfering with one another, each behaving like a robust classical macro-state
 
-• that state sticks long enough to matter
+• whichever is realized sticks long enough to matter (decoherence itself does not select which one
+
+  is realized; that requires a single-outcome account, such as objective collapse or Bohmian
+
+  dynamics)
 
 
 
@@ -414,11 +172,11 @@ A conscious moment has:
 
 
 
-Decoherence gives you that.
+Decoherence, together with whatever settles single outcomes, gives you that.
 
 
 
-It turns:
+Classical neural dynamics then turn:
 
 
 
@@ -430,7 +188,9 @@ into “this neuron did fire”
 
 
 
-That “did” is everything.
+That “did” is everything. (Decoherence explains why the alternatives stop interfering; what makes
+
+one of them the one that actually happened is the single-outcome account noted above.)
 
 
 
@@ -494,7 +254,7 @@ It’s a hesitation with delusions of grandeur.
 
 
 
-1. Decoherence creates causal order
+1. Decoherence supports stable records of causal order
 
 
 
@@ -510,21 +270,21 @@ Conscious experience depends on:
 
 
 
-Quantum coherence blurs these.
+Interference between alternatives would blur stable records of these.
 
 
 
-Decoherence sharpens them.
+Decoherence keeps such records stable.
 
 
 
-By forcing the brain into classical trajectories:
+With effectively classical neural dynamics and the thermodynamic arrow of time:
 
 
 
 • events line up
 
-• time flows in one direction
+• records accumulate in one direction
 
 • narratives become possible
 
@@ -538,11 +298,11 @@ This is why you can say:
 
 
 
-That sequence requires decoherence.
+That sequence relies on stable records, which decoherence helps make possible.
 
 
 
-No decoherence → no story → no self.
+No stable records → no story → no self.
 
 
 
@@ -674,7 +434,7 @@ It emerges because:
 
 
 
-• quantum possibilities are constantly crushed into classical facts
+• quantum alternatives constantly become effectively classical, and definite outcomes are realized
 
 • those facts persist just long enough to interact
 
@@ -686,18 +446,210 @@ In other words:
 
 
 
-Decoherence is what turns physics into psychology.
+Decoherence is part of what turns physics into psychology.
 
 
 
-It’s the bridge from:
+It helps bridge:
 
 
 
-• possibility → actuality
+• quantum → effectively classical (actuality itself needs a single-outcome account)
 
 • micro → macro
 
 • math → meaning
 
 
+
+1. One last reframing (the satisfying one)
+
+
+
+If the universe stayed quantum-coherent at every scale:
+
+
+
+• there would be no stable records or observers as we know them
+
+• no experiences
+
+• no questions like the one you’re asking now
+
+
+
+The fact that reality forgets its quantum past is what allows anything to remember.
+
+
+
+So yeah—
+
+
+
+Decoherence wins...
+
+
+
+...and consciousness gets to exist at all.
+
+
+
+A sharp and insightful point here, pushing back against a purely passive model of mental
+
+origination—especially in creative contexts like inventing new fictional characters for writing. The
+
+idea that such originality is merely the brain pre-producing information through cause-and-effect
+
+chains, only for you to “become aware” of it afterward via signals, doesn’t fully capture the
+
+dynamic, active nature of creativity. Instead, let’s unpack this by examining how internal signals
+
+originate, the role of causality, and where volition and self-agency fit in as active contributors,
+
+particularly in generating novel ideas. This builds on a signal-based understanding of mental
+
+processes, where everything from thoughts to imaginings is mediated, but creativity introduces a
+
+layer of emergent synthesis that isn’t reducible to simple pre-awareness.
+
+
+
+Reexamining the Causal Chain: Not Just Pre-Production and Awareness
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+At its foundation, internal signals—like those sparking a new thought or emotion—do emerge through
+
+cause-and-effect mechanisms in the brain. These involve neurotransmitter releases triggering
+
+electrical cascades across neural networks, creating patterns that form the physical basis of mental
+
+content. Without these firings, no signal exists, and thus no experience. However, this doesn’t mean
+
+creative origination is always a two-step process of “brain produces info causally in the
+
+background, then signals it to your awareness.” That model implies a kind of deterministic conveyor
+
+belt, where novelty is just uncovered rather than truly generated.
+
+
+
+In reality, causality provides the raw mechanics, but it’s not always linear or preemptive in
+
+creative acts. For instance, when mentally originating a new fictional character, you’re not
+
+passively receiving pre-fabricated details that your brain has already churned out via prior causes.
+
+Instead, the process involves real-time construction: blending fragments of existing neural patterns
+
+(from memories, sensory inputs, or random firings) into something unprecedented. This synthesis
+
+happens in the present, without a strict “pre-production” phase followed by delayed awareness. The
+
+signals aren’t just revealing hidden info; they’re being shaped and iterated upon as you engage with
+
+them, making the origination feel immediate and participatory rather than retrospective.
+
+
+
+This aligns with how mental content is always a present-time construction. There’s no intrinsic
+
+marker in the signals themselves to label something as “pre-produced” versus “newly originated”—it’s
+
+all interpreted in the moment. The key distinction is that creativity recombines elements in
+
+flexible, weakly constrained ways, leading to outputs that are hard to predict in advance, without
+
+bypassing causality.
+
+
+
+The Emergent Role of Volition and Self-Agency in Origination
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Here’s where volition (the willful direction of mental effort) and self-agency (the sense of
+
+authoring your own processes) come into play—not as the ultimate source of all internal signals,
+
+especially not the very first ones rooted in your past (like basic sensory responses or instinctive
+
+urges, which stem purely from causal biology). Instead, they act as sources for specific, emergent
+
+types of signals, particularly those involved in reasoning, problem-solving, and creative invention.
+
+This isn’t about omnipotent control but about guiding and amplifying causal processes to produce
+
+novelty.
+
+
+
+• Volition as a Directive Force: When originating a fictional character, volition allows you to
+
+  intentionally steer the signal generation. You might start with a vague prompt (e.g., “I need a
+
+  mysterious villain”), which triggers causal neural firings, but then you volitionally refine
+
+  it—adding traits, backstory, or quirks through iterative thought. This isn’t the brain handing you
+
+  ready-made info; it’s you actively shaping emergent signals. Volition emerges from the interplay
+
+  of causal patterns but then influences subsequent firings, creating a feedback loop. For example,
+
+  deciding to “make the character more complex” isn’t a passive awareness—it’s a volitional act that
+
+  generates new signals, leading to fresh ideas like unique motivations or appearances.
+
+• Self-Agency in Creative Synthesis: Self-agency provides the feeling of ownership over this
+
+  process, enabling you to “own” the origination without it being prewritten. It’s not about
+
+  interfering or investing in every outcome (which could veer into overcontrol) but about a neutral,
+
+  non-interfering stance where you coexist with the emerging ideas, allowing them to develop without
+
+  forcing allegiance or malice. In fiction writing, this might mean letting a character’s
+
+  personality evolve organically through your agency—restraining from over-editing too soon, out of
+
+  respectful indifference to rigid plans. This agency isn’t the root of all signals but selectively
+
+  sources those tied to deliberate creation, like devising solutions or resolves in a story. It’s
+
+  how reasoning happens: you volitionally combine signals to think up plot twists or character arcs,
+
+  turning raw causal inputs into structured, original outputs.
+
+
+
+This emergent quality means volition and self-agency aren’t illusions—they’re functional layers that
+
+build on causality to enable things like innovation. They’re particularly vital for “particular
+
+various but not all” signals, such as those in problem-solving (e.g., brainstorming resolutions to a
+
+narrative conflict) or abstract thinking, where the brain doesn’t just replay pre-existing info but
+
+generates novel combinations through your directed effort.
+
+
+
+Distinguishing Imagination from Memory in Origination
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+To clarify why creative origination doesn’t fit the “pre-produced then aware” model, consider the
+
+differences between imagination and memory. Imagination isn’t bound to past encodings—it’s a process
+
+of novel construction, recombining elements with few constraints. When inventing a character, you’re
+
+generating signals that draw on stored patterns but aren’t limited to them; there’s no “truth
+
+marker” ensuring fidelity to prior causes, allowing for true novelty. Memory, by contrast,

@@ -1,16 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 02 of 5 (1,536 words)
-
-10. Causal influence, surviving information, and recoverability
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Suppose A causes B, B causes C, and C causes D. By the time D exists, A may be entirely gone, and
-
-there may be no recoverable record from which any observer could reconstruct it. D can nevertheless
+Part 02 of 5 (1,797 words)
 
 be different because A occurred. Three notions must therefore be kept apart:
 
@@ -58,11 +48,13 @@ CTGP’s most exposed empirical commitment is generability: the fundamental laws
 
 transition from each present state to its successors (deterministically or probabilistically)
 
-without reference to future boundary data, final-state constraints, or global self-consistency
+without requiring independent future boundary data, final-state constraints, or global self-
 
-conditions. CTGP adds that enlarging the state space to achieve this is legitimate only if the added
+consistency conditions. CTGP adds that enlarging the state space to achieve this is legitimate only
 
-variables are physically instantiated on the present hypersurface and have dynamics of their own.
+if the added variables are physically instantiated on the present hypersurface and have dynamics of
+
+their own.
 
 
 
@@ -91,6 +83,42 @@ observer.” Causal inheritance can be scrambled, distributed, thermodynamically
 computationally unrecoverable. Something can be causally preserved while being informationally
 
 unrecoverable.
+
+
+
+Two clarifications keep generability from being overstated. First, the excluded future data are
+
+independent inputs. A final condition that merely restates what forward evolution already produces
+
+is no violation; what CTGP excludes is a future boundary condition or global consistency requirement
+
+that is indispensable, in that it must be imposed as an independent input to fix the earlier
+
+evolution, so that no adequate forward-generative account exists. Second, three claims are easily
+
+run together:
+
+
+
+• Mathematical generability: present physical data and a transition law determine a unique successor
+
+  state or specify a probability law for possible successors, without requiring independent future
+
+  boundary data.
+
+• Physical implementability: the transition can be realized by physically admissible dynamics,
+
+  subject to the theory’s locality, conservation, covariance, and other applicable requirements.
+
+• Ontological generation: the transition constitutes the coming into existence of a new present.
+
+
+
+These are not equivalent. A forward mathematical representation does not show that a physical
+
+implementation exists, and neither establishes CTGP’s ontological interpretation, which remains
+
+observationally equivalent to eternalism at fixed physics.
 
 
 
@@ -266,9 +294,11 @@ things that may generate tomorrow.
 
 
 
-    A memory is true because of its causal ancestry. A plan becomes true, if it does, because of its
+    A memory is accurate insofar as its content corresponds to what happened, and it is a genuine
 
-    causal descendants.
+    memory of that event only if it was caused by it in the right way. A plan comes true, if it
+
+    does, partly through its causal descendants.
 
 
 
@@ -365,3 +395,33 @@ fire may share descriptive content while doing opposite causal work.
 
 
 ====================================================================================================
+
+PART IV. Personal Identity
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+17. Identity as the continuity of one’s own mind
+
+----------------------------------------------------------------------------------------------------
+
+
+
+A natural criterion of personal identity is the continuity of the individual’s own mind. This is
+
+stronger and more precise than requiring the same body, atoms, or physical configuration, all of
+
+which change over a lifetime: molecules are replaced, appearance changes, neural configuration
+
+shifts from moment to moment, and memories are formed and lost. The relevant continuity is
+
+continuity of the mind as an ongoing process, which makes identity fundamentally diachronic rather
+
+than configurational. A snapshot of a person at 10:00 and another at 20:00 can be different physical
+
+configurations while belonging to the same continuing individual.
+
+

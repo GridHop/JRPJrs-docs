@@ -1,20 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 04 of 26 (1,622 words)
-
-5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 1 (Ontological Primacy of the Present): At any stage of cosmic evolution, only the current
-
-hypersurface of reality—the present state of the universe—possesses ontological existence as
-
-presently real. The present is not, however, an isolated instant: it exists as part of a continuous
-
-causal-temporal progression whereby each state emerges through the lawful evolution of immediately
+Part 04 of 25 (1,798 words)
 
 preceding states and in turn contributes to the emergence of subsequent states. Earlier states do
 
@@ -114,23 +100,23 @@ Postulate 4 (Persistence Through Causal Continuity and Records): Although earlie
 
 universe no longer exist as independent regions of spacetime, the physical consequences of those
 
-states continue through later states via lawful, continuous transformations of matter, energy,
+states persist in the present state, carried by lawful, continuous transformations of matter,
 
-fields, and information-bearing structures. Certain aspects of those consequences remain organized
+energy, fields, and information-bearing structures. Certain aspects of those consequences remain
 
-as causal records that encode information about past events, while other aspects become distributed,
+organized as causal records that encode information about past events, while other aspects become
 
-transformed, or effectively unrecoverable. Such records include radiation fields, particle
+distributed, transformed, or effectively unrecoverable. Such records include radiation fields,
 
-distributions, gravitational structures, and cosmological relics, the most extensive of which are
+particle distributions, gravitational structures, and cosmological relics, the most extensive of
 
-the cosmic microwave background and the neutral hydrogen observed through the 21 cm line (§14). The
+which are the cosmic microwave background and the neutral hydrogen observed through the 21 cm line
 
-signal exists now; the emitting matter existed earlier; the earlier state itself no longer exists.
+(§14). The signal exists now; the emitting matter existed earlier; the earlier state itself no
 
-What remains is not the earlier organization but the continuing propagation of its physical
+longer exists. What remains is not the earlier organization but its physical consequences, carried
 
-consequences, one subset of which functions as a causal record.
+by the present configuration, one subset of which functions as a causal record.
 
 
 
@@ -140,13 +126,13 @@ consequences, one subset of which functions as a causal record.
 
 While CTGP holds that earlier states do not persist as independently existing regions of spacetime,
 
-the causal consequences of those states continue propagating within later states through ongoing
+the causal consequences of those states persist within the present state through ongoing physical
 
-physical evolution. Some of those consequences remain organized as causal encodings and records
+evolution. Some of those consequences remain organized as causal encodings and records accessible in
 
-accessible in the present. This should not be taken to imply that present encodings exhaust all
+the present. This should not be taken to imply that present encodings exhaust all truths about the
 
-truths about the past.
+past.
 
 
 
@@ -238,11 +224,11 @@ of §3.4: the economy claimed there is unification of the arrows of time under o
 
 parsimony of ontology, and the primitive properties posited here count against the latter. CTGP
 
-therefore does not eliminate past facts; it relocates them into the present, as irreducible past-
+therefore does not eliminate past facts; it takes truths about what actually occurred to be grounded
 
-tensed properties of what exists now. The ontology is leaner than eternalism in what exists, not in
+in irreducible past-tensed properties of what presently exists. The ontology is leaner than
 
-what is fundamental.
+eternalism in what exists, not in what is fundamental.
 
 
 
@@ -296,10 +282,48 @@ CTGP distinguishes four separate concepts that are often conflated:
 
 
 
-Accordingly, CTGP’s claim that earlier states no longer exist refers to the non-persistence of those
+Accordingly, CTGP’s claim that earlier states no longer exist does not mean that physical reality
 
-states as present ontological organizations, not to the disappearance of all physical continuity
+vanishes and is recreated from one state to the next. Generation is gapless: reality never lapses,
 
-arising from them.
+and each present state arises from immediately preceding states through lawful physical
+
+transformation (§5.4). Gapless does not require every physical quantity to change smoothly; abrupt
+
+changes, including quantum jumps in models that contain them, are compatible with gapless
+
+generation. What ceases to exist is the earlier state itself, not necessarily the physical
+
+constituents or systems that were in that state; whether those persist depends on their own
+
+conditions of persistence.
 
 
+
+CTGP distinguishes a state from what it is a state of. An earlier state, as the state at its stage,
+
+ceases to exist, even when successive stages produce a qualitatively identical state; the system
+
+whose state it was persists for as long as its conditions of persistence are satisfied, that is,
+
+unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
+
+is, not by the cosmological foliation, which settles only which configurations are co-present and
+
+how stages are ordered: an organism, a hurricane, and a field have different conditions of
+
+persistence, and a system incapable of ending has no termination condition. Changes in composition,
+
+organization, or other properties therefore need not end the system that undergoes them; the
+
+cessation of an earlier state is not the cessation of what it was a state of.
+
+
+
+5.3 Postulate 5 and the Generative Minimality Principle
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Postulate 5 (Hierarchical Law Emergence): Reality is governed at all stages by minimal generative

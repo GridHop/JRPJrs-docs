@@ -1,237 +1,343 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 23 of 40 (1,586 words)
+Part 23 of 35 (1,794 words)
 
-candidate preferred-frame effects identified so far are the energy–momentum injection of part (e)
+The pointer realization has further costs. First, as explained above, it adds physical degrees of
 
-and the order effects for interfering interventions described under the second limit; neither has
+freedom, one pointer at each Poisson centre prepared in a fixed state that depends on the smearing
 
-yet been shown to be measurable, as explained below. Fourth, no-signaling and Lorentz invariance are
+through Γ_kk, together with postulate (R). Second, cosmological time still enters the law, through
 
-different properties. Four notions must be kept apart: a Lorentz-invariant law, which refers to no
+the smearing law of Candidate extension 13.27(ii), which Proposition 13.24 makes necessary for
 
-frame; a covariant formulation with additional background structure, here the cosmological time,
+point-centred smearings; only the ordering rule is removed. Third, the coupling is a prescribed
 
-which is covariant under all isometries but not Lorentz-invariant on scales where that structure
+function on spacetime, so the energy of Proposition 13.31(c) is supplied by the prescribed coupling,
 
-matters; preferred-frame effects, which are physical consequences of such structure that single out
+and no dynamical account of the energy budget is given. Fourth, each pointer is a single degree of
 
-the background frame, such as the energy–momentum injection of part (e), and which amount to
+freedom coupled throughout an extended region. It is a regulated probe, not a local probe field in
 
-measurable Lorentz violation only once an operational prediction for them is given; and superluminal
+the sense of Fewster and Verch (2020), and the results depend on the free field and on the absence
 
-signaling, which is excluded for the operations of part (c). The candidate contains preferred-frame
+of pointer dynamics. Fifth, the readings localize smeared field amplitudes, not matter (L2, D7). In
 
-structure and satisfies operational no-signaling for the class of interventions covered by
+Bedingham’s (2011) model, a mediating relativistic field attaches a quantized degree of freedom to
 
-Proposition 13.28(c). Whether a complete physical implementation remains non-signaling under
+each spacetime point; the pointers here attach one degree of freedom to each Poisson centre. The
 
-arbitrary admissible interventions is open, and so is the quantitative question whether its
+pointer realization is recorded as a further candidate, alongside Candidate extension 13.27, and is
 
-preferred-frame effects are experimentally viable.
+not adopted.
 
 
 
-Predicted preferred-frame effects and measurable signatures. The energy–momentum statement of
+Comparison with a covariant alternative. Routes (iv) and (vi) of Remark 13.25 avoid a preferred
 
-Proposition 13.28(e) is a theoretical prediction of the free-field model about expectation values:
+frame, and the two kinds of construction differ point by point. In frame, the candidate refers every
 
-per unit four-volume, the collapses inject on average the four-momentum λΔP(h), which is at rest in
+collapse to the cosmic rest frame, a structure CTGP already posits, whereas rGRWf refers each flash
 
-the cosmic frame. In a laboratory moving with velocity β, in units of c, relative to that frame,
+to an earlier flash and Bedingham’s model works through an additional relativistic field. In scope,
 
-this four-vector has energy component γλΔP⁰ and momentum component −γλΔP⁰ β, so the injected
+the candidate is defined for a free field on a fixed background, on every domain of finite four-
 
-momentum is a fraction |β| of the injected energy and points against the laboratory’s motion. If the
+volume and, when cosmological-time slabs have finite volume, on infinite histories (Proposition
 
-cosmic frame is identified with the rest frame of the cosmic microwave background, relative to which
+13.28(f)), and in its gapless-pointer form, as a law of outcome records, on every FLRW spacetime of
 
-the Solar System moves at about 370 km/s (Planck Collaboration 2020), then |β| ≈ 1.2 × 10⁻³. This is
+the class (Proposition 13.31(f)), whereas rGRWf is defined for a fixed number of non-interacting
 
-a predicted preferred-frame effect. It is not a demonstrated measurable Lorentz-violation signature,
+particles from given initial data. In generability, the candidate can be generated forward along
 
-for four reasons. First, the prediction concerns a free scalar field, whereas an apparatus is made
+cosmological time in its free-field representation (Proposition 13.28(d)), and in its gapless-
 
-of matter, for which no collapse law has been given (L2, D7). Second, an operational prediction
+pointer form, for finite configurations and given its reading postulate, through a local coupling
 
-needs an account of how the apparatus couples to the field, so that the injected energy–momentum
+(Proposition 13.31(g)), whereas for rGRWf causal inheritance requires the earlier flash locations to
 
-appears in a recorded quantity: a heating rate of a sample, a stress–energy response, or a
+be physically instantiated in the present state, which is open (§13.12). In phenomenology, the
 
-directional effect, such as a mean momentum transfer aligned with the velocity of the cosmic frame,
+candidate predicts, as theoretical consequences of the free-field model, energy injected at rest in
 
-which an Earth-fixed apparatus would see modulated with the sidereal day. Third, the size of any
+the cosmic frame and, at the scales τ and ℓ, order effects for interfering interventions and cosmic-
 
-such effect depends on λ, σ, τ, ℓ, and c, which are not fixed. Fourth, any predicted signal must be
+frame-dependent correlations among collapse outcomes. The last two arise from the ordering rule and
 
-compared with the experimental bounds on collapse-induced heating (Bassi et al. 2013) and on
+are absent in the gapless-pointer form, whose outcome correlations depend on the cosmic frame only
 
-preferred-frame effects (Kostelecký & Russell 2011). Until these are supplied, the energy–momentum
+through the smearings. None of these effects has yet been turned into an operational prediction for
 
-injection is a stated prediction of the candidate, not an established observable consequence, and
+an apparatus; any that become observable must respect the experimental bounds on collapse effects
 
-the same holds for the other effects named in the third limit.
+(Bassi et al. 2013) and on preferred-frame effects (Kostelecký & Russell 2011), whereas a fully
 
+covariant model predicts no such frame dependence. In localization, both leave open how matter,
 
+rather than a field amplitude, is localized (L2, D7).
 
-Timing and physical realization. The first limit raises the question whether the collapses can be
 
-timed or realized differently. Three implementations can be compared. Centre-time ordering, rule
 
-(iii) of Candidate extension 13.27, applies each collapse when the generative present reaches the
+Adopting the candidate would change CTGP in one respect only: cosmological time would enter the
 
-centre of its region. Completion-time ordering applies it only when the whole region lies in the
+collapse law, and the generative foliation would become empirically accessible in principle. In the
 
-generated past. A physical realization replaces each postulated instrument by the reading of a probe
+gapless-pointer form it would enter only through the smearing law. That is a substantive commitment,
 
-coupled locally to the field and derives the instrument from the coupled dynamics. Propositions
+whose consequences become testable once its predicted preferred-frame effects are turned into
 
-13.29 and 13.31 state what holds for the second and the third.
+operational predictions. It is recorded here as a candidate, with its law, its variants, and its
 
+predicted signatures stated, and it is not adopted.
 
 
-Proposition 13.29 (Completion-time ordering). In Candidate extension 13.27, replace rule (iii) by
 
-the rule that the collapse at x is applied when the generative present reaches T(x) + τ, the largest
+13.12 Candidate Relativistic Realizations
 
-value of T on its support, collapses being applied in order of increasing T(x) + τ.
 
 
+Relativistic flash model. Tumulka’s relativistic GRW model (rGRWf) treats discrete spacetime flashes
 
-    (a) Same law. Because every smearing has the same half-width τ, the completion-time order of
+as objectively realized events, with a Lorentz-invariant law for their joint distribution, for a
 
-    every configuration is its centre-time order. The two rules therefore define the same joint law
+fixed number of non-interacting distinguishable particles (Tumulka 2006). Its law refers to
 
-    of centres and outcomes on every domain of finite four-volume, and the same measure on infinite
+hyperboloids centred on each particle’s previous flash, which is one way of supplying the local
 
-    histories in the setting of Proposition 13.28(f).
+frame that, by Proposition 13.24, a point-centred law needs. It is the natural first test case. A
 
+continuous generative present can contain a locally finite set of discrete flash events, so discrete
 
+flashes do not imply discrete ontological time. The open questions are whether the flash law can be
 
-    (b) Surviving properties. Parts (a), (b), (c), (e), and (f) of Proposition 13.28 hold for the
+represented as a generable process on CTGP’s cosmic-time hypersurfaces, with a physically
 
-    completion-time rule, with the same proofs.
+instantiated present state on each, and whether the construction extends to interacting fields,
 
+particle creation, renormalization, and curved backgrounds. A realistic interacting relativistic
 
+quantum field theory is a much harder target than a non-interacting model.
 
-    (c) Forward generation from the generated past. When the collapse at x is applied, its support
 
-    lies in the region T ≤ T(x) + τ, which has already been generated, and φ(h_x) is a function of
 
-    the Cauchy data of the field on the level set T = T(x) + τ within the compact set in which that
+Spontaneous events. The detector networks of §13.6 are a measurement model: their events are
 
-    level set meets the causal future of O_x.
+triggered by specified couplings. A spontaneous relativistic model would replace them by events
 
+prescribed by the law itself, with a conditional intensity λ(x | S_Σ) defined from the present
 
+state, together with the state update associated with each event. Such a law must be covariant
 
-    (d) Varying half-widths. If the half-width varied from centre to centre, the two rules would
+across admissible hypersurface descriptions, well defined on a regulated field state space, causally
 
-    order some configurations differently. Lemma 13.26(b), which concerns translates of a single
+admissible in the sense of (E3), normalized and free of pathological accumulation of events, and
 
-    region, would then apply to neither rule, and part (b) of Proposition 13.28 would need a
+generable from the physically instantiated present state. This is the relativistic objective-
 
-    separate proof for whichever rule was used.
+collapse realization that CTGP contemplates. Section 13.7 constructs a regulated version, Gaussian
 
+collapse of smeared fields on a fixed family of regions (Corollary 13.14), and §13.10 lets a
 
+covariant Poisson law choose the locations (Theorem 13.21) and identifies the obstructions to a
 
-Proof. (a) T(x) + τ < T(x′) + τ exactly when T(x) < T(x′), so the two rules apply the same
+fully covariant version (Propositions 13.22–13.24). A covariant version that localizes matter,
 
-instruments in the same order. (b) This follows from (a). (c) Every point of O_x has T ≤ T(x) + τ.
+rather than linear field observables, remains open.
 
-Let Σ be the level set T = T(x) + τ. Since T increases strictly along future-directed causal curves,
 
-a point of Σ in the causal past of O_x lies in O_x. The solution Eh_x vanishes outside the union of
 
-the causal past and the causal future of O_x, so on Σ it vanishes outside the intersection of Σ with
+Bohmian dynamics. A second route keeps a definite configuration rather than collapsing the quantum
 
-the causal future of O_x, which is compact because Σ is a Cauchy surface and O_x is compact. The
+state: the present state is S_Σ = (Ψ_Σ, Q_Σ), with Q_Σ a particle or field configuration on the
 
-formula for φ(h_x) in the proof of Proposition 13.28(d) then involves only the Cauchy data in that
+hypersurface, and the dynamics is a guidance law. Such a theory already contains one actual
 
-set. (d) With half-widths τ_x that depend on the centre, the order of the values T(x) + τ_x differs
+configuration and therefore one realized history. Relativistic Bohmian theories typically require a
 
-in general from the order of the values T(x). □
+distinguished foliation (Dürr, Goldstein, Münch-Berndl & Zanghì 1999), and the foliation may itself
 
+be determined covariantly, for instance by the wave function (Dürr, Goldstein, Norsen, Struyve &
 
+Zanghì 2014). CTGP’s cosmological-time foliation is a natural candidate. It must be shown that the
 
-Completion-time ordering thus changes when, in the generative succession, each collapse is applied,
+resulting predictions remain compatible with relativistic observations.
 
-and it changes no probability. It removes the feature that a collapse is applied before part of its
 
-region has been generated. It does not supply a mechanism: the collapse is still an instantaneous
 
-update of the state on one level set by a function of field data in a region whose size is set by ℓ
+Success in either route would mean that at least one mathematically consistent single-outcome
 
-and τ, and its outcome refers to a field configuration that by then lies in the generated past.
+relativistic quantum model can be equipped with CTGP’s ontology and its generability requirement
 
+without unacceptable observational effects. It would not mean that every relativistic quantum field
 
+theory or every interpretation is compatible with CTGP.
 
-Gapless pointers. Section 13.6 derives a two-outcome instrument from a gapless two-level detector.
 
-The Gaussian collapse is obtained in the same way from a pointer with a continuous reading, in the
 
-manner of von Neumann’s measurement model (see Wiseman & Milburn 2010). Write the causal propagator
+13.13 Eight Distinctions Any Extension Must Respect
 
-as E(f, h) = E_ret(f, h) − E_ret(h, f), where E_ret(f, h) = ±∫ f (G_ret h) dVol_g, G_ret is the
 
-retarded fundamental solution of the field equation, and the sign is fixed by the convention for E.
 
-Then E_ret(f, h) = 0 unless the support of f meets the causal future of the support of h. For a
+    (D1) Geometric covariance versus physical foliation independence. A foliation defined
 
-finite configuration of centres x_1, …, x_n with smearings h_k = h_{x_k} and regions O_k, set Γ_kl =
+    covariantly from the metric is not arbitrary, but a quantum dynamics built around it may still
 
-E_ret(h_k, h_l). Thus E(h_k, h_l) = Γ_kl − Γ_lk, and Γ_kl = 0 unless O_k meets the causal future of
+    produce physically detectable preferred-frame effects. Theorem 13.4 identifies, for finite event
 
-O_l; the diagonal entries Γ_kk are in general nonzero. Attach to centre k a pointer, one canonical
+    structures, one sufficient condition under which it does not: causal locality of the realized-
 
-degree of freedom with [q_k, p_k] = i and no Hamiltonian of its own, coupled to the field through
+    event dynamics, relative to an order that must itself be shown to be the operationally relevant
 
-the interaction density p_k h_k(x) φ(x), and let its reading be a value of q_k obtained after its
+    causal order.
 
-coupling has ended. Proposition 13.31 gives the Born-rule statistics of the readings; whether the
 
-readings are definite events is a separate question, taken up after its proof. Let η_k(q) =
 
-(2πσ_k²)^{−1/4} exp(−q²/(4σ_k²)). The pointer is pre-chirped if it is prepared in the state
+    (D2) Ensemble consistency versus realized-history consistency. A covariant master equation does
 
-exp(iΓ_kk p_k²/2) η_k, a Gaussian state whose position and momentum are correlated so as to cancel
+    not by itself supply a covariant stochastic ontology (Proposition 13.2).
 
-the pointer’s back-reaction on its own reading.
 
 
+    (D3) Clock neutrality versus absence of ontological ordering. A constrained quantum theory can
 
-The following lemma supplies the geometric input for infinite configurations of centres.
+    lack a preferred clock variable while still admitting an additional generative interpretation;
 
+    whether that interpretation is consistent must be proved (§14).
 
 
-Lemma 13.30 (Finitely many causal antecedents). Let (M, g) be an FLRW spacetime with a big-bang
 
-singularity, M = (0, T_max) × S with T_max ≤ ∞ and g = dT² − a(T)² γ, where a is smooth and positive
+    (D4) Conditional compatibility propositions versus completed existence theorems. The
 
-and (S, γ) is a complete Riemannian three-manifold of constant curvature, so that T is the
+    Tomonaga–Schwinger and continuum-limit results of CTGP – explained (Proposition 17.16 and
 
-cosmological time. Write π(p) ∈ S for the comoving position of a point p. Fix τ > 0, ℓ > 0, and t_0
+    Theorem 17.17) are conditional, and their operator-theoretic and stochastic assumptions require
 
-> τ, and let the region of centres be the set of points x with t_0 < T(x) < T_max − τ, the upper
+    further justification before they can count as existence theorems.
 
-bound being absent if T_max = ∞. For such x, let R_x be the set of points p with |T(p) − T(x)| ≤ τ
 
-and a(T(p)) d_γ(π(p), π(x)) ≤ ℓ, which lies in M and contains the support of the smearing h_x of
 
-Candidate extension 13.27(ii).
+    (D5) Selective versus unread updates. Operational no-signaling concerns the unconditioned
 
+    statistics of target outcomes, with the outcomes of all other operations summed over.
 
+    Conditioning on an intermediate outcome is a different question, and Theorem 13.17 does not
 
-    (a) For every compact set K ⊂ M, the centres x whose sets R_x meet the causal past J⁻(K) lie in
+    address it.
 
-    a compact subset of M, which has finite four-volume.
 
 
+    (D6) Covariance of a law versus invariance of a realization. A Poisson law for collapse centres
 
-    (b) Let the centres form a Poisson process with intensity λ dVol_g on the region of centres.
+    can be covariant under every isometry, although no realized configuration is invariant, and a
 
-    Almost surely every compact set contains only finitely many centres, and then, for every finite
+    covariant law for locations does not by itself supply covariant extended events (Theorem
 
-    set S of centres, the set S⁻ of centres whose regions meet the causal past of the union of the
+    13.21(d), Proposition 13.24). Likewise, events triggered by the law rather than by an
 
-    regions O_k, k ∈ S, is finite.
+    experimenter are spontaneous whether or not their locations have a covariant law.
+
+
+
+    (D7) Localization of a field amplitude versus localization of matter. A collapse that localizes
+
+    a smeared linear field observable does not thereby localize matter, and macroscopic localization
+
+    is an independent obligation of physical adequacy (L2).
+
+
+
+    (D8) Lorentz invariance, covariance with background structure, preferred-frame effects, and
+
+    superluminal signaling. A law can be covariant under all isometries while depending on
+
+    background structure such as cosmological time; such structure can produce preferred-frame
+
+    effects, which are measurable only if an operational prediction shows how they reach a record;
+
+    and a theory with preferred-frame effects need not permit superluminal signaling (§13.11). Each
+
+    of the four must be established or excluded separately.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+14. Temporal Quantum Reference Frames
+
+----------------------------------------------------------------------------------------------------
+
+
+
+14.1 Clock-Neutral Descriptions
+
+
+
+A temporal quantum reference frame is not merely a coordinate clock. It is a quantum subsystem whose
+
+correlations with the rest define the evolution of another subsystem. In a constrained system,
+
+physical states satisfy Ĉ Ψ_phys = 0, and such a state is clock-neutral: it is not yet a description
+
+relative to any particular clock. Choosing clock A yields a conditional description ψ^{(A)}(τ_A) of
+
+the remaining degrees of freedom; choosing clock B yields ψ^{(B)}(τ_B). Höhn, Smith and Lock (2021)
+
+show, for a class of constrained systems whose constraint is a sum of clock and system Hamiltonians,
+
+that three formulations of relational dynamics are equivalent (clock-neutral relational observables,
+
+Page–Wootters conditional states, and quantum deparametrization), and they develop transformations
+
+between temporal frames.
+
+
+
+The spatial construction of Part II transfers only in part. Temporal reduction maps R_A and R_B can
+
+be defined, and where their inverses exist on the relevant sectors one can form V_{A→B} = R_B
+
+R_A^{−1}. For realistic clocks, however, these maps involve conditional states, clock POVMs, and
+
+sector restrictions, and they are not in general global unitaries of the kind used in Proposition
+
+3.3. For ideal clocks they are unitary (Proposition 14.5).
+
+
+
+14.2 Generation, Clock Readings, and Clock-Conditional Descriptions
+
+
+
+Definition 14.1 (Three temporal notions). In a CTGP model with clock subsystems:
+
+
+
+    (i) The generative succession is the order of stages, or of event slots, in which the history is
+
+    generated.
+
+
+
+    (ii) A clock reading is the value of a clock observable of a physical subsystem at a stage. It
+
+    is a Tier 3 proposition (§5.1) unless a recording event makes it a Tier 1 fact.
+
+
+
+    (iii) A clock-conditional description is a description of the rest of the world conditioned on
+
+    the readings of a chosen clock.
+
+
+
+CTGP identifies the ontological order of existence with (i) alone. A clock reading is physically
+
+instantiated information about a process, in the sense of the signal-based epistemology discussed in
+
+More Info, not automatically the fundamental ordering of existence.
+
+
+
+14.3 A Worked Model With Imperfect Clocks
+
+

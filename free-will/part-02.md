@@ -1,18 +1,6 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 02 of 3 (1,668 words)
-
-5. Source Incompatibilism and "Ultimate" Authorship
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A stronger objection comes from source incompatibilism, which argues that individuals cannot possess
-
-genuine authorship because they did not create the underlying architecture that generates their
-
-decisions (Strawson, 1994; Pereboom, 2001). Genes, developmental history, environmental conditions,
+Part 02 of 3 (1,796 words)
 
 and prior brain states all contribute to the organism's structure.
 
@@ -765,5 +753,111 @@ Regarding consciousness specifically, I think your question becomes even more in
 humanity currently does not possess a complete theory of consciousness, yet accountability is widely
 
 regarded as justifiedly applying to humans.
+
+
+
+That suggests an important principle:
+
+
+
+Complete understanding of consciousness is not necessary for accountability to be justifiedly
+
+applied.
+
+
+
+The question then becomes:
+
+
+
+Which aspects of consciousness matter for accountability, and which aspects may remain unknown?
+
+
+
+One way to think about it is to distinguish between explanatory aspects and functional aspects.
+
+
+
+Explanatory aspects
+
+
+
+These concern what consciousness ultimately is:
+
+
+
+Is consciousness physical, nonphysical, or both?
+
+
+
+How does subjective experience (“what it is like”) arise?
+
+
+
+Why does consciousness exist at all?
+
+
+
+Is consciousness fundamental or emergent?
+
+
+
+These are profound questions, but notice something:
+
+
+
+Human accountability practices do not appear to depend on having definitive answers to them.
+
+
+
+Courts, parents, schools, and societies generally do not ask:
+
+
+
+“Has the hard problem of consciousness been solved?”
+
+
+
+before assigning responsibility.
+
+
+
+Functional aspects
+
+
+
+Instead, accountability tends to depend on observable or inferable capacities such as:
+
+
+
+awareness of one’s actions,
+
+
+
+understanding of rules or norms,
+
+
+
+ability to foresee consequences,
+
+
+
+intentionality,
+
+
+
+capacity to respond to reasons,
+
+
+
+self-control to some degree.
+
+
+
+For example:
+
+
+
+A sleeping person may have reduced accountability.
 
 

@@ -1,361 +1,547 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 33 of 40 (1,575 words)
+Part 33 of 35 (1,795 words)
 
-Appendix A. Frame-Relative Forms in the Ring Model
+A = av[0] * q[0] + av[1] * q[1] + bv[0] * p[0] + bv[1] * p[1]
 
-----------------------------------------------------------------------------------------------------
+rng = np.random.default_rng(32)
 
+psi = np.zeros(nc * nc, complex)
 
+for n1 in range(3):
 
-Frame coordinates: frame A uses (x, y) = (b−a, c−a); frame B uses (u, v) = (a−b, c−b); frame C uses
+    for n2 in range(3):
 
-(p, q) = (a−c, b−c).
+        psi[n1 * nc + n2] = rng.normal() + 1j * rng.normal()
 
+psi /= np.linalg.norm(psi)
 
+vac = np.zeros(nc * nc)
 
-Invariant operator      | Frame A form        | Frame B form        | Frame C form
+vac[0] = 1
 
-------------------------+---------------------+---------------------+--------------------
+pred = (av @ av + bv @ Kc @ bv) / (8 * sig**2)
 
-P_{AB}(r): b − a = r    | x = r               | u = −r              | q − p = r
+res = [np.trace(dephase(np.outer(v, v.conj()), A, sig) @ H2).real - (v.conj() @ H2 @ v).real
 
-P_{AC}(r): c − a = r    | y = r               | v − u = r           | p = −r
+       for v in (vac, psi)]
 
-P_{BC}(r): c − b = r    | y − x = r           | v = r               | q = −r
+print('   (b) two modes: vacuum %.12f, random %.12f; predicted %.12f' % (*res, pred))
 
-S_A (shift A by +1)     | (x, y) → (x−1, y−1) | u → u+1             | p → p+1
+# (c) lattice field in 1+1 dimensions: canonical double commutator vs Fourier formula
 
-S_B (shift B by +1)     | x → x+1             | (u, v) → (u−1, v−1) | q → q+1
+Nl, mf, sig = 48, 0.6, 0.9
 
-S_C (shift C by +1)     | y → y+1             | v → v+1             | (p, q) → (p−1, q−1)
+Lap = 2 * np.eye(Nl) - np.roll(np.eye(Nl), 1, 0) - np.roll(np.eye(Nl), -1, 0)
 
+Kl = mf**2 * np.eye(Nl) + Lap
 
+ev, Ev = eigh(Kl)
 
-Table A.1. Frame-relative forms of the invariant operators used in the model. Each row is a single
+Om = np.sqrt(ev)
 
-invariant operator; the three entries are its conjugates under the frame changes of §6.2.
+tn, tw = np.polynomial.legendre.leggauss(200)
 
+T0 = 2.5
 
+ts, tw = T0 * tn, T0 * tw
 
-Frame changes: V_{A→B}|x, y⟩ = |−x, y−x⟩; V_{B→C}|u, v⟩ = |u−v, −v⟩; V_{A→C}|x, y⟩ = |−y, x−y⟩; and
+xs = np.arange(Nl)
 
-V_{B→A} = V_{A→B}^{−1} maps |u, v⟩ to |−u, v−u⟩.
+hx = bump((xs - 24) / 3.0)
 
+avec, bvec = np.zeros(Nl), np.zeros(Nl)
 
+for t, wt in zip(ts, tw):
 
-----------------------------------------------------------------------------------------------------
+    ht = bump(t / T0) * hx
 
-Appendix B. Verification Script and Output
+    avec += wt * Ev @ (np.cos(Om * t) * (Ev.T @ ht))
 
-----------------------------------------------------------------------------------------------------
+    bvec += wt * Ev @ (np.sin(Om * t) / Om * (Ev.T @ ht))
 
+dE_can = (avec @ avec + bvec @ Kl @ bvec) / (8 * sig**2)
 
+ks = 2 * np.pi * np.arange(Nl) / Nl
 
-The following Python script builds the model of Part III in the kinematical space, constructs the
+wk = np.sqrt(mf**2 + (2 * np.sin(ks / 2))**2)
 
-reduction maps for all three frames, and performs the checks of Table 1. Each frame reduction is
+ht_hat = np.array([np.sum(tw * bump(ts / T0) * np.exp(1j * wk[j] * ts)) for j in range(Nl)])
 
-represented by its inverse embedding J_F = R_F^{−1}, so that R_F = J_F† on H_phys. Items 1–8 concern
+hx_hat = np.array([np.sum(hx * np.exp(-1j * ks[j] * xs)) for j in range(Nl)])
 
-the discrete-stage model, item 9 the continuous-time model of §9, item 10 generic-parameter non-
+dE_mode = np.sum(np.abs(ht_hat * hx_hat)**2) / (8 * sig**2 * Nl)
 
-injectivity (§8.3), item 11 strong non-supervenience (Proposition 4.12), item 12 the two
+print('   (c) lattice: canonical %.12f, Fourier formula %.12f, relative diff. %.1e'
 
-constructions of Proposition 11.4 for the history-dependent law of Example 11.3, item 13 the forward
+      % (dE_can, dE_mode, abs(dE_can - dE_mode) / dE_can))
 
-representation of future conditioning (Proposition 11.1), item 14 realized-history consistency for
+# (d) Delta P^mu transforms as a four-vector (continuum, 1+1 dimensions, mass 1)
 
-causally local instruments (Theorem 13.4) and consistency of the laws on nested order ideals
+mf, sig = 1.0, 0.9
 
-(Proposition 13.7), item 15 the equal-ensemble, different-history example (Proposition 13.2), item
 
-16 the imperfect clocks of Proposition 14.2, with the clock probabilities computed exactly from the
 
-32-site propagator and compared with the infinite-lattice Bessel expressions, item 17 the three-
 
-region test of Theorem 13.9 and Example 13.10, and item 18 the same test with a Gaussian field
 
-collapse at C (Proposition 13.12, Corollary 13.14).
+def hfun(t, x):
 
+    return bump(t / 1.2) * bump((x - 0.3 - 0.4 * t) / 1.5) * (1 + 0.4 * x)
 
 
-Reproducibility. The script requires Python 3 with NumPy and SciPy; the output below was produced
 
-with Python 3.13.16, NumPy 2.5.3, and SciPy 1.18.1. Random numbers come from NumPy’s default
 
-generator, with seed 7 for the initial state and for the present state used in item 11, seeds
 
-1000–1199 for the 200 trajectories of item 9, and seed 2026 for the random instruments, initial
+def dP(hf, tmax, xmax, n):
 
-state, and density operator of items 14 and 15. Parameters: N = 5, λ = 0.6, s = 0.8 (s = 0 and J = 0
+    """(1/(4 sig^2)) int dk/(2 pi 2 omega) k^mu |h^(omega_k, k)|^2 by quadrature"""
 
-in items 6 and 12b), pair weights (1/2, 1/4, 1/4) for the second instrument of item 12, J = 0.7, g =
+    tt, xx = np.linspace(-tmax, tmax, n), np.linspace(-xmax, xmax, n)
 
-0.9, τ = 0.5, Λ = 1.2, T = 5, with ħ = 1. Item 14 uses six qubits and eight random two-outcome
+    TT, XX = np.meshgrid(tt, xx, indexing='ij')
 
-instruments arranged as a three-layer brickwork of nearest-neighbour slots; item 16 uses a ring of
+    kg = np.linspace(-80, 80, 8001)
 
-32 clock sites with θ = 0.9; item 17 uses two oscillator modes in the vacuum, φ(f_A) = q_1, φ(f_C) =
+    omk = np.sqrt(mf**2 + kg**2)
 
-p_1 + q_2, φ(f_B) = p_2, with λ_A = 0.9, λ_C = 0.8, λ_B = 0.7, kick α = 1.5, and Fock cutoffs of 40
+    Et, Ex = np.exp(1j * np.outer(omk, tt)), np.exp(-1j * np.outer(kg, xx))
 
-and 50 quanta per mode; item 18 uses the same realization with σ = 0.6, hit probabilities 1 and 0.4,
+    hh = np.sum((Et @ hf(TT, XX)) * Ex, axis=1) * (tt[1] - tt[0]) * (xx[1] - xx[0])
 
-cutoff 40, and the outcome integral evaluated on a grid of step 0.02 over [−10, 10]. Particles are
+    wgt = np.abs(hh)**2 / (4 * np.pi * omk) * (kg[1] - kg[0]) / (4 * sig**2)
 
-indexed 0, 1, 2 for A, B, C, and an event (i, j, d) in the output is a flash on the pair (i, j)
+    return np.array([np.sum(wgt * omk), np.sum(wgt * kg)])
 
-centred at separation d. Analytical results are proved in the text; the script checks them
 
-numerically to double-precision tolerance.
 
 
 
-# Numerical checks for the Z_N three-particle QRF model with
+eta = 0.5
 
-# flash-type stochastic collapse (companion to "Quantum Reference Frames
+L = np.array([[np.cosh(eta), np.sinh(eta)], [np.sinh(eta), np.cosh(eta)]])
 
-# and the Lucretian Truth Profile in CTGP").
+Li = np.linalg.inv(L)
 
-import itertools
+P0 = dP(hfun, 1.25, 2.4, 500)
 
-import numpy as np
+P1 = dP(lambda t, x: hfun(Li[0, 0] * t + Li[0, 1] * x, Li[1, 0] * t + Li[1, 1] * x),
 
-from scipy.linalg import expm
+        3.2, 3.6, 900)
 
+print('   (d) Delta P(h) = (%.8f, %.8f), squared invariant mass %.8f'
 
+      % (P0[0], P0[1], P0[0]**2 - P0[1]**2))
 
-N = 5                      # sites on the ring Z_N
+print('       boost of rapidity 0.5: |Delta P(Lambda h) - Lambda Delta P(h)| = %.1e'
 
-lam = 0.6                  # hit probability per stage
+      % np.abs(P1 - L @ P0).max())
 
-s = 0.8                    # flash width (in lattice units)
 
-Jhop, g, tau = 0.7, 0.9, 0.5
 
-rng = np.random.default_rng(7)
+print('C3. Poisson-located Gaussian collapses, massless field in 1+1 dimensions')
 
+# Collapse regions are causal diamonds of half-size dl in light-cone coordinates
 
+# u = t - x, v = t + x, with product smearings beta(u) beta(v).
 
-def idx(a, b, c): return ((a % N) * N + (b % N)) * N + (c % N)
+zn, zw = np.polynomial.legendre.leggauss(200)
 
-def ridx(x, y): return (x % N) * N + (y % N)
+Ib = np.sum(zw * bump(zn))
 
-D, d2 = N**3, N**2
+beta = lambda z: bump(z) / Ib                       # normalized bump on [-1, 1]
 
+gn, gw = np.polynomial.legendre.leggauss(64)
 
 
-# global translation U_g and projector onto the invariant (physical) sector
 
-def U(gg):
 
-    M = np.zeros((D, D))
 
-    for a, b, c in itertools.product(range(N), repeat=3):
+def Bcdf(z):
 
-        M[idx(a+gg, b+gg, c+gg), idx(a, b, c)] = 1
+    z = np.clip(z, -1, 1)
 
-    return M
+    s = -1 + np.outer(z + 1, gn + 1) / 2
 
-Pi = sum(U(gg) for gg in range(N)) / N
+    return (z + 1) / 2 * (beta(s) @ gw)
 
 
 
-# embeddings J_F : reduced space of frame F -> physical sector (J_F = R_F^{-1})
 
-def J(frame):
 
-    M = np.zeros((D, d2))
+def Sfun(dd):
 
-    for f in range(N):
+    """int int beta(z) beta(z') sgn(z - z' + dd); exactly +-1 for disjoint supports"""
 
-        for x, y in itertools.product(range(N), repeat=2):
+    if dd >= 2:
 
-            if frame == 'A': k = idx(f, f+x, f+y)      # (x_B, x_C) rel. to A
+        return 1.0
 
-            if frame == 'B': k = idx(f+x, f, f+y)      # (x_A, x_C) rel. to B
+    if dd <= -2:
 
-            if frame == 'C': k = idx(f+x, f+y, f)      # (x_A, x_B) rel. to C
+        return -1.0
 
-            M[k, ridx(x, y)] += 1/np.sqrt(N)
+    if dd < 0:
 
-    return M
+        return -Sfun(-dd)
 
-JA, JB, JC = J('A'), J('B'), J('C')
+    return np.sum(zw * beta(zn) * (2 * Bcdf(zn + dd) - 1))
 
-for M in (JA, JB, JC):
 
-    assert np.allclose(M.T @ M, np.eye(d2)) and np.allclose(M @ M.T, Pi)
 
-V_AB, V_BC, V_AC = JB.T @ JA, JC.T @ JB, JC.T @ JA
 
-perm = np.zeros((d2, d2))
 
-for x, y in itertools.product(range(N), repeat=2):
+def relation(pts, dl):
 
-    perm[ridx(-x, y-x), ridx(x, y)] = 1
+    """R[i, j]: region j meets the causal future of region i"""
 
-print("1. reductions unitary; V_AB = explicit permutation:", np.allclose(V_AB, perm))
+    u, v = pts[:, 0] - pts[:, 1], pts[:, 0] + pts[:, 1]
 
-print("   groupoid law V_BC V_AB = V_AC:", np.allclose(V_BC @ V_AB, V_AC))
+    R = (u[None, :] - u[:, None] > -2 * dl) & (v[None, :] - v[:, None] > -2 * dl)
 
+    np.fill_diagonal(R, False)
 
+    return R
 
-# invariant generators: hopping + relational potential, and relational flashes
 
-def shift(i):
 
-    M = np.zeros((D, D))
 
-    for a, b, c in itertools.product(range(N), repeat=3):
 
-        t = [a, b, c]; t2 = list(t); t2[i] += 1
+def geometry(pts, dl, scale):
 
-        M[idx(*t2), idx(*t)] = 1
+    """relation and E_ij = E(h_i, h_j), with E(t, x) = -(sgn u + sgn v)/4"""
 
-    return M
+    n = len(pts)
 
-def P(i, j, r):            # projector onto x_j - x_i = r (mod N)
+    u, v = pts[:, 0] - pts[:, 1], pts[:, 0] + pts[:, 1]
 
-    M = np.zeros((D, D))
+    E = np.zeros((n, n))
 
-    for t in itertools.product(range(N), repeat=3):
+    for i in range(n):
 
-        if (t[j]-t[i]) % N == r % N: M[idx(*t), idx(*t)] = 1
+        for j in range(i + 1, n):
 
-    return M
+            val = -scale**2 / 16 * (Sfun((u[i] - u[j]) / dl) + Sfun((v[i] - v[j]) / dl))
 
-pairs = [(0, 1), (0, 2), (1, 2)]                       # (A,B), (A,C), (B,C)
+            E[i, j], E[j, i] = val, -val
 
-H = sum(-Jhop*(shift(i)+shift(i).T) for i in range(3)) \
+    return relation(pts, dl), E
 
-    + sum(g*np.cos(2*np.pi*r/N)*P(i, j, r) for (i, j) in pairs for r in range(N))
 
-W = expm(-1j*tau*H)
 
-def wfun(r, width):
 
-    dist = np.minimum(r % N, (-r) % N)
 
-    return np.exp(-dist**2/(2*width**2)) if width > 0 else (dist == 0)*1.0
+def topo(R, rng=None):
 
-def kraus(width, lam_=lam):
+    """a linear extension of R (random if rng is given); None if R has a cycle"""
 
-    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()
+    n = len(R)
 
-    F = {'none': np.sqrt(1-lam_)*np.eye(D)}
+    indeg = R.sum(0).astype(int)
 
-    for (i, j) in pairs:
+    order, avail = [], [i for i in range(n) if indeg[i] == 0]
 
-        for dd in range(N):
+    while avail:
 
-            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
+        k = avail.pop(rng.integers(len(avail)) if rng is not None else 0)
 
-                                                for r in range(N))
+        order.append(k)
 
-    return F
+        for j in np.nonzero(R[k])[0]:
 
-F = kraus(s)
+            indeg[j] -= 1
 
-comp = sum(K.conj().T @ K for K in F.values())
+            if indeg[j] == 0:
 
-inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])
+                avail.append(j)
 
-print("2. instrument complete:", np.allclose(comp, np.eye(D)), "| all generators G-invariant:", inv)
+    return order if len(order) == n else None
 
 
 
-red = lambda O, JF: JF.T @ O @ JF
 
-WA, WB = red(W, JA), red(W, JB)
 
-FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}
+def cov_closed(order, E, Sig, sg):
 
-ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \
+    """outcome covariance along an order: Sigma + diag(sigma^2) + kicks of earlier collapses"""
 
-     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)
+    C = Sig + np.diag(sg**2)
 
-print("3. intertwining V K^A V^dag = K^B for W and every Kraus operator:", ok)
+    for pos, m in enumerate(order):
 
+        e = np.zeros(len(order))
 
+        for m2 in order[pos + 1:]:
 
-# exhaustive record distribution over n stages, frame A vs frame B vs neutral
+            e[m2] = E[m2, m]
 
-def record_dist(psi0, Wm, Fm, n):
+        C = C + np.outer(e, e) / (4 * sg[m]**2)
 
-    out = {}
+    return C
 
-    def rec(psi, hist, p):
 
-        if len(hist) == n: out[hist] = (p, psi); return
 
-        phi = Wm @ psi
 
-        for k, K in Fm.items():
 
-            v = K @ phi; q = np.vdot(v, v).real
+def absE(E):
 
-            if q > 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)
+    w_, V_ = eigh(1j * E)
 
-    rec(psi0, (), 1.0); return out
+    return (V_ @ np.diag(np.abs(w_)) @ V_.conj().T).real
 
-phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)
 
-n = 3
 
-dA = record_dist(phiA0, WA, FA, n)
 
-dB = record_dist(V_AB @ phiA0, WB, FB, n)
 
-dN = record_dist(JA @ phiA0, W, F, n)
+rng = np.random.default_rng(2027)
 
-maxdp = max(abs(dA[h][0]-dB[h][0]) for h in dA)
+dl, scale = 0.5, 4.0
 
-maxdpN = max(abs(dA[h][0]-dN[h][0]) for h in dA)
+cnt = rng.poisson(6.0 * 16.0, size=20000)
 
-maxdev = max(1-abs(np.vdot(V_AB @ dA[h][1], dB[h][1])) for h in dA)
+print('   (a) counts, area 16, intensity 6: mean %.2f, variance %.2f (expected 96 and 96)'
 
-print(f"4. {len(dA)} histories of {n} stages; max |p_A-p_B| = {maxdp:.2e}, "
+      % (cnt.mean(), cnt.var()))
 
-      f"max |p_A-p_neutral| = {maxdpN:.2e}")
+lam_b = 1.5
 
-print(f"   max(1-|<V phi_A|phi_B>|) = {maxdev:.2e}, "
+print('   (b) intensity 1.5, 40000 samples per box:  side  P(orderable)  bound of Prop. 13.22')
 
-      f"total prob = {sum(v[0] for v in dA.values()):.12f}")
+for side in (1.0, 1.5, 2.0, 2.5):
 
+    ok = 0
 
+    for _ in range(40000):
 
-# naive 'same-form' rule in frame B (B copies A's matrices in its own coordinates)
+        pts = rng.uniform(0, side, size=(rng.poisson(lam_b * side * side), 2))
 
-dBnaive = record_dist(V_AB @ phiA0, WA, FA, n)
+        ok += topo(relation(pts, dl)) is not None
 
-tv = 0.5*sum(abs(dB.get(h, (0,))[0]-dBnaive.get(h, (0,))[0]) for h in set(dB) | set(dBnaive))
+    lv, Ncell = lam_b * dl**2, int(round(side / dl))**2
 
-print(f"5. naive same-form frame-B rule: total-variation distance "
+    print('                                              %.1f   %.5f       %.5f'
 
-      f"from correct record measure = {tv:.3f}")
+          % (side, ok / 40000, (np.exp(-lv) * (1 + lv))**Ncell))
 
+lam_c, side = 0.4, 4.0
 
+nconf, worst, nev, next_, t_ext = 0, 0.0, 0, 0, 0
 
-# non-injectivity: same present state, different histories (sharp flashes, no hopping)
+while nconf < 300:
 
-Hd = sum(g*np.cos(2*np.pi*r/N)*P(i, j, r) for (i, j) in pairs for r in range(N))
+    pts = rng.uniform(0, side, size=(rng.poisson(lam_c * side * side), 2))
 
-Wd = red(expm(-1j*tau*Hd), JA)
+    if len(pts) < 2 or topo(relation(pts, dl)) is None:
 
-Fs = {k: red(K, JA) for k, K in kraus(0).items()}
+        continue
 
-def run(psi, hist):
+    n = len(pts)
 
-    for k in hist:
+    R, E = geometry(pts, dl, scale)
 
-        psi = Fs[k] @ (Wd @ psi); psi /= np.linalg.norm(psi)
+    sg = rng.uniform(0.5, 1.2, size=n)
 
-    return psi
+    Sig = 0.5 * absE(E) + 0.3 * np.eye(n)
 
-h1, h2 = [(0, 1, 1), (0, 2, 3)], [(0, 2, 3), (0, 1, 1)]
+    orders = {tuple(topo(R, rng)) for _ in range(40)}
 
-s1, s2 = run(phiA0, h1), run(phiA0, h2)
+    Cs = [cov_closed(list(o), E, Sig, sg) for o in orders]
 
-print("6. records", h1, "vs", h2, "-> same present ray:", np.isclose(abs(np.vdot(s1, s2)), 1.0))
+    worst = max(worst, max(np.abs(C - Cs[0]).max() for C in Cs))
+
+    nconf, nev, next_ = nconf + 1, nev + n, next_ + len(orders)
+
+    t_ext += all(pts[i, 0] < pts[k, 0] for i, k in zip(*np.nonzero(R)))
+
+print('   (c) %d orderable configurations, %d collapses, %d linear extensions:'
+
+      % (nconf, nev, next_))
+
+print('       max covariance difference between linear extensions %.1e' % worst)
+
+
+
+
+
+def realize(E):
+
+    """one-mode realization phi_i = cu_i q + cw_i p of a rank-2 antisymmetric E"""
+
+    T, Z = schur(E, output='real')
+
+    k = next(k for k in range(len(E) - 1) if abs(T[k, k + 1]) > 1e-12)
+
+    b, uu, ww = T[k, k + 1], Z[:, k], Z[:, k + 1]
+
+    if b < 0:
+
+        b, uu, ww = -b, ww, uu
+
+    cu, cw = np.sqrt(b) * uu, np.sqrt(b) * ww
+
+    assert np.abs(np.outer(cu, cw) - np.outer(cw, cu) - E).max() < 1e-12
+
+    return cu, cw
+
+
+
+
+
+ncut = 140
+
+a = ladder(ncut)
+
+qo, po = (a + a.T) / np.sqrt(2), 1j * (a.T - a) / np.sqrt(2)
+
+edges = [-np.inf, -0.7, 0.0, 0.7, np.inf]
+
+
+
+
+
+def run_order(order, eigs, mult):
+
+    """apply the maps rho -> V (M o V* rho V) V* in the given order to the vacuum; trace"""
+
+    rho = np.zeros((ncut, ncut), complex)
+
+    rho[0, 0] = 1
+
+    for m in order:
+
+        w_, V_ = eigs[m]
+
+        rho = V_ @ ((V_.conj().T @ rho @ V_) * mult(m, w_)) @ V_.conj().T
+
+    return np.trace(rho)
+
+
+
+
+
+def bin_mult(bins, sg):
+
+    def mb(m, w_):
+
+        dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
+
+        lo, hi = edges[bins[m]], edges[bins[m] + 1]
+
+        mass_in_bin = Phi((hi - mm) / sg[m]) - Phi((lo - mm) / sg[m])
+
+        return np.exp(-dd**2 / (8 * sg[m]**2)) * mass_in_bin
+
+    return mb
+
+
+
+
+
+def bin_probability(rho, eig, b, sgy):
+
+    """probability that a Gaussian collapse of width sgy lands in bin b (eig: its observable)"""
+
+    w_, V_ = eig
+
+    dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
+
+    in_bin = Phi((edges[b + 1] - mm) / sgy) - Phi((edges[b] - mm) / sgy)
+
+    M = np.exp(-dd**2 / (8 * sgy**2)) * in_bin
+
+    return np.trace((V_.conj().T @ rho @ V_) * M).real
+
+
+
+
+
+def binned_law(order, eigs, sg, k):
+
+    law = np.zeros((4,) * k)
+
+    for bins in np.ndindex(*law.shape):
+
+        law[bins] = run_order(order, eigs, bin_mult(bins, sg)).real
+
+    return law
+
+
+
+
+
+found, cf_dev, ord_dev, norm_dev = 0, 0.0, 0.0, 0.0
+
+while found < 4:
+
+    pts = rng.uniform(0, 1.6, size=(3, 2))
+
+    if topo(relation(pts, dl)) is None:
+
+        continue
+
+    R, E = geometry(pts, dl, scale)
+
+    orders = list({tuple(topo(R, rng)) for _ in range(30)})
+
+    if np.sum(np.abs(E) > 1e-3) < 4 or len(orders) < 2:
+
+        continue
+
+    found += 1
+
+    cu, cw = realize(E)
+
+    eigs = [eigh(cu[i] * qo + cw[i] * po) for i in range(3)]
+
+    Sig = 0.5 * np.outer(cu, cu) + 0.5 * np.outer(cw, cw)
+
+    sg = np.array([0.8, 0.9, 1.0])
+
+    for s in rng.normal(size=(4, 3)):
+
+        def ms(m, w_, s=s):
+
+            dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
+
+            return np.exp(-dd**2 / (8 * sg[m]**2) + 1j * s[m] * mm - s[m]**2 * sg[m]**2 / 2)
+
+        for o in orders:
+
+            closed = np.exp(-0.5 * s @ cov_closed(list(o), E, Sig, sg) @ s)
+
+            cf_dev = max(cf_dev, abs(run_order(o, eigs, ms) - closed))
+
+    laws = [binned_law(o, eigs, sg, 3) for o in orders]
+
+    norm_dev = max(norm_dev, max(abs(l.sum() - 1) for l in laws))
+
+    ord_dev = max(ord_dev, max(np.abs(l - laws[0]).max() for l in laws))
+
+print('   (d) 4 three-collapse configurations, one-mode realization, Fock cutoff %d:' % ncut)
+
+print('       characteristic function, direct vs closed form: max dev %.1e' % cf_dev)
+
+print('       64-cell binned history laws: max difference between linear extensions %.1e,'
+
+      % ord_dev)
+
+print('       normalization error %.1e' % norm_dev)
+
+pts = np.array([[0.3, 0.1], [0.55, 0.25]])               # two overlapping diamonds
+
+R, E = geometry(pts, dl, scale)
+
+cu, cw = realize(E)
+
+eigs = [eigh(cu[i] * qo + cw[i] * po) for i in range(2)]
+
+sg = np.array([0.8, 0.9])
+
+rho = np.zeros((ncut, ncut), complex)
+
+rho[0, 0] = 1
+
+A2 = cu[1] * qo + cw[1] * po
+
+rho1 = dephase(rho, cu[0] * qo + cw[0] * po, sg[0])
+
+var_after = (np.trace(rho1 @ A2 @ A2) - np.trace(rho1 @ A2)**2).real

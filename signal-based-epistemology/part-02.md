@@ -1,96 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 02 of 11 (1,696 words)
-
-2.2.2 Logical Regress vs Operational Stability
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The stabilization of confirmation through iterative, self-correcting processes addresses the
-
-practical functioning of knowledge systems. However, it is important to distinguish this from the
-
-underlying logical structure of the regress problem.
-
-
-
-At the logical level:
-
-
-
-Each act of interpretation appears to require further validation
-
-
-
-This generates an infinite regress that cannot be fully resolved within a purely justificatory
-
-framework
-
-
-
-This regress is not eliminated by the present model. Instead, the framework distinguishes between:
-
-
-
-Logical regress (a structural feature of justification)
-
-
-
-Operational stability (a property of functioning epistemic systems)
-
-
-
-Epistemic systems do not require termination of the regress in order to function. Rather, they
-
-operate through:
-
-
-
-Continuous updating
-
-
-
-Error correction
-
-
-
-Constraint-based evaluation
-
-
-
-Predictive success over time
-
-
-
-Thus:
-
-
-
-The regress remains at the level of formal justification
-
-
-
-But is rendered non-disruptive at the level of practice
-
-
-
-This distinction allows the framework to remain internally consistent while acknowledging that:
-
-
-
-No system of knowledge achieves absolute foundational closure
-
-
-
-Yet systems can still produce reliable, progressively refined knowledge
-
-
-
-Accordingly:
-
-
+Part 02 of 10 (1,793 words)
 
 The framework does not resolve the regress—it situates it within a dynamic, self-correcting
 
@@ -711,5 +621,129 @@ the entity does not exist, only that it is epistemically inaccessible.
 
 
 All forms of observation follow this structure:
+
+
+
+1.  A system or event produces or alters a signal
+
+
+
+2.  A detector (biological or technological) receives that signal
+
+
+
+3.  The signal is processed into usable information
+
+
+
+4.  An interpretation is formed
+
+
+
+This applies universally:
+
+
+
+• Vision → detection of reflected light
+
+
+
+• Hearing → detection of pressure waves
+
+
+
+• Smell → detection of chemical particles
+
+
+
+• Scientific instruments → detection of specialized physical signals
+
+
+
+Even highly abstract measurements—such as those in particle physics—ultimately rely on detecting
+
+secondary effects (e.g., particle tracks, energy deposits) rather than the entities themselves.
+
+
+
+3.3 Environmental Imprints and Residual Traces
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Not all signals are produced in real time. Many are residual traces—signals that persist after the
+
+originating event has occurred.
+
+
+
+These include:
+
+
+
+• Footprints, wear patterns, and physical deformations
+
+
+
+• Thermal residues (e.g., heat left on a surface)
+
+
+
+• Chemical traces (e.g., scent trails, molecular residue)
+
+
+
+• Radiation relics (e.g., cosmic background radiation)
+
+
+
+• Recorded data (e.g., images, logs, measurements)
+
+
+
+Such traces function as environmental imprints—present-day structures that encode information
+
+about past events.
+
+
+
+This leads to an important principle:
+
+
+
+> Access to the past is mediated through present signals.
+
+
+
+We do not observe past events directly; we observe the current state of systems that carry
+
+information about those events. Our present access to past events depends on their causal
+
+consequences, including detectable traces and records. These traces are not the past events
+
+themselves.
+
+
+
+3.4 Limits of Detection
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The ability to detect signals is not unlimited. It is constrained by:
+
+
+
+• Biological limitations (e.g., human sensory ranges)
+
+
+
+• Technological limitations (e.g., resolution, sensitivity, noise)
+
+
+
+• Physical constraints (e.g., signal attenuation, quantum limits)
 
 

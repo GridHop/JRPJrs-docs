@@ -1,228 +1,364 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 35 of 40 (1,323 words)
+Part 35 of 35 (1,648 words)
 
+   (d) Delta P(h) = (0.00710022, 0.00104472), squared invariant mass 0.00004932
 
+       boost of rapidity 0.5: |Delta P(Lambda h) - Lambda Delta P(h)| = 1.3e-16
 
-# ---- 15. equal ensembles, different realized-history measures (two unravellings)
+C3. Poisson-located Gaussian collapses, massless field in 1+1 dimensions
 
-plus = np.array([1, 1])/np.sqrt(2); minus = np.array([1, -1])/np.sqrt(2)
+   (a) counts, area 16, intensity 6: mean 96.00, variance 96.35 (expected 96 and 96)
 
-I1 = [np.diag([1, 0]), np.diag([0, 1])]
+   (b) intensity 1.5, 40000 samples per box:  side  P(orderable)  bound of Prop. 13.22
 
-I2 = [np.eye(2)/np.sqrt(2), np.diag([1, -1])/np.sqrt(2)]
+                                              1.0   0.59905       0.79757
 
-Xm = [np.outer(plus, plus), np.outer(minus, minus)]
+                                              1.5   0.25833       0.60115
 
-rho = rq.normal(size=(2, 2)) + 1j*rq.normal(size=(2, 2))
+                                              2.0   0.08060       0.40465
 
-rho = rho @ rho.conj().T; rho /= np.trace(rho)
+                                              2.5   0.01510       0.24325
 
-ch = lambda I, r: sum(K @ r @ K.conj().T for K in I)
+   (c) 300 orderable configurations, 1265 collapses, 1176 linear extensions:
 
-same_channel = np.allclose(ch(I1, rho), ch(I2, rho))
+       max covariance difference between linear extensions 1.8e-15
 
-def jd(I):
+   (d) 4 three-collapse configurations, one-mode realization, Fock cutoff 140:
 
-    return np.array([[np.linalg.norm(M @ K @ plus)**2 for M in Xm] for K in I])
+       characteristic function, direct vs closed form: max dev 1.8e-14
 
-J1, J2 = jd(I1), jd(I2)
+       64-cell binned history laws: max difference between linear extensions 4.8e-16,
 
-def mi(Jm):
+       normalization error 3.1e-14
 
-    pa, pb = Jm.sum(1), Jm.sum(0)
+   (e) overlapping pair, E(h1, h2) = 1.099141:
 
-    return sum(Jm[i, j]*np.log2(Jm[i, j]/(pa[i]*pb[j])) for i in range(2) for j in range(2)
+       increase of Var(y2) caused by collapse 1: 0.4719185385; E^2/(4 sigma1^2) = 0.4719185385
 
-               if Jm[i, j] > 1e-15)
+       binned joint laws for the two orders: total-variation distance 0.0570
 
-print(f"15. same channel: {same_channel}; joint law of (first event, later X outcome):")
+       unread channels in the two orders: max difference of the final states 6.8e-15
 
-print(f"    {J1.round(3).tolist()} vs {J2.round(3).tolist()};")
+   (f) 300 non-orderable configurations ordered by centre time in two frames
 
-print(f"    mutual information {mi(J1):.3f} vs {mi(J2):.3f} bits")
+       (relative rapidity 0.6): laws differ in 234, max covariance difference 0.701
 
+   (g) centre-time order is a linear extension of the causal order in 300 of the 300
 
+       orderable configurations of item (c)
 
-# ---- 16. imperfect quantum clocks: identity of events vs clock-relative timing
+   (h) order j, c1, c2, y by t; c1 and c2 overlap; E(h_j, h_c1) = 0.2334, E(h_c1, h_y) = 0.2334,
 
-Mc, th = 32, 0.9
+       E(h_c1, h_c2) = 1.2221, E(h_j, h_y) = 0.0
 
-Sc = np.roll(np.eye(Mc), 1, axis=0)
+       cutoff 36: Gaussian c1: change of the target law by a kick at j 1.6e-15,
 
-Uc = Sc @ expm(-1j*th*(Sc + Sc.T))
+       by a collapse at j 1.1e-16; target law sums to 1.000000000000
 
-step = np.abs(Uc[:, 0])**2                               # law of one recorded clock step
+       unsharp Lueders instrument at j (not Weyl-diagonal): change 2.8e-16
 
-signed = [(m if m <= Mc//2 else m - Mc) for m in range(Mc)]
+       unsharp Lueders c1 (negative control): change by the kick, largest bin 0.0008100
 
-p_inv = sum(step[m] for m in range(Mc) if signed[m] < 0)
+       cutoff 44: Gaussian c1: change of the target law by a kick at j 8.9e-16,
 
-p_stall = step[0]
+       by a collapse at j 1.1e-16; target law sums to 1.000000000000
 
-from scipy.special import jv
+       unsharp Lueders instrument at j (not Weyl-diagonal): change 1.1e-16
 
-bes_inv = (1 - jv(0, 2*th)**2 - 2*jv(1, 2*th)**2)/2; bes_stall = jv(1, 2*th)**2
+       unsharp Lueders c1 (negative control): change by the kick, largest bin 0.0008100
 
-far = sum(step[m] for m in range(Mc) if abs(signed[m]) >= 8)
+C4. Gapless pointer realization of the collapses (Proposition 13.31)
 
-print(f"16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):")
+   (a) E = Gamma - Gamma^T: max dev 2.2e-16 (overlapping pair), 0.0e+00 (one-way pair)
 
-print(f"    P(backward) = {p_inv:.9f}, P(no advance) = {p_stall:.9f};")
+       overlapping pair: Gamma_12 = -0.060881, Gamma_21 = -1.160022, Gamma_11 = Gamma_22 = -0.500000
 
-print(f"    infinite-lattice Bessel values {bes_inv:.9f}, {bes_stall:.9f}")
+       phase of the time-ordered product, two foliations (relative rapidity 0.6):
 
-print(f"    max difference = {max(abs(p_inv-bes_inv), abs(p_stall-bes_stall)):.1e}; "
+       max difference 0.0e+00 and 0.0e+00;
 
-      f"P(|displacement| >= 8) = {far:.1e}")
+       deviation from Gamma, 32 and 64 nodes per axis: 2.8e-02, 9.0e-03 (overlapping),
 
-per = [n % 2 for n in range(5)]
+       1.9e-03, 4.8e-04 (one-way)
 
-print(f"    period-2 counter readings at stages 0-4: {per};")
+   (b) overlapping pair, explicit pointers, characteristic function vs closed form:
 
-print("    superposed counter: reading at stage n is n or n+4, each with probability 0.5")
+       pre-chirped pointers 7.3e-14; without the pre-chirp, full Gamma, 2.0e-13
 
+   (c) unread field channel vs two Gaussian collapse channels: max dev 1.7e-14;
 
+       trace 1.000000000000
 
+   (d) one-way pair: pointers vs Gaussian collapses applied in causal order, direct
 
+       characteristic functions: max dev 1.8e-13; closed-form covariances: max diff 0.0e+00
 
-# ---- 17. gapless detectors on a free field: three-region (Sorkin-type) signaling test
+       overlapping pair, pointer law minus the law of collapses in centre-time order:
 
-# two-mode realization of the commutation pattern E_AB = 0, E_AC = E_CB = 1:
+       Var(y1) +0.001144, Var(y2) +0.053727, Cov(y1, y2) +0.000000;
 
-# phi_A = q1, phi_C = p1 + q2, phi_B = p2; vacuum state; Fock cutoff nc per mode
+       direct characteristic functions differ by up to 0.0049
 
-def sorkin(nc, lamA=0.9, lamC=0.8, lamB=0.7, kick=1.5):
 
-    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)
 
-    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)
+C.2 Two Ideal Clocks
 
-    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)
 
-    v0 = np.zeros(nc*nc, complex); v0[0] = 1
 
-    def fn(Hm, f):
+# Verification of Proposition 14.5 (Appendix C.2): two ideal clocks, interactions in the
 
-        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T
+# constraint. Physical states are Psi(t_A, t_B) = U_Delta(t_A) chi(Delta), Delta = t_A - t_B,
 
-    det = lambda ph, l: [fn(ph, lambda x: np.cos(l*x)), 1j*fn(ph, lambda x: np.sin(l*x))]
+# where U_Delta solves i dU/ds = H_Delta(s) U from s0 = -2.5, with
 
-    gg = lambda x: 0.5*(1 + np.tanh(2*x))
+# H_Delta(s) = H_S + sum_{k keyed to A} g_k(s) V_k + sum_{k keyed to B} g_k(s - Delta) V_k.
 
-    lud = lambda ph: [fn(ph, lambda x: np.sqrt(gg(x))), fn(ph, lambda x: np.sqrt(1 - gg(x)))]
+import numpy as np
 
-    def bob(KA, KC, KB):
+from scipy.linalg import expm
 
-        pb = 0.0
 
-        for Ka in KA:
 
-            va = Ka @ v0
+sx = np.array([[0, 1], [1, 0]], complex)
 
-            for Kc in KC: pb += np.linalg.norm(KB[1] @ (Kc @ va))**2
+sy = np.array([[0, -1j], [1j, 0]])
 
-        return pb
+sz = np.diag([1.0, -1.0]).astype(complex)
 
-    KB = det(phB, lamB); Id = [np.eye(nc*nc)]; kA = [fn(phA, lambda x: np.exp(1j*kick*x))]
+P1 = np.diag([0.0, 1.0]).astype(complex)
 
-    out = {}
+I2 = np.eye(2)
 
-    for nm, KC in (('gapless', det(phC, lamC)), ('luders', lud(phC))):
+kron = np.kron
 
-        base = bob(Id, KC, KB)
+bump = lambda z: np.where(np.abs(z) < 1, np.exp(-1 / np.maximum(1 - z**2, 1e-300)), 0.0)
 
-        out[nm] = (base, bob(det(phA, lamA), KC, KB) - base, bob(kA, KC, KB) - base)
+
+
+ds, s0, s1 = 0.01, -2.5, 7.0
+
+sgrid = s0 + ds * np.arange(int(round((s1 - s0) / ds)) + 1)
+
+mids = sgrid[:-1] + ds / 2
+
+
+
+
+
+def pulse(area):
+
+    """switching function supported in [0, 1]; its midpoint sum on the grid equals area"""
+
+    g = lambda s: bump((s - 0.5) / 0.5)
+
+    norm = np.sum(g(np.arange(0, 1, ds) + ds / 2)) * ds
+
+    return lambda s: area * g(s) / norm
+
+
+
+
+
+def propagate(Hfun):
+
+    """U(s) from s0 at every grid point"""
+
+    U = np.eye(4, dtype=complex)
+
+    out = [U]
+
+    for m in mids:
+
+        U = expm(-1j * ds * Hfun(m)) @ U
+
+        out.append(U)
 
     return out
 
-s40, s50 = sorkin(40), sorkin(50)
-
-ana = 0.5 - 0.5*np.cos(2*0.7*0.8)*np.exp(-0.7**2)
-
-print(f"17. three-region test, Bob's P(b=1) and its shift under Alice's detector / kick:")
-
-print(f"    gapless Charlie: P = {s50['gapless'][0]:.10f} (analytic {ana:.10f}); shifts "
-
-      f"{s50['gapless'][1]:.1e}, {s50['gapless'][2]:.1e}")
-
-print(f"    unsharp Lueders Charlie: P = {s50['luders'][0]:.6f}; shifts "
-
-      f"{s50['luders'][1]:.6f}, {s50['luders'][2]:.6f}")
-
-print(f"    cutoff 40 vs 50: max change = "
-
-      f"{max(abs(s40[k][i] - s50[k][i]) for k in s40 for i in range(3)):.1e}")
 
 
 
-# ---- 18. Gaussian collapse of a smeared field at C (Weyl-diagonal): same three-region test
 
-def gauss_test(nc=40, lamA=0.9, lamB=0.7, kick=1.5, sig=0.6, p_hit=1.0, dy=0.02):
+at = lambda s: int(round((s - s0) / ds))
 
-    am = np.diag(np.sqrt(np.arange(1, nc)), 1); I_ = np.eye(nc)
+rng = np.random.default_rng(5)
 
-    qm = (am + am.T)/np.sqrt(2); pm = 1j*(am.T - am)/np.sqrt(2)
 
-    phA, phC, phB = np.kron(qm, I_), np.kron(pm, I_) + np.kron(I_, qm), np.kron(I_, pm)
 
-    v0 = np.zeros(nc*nc, complex); v0[0] = 1
 
-    def fn(Hm, f):
 
-        w, V = np.linalg.eigh(Hm); return (V * f(w)) @ V.conj().T
+def system_state():
 
-    wC, VC = np.linalg.eigh(phC); ys = np.arange(-10, 10 + dy/2, dy)
+    v = rng.normal(size=2) + 1j * rng.normal(size=2)
 
-    KB1 = 1j*fn(phB, lambda x: np.sin(lamB*x))
+    return np.kron(v / np.linalg.norm(v), [1, 0])          # record starts in |0>
 
-    def bob(KA):
 
-        pb = 0.0
 
-        for Ka in KA:
 
-            w = VC.conj().T @ (Ka @ v0)
 
-            if p_hit < 1: pb += (1 - p_hit)*np.linalg.norm(KB1 @ (VC @ w))**2
+def packets(centres, width, states):
 
-            for y in ys:
+    """chi(Delta) on a grid of offsets: wave packets in Delta carrying the given states"""
 
-                k = (2*np.pi*sig**2)**-0.25*np.exp(-(wC - y)**2/(4*sig**2))
+    Ds = np.round(np.arange(-3.0, 3.0 + ds / 2, ds), 10)
 
-                pb += p_hit*dy*np.linalg.norm(KB1 @ (VC @ (k*w)))**2
+    chi = np.zeros((len(Ds), 4), complex)
 
-        return pb
+    for c, st in zip(centres, states):
 
-    detA = [fn(phA, lambda x: np.cos(lamA*x)), 1j*fn(phA, lambda x: np.sin(lamA*x))]
+        chi += bump((Ds - c) / width)[:, None] * st[None, :]
 
-    base = bob([np.eye(nc*nc)])
+    chi /= np.sqrt(np.sum(np.abs(chi)**2) * ds)
 
-    ana = 0.5 - 0.5*np.exp(-lamB**2)*((1 - p_hit) + p_hit*np.exp(-lamB**2/(2*sig**2)))
+    keep = np.abs(chi).sum(1) > 0
 
-    shifts = (bob(detA) - base, bob([fn(phA, lambda x: np.exp(1j*kick*x))]) - base)
+    return Ds[keep], chi[keep]
 
-    return base, ana, shifts
 
-for ph in (1.0, 0.4):
 
-    b_, a_, sh = gauss_test(p_hit=ph)
 
-    print(f"18. Gaussian collapse at C (hit probability {ph}): P = {b_:.10f} "
 
-          f"(analytic {a_:.10f});")
+print('Case 1: one record written by an interaction keyed to clock A')
 
-    print(f"    shifts under Alice's detector / kick: {sh[0]:.1e}, {sh[1]:.1e}")
+HS = kron(0.35 * sz, I2)
 
-import sys, scipy
+V1 = kron(P1, sx) + 0.6 * kron(sx, I2)
 
-print(f"Environment: Python {sys.version.split()[0]}, NumPy {np.__version__}, "
+g1 = pulse(np.pi / 2)
 
-      f"SciPy {scipy.__version__}")
+Us = propagate(lambda s: HS + g1(s) * V1)                  # independent of Delta here
 
-print("Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); "
+E = kron(I2, P1)                                           # the record reads 1
 
-      "2026 (items 14-15)")
+Ds, chi = packets([0.3, 1.4], 0.25, [system_state(), system_state()])
+
+sstar = 1.0
+
+O = lambda c: Us[at(sstar)].conj().T @ E @ Us[at(sstar)] @ c
+
+P_phys = sum(np.vdot(O(c), O(c)).real for c in chi) * ds
+
+
+
+
+
+def P_A(tau):        # integral over t_B = tau - Delta of |E Psi(tau, t_B)|^2
+
+    return sum(np.linalg.norm(E @ Us[at(tau)] @ c)**2 for c in chi) * ds
+
+
+
+
+
+def P_B(taup):       # integral over t_A = taup + Delta of |E Psi(t_A, taup)|^2
+
+    return sum(np.linalg.norm(E @ Us[at(taup + D)] @ c)**2 for D, c in zip(Ds, chi)) * ds
+
+
+
+
+
+print('   offsets Delta in [%.2f, %.2f]; interaction in A-time [0, 1]' % (Ds.min(), Ds.max()))
+
+print('   P_phys = %.12f   P_A(2.0) = %.12f   P_A(4.0) = %.12f' % (P_phys, P_A(2.0), P_A(4.0)))
+
+print('   P_B(%.2f) = %.12f   P_B(3.0) = %.12f' % (1 - Ds.min(), P_B(1 - Ds.min()), P_B(3.0)))
+
+print('   A-time: ' + ', '.join('P_A(%.1f) = %.6f' % (t, P_A(t)) for t in (-0.5, 0.0, 0.5, 1.0)))
+
+print('   B-time: ' + ', '.join('P_B(%.1f) = %.6f' % (t, P_B(t)) for t in (-1.0, -0.4, 0.2, 0.6)))
+
+print('   O is a projector on the sector: max |O^2 - O| = %.1e'
+
+      % max(np.abs(O(O(c)) - O(c)).max() for c in chi))
+
+
+
+print('Case 2: interaction 1 (keyed to A) rotates S; interaction 2 (keyed to B) records S')
+
+V1, V2 = kron(sy, I2), kron(P1, sx)
+
+g1, g2 = pulse(np.pi / 8), pulse(np.pi / 2)
+
+psi_neg, psi_pos = system_state(), system_state()
+
+Ds, chi = packets([-1.6, 1.6], 0.25, [psi_neg, psi_pos])
+
+UD = [propagate(lambda s, D=D: g1(s) * V1 + g2(s - D) * V2) for D in Ds]
+
+sstar = 1.0 + Ds.max()
+
+P_phys = sum(np.linalg.norm(E @ U[at(sstar)] @ c)**2 for U, c in zip(UD, chi)) * ds
+
+PA = sum(np.linalg.norm(E @ U[at(4.0)] @ c)**2 for U, c in zip(UD, chi)) * ds
+
+taup = sstar - Ds.min()
+
+PB = sum(np.linalg.norm(E @ U[at(taup + D)] @ c)**2 for U, D, c in zip(UD, Ds, chi)) * ds
+
+G1, G2 = expm(-1j * np.pi / 8 * V1), expm(-1j * np.pi / 2 * V2)
+
+mu = [np.sum(np.abs(chi[Ds < 0])**2) * ds, np.sum(np.abs(chi[Ds > 0])**2) * ds]
+
+p_rec_first = np.linalg.norm(E @ G1 @ G2 @ psi_neg)**2
+
+p_rot_first = np.linalg.norm(E @ G2 @ G1 @ psi_pos)**2
+
+print('   P_phys = %.12f   P_A(4.0) = %.12f   P_B(%.2f) = %.12f' % (P_phys, PA, taup, PB))
+
+print('   definite orders: record first %.6f (weight %.4f), rotation first %.6f (weight %.4f)'
+
+      % (p_rec_first, mu[0], p_rot_first, mu[1]))
+
+print('   weighted mixture of the two definite orders = %.12f'
+
+      % (mu[0] * p_rec_first + mu[1] * p_rot_first))
+
+
+
+print('Case 3: the same interactions, an offset-coherent observable (H_S = 0)')
+
+psi0 = system_state()
+
+Ds, chi = packets([-1.6, 1.6], 0.25, [psi0, psi0])
+
+UD = [propagate(lambda s, D=D: g1(s) * V1 + g2(s - D) * V2) for D in Ds]
+
+fplus = bump((Ds + 1.6) / 0.25) + bump((Ds - 1.6) / 0.25)
+
+fplus = fplus / np.sqrt(np.sum(fplus**2) * ds)                # coherent superposition of offsets
+
+amp_phys = sum(fp * (U[at(sstar)] @ c) for fp, U, c in zip(fplus, UD, chi)) * ds
+
+amp_A = sum(fp * (U[at(4.0)] @ c) for fp, U, c in zip(fplus, UD, chi)) * ds
+
+amp_B = sum(fp * (U[at(taup + D)] @ c) for fp, U, D, c in zip(fplus, UD, Ds, chi)) * ds
+
+W1, W2 = G1 @ G2, G2 @ G1                       # offset -1.6: record first; +1.6: rotation first
+
+pred = 0.5 * (1 + np.vdot(W1 @ psi0, W2 @ psi0).real)
+
+mix = 0.0
+
+for sgn in (-1, 1):                             # incoherent mixture of the two offsets
+
+    sel = np.sign(Ds) == sgn
+
+    ch = chi * sel[:, None] / np.sqrt(np.sum(np.abs(chi[sel])**2) * ds)
+
+    a_ = sum(fp * (U[at(sstar)] @ c) for fp, U, c in zip(fplus, UD, ch)) * ds
+
+    mix += 0.5 * np.vdot(a_, a_).real
+
+print('   P(+): clock-neutral %.12f, relative to A %.12f, relative to B %.12f'
+
+      % (np.vdot(amp_phys, amp_phys).real, np.vdot(amp_A, amp_A).real, np.vdot(amp_B, amp_B).real))
+
+print('   (1 + Re<W1 psi, W2 psi>)/2 = %.12f; incoherent mixture of offsets gives %.12f'
+
+      % (pred, mix))
 
 
 
@@ -230,96 +366,30 @@ Output:
 
 
 
-1. reductions unitary; V_AB = explicit permutation: True
+Case 1: one record written by an interaction keyed to clock A
 
-   groupoid law V_BC V_AB = V_AC: True
+   offsets Delta in [0.06, 1.64]; interaction in A-time [0, 1]
 
-2. instrument complete: True | all generators G-invariant: True
+   P_phys = 0.139627690767   P_A(2.0) = 0.139627690767   P_A(4.0) = 0.139627690767
 
-3. intertwining V K^A V^dag = K^B for W and every Kraus operator: True
+   P_B(0.94) = 0.139627690767   P_B(3.0) = 0.139627690767
 
-4. 4096 histories of 3 stages; max |p_A-p_B| = 2.78e-17, max |p_A-p_neutral| = 1.39e-17
+   A-time: P_A(-0.5) = 0.000000, P_A(0.0) = 0.000000, P_A(0.5) = 0.153583, P_A(1.0) = 0.139628
 
-   max(1-|<V phi_A|phi_B>|) = 6.66e-16, total prob = 1.000000000000
+   B-time: P_B(-1.0) = 0.021295, P_B(-0.4) = 0.032189, P_B(0.2) = 0.145553, P_B(0.6) = 0.144791
 
-5. naive same-form frame-B rule: total-variation distance from correct record measure = 0.180
+   O is a projector on the sector: max |O^2 - O| = 4.0e-15
 
-6. records [(0, 1, 1), (0, 2, 3)] vs [(0, 2, 3), (0, 1, 1)] -> same present ray: True
+Case 2: interaction 1 (keyed to A) rotates S; interaction 2 (keyed to B) records S
 
-7. entanglement entropy: frame A 0.000 bits, frame B 1.000 bits
+   P_phys = 0.706791827009   P_A(4.0) = 0.706791827009   P_B(4.68) = 0.706791827009
 
-8. absolute collapse: ||(1-Pi) P_abs Psi|| / ||P_abs Psi|| = 0.894
+   definite orders: record first 0.868488 (weight 0.5000), rotation first 0.545095 (weight 0.5000)
 
-9. continuous time: 200 trajectories, 1158 events; identical event records in A and B: True
+   weighted mixture of the two definite orders = 0.706791827009
 
-   max(1-|<V psi_A|psi_B>|) at final time = 6.7e-16
+Case 3: the same interactions, an offset-coherent observable (H_S = 0)
 
-10. generic parameters, 4096 three-stage histories: exact coincidences = 0; largest overlap = 0.9852
+   P(+): clock-neutral 0.926776695297, relative to A 0.926776695297, relative to B 0.926776695297
 
-    minimum error probability for telling that pair apart (Helstrom) = 0.414
-
-11. two different 3-stage histories, same present ray: |<end|Phi>| = 1.000000000000, 1.000000000000
-
-    history probabilities 4.15e-05, 7.62e-05; overlap of the two initial states = 0.552
-
-12a. finite width: both branches end at the same ray (|<end|Phi>| = 1.000000000000, 1.000000000000),
-
-     probabilities 5.04e-05, 1.62e-03; next-event total variation = 0.1000 (lambda/6 = 0.1000)
-
-12b. sharp, fixed initial state: same present ray: True; probabilities 8.254e-04, 1.238e-03;
-
-     next-event total variation = 0.1000
-
-13. conditioned on (1, 2, 0) at stage 3: Doob forward kernel vs conditioned law, max diff = 8.3e-17
-
-14. causally local instruments: all 136 foliations (linear extensions), 256 outcome histories;
-
-    max |p - p'| = 6.9e-18, max state deviation = 4.4e-16
-
-    instruments changed outside the predecessor set of slot 3: max change = 7.8e-16
-
-    order ideal [0, 1, 3]: law from its own instruments vs marginal of full law, max diff = 1.1e-16
-
-    non-commuting 'spacelike' pair: total variation between orders = 0.165
-
-15. same channel: True; joint law of (first event, later X outcome):
-
-    [[0.25, 0.25], [0.25, 0.25]] vs [[0.5, 0.0], [0.0, 0.5]];
-
-    mutual information 0.000 vs 1.000 bits
-
-16. drifting quantum clock, exact on the 32-site ring (signed displacement in -15..16):
-
-    P(backward) = 0.104042655, P(no advance) = 0.338161965;
-
-    infinite-lattice Bessel values 0.104042655, 0.338161965
-
-    max difference = 1.1e-16; P(|displacement| >= 8) = 7.4e-09
-
-    period-2 counter readings at stages 0-4: [0, 1, 0, 1, 0];
-
-    superposed counter: reading at stage n is n or n+4, each with probability 0.5
-
-17. three-region test, Bob's P(b=1) and its shift under Alice's detector / kick:
-
-    gapless Charlie: P = 0.3665447170 (analytic 0.3665447170); shifts -2.2e-16, -6.1e-16
-
-    unsharp Lueders Charlie: P = 0.275038; shifts -0.021492, -0.046628
-
-    cutoff 40 vs 50: max change = 8.8e-08
-
-18. Gaussian collapse at C (hit probability 1.0): P = 0.3449027185 (analytic 0.3449027185);
-
-    shifts under Alice's detector / kick: -3.3e-16, -5.0e-14
-
-18. Gaussian collapse at C (hit probability 0.4): P = 0.2541731691 (analytic 0.2541731691);
-
-    shifts under Alice's detector / kick: -8.3e-16, -2.0e-14
-
-Environment: Python 3.13.16, NumPy 2.5.3, SciPy 1.18.1
-
-Seeds: 7 (initial state; present state of item 11); 1000-1199 (item 9); 2026 (items 14-15)
-
-
-
-----------------------------------------------------------------------------------------------------
+   (1 + Re<W1 psi, W2 psi>)/2 = 0.926776695297; incoherent mixture of offsets gives 0.500000000000

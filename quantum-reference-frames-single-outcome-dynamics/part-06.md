@@ -1,320 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 06 of 40 (1,664 words)
-
-5.2 Cross-Frame Identification (Task T2)
-
-
-
-Definition 5.3 (Frame description). A frame-A description at stage σ is a triple D^A_σ = (σ, ψ^A_σ,
-
-L^A_σ), where ψ^A_σ is a ray in H_A and L^A_σ is a set of frame-A past-tensed propositions of the
-
-forms Had(σ″, [φ]) with φ ∈ H_A and Had(σ″ → σ‴, k, E^A_k), where E^A_k = (F^A_k)† F^A_k is the
-
-frame-A form of the effect of event k.
-
-
-
-Definition 5.4 (Translations). The frame-A translation τ_A maps neutral propositions to frame-A
-
-propositions:
-
-
-
-        τ_A Had(σ″, [Ψ]) = Had(σ″, [R_A Ψ]),     τ_A Had(σ″ → σ‴, k) = Had(σ″ → σ‴, k, E^A_k).
-
-
-
-Because R_A is unitary and E^A_k is determined by k, τ_A is a bijection. The frame-change
-
-translation is τ_{A→B} = τ_B ∘ τ_A^{−1}; it replaces each state [φ] by [V_{A→B} φ] and each effect
-
-E^A_k by V_{A→B} E^A_k V_{A→B}^{−1} = E^B_k, keeping the stage indices and the event label.
-
-
-
-Criterion 5.5 (Cross-frame identification). Frame descriptions D^A_σ and D^B_τ describe the same
-
-present world, with the same realized history, iff
-
-
-
-    (C1) Same stage: σ = τ.
-
-
-
-    (C2) State correspondence: ψ^B ≐ V_{A→B} ψ^A.
-
-
-
-    (C3) History correspondence: L^B = τ_{A→B}(L^A).
-
-
-
-Theorem 5.6 (Common perspective-neutral pre-image). D^A_σ and D^B_σ satisfy (C1)–(C3) iff there is a
-
-single neutral complete state Ω_σ = (S_σ, L_σ) with ψ^A ≐ R_A Ψ_σ, ψ^B ≐ R_B Ψ_σ, L^A = τ_A(L_σ),
-
-and L^B = τ_B(L_σ).
-
-
-
-Proof. (⇐) Given Ω_σ, ψ^B ≐ R_B Ψ_σ = R_B R_A^{−1} R_A Ψ_σ ≐ V_{A→B} ψ^A, which is (C2), and L^B =
-
-τ_B(L_σ) = τ_B τ_A^{−1} τ_A(L_σ) = τ_{A→B}(L^A), which is (C3). (⇒) Given (C1)–(C3), define Ψ_σ =
-
-R_A^{−1} ψ^A and L_σ = τ_A^{−1}(L^A). Then R_A Ψ_σ = ψ^A by construction, R_B Ψ_σ = V_{A→B} ψ^A ≐
-
-ψ^B by (C2), τ_A(L_σ) = L^A, and τ_B(L_σ) = τ_{A→B}(L^A) = L^B by (C3). □
-
-
-
-The content of Theorem 5.6 is clearest when stated in terms of orbits.
-
-
-
-Definition 5.7 (Description orbit). Let 𝔉 be the set of admissible frames. For a complete state Ω_σ
-
-= (S_σ, L_σ), its description orbit is
-
-
-
-        𝒟(Ω_σ) = { (σ, [R_A Ψ_σ], τ_A(L_σ)) : A ∈ 𝔉 }.
-
-
-
-Proposition 5.8 (Orbit identification). (i) Two frame descriptions satisfy Criterion 5.5 iff they
-
-belong to the same description orbit. (ii) Distinct complete states have disjoint orbits, so the
-
-orbits partition the set of frame descriptions. (iii) Consequently, satisfying Criterion 5.5 is an
-
-equivalence relation. (iv) If Ω_σ is admissible (Ω_σ ∈ 𝔒_n), every member of its orbit describes
-
-that admissible complete state.
-
-
-
-Proof. (i) is Theorem 5.6 restated in terms of orbits. (ii) Each frame description belongs to the
-
-description space of exactly one frame A. If two complete states Ω and Ω* share an orbit member,
-
-that member is (σ, [R_A Ψ], τ_A(L)) = (σ, [R_A Ψ*], τ_A(L*)) for a single frame A, and injectivity
-
-of R_A and τ_A gives [Ψ] = [Ψ*] and L = L*. (iii) follows from (i) and (ii). (iv) holds by
-
-definition of the orbit. □
-
-
-
-Proposition 5.9 ((C3) is not redundant). There exist frame descriptions satisfying (C1) and (C2) but
-
-not (C3); they describe different realized histories with the same present state. More precisely:
-
-
-
-    (a) For complete histories, in which the initial condition counts as part of the past, such
-
-    pairs exist for every invertible law.
-
-
-
-    (b) Within a single space ℋ_n with a fixed initial state, such pairs exist in the special regime
-
-    of Proposition 4.13. Whether they exist for generic finite-width parameters is open (§8.3).
-
-
-
-Proof. (a) By Proposition 4.12, for any present ray [Φ] and two distinct event sequences there are
-
-initial rays from which each sequence ends at [Φ]. The two complete histories have different truth
-
-profiles, since their transition propositions differ. Take the frame-A description of one and the
-
-frame-B description of the other: (C1) and (C2) hold, and (C3) fails. (b) The same argument applies
-
-to the two histories of Proposition 4.13 (Proposition 8.1), which share an initial state. □
-
-
-
-Case (a) compares descriptions drawn from admissible spaces with different initial conditions. Under
-
-presentism the initial condition is a past fact like any other, so this is the comparison relevant
-
-to CTGP; case (b) shows that the phenomenon also occurs, in a special regime, with the initial
-
-condition held fixed.
-
-
-
-Three levels of identity can now be distinguished, and the point at which interpretation enters can
-
-be located exactly.
-
-
-
-    Representational equivalence. Two descriptions are related by a valid QRF transformation: (C1)
-
-    and (C2) hold, so the two quantum states are reductions of one perspective-neutral state. This
-
-    is a mathematical relation between representations.
-
-
-
-    Dynamical equivalence. The two frames’ laws are related by the frame-change unitary (Definition
-
-    5.11), so their probability laws and event records transform consistently (Theorem 5.12). This
-
-    is a mathematical relation between laws.
-
-
-
-    Ontological identity. The two descriptions concern one realized present and one realized
-
-    history. Within the model, this is membership in one description orbit (Proposition 5.8).
-
-
-
-The first two levels are theorems. The step from orbit membership to ontological identity is not a
-
-theorem of quantum mechanics. It is the following interpretive thesis, which is what CTGP adds.
-
-
-
-Thesis 5.10 (Orbit realism). Each description orbit of an admissible complete state represents
-
-exactly one realized present together with exactly one realized history. Frame descriptions in one
-
-orbit are descriptions of the same world; descriptions in different orbits are descriptions of
-
-different possible worlds, at most one of which is actual.
-
-
-
-Thesis 5.10 gives the precise answer to the question how one can establish that two descriptions
-
-refer to the same realized history rather than assuming it. Four observations make up the answer.
-
-
-
-First, given the thesis, identity of history is not an extra posit laid over frame descriptions; it
-
-is a definite condition, (C3), that can fail. Second, it cannot be settled by the quantum state
-
-alone: Proposition 5.9 shows that state correspondence is compatible with different histories, so
-
-identity of history is carried by L, which is a direct argument for including the Lucretian profile
-
-in the complete ontology. Third, correspondence is preserved by the dynamics (Theorem 5.12(c)), so
-
-frames cannot drift into describing different histories, and correspondence is not maintained by
-
-stipulation at each stage. Fourth, whether two descriptions do in fact correspond is an ontological
-
-question, and whether anyone can verify that they do is an epistemic question; §5.5 shows that these
-
-come apart and that Criterion 5.5 is an exact criterion of identity, not in general an
-
-experimentally decidable one.
-
-
-
-5.3 Valid Transformations of the Law
-
-
-
-Definition 5.11 (Frame-relative laws describing one world). Frame-relative laws (W^A, {F^A_k}) on
-
-H_A and (W^B, {F^B_k}) on H_B describe one world iff W^B = V_{A→B} W^A V_{A→B}^{−1} and F^B_k =
-
-V_{A→B} F^A_k V_{A→B}^{−1} for every k. Equivalently, by Remark 3.8, both are frame forms of one
-
-admissible neutral law.
-
-
-
-Theorem 5.12 (Covariance of generation). Let (W, {F_k}) be an admissible neutral law, with frame
-
-forms (W^A, {F^A_k}) and (W^B, {F^B_k}). Let Ψ_{σ_0} ∈ H_phys, ψ^A_{σ_0} = R_A Ψ_{σ_0}, and
-
-ψ^B_{σ_0} = R_B Ψ_{σ_0}. Then:
-
-
-
-    (a) For every finite sequence ω = (k_1, …, k_n), the probability of ω is the same whether
-
-    computed in frame A, in frame B, or in the neutral description.
-
-
-
-    (b) Along every history ω of nonzero probability, the frame-evolved states satisfy ψ^B_{σ_j} ≐
-
-    V_{A→B} ψ^A_{σ_j} for j = 0, …, n.
-
-
-
-    (c) Consequently the probability measure over histories is frame-independent, the sets ℋ_n of
-
-    admissible histories coincide in all frames, and if D^A_{σ_0} and D^B_{σ_0} correspond, then for
-
-    every realized history the descriptions D^A_{σ_n} and D^B_{σ_n} generated from them correspond.
-
-
-
-Proof. By induction on n. Suppose ψ^A_{σ_j} ≐ R_A Ψ_{σ_j} and ψ^B_{σ_j} ≐ R_B Ψ_{σ_j}. By Lemma 3.7,
-
-Pr^A(k) = ‖F^A_k W^A R_A Ψ_{σ_j}‖² = ‖R_A F_k W Ψ_{σ_j}‖² = ‖F_k W Ψ_{σ_j}‖², and likewise for frame
-
-B. The updated frame states are R_A Ψ_{σ_{j+1}} and R_B Ψ_{σ_{j+1}} after normalization, which gives
-
-(b). The probability of a sequence is the product of conditional probabilities, which gives (a) and
-
-the equality of the sets ℋ_n. For (c), the truth-profile updates in the two frames add τ_A(ΔL) and
-
-τ_B(ΔL) for the same neutral ΔL, so (C3) is preserved; (C1) is preserved because both frames advance
-
-the same stage index; and (C2) is (b). □
-
-
-
-Corollary 5.13 (Failure of same-form laws). If frame B adopts a law with the same matrices as frame
-
-A’s law but written in B’s coordinates, that is, W^B = W^A and F^B_k = F^A_k as matrices, then in
-
-general the two frames assign different probabilities to the same histories and do not describe one
-
-world.
-
-
-
-Proof. Such a pair satisfies Definition 5.11 only if W^A and every F^A_k commute with V_{A→B}, which
-
-fails in general. Section 8 gives an instance with total-variation distance 0.180 between the two
-
-measures over histories. □
-
-
-
-Corollary 5.13 shows what “valid transformation” excludes: it is not enough for each frame to use a
-
-law that looks natural from its own point of view; the laws must be related by the frame-change
-
-unitary. This is the QRF analogue of requiring that a law be written in covariant form.
-
-
-
-Corollary 5.14 (Covariant generability). In every frame A, the future is conditionally independent
-
-of the past given the present:
-
-
-
-        Pr^A(𝔉⁺_σ | ψ^A_σ, L^A_σ) = Pr^A(𝔉⁺_σ | ψ^A_σ),
-
-
-
-and this conditional distribution is the image under the frame change of the corresponding
+Part 06 of 35 (1,798 words)
 
 distribution in any other frame B, with event labels unchanged and states mapped by V_{A→B}.
 
@@ -339,3 +25,337 @@ the law generable from the present, and that makes the past causally idle beyond
 carries, holds in every frame and is preserved by every valid frame change.
 
 
+
+5.4 Truth Preservation (Task T3)
+
+
+
+Definition 5.15 (Truth in a frame description). A frame-A proposition is true in D^A_σ iff it
+
+belongs to L^A_σ (Tiers 1 and 2 for earlier stages), or it is a present-stage Tier 2 proposition
+
+about [ψ^A_σ] that holds, or it is a Tier 3 proposition whose projector Q^A satisfies Q^A ψ^A = ψ^A
+
+at the relevant stage.
+
+
+
+Theorem 5.16 (Truth preservation). Suppose D^A_σ and D^B_σ satisfy Criterion 5.5. Then for every
+
+frame-A proposition p that is determinate in D^A_σ, τ_{A→B}(p) is determinate in D^B_σ and has the
+
+same truth value. Moreover, under the generative law, truth preservation continues to hold at every
+
+later stage of every realized history.
+
+
+
+Proof. For members of L, (C3) gives p ∈ L^A iff τ_{A→B}(p) ∈ L^B. For present-stage Tier 2
+
+propositions, (C2) gives [ψ^A] = [φ] iff [V_{A→B} ψ^A] = [V_{A→B} φ]. For Tier 3, Q^A ψ^A = ψ^A iff
+
+(V Q^A V^{−1})(V ψ^A) = V ψ^A, and V Q^A V^{−1} = Q^B by Lemma 3.7. The final clause follows from
+
+Theorem 5.12(c). □
+
+
+
+Proposition 5.17 (No revision across frames). For σ < σ″ and any frame A, a past-tensed frame-A
+
+proposition about a stage before σ is true in D^A_σ iff it is true in D^A_{σ″}. The same holds for
+
+its translation into any other frame.
+
+
+
+Proof. Admissible profiles are nested (Theorem 4.8), and τ_A is applied element-wise. Combine with
+
+Theorem 5.16. □
+
+
+
+Proposition 5.17 combines CTGP’s No Revision of the Past (Proposition 17.22) with frame covariance:
+
+changing frames does not revise the past any more than the passage of stages does.
+
+
+
+5.5 Ontological Identity, Physical Equivalence, and Observational Indistinguishability
+
+
+
+If L is dynamically idle and corresponds to no present observable, how could anyone determine which
+
+history occurred? The answer requires separating three relations that are easily run together.
+
+
+
+Definition 5.18 (Three relations between histories). Fix the law. A complete finite history through
+
+stage σ_n, h = (Ψ_{σ_0}, ω), consists of an initial state and an admissible event sequence of length
+
+n, so that it specifies everything from the initial state through σ_n; write S(h) for its present
+
+state and L(h) for its truth profile. For two complete finite histories h_1 and h_2 of the same
+
+length:
+
+
+
+    h_1 ∼_phys h_2 (same present physical state) iff S(h_1) = S(h_2);
+
+
+
+    h_1 ∼_hist h_2 (same realized history) iff L(h_1) = L(h_2);
+
+
+
+    h_1 ∼_obs h_2 relative to a class 𝒪 of observers and a tolerance ε (observationally
+
+    indistinguishable) iff no procedure available to 𝒪 discriminates h_1 from h_2, given equal prior
+
+    probabilities, with error probability below ε.
+
+
+
+Proposition 5.19 (How the relations are ordered). Let 𝒪 be any class of observers whose evidence
+
+consists of the outcomes of measurements on the present state.
+
+
+
+    (i) ∼_hist implies ∼_phys, by accuracy (Proposition 4.11; for n ≥ 1).
+
+
+
+    (ii) ∼_phys implies ∼_obs for every tolerance ε ≤ 1/2, because identical present states yield
+
+    identical statistics for every measurement, so no procedure does better than guessing.
+
+
+
+    (iii) ∼_phys does not imply ∼_hist (Propositions 4.12 and 4.13).
+
+
+
+    (iv) More generally, if the present states of h_1 and h_2 have overlap |⟨Ψ(h_1), Ψ(h_2)⟩| = c,
+
+    then with equal prior probabilities no measurement on the present state discriminates them with
+
+    error probability below (1 − √(1 − c²)) / 2 (Helstrom 1976). Histories whose present states are
+
+    close are therefore observationally nearly indistinguishable even when they are not physically
+
+    equivalent.
+
+
+
+Proof. (i)–(iii) are as stated. (iv) is the Helstrom bound for discriminating two pure states with
+
+equal priors. □
+
+
+
+The relations are thus nested in one direction and strictly separated in the other: same history
+
+implies same present, which implies indistinguishability by present observation, and neither
+
+converse holds. In the model with finite-width flashes, Proposition 4.12 shows that a given present
+
+state can be reached along every event sequence from some initial state, so for present-state
+
+observers every fact in L beyond what S encodes is structurally unknowable in the sense of More
+
+Info, §4. The numerical search in §8.3 found two distinct histories whose present states have
+
+overlap 0.985, for which the Helstrom bound gives a minimum error probability of 0.414: the
+
+histories are nearly indistinguishable by any present measurement, though they are different
+
+histories.
+
+
+
+This is CTGP’s distinction between truth and recoverability (C-i), stated as a theorem about the
+
+model. It also answers the objection that Criterion 5.5 is not operationally checkable when L is
+
+inaccessible. The reply is that Criterion 5.5 is an exact criterion of ontological identity, not a
+
+decision procedure. Agents in different frames check correspondence through records: present
+
+physical structures that carry evidence about which events occurred. Agreement of records,
+
+translated by τ_{A→B}, is evidence that (C3) holds; disagreement is evidence that it fails. Where
+
+records are erased or never formed, the question has an answer that no one may be able to learn.
+
+This limitation belongs to CTGP itself, not to the criterion: the boundary of knowledge is not the
+
+boundary of fact (More Info, §4).
+
+
+
+5.6 Where L Sits Relative to the Quantum State (Task T4)
+
+
+
+The preceding results can be collected into a single statement.
+
+
+
+Theorem 5.20 (Location of the Lucretian profile). In any model satisfying Definitions 4.1–4.7:
+
+
+
+    (i) L is generated, not generating. L_σ is a function of the actual past history, which the
+
+    mathematics represents as an initial segment of a sample path of the kernel K, realized only up
+
+    to the present stage, and K takes only S_σ as input (Proposition 4.9, Corollary 4.10).
+
+
+
+    (ii) L ranges over an exactly specified space. The admissible profiles are characterized by
+
+    Theorem 4.8.
+
+
+
+    (iii) L is not reducible to S. For invertible laws, every present ray is reachable along every
+
+    finite event sequence from a suitably chosen initial ray, so the complete past is not a function
+
+    of S (Proposition 4.12).
+
+
+
+    (iv) L is accurate. Together with the law, L fixes S at every stage after the first (Proposition
+
+    4.11), and Had(σ″, φ) ∈ L_σ iff φ was the case at σ″.
+
+
+
+    (v) L is frame-covariant. Its frame-relative forms are related by the translations τ_{A→B}, and
+
+    identity of history across frames is exactly agreement of L modulo translation (Proposition
+
+    5.8).
+
+
+
+    (vi) L carries no extra dynamical assumptions. No law refers to L, so including L in the
+
+    complete ontology adds no variable that affects successor generation, and it does not require
+
+    any past-tensed property to correspond to a measurable quantum observable.
+
+
+
+Point (vi) answers the concern that including past-tensed properties in the complete ontology might
+
+require treating them as additional variables that influence the dynamics, or might require every
+
+ontologically real property to have an independently measurable observable. Neither follows. Tier 1
+
+truths about which events occurred are not eigenvalues of any present observable: by Proposition
+
+4.12, no present measurement can distinguish the complete histories that end in a given state. They
+
+are nonetheless facts, and they are the facts that distinguish those histories.
+
+
+
+Schematically, the order of determination at one transition is:
+
+
+
+        S_σ  ──K──▶  k  ──▶  S_{σ′} = [F_k W Ψ_σ]   and   ΔL_{σ→σ′} = { Had(σ, S_σ), Had(σ→σ′, k) }.
+
+
+
+The kernel produces the event. The event, together with the law, produces the next state and the
+
+next past-tensed truths. Nothing flows from L back into K.
+
+
+
+5.7 Why a Primitive Lucretian Profile Rather Than an Encoding of the Event History
+
+
+
+A natural question remains. Why should the truth profile be regarded as a primitive ontological
+
+feature of the present world, rather than as a formal encoding of the realized event history, as it
+
+would be in an ordinary single-outcome flash ontology that simply associates historical propositions
+
+with earlier events? The mathematics cannot answer this question, and it is important to see why.
+
+
+
+Proposition 5.21 (Formal equivalence). For fixed law and initial state, the map ω ↦ L(ω) is a
+
+bijection from ℋ_n onto ℒ_n, and it commutes with the frame translations τ_A.
+
+
+
+Proof. Surjectivity holds by definition of ℒ_n, and injectivity by the uniqueness clause of Theorem
+
+4.8. Commutation with τ_A holds because τ_A leaves stage indices and event labels unchanged and maps
+
+states by R_A. □
+
+
+
+Mathematically, then, the truth profile is interchangeable with the event history: every theorem of
+
+this preprint could be restated with the realized sequence of events in place of L. The difference
+
+between the two readings is not structural but concerns where the truthmakers for past-tense truths
+
+are located, and that is fixed by the background ontology of time.
+
+
+
+On an eternalist reading of the flash ontology, past flashes exist, located at earlier times, and
+
+they are the truthmakers for propositions about them; nothing in the present need do that work. A
+
+growing-block reading agrees that past flashes exist. CTGP denies both (C-a): past stages, and the
+
+events that occurred in them, do not exist. CTGP also accepts a truthmaker principle for past-tense
+
+truths: what is true about the past must be grounded in what exists, and on presentism only the
+
+present exists (CTGP – explained, §5.2.1). Not every presentist accepts such a principle; some
+
+reject unrestricted truthmaker requirements for past-tense truths altogether (Merricks 2007). The
+
+argument that follows is therefore conditional: given CTGP’s truthmaker principle, something present
+
+must make past-tense propositions true, and the options are limited.
+
+
+
+    (i) Records. Past-tense truths might be grounded in present physical traces. Proposition 4.12
+
+    rules this out within the model: the present physical state is reachable along every event
+
+    sequence from a suitable initial state, so no function of the present physical state, and hence
+
+    no record contained in it, fixes the complete past. Grounding past truths in records would leave
+
+    many of them without truthmakers, and it would make the past revisable whenever records degrade,
+
+    contrary to No Revision (C-b) and to the distinction between truth and recoverability (C-i).
+
+
+
+    (ii) Abstract histories. Past-tense truths might be grounded in an abstract representation of
+
+    history, such as an ersatz time series of maximal propositions (Bourne 2006; Crisp 2007). Such a
+
+    representation is formally the event history again. It still requires a fact that selects which
+
+    abstract history is the actual one, and on presentism that fact must be a fact about the

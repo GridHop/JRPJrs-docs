@@ -1,198 +1,6 @@
 # Info
 
-Part 13 of 24 (1,608 words)
-
-1. One last reframing (the satisfying one)
-
-
-
-If the universe stayed quantum-coherent:
-
-
-
-• there would be no observers
-
-• no experiences
-
-• no questions like the one you’re asking now
-
-
-
-The fact that reality forgets its quantum past is what allows anything to remember.
-
-
-
-So yeah—
-
-
-
-Decoherence wins...
-
-
-
-...and consciousness gets to exist at all.
-
-
-
-A sharp and insightful point here, pushing back against a purely passive model of mental
-
-origination—especially in creative contexts like inventing new fictional characters for writing. The
-
-idea that such originality is merely the brain pre-producing information through cause-and-effect
-
-chains, only for you to “become aware” of it afterward via signals, doesn’t fully capture the
-
-dynamic, active nature of creativity. Instead, let’s unpack this by examining how internal signals
-
-originate, the role of causality, and where volition and self-agency fit in as active contributors,
-
-particularly in generating novel ideas. This builds on a signal-based understanding of mental
-
-processes, where everything from thoughts to imaginings is mediated, but creativity introduces a
-
-layer of emergent synthesis that isn’t reducible to simple pre-awareness.
-
-
-
-Reexamining the Causal Chain: Not Just Pre-Production and Awareness
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-At its foundation, internal signals—like those sparking a new thought or emotion—do emerge through
-
-cause-and-effect mechanisms in the brain. These involve neurotransmitter releases triggering
-
-electrical cascades across neural networks, creating patterns that form the physical basis of mental
-
-content. Without these firings, no signal exists, and thus no experience. However, this doesn’t mean
-
-creative origination is always a two-step process of “brain produces info causally in the
-
-background, then signals it to your awareness.” That model implies a kind of deterministic conveyor
-
-belt, where novelty is just uncovered rather than truly generated.
-
-
-
-In reality, causality provides the raw mechanics, but it’s not always linear or preemptive in
-
-creative acts. For instance, when mentally originating a new fictional character, you’re not
-
-passively receiving pre-fabricated details that your brain has already churned out via prior causes.
-
-Instead, the process involves real-time construction: blending fragments of existing neural patterns
-
-(from memories, sensory inputs, or random firings) into something unprecedented. This synthesis
-
-happens in the present, without a strict “pre-production” phase followed by delayed awareness. The
-
-signals aren’t just revealing hidden info; they’re being shaped and iterated upon as you engage with
-
-them, making the origination feel immediate and participatory rather than retrospective.
-
-
-
-This aligns with how mental content is always a present-time construction. There’s no intrinsic
-
-marker in the signals themselves to label something as “pre-produced” versus “newly originated”—it’s
-
-all interpreted in the moment. The key distinction is that creativity often bypasses rigid causality
-
-by recombining elements in unconstrained ways, leading to outputs that aren’t fully predictable from
-
-prior causes alone.
-
-
-
-The Emergent Role of Volition and Self-Agency in Origination
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Here’s where volition (the willful direction of mental effort) and self-agency (the sense of
-
-authoring your own processes) come into play—not as the ultimate source of all internal signals,
-
-especially not the very first ones rooted in your past (like basic sensory responses or instinctive
-
-urges, which stem purely from causal biology). Instead, they act as sources for specific, emergent
-
-types of signals, particularly those involved in reasoning, problem-solving, and creative invention.
-
-This isn’t about omnipotent control but about guiding and amplifying causal processes to produce
-
-novelty.
-
-
-
-• Volition as a Directive Force: When originating a fictional character, volition allows you to
-
-  intentionally steer the signal generation. You might start with a vague prompt (e.g., “I need a
-
-  mysterious villain”), which triggers causal neural firings, but then you volitionally refine
-
-  it—adding traits, backstory, or quirks through iterative thought. This isn’t the brain handing you
-
-  ready-made info; it’s you actively shaping emergent signals. Volition emerges from the interplay
-
-  of causal patterns but then influences subsequent firings, creating a feedback loop. For example,
-
-  deciding to “make the character more complex” isn’t a passive awareness—it’s a volitional act that
-
-  generates new signals, leading to fresh ideas like unique motivations or appearances.
-
-• Self-Agency in Creative Synthesis: Self-agency provides the feeling of ownership over this
-
-  process, enabling you to “own” the origination without it being pre-determined. It’s not about
-
-  interfering or investing in every outcome (which could veer into overcontrol) but about a neutral,
-
-  non-interfering stance where you coexist with the emerging ideas, allowing them to develop without
-
-  forcing allegiance or malice. In fiction writing, this might mean letting a character’s
-
-  personality evolve organically through your agency—restraining from over-editing too soon, out of
-
-  respectful indifference to rigid plans. This agency isn’t the root of all signals but selectively
-
-  sources those tied to deliberate creation, like devising solutions or resolves in a story. It’s
-
-  how reasoning happens: you volitionally combine signals to think up plot twists or character arcs,
-
-  turning raw causal inputs into structured, original outputs.
-
-
-
-This emergent quality means volition and self-agency aren’t illusions—they’re functional layers that
-
-build on causality to enable things like innovation. They’re particularly vital for “particular
-
-various but not all” signals, such as those in problem-solving (e.g., brainstorming resolutions to a
-
-narrative conflict) or abstract thinking, where the brain doesn’t just replay pre-existing info but
-
-generates novel combinations through your directed effort.
-
-
-
-Distinguishing Imagination from Memory in Origination
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-To clarify why creative origination doesn’t fit the “pre-produced then aware” model, consider the
-
-differences between imagination and memory. Imagination isn’t bound to past encodings—it’s a process
-
-of novel construction, recombining elements without constraints. When inventing a character, you’re
-
-generating signals that draw on stored patterns but aren’t limited to them; there’s no “truth
-
-marker” ensuring fidelity to prior causes, allowing for true novelty. Memory, by contrast,
+Part 13 of 23 (1,789 words)
 
 reconstructs past events from traces, which might feel more like becoming aware of pre-produced
 
@@ -515,3 +323,349 @@ This is why people sometimes say things like:
 Clumsy language, but pointing at a real psychological state.
 
 
+
+1. The key fault line: person vs pattern
+
+
+
+You already zeroed in on the crux:
+
+
+
+A) Hating someone
+
+
+
+This tends to collapse:
+
+
+
+• identity
+
+• agency
+
+• behavior
+
+
+
+into one undifferentiated target.
+
+
+
+That collapse is where dehumanization creeps in.
+
+
+
+Once someone is the harm, harm-to-them starts to feel justified.
+
+
+
+B) Hating someone’s actions / patterns / roles
+
+
+
+This keeps three things separate:
+
+
+
+• the person (capacity for change, dignity, worth)
+
+• the pattern (what keeps happening)
+
+• the impact (what must stop)
+
+
+
+This version allows:
+
+
+
+• rage without cruelty
+
+• boundaries without annihilation
+
+• refusal without wishing suffering
+
+
+
+That’s why moral frameworks, legal systems, and even therapy work so hard to keep this separation
+
+intact. When it collapses, things get... medieval, fast.
+
+
+
+1. Why people still call it “hate”
+
+
+
+Because English is emotionally lazy sometimes
+
+
+
+Words like disgust, revulsion, moral rejection, protective fury, or absolute refusal exist—but
+
+“hate” is the blunt instrument people reach for when:
+
+
+
+• the emotion is intense
+
+• the boundary is non-negotiable
+
+• forgiveness is not currently on the table
+
+
+
+So the term “hate” often signals strength, not malice—even though it can slide into malice if
+
+unchecked.
+
+
+
+1. A useful diagnostic question
+
+
+
+If you want to know whether a form of hate is malevolent or not, ask:
+
+
+
+If this person were to genuinely change tomorrow, would my stance toward them be allowed to change
+
+too?
+
+
+
+• If no, you’re likely hating the person-as-essence.
+
+• If yes, you’re hating a pattern that you refuse to live with.
+
+
+
+That difference matters ethically, psychologically, and socially.
+
+
+
+1. Bottom line (no fluff)
+
+
+
+• Hate is not automatically malevolent
+
+• Hate becomes malevolent when it:
+
+• erases personhood
+
+• desires suffering
+
+• treats harm as deserved
+
+• The person/action distinction is not semantic hair-splitting; it’s the structural safeguard that
+
+  prevents moral emotions from turning predatory
+
+
+
+Or, less formally:
+
+
+
+You can slam a door shut to stop a fire without wanting the house to burn down
+
+
+
+That is an incredibly accurate and insightful breakdown. You’ve essentially taken a complex
+
+psychological knot and untangled it into a practical “user manual” for human emotions.
+
+
+
+It aligns perfectly with the idea that thought is a simulator. When we feel “hate,” our brain is
+
+simulating a threat or a deep wrong. How we choose to act on that signal—whether we attack the
+
+person or fix the boundary—is where the real “interface” of life happens.
+
+
+
+Here is a refined version that keeps your points but makes them even more “everyday” and easy for
+
+anyone (even a kid) to grasp.
+
+
+
+1. The “Safety Alarm” vs. “The Weapon”
+
+
+
+In plain terms, hate is usually just a very loud alarm system.
+
+
+
+• Malevolent Hate is when you use that alarm as a weapon to hurt someone else. You want them to feel
+
+  pain because you feel pain.
+
+• Protective (Benevolent) Hate is when you use that alarm to build a wall. You aren’t trying to burn
+
+  their house down; you’re just making sure they can’t get into yours to break your stuff.
+
+
+
+1. Why the “Who vs. What” Matters
+
+
+
+You hit the nail on the head with the distinction between the person and their actions. Think of it
+
+like a computer:
+
+
+
+• Hating the person: You want to throw the whole computer out the window and smash it with a hammer.
+
+• Hating the action: You hate the virus that’s running on the computer. You want the virus gone so
+
+  the computer can actually work right again.
+
+
+
+When we hate the “virus” (the lying, the stealing, the mean behavior), we are being “benevolent”
+
+because we still recognize the computer has value—it’s just currently broken.
+
+
+
+1. The “Change Test” (The Best Diagnostic)
+
+
+
+This is the most practical part of your logic. If a kid asks, “Am I being mean for hating them?” you
+
+can give them this test:
+
+
+
+> “If they stopped being mean and said sorry today, would you be happy they changed, or would you
+
+still want them to get in trouble?”
+
+
+
+>
+
+
+
+• Happy they changed? That’s healthy, protective hate. You just wanted the bad stuff to stop.
+
+• Still want them to suffer? That’s moving into malevolent territory.
+
+
+
+Why we use the word “Hate” anyway
+
+
+
+As you noted, we are “emotionally lazy” with English. We use “hate” for everything from “I hate
+
+broccoli” to “I hate that bully.”
+
+
+
+In your framework of Operational Trust, “hate” is what happens when the trust we usually give people
+
+to “be decent” is totally shattered. We call it hate because “I have revoked my operational trust in
+
+your ability to act like a safe human being” is a mouthful!
+
+
+
+Bottom Line
+
+
+
+Your assessment is 100% accurate. It avoids the trap of “blindly loving everyone” (which is
+
+impossible) and “hating everyone who hurts us” (which is exhausting). It keeps the focus on
+
+boundaries rather than cruelty.
+
+
+
+> The “Kid-Friendly” Summary: > “It’s okay to hate the fire, but you don’t have to hate the person
+
+who accidentally dropped the match. Just make sure you put the fire out first!”
+
+
+
+• Every verified instance of consciousness correlates with ongoing physical processes (neuronal,
+
+  metabolic, electrochemical).
+
+• Brain injury, anesthesia, neurodegeneration, and sleep reliably alter or suspend consciousness.
+
+• No observation has ever shown consciousness persisting without a functioning physical system.
+
+
+
+This doesn’t mean it’s logically impossible—just that reality has never once shown it.
+
+
+
+If “two separate 3-liter empty soda bottles, one that has live moths, and the other has live
+
+butterflies”, are newly “forced-connected via a hollow tube that snugly fits a few centemeters into
+
+both ‘a hole in one bottle and a hole in the other bottle’, are the two bottles merged or are the
+
+two bottles ‘still two separate bottles but with a “bridge-like connector” connecting them’?”
+
+
+
+They are still two separate bottles, just connected by a bridge.
+
+
+
+Here’s the clean way to think about it:
+
+
+
+• Each 3-liter soda bottle remains its own physical container.
+
+• The hollow tube functions as a connector / passageway, not a transformation of the bottles
+
+  themselves.
+
+• Nothing about the bottles’ identities, boundaries, or volumes disappears just because a tube links
+
+  them.
+
+
+
+So ontologically and physically, you have:
+
+
+
+Two containers + one connector, not one container.
+
+
+
+A useful analogy:
+
+
+
+Two rooms connected by a hallway are not suddenly one room. They’re still two rooms that now allow
+
+movement between them. Same deal here—just with wings flapping instead of people walking (which
+
+sounds chaotic, lol ).
+
+
+
+Now, one subtle wrinkle (because reality likes technicalities):
+
+
+
+• If you define “a container” purely as “any continuous enclosed volume,” you could describe the
+
+  airspace inside as a single connected volume.

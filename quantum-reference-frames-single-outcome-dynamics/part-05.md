@@ -1,202 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 05 of 40 (1,250 words)
-
-4.6 L and S: Dynamical Idleness, Accuracy, and Non-Supervenience
-
-
-
-Proposition 4.9 (Dynamical idleness of L). For any two admissible complete states Ω = (S, L) and Ω*
-
-= (S, L*) with the same S, the joint distribution of the next state and next event is the same.
-
-
-
-Proof. The kernel of Definition 4.2 takes Ψ_σ as its only input. □
-
-
-
-Corollary 4.10 (The future is conditionally independent of the past given the present). Let 𝔉⁺_σ
-
-denote the possible future trajectory (k_{σ′}, Ψ_{σ′}, k_{σ″}, Ψ_{σ″}, …) after stage σ, regarded as
-
-a random variable. Then for every admissible Ω_σ,
-
-
-
-        Pr(𝔉⁺_σ | S_σ, L_σ) = Pr(𝔉⁺_σ | S_σ).
-
-
-
-Proof. The distribution of any finite segment of 𝔉⁺_σ is a product of kernels, each depending only
-
-on the preceding state (Proposition 4.9); the full trajectory measure is determined by its finite
-
-segments. □
-
-
-
-The measure in Corollary 4.10 is a probability measure over possible continuations of the present
-
-state. Defining it does not presuppose that any future trajectory exists: exactly one continuation
-
-becomes actual, event by event, as the corresponding transitions occur.
-
-
-
-Corollary 4.10 is the formal version of (C-g). It separates three things that CTGP holds apart: the
-
-past being ontologically definite (L is determinate), the past being recoverable from present
-
-physical information (a matter of what S encodes, §5.5), and the past having further causal
-
-influence (it has none beyond what S carries). The first does not entail either of the others. L is
-
-part of the complete ontology but not a dynamical variable, so generability’s restriction on
-
-enlarging the state space (C-f) is not triggered: L does not enlarge the space on which the law
-
-acts.
-
-
-
-Proposition 4.11 (Accuracy). For n ≥ 1 and ω ∈ ℋ_n, the present state is fixed by the two most
-
-recent entries of L(ω) together with the law: if Had(σ_{n−1}, [Ψ]) and Had(σ_{n−1} → σ_n, k) belong
-
-to L(ω), then S_{σ_n} = [F_k W Ψ]. At the initial stage σ_0, L is empty and S_{σ_0} is an initial
-
-condition not fixed by L.
-
-
-
-Proof. Definitions 4.2 and 4.6. □
-
-
-
-Proposition 4.11 is a consistency condition, not a dependence of the dynamics on L. Both S_{σ_n} and
-
-ΔL are outputs of the same transition, and L does not select k. Reconstructing S from L uses the
-
-law; reconstructing earlier states uses the initial-state entry Had(σ_0, [Ψ_{σ_0}]) as well.
-
-
-
-The non-supervenience thesis (C-c) says that a present state does not fix its past. Under presentism
-
-the initial stage is a past stage like any other, so the past includes the initial state. Two senses
-
-of non-supervenience should therefore be distinguished. The weak sense fixes the initial state and
-
-asks whether different event sequences can end in the same present. The strong sense asks whether
-
-the present state fixes the complete past, including the initial state.
-
-
-
-Proposition 4.12 (Strong non-supervenience for invertible laws). Suppose W is unitary and every F_k
-
-is invertible on H_phys. Then for every n ≥ 1, every present ray [Φ] in H_phys, and every sequence ω
-
-∈ 𝒦^n, there is exactly one initial ray [Ψ_{σ_0}], depending on ω, from which ω has nonzero
-
-probability and ends at [Φ]. Consequently, across possible initial conditions, every present ray can
-
-be reached along every finite event sequence, and the complete past, including the initial
-
-condition, is not a function of the present state. The proposition does not assert that a single
-
-fixed initial state reaches a given present ray along every event sequence.
-
-
-
-Proof. Define Ψ_{σ_0} ∝ (F_{k_n} W ⋯ F_{k_1} W)^{−1} Φ, which exists because each factor is
-
-invertible. Running ω forward from this state returns a vector proportional to Φ, and each
-
-transition probability is nonzero because an invertible operator annihilates no nonzero vector. Any
-
-other initial ray reaching [Φ] along ω is mapped to the same ray by the invertible product, so it
-
-coincides with this one. □
-
-
-
-Proposition 4.13 (Weak non-supervenience in a special regime). In the model of Part III with sharp
-
-flashes (s → 0) and no hopping (J = 0), there exist an initial state and two distinct histories ω ≠
-
-ω* ∈ ℋ_2 that end in the same present ray.
-
-
-
-Proof. Proposition 8.1. □
-
-
-
-In the model of Part III with finite width s > 0 and hit probability λ < 1, every Kraus operator is
-
-invertible (§7.2), so Proposition 4.12 applies: for all such parameter values, the complete past is
-
-not fixed by the present state, in the strong sense. Weak non-supervenience is established in the
-
-special regime of Proposition 4.13. Whether it holds for generic finite-width parameters is open; a
-
-numerical search over 4,096 three-stage histories at generic parameters found no exact coincidences
-
-(§8.3). Strong non-supervenience is the sense relevant to CTGP, since under presentism the initial
-
-condition is one more fact about the past.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-5. The Criteria
-
-----------------------------------------------------------------------------------------------------
-
-
-
-5.1 The Determinacy Criterion (Task T1)
-
-
-
-Definition 5.1 (Determinate propositions). At stage σ, with complete state Ω_σ = (S_σ, L_σ), the
-
-determinate propositions fall into three tiers.
-
-
-
-    Tier 1 (events). For each past transition σ″ → σ‴ with σ‴ ≤ σ and each k ∈ 𝒦, the proposition
-
-    “in the generation of σ‴, event k occurred” is determinate. It is true iff Had(σ″ → σ‴, k) ∈
-
-    L_σ. Boolean combinations of Tier 1 propositions are determinate.
-
-
-
-    Tier 2 (states). For each σ″ ≤ σ, the proposition “at σ″ the state was [Ψ]” is determinate. For
-
-    σ″ < σ it is true iff Had(σ″, [Ψ]) ∈ L_σ; for σ″ = σ it is true iff S_σ = [Ψ].
-
-
-
-    Tier 3 (sharp properties). For an invariant projector Q and σ″ ≤ σ, the proposition “Q held at
-
-    σ″” is determinately true iff Q Ψ_{σ″} = Ψ_{σ″}, determinately false iff Q Ψ_{σ″} = 0, and
-
-    otherwise has no determinate truth value.
-
-
-
-No proposition about a stage later than σ is determinate at σ. Future-directed claims have only the
-
-probabilities assigned by the kernel.
-
-
-
-Tier 1 carries single-outcome realism. In a flash ontology the macroscopic world is the pattern of
+Part 05 of 35 (1,792 words)
 
 events, so “the pointer pointed left” is a Tier 1 fact about which events occurred, not a Tier 3
 
@@ -237,3 +41,317 @@ a single-coordinate statement in frame A can be a statement about a correlation 
 coordinates in frame B (§6.3). A different form is not a different fact.
 
 
+
+5.2 Cross-Frame Identification (Task T2)
+
+
+
+Definition 5.3 (Frame description). A frame-A description at stage σ is a triple D^A_σ = (σ, ψ^A_σ,
+
+L^A_σ), where ψ^A_σ is a ray in H_A and L^A_σ is a set of frame-A past-tensed propositions of the
+
+forms Had(σ″, [φ]) with φ ∈ H_A and Had(σ″ → σ‴, k, E^A_k), where E^A_k = (F^A_k)† F^A_k is the
+
+frame-A form of the effect of event k.
+
+
+
+Definition 5.4 (Translations). The frame-A translation τ_A maps neutral propositions to frame-A
+
+propositions:
+
+
+
+        τ_A Had(σ″, [Ψ]) = Had(σ″, [R_A Ψ]),     τ_A Had(σ″ → σ‴, k) = Had(σ″ → σ‴, k, E^A_k).
+
+
+
+Because R_A is unitary and E^A_k is determined by k, τ_A is a bijection. The frame-change
+
+translation is τ_{A→B} = τ_B ∘ τ_A^{−1}; it replaces each state [φ] by [V_{A→B} φ] and each effect
+
+E^A_k by V_{A→B} E^A_k V_{A→B}^{−1} = E^B_k, keeping the stage indices and the event label.
+
+
+
+Criterion 5.5 (Cross-frame identification). Frame descriptions D^A_σ and D^B_τ describe the same
+
+present world, with the same realized history, iff
+
+
+
+    (C1) Same stage: σ = τ.
+
+
+
+    (C2) State correspondence: ψ^B ≐ V_{A→B} ψ^A.
+
+
+
+    (C3) History correspondence: L^B = τ_{A→B}(L^A).
+
+
+
+Theorem 5.6 (Common perspective-neutral pre-image). D^A_σ and D^B_σ satisfy (C1)–(C3) iff there is a
+
+single neutral complete state Ω_σ = (S_σ, L_σ) with ψ^A ≐ R_A Ψ_σ, ψ^B ≐ R_B Ψ_σ, L^A = τ_A(L_σ),
+
+and L^B = τ_B(L_σ).
+
+
+
+Proof. (⇐) Given Ω_σ, ψ^B ≐ R_B Ψ_σ = R_B R_A^{−1} R_A Ψ_σ ≐ V_{A→B} ψ^A, which is (C2), and L^B =
+
+τ_B(L_σ) = τ_B τ_A^{−1} τ_A(L_σ) = τ_{A→B}(L^A), which is (C3). (⇒) Given (C1)–(C3), define Ψ_σ =
+
+R_A^{−1} ψ^A and L_σ = τ_A^{−1}(L^A). Then R_A Ψ_σ = ψ^A by construction, R_B Ψ_σ = V_{A→B} ψ^A ≐
+
+ψ^B by (C2), τ_A(L_σ) = L^A, and τ_B(L_σ) = τ_{A→B}(L^A) = L^B by (C3). □
+
+
+
+The content of Theorem 5.6 is clearest when stated in terms of orbits.
+
+
+
+Definition 5.7 (Description orbit). Let 𝔉 be the set of admissible frames. For a complete state Ω_σ
+
+= (S_σ, L_σ), its description orbit is
+
+
+
+        𝒟(Ω_σ) = { (σ, [R_A Ψ_σ], τ_A(L_σ)) : A ∈ 𝔉 }.
+
+
+
+Proposition 5.8 (Orbit identification). (i) Two frame descriptions satisfy Criterion 5.5 iff they
+
+belong to the same description orbit. (ii) Distinct complete states have disjoint orbits, so the
+
+orbits partition the set of frame descriptions. (iii) Consequently, satisfying Criterion 5.5 is an
+
+equivalence relation. (iv) If Ω_σ is admissible (Ω_σ ∈ 𝔒_n), every member of its orbit describes
+
+that admissible complete state.
+
+
+
+Proof. (i) is Theorem 5.6 restated in terms of orbits. (ii) Each frame description belongs to the
+
+description space of exactly one frame A. If two complete states Ω and Ω* share an orbit member,
+
+that member is (σ, [R_A Ψ], τ_A(L)) = (σ, [R_A Ψ*], τ_A(L*)) for a single frame A, and injectivity
+
+of R_A and τ_A gives [Ψ] = [Ψ*] and L = L*. (iii) follows from (i) and (ii). (iv) holds by
+
+definition of the orbit. □
+
+
+
+Proposition 5.9 ((C3) is not redundant). There exist frame descriptions satisfying (C1) and (C2) but
+
+not (C3); they describe different realized histories with the same present state. More precisely:
+
+
+
+    (a) For complete histories, in which the initial condition counts as part of the past, such
+
+    pairs exist for every invertible law.
+
+
+
+    (b) Within a single space ℋ_n with a fixed initial state, such pairs exist in the special regime
+
+    of Proposition 4.13. Whether they exist for generic finite-width parameters is open (§8.3).
+
+
+
+Proof. (a) By Proposition 4.12, for any present ray [Φ] and two distinct event sequences there are
+
+initial rays from which each sequence ends at [Φ]. The two complete histories have different truth
+
+profiles, since their transition propositions differ. Take the frame-A description of one and the
+
+frame-B description of the other: (C1) and (C2) hold, and (C3) fails. (b) The same argument applies
+
+to the two histories of Proposition 4.13 (Proposition 8.1), which share an initial state. □
+
+
+
+Case (a) compares descriptions drawn from admissible spaces with different initial conditions. Under
+
+presentism the initial condition is a past fact like any other, so this is the comparison relevant
+
+to CTGP; case (b) shows that the phenomenon also occurs, in a special regime, with the initial
+
+condition held fixed.
+
+
+
+Three levels of identity can now be distinguished, and the point at which interpretation enters can
+
+be located exactly.
+
+
+
+    Representational equivalence. Two descriptions are related by a valid QRF transformation: (C1)
+
+    and (C2) hold, so the two quantum states are reductions of one perspective-neutral state. This
+
+    is a mathematical relation between representations.
+
+
+
+    Dynamical equivalence. The two frames’ laws are related by the frame-change unitary (Definition
+
+    5.11), so their probability laws and event records transform consistently (Theorem 5.12). This
+
+    is a mathematical relation between laws.
+
+
+
+    Ontological identity. The two descriptions concern one realized present and one realized
+
+    history. Within the model, this is membership in one description orbit (Proposition 5.8).
+
+
+
+The first two levels are theorems. The step from orbit membership to ontological identity is not a
+
+theorem of quantum mechanics. It is the following interpretive thesis, which is what CTGP adds.
+
+
+
+Thesis 5.10 (Orbit realism). Each description orbit of an admissible complete state represents
+
+exactly one realized present together with exactly one realized history. Frame descriptions in one
+
+orbit are descriptions of the same world; descriptions in different orbits are descriptions of
+
+different possible worlds, at most one of which is actual.
+
+
+
+Thesis 5.10 gives the precise answer to the question how one can establish that two descriptions
+
+refer to the same realized history rather than assuming it. Four observations make up the answer.
+
+
+
+First, given the thesis, identity of history is not an extra posit laid over frame descriptions; it
+
+is a definite condition, (C3), that can fail. Second, it cannot be settled by the quantum state
+
+alone: Proposition 5.9 shows that state correspondence is compatible with different histories, so
+
+identity of history is carried by L, which is a direct argument for including the Lucretian profile
+
+in the complete ontology. Third, correspondence is preserved by the dynamics (Theorem 5.12(c)), so
+
+frames cannot drift into describing different histories, and correspondence is not maintained by
+
+stipulation at each stage. Fourth, whether two descriptions do in fact correspond is an ontological
+
+question, and whether anyone can verify that they do is an epistemic question; §5.5 shows that these
+
+come apart and that Criterion 5.5 is an exact criterion of identity, not in general an
+
+experimentally decidable one.
+
+
+
+5.3 Valid Transformations of the Law
+
+
+
+Definition 5.11 (Frame-relative laws describing one world). Frame-relative laws (W^A, {F^A_k}) on
+
+H_A and (W^B, {F^B_k}) on H_B describe one world iff W^B = V_{A→B} W^A V_{A→B}^{−1} and F^B_k =
+
+V_{A→B} F^A_k V_{A→B}^{−1} for every k. Equivalently, by Remark 3.8, both are frame forms of one
+
+admissible neutral law.
+
+
+
+Theorem 5.12 (Covariance of generation). Let (W, {F_k}) be an admissible neutral law, with frame
+
+forms (W^A, {F^A_k}) and (W^B, {F^B_k}). Let Ψ_{σ_0} ∈ H_phys, ψ^A_{σ_0} = R_A Ψ_{σ_0}, and
+
+ψ^B_{σ_0} = R_B Ψ_{σ_0}. Then:
+
+
+
+    (a) For every finite sequence ω = (k_1, …, k_n), the probability of ω is the same whether
+
+    computed in frame A, in frame B, or in the neutral description.
+
+
+
+    (b) Along every history ω of nonzero probability, the frame-evolved states satisfy ψ^B_{σ_j} ≐
+
+    V_{A→B} ψ^A_{σ_j} for j = 0, …, n.
+
+
+
+    (c) Consequently the probability measure over histories is frame-independent, the sets ℋ_n of
+
+    admissible histories coincide in all frames, and if D^A_{σ_0} and D^B_{σ_0} correspond, then for
+
+    every realized history the descriptions D^A_{σ_n} and D^B_{σ_n} generated from them correspond.
+
+
+
+Proof. By induction on n. Suppose ψ^A_{σ_j} ≐ R_A Ψ_{σ_j} and ψ^B_{σ_j} ≐ R_B Ψ_{σ_j}. By Lemma 3.7,
+
+Pr^A(k) = ‖F^A_k W^A R_A Ψ_{σ_j}‖² = ‖R_A F_k W Ψ_{σ_j}‖² = ‖F_k W Ψ_{σ_j}‖², and likewise for frame
+
+B. The updated frame states are R_A Ψ_{σ_{j+1}} and R_B Ψ_{σ_{j+1}} after normalization, which gives
+
+(b). The probability of a sequence is the product of conditional probabilities, which gives (a) and
+
+the equality of the sets ℋ_n. For (c), the truth-profile updates in the two frames add τ_A(ΔL) and
+
+τ_B(ΔL) for the same neutral ΔL, so (C3) is preserved; (C1) is preserved because both frames advance
+
+the same stage index; and (C2) is (b). □
+
+
+
+Corollary 5.13 (Failure of same-form laws). If frame B adopts a law with the same matrices as frame
+
+A’s law but written in B’s coordinates, that is, W^B = W^A and F^B_k = F^A_k as matrices, then in
+
+general the two frames assign different probabilities to the same histories and do not describe one
+
+world.
+
+
+
+Proof. Such a pair satisfies Definition 5.11 only if W^A and every F^A_k commute with V_{A→B}, which
+
+fails in general. Section 8 gives an instance with total-variation distance 0.180 between the two
+
+measures over histories. □
+
+
+
+Corollary 5.13 shows what “valid transformation” excludes: it is not enough for each frame to use a
+
+law that looks natural from its own point of view; the laws must be related by the frame-change
+
+unitary. This is the QRF analogue of requiring that a law be written in covariant form.
+
+
+
+Corollary 5.14 (Covariant generability). In every frame A, the future is conditionally independent
+
+of the past given the present:
+
+
+
+        Pr^A(𝔉⁺_σ | ψ^A_σ, L^A_σ) = Pr^A(𝔉⁺_σ | ψ^A_σ),
+
+
+
+and this conditional distribution is the image under the frame change of the corresponding

@@ -1,6 +1,22 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 08 of 26 (1,762 words)
+Part 08 of 25 (1,791 words)
+
+at the level of the ontological realization of spacetime events rather than modifying the local
+
+gravitational field equations. In this sense CTGP extends the interpretation of spacetime evolution
+
+without altering the empirically verified structure of General Relativity. Within the emergent
+
+geometric regime, σ is represented by cosmological time, a geometric scalar, and therefore
+
+transforms covariantly under diffeomorphisms. Fundamentally, however, σ is interpreted as a pre-
+
+geometric generative ordering parameter rather than as a scalar field defined on a pre-existing
+
+manifold. This covariance is guaranteed by construction and does not require additional assumptions.
+
+
 
 6.9 Status of the Lagrange Multiplier λ
 
@@ -321,21 +337,3 @@ Predecessor and successor are never present together, so there is no stage at wh
 one produces the other. On CTGP, generation is primitive and tensed: the present has come to be from
 
 what was present. The division of labor is exact. Cosmological time supplies the ordering and co-
-
-presence of stages (§6.1), and the initial-value formulation supplies the lawful connection between
-
-successive stages. Neither supplies becoming itself, which is the posit that CTGP adds to both.
-
-
-
-[FIGURE: Figure 4]
-
-  Figure 4. Minkowski spacetime diagram with the light cone of an event p and simultaneity slices of
-
-  two inertial frames, illustrating the causal structure (I⁺, I⁻) underlying CTGP’s notion of
-
-  generation.
-
-
-
-----------------------------------------------------------------------------------------------------

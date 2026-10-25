@@ -1,42 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 02 of 40 (1,610 words)
-
-
-
-Two clarifications fix the status of the results. First, QRF covariance is not discovered here;
-
-within the perspective-neutral framework it is automatic for any law defined on physical states
-
-(Remark 3.9). What is shown is that a CTGP interpretation can be placed on such dynamics
-
-consistently, and what follows when it is. Second, the question whether CTGP contributes anything
-
-beyond “a QRF-covariant single-outcome model with an attached historical truth profile” has a
-
-definite answer, given in §11: CTGP’s generability, single-outcome, frame-invariant determinacy, no-
-
-revision, and definite-ordering requirements each exclude models that are QRF-covariant, and, within
-
-the perspective-neutral construction, the requirement that every realized event carry physical
-
-states to physical states makes the collapse operators act as relational operators.
-
-
-
-In brief, the answers are as follows. Determinacy is not frame-relative (§5.1). Two frame
-
-descriptions describe the same present and the same history exactly when they belong to one orbit of
-
-frame descriptions of a single complete state, which is equivalent to an explicit criterion on
-
-stage, state, and truth profile (§5.2). Matching states is not sufficient, because a present state
-
-does not fix its past; what settles identity of history is the truth profile (§5.2, §5.5). Valid
-
-frame changes intertwine the generative law, so the probability measure over histories, the
-
-conditional independence of the future from the past, and the truth of every determinate proposition
+Part 02 of 35 (1,790 words)
 
 are the same in every frame (§5.3–5.4). And L sits beside the quantum state without driving it: it
 
@@ -317,5 +281,99 @@ PART II. The Formalism
 3. Kinematics: Perspective-Neutral States and Frame Reductions
 
 ----------------------------------------------------------------------------------------------------
+
+
+
+3.1 The Perspective-Neutral State Space
+
+
+
+Let G be a finite group with identity e. Consider M + 1 subsystems labelled 0, 1, …, M, each with
+
+Hilbert space ℓ²(G), the space of complex functions on G, with orthonormal basis {|g⟩ : g ∈ G}. The
+
+basis state |g⟩ represents the subsystem having “orientation” g, for example being at site g of a
+
+lattice. This setting is chosen because every statement in it can be proved exactly.
+
+
+
+Definition 3.1 (QRF system). The kinematical space is H_kin = ℓ²(G)^{⊗(M+1)}. The group acts
+
+diagonally by
+
+
+
+        U_h |g_0, g_1, …, g_M⟩ = |h g_0, h g_1, …, h g_M⟩,
+
+
+
+and the physical, or perspective-neutral, space is the invariant subspace
+
+
+
+        H_phys = { Ψ ∈ H_kin : U_h Ψ = Ψ for all h ∈ G },  with projector  Π = (1/|G|) Σ_{h∈G} U_h.
+
+
+
+A state Ψ in H_phys assigns amplitudes only to relations among subsystems: its wave function
+
+satisfies Ψ(h g_0, …, h g_M) = Ψ(g_0, …, g_M) for all h.
+
+
+
+3.2 Frame Reductions
+
+
+
+Definition 3.2 (Frame reduction). Choosing subsystem A as the reference frame, the frame-relative
+
+space is H_A = ℓ²(G)^{⊗M}, describing the other M subsystems relative to A. The reduction map R_A :
+
+H_phys → H_A conditions the frame on the identity orientation and rescales:
+
+
+
+        (R_A Ψ)(x_1, …, x_M) = √|G| · Ψ(e, x_1, …, x_M)       (frame A taken as subsystem 0).
+
+
+
+Its inverse embeds a frame-relative state into the invariant sector:
+
+
+
+        R_A^{−1} φ = |G|^{−1/2} Σ_{a∈G} Σ_{x} φ(x_1, …, x_M) |a, a x_1, …, a x_M⟩.
+
+
+
+The same definitions apply with any other subsystem as the frame, with the remaining subsystems
+
+listed in a fixed order.
+
+
+
+Proposition 3.3 (Reductions are unitary). For every subsystem A, R_A is a unitary map from H_phys
+
+onto H_A, with inverse given above.
+
+
+
+Proof. Let Ψ ∈ H_phys. Invariance gives Ψ(g_0, g_1, …, g_M) = Ψ(e, g_0^{−1} g_1, …, g_0^{−1} g_M).
+
+Write φ(x) = Ψ(e, x_1, …, x_M). Then ‖Ψ‖² = Σ_{g_0} Σ_{x} |φ(x)|² = |G| ‖φ‖², so ‖R_A Ψ‖ = √|G| ‖φ‖
+
+= ‖Ψ‖. Conversely, for any φ ∈ H_A the vector R_A^{−1} φ defined above is invariant (left
+
+multiplication by h permutes the summation index a), and R_A R_A^{−1} φ = φ by direct substitution.
+
+Hence R_A is an isometry onto H_A, that is, unitary. □
+
+
+
+Definition 3.4 (Valid frame change). For frames A and B, the frame change is
+
+
+
+        V_{A→B} = R_B R_A^{−1} : H_A → H_B.
 
 

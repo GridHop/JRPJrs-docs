@@ -1,102 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 26 (1,784 words)
-
-9.4.2 Why There Is Always a Present
-
-
-
-Stated without formalism, CTGP’s core claim is one that ordinary experience already assumes: there
-
-is a way things currently are. Not a privileged coordinate system, not a universal clock reading,
-
-not a synchronization procedure — simply that reality has a current state, which is succeeded by
-
-another. On this framework that assumption is correct and is what Σ_σ formalizes. It is worth noting
-
-which side of this dispute is the revisionary one. The block universe does not merely add a claim to
-
-ordinary understanding; it denies one, holding that “the way things currently are” picks out nothing
-
-ontologically distinguished. CTGP’s burden is to show that the formalism can carry the ordinary
-
-assumption, not to motivate the assumption itself.
-
-
-
-The present also need not be postulated as an additional structure laid over spacetime. On this
-
-framework it is constituted. At any generative stage, every physical state in the universe is
-
-undergoing the transition from what it is to what it becomes next. This is CTGP’s ontological
-
-premise and is not established by general relativity, which describes evolution without asserting
-
-that later states are brought into existence; what follows here is what that premise yields, not a
-
-derivation of it. Take the totality of those transitions — one per state, across the whole universe
-
-— and that totality is the cosmic present. Σ_σ is not a surface selected from among many and then
-
-declared privileged; it is the collection of everything currently being generated. Once the
-
-generative ontology is adopted, the universe-wide present is therefore not an additional structure
-
-appended to the physical dynamics; it is constituted by the totality of physically ongoing state
-
-transitions. The posit is the generative ontology itself, not a privileged surface added on top of
-
-it. A system undergoing no change is included on the same terms, its transition being to the same
-
-state (§9.4.1).
-
-
-
-Two things must be kept apart here, because the constitutive account establishes less than it may
-
-appear to. It establishes that there is a present: the totality of transitions is well defined
-
-whether or not any observer selects a slicing. It does not by itself establish either that those
-
-transitions glue into a single spacelike hypersurface or that the resulting slicing is unique. The
-
-first is secured elsewhere in the formalism. The Hamiltonian and momentum constraints are precisely
-
-the conditions under which a local generative step is consistent with the steps taken in
-
-neighbouring regions, so the transitions cohere into a surface rather than fragmenting into
-
-unrelated local advances (§6.7; Appendix A.1). The second is not secured by the transitions at all.
-
-ADM evolution admits many-fingered time: different choices of lapse and shift foliate the same
-
-spacetime differently while describing identical physics. What selects one foliation among these is
-
-cosmological time (§6.1), the maximal proper time elapsed since the initial singularity. The
-
-constitutive argument therefore answers why there is a cosmic present; cosmological time answers
-
-which one it is. Presenting either as discharging both burdens would overstate the case.
-
-
-
-The scope of the claim should nevertheless be stated precisely, because it is easy to overstate.
-
-CTGP does not hold that every mathematical solution of the Einstein field equations possesses a
-
-unique globally privileged present. That would be false: Gödel’s rotating dust solution, Taub-NUT,
-
-and the region of the Kerr interior beyond the Cauchy horizon admit no global Cauchy foliation, and
-
-no time function of the required kind exists on them. The solution space of GR is a space of
-
-mathematical objects, most of which are not realized. What CTGP holds is that physically realized
-
-spacetime — the actual history that is generated — possesses such a present, and that the solutions
-
-lacking one are for that reason not candidate histories.
-
-
+Part 11 of 25 (1,792 words)
 
 The direction of the argument matters. Under the Causal Reconstruction Principle (§10.3), causal
 
@@ -156,13 +60,15 @@ framework:
 
 
 
-Option (1): Restrict CTGP's domain of application to cosmological-scale regions where the FLRW
+Option (1): Restrict CTGP's domain of application to globally hyperbolic spacetimes with regular
 
-approximation holds and a global Cauchy foliation exists. This is the conservative stance and is the
+cosmological time. This is the primary intended domain of the framework. It is not confined to
 
-primary intended domain of the framework. On cosmological scales, this restriction is well-motivated
+regions where the FLRW approximation holds: the level sets of cosmological time remain Cauchy
 
-by the empirical fact of CMB isotropy.
+surfaces through strong anisotropy and collapsed structure, where only their smoothness fails (§6.1;
+
+§11.4).
 
 
 
@@ -337,3 +243,131 @@ causal structure and (ii) the open-future ontology at the global level. The laye
 causality that makes this possible is stated in the Layered Causality Principle (§10.4).
 
 
+
+10.1 Interpretive Routes
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+(Q1) Decoherence-based readings: Macroscopic definiteness is approached without introducing an
+
+observer-dependent ontology; CTGP interprets the realized quasiclassical history as the generated
+
+one. Decoherence provides an account of why interference between macroscopically distinct states
+
+becomes negligible due to entanglement with environmental degrees of freedom. Decoherence alone does
+
+not select an outcome, however, so this route inherits the measurement problem rather than solving
+
+it, and it secures CTGP’s unique factual past only by assumption. CTGP treats the realized
+
+quasiclassical trajectory as generated stage by stage along n^μ.
+
+
+
+(Q2) Objective collapse models (e.g., CSL): Collapse provides a physically real stochastic
+
+actualization mechanism aligned with CTGP's ontological edge. σ can be treated as indexing collapse-
+
+updated hypersurfaces. This route has the virtue of providing an explicit physical mechanism for
+
+'selection' at each generation step.
+
+
+
+        dρ/dt = −(i/ħ)[H, ρ] − (λ_{CSL}/2) ∫ d³x [A(x), [A(x), ρ]]
+
+
+
+Here A(x) is a smeared mass-density operator and λ_{CSL} sets the collapse strength; on this route,
+
+collapse events realize the transition Σ_σ → Σ_{σ+Δσ}, making the stochastic dynamics coextensive
+
+with the growth of M(σ).
+
+
+
+(Q3) Epistemic readings: CTGP treats the wavefunction as informational while spacetime generation is
+
+ontologically basic; local predictions remain unchanged. On this route, the quantum state encodes
+
+epistemic facts about the actual generated structure, not additional ontological elements. Like
+
+decoherence-based readings, this route does not itself select an outcome, so it secures CTGP’s
+
+unique factual past only by assumption; collapse models and foliation-dependent hidden-variable
+
+theories supply that uniqueness through their dynamics. Relational interpretations, which make facts
+
+relative to observers, conflict with a unique factual past and are not among CTGP’s available
+
+routes.
+
+
+
+CTGP does not require a specific quantum interpretation, but it is most naturally aligned with
+
+approaches that provide definite macroscopic outcomes at the present edge — collapse models and
+
+foliation-dependent hidden-variable theories, such as relativistic Bohmian mechanics with a
+
+covariantly fixed foliation, being the primary candidates. CTGP thus requires single-outcome
+
+realism: at each stage, each measurement has exactly one realized macroscopic outcome. The standard
+
+Everettian ontology, on which all branches are physically real, conflicts with this requirement,
+
+although not with the cosmological foliation itself: an Everettian could accept the foliation and a
+
+unique universal state on each level set while denying that each stage has a unique macroscopic
+
+outcome. The claim is specific to CTGP; it is not the claim that no-collapse quantum theories are
+
+incompatible with presentism in general.
+
+
+
+Scope of quantum-compatibility claims. CTGP’s quantum-compatibility claims are conditional rather
+
+than unconditional. Relativistic hypersurface-path independence is asserted only for admissible
+
+local update generators whose spacelike-separated densities commute on a common invariant domain and
+
+satisfy standard energy-bound and closability conditions (formalized in Proposition 17.16).
+
+Likewise, continuum completely positive dynamics are claimed only as limits of UV-regularized local
+
+semigroups under trace-norm convergence assumptions (Theorem 17.17). On the classical side, any
+
+CTGP-induced correction terms are required to be perturbatively small relative to the
+
+Einstein–matter principal part, so that ADM constraint violation remains O(ε) in Sobolev norm on
+
+local existence intervals (Theorem 17.14). In strong-curvature regimes, CTGP treats smooth σ as an
+
+emergent continuum representative of a more primitive causal growth ordering rather than as a
+
+globally valid classical scalar (Proposition 17.18).
+
+
+
+Corollary: CTGP entails a unique factual past. M(σ) contains exactly one realized causal history.
+
+Any quantum interpretation incompatible with this consequence — including any that treats past
+
+branches as ontologically real — falls outside CTGP’s scope regardless of its empirical status.
+
+
+
+10.2 Pre-Classical Regime and Emergent Effective Laws
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP does not posit an absence of law at any stage of cosmic history, including the Planck epoch.
+
+The earliest regime of the universe is governed by the minimal generative structure described in
+
+Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a

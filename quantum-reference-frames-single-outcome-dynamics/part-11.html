@@ -1,116 +1,194 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 11 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 11 of 40 · 1,150 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-11.md">Raw Markdown</a> <a href="part-10.html">Previous part</a> <a href="part-12.html">Next part</a></nav><main class="source"><div>9.4 What Is Postulated: The Identification of t With Cosmic Time</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 11 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 11 of 35 · 1,792 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-11.md">Raw Markdown</a><a href="part-10.html">Previous part</a><a href="part-12.html">Next part</a></nav><main class="source"><div>corresponding separation; the probability of ∅ is 1 − λ in both. Summing |λ(q_{ij} − 1/3)| over the</div>
+<div>three pairs and over d′ (using Σ_{d′} w = 1) gives λ(1/6 + 1/12 + 1/12) = λ/3, so the total-</div>
+<div>variation distance is λ/6.</div>
 <div>&nbsp;</div>
-<div>The continuous parameter t in Definition 9.1 is the time variable of a non-relativistic dynamics.</div>
-<div>Identifying it with CTGP’s generation parameter σ, which in the emergent geometric regime is the</div>
-<div>cosmological time function (CTGP – explained, §6), is a postulate of the application, not a result.</div>
-<div>Nothing in the model derives cosmic time. What the model shows is conditional: if the generation</div>
-<div>parameter is a global time with respect to which the present state evolves by a law of this form,</div>
-<div>then the continuous-time model has every property established in Part II and §9.3. Deriving the</div>
-<div>identification would require at least a relativistic version of the dynamics and an account of how</div>
-<div>its time parameter is fixed by the cosmological matter distribution; these are the subjects of §13</div>
-<div>and §14, and they remain open (§17.3, O2 and O3). The regularity of cosmological time that the</div>
-<div>identification requires is stated precisely in §13.1: the level sets are future Cauchy surfaces in</div>
-<div>general, and Cauchy surfaces under the condition of Proposition 13.1.</div>
+<div>(b) Take ω = ((A,B,1), (A,C,3)) and ω* = ((A,C,3), (A,B,1)), as in Proposition 8.1. With s = 0 the</div>
+<div>Kraus operators of both instruments are multiples of configuration projectors: F_{(i,j,d)} = √(λ/3)</div>
+<div>P_{ij}(d) and F″_{(i,j,d)} = √(λ q_{ij}) P_{ij}(d). With J = 0, W is diagonal in the configuration</div>
+<div>basis. Under the law, ω applies {F_k} at its second transition (its first event is on (A,B)), and ω*</div>
+<div>applies {F″_k} (its first event is on (A,C)). In both cases the second operator is a nonzero</div>
+<div>multiple of a configuration projector (√(λ/3) P_{AC}(3) along ω and √(λ/2) P_{AB}(1) along ω*), and</div>
+<div>the first is √(λ/3) times the other projector. Since W is diagonal and commutes with both</div>
+<div>projectors, and P_{AB}(1) P_{AC}(3) = P_{AC}(3) P_{AB}(1) = |1, 3⟩⟨1, 3| in frame-A coordinates, the</div>
+<div>unnormalized final vectors are (λ/3) e^{2iθ(1,3)} ⟨1, 3|ψ_0⟩ |1, 3⟩ and (λ/√6) e^{2iθ(1,3)} ⟨1,</div>
+<div>3|ψ_0⟩ |1, 3⟩, which differ only by a positive factor. Hence, as in Proposition 8.1: both histories</div>
+<div>have nonzero probability, because the initial state has nonzero amplitude on the configuration (x,</div>
+<div>y) = (1, 3), and both reach the present ray [R_A^{−1}|1, 3⟩]. At that ray, W Φ is the configuration</div>
+<div>state (1, 3), and the computation in (a) gives next-event distributions differing in total variation</div>
+<div>by λ/6. □</div>
 <div>&nbsp;</div>
-<div>9.5 The Discrete Stages as a Coarse-Grained Description</div>
+<div>The numerical check (Appendix B, item 12) carries out both constructions explicitly at the</div>
+<div>parameters of §8.4, with present configuration (x, y) = (1, 3): in each case the two histories end</div>
+<div>at the same present ray with nonzero probability, and the next-event distributions differ in total</div>
+<div>variation by 0.1000 = λ/6.</div>
 <div>&nbsp;</div>
-<div>The discrete-stage model of Part II is a coarse-grained description of the continuous one. With</div>
-<div>stage duration τ and λ = 1 − e^{−Λτ}, the probability of at least one hit in a stage is the same in</div>
-<div>both models. The discrete model differs in two respects: it allows at most one event per stage, and</div>
-<div>it places each event at the end of its stage. The probability of two or more hits in one stage is of</div>
-<div>order (Λτ)², so the discrete model approximates the continuous one when Λτ is small. The discrete</div>
-<div>stages are therefore not a claim that generation proceeds in jumps; they are a sampling of a</div>
-<div>continuous process, used in Part II because finite induction makes every proof exact.</div>
+<div>Example 11.3 is a genuine failure of generability relative to the model’s physical state space. The</div>
+<div>law depends on a past fact that the present state does not carry, so it is not a Markov kernel on</div>
+<div>admissible present physical states, whether the comparison is made across initial conditions or with</div>
+<div>the initial condition held fixed. It could be made generable only by adding a record variable, such</div>
+<div>as a bit registering whether the first event was on the pair (A, B), to the present physical state.</div>
+<div>CTGP permits such an enlargement only if the variable is physically instantiated on the present</div>
+<div>stage and has dynamics of its own (C-f). The result is then a different theory with an enlarged</div>
+<div>physical ontology, not a forward formulation of the original one. In this sense generability does</div>
+<div>independent work: it excludes the history-dependent law on H_phys while QRF covariance does not. The</div>
+<div>exclusion is an ontological restriction imposed by CTGP, not a mathematical impossibility. Any</div>
+<div>history-dependent process becomes Markov on a suitably enlarged state space, for instance by</div>
+<div>adjoining a memory bit. What CTGP adds is the requirement that the enlarged state be physically</div>
+<div>instantiated in the present, rather than serve as a bookkeeping variable that records the past.</div>
 <div>&nbsp;</div>
-<div>----------------------------------------------------------------------------------------------------</div>
-<div>10. CTGP’s Further Requirements (Task T5)</div>
-<div>----------------------------------------------------------------------------------------------------</div>
+<div>Two further consequences arise from combining CTGP’s commitments with the perspective-neutral</div>
+<div>construction. First, requiring every realized event to carry physical states to physical states</div>
+<div>makes each collapse operator act on physical states as an invariant, relational operator does</div>
+<div>(§7.4). This constrains how a collapse realization of CTGP acts on physical states within the</div>
+<div>construction; it does not single out the particular flash ontology of §7.2. Second, for invertible</div>
+<div>single-outcome laws the complete past is not a function of the present state (Proposition 4.12),</div>
+<div>which gives CTGP’s acknowledged cost (C-c) an exact form.</div>
 <div>&nbsp;</div>
-<div>Cross-frame consistency is not the whole of CTGP’s demands. A QRF-compatible single-outcome model</div>
-<div>must also satisfy definite generative ordering and generability. This section checks these and</div>
-<div>related requirements.</div>
-<div>&nbsp;</div>
-<div>10.1 Definite Generative Ordering</div>
-<div>&nbsp;</div>
-<div>Proposition 10.1 (Frame changes act within stages and commute with generation). For every admissible</div>
-<div>law, every pair of frames, and every event k, the frame-A and frame-B single-step maps G^A_k(ψ) =</div>
-<div>F^A_k W^A ψ / ‖F^A_k W^A ψ‖ and G^B_k satisfy V_{A→B} ∘ G^A_k ≐ G^B_k ∘ V_{A→B}. The stage index is</div>
-<div>unchanged by every frame change. The same holds in continuous time, with hit times unchanged.</div>
-<div>&nbsp;</div>
-<div>Proof. Lemma 3.7, Definition 3.4, and Proposition 9.2(iv). Frame changes are maps H_A → H_B at a</div>
-<div>fixed stage or time, and the stage or time index is a parameter of the law, not a quantum degree of</div>
-<div>freedom. □</div>
-<div>&nbsp;</div>
-<div>The linear order of stages, and the order of events within a history, are therefore the same in</div>
-<div>every frame: event k_j precedes k_{j+1} in every description, and no frame change in this class</div>
-<div>superposes the order of events. This satisfies (C-e) for spatial QRFs. The status of this result</div>
-<div>should be stated plainly. The ordering is preserved because the stage or time index is a parameter</div>
-<div>on which frame changes do not act. That is an assumption of the class of models, not a derivation of</div>
-<div>definite order from more basic principles. Whether a definite order can be maintained when the</div>
-<div>reference frame is itself a quantum clock is the principal open problem (§14; §17.3, O3).</div>
-<div>&nbsp;</div>
-<div>10.2 Generability</div>
-<div>&nbsp;</div>
-<div>The kernel of Definition 4.2, and the jump process of Definition 9.1, give the distribution of the</div>
-<div>next state and event from the present state alone. They use no data from later stages, no final-</div>
-<div>state condition, and no global self-consistency condition, so the model is generable in exactly the</div>
-<div>sense of (C-f). The state space on which the law acts is H_phys, the physically instantiated present</div>
-<div>state. The truth profile is not added to it (Proposition 4.9), so generability’s restriction on</div>
-<div>enlarging the state space is respected. By Corollary 5.14, the generability property holds in every</div>
-<div>frame. The model is stochastic, which CTGP – explained, §12.2, explicitly allows.</div>
-<div>&nbsp;</div>
-<div>10.3 Open Future and Asymmetry</div>
-<div>&nbsp;</div>
-<div>At stage σ, L_σ contains no proposition about a later stage (Theorem 4.8(e)), and no proposition</div>
-<div>about a later stage is determinate (Definition 5.1). Before a transition there are only kernel</div>
-<div>probabilities over possible events; after it there is one realized event and its Had-property. This</div>
-<div>matches clause (d) of CTGP’s Definition 17.20 and the claim that the future is ungenerated rather</div>
-<div>than merely unknown.</div>
-<div>&nbsp;</div>
-<div>10.4 No Relative Facts</div>
-<div>&nbsp;</div>
-<div>Every determinate proposition has the same truth value in every frame (Proposition 5.2 and Theorem</div>
-<div>5.16), so the model contains no frame-relative facts. It contains frame-relative descriptions and</div>
-<div>relational quantities, which CTGP does not reject (§2.3).</div>
+<div>The answer to the skeptic, then, is that CTGP picks out a proper subclass of QRF-covariant single-</div>
+<div>outcome models: those whose laws are Markov kernels on the present physical state, whose determinacy</div>
+<div>is frame-invariant, whose truth profiles are admissible and nested, whose events are definitely</div>
+<div>ordered, and, within the perspective-neutral construction, whose collapse operators act on physical</div>
+<div>states as relational operators do. The model of Part III shows that this subclass is not empty.</div>
 <div>&nbsp;</div>
 <div>====================================================================================================</div>
-<div>PART IV. Evaluation</div>
+<div>PART V. A Compatibility Program: Quantum Fields, Quantum Clocks, and Quantum Gravity</div>
 <div>====================================================================================================</div>
 <div>&nbsp;</div>
 <div>----------------------------------------------------------------------------------------------------</div>
-<div>11. What CTGP Adds Beyond QRF Covariance</div>
+<div>12. The CTGP Admissibility Criterion</div>
 <div>----------------------------------------------------------------------------------------------------</div>
 <div>&nbsp;</div>
-<div>A skeptic can grant every theorem above and still ask whether CTGP contributes any substantive</div>
-<div>constraint beyond the existence of a QRF-covariant, single-outcome stochastic model with an attached</div>
-<div>historical truth profile. It does. The test of whether a commitment adds content is whether it</div>
-<div>excludes some model that satisfies everything else. Each of the following commitments passes that</div>
-<div>test.</div>
+<div>Parts II–IV establish compatibility for a finite, non-relativistic model with spatial quantum</div>
+<div>reference frames. Part V asks how the same commitments can be carried toward relativistic quantum</div>
+<div>field theory (RQFT), temporal quantum reference frames, and quantum gravity. It does not redesign</div>
+<div>CTGP. It states the commitments to be preserved, turns them into a single admissibility criterion,</div>
+<div>proves the results that can be proved now in finite form, and identifies precisely what would have</div>
+<div>to be established, and what would count as an obstruction, in each of the three directions. Results</div>
+<div>in this Part are labeled by status: theorems and propositions are proved; definitions marked as</div>
+<div>proposals are offered for adoption rather than derived; conjectures and target results are open.</div>
 <div>&nbsp;</div>
-<div>CTGP commitment          | Formal content in this framework        | Excludes</div>
-<div>-------------------------+-----------------------------------------+-------------------------------</div>
-<div>Generability (C-f)       | The law is a Markov kernel on present   | Laws depending on past facts</div>
-<div>                         | physical states; Cor. 4.10, Cor. 5.14   | not carried by the present</div>
-<div>                         |                                         | state (Example 11.3)</div>
-<div>Single-outcome (C-d)     | Exactly one event per transition;       | Everettian readings on which</div>
-<div>                         | Theorem 4.8(a)                          | all branches are realized</div>
-<div>Frame-invariant          | Determinacy and truth invariant under   | Relational interpretations with</div>
-<div>determinacy (C-d)        | all frame changes; Prop. 5.2, Thm 5.16  | frame-relative facts</div>
-<div>No revision (C-b)        | Admissible profiles are nested;         | Readings on which later events</div>
-<div>                         | Theorem 4.8; Prop. 5.17                 | fix earlier facts</div>
-<div>Definite ordering (C-e)  | Events totally ordered, order invariant | Fundamental indefinite causal</div>
-<div>                         | under frame changes; Prop. 10.1         | order at the level of stages</div>
-<div>Lucretian accuracy (C-b) | Profiles are admissible and accurate;   | Truth profiles inconsistent</div>
-<div>                         | Theorem 4.8, Prop. 4.11                 | with the law</div>
+<div>12.1 The Central Principle and the Commitments to Preserve</div>
 <div>&nbsp;</div>
-<div>Table 2. Constraints CTGP imposes and what each excludes, even among QRF-covariant models.</div>
+<div>The organizing principle of the program is this:</div>
 <div>&nbsp;</div>
-<div>Generability needs the most care, because a law that looks future-dependent may have an equivalent</div>
-<div>forward formulation. CTGP – explained, §12.2, builds this into its criterion: future dependence</div>
-<div>counts against generability only if no empirically equivalent generable formulation exists. Three</div>
-<div>cases must therefore be distinguished: conditioning on the future as a mathematical operation, a</div>
-<div>final-boundary requirement imposed as a fundamental input, and genuine non-generability relative to</div>
-<div>the admissible present physical states. The first two are treated by Proposition 11.1 and Example</div>
-<div>11.2, the third by Example 11.3.</div>
+<div>    CTGP requires one objectively generated physical history. It does not require every observer,</div>
+<div>    clock, quantum representation, or mathematical formulation to describe that history in the same</div>
+<div>    way.</div>
 <div>&nbsp;</div>
-<div>Proposition 11.1 (Future conditioning has a forward representation). Let E be an event label and n ≥</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-11.md">Raw Markdown</a> <a href="part-10.html">Previous part</a> <a href="part-12.html">Next part</a></nav></body></html>
+<div>The principle is already at work in Parts II–IV: frame descriptions differ, sometimes as product</div>
+<div>versus entangled states (§6.3), while determinacy, truth, and the history measure are frame-</div>
+<div>independent (Proposition 5.2, Theorems 5.12 and 5.16). It leaves room for relativistic covariance,</div>
+<div>for quantum clocks, and potentially for quantum geometry, without abandoning the central ontology.</div>
+<div>It does not guarantee success: some quantum-gravity proposals could be fundamentally incompatible</div>
+<div>with CTGP, and no rigorous relativistic single-outcome model with CTGP’s structure yet exists.</div>
+<div>&nbsp;</div>
+<div>The commitments to be preserved are those of §2.3, grouped as follows.</div>
+<div>&nbsp;</div>
+<div>    (P1) Presentism (C-a): only the currently generated physical configuration exists.</div>
+<div>&nbsp;</div>
+<div>    (P2) A single realized history (C-d): there is one factual sequence of physical outcomes.</div>
+<div>&nbsp;</div>
+<div>    (P3) Generability (C-f): the complete present physical state and the laws fix the probability</div>
+<div>    distribution of successors, without indispensable independent future boundary inputs.</div>
+<div>&nbsp;</div>
+<div>    (P4) Causal inheritance (C-g): whatever part of history can still affect future physics is</div>
+<div>    instantiated in present physical variables.</div>
+<div>&nbsp;</div>
+<div>    (P5) Relational descriptive freedom (C-j): different valid reference frames may describe the</div>
+<div>    same physical history differently.</div>
+<div>&nbsp;</div>
+<div>    (P6) Emergent classical cosmic time (C-k): in the general-relativistic regime where the required</div>
+<div>    structure exists, the objective present corresponds to the level sets of a regular cosmological</div>
+<div>    time function.</div>
+<div>&nbsp;</div>
+<div>Commitment (P6) is conditional on the classical spacetime admitting the required structure, and it</div>
+<div>should not be imposed unchanged on a quantum regime in which classical geometry is undefined (§15).</div>
+<div>CTGP’s negative result on density-weighted generation (C-l) constrains every realization: the</div>
+<div>extension must not make different regions become real at rates set by local matter density. Local</div>
+<div>matter, fields, clocks, and stochastic events may evolve differently while belonging to one</div>
+<div>underlying generative ordering.</div>
+<div>&nbsp;</div>
+<div>12.2 The Criterion</div>
+<div>&nbsp;</div>
+<div>Write the ontological state at a generative stage σ as Ω_σ = (S_σ, L_σ), with S_σ the complete</div>
+<div>physically instantiated state and L_σ its primitive past-tensed truth profile. A physical extension</div>
+<div>must supply a forward transition law K_{σ,σ′}(S_σ, dS′ de) for σ′ &gt; σ, where e denotes the realized</div>
+<div>event data of the transition.</div>
+<div>&nbsp;</div>
+<div>Definition 12.1 (CTGP-admissible theory; a proposal). A physical theory is CTGP-admissible on a</div>
+<div>specified domain if it has a formulation with the following features.</div>
+<div>&nbsp;</div>
+<div>    (A1) Present state. A complete, physically instantiated present state S_σ on each stage of a</div>
+<div>    generative ordering.</div>
+<div>&nbsp;</div>
+<div>    (A2) Forward law. Transition kernels K_{σ,σ′} that are normalized and satisfy the composition</div>
+<div>    relation K_{σ,σ″} = K_{σ′,σ″} ∘ K_{σ,σ′} for σ &lt; σ′ &lt; σ″, with integration over intermediate</div>
+<div>    states and concatenation of event data.</div>
+<div>&nbsp;</div>
+<div>    (A3) One realized history. A single realized sample path of events, with the truth profile</div>
+<div>    updated from it, L_{σ′} = Update(L_σ, S_σ, e, S_{σ′}).</div>
+<div>&nbsp;</div>
+<div>    (A4) No indispensable future input. No independent future boundary condition is required, in the</div>
+<div>    sense of CTGP – explained, §12.2: future dependence disqualifies only if no empirically</div>
+<div>    equivalent forward formulation exists (compare §11).</div>
+<div>&nbsp;</div>
+<div>    (A5) Causal idleness of the past. Pr(S_{σ′}, e | S_σ, L_σ) = Pr(S_{σ′}, e | S_σ).</div>
+<div>&nbsp;</div>
+<div>    (A6) Frame and gauge consistency. Admissible reference-frame and gauge transformations preserve</div>
+<div>    the probabilities and the identities of realized physical events.</div>
+<div>&nbsp;</div>
+<div>    (A7) Classical realization. Wherever the domain includes the classical general-relativistic</div>
+<div>    regime in which CTGP claims (P6), the generative ordering is realized by the level sets of</div>
+<div>    regular cosmological time.</div>
+<div>&nbsp;</div>
+<div>Primitive past-tensed truths may be included in the ontology, but by (A5) they supply no causal</div>
+<div>input absent from the complete physical state.</div>
+<div>&nbsp;</div>
+<div>Definition 12.1 is a proposal, not a theorem about any interacting relativistic or quantum-</div>
+<div>gravitational theory. Its value is that it turns the broad question whether CTGP can be compatible</div>
+<div>with quantum physics into a list of precise mathematical obligations.</div>
+<div>&nbsp;</div>
+<div>Proposition 12.2 (The finite model is CTGP-admissible on its domain). The discrete-stage and</div>
+<div>continuous-time models of Part III satisfy (A1)–(A6), with (A6) restricted to the spatial QRFs of</div>
+<div>§3; (A7) is vacuous on their domain, which contains no classical spacetime.</div>
+<div>&nbsp;</div>
+<div>Proof. (A1): the present state is the ray [Ψ_σ] in H_phys. (A2): the kernels are Markov; in discrete</div>
+<div>time, composition is the product of one-step kernels; in continuous time it follows from the</div>
+<div>factorization of record densities (Proposition 9.9). (A3): Definition 4.6 and Theorem 4.8;</div>
+<div>Definition 9.5 and Theorem 9.7. (A4): §10.2, with §11 for the sense of future dependence. (A5):</div>
+<div>Corollary 4.10 and Proposition 9.9. (A6): Theorems 5.12, 5.16, and 9.10. □</div>
+<div>&nbsp;</div>
+<div>12.3 Three Levels of Compatibility</div>
+<div>&nbsp;</div>
+<div>“Compatibility” is used in three distinct senses, and keeping them apart is essential to every claim</div>
+<div>in this Part.</div>
+<div>&nbsp;</div>
+<div>Level        | What has been established</div>
+<div>-------------+------------------------------------------------------------------------------</div>
+<div>Conceptual   | No identified logical contradiction under specified assumptions</div>
+<div>Mathematical | A well-defined model satisfies CTGP’s stated compatibility conditions</div>
+<div>Physical     | The model reproduces the required observations and survives empirical tests</div>
+<div>&nbsp;</div>
+<div>Table 3. Three levels of compatibility.</div>
+<div>&nbsp;</div>
+<div>The finite model establishes mathematical compatibility on its own domain (Proposition 12.2). It</div>
+<div>does not establish physical compatibility, and a mathematically consistent model can be physically</div>
+<div>inadequate. The results below for the relativistic, temporal, and gravitational directions are of</div>
+<div>three kinds: finite-dimensional theorems that are analogues of the required results, conditional</div>
+<div>propositions, and open targets.</div>
+<div>&nbsp;</div>
+<div>12.4 Ontology Versus Implementation</div>
+<div>&nbsp;</div>
+<div>CTGP’s foundational ontology is what (P1)–(P6) assert. A relativistic flash model, a Bohmian field</div>
+<div>theory, or a quantum-gravitational causal structure might each satisfy Definition 12.1 by quite</div>
+<div>different physical mechanisms. They are therefore candidate realizations to be investigated, not</div>
+<div>components of CTGP itself. The same holds for the ring model of Part III: it is one realization,</div>
+<div>chosen because every claim about it can be proved.</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>13. Relativistic Quantum Fields: Realized-History Consistency</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>&nbsp;</div>
+<div>13.1 Background Structure</div>
+<div>&nbsp;</div>
+<div>The first construction should not quantize gravity. It should assume a fixed classical spacetime (M,</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-11.md">Raw Markdown</a><a href="part-10.html">Previous part</a><a href="part-12.html">Next part</a></nav></body></html>

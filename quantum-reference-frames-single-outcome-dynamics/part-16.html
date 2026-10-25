@@ -1,110 +1,135 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 16 | JRPJr's docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 16 of 40 · 1,389 words</p><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-16.md">Raw Markdown</a> <a href="part-15.html">Previous part</a> <a href="part-17.html">Next part</a></nav><main class="source"><div>&nbsp;</div>
-<div>    (c) Explicit statistics. If detector B is preceded by detectors j_1, …, j_r whose outcomes are</div>
-<div>    not conditioned on, and the field is in a quasi-free state with vanishing one-point function,</div>
-<div>    then</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 16 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 16 of 35 · 1,793 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-16.md">Raw Markdown</a><a href="part-15.html">Previous part</a><a href="part-17.html">Next part</a></nav><main class="source"><div>    Minkowski space in its Fock representation, with energy–momentum P^μ, a real test function h</div>
+<div>    with Eh ≠ 0, and A = φ(h), every state ρ of finite energy, Tr(ρ H) &lt; ∞, satisfies Tr(N(ρ) P^μ) =</div>
+<div>    Tr(ρ P^μ) + ΔP^μ(h) for all four generators, where</div>
 <div>&nbsp;</div>
-<div>        P(B reads 1) = ½ − ½ exp(−2 λ_B² ω(φ(f_B)²))</div>
-<div>                         · Π_{k=1}^{r} cos(2 λ_B λ_{j_k} E(f_{j_k}, f_B)).</div>
+<div>        ΔP^μ(h) = (1/(4σ²)) ∫ dμ_m(k) k^μ |ĥ(k)|²,     dμ_m(k) = d³k / ((2π)³ 2ω_k),</div>
 <div>&nbsp;</div>
-<div>Proof. (a) If two regions are incomparable, no causal curve joins them, so E(f_i, f_j) = 0, the Weyl</div>
-<div>operators W(s f_i) and W(t f_j) commute for all s and t, and so do all bounded functions of φ(f_i)</div>
-<div>and φ(f_j). The Kraus operators of incomparable detectors therefore commute. Theorem 13.4 applies,</div>
-<div>in the form for bounded Kraus operators noted in the proof of Proposition 13.7, in the GNS</div>
-<div>representation of the state.</div>
+<div>    with k⁰ = ω_k = (|k|² + m²)^{1/2} and ĥ(k) = ∫ h(x) e^{ik·x} d⁴x. Equivalently, ΔP^μ(h) is the</div>
+<div>    conserved energy–momentum of the classical solution Eh, divided by 4σ². It does not depend on</div>
+<div>    the state; it is unchanged when h is translated; it transforms as a four-vector, ΔP(h ∘ Λ^{−1})</div>
+<div>    = Λ ΔP(h); and it is future-directed and timelike.</div>
 <div>&nbsp;</div>
-<div>(b) Compute the joint law of X in the Heisenberg picture, along any foliation. Every detector</div>
-<div>outside X is marginalized, so it contributes its nonselective update N_k*. Every detector in X</div>
-<div>contributes a selective update K† (·) K with K = cos(λφ(f_x)) or i sin(λφ(f_x)); each of these maps</div>
-<div>a Weyl operator W(g) to a linear combination of Weyl operators W(g + c f_x) with real c. Starting</div>
-<div>from the identity W(0), the operator under evaluation is therefore at every step a finite linear</div>
-<div>combination of Weyl operators W(g) with g in the real span V_X of { f_x : x ∈ X }. Each nonselective</div>
-<div>update of a detector k ∉ X multiplies such a W(g) by cos(λ_k E(f_k, g)). For k = j, E(f_j, g) = 0</div>
-<div>for every g ∈ V_X by linearity, so the factor is 1, and the same holds for a kick. Detector j</div>
-<div>therefore drops out of the joint law of X.</div>
+<div>    (d) Curved backgrounds. Let φ be the minimally coupled free scalar field of mass m ≥ 0 on a</div>
+<div>    four-dimensional globally hyperbolic spacetime, ω a Hadamard state, and h a real test function.</div>
+<div>    Then the state ω_N = ω ∘ N* after an unread Gaussian collapse of φ(h) is Hadamard, its</div>
+<div>    symmetrized two-point function is that of ω plus (Eh ⊗ Eh)/(4σ²), and its renormalized</div>
+<div>    stress–energy tensor, defined by Hadamard point-splitting, is</div>
 <div>&nbsp;</div>
-<div>(c) Write sin²(λ_B φ(f_B)) = ½ − ¼ (W(2λ_B f_B) + W(−2λ_B f_B)). Each preceding detector,</div>
-<div>marginalized, multiplies W(±2λ_B f_B) by cos(2 λ_B λ_{j_k} E(f_{j_k}, f_B)), and ω(W(±2λ_B f_B)) =</div>
-<div>exp(−2 λ_B² ω(φ(f_B)²)). □</div>
+<div>        ⟨T_μν⟩_{ω_N} = ⟨T_μν⟩_ω + T^cl_μν[Eh] / (4σ²),</div>
 <div>&nbsp;</div>
-<div>Part (b) is the statement that matters for CTGP, and its scope should be stated exactly. It is</div>
-<div>state-independent; it holds for arbitrary smooth, compactly supported real smearings within finite,</div>
-<div>causally orderable networks, under the free-field and gapless-detector assumptions; and it holds in</div>
-<div>Sorkin’s configuration. There, Alice’s region A is causally separated from Bob’s region B, while an</div>
-<div>intermediate region C overlaps the causal future of A and the causal past of B. A gapless detector</div>
-<div>at C cannot carry Alice’s choice to Bob, because its nonselective update multiplies each Weyl</div>
-<div>operator by a number instead of spreading it. Part (c) makes this explicit: Bob’s statistics depend</div>
-<div>on a preceding detector only through the factor cos(2 λ_B λ_j E(f_j, f_B)), which equals 1 for every</div>
-<div>detector causally separated from B. The essential property is that the nonselective update is</div>
-<div>diagonal on Weyl operators. It holds for gapless linear couplings with any such smearing. It can</div>
-<div>fail for detectors with internal dynamics during the interaction, and de Ramón, Papageorgiou and</div>
-<div>Martín-Martínez (2021) find that spatially extended non-relativistic detector models can propagate a</div>
-<div>field’s initial conditions faster than light. The conclusion agrees with detector-based measurement</div>
-<div>theory, in which updates induced by local probe couplings avoid Sorkin-type signaling (Polo-Gómez,</div>
-<div>Garay &amp; Martín-Martínez 2022; compare Fewster &amp; Verch 2020).</div>
+<div>    where T^cl_μν[u] = ∇_μu ∇_νu − ½ g_μν (∇^αu ∇_αu − m²u²) is the classical stress–energy tensor,</div>
+<div>    in signature (+, −, −, −).</div>
 <div>&nbsp;</div>
-<div>Three things should be distinguished in interpreting the theorem: the spacetime support O_j of the</div>
-<div>detector–field interaction; the location and timing of the detector’s readout; and the effective</div>
-<div>instrument on the field obtained by conditioning on that readout. Theorem 13.9 concerns the third.</div>
-<div>It proves causal properties of the effective field instruments of the network, assuming that each</div>
-<div>detector is read out after its interaction and treating the detector as an idealized probe. When a</div>
-<div>coupling region is extended, a fully spacetime-local implementation of the detector together with</div>
-<div>its readout would require further modeling of the probe itself. This qualification concerns physical</div>
-<div>realization; it does not affect the algebraic proof.</div>
+<div>Proof. In each case N*(B) = ∫ γ(t) e^{itA} B e^{−itA} dt by Proposition 13.15(b). (a) The unitary</div>
+<div>e^{−itQ} preserves the form domain: it commutes with V, and the Weyl relation e^{itQ} P e^{−itQ} = P</div>
+<div>− ħt gives P e^{−itQ} = e^{−itQ}(P − ħt) on D(P). Hence q(e^{−itQ}ψ) = q(ψ) − (ħt/m)⟨ψ, Pψ⟩ +</div>
+<div>ħ²t²‖ψ‖²/(2m), where ⟨ψ, Pψ⟩ is finite on the form domain. The energy functional ℰ is affine, and,</div>
+<div>being a supremum of normal functionals given by spectral truncations of the bounded-below operator</div>
+<div>H, it satisfies ℰ(∫ γ(t) ρ_t dt) = ∫ γ(t) ℰ(ρ_t) dt by monotone convergence. Averaging over t, with</div>
+<div>γ of mean zero and variance 1/(4σ²), gives the result. (b) The unitary e^{itA} is a Weyl operator of</div>
+<div>the canonical system. It preserves the form domain of H and shifts R by t times a constant vector s,</div>
+<div>so H becomes H + t L + t² H(s), with L linear in R and H(s) the value of the quadratic form on s.</div>
+<div>Averaging gives H(s)/(4σ²), and differentiating twice at t = 0 shows that −[A, [A, H]] = 2H(s). (c)</div>
+<div>For real t, e^{itφ(h)} φ(f) e^{−itφ(h)} = φ(f) − t E(h, f), so conjugation by e^{itφ(h)} displaces</div>
+<div>the field by the classical solution −t Eh. Under a displacement by a classical solution u of finite</div>
+<div>energy, the normal-ordered generators transform as P^μ ↦ P^μ + t L^μ + t² P^μ[u], with L^μ linear in</div>
+<div>the creation and annihilation operators and P^μ[u] the classical energy–momentum of u. Because ω_k ≥</div>
+<div>|k^i| mode by mode, −H ≤ P^i ≤ H as quadratic forms, so a state of finite energy has finite</div>
+<div>expectations of all four generators, and N(ρ) again has finite energy. The linear terms have the</div>
+<div>form L^μ = a(g_μ) + a(g_μ)*, with ω^{−1/2} g_μ square-integrable because ĥ decays rapidly on the</div>
+<div>mass shell, and the bound |Tr(ρ a(g))| ≤ ‖ω^{−1/2} g‖ Tr(ρ H)^{1/2} makes their expectations finite.</div>
+<div>Averaging over t therefore gives ΔP^μ = P^μ[Eh]/(4σ²). In the mode expansion, φ(h) = ∫ dμ_m(k)</div>
+<div>(ĥ(k)* a_k + ĥ(k) a_k†) with [a_k, a_q†] = (2π)³ 2ω_k δ³(k − q), and the same computation gives the</div>
+<div>stated integral. Translating h multiplies ĥ by a phase. Since ĥ ∘ Λ^{−1} is the transform of h ∘</div>
+<div>Λ^{−1} and dμ_m is Lorentz-invariant, ΔP transforms as a four-vector. The Fourier transform of Eh is</div>
+<div>proportional to ĥ on the mass shell, so Eh ≠ 0 exactly when ĥ is not identically zero there. Then ΔP</div>
+<div>is an integral of future-directed causal vectors with a nonnegative weight that is not almost</div>
+<div>everywhere zero. For m &gt; 0 these vectors are timelike. For m = 0 they are null, but ĥ is real-</div>
+<div>analytic and the future light cone in 3 + 1 dimensions, with its vertex removed, is connected, so ĥ</div>
+<div>is nonzero on an open subset of the cone containing non-parallel null directions, and their sum is</div>
+<div>timelike. (d) By Proposition 13.12, ω_N(W(f)) = exp(−E(h, f)²/(8σ²)) ω(W(f)). Differentiating</div>
+<div>ω_N(W(sf + tg)) twice at s = t = 0 shows that the symmetrized two-point function changes by E(h, f)</div>
+<div>E(h, g)/(4σ²), whose integral kernel is (Eh)(x)(Eh)(y)/(4σ²), a smooth function because Eh is a</div>
+<div>smooth solution; the antisymmetric part, iE/2, is unchanged. Adding a smooth symmetric kernel</div>
+<div>preserves the wavefront-set condition that defines Hadamard states. In Hadamard point-splitting, the</div>
+<div>renormalized stress–energy tensor is obtained by applying a fixed bidifferential operator to the</div>
+<div>two-point function minus a state-independent Hadamard parametrix, taking the coincidence limit, and</div>
+<div>adding local curvature terms that are the same for every state (Wald 1994; Hollands &amp; Wald 2015).</div>
+<div>The difference between ω_N and ω is therefore that operator applied to (Eh ⊗ Eh)/(4σ²), whose</div>
+<div>coincidence limit is T^cl_μν[Eh]/(4σ²). □</div>
 <div>&nbsp;</div>
-<div>Theorem 13.9 is exact within its model, and the numerical checks below only illustrate it. Exactness</div>
-<div>within a model is not physical completeness. The model assumes a fixed spacetime, a free field,</div>
-<div>externally specified couplings, and detectors with no internal Hamiltonian during the interaction,</div>
-<div>and these assumptions are central to the proof. A nonzero energy gap makes the coupled detector</div>
-<div>observable time-dependent, and the nonselective update then generally ceases to be diagonal on Weyl</div>
-<div>operators. The theorem is therefore not a claim about arbitrary relativistic detector measurements,</div>
-<div>realistic detector hardware, or interacting fields.</div>
+<div>The dimension matters for the last statement of (c). In 1 + 1 dimensions the same formula holds with</div>
+<div>d³k/(2π)³ replaced by dk/(2π), and ΔP(h) is timelike if m &gt; 0. For m = 0, however, the light cone</div>
+<div>consists of two null rays, ĥ can vanish on one of them, and ΔP(h) is then null.</div>
 <div>&nbsp;</div>
-<div>Example 13.10 (Localized Kraus operators are not enough). Replace the detector at C by the unsharp</div>
-<div>Lüders instrument with Kraus operators √(g(φ(f_C))) and √(1 − g(φ(f_C))), where g(x) = (1 + tanh</div>
-<div>2x)/2. Its Kraus operators are bounded functions of the smeared field in C, so it satisfies (E2),</div>
-<div>and they commute with every operation localized in a region causally separated from C. But its</div>
-<div>nonselective update is not diagonal on Weyl operators:</div>
+<div>Three consequences follow. First, the exact cost agrees with the standard collapse-model result.</div>
+<div>With σ² = r_C²/2, K_y is the GRW localization operator of width r_C, and part (a) gives 3ħ²/(4m</div>
+<div>r_C²) per hit, hence 3λħ²/(4m r_C²) per unit time at hit rate λ (compare Bassi et al. 2013). Second,</div>
+<div>part (b) is the exact case of the weak-collapse expansion N* = exp(−ad_A²/(8σ²)), with ad_A(B) = [A,</div>
+<div>B], which gives N*(H) − H = −(1/(8σ²)) [A, [A, H]] + O(σ^{−4}) whenever the series makes sense. The</div>
+<div>expansion terminates when [A, [A, H]] is a multiple of the identity. Third, the field cost grows as</div>
+<div>the collapse region shrinks. For a massless field and h_ℓ(x) = ℓ^{−4} χ(x/ℓ), substituting k → k/ℓ</div>
+<div>gives ΔP(h_ℓ) = ℓ^{−3} ΔP(χ) at fixed σ, while the vacuum variance of φ(h_ℓ) scales as ℓ^{−2}. At a</div>
+<div>fixed ratio ε of σ to the vacuum spread of φ(h_ℓ), the energy injected per collapse is therefore</div>
+<div>proportional to ħc/(ε² ℓ). Part (d) gives the corresponding local statement on a curved background.</div>
 <div>&nbsp;</div>
-<div>        Σ_s √(g_s(φ(f_C))) W(h) √(g_s(φ(f_C))) = W(h) Σ_s √(g_s(φ(f_C) + E(h, f_C))) √(g_s(φ(f_C))),</div>
+<div>In the numerical checks (Appendix C.1, items C1 and C2), the Kraus integral and the Gaussian mixture</div>
+<div>of kicks both reproduce the multiplier exp(−(a − a′)²/(8σ²)), to 2.4 × 10⁻¹⁴ and 7.8 × 10⁻¹⁶. For a</div>
+<div>particle with an anharmonic potential, the energy increment is ħ²/(8mσ²) to twelve digits, in the</div>
+<div>ground state and in a random state alike. On a lattice field, the double-commutator and Fourier</div>
+<div>expressions agree to 5 × 10⁻¹⁶. For a massive field in 1 + 1 dimensions, under a boost of rapidity</div>
+<div>0.5, ΔP transforms as a four-vector to 1.3 × 10⁻¹⁶.</div>
 <div>&nbsp;</div>
-<div>with g_+ = g and g_− = 1 − g. The right-hand side is W(h) times a non-constant function of φ(f_C),</div>
-<div>which fails to commute with φ(f_A) when E(f_A, f_C) ≠ 0. An operation by Alice can therefore change</div>
-<div>Bob’s statistics through C even though A and B are causally separated. This is Sorkin’s problem. A</div>
-<div>numerical realization reproduces the commutation pattern of Sorkin’s configuration (E(f_A, f_B) = 0,</div>
-<div>E(f_A, f_C) = E(f_C, f_B) = 1) with two oscillator modes in the vacuum state, using λ_A = 0.9, λ_C =</div>
-<div>0.8, λ_B = 0.7, and a kick with α = 1.5 (Appendix B, item 17). With a gapless detector at C, Bob’s</div>
-<div>probability of reading 1 is 0.3665447170, equal to the formula of Theorem 13.9(c), and neither</div>
-<div>Alice’s detector nor her kick changes it by more than 10⁻¹⁵. With the unsharp Lüders instrument at</div>
-<div>C, Bob’s probability is 0.275038, and Alice’s detector shifts it by −0.021492 and her kick by</div>
-<div>−0.046628. These values change by less than 10⁻⁷ when the Fock cutoff is raised from 40 to 50 quanta</div>
-<div>per mode. Because Theorem 13.9(b) is state-independent and uses only the commutation relations, the</div>
-<div>two-mode realization is an exact test of the algebraic mechanism, not a computation in a particular</div>
-<div>spacetime.</div>
+<div>13.9 Algebra Preservation: A Sufficient Condition for No-Signaling</div>
 <div>&nbsp;</div>
-<div>Example 13.10 shows why (E2) and (E3) must be kept separate. Localizing the Kraus operators of each</div>
-<div>operation is not enough. Causal admissibility is a property of the actual instruments and of their</div>
-<div>composition, and it must be proved for the class of operations in use; Theorem 13.9 proves it for</div>
-<div>gapless detector networks on a free field, and Theorem 13.13 for every network of Weyl-diagonal</div>
-<div>instruments.</div>
+<div>The proofs of Theorems 13.9(b) and 13.13(b) use the free field only to show that a certain algebra</div>
+<div>of observables is carried into itself by the operations between the one being tested and the</div>
+<div>targets. That structure can be isolated, and it does not depend on central commutators.</div>
 <div>&nbsp;</div>
-<div>Connection to CTGP. In a gapless detector network the realized detector outcomes are Tier 1 events,</div>
-<div>and the complete present state on an admissible hypersurface consists of the field state together</div>
-<div>with the detectors’ records. For a specified network, the law of the next outcome depends only on</div>
-<div>that present state, so the network is generable in the sense of Definition 12.1, (A2)–(A5). The</div>
-<div>truth profile records the realized outcomes and is dynamically idle. Because cosmological time is in</div>
-<div>general only locally Lipschitz (§13.1), the construction is formulated for arbitrary admissible</div>
-<div>orderings. A generic globally hyperbolic spacetime also admits smooth Cauchy temporal functions</div>
-<div>(Bernal &amp; Sánchez 2003, 2005). Whenever the coupling regions can be separated by level sets of the</div>
-<div>cosmological time T, ordering them by T is a linear extension of ≺, because T increases strictly</div>
-<div>along future-directed causal curves. CTGP’s generative order is then one of the admissible</div>
-<div>foliations, and by Theorem 13.9(a) and Corollary 13.5 the history law is the same for it as for any</div>
-<div>other. Three steps must be kept apart here. First, the network’s history law is independent of the</div>
-<div>admissible ordering of its regions; Theorem 13.9 establishes this. Second, the background spacetime</div>
-<div>admits a regular cosmological time whose level sets separate the regions; this is an assumption</div>
-<div>about the geometry. Third, those level sets are the ontological presents; this is CTGP’s</div>
-<div>interpretation. Theorem 13.9 supports only the first step, which is what makes the other two</div>
-<div>consistent with it. Within this class, then, the measurement-model version of Target 13.6 holds for</div>
-<div>finite networks: (i)–(v) are satisfied, with (iii) secured by part (b). What remains open is the</div>
-<div>spontaneous version, detectors with internal dynamics, interacting fields, and infinitely many or</div>
-<div>continuously distributed events, that is, (E4) and (E6).</div>
-<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a> <a href="index.html">Document contents</a> <a href="part-16.md">Raw Markdown</a> <a href="part-15.html">Previous part</a> <a href="part-17.html">Next part</a></nav></body></html>
+<div>Theorem 13.17 (No-signaling by algebra preservation). Let ω be a normal state on B(H), and let o_1,</div>
+<div>…, o_n be operations performed in this order, each a normal instrument I_m with a standard Borel</div>
+<div>outcome space (Ω_m, 𝔉_m). Write I_m*(Δ) for the Heisenberg dual of I_m(Δ) and N_m* = I_m*(Ω_m) for</div>
+<div>the dual of its unread channel. For a set X of target operations and Borel sets Δ_x, x ∈ X, the</div>
+<div>unconditioned joint probability of the target outcomes is</div>
+<div>&nbsp;</div>
+<div>        P(Δ_x : x ∈ X) = ω(T_1*(T_2*(⋯ T_n*(1) ⋯))),</div>
+<div>&nbsp;</div>
+<div>where T_m* = I_m*(Δ_m) if m ∈ X and T_m* = N_m* otherwise, so that the outcomes of all non-target</div>
+<div>operations are summed over rather than conditioned on. Fix a non-target operation j, and suppose</div>
+<div>there is a linear subspace 𝔐 ⊆ B(H) containing 1 such that:</div>
+<div>&nbsp;</div>
+<div>    (i) I_x*(Δ)(𝔐) ⊆ 𝔐 for every target operation x performed after j and every Δ;</div>
+<div>&nbsp;</div>
+<div>    (ii) N_k*(𝔐) ⊆ 𝔐 for every non-target operation k ≠ j performed after j;</div>
+<div>&nbsp;</div>
+<div>    (iii) N_j*(B) = B for every B ∈ 𝔐.</div>
+<div>&nbsp;</div>
+<div>Then the joint law of the target outcomes is the same whether j is performed, omitted, or replaced</div>
+<div>by any other operation satisfying (iii). Condition (iii) holds in particular whenever j has Kraus</div>
+<div>operators in the commutant 𝔐′, and operations performed before j are unrestricted.</div>
+<div>&nbsp;</div>
+<div>Proof. Let j be the m-th operation and set B = T_{m+1}*(⋯ T_n*(1) ⋯). Starting from 1 ∈ 𝔐 and</div>
+<div>applying the maps T_n*, …, T_{m+1}* in turn, conditions (i) and (ii) keep every intermediate</div>
+<div>operator in 𝔐, so B ∈ 𝔐. By (iii), T_j*(B) = N_j*(B) = B, which is the value obtained when j is</div>
+<div>omitted, and the same holds for any replacement satisfying (iii). The remaining maps T_{m−1}*, …,</div>
+<div>T_1* and the state ω are unchanged. If K_y ∈ 𝔐′ for almost every outcome y of j, then N_j*(B) = ∫</div>
+<div>K_y† B K_y dν(y) = B ∫ K_y† K_y dν(y) = B. □</div>
+<div>&nbsp;</div>
+<div>Corollary 13.18 (Random local automorphisms). Suppose that every unread non-target operation k</div>
+<div>performed after j is an average of automorphisms, N_k*(B) = ∫ U_k(t)* B U_k(t) dμ_k(t) with</div>
+<div>unitaries U_k(t) and a probability measure μ_k, and that 𝔐 is σ-weakly closed and mapped into itself</div>
+<div>by B ↦ U_k(t)* B U_k(t) for μ_k-almost every t. Then (ii) holds. For a free field, Gaussian</div>
+<div>collapses and random displacements are of this form with U_k(t) = e^{−itφ(h_k)} or W(h), each of</div>
+<div>which multiplies every Weyl operator by a phase. They therefore preserve the von Neumann algebra 𝔐_X</div>
+<div>generated by { W(g) : g ∈ V_X }, for every target set X, and Theorem 13.17 gives Theorem 13.13(b)</div>
+<div>for these operations.</div>
+<div>&nbsp;</div>
+<div>Proof. A weak integral of a bounded measurable family in a σ-weakly closed subspace lies in that</div>
+<div>subspace, since a normal functional that vanishes on the subspace vanishes on every member of the</div>
+<div>family and hence on the integral. □</div>
+<div>&nbsp;</div>
+<div>The theorem locates the role of relativistic causality exactly. Microcausality supplies (iii): if 𝔐</div>
+<div>is generated by observables localized in the target regions and j is localized in a region causally</div>
+<div>separated from all of them, the Kraus operators of j commute with 𝔐. It does not supply (ii), which</div>
+<div>is a condition on the composed dynamics of the intervening operations. Example 13.10 is a case in</div>
+<div>which (ii) fails. The unread Lüders instrument at C maps W(s f_B) to W(s f_B) G(φ(f_C)) for a non-</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-16.md">Raw Markdown</a><a href="part-15.html">Previous part</a><a href="part-17.html">Next part</a></nav></body></html>

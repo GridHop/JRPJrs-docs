@@ -1,6 +1,6 @@
 # Info
 
-Part 01 of 24 (1,798 words)
+Part 01 of 23 (1,792 words)
 
 INFO
 
@@ -34,9 +34,11 @@ doesn’t mean that they convinced them of a proven fact’.”
 
 Abstract things are not physical and “are not able to be tasted due to the fact that they do not
 
-have physical attributes such as flavor”. Language/memories/emotion/emotions are never not “abstract
+have physical attributes such as flavor”. The content of language/memories/emotion/emotions (what
 
-and non-physical”.
+they mean or are about) is never not “abstract and non-physical”, although memories and emotions are
+
+carried by physical brain processes.
 
 
 
@@ -56,13 +58,13 @@ whether the situation is too dangerous”.
 
 “Impossibilities according to current Quantum Mechanics theories: - Simultaneously knowing position
 
-and momentum exactly (Heisenberg) - Cloning unknown quantum states (No-Cloning Theorem) -
+and momentum exactly (Heisenberg) - Cloning unknown quantum states (No-Cloning Theorem) - Gaining
 
-Measurement without affecting the system - ‘Deterministic prediction of quantum outcomes’ depending
+information about an unknown quantum state without, in general, disturbing it - ‘Deterministic
 
-on whether the universe is deterministic, ‘having an extent of stochasticness’, or ‘having an extent
+prediction of quantum outcomes’ depending on whether the universe is deterministic, ‘having an
 
-of inscrutably complexness’.”
+extent of stochasticness’, or ‘having an extent of inscrutably complexness’.”
 
 
 
@@ -140,13 +142,19 @@ in 2020.
 
 When was the first TV show “available for internet streaming” without one having had to “download
 
-the ‘episode or show’ in order to have viewed it”? Around 1997, there was ABC News website that
+the ‘episode or show’ in order to have viewed it”? On November 23, 1995, ABC’s “World News Now”
 
-offered viewing of ABC “World News Tonight”. The website offered video clips from “World News
+became the first television show broadcast over the internet: it was simulcast live using the
 
-Tonight” segments that were no more than 20 seconds long. “You had to download to play them, there
+CU-SeeMe videoconferencing software during a six-month trial. From 1999 to 2001, it was among the
 
-was no streaming, and even these short clips took a long time to download”.
+first shows streamed live for free on the ABC News website. Separately, around 1997, the ABC News
+
+website offered video clips from “World News Tonight” segments that were no more than 20 seconds
+
+long. “You had to download to play them, there was no streaming [of those clips], and even these
+
+short clips took a long time to download”.
 
 
 
@@ -154,11 +162,17 @@ More than only recognizing speech, when was AI first able to “give accurate an
 
 human’s questions” in normal computer English “text or audio” without human intervention nor long
 
-“no-response times” in between its giving answers? The first AI system that was able to do such
+“no-response times” in between its giving answers? IBM’s Watson is the best-known early milestone:
 
-is/was IBM’s Watson, which was introduced in 2011. It even competed and won against human
+in February 2011, it won a televised Jeopardy! match against the champions Ken Jennings and Brad
 
-contestants in the quiz show Jeopardy!.
+Rutter. It was not the first such system, since MIT’s START (online since 1993) and Wolfram|Alpha
+
+(launched in 2009) already answered typed natural-language questions, though in more limited
+
+domains, and Watson itself was not open to questions from the public. Assistants that the public
+
+could question by voice or text followed (Siri in 2011; ChatGPT in 2022).
 
 
 
@@ -168,21 +182,29 @@ CU-SeeMe require broadband internet connection during the year 2000? Did the maj
 
 have WiFi during the year 2000? In the year 2000, the majority of households did not have WiFi;
 
-according to data from the Pew Research Center and Statista, only around 42% of US households had
+according to the U.S. Census Bureau, only about 42% (41.5%) of US households had internet access in
 
-internet access in 2000, meaning most did not have WiFi, which was still a relatively new technology
+August 2000, meaning most did not have WiFi, which was still a relatively new technology at the
 
-at the time. Wi-Fi is the wireless alternative to wired internet access. In 2000, households with
+time. Wi-Fi provides wireless local-area networking. It does not itself constitute an internet
 
-internet access were connected almost entirely by wire, and most of those used dial-up over a
+service, although it can give devices access to an internet connection supplied through wired or
 
-telephone line; broadband (DSL or cable) was still uncommon in homes. In 2001, only 23% of hotel
+wireless infrastructure. In 2000, households with internet access were connected almost entirely by
 
-rooms offered broadband, but by 2004, half of all hotel rooms in the US offered broadband. Skype was
+wire, and most of those used dial-up over a telephone line; broadband (DSL or cable) was still
 
-one of the first software-based video chat services that offered free communication over the
+uncommon in homes. CU-SeeMe did not require broadband: released in 1993, it could run over dial-up
 
-internet. Skype’s 2.0 Beta program in 2005 introduced video calling with a simplified interface.
+connections, although only at low frame rates (roughly 1 to 7 frames per second), and webcams were
+
+still uncommon. In 2001, only 23% of hotel rooms offered broadband, but by 2004, half of all hotel
+
+rooms in the US offered broadband. Skype was not among the first free internet video chat programs
+
+(CU-SeeMe and Microsoft NetMeeting came years earlier), but it did much to make free video calling
+
+popular. Skype’s 2.0 Beta program in 2005 introduced video calling with a simplified interface.
 
 
 
@@ -208,15 +230,19 @@ thoughts/meanings/intentions into the words they’ve learned in order to produc
 
 Regarding non-digital, per individual, “an individual undergoing/‘having undergone’ a respawn”
 
-always is/was always impossible but, according to the religion Christianity, Jesus is/was the only
+always is/was always impossible but, according to the religion Christianity, there are exceptions:
 
-exception in the relation that Jesus resurrected from being dead. Regarding non-digital, per
+the Bible records several people being raised from the dead (e.g., Lazarus and Jairus’s daughter),
 
-individual, “an individual’s consciousness being a copy of an ‘individual’s original consciousness’
+who later died again, and Jesus’s resurrection is held to be unique because he rose to an immortal
 
-with that copy being that same ‘original individual/consciousness regarding the individual’s
+life. Regarding non-digital, per individual, “an individual’s consciousness being a copy of an
 
-original consciousness’ always is/was always impossible.”
+‘individual’s original consciousness’ with that copy being that same ‘original
+
+individual/consciousness regarding the individual’s original consciousness’ always is/was always
+
+impossible.”
 
 
 
@@ -323,61 +349,3 @@ B. Vascular & Metabolic Integration
 • The brain has extraordinarily high metabolic demands—roughly 20% of all the body’s oxygen and
 
   energy use.
-
-• To keep it alive, surgeons would need to reconnect all major arteries and veinsseamlessly in
-
-  seconds to prevent hypoxia.
-
-• A delay of even a few minutes without blood supply leads to irreversible neuron death.
-
-
-
-C. Immune System Rejection
-
-
-
-• The body’s immune system would likely treat the transplanted brain as foreign tissue, or
-
-  conversely, the brain’s own immune-protected environment (the blood–brain barrier) might react
-
-  violently to the host’s immune system.
-
-• Unlike other organs, the brain’s immune privilege is unique and fragile; any mismatch could cause
-
-  neuroinflammation, edema, or death.
-
-
-
-D. Electrochemical Incompatibility
-
-
-
-• The nervous system is not “plug-and-play.”
-
-• Every person’s neurochemical balance, neurotransmitter ratios, and receptor densities are unique
-
-  and adapt over time to the specific body they inhabit.
-
-• Transplanting a brain into a foreign body would lead to mismatched feedback loops—the brain might
-
-  interpret all sensory input, hormones, and motor signals as distorted, nonsensical, or
-
-  overwhelming.
-
-
-
-E. Ethical & Identity Complexity
-
-
-
-• Philosophically and ethically, such a procedure challenges definitions of self, continuity, and
-
-  death.
-
-• Whose consciousness would awaken—does the body’s genetic influence alter the mind? What if partial
-
-  connection causes cognitive dissonance or new personalities?
-
-• Many countries ban research approaching this due to these unresolved ethical quandaries.
-
-

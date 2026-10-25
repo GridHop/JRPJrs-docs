@@ -1,259 +1,443 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 28 of 40 (1,614 words)
+Part 28 of 35 (1,794 words)
 
-14.4 A Proposed Temporal Identification Criterion
+    initial state can end in exactly the same present state for generic finite-width parameters is
 
+    open (§8.3). It is not needed for CTGP, which requires only strong non-supervenience
 
+    (Proposition 4.12).
 
-Definition 14.3 (Temporal cross-frame identification; a proposal). A clock-relative description
 
-consists of a valid clock reduction, which may be partial, state-dependent, or defined only on a
 
-subspace, together with its domain of physical states. Two clock-relative descriptions identify the
+    (O7) Empirical parameters. The parameters used here are illustrative. Real collapse models are
 
-same CTGP history when (i) the physical state lies in both domains, (ii) they arise from the same
+    tightly constrained by experiment (Bassi et al. 2013), and a relational collapse model must
 
-realized event history, and (iii) they agree on every clock-neutral event proposition, that is,
+    respect the same bounds.
 
-every Tier 1 proposition stated without reference to clock readings, that can be evaluated in both.
 
-A family of clock-relative descriptions is consistent when every pair satisfies (i)–(iii) on the
 
-intersection of their domains, and when, wherever three descriptions share a domain, the
+----------------------------------------------------------------------------------------------------
 
-correspondences between events that they induce compose.
+18. Answers to the Original Questions
 
+----------------------------------------------------------------------------------------------------
 
 
-The criterion deliberately does not require that two clocks assign the same time coordinates to
 
-events, nor that their conditional state vectors coincide. It is the temporal counterpart of
+Question                                     | Answer in this preprint
 
-Criterion 5.5, with clock-neutral event propositions in place of the translated truth profile.
+---------------------------------------------+------------------------------------------------------
 
-Criterion 5.5 identifies descriptions through a single global orbit, which presupposes globally
+(T1) Which propositions are determinate?     | Three tiers (Def. 5.1): events, states, sharp
 
-defined unitary reductions. Definition 14.3 replaces that orbit by a family of overlapping
+                                             | properties; events are not sharp values (Prop. 4.4).
 
-admissible descriptions with consistency conditions on their common domains, which is what is needed
+                                             | Determinacy is frame-independent (Prop. 5.2).
 
-when temporal reductions are partial, state-dependent, or available only locally (§14.1).
+(T2) How are facts identified across QRFs?   | Criterion 5.5 ⇔ one description orbit (Thm 5.6,
 
+                                             | Prop. 5.8); identity of the world is Thesis 5.10.
 
+                                             | State alone is insufficient (Prop. 5.9).
 
-Conjecture 14.4 (Clock-neutral realized-history equivalence). For a specified class of constrained
+(T3) Do valid QRF changes preserve truth?    | Yes (Thm 5.16), and preservation persists under
 
-systems with two admissible quantum clocks, possibly imperfect, and a clock-neutral normalized event
+                                             | generation (Thm 5.12).
 
-instrument whose interventions are represented within the constraint, all valid clock reductions
+(T4) Where does L sit relative to the state? | Generated, admissible, not a function of S, accurate,
 
-assign the same probabilities to corresponding finite realized-event histories. Moreover, on the
+                                             | frame-covariant, dynamically idle (Thm 5.20).
 
-domains of the reductions, the clock-neutral instrument intertwines with clock-relative instruments,
+(T5) Generative ordering and generability?   | Order shared by all frames (Prop. 10.1); generable
 
-R_A ∘ ℐ^phys = ℐ^A ∘ R_A and R_B ∘ ℐ^phys = ℐ^B ∘ R_B, for compositions of events as well as single
+                                             | in every frame (Cor. 5.14); continuous form (§9).
 
-events. This holds although the two descriptions can assign different temporal localizations, and
+Same history, or merely assumed?             | Exact criterion (C3) that can fail and is preserved
 
-different orderings, to the events.
+                                             | by the dynamics; checkable only through records,
 
+                                             | and possibly unknowable (Prop. 5.19).
 
+Does CTGP add anything beyond covariance?    | Yes: it excludes otherwise QRF-covariant models,
 
-A statement of the conjecture for a given class must specify the domains of the reductions and what
+                                             | e.g. history-dependent laws (Prop. 11.4), and,
 
-makes events in two descriptions correspond. Agreement of probabilities is not enough, because one
+                                             | within the construction, requires collapse
 
-physical state supports many instrument decompositions (Proposition 13.2). The conjecture therefore
+                                             | operators that act relationally on physical
 
-concerns a clock-neutral instrument, not merely a clock-neutral effect. A counterexample is
+                                             | states (§7.4, §11).
 
-possible: a clock-relative description may admit no globally valid ordering of the events. Section
+Why a primitive profile, not an encoding?    | Formally interchangeable (Prop. 5.21); given CTGP’s
 
-14.5 proves it for one family of instruments, late-record projective measurements, in a model with
+                                             | truthmaker principle and the non-existence of past
 
-two ideal clocks. A proof for a broader class would establish a realized-history measure shared
+                                             | events, the profile supplies the present ground for
 
-across clocks. It would not show that the events are generated in a fundamental succession, which
+                                             | past-tense truths (§5.7).
 
-requires an ordering compatible with the constraint and its gauge symmetries (§14.6).
+Concrete single-outcome model?               | Three particles on ℤ_N, relational flashes (§§6–9).
 
+Relativistic quantum field theory?           | Admissibility criterion (Def. 12.1); ensembles do
 
+                                             | not fix histories (Prop. 13.2); finite realized-
 
-14.5 Two Ideal Clocks With the Interventions in the Constraint
+                                             | history consistency (Thm 13.4, Prop. 13.7); free-
 
+                                             | field detectors with no-signaling (Thm 13.9);
 
+                                             | Gaussian collapse on fixed regions (Cor. 13.14),
 
-The construction of this subsection removes the external stage index of Proposition 14.2. The
+                                             | its energy cost (Prop. 13.16), and at Poisson
 
-interventions are part of the constraint, and the events, their probabilities, and their instruments
+                                             | locations, conditionally (Thm 13.21), with the
 
-are defined on the physical Hilbert space.
+                                             | obstructions to full covariance (Props 13.22–
 
+                                             | 13.24); no-signaling by algebra preservation (Thm
 
+                                             | 13.17); a candidate cosmic-time completion and
 
-Setting. Clocks A and B are ideal: each has Hilbert space L²(ℝ) and a canonical pair (T, P) with [T,
+                                             | its gapless-pointer variant (§13.11, not
 
-P] = i (ħ = 1). The system and its records have a finite-dimensional Hilbert space K and a
+                                             | adopted); covariant, matter-localizing, and
 
-Hamiltonian H_S. Interactions k = 1, …, r have Hermitian operators V_k on K and bounded continuous
+                                             | interacting cases open.
 
-switching functions g_k supported in [a_k, b_k], and each interaction is keyed to one clock, c(k) ∈
+Temporal quantum reference frames?           | Generation, readings, and conditional descriptions
 
-{A, B}. The constraint is
+                                             | distinguished (Def. 14.1, Prop. 14.2); criterion
 
+                                             | for overlapping descriptions (Def. 14.3), proved
 
+                                             | for late-record instruments with ideal clocks
 
-        Ĉ = P_A + P_B + H_S + Σ_k g_k(T_{c(k)}) V_k.
+                                             | (Prop. 14.5); imperfect clocks open (Conj. 14.4).
 
+Quantum gravity?                             | Generative order distinguished from classical cosmic
 
+                                             | time; conditions Q1–Q5, obstructions R1–R4, and
 
-Proposition 14.5 (Two ideal clocks and record events).
+                                             | test problems G1–G3 (§15).
 
 
 
-    (a) Physical states and reductions. In the representation in which T_A and T_B act by
+Table 5. The open questions and where they are answered.
 
-    multiplication, ĈΨ = 0 is the transport equation i(∂_{t_A} + ∂_{t_B})Ψ = H_Δ(t_A)Ψ along the
 
-    lines of constant offset Δ = t_A − t_B, where
 
+----------------------------------------------------------------------------------------------------
 
+19. Conclusion
 
-        H_Δ(s) = H_S + Σ_{c(k)=A} g_k(s) V_k + Σ_{c(k)=B} g_k(s − Δ) V_k.
+----------------------------------------------------------------------------------------------------
 
 
 
-    Its solutions are Ψ(t_A, t_B) = U_Δ(t_A) χ(Δ), with U_Δ(s) the unitary propagator of H_Δ from a
+The present world is represented here by a perspective-neutral quantum state together with a
 
-    fixed initial value s_0 and χ: ℝ → K. With the inner product ⟨Ψ, Ψ′⟩ = ∫ ⟨χ(Δ), χ′(Δ)⟩ dΔ, the
+Lucretian truth profile drawn from an exactly specified space of admissible histories. The
 
-    physical Hilbert space is H_phys ≅ L²(ℝ, K). The offset T_A − T_B commutes with Ĉ. For every
+generative law is a relational, single-outcome instrument in discrete stages, or equivalently a
 
-    pair of readings τ and τ′, the reductions R_A(τ): Ψ ↦ Ψ(τ, ·) and R_B(τ′): Ψ ↦ Ψ(·, τ′) are
+relational GRW-type jump process in continuous time. Its primitive events are occurrences whose
 
-    unitary from H_phys onto L²(ℝ, K).
+probabilities the law fixes, not sharp values of observables. Frame descriptions are unitary
 
+reductions of the neutral state, and two descriptions describe one complete state exactly when they
 
+lie in one description orbit. The interpretive thesis that such an orbit is one realized world with
 
-    (b) Temporal localization. Relative to clock A, interactions keyed to A act at the definite
+one history is what CTGP adds, and it is stated as a thesis, not presented as a theorem.
 
-    A-times [a_k, b_k], and interactions keyed to B act at the A-times [a_k + Δ, b_k + Δ], which are
 
-    spread according to the distribution of the offset in the state. Relative to clock B the roles
 
-    are exchanged.
+The truth profile does work that the quantum state cannot do. With finite-width collapse, any
 
+present state can be reached along any sequence of events from a suitable initial state, so nothing
 
+in the present physical state settles what happened; what settles it is what the present world has
 
-    (c) Record events. Let E_1, …, E_n be commuting projections on K, each commuting with H_S. Let
+been. That is the Lucretian thesis, given an exact form. The same results separate what is true
 
-    H_phys^I be the subspace of physical states whose offsets lie in a bounded interval I = [δ_−,
+about the past from what can be recovered about it and from what still influences the future: the
 
-    δ_+], and let s* be an A-time after every interaction for every Δ ∈ I, that is, s* ≥ b_k for
+past is definite, it may be unrecoverable, and it acts on the future only through the present.
 
-    interactions keyed to A and s* ≥ b_k + δ_+ for those keyed to B. Then the operators O_j =
 
-    U_Δ(s*)† E_j U_Δ(s*), acting pointwise in Δ, are commuting projections on H_phys^I, and
 
+Beyond the finite model, the same structure points to a definite program. The distinction that
 
+matters most is between agreement about states and agreement about realized histories: theories can
 
-        R_A(τ) O_j = E_j R_A(τ)  for τ ≥ s*,     R_B(τ′) O_j = E_j R_B(τ′)  for τ′ ≥ s* − δ_−.
+agree on every density operator and still disagree about what happened, so single-outcome
 
+compatibility with relativity must be proved at the level of histories. For causally local
 
+instruments in finite models it holds, and the choice of generative foliation is then empirically
 
-    Every finite history of record outcomes therefore has the same probability in the clock-neutral
+invisible, as CTGP’s observational equivalence requires. For finite networks of gapless detectors on
 
-    description and in either reduction at late readings. The clock-neutral instruments {O_j, 1 −
+a free relativistic field it holds as well, with operational no-signaling even in Sorkin’s
 
-    O_j} intertwine with the record measurements {E_j, 1 − E_j} relative to either clock, and they
+configuration, and it extends to spontaneous Gaussian collapses of smeared fields on a fixed family
 
-    compose in any order.
+of regions and to collapses at Poisson-distributed locations on every causally orderable
 
+configuration. Beyond that, a covariant law needs structure at each event: orderability is lost in
 
+large volumes, interfering collapses then depend on their order, and no Lorentz-invariant law for
 
-    (d) Superposed order. If an interaction keyed to A and one keyed to B have non-commuting
+point-centred smearings of a free field exists. Within CTGP, cosmological time can supply that
 
-    operators, the order in which they act depends on Δ. The law of the record outcomes is then the
+structure consistently, as a candidate extension, but only by giving the generative order a
 
-    mixture ∫ ‖χ(Δ)‖² P_Δ(α) dΔ of the laws P_Δ for the definite orders fixed by each offset, with
+dynamical role, which is a decision for the framework rather than a result. Realizing each collapse
 
-    P_Δ computed from χ(Δ)/‖χ(Δ)‖. Interference between the orders appears only in observables that
+by a gapless pointer coupled to the field removes the need to order the collapses, although
 
-    are not diagonal in the offset.
+cosmological time still fixes their smearings and the definite pointer readings must still be
 
+postulated. A covariant spontaneous-collapse theory that localizes matter remains to be established.
 
+Given an external generative order (Proposition 14.2), quantum clocks, including imperfect clocks,
 
-    (e) Interference between the orders. Suppose H_S = 0, let f be a wave packet in the offset whose
+may repeat readings, temporally delocalize events, and assign different clock-relative orderings
 
-    translates by δ_1 and δ_2 have disjoint supports in I, let ψ be a unit vector in K, and let χ(Δ)
+without changing the identity of the underlying realized events; and for two ideal clocks with the
 
-    = (f(Δ − δ_1) + f(Δ − δ_2)) ψ/√2. Suppose that U_Δ(s*) equals a fixed unitary W_k for every Δ in
+interventions inside the constraint, late-record events are clock-neutral even when the order of the
 
-    the support of f(· − δ_k), as when each interaction is completed within either branch. Let 𝒰*
+interactions that write them is superposed, and that superposition has observable consequences for
 
-    multiply χ(Δ) by U_Δ(s*), let F_+ be the projection onto the offset-coherent wave function f_+ =
+offset-coherent measurements. Deriving a definite generative order from clock-neutral data, treating
 
-    (f(· − δ_1) + f(· − δ_2))/√2, acting trivially on K, and let O_+ = 𝒰*† F_+ 𝒰*. As in (a),
+realistic clocks, and carrying generation into quantum gravity remain open.
 
-    physical states are represented by their initial data χ, so 𝒰* carries a physical state to its
 
-    late-time data, and O_+ is the late-time projection F_+ expressed in the initial-data
 
-    representation. Then O_+ is a projection on H_phys. Relative to A at τ ≥ s*, and relative to B
+The law generates the history, and the truth profile records it. Frames describe the result
 
-    at τ′ ≥ s* − δ_−, it is the projection onto the corresponding coherent superposition of readings
+differently, but they never disagree about what happened.
 
-    of the other clock, and
 
 
+----------------------------------------------------------------------------------------------------
 
-        ⟨Ψ, O_+ Ψ⟩ = ½ (1 + Re⟨W_1 ψ, W_2 ψ⟩).
+References
 
+----------------------------------------------------------------------------------------------------
 
 
-    For an incoherent mixture of the two offsets the same probability is ½, and when W_1ψ = W_2ψ it
 
-    is 1. Its departure from ½ is half the real part of the overlap of the states produced by the
+Aharonov, Y., & Kaufherr, T. (1984). Quantum frames of reference. Physical Review D, 30, 368–385.
 
-    two orders of the interactions.
 
 
+Allori, V., Goldstein, S., Tumulka, R., & Zanghì, N. (2008). On the common structure of Bohmian
 
-Proof. (a) The operator ∂_{t_A} + ∂_{t_B} differentiates along the lines of constant Δ, with s = t_A
+mechanics and the Ghirardi–Rimini–Weber theory. British Journal for the Philosophy of Science, 59,
 
-as parameter, so on each line the constraint reads i dΨ/ds = H_Δ(s)Ψ, whose solutions are
+353–389.
 
-U_Δ(s)χ(Δ). The offset commutes with P_A + P_B, since [P_A, T_A] = [P_B, T_B] = −i, and with every
 
-function of T_A and T_B. Relative to A, the conditional state is ψ_A(τ)(t_B) = U_{τ − t_B}(τ) χ(τ −
 
-t_B). Its norm is ∫ ‖χ(Δ)‖² dΔ because each U_Δ(τ) is unitary, and every ψ is attained, with χ(Δ) =
+Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
 
-U_Δ(τ)^{−1} ψ(τ − Δ). The argument for B, with ψ_B(τ′)(t_A) = U_{t_A − τ′}(t_A) χ(t_A − τ′), is the
+Quantum Gravity, 15, 309–322.
 
-same. (b) This follows from the form of H_Δ, read along the lines t_A = τ (relative to A) or t_B =
 
-τ′ (relative to B). (c) For Δ ∈ I and s ≥ s*, no interaction is active, so U_Δ(s) = e^{−iH_S(s −
 
-s*)} U_Δ(s*), and E_j commutes with the first factor. For τ ≥ s* this gives U_Δ(τ) O_j(Δ) = E_j
+Araújo, M., Branciard, C., Costa, F., Feix, A., Giarmatzi, C., & Brukner, Č. (2015). Witnessing
 
-U_Δ(τ), pointwise in t_B = τ − Δ, which is the first identity. For τ′ ≥ s* − δ_−, every point t_A =
+causal nonseparability. New Journal of Physics, 17, 102001.
 
-τ′ + Δ with Δ ∈ I satisfies t_A ≥ s*, and the same computation gives the second. The O_j are
 
-projections that commute because the E_j do, and they preserve H_phys^I because they act pointwise
 
-in Δ. Probabilities agree because the reductions are unitary. (d) Each O_j acts pointwise in Δ, so
+Bartlett, S. D., Rudolph, T., & Spekkens, R. W. (2007). Reference frames, superselection rules, and
 
-‖Π_j O_j^{(α_j)} Ψ‖² = ∫ ‖Π_j O_j^{(α_j)}(Δ) χ(Δ)‖² dΔ. (e) The probability is ⟨χ, 𝒰*† F_+ 𝒰* χ⟩ =
+quantum information. Reviews of Modern Physics, 79, 555–609.
 
-‖F_+ 𝒰* χ‖², in which the evolution 𝒰* is applied once, to the initial data χ = f_+ ⊗ ψ. By
 
-construction 𝒰*χ = (f(· − δ_1) W_1ψ + f(· − δ_2) W_2ψ)/√2, so F_+ 𝒰*χ = f_+ ⊗ (W_1ψ + W_2ψ)/2, whose
 
-squared norm is ½(1 + Re⟨W_1ψ, W_2ψ⟩). Since H_S = 0, U_Δ(s) = U_Δ(s*) for s ≥ s*, so at late
+Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
 
-readings R_A(τ) and R_B(τ′) differ from 𝒰* only by relabelling the offset as a reading of the other
+collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
 
-clock, which gives the stated forms. For a mixture, each branch has overlap ½ with f_+. □
+
+
+Baumann, V., & Lock, M. P. E. (2026). Time delocalization and causality across temporal quantum
+
+reference frames. arXiv:2603.08845.
+
+
+
+Bedingham, D. J. (2011). Relativistic state reduction dynamics. Foundations of Physics, 41, 686–704.
+
+
+
+Bell, J. S. (1987). Are there quantum jumps? In C. W. Kilmister (Ed.), Schrödinger: Centenary
+
+Celebration of a Polymath (pp. 41–52). Cambridge University Press. Reprinted in Speakable and
+
+Unspeakable in Quantum Mechanics.
+
+
+
+Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
+
+Communications in Mathematical Physics, 243, 461–470.
+
+
+
+Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
+
+globally hyperbolic spacetimes. Communications in Mathematical Physics, 257, 43–50.
+
+
+
+Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
+
+
+
+Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
+
+Review Letters, 59, 521–524.
+
+
+
+Bostelmann, H., Fewster, C. J., & Ruep, M. H. (2021). Impossible measurements require impossible
+
+apparatus. Physical Review D, 103, 025017.
+
+
+
+Bourne, C. (2006). A Future for Presentism. Oxford University Press.
+
+
+
+Breuer, H.-P., & Petruccione, F. (2002). The Theory of Open Quantum Systems. Oxford University
+
+Press.
+
+
+
+Brown, J. D., & Kuchař, K. V. (1995). Dust as a standard of space and time in canonical quantum
+
+gravity. Physical Review D, 51, 5600–5629.
+
+
+
+Castro-Ruiz, E., Giacomini, F., Belenchia, A., & Brukner, Č. (2020). Quantum clocks and the temporal
+
+localisability of events in the presence of gravitating quantum systems. Nature Communications, 11,
+
+2672.
+
+
+
+Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum computations without
+
+definite causal structure. Physical Review A, 88, 022318.
+
+
+
+Crisp, T. M. (2007). Presentism and the grounding objection. Noûs, 41, 90–109.
+
+
+
+Dalibard, J., Castin, Y., & Mølmer, K. (1992). Wave-function approach to dissipative processes in
+
+quantum optics. Physical Review Letters, 68, 580–583.
+
+
+
+Davies, E. B., & Lewis, J. T. (1970). An operational approach to quantum probability. Communications
+
+in Mathematical Physics, 17, 239–260.
+
+
+
+de la Hamette, A.-C., & Galley, T. D. (2020). Quantum reference frames for general symmetry groups.
+
+Quantum, 4, 367.
+
+
+
+de Ramón, J., Papageorgiou, M., & Martín-Martínez, E. (2021). Relativistic causality in particle
+
+detector models: Faster-than-light signalling and “impossible measurements”. Physical Review D, 103,
+
+085002.
+
+
+
+Dürr, D., Goldstein, S., Münch-Berndl, K., & Zanghì, N. (1999). Hypersurface Bohm–Dirac models.
+
+Physical Review A, 60, 2729–2736.
+
+
+
+Dürr, D., Goldstein, S., Norsen, T., Struyve, W., & Zanghì, N. (2014). Can Bohmian mechanics be made
+
+relativistic? Proceedings of the Royal Society A, 470, 20130699.
+
+
+
+Fewster, C. J., & Verch, R. (2020). Quantum fields and local measurements. Communications in
+
+Mathematical Physics, 378, 851–889.
+
+
+
+Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+
+systems. Physical Review D, 34, 470–491.
+
+
+
+Giacomini, F., Castro-Ruiz, E., & Brukner, Č. (2019). Quantum mechanics and the covariance of
+
+physical laws in quantum reference frames. Nature Communications, 10, 494.
+
+
+
+Gorini, V., Kossakowski, A., & Sudarshan, E. C. G. (1976). Completely positive dynamical semigroups
+
+of N-level systems. Journal of Mathematical Physics, 17, 821–825.
+
+
+
+Helstrom, C. W. (1976). Quantum Detection and Estimation Theory. Academic Press.
+
+
+
+Höhn, P. A., Smith, A. R. H., & Lock, M. P. E. (2021). Trinity of relational quantum dynamics.
+
+Physical Review D, 104, 066001.
+
+
+
+Hollands, S., & Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.
+
+
+
+Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort & M. A.
+
+Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).
+
+Kluwer.
+
+
+
+Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
+
+Modern Physics, 83, 11–31.
+
+
+
+Kraus, K. (1983). States, Effects, and Operations: Fundamental Notions of Quantum Theory. Springer.
+
+
