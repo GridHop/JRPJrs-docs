@@ -2,6 +2,26 @@
 
 Part 08 of 25 (1,791 words)
 
+In summary, with λ = 0 (§6.9) the continuum generation parameter introduces no new propagating
+
+degrees of freedom and modifies no gravitational dynamics. Physical hypotheses that would give σ
+
+dynamics of its own — density-dependent generation rates and soft completions of the norm condition
+
+— are analyzed in §11; none survives the consistency requirements while producing an observable
+
+effect.
+
+
+
+Covariance and compatibility with General Relativity. All quantities introduced in the CTGP
+
+framework are constructed from the metric, its causal structure, and scalar invariants.
+
+Consequently, the theory remains invariant under arbitrary spacetime diffeomorphisms. The Einstein
+
+field equations G_{μν} = 8πG T_{μν} are unchanged (§9.1), and the generative dynamics operate only
+
 at the level of the ontological realization of spacetime events rather than modifying the local
 
 gravitational field equations. In this sense CTGP extends the interpretation of spacetime evolution
@@ -321,19 +341,3 @@ is computed from the present one by lawful dynamics.
 
 
 The Einstein equation governs the generation of each new slice. On the CTGP reading, this equation
-
-is not a constraint on a pre-existing four-dimensional structure but a production rule: given Σ_σ,
-
-it tells us what Σ_{σ+Δσ} is. The hyperbolic character of the equations — their dependence on
-
-initial data rather than boundary data in the future — supports this reading structurally.
-
-
-
-Becoming as primitive. Generation is not an ordinary relation between two coexisting states.
-
-Predecessor and successor are never present together, so there is no stage at which both exist and
-
-one produces the other. On CTGP, generation is primitive and tensed: the present has come to be from
-
-what was present. The division of labor is exact. Cosmological time supplies the ordering and co-

@@ -21,31 +21,31 @@ Seven works. Each reading page has an HTML and a Markdown version. Part boundari
 ## Cosmic-Time Generative Presentism (CTGP) — Explained
 - [Contents](ctgp-explained/index.html) — 25 parts
 
-- [Part 01 HTML](ctgp-explained/part-01.html) · [Markdown](ctgp-explained/part-01.md) — 1,797 words
-- [Part 02 HTML](ctgp-explained/part-02.html) · [Markdown](ctgp-explained/part-02.md) — 1,797 words
-- [Part 03 HTML](ctgp-explained/part-03.html) · [Markdown](ctgp-explained/part-03.md) — 1,792 words
+- [Part 01 HTML](ctgp-explained/part-01.html) · [Markdown](ctgp-explained/part-01.md) — 1,799 words
+- [Part 02 HTML](ctgp-explained/part-02.html) · [Markdown](ctgp-explained/part-02.md) — 1,787 words
+- [Part 03 HTML](ctgp-explained/part-03.html) · [Markdown](ctgp-explained/part-03.md) — 1,798 words
 - [Part 04 HTML](ctgp-explained/part-04.html) · [Markdown](ctgp-explained/part-04.md) — 1,798 words
 - [Part 05 HTML](ctgp-explained/part-05.html) · [Markdown](ctgp-explained/part-05.md) — 1,791 words
-- [Part 06 HTML](ctgp-explained/part-06.html) · [Markdown](ctgp-explained/part-06.md) — 1,794 words
-- [Part 07 HTML](ctgp-explained/part-07.html) · [Markdown](ctgp-explained/part-07.md) — 1,796 words
+- [Part 06 HTML](ctgp-explained/part-06.html) · [Markdown](ctgp-explained/part-06.md) — 1,800 words
+- [Part 07 HTML](ctgp-explained/part-07.html) · [Markdown](ctgp-explained/part-07.md) — 1,786 words
 - [Part 08 HTML](ctgp-explained/part-08.html) · [Markdown](ctgp-explained/part-08.md) — 1,791 words
-- [Part 09 HTML](ctgp-explained/part-09.html) · [Markdown](ctgp-explained/part-09.md) — 1,796 words
-- [Part 10 HTML](ctgp-explained/part-10.html) · [Markdown](ctgp-explained/part-10.md) — 1,790 words
-- [Part 11 HTML](ctgp-explained/part-11.html) · [Markdown](ctgp-explained/part-11.md) — 1,792 words
-- [Part 12 HTML](ctgp-explained/part-12.html) · [Markdown](ctgp-explained/part-12.md) — 1,798 words
-- [Part 13 HTML](ctgp-explained/part-13.html) · [Markdown](ctgp-explained/part-13.md) — 1,794 words
-- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,791 words
-- [Part 15 HTML](ctgp-explained/part-15.html) · [Markdown](ctgp-explained/part-15.md) — 1,793 words
-- [Part 16 HTML](ctgp-explained/part-16.html) · [Markdown](ctgp-explained/part-16.md) — 1,792 words
-- [Part 17 HTML](ctgp-explained/part-17.html) · [Markdown](ctgp-explained/part-17.md) — 1,795 words
-- [Part 18 HTML](ctgp-explained/part-18.html) · [Markdown](ctgp-explained/part-18.md) — 1,788 words
-- [Part 19 HTML](ctgp-explained/part-19.html) · [Markdown](ctgp-explained/part-19.md) — 1,792 words
-- [Part 20 HTML](ctgp-explained/part-20.html) · [Markdown](ctgp-explained/part-20.md) — 1,798 words
-- [Part 21 HTML](ctgp-explained/part-21.html) · [Markdown](ctgp-explained/part-21.md) — 1,792 words
-- [Part 22 HTML](ctgp-explained/part-22.html) · [Markdown](ctgp-explained/part-22.md) — 1,787 words
-- [Part 23 HTML](ctgp-explained/part-23.html) · [Markdown](ctgp-explained/part-23.md) — 1,796 words
-- [Part 24 HTML](ctgp-explained/part-24.html) · [Markdown](ctgp-explained/part-24.md) — 1,798 words
-- [Part 25 HTML](ctgp-explained/part-25.html) · [Markdown](ctgp-explained/part-25.md) — 487 words
+- [Part 09 HTML](ctgp-explained/part-09.html) · [Markdown](ctgp-explained/part-09.md) — 1,800 words
+- [Part 10 HTML](ctgp-explained/part-10.html) · [Markdown](ctgp-explained/part-10.md) — 1,788 words
+- [Part 11 HTML](ctgp-explained/part-11.html) · [Markdown](ctgp-explained/part-11.md) — 1,798 words
+- [Part 12 HTML](ctgp-explained/part-12.html) · [Markdown](ctgp-explained/part-12.md) — 1,796 words
+- [Part 13 HTML](ctgp-explained/part-13.html) · [Markdown](ctgp-explained/part-13.md) — 1,793 words
+- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,793 words
+- [Part 15 HTML](ctgp-explained/part-15.html) · [Markdown](ctgp-explained/part-15.md) — 1,788 words
+- [Part 16 HTML](ctgp-explained/part-16.html) · [Markdown](ctgp-explained/part-16.md) — 1,799 words
+- [Part 17 HTML](ctgp-explained/part-17.html) · [Markdown](ctgp-explained/part-17.md) — 1,789 words
+- [Part 18 HTML](ctgp-explained/part-18.html) · [Markdown](ctgp-explained/part-18.md) — 1,796 words
+- [Part 19 HTML](ctgp-explained/part-19.html) · [Markdown](ctgp-explained/part-19.md) — 1,793 words
+- [Part 20 HTML](ctgp-explained/part-20.html) · [Markdown](ctgp-explained/part-20.md) — 1,796 words
+- [Part 21 HTML](ctgp-explained/part-21.html) · [Markdown](ctgp-explained/part-21.md) — 1,790 words
+- [Part 22 HTML](ctgp-explained/part-22.html) · [Markdown](ctgp-explained/part-22.md) — 1,792 words
+- [Part 23 HTML](ctgp-explained/part-23.html) · [Markdown](ctgp-explained/part-23.md) — 1,789 words
+- [Part 24 HTML](ctgp-explained/part-24.html) · [Markdown](ctgp-explained/part-24.md) — 1,799 words
+- [Part 25 HTML](ctgp-explained/part-25.html) · [Markdown](ctgp-explained/part-25.md) — 756 words
 
 ## Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 - [Contents](free-will/index.html) — 3 parts
@@ -84,11 +84,11 @@ Seven works. Each reading page has an HTML and a Markdown version. Part boundari
 ## More Info — Causation, Information, Identity, and Becoming
 - [Contents](more-info/index.html) — 5 parts
 
-- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,790 words
-- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,797 words
-- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,788 words
+- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,795 words
+- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,800 words
+- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,795 words
 - [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,791 words
-- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 776 words
+- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 782 words
 
 ## Deal's Worth
 - [Contents](deals-worth/index.html) — 22 parts

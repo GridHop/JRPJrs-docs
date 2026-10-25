@@ -1,6 +1,38 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 25 (1,798 words)
+Part 20 of 25 (1,796 words)
+
+subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
+
+projection onto the constraint manifold via the conformal method, provided the constraint mismatch
+
+on the overlap is sufficiently small in H^{s-1}, there exists T > 0 and a unique local solution U ∈
+
+C([0,T], H^s) ∩ C^1([0,T], H^{s-1}) with stability bound ‖U − U^{(a)}‖_{Hs-1(V′a)} ≤ C_T ‖overlap
+
+mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim is thereby a standard PDE
+
+construction: local CTGP foliations may be patched only through overlap data first reconciled at the
+
+level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
+
+corrected blended data. □
+
+
+
+Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be a family of smooth
+
+spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
+
+ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
+
+Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
+
+(2) Energy-boundedness — each smeared generator ℒ(f) = ∫_Σ f(x) ℒ_x dΣ is closable on D and
+
+satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
+
+on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
 
 swept out, not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-
 
@@ -286,6 +318,12 @@ Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum 
 
 
 
+Christodoulou, D. (2009). The Formation of Black Holes in General Relativity. European Mathematical
+
+    Society.
+
+
+
 Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
 
     Physical Review D, 58, 116002.
@@ -293,6 +331,12 @@ Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the st
 
 
 Craig, W. L. (2001). Time and the Metaphysics of Relativity. Kluwer Academic Publishers.
+
+
+
+Dafermos, M., & Luk, J. (2025). The interior of dynamical vacuum black holes I: The C⁰-stability of
+
+    the Kerr Cauchy horizon. Annals of Mathematics, 202, 309–630.
 
 
 
@@ -355,87 +399,5 @@ Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmol
 Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
 
     cosmic microwave background. Physical Review D, 78, 083012.
-
-
-
-Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
-
-    29, 454–462.
-
-
-
-Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
-
-    11, 127–138.
-
-
-
-Garriga, J., & Mukhanov, V. F. (1999). Perturbations in k-inflation. Physics Letters B, 458,
-
-    219–225.
-
-
-
-Geroch, R. (1970). Domain of dependence. Journal of Mathematical Physics, 11(2), 437–449.
-
-
-
-Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
-
-    systems. Physical Review D, 34(2), 470–491.
-
-
-
-Gödel, K. (1949). An example of a new type of cosmological solutions of Einstein’s field equations.
-
-    Reviews of Modern Physics, 21, 447–450.
-
-
-
-Gottesman, D., & Preskill, J. (2004). Comment on “The black hole final state.” Journal of High
-
-    Energy Physics, 2004(03), 026.
-
-
-
-Hartle, J. B., & Hawking, S. W. (1983). Wave function of the universe. Physical Review D, 28(12),
-
-    2960–2975.
-
-
-
-Hawking, S. W., & Ellis, G. F. R. (1973). The Large Scale Structure of Space-Time. Cambridge
-
-    University Press.
-
-
-
-Hawking, S. W., King, A. R., & McCarthy, P. J. (1976). A new topology for curved space-time which
-
-    incorporates the causal, differential, and conformal structures. Journal of Mathematical
-
-    Physics, 17(2), 174–181.
-
-
-
-Hoftuft, J., Eriksen, H. K., Banday, A. J., Górski, K. M., Hansen, F. K., & Lilje, P. B. (2009).
-
-    Increasing evidence for hemispherical power asymmetry in the five-year WMAP data. The
-
-    Astrophysical Journal, 699, 985–989.
-
-
-
-Hořava, P. (2009). Quantum gravity at a Lifshitz point. Physical Review D, 79, 084008.
-
-
-
-Horowitz, G. T., & Maldacena, J. (2004). The black hole final state. Journal of High Energy Physics,
-
-    2004(02), 008.
-
-
-
-Ismael, J. (2016). How Physics Makes Us Free. Oxford University Press.
 
 

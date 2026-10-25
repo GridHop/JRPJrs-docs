@@ -1,6 +1,58 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 23 of 25 (1,796 words)
+Part 23 of 25 (1,789 words)
+
+that representing a process is not the same as instantiating it, and that this distinction matters
+
+for qualia.
+
+
+
+A computational simulation of neural dynamics encodes structural patterns and may reproduce
+
+input–output behaviour, but the simulation's states are symbolic representations of a process rather
+
+than the process itself. CTGP suggests that qualia depend on the actual physical instantiation of
+
+processes at Σ_σ—physical dynamics actively unfolding in the present—rather than on the manipulation
+
+of representations. This view leaves open whether some digital or other substrates might instantiate
+
+the relevant dynamics; it cautions only that functional equivalence alone does not guarantee that
+
+the requisite physical processes are present.
+
+
+
+This criterion grounds CTGP's cautious stance on strong functionalism. While functional organisation
+
+may be necessary for qualia, it may not be sufficient: the nature of the underlying physical process
+
+could matter. CTGP's domain-relative instantiation criterion is a philosophical elaboration of the
+
+Representation–Instantiation Distinction and does not modify any equation of the core framework. It
+
+emphasises that the framework's claims about mind are metaphysical extensions of its temporal
+
+ontology, not empirically settled facts.
+
+
+
+The physically instantiated criterion is a philosophical extension of CTGP’s ontology, not part of
+
+its physical foundation: the generation rate depends only on cosmic epoch (§11), and nothing in the
+
+core framework makes temporal progression depend on any further property of physical systems. The
+
+physical framework of CTGP is therefore logically independent of the criterion; this appendix
+
+explores one philosophical extension consistent with the ontology but not required for its physical
+
+validity.
+
+
+
+A pressing objection is that quantum gravity hints at discrete physics — Planck-scale discreteness
 
 in causal sets or loop quantum gravity — so why should discrete computation lack what discrete
 
@@ -279,83 +331,3 @@ experience, and (2) specific mapping from physical processes to qualitative char
 the first but leaves the second partially open.
 
 
-
-The framework establishes that qualia occur only in ongoing, causally continuous physical processes
-
-located on the present hypersurface Σ_σ. It also provides constraints on candidate processes
-
-(physically instantiated, classically resolved, causally integrated dynamics). However, CTGP does
-
-not derive why a particular neural process corresponds to a particular qualitative character (e.g.,
-
-why a given neural pattern corresponds to the experience of red rather than blue).
-
-
-
-D.6.1 Scope of the Mapping Claim
-
-
-
-CTGP does not claim to solve the hard problem of consciousness, the bridge problem, or the character
-
-problem. Its contribution is more limited.
-
-
-
-The framework proposes:
-
-
-
-    (a) a temporal locus for conscious processes (the present hypersurface Σ_σ);
-
-
-
-    (b) candidate necessary conditions for conscious processes (physical instantiation, causal
-
-    continuity, and classicalized dynamics);
-
-
-
-    (c) constraints on acceptable bridge theories.
-
-
-
-The framework does not derive a unique mapping from physical states to phenomenal states. Such a
-
-mapping would require additional psychophysical principles beyond those supplied by the current CTGP
-
-formalism.
-
-
-
-Consequently, CTGP should be understood as providing an ontological framework within which a
-
-consciousness theory might operate, rather than as a complete theory of consciousness itself.
-
-
-
-D.7 Empirical Implications
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP's account of qualia generates several empirical implications, distinguishing it from purely
-
-abstract philosophy-of-mind positions:
-
-
-
-• No macroscopic quantum consciousness: CTGP suggests that qualia require classicalized dynamics.
-
-  Proposals requiring quantum coherence at the neural scale (e.g., Penrose-Hameroff) are
-
-  incompatible with CTGP's classicalization requirement.
-
-• Substrate signatures: if the physically instantiated criterion is correct, there should in
-
-  principle be signatures distinguishing genuinely qualia-capable processes from digital
-
-  simulations, even when they are functionally equivalent. Identifying such signatures is a research
-
-  program, not a settled result.

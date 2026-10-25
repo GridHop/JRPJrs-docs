@@ -1,6 +1,48 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 17 of 25 (1,795 words)
+Part 17 of 25 (1,789 words)
+
+this section, the same facts are equally available on a block reading. Within the CTGP framework,
+
+this signal is therefore not merely a probe of distant structure; it is a present-day physical
+
+encoding of the universe’s own generative history, tying the framework’s ontology, its treatment of
+
+the past, and the signal-based structure of causal records together in a particularly coherent way.
+
+
+
+Temporal layering: the observed frequency of the 21 cm line is redshifted (ν_{obs} = ν_{rest}/(1 +
+
+z)). A radio telescope observing across a continuous band (for example 50–200 MHz) is not observing
+
+different spatial locations but present radiation carrying information about different stages
+
+represented in M(σ): lower frequencies correspond to higher z, and hence to earlier stages Σ_σ.
+
+Whereas the CMB is a single two-dimensional surface (z ≈ 1100), 21 cm tomography can in principle
+
+reconstruct the neutral hydrogen distribution across the generated history from z ≈ 0 to z ≈ 200,
+
+providing a spatially resolved causal archive of how baryonic matter evolved under gravitational
+
+collapse.
+
+
+
+14.2 Gravitational Waves as Records of Causal Events
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Gravitational waves propagate at the speed of light through spacetime curvature, carrying
+
+information about the dynamics of their source events: binary mergers, core-collapse supernovae,
+
+inflation-era phase transitions, and potentially the causal growth process of the early universe
+
+itself. Detected gravitational wave signals from binary black hole and neutron star mergers are
 
 present field configurations carrying information about events billions of years earlier. Within
 
@@ -311,39 +353,3 @@ relativistic causal structure: CTGP identifies the growth parameter with cosmolo
 the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
 
 ordering that is observationally accessible: in FLRW the level sets of cosmological time are the
-
-surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
-
-already measures, without introducing a preferred frame beyond what is already present in standard
-
-cosmology. Third, persistence of past information through physical records: CTGP’s account of causal
-
-records embedded in successive present states provides a precise mechanism for how the past remains
-
-accessible despite no longer existing as an independent spacetime region. Together these components
-
-provide a framework in which temporal passage, causal structure, and cosmological evolution are
-
-treated as aspects of a single underlying generative process rather than as separate explananda
-
-requiring separate theoretical treatments.
-
-
-
-CTGP is compatible with all of these, and explicitly incorporates their formal resources where
-
-appropriate. Its distinctive contribution, however, is something none of them provides: most quantum
-
-gravity growth models describe the growth of causal relations — the addition of ordered pairs of
-
-events, the extension of the causal partial order. CTGP adds to this the growth of the experiential
-
-present. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
-
-causal structure; it is the ontological locus of qualia, the active edge at which physically
-
-instantiated becoming constitutes experience. This connects physics and phenomenology in a way that
-
-causal set theory, temporal naturalism, and process cosmology do not attempt: alongside a formal
-
-account of how generation proceeds, CTGP specifies where within that structure experience occurs. It

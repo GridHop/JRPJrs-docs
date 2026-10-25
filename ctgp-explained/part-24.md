@@ -1,6 +1,86 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 24 of 25 (1,798 words)
+Part 24 of 25 (1,799 words)
+
+The framework establishes that qualia occur only in ongoing, causally continuous physical processes
+
+located on the present hypersurface Σ_σ. It also provides constraints on candidate processes
+
+(physically instantiated, classically resolved, causally integrated dynamics). However, CTGP does
+
+not derive why a particular neural process corresponds to a particular qualitative character (e.g.,
+
+why a given neural pattern corresponds to the experience of red rather than blue).
+
+
+
+D.6.1 Scope of the Mapping Claim
+
+
+
+CTGP does not claim to solve the hard problem of consciousness, the bridge problem, or the character
+
+problem. Its contribution is more limited.
+
+
+
+The framework proposes:
+
+
+
+    (a) a temporal locus for conscious processes (the present hypersurface Σ_σ);
+
+
+
+    (b) candidate necessary conditions for conscious processes (physical instantiation, causal
+
+    continuity, and classicalized dynamics);
+
+
+
+    (c) constraints on acceptable bridge theories.
+
+
+
+The framework does not derive a unique mapping from physical states to phenomenal states. Such a
+
+mapping would require additional psychophysical principles beyond those supplied by the current CTGP
+
+formalism.
+
+
+
+Consequently, CTGP should be understood as providing an ontological framework within which a
+
+consciousness theory might operate, rather than as a complete theory of consciousness itself.
+
+
+
+D.7 Empirical Implications
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP's account of qualia generates several empirical implications, distinguishing it from purely
+
+abstract philosophy-of-mind positions:
+
+
+
+• No macroscopic quantum consciousness: CTGP suggests that qualia require classicalized dynamics.
+
+  Proposals requiring quantum coherence at the neural scale (e.g., Penrose-Hameroff) are
+
+  incompatible with CTGP's classicalization requirement.
+
+• Substrate signatures: if the physically instantiated criterion is correct, there should in
+
+  principle be signatures distinguishing genuinely qualia-capable processes from digital
+
+  simulations, even when they are functionally equivalent. Identifying such signatures is a research
+
+  program, not a settled result.
 
 • Memory as re-instantiation: CTGP suggests that memory recovery is best understood as re-
 
@@ -339,49 +419,3 @@ CTGP supplies what fixes the pairing, and supplies it from §6.1 rather than fro
 cosmological time fixes which stages are co-present, and in our universe it approximately coincides
 
 with the CMB rest frame and is realized along the comoving matter worldlines (§9.3.1). The supernova
-
-does not select the foliation, and it could not. Presenting it as doing so would invite a
-
-circularity objection against something the framework already supplies independently.
-
-
-
-E.5.3 The Placement
-
-
-
-The collapse belonged to the stage whose σ-value is earlier than that of the 1987 detection by
-
-approximately 168,000 years of matter-frame proper time. The approximation holds because the LMC’s
-
-peculiar velocity and the relevant gravitational potential differences are small; cosmological time
-
-is realized along the comoving worldlines, and neither Earth nor the LMC lies exactly on them.
-
-
-
-One number, two roles. The figure “168,000 years” appears here in two roles, and only the second is
-
-a CTGP claim. As a light-travel time it characterizes a null pair (the first row of Table E.1); it
-
-is frame-dependent — a boosted observer assigns a different Δt to the same null pair — but it
-
-asserts nothing about simultaneity. As a σ-difference it asserts which stage the collapse belonged
-
-to, and that is a claim about the foliation. The figure also carries an observational spread of a
-
-few percent: 51.4 kpc ≈ 168,000 light-years is the commonly cited value for the supernova (Panagia
-
-1999), while the most precise distance to the Large Magellanic Cloud, 49.59 kpc (Pietrzyński et al.
-
-2019), corresponds to about 162,000 light-years. None of the argument turns on which value is
-
-correct.
-
-
-
-The placement is also robust, which is its main operational payoff. Earth’s peculiar velocity
-
-relative to the CMB is about 370 km/s, so the CMB-frame σ-assignment and the naive light-travel-time
-
-subtraction differ by at most about 200 years out of 168,000. The everyday answer is nearly right,

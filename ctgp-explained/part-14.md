@@ -1,6 +1,60 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 14 of 25 (1,791 words)
+Part 14 of 25 (1,793 words)
+
+exact constraint, as in ghost condensation (Arkani-Hamed et al. 2004).
+
+
+
+Theorem 11.4 (Static rate uniformity). Let the σ-sector be shift-symmetric, S_σ = ∫√(−g) P(X, T)
+
+d⁴x, with T_{μν} depending only on metric and matter fields. Consider a static, asymptotically flat
+
+configuration σ = ωt + φ(x), regular everywhere, and suppose P_X > 0 wherever it is supported. Then
+
+∇φ ≡ 0.
+
+
+
+Proof. The spatial equation is ∂_i(√(−g) P_X g^{ij}∂_jφ) = 0. Regularity and the divergence theorem
+
+make the flux through every closed surface vanish, so φ − φ_∞ = O(r⁻²). Multiplying by φ − φ_∞ and
+
+integrating by parts gives ∫√(−g) P_X g^{ij}∂_iφ∂_jφ d³x = lim_{r→∞} ∮(φ − φ_∞)P_X ∇φ · dS = 0. The
+
+integrand is non-negative, so ∇φ = 0. □
+
+
+
+Every stable static structure therefore has the same generation rate as its surroundings: σ = ωt,
+
+with X = ω²/(2N²) where N is the lapse. A locally enhanced generation rate inside bound structure is
+
+excluded for the entire class.
+
+
+
+Proposition 11.5 (Stability transport bound). Suppose the background evolves near the preferred
+
+norm, X̄ ≈ X⋆(ρ̄). (a) By Theorem 11.4, a static structure containing densities up to ρ_{max} at an
+
+epoch with background norm X₁ is stable only if
+
+
+
+        P₀′(X₁) > κ [X⋆(ρ_{max}) − X₁].
+
+
+
+(b) Along the background, the no-ghost condition reads d(X^{1/2}P₀′)/dX > −κX^{1/2}. Integrating to
+
+an earlier epoch with X₂ > X₁ gives
+
+
+
+        P₀′(X₂) ≳ κ X⋆(ρ_{max}) (X₁/X₂)^{1/2},
+
+
 
 provided X⋆(ρ_{max}) X₁^{1/2} ≫ X₂^{3/2}. (c) The fractional modulation of the σ-sector by density
 
@@ -291,41 +345,3 @@ generable by encoding its future in the present state. A choice of formulation c
 law with no legitimate generative formulation can. Conditioning a stochastic process on a later
 
 event of nonzero probability can, under suitable assumptions, yield a forward transition law through
-
-a Doob h-transform (Doob 1957). Consequently, the appearance of a future condition in one
-
-mathematical representation does not establish that the corresponding physical dynamics requires a
-
-future boundary condition as an independent input. Equally, the existence of a forward
-
-representation of the resulting probabilities does not, by itself, establish the physical adequacy
-
-of that representation as a fundamental generative law. In particular, equivalence of conditional
-
-trajectory probabilities need not establish equivalence under all admissible interventions or
-
-compatibility with the constraints of relativistic quantum dynamics. CTGP therefore distinguishes
-
-mathematical forward representability from physical generability. Neither, in turn, establishes
-
-ontological generation: generability is necessary for CTGP, but an eternalist model can contain
-
-generable laws. Where alternative formulations are operationally equivalent, their different
-
-ontological interpretations cannot be distinguished by those operational predictions alone. Global
-
-formulations do not count against generability when they are equivalent to a well-posed initial-
-
-value problem: general relativity can be derived from an action over spacetime, but its classical
-
-content is captured by the Cauchy problem of §7.
-
-
-
-Laws and the present. The phrase “from the current one alone” should be read ontologically. Since
-
-only the present exists, the laws that govern evolution are not an additional resource standing
-
-alongside the present; they obtain in it. The initial-value formalism separates a mathematical
-
-specification of the state from the equations applied to it, but that separation is a feature of the

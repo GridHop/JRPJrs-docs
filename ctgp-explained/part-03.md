@@ -1,6 +1,16 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 03 of 25 (1,792 words)
+Part 03 of 25 (1,798 words)
+
+conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
+
+to future — runs in the direction in which stages are generated, since each new hypersurface is
+
+generated from its predecessor and never the reverse. Generation supplies the orientation, not the
+
+gradient: as in standard cosmology, the increase itself requires a low-entropy initial condition,
+
+which CTGP must assume exactly as eternalism does. What the generative flow contributes is the
 
 direction relative to which the overall increase of entropy is defined; it does not require entropy
 
@@ -321,17 +331,3 @@ the dispute.
 ----------------------------------------------------------------------------------------------------
 
 
-
-5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 1 (Ontological Primacy of the Present): At any stage of cosmic evolution, only the current
-
-hypersurface of reality—the present state of the universe—possesses ontological existence as
-
-presently real. The present is not, however, an isolated instant: it exists as part of a continuous
-
-causal-temporal progression whereby each state emerges through the lawful evolution of immediately

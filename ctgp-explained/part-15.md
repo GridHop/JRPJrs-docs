@@ -1,6 +1,44 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 25 (1,793 words)
+Part 15 of 25 (1,788 words)
+
+a Doob h-transform (Doob 1957). Consequently, the appearance of a future condition in one
+
+mathematical representation does not establish that the corresponding physical dynamics requires a
+
+future boundary condition as an independent input. Equally, the existence of a forward
+
+representation of the resulting probabilities does not, by itself, establish the physical adequacy
+
+of that representation as a fundamental generative law. In particular, equivalence of conditional
+
+trajectory probabilities need not establish equivalence under all admissible interventions or
+
+compatibility with the constraints of relativistic quantum dynamics. CTGP therefore distinguishes
+
+mathematical forward representability from physical generability. Neither, in turn, establishes
+
+ontological generation: generability is necessary for CTGP, but an eternalist model can contain
+
+generable laws. Where alternative formulations are operationally equivalent, their different
+
+ontological interpretations cannot be distinguished by those operational predictions alone. Global
+
+formulations do not count against generability when they are equivalent to a well-posed initial-
+
+value problem: general relativity can be derived from an action over spacetime, but its classical
+
+content is captured by the Cauchy problem of §7.
+
+
+
+Laws and the present. The phrase “from the current one alone” should be read ontologically. Since
+
+only the present exists, the laws that govern generation are not an additional resource standing
+
+alongside the present; they obtain in it. The initial-value formalism separates a mathematical
+
+specification of the state from the equations applied to it, but that separation is a feature of the
 
 formalism, not a second ontological ingredient. What generability excludes is dependence on an
 
@@ -62,31 +100,29 @@ does not establish generability.
 
 Future tests. The constraint is exposed to physics still to come. It would fail with the
 
-establishment of fundamental dynamics whose physical evolution cannot be specified by an adequate
+establishment of fundamental dynamics that cannot be specified by an adequate forward-generative law
 
-forward-generative law on the cosmological-time slices, because an independently imposed future
+on the cosmological-time slices, because an independently imposed future boundary condition or a
 
-boundary condition or a global consistency requirement is indispensable to determining the realized
+global consistency requirement is indispensable to determining the realized history. Here an
 
-history. Here an adequate forward-generative account is one that satisfies the generability
+adequate forward-generative account is one that satisfies the generability criterion stated above
 
-criterion stated above while reproducing the relevant empirical predictions of the theory, including
+while reproducing the relevant empirical predictions of the theory, including those concerning
 
-those concerning admissible interventions. Failure of a well-posed initial-value formulation would
+admissible interventions. Failure of a well-posed initial-value formulation would provide one
 
-provide one possible indication of an obstruction, but mathematical ill-posedness alone would not
+possible indication of an obstruction, but mathematical ill-posedness alone would not establish
 
-establish future dependence. Conversely, the existence of a forward representation of selected
+future dependence. Conversely, the existence of a forward representation of selected trajectory
 
-trajectory probabilities would not automatically establish physical generability. A fundamental
+probabilities would not automatically establish physical generability. A fundamental final-state
 
-final-state proposal, such as the black-hole final state of Horowitz and Maldacena (2004; for its
+proposal, such as the black-hole final state of Horowitz and Maldacena (2004; for its difficulties,
 
-difficulties, see Gottesman and Preskill 2004), would therefore count against CTGP only if its
+see Gottesman and Preskill 2004), would therefore count against CTGP only if its indispensable
 
-indispensable physical requirements could not be accommodated by an adequate forward-generative
-
-account.
+physical requirements could not be accommodated by an adequate forward-generative account.
 
 
 
@@ -307,47 +343,3 @@ Reply: CTGP does not require an operationally absolute simultaneity relation bet
 spacelike-separated events. It requires a foliation adequate for cosmology and compatible with GR's
 
 initial-value structure. Cosmological time provides a physically grounded, non-absolute global
-
-'now', which on large scales is the rest frame of the CMB — not a kinematic absolute but a physical
-
-fact about our universe. The metaphysical claim concerns the ontological structure of M(σ), defined
-
-by cosmological time, not the conventions individual observers use to label events as simultaneous
-
-(§9.4).
-
-
-
-Objection O2 (Lorentz invariance): Any preferred foliation violates Lorentz invariance.
-
-
-
-Reply: A global foliation can be physically emergent while local laws remain Lorentz-invariant
-
-(§9.3.1). Preferred frames in cosmology are properties of solutions, not new physics, and CTGP
-
-predicts no preferred-frame effects on local physics, consistent with existing null results (§12.3).
-
-
-
-Objection O3 (Diffeomorphism invariance): 'Growth' is a gauge artifact.
-
-
-
-Reply: Growth is not a gauge artifact. The temporal ordering CTGP relies on begins from the causal
-
-structure of spacetime itself: by the Hawking–King–McCarthy and Malament theorems, the causal
-
-ordering relation already determines the conformal structure of the spacetime metric. Geroch and
-
-Bernal–Sánchez then show that this causal ordering can be represented by smooth temporal functions
-
-whose level sets are spacelike Cauchy hypersurfaces. CTGP does not introduce temporal ordering; it
-
-selects a physically preferred representative of a class of orderings already latent in globally
-
-hyperbolic GR. The representative is cosmological time, defined from the causal and metric structure
-
-alone, which in cosmology coincides with the matter rest frame. The ontology is not a coordinate
-
-artifact but a claim about causal structure. Equivalence classes under diffeomorphisms are

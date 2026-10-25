@@ -2,13 +2,27 @@
 
 Part 04 of 25 (1,798 words)
 
-preceding states and in turn contributes to the emergence of subsequent states. Earlier states do
+5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
 
-not persist as independently existing regions of spacetime. Their physical consequences continue
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-within later states through ongoing causal continuity, of which only a subset remains organized as
 
-information-bearing records accessible in present physical systems.
+
+Postulate 1 (Ontological Primacy of the Present): At any stage of cosmic evolution, only the current
+
+hypersurface of reality—the present state of the universe—possesses ontological existence as
+
+presently real. The present is not, however, an isolated instant: it exists as part of a continuous
+
+causal-temporal progression whereby each state lawfully emerges from immediately preceding states
+
+and in turn contributes to the emergence of subsequent states. Earlier states do not persist as
+
+independently existing regions of spacetime. Their physical consequences continue within later
+
+states through ongoing causal continuity, of which only a subset remains organized as information-
+
+bearing records accessible in present physical systems.
 
 
 
@@ -126,13 +140,13 @@ by the present configuration, one subset of which functions as a causal record.
 
 While CTGP holds that earlier states do not persist as independently existing regions of spacetime,
 
-the causal consequences of those states persist within the present state through ongoing physical
+the causal consequences of those states persist within the present state through ongoing temporal
 
-evolution. Some of those consequences remain organized as causal encodings and records accessible in
+and generative progression. Some of those consequences remain organized as causal encodings and
 
-the present. This should not be taken to imply that present encodings exhaust all truths about the
+records accessible in the present. This should not be taken to imply that present encodings exhaust
 
-past.
+all truths about the past.
 
 
 
@@ -242,13 +256,13 @@ CTGP distinguishes four separate concepts that are often conflated:
 
     (i) Conservation of physical existence. Matter, energy, fields, and physical processes continue
 
-    through lawful transformations. In general relativity this continuity is underwritten by local
+    through lawful temporal and generative progression. In general relativity this continuity is
 
-    conservation laws, ∇μTμν = 0; global conserved quantities follow, by Noether’s theorem, only
+    underwritten by local conservation laws, ∇μTμν = 0; global conserved quantities follow, by
 
-    where the spacetime has corresponding symmetries. CTGP does not claim that physical existence
+    Noether’s theorem, only where the spacetime has corresponding symmetries. CTGP does not claim
 
-    disappears when a state ceases to be present.
+    that physical existence disappears when a state ceases to be present.
 
 
 
@@ -266,9 +280,11 @@ CTGP distinguishes four separate concepts that are often conflated:
 
     correlations may cease to exist even while the physical constituents involved continue in
 
-    transformed states. CTGP identifies the loss of present existence primarily with the loss of the
+    transformed states. CTGP identifies the loss of present existence with the cessation of the
 
-    earlier state’s specific organization, not with the annihilation of all physical continuity.
+    earlier state itself, which may or may not involve a change in its specific organization, not
+
+    with any lapse in physical reality.
 
 
 
@@ -286,11 +302,11 @@ Accordingly, CTGP’s claim that earlier states no longer exist does not mean th
 
 vanishes and is recreated from one state to the next. Generation is gapless: reality never lapses,
 
-and each present state arises from immediately preceding states through lawful physical
+and each present state arises from immediately preceding states through lawful temporal and
 
-transformation (§5.4). Gapless does not require every physical quantity to change smoothly; abrupt
+generative progression (§5.4). Gapless does not require every physical quantity to change smoothly;
 
-changes, including quantum jumps in models that contain them, are compatible with gapless
+abrupt changes, including quantum jumps in models that contain them, are compatible with gapless
 
 generation. What ceases to exist is the earlier state itself, not necessarily the physical
 
@@ -309,21 +325,3 @@ whose state it was persists for as long as its conditions of persistence are sat
 unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
 
 is, not by the cosmological foliation, which settles only which configurations are co-present and
-
-how stages are ordered: an organism, a hurricane, and a field have different conditions of
-
-persistence, and a system incapable of ending has no termination condition. Changes in composition,
-
-organization, or other properties therefore need not end the system that undergoes them; the
-
-cessation of an earlier state is not the cessation of what it was a state of.
-
-
-
-5.3 Postulate 5 and the Generative Minimality Principle
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 5 (Hierarchical Law Emergence): Reality is governed at all stages by minimal generative

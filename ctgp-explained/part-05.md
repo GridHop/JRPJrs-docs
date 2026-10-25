@@ -2,6 +2,24 @@
 
 Part 05 of 25 (1,791 words)
 
+how stages are ordered: an organism, a hurricane, and a field have different conditions of
+
+persistence, and a system incapable of ending has no termination condition. Changes in composition,
+
+organization, or other properties therefore need not end the system that undergoes them; the
+
+cessation of an earlier state is not the cessation of what it was a state of.
+
+
+
+5.3 Postulate 5 and the Generative Minimality Principle
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Postulate 5 (Hierarchical Law Emergence): Reality is governed at all stages by minimal generative
+
 laws sufficient for the lawful progression of the present boundary Σ_σ. These laws admit a hierarchy
 
 of levels of description: the primitive generative ordering is fundamental; causal ordering is a
@@ -48,11 +66,11 @@ equations. All additional physical laws are effective or emergent within this hi
 
 CTGP does not interpret temporal succession as a sequence of disconnected states appearing and
 
-disappearing independently. Rather, each present state emerges through continuous causal evolution
+disappearing independently. Rather, each present state emerges from immediately preceding states in
 
-from immediately preceding states. Temporal progression is therefore understood as an uninterrupted
+unbroken causal continuity. Temporal progression is therefore understood as an uninterrupted process
 
-process of physical becoming, in which later states arise from, inherit, and transform prior states
+of physical becoming, in which later states arise from prior states and inherit their consequences
 
 through lawful causal continuity.
 
@@ -60,11 +78,11 @@ through lawful causal continuity.
 
 Earlier states cease to exist, yet the transition from one state to the next is not a discontinuous
 
-replacement but a continuous evolution of physical reality itself. Accordingly, CTGP views time as
+replacement but the gapless temporal and generative progression of physical reality itself.
 
-an ongoing causal-temporal progression in which reality continuously becomes what it next is through
+Accordingly, CTGP views time as an ongoing causal-temporal progression in which reality continuously
 
-lawful physical transformation.
+becomes what it next is, in accordance with physical law.
 
 
 
@@ -84,37 +102,37 @@ that all past truths are stored or that failure of record formation carries a La
 
 
 
-CTGP’s conception of continuous causal-temporal evolution is consistent with, and clarified by, the
+CTGP’s conception of continuous causal-temporal progression is consistent with, and clarified by,
 
-geometric understanding of conservation laws expressed through Noether’s theorem. A natural question
+the geometric understanding of conservation laws expressed through Noether’s theorem. A natural
 
-for any presentist framework is what grounds physical continuity if earlier states do not persist.
+question for any presentist framework is what grounds physical continuity if earlier states do not
 
-The structure of modern physics provides part of the answer. Conserved quantities arise from
+persist. The structure of modern physics provides part of the answer. Conserved quantities arise
 
-symmetries of physical law rather than from the persistence of particular physical configurations:
+from symmetries of physical law rather than from the persistence of particular physical
 
-time-translation symmetry yields energy conservation, spatial-translation symmetry momentum
+configurations: time-translation symmetry yields energy conservation, spatial-translation symmetry
 
-conservation, and rotational symmetry angular-momentum conservation. In general relativity, however,
+momentum conservation, and rotational symmetry angular-momentum conservation. In general relativity,
 
-these global conservation laws hold only where the spacetime possesses the corresponding symmetries;
+however, these global conservation laws hold only where the spacetime possesses the corresponding
 
-an expanding universe, for example, conserves no global energy in general. What holds generally is
+symmetries; an expanding universe, for example, conserves no global energy in general. What holds
 
-local conservation, ∇μTμν = 0, and that local lawful continuity is what CTGP requires. Matter
+generally is local conservation, ∇μTμν = 0, and that local lawful continuity is what CTGP requires.
 
-distributions, field configurations, and organizational structures may evolve, or cease to exist in
+Matter distributions, field configurations, and organizational structures may evolve, or cease to
 
-their earlier form, while still participating in lawful transformations constrained by local
+exist in their earlier form, while still participating in lawful transformations constrained by
 
-conservation. On this reading, continuous causal evolution within M(σ) is not arbitrary succession
+local conservation. On this reading, continuous causal progression within M(σ) is not arbitrary
 
-but lawful evolution constrained by invariant structures inherited from spacetime and dynamical
+succession but lawful progression constrained by invariant structures inherited from spacetime and
 
-symmetries; CTGP does not invoke Noether’s theorem as a proof of its ontology, but as independent
+dynamical symmetries; CTGP does not invoke Noether’s theorem as a proof of its ontology, but as
 
-physical support for its continuity claims.
+independent physical support for its continuity claims.
 
 
 
@@ -126,19 +144,21 @@ persistence of earlier physical organizations; conserved quantities remain embed
 
 continuously evolving physical processes whose specific configurations change through time. CTGP
 
-therefore interprets conservation as evidence of lawful continuity across temporal evolution rather
+therefore interprets conservation as evidence of lawful continuity across temporal and generative
 
-than as evidence that earlier states remain ontologically present. This refines item (i) of the
+progression rather than as evidence that earlier states remain ontologically present. This refines
 
-conservation/organization/recoverability distinction above: physical existence continues through
+item (i) of the conservation/organization/recoverability distinction above: physical existence
 
-symmetry-constrained lawful transformation, while the earlier state’s specific organization — item
+continues through temporal and generative progression under symmetry-constrained laws, while what
 
-(iii) — is precisely what does not persist. Conservation, continuity, and presentism are accordingly
+does not persist is the earlier state itself, whose specific organization (item (iii)) may cease or
 
-not in tension: the persistence of causal influence reflects lawful transformation governed by
+may recur in later states. Conservation, continuity, and presentism are accordingly not in tension:
 
-conserved structure, not static preservation of earlier organizations.
+the persistence of causal influence reflects lawful causal continuity governed by conserved
+
+structure, not the continued existence of earlier states.
 
 
 
@@ -296,38 +316,24 @@ Clarification on process and representation. Neither Σ_σ nor the union M(σ) s
 
 implying that reality consists of a sequence of discrete, ontologically fundamental temporal slices.
 
-Σ_σ is a mathematical representation of a continuously evolving physical reality, not a freestanding
+Σ_σ is a mathematical representation of a physical reality in continuous temporal and generative
 
-entity that reality simply “is.” The hypersurfaces function analogously to the instantaneous
+progression, not a freestanding entity that reality simply “is.” The hypersurfaces function
 
-configurations used in classical mechanics or field theory: useful analytical cross-sections of a
+analogously to the instantaneous configurations used in classical mechanics or field theory: useful
 
-continuous process, not independently existing states stacked one against the next. Correspondingly,
+analytical cross-sections of a continuous process, not independently existing states stacked one
 
-M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathematical reconstruction of generated history and should not be
+against the next. Correspondingly, M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathematical reconstruction of
 
-interpreted as an ontological accumulation of independently existing temporal slices; it represents
+generated history and should not be interpreted as an ontological accumulation of independently
 
-a single continuously evolving causal-temporal process viewed through a foliation-based description,
+existing temporal slices; it represents a single, continuous causal-temporal process viewed through
 
-not a growing pile of spacetime sheets. Reality itself is the uninterrupted lawful evolution
+a foliation-based description, not a growing pile of spacetime sheets. Reality itself is the
 
-connecting these representations — the succession of hypersurfaces describes one continuous process
+uninterrupted lawful progression connecting these representations — the succession of hypersurfaces
 
-of becoming, not a series of separately existing states.
+describes one continuous process of becoming, not a series of separately existing states.
 
 
-
-Geometric interpretation of the growth hypersurface. In the emergent geometric regime, each
-
-hypersurface Σ_σ is defined as a level set of the scalar field σ(x): Σ_σ = {x ∈ M | σ(x) = const}.
-
-Because σ admits representation as a scalar field in this regime, this construction is covariant
-
-under diffeomorphisms. The hypersurfaces therefore represent a physical ordering of generative
-
-events rather than a coordinate-dependent slicing, and no preferred coordinate frame is introduced;
-
-the foliation is fixed by the level sets of cosmological time, of which σ is a relabeling, and
-
-involves no additional field dynamics. To ensure causal consistency, the gradient ∇_μσ is required

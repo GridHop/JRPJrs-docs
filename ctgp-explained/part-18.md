@@ -1,6 +1,42 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 18 of 25 (1,788 words)
+Part 18 of 25 (1,796 words)
+
+surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
+
+already measures, without introducing a preferred frame beyond what is already present in standard
+
+cosmology. Third, persistence of past information through physical records: CTGP’s account of causal
+
+records embedded in successive present states provides a precise mechanism for how the past remains
+
+accessible despite no longer existing as an independent spacetime region. Together these components
+
+provide a framework in which temporal passage, causal structure, and cosmological evolution are
+
+treated as aspects of a single underlying generative process rather than as separate explananda
+
+requiring separate theoretical treatments.
+
+
+
+CTGP is compatible with all of these, and explicitly incorporates their formal resources where
+
+appropriate. Its distinctive contribution, however, is something none of them provides: most quantum
+
+gravity growth models describe the growth of causal relations — the addition of ordered pairs of
+
+events, the extension of the causal partial order. CTGP adds to this the growth of the experiential
+
+present. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
+
+causal structure; it is the ontological locus of qualia, the active edge at which physically
+
+instantiated becoming constitutes experience. This connects physics and phenomenology in a way that
+
+causal set theory, temporal naturalism, and process cosmology do not attempt: alongside a formal
+
+account of how generation proceeds, CTGP specifies where within that structure experience occurs. It
 
 does not explain why physically instantiated becoming is accompanied by experience at all; Appendix
 
@@ -281,39 +317,3 @@ Monotonicity: σ is strictly increasing along every future-directed causal curve
 energy conditions.
 
 
-
-Proposition 17.6 (Matter-constrained foliation expansion). Let u^μ be the timelike congruence
-
-aligned with the cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. In
-
-globally hyperbolic, irrotational cosmological spacetimes satisfying the Einstein equations, the
-
-evolution of θ is governed by the Raychaudhuri equation: dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} +
-
-ω_{μν}ω^{μν} − R_{μν}u^μu^ν + ∇_μa^μ. In the irrotational, geodesic cosmological limit this reduces
-
-to dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} − R_{μν}u^μu^ν. Under standard energy conditions, the matter
-
-content constrains the sign and evolution of θ, and hence constrains the geometric extension of the
-
-CTGP foliation. The expansion scalar θ = d(ln √h)/dτ provides the physically grounded local measure
-
-of how the present hypersurface is extending relative to neighboring hypersurfaces in the generated
-
-sequence.
-
-
-
-Proposition 17.7 (Variational Derivation of the Norm Condition). The norm condition ∇_μσ ∇^μσ =
-
-−f(σ) is not an independent postulate. The derivation treats σ as a smooth field and therefore
-
-applies on open regions where τ is sufficiently smooth and the other fields satisfy the regularity
-
-assumptions required for the classical variational calculation. Extending it across nonsmooth
-
-regions, including corners of cosmological-time level sets, would require an appropriate weak
-
-formulation, which is not attempted here. Independently of the action, τ is locally Lipschitz
-
-(Theorem 17.4), so for smooth F with F′ > 0, ∇_μσ exists almost everywhere, and Theorem 17.4

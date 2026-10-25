@@ -1,6 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 05 of 5 (776 words)
+Part 05 of 5 (782 words)
 
 Worldbuilding of the kind found in the literary fiction work does what philosophers and theoretical
 
@@ -52,11 +52,11 @@ once on the page, like a block universe. Each reader then experiences it in a mo
 
 page at a time, with the ending unknown. The same world is a growing process for the author, a
 
-finished object on the shelf, and an unfolding present for the reader. This suggests that intuitions
+finished object on the shelf, and an unfolding present for the reader. As an analogy rather than
 
-about which theory of time is correct may depend partly on whether one is inside a process or
+evidence, this suggests that intuitions about which theory of time is correct may depend partly on
 
-holding its record.
+whether one is inside a process or holding its record.
 
 
 

@@ -1,6 +1,22 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 25 (1,792 words)
+Part 11 of 25 (1,798 words)
+
+CTGP does not hold that every mathematical solution of the Einstein field equations possesses a
+
+unique globally privileged present. That would be false: Gödel’s rotating dust solution, Taub-NUT,
+
+and the region of the Kerr interior beyond the Cauchy horizon admit no global Cauchy foliation, and
+
+no time function of the required kind exists on them. The solution space of GR is a space of
+
+mathematical objects, most of which are not realized. What CTGP holds is that physically realized
+
+spacetime — the actual history that is generated — possesses such a present, and that the solutions
+
+lacking one are for that reason not candidate histories.
+
+
 
 The direction of the argument matters. Under the Causal Reconstruction Principle (§10.3), causal
 
@@ -34,11 +50,11 @@ impossibility is evidentially neutral and supports nothing. Under CTGP the quest
 
 in the first place, for the reason given in §9.4.1: persisting is being generated. An unchanging
 
-configuration is one in which successive stages produce the same state, not one standing outside the
+configuration is one in which successive stages produce qualitatively identical states, not one
 
-succession. Absolute stasis is not a rival to the generative present; it is not a describable
+standing outside the succession. Absolute stasis is not a rival to the generative present; it is not
 
-condition within it.
+a describable condition within it.
 
 
 
@@ -108,39 +124,57 @@ theoretical case is strong: global hyperbolicity is a standard causal assumption
 
 cosmology (Hawking and Ellis 1973); strong cosmic censorship, the still-unproven conjecture that
 
-generic physically reasonable spacetimes admit no extension beyond their maximal globally hyperbolic
+generic physically reasonable spacetimes cannot be extended beyond their maximal globally hyperbolic
 
-development, would make it a consequence of the dynamics rather than an assumption; and nothing in
+development, would make it a consequence of the dynamics rather than an assumption, although the
 
-the observed large-scale structure of our universe indicates its failure; CMB isotropy to one part
+conjecture has inequivalent formulations that differ in the regularity required of an extension, and
 
-in 10^5 confirms the FLRW approximation at cosmological scales to high precision. CTGP’s restriction
+its strongest form, which rules out even extensions with a merely continuous metric, fails for
 
-to this domain is therefore a principled constraint, not a limitation, in the same sense that
+perturbed rotating black holes if, as is widely expected, the Kerr exterior is stable (Dafermos and
 
-thermodynamics restricts its domain to systems with well-defined state variables. For Option (2),
+Luk 2025); and nothing in the observed large-scale structure of our universe indicates its failure;
 
-dual foliation methods developed in mathematical GR suggest that overlapping foliation patches can
+CMB isotropy to one part in 10^5 confirms the FLRW approximation at cosmological scales to high
 
-be glued consistently wherever the constraint data on the overlaps can be reconciled; patch
+precision. CTGP’s restriction to this domain is therefore a principled constraint, not a limitation,
 
-inconsistencies are therefore diagnosable and resolvable by standard constraint-solving methods
+in the same sense that thermodynamics restricts its domain to systems with well-defined state
 
-(Theorem 17.15). For Option (3), the relevant physical fact is that the spacetimes known to require
+variables. For Option (2), dual foliation methods developed in mathematical GR suggest that
 
-it — Kerr interiors, Taub-NUT, and Gödel universes — are not consistent with our observed
+overlapping foliation patches can be glued consistently wherever the constraint data on the overlaps
 
-cosmological boundary conditions. Kerr interiors are idealized; real astrophysical black holes
+can be reconciled; patch inconsistencies are therefore diagnosable and resolvable by standard
 
-formed by collapse develop apparent horizons whose exterior evolution remains well-posed and
+constraint-solving methods (Theorem 17.15). For Option (3), the relevant physical fact is that the
 
-globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior. The
+spacetimes known to require it — Kerr interiors, Taub-NUT, and Gödel universes — are not consistent
 
-instability of the Cauchy horizon to perturbations (mass inflation) further suggests that the Kerr
+with our observed cosmological boundary conditions. Kerr interiors are idealized; real astrophysical
 
-interior beyond the inner horizon is physically unrealized. These three anchors ground the three-
+black holes formed by collapse develop apparent horizons whose exterior evolution remains well-posed
 
-option framework in established GR results.
+and globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior.
+
+Perturbations are also expected to make the Cauchy horizon singular through mass inflation. In
+
+Christodoulou’s formulation of strong cosmic censorship, the maximal globally hyperbolic development
+
+of generic initial data is expected to admit no extension whose metric has locally square-integrable
+
+Christoffel symbols, a regularity threshold associated with weak formulations of the Einstein
+
+equations (Christodoulou 2009; Dafermos and Luk 2025). For generic perturbations of Kerr black
+
+holes, this inextendibility remains conjectural. Mass inflation therefore gives strong reason to
+
+doubt that the idealized analytic extension of the Kerr interior beyond the inner horizon is
+
+physically realized, although it does not by itself establish that no continuation is possible.
+
+These three anchors ground the three-option framework in established GR results.
 
 
 
@@ -323,51 +357,3 @@ although not with the cosmological foliation itself: an Everettian could accept 
 unique universal state on each level set while denying that each stage has a unique macroscopic
 
 outcome. The claim is specific to CTGP; it is not the claim that no-collapse quantum theories are
-
-incompatible with presentism in general.
-
-
-
-Scope of quantum-compatibility claims. CTGP’s quantum-compatibility claims are conditional rather
-
-than unconditional. Relativistic hypersurface-path independence is asserted only for admissible
-
-local update generators whose spacelike-separated densities commute on a common invariant domain and
-
-satisfy standard energy-bound and closability conditions (formalized in Proposition 17.16).
-
-Likewise, continuum completely positive dynamics are claimed only as limits of UV-regularized local
-
-semigroups under trace-norm convergence assumptions (Theorem 17.17). On the classical side, any
-
-CTGP-induced correction terms are required to be perturbatively small relative to the
-
-Einstein–matter principal part, so that ADM constraint violation remains O(ε) in Sobolev norm on
-
-local existence intervals (Theorem 17.14). In strong-curvature regimes, CTGP treats smooth σ as an
-
-emergent continuum representative of a more primitive causal growth ordering rather than as a
-
-globally valid classical scalar (Proposition 17.18).
-
-
-
-Corollary: CTGP entails a unique factual past. M(σ) contains exactly one realized causal history.
-
-Any quantum interpretation incompatible with this consequence — including any that treats past
-
-branches as ontologically real — falls outside CTGP’s scope regardless of its empirical status.
-
-
-
-10.2 Pre-Classical Regime and Emergent Effective Laws
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP does not posit an absence of law at any stage of cosmic history, including the Planck epoch.
-
-The earliest regime of the universe is governed by the minimal generative structure described in
-
-Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a

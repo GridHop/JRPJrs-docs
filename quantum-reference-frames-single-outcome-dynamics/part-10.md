@@ -222,7 +222,7 @@ the event E = (B, C, 0) at stage σ_n.
 
     about a later stage. A law of this kind is precisely a final condition imposed as an independent
 
-    input to fix earlier evolution, which CTGP – explained, §12.2, identifies as incompatible with
+    input to fix earlier states, which CTGP – explained, §12.2, identifies as incompatible with
 
     presentism.
 

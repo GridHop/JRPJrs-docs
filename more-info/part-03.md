@@ -1,8 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 03 of 5 (1,788 words)
-
-“Mind” must mean more than the mental contents present at a given moment; otherwise sleep,
+Part 03 of 5 (1,795 words)
 
 anesthesia, unconsciousness, or memory loss would seem to create a new person. A more robust
 
@@ -266,9 +264,9 @@ reconstruct someone can survive without the individual whose information it is.
 
 
 
-    Past → present through causal continuity: transformation. Past → representation → new
+    Earlier state → later state through causal continuity: transformation. Earlier state →
 
-      instantiation: reconstruction.
+      representation → new instantiation: reconstruction.
 
 
 
@@ -279,6 +277,12 @@ One candidate criterion is therefore:
     Personal identity consists in the uninterrupted causal inheritance of an embodied organization,
 
     rather than in reconstruction from a representation.
+
+
+
+The contrast motivates this criterion; it does not by itself prove that a reconstructed person is
+
+not the original.
 
 
 

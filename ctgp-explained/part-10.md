@@ -1,6 +1,30 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 10 of 25 (1,790 words)
+Part 10 of 25 (1,788 words)
+
+    phenomenological present, dependent on local physical processes and subject to the usual
+
+    relativistic effects of time dilation and gravitational redshift.
+
+
+
+    Cosmological present: the foliation naturally selected by the large-scale matter distribution of
+
+    the universe, approximated observationally by the CMB rest frame. This is a physically motivated
+
+    but not observer-dependent quantity: any observer can in principle determine the CMB frame and
+
+    locate themselves within it.
+
+
+
+    Ontological present: the boundary between the generated domain M(σ) and the ungenerated future.
+
+    This is the active edge at which new hypersurfaces are produced, parameterized by σ.
+
+
+
+CTGP’s present edge Σ_σ is identified with the cosmological present rather than with Newtonian
 
 absolute simultaneity or with any particular observer’s local present. Consequently, CTGP preserves
 
@@ -152,7 +176,9 @@ the advancing present is not conditional on possessing a changing state variable
 
 persisting at all is being generated at successive stages, and an unchanging configuration is one in
 
-which successive stages produce the same state rather than one exempt from generation.
+which successive stages produce qualitatively identical states rather than one exempt from
+
+generation.
 
 
 
@@ -206,29 +232,29 @@ assumption, not to motivate the assumption itself.
 
 The present also need not be postulated as an additional structure laid over spacetime. On this
 
-framework it is constituted. At any generative stage, every physical state in the universe is
+framework it is constituted. At any generative stage, every physical system in the universe is in
 
-undergoing the transition from what it is to what it becomes next. This is CTGP’s ontological
+transition from its present state to its next. This is CTGP’s ontological premise and is not
 
-premise and is not established by general relativity, which describes evolution without asserting
+established by general relativity, which describes evolution without asserting that later states are
 
-that later states are brought into existence; what follows here is what that premise yields, not a
+brought into existence; what follows here is what that premise yields, not a derivation of it. Take
 
-derivation of it. Take the totality of those transitions — one per state, across the whole universe
+the totality of those transitions — one per system, across the whole universe — and that totality is
 
-— and that totality is the cosmic present. Σ_σ is not a surface selected from among many and then
+the cosmic present. Σ_σ is not a surface selected from among many and then declared privileged; it
 
-declared privileged; it is the collection of everything currently being generated. Once the
+is the collection of everything currently being generated. Once the generative ontology is adopted,
 
-generative ontology is adopted, the universe-wide present is therefore not an additional structure
+the universe-wide present is therefore not an additional structure appended to the physical
 
-appended to the physical dynamics; it is constituted by the totality of physically ongoing state
+dynamics; it is constituted by the totality of physically ongoing state transitions. The posit is
 
-transitions. The posit is the generative ontology itself, not a privileged surface added on top of
+the generative ontology itself, not a privileged surface added on top of it. A system undergoing no
 
-it. A system undergoing no change is included on the same terms, its transition being to the same
+change is included on the same terms, its transition being to a qualitatively identical state
 
-state (§9.4.1).
+(§9.4.1).
 
 
 
@@ -261,19 +287,3 @@ which one it is. Presenting either as discharging both burdens would overstate t
 
 
 The scope of the claim should nevertheless be stated precisely, because it is easy to overstate.
-
-CTGP does not hold that every mathematical solution of the Einstein field equations possesses a
-
-unique globally privileged present. That would be false: Gödel’s rotating dust solution, Taub-NUT,
-
-and the region of the Kerr interior beyond the Cauchy horizon admit no global Cauchy foliation, and
-
-no time function of the required kind exists on them. The solution space of GR is a space of
-
-mathematical objects, most of which are not realized. What CTGP holds is that physically realized
-
-spacetime — the actual history that is generated — possesses such a present, and that the solutions
-
-lacking one are for that reason not candidate histories.
-
-

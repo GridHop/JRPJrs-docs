@@ -1,6 +1,26 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 07 of 25 (1,796 words)
+Part 07 of 25 (1,786 words)
+
+require strict determinism; it requires only that present reality emerges from prior generated
+
+reality through lawful physical processes, and that no confirmed observation presently requires the
+
+existence of causal influence entirely disconnected from physical state evolution.
+
+
+
+CTGP distinguishes between uncaused outcomes and unconditioned existence. An event may lack a prior
+
+determining cause while still requiring a pre-existing physical framework, lawful constraints, and
+
+generated domain within which the event occurs. No confirmed observation presently requires the
+
+existence of events that occur independently of all prerequisite physical structure.
+
+
+
+Retrocausality is a speculative interpretive option rather than a settled feature of quantum
 
 physics, and it would conflict with CTGP’s postulate that the future is ontologically absent; CTGP
 
@@ -305,23 +325,3 @@ claim — that σ indexes genuine spacetime generation — is interpretive, not 
 unmodified; the ontological reading of the physics is what CTGP proposes.
 
 
-
-In summary, with λ = 0 (§6.9) the continuum generation parameter introduces no new propagating
-
-degrees of freedom and modifies no gravitational dynamics. Physical hypotheses that would give σ
-
-dynamics of its own — density-dependent generation rates and soft completions of the norm condition
-
-— are analyzed in §11; none survives the consistency requirements while producing an observable
-
-effect.
-
-
-
-Covariance and compatibility with General Relativity. All quantities introduced in the CTGP
-
-framework are constructed from the metric, its causal structure, and scalar invariants.
-
-Consequently, the theory remains invariant under arbitrary spacetime diffeomorphisms. The Einstein
-
-field equations G_{μν} = 8πG T_{μν} are unchanged (§9.1), and the generative dynamics operate only

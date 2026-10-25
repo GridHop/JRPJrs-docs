@@ -1,6 +1,54 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 12 of 25 (1,798 words)
+Part 12 of 25 (1,796 words)
+
+incompatible with presentism in general.
+
+
+
+Scope of quantum-compatibility claims. CTGP’s quantum-compatibility claims are conditional rather
+
+than unconditional. Relativistic hypersurface-path independence is asserted only for admissible
+
+local update generators whose spacelike-separated densities commute on a common invariant domain and
+
+satisfy standard energy-bound and closability conditions (formalized in Proposition 17.16).
+
+Likewise, continuum completely positive dynamics are claimed only as limits of UV-regularized local
+
+semigroups under trace-norm convergence assumptions (Theorem 17.17). On the classical side, any
+
+CTGP-induced correction terms are required to be perturbatively small relative to the
+
+Einstein–matter principal part, so that ADM constraint violation remains O(ε) in Sobolev norm on
+
+local existence intervals (Theorem 17.14). In strong-curvature regimes, CTGP treats smooth σ as an
+
+emergent continuum representative of a more primitive causal growth ordering rather than as a
+
+globally valid classical scalar (Proposition 17.18).
+
+
+
+Corollary: CTGP entails a unique factual past. M(σ) contains exactly one realized causal history.
+
+Any quantum interpretation incompatible with this consequence — including any that treats past
+
+branches as ontologically real — falls outside CTGP’s scope regardless of its empirical status.
+
+
+
+10.2 Pre-Classical Regime and Emergent Effective Laws
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP does not posit an absence of law at any stage of cosmic history, including the Planck epoch.
+
+The earliest regime of the universe is governed by the minimal generative structure described in
+
+Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a
 
 smooth Lorentzian manifold — may not yet exist during this epoch. Light cones and metric structure
 
@@ -303,49 +351,3 @@ structure is guaranteed by causal geometry alone — not to assert that geometry
 causality. This restriction applies universally to §§6, 7, 8, 9, and their subsections. The pre-
 
 geometric regime is governed by the minimal generative structure (σ, C) specified by the Fundamental
-
-Ontological Hierarchy (§10.3) and the Pre-Geometric Minimal Ontology below; the geometric machinery
-
-enters only after the transition described in §9.2.
-
-
-
-Proper-Time Qualification. Proper time presupposes a metric and is therefore not available as a
-
-concept in the pre-geometric regime. Any statement in this paper of the form “σ corresponds to
-
-cosmological proper time” is to be read as: “In the emergent geometric regime, σ is cosmological
-
-time up to monotone relabeling.” The claim that σ fundamentally is proper time is not made and would
-
-be inconsistent with CTGP’s pre-geometric ontology. The proper-time interpretation is an emergent
-
-correspondence, not a definition.
-
-
-
-Regime-Dependent Representation Principle. The relationship between σ and geometry is regime-
-
-dependent and must be stated precisely. In the pre-geometric regime, σ is primitive and is not
-
-defined through any geometric or material quantity; it is the ontological ground from which causal
-
-structure, geometry, and eventually matter-energy descriptions emerge. In the emergent geometric
-
-regime, σ is represented by cosmological time and its relabelings, satisfying ∇_μσ ∇^μσ = −f(σ). The
-
-generation law may depend on σ but not on local matter content (§§6.11, 11). The logical order
-
-remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
-
-representative of σ.
-
-
-
-Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
-
-fundamental entities in CTGP is:
-
-
-
-    Present at the pre-geometric level: generative ordering parameter σ; causal relation structure

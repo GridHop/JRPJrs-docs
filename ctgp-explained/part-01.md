@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 25 (1,797 words)
+Part 01 of 25 (1,799 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -24,25 +24,23 @@ Cosmic-Time Generative Presentism (CTGP) proposes a dynamic ontology of spacetim
 
 exists only at an advancing present boundary, generated through continuous causal-temporal
 
-progression in which each present state emerges from the lawful evolution of immediately preceding
+progression in which each present state lawfully emerges from immediately preceding states. Earlier
 
-states. Earlier states no longer exist as independently real regions of spacetime; the specific
+states no longer exist as independently real regions of spacetime; their causal consequences persist
 
-physical organizations constituting those earlier states cease to exist, while their causal
+as present matter, fields, and records. Present systems therefore inherit transformed physical
 
-consequences persist as present matter, fields, and records. Present systems therefore inherit
+continuities, causal records, and distributed consequences of prior states, rather than preserving
 
-transformed physical continuities, causal records, and distributed consequences of prior states,
+those earlier states themselves. Unlike static block-universe interpretations of relativity, CTGP
 
-rather than preserving those earlier states themselves. Unlike static block-universe interpretations
+treats spacetime as a continuously generated structure emerging through causal propagation governed
 
-of relativity, CTGP treats spacetime as a continuously generated structure emerging through causal
+by physical law. The framework preserves relativistic causal structure while identifying
 
-propagation governed by physical law. The framework preserves relativistic causal structure while
+cosmological time, which in FLRW models is the proper time of the cosmic matter flow, as the natural
 
-identifying cosmological time, which in FLRW models is the proper time of the cosmic matter flow, as
-
-the natural parameter governing the progression of physical reality.
+parameter governing the progression of physical reality.
 
 
 
@@ -76,51 +74,51 @@ expressed through a constrained action that leaves the Einstein equations unchan
 
 The paper then determines which physical realizations of the generation parameter are consistent. A
 
-natural hypothesis — that generation proceeds faster where matter is denser — fails: an exact
+natural hypothesis — that generation proceeds faster where matter is denser — fails in every class
 
-density-weighted law drives the generation flow out of alignment with matter within a light-crossing
+of laws analyzed: an exact density-weighted law drives the generation flow out of alignment with
 
-time of any structure, and every stable soft completion forces a uniform generation rate inside
+matter within a light-crossing time of any structure, and every stable soft completion forces a
 
-bound structures, suppressing any density-weighted cosmological effect below one part in 10⁴⁰. No
+uniform generation rate inside bound structures, suppressing any density-weighted cosmological
 
-local density-dependent generation law in the classes analyzed survives these constraints: the
+effect below one part in 10⁴⁰. Within these classes, the generation rate may vary with cosmic epoch
 
-generation rate may vary with cosmic epoch but not across space, and CTGP predicts no intrinsic
+but not across space, and CTGP predicts no intrinsic cosmological axis. We further show that
 
-cosmological axis. We further show that presentist and eternalist readings of identical physics are
+presentist and eternalist readings of identical physics are observationally equivalent, so the
 
-observationally equivalent, so the ontology cannot be verified by measurement at fixed physics. It
+ontology cannot be verified by measurement at fixed physics. It remains empirically exposed:
 
-remains empirically exposed: presentism requires the fundamental laws to be generable from the
+presentism requires the fundamental laws to be generable from the present state, with no dependence
 
-present state, with no dependence on future boundary data and no global consistency conditions
+on future boundary data and no global consistency conditions requiring the whole history at once — a
 
-requiring the whole history at once — a structural commitment that a confirmed chronology violation,
+structural commitment that a confirmed chronology violation, interventionist retrocausal dependence,
 
-interventionist retrocausal dependence, or an indispensable future boundary condition or global
+or an indispensable future boundary condition or global consistency requirement that precludes an
 
-consistency requirement that precludes an adequate forward-generative account would refute. A unique
+adequate forward-generative account would refute. A unique final state that simply results from
 
-final state that simply results from deterministic evolution does not count; only a final condition
+deterministic dynamics does not count; only a final condition that must be imposed as an independent
 
-that must be imposed as an independent input to fix earlier evolution would. Current physics is
+input to fix earlier states would. Current physics is consistent with that commitment but does not
 
-consistent with that commitment but does not establish it. Because it entails a unique factual past,
+establish it. Because it entails a unique factual past, CTGP also requires single-outcome realism in
 
-CTGP also requires single-outcome realism in quantum theory, which excludes standard Everettian
+quantum theory, which excludes standard Everettian ontology. CTGP traces the causal, record-forming,
 
-ontology. CTGP traces the causal, record-forming, and experiential arrows of time to the direction
+and experiential arrows of time to the direction of generation, relates the thermodynamic arrow to
 
-of generation, relates the thermodynamic arrow to it without reducing it, answers the principal
+it without reducing it, answers the principal objections — relativity of simultaneity, Lorentz
 
-objections — relativity of simultaneity, Lorentz invariance, diffeomorphism invariance, strong-
+invariance, diffeomorphism invariance, strong-curvature foliation, point presentism, the absence of
 
-curvature foliation, point presentism, the absence of any intrinsic marker of the present, and
+any intrinsic marker of the present, and underdetermination — and constrains where physically
 
-underdetermination — and constrains where physically instantiated processes associated with
+instantiated processes associated with experience may occur, without claiming to determine the
 
-experience may occur, without claiming to determine the nature of consciousness.
+nature of consciousness.
 
 
 
@@ -256,19 +254,21 @@ generative ordering parameter σ (§10.4).
 
 
 
-The generative reading of general relativity advanced here does not conflict with quantum mechanics
+The generative reading of general relativity advanced here is not known to conflict with tested
 
-or current approaches to quantum gravity. Relativistic quantum field theory preserves relativistic
+quantum physics, and it is compatible with several, though not necessarily all, current approaches
 
-causal structure at all experimentally tested scales, while decoherence explains the emergence of
+to quantum gravity. Relativistic quantum field theory preserves relativistic causal structure at all
 
-classical behavior without requiring fundamental retrocausality or the abandonment of causal
+experimentally tested scales, while decoherence explains the emergence of classical behavior without
 
-ordering. Several interpretations of quantum mechanics remain compatible with a causally ordered
+requiring fundamental retrocausality or the abandonment of causal ordering. Several interpretations
 
-ontology (§10.1), and among quantum-gravity approaches, causal set theory is a natural companion
+of quantum mechanics remain compatible with a causally ordered ontology (§10.1), although CTGP’s
 
-(§15.2).
+single-outcome requirement excludes standard Everettian ontology, and among quantum-gravity
+
+approaches, causal set theory is a natural companion (§15.2).
 
 
 
@@ -318,15 +318,21 @@ level of local dynamics. A note on CTGP’s fundamental ontological character: C
 
 continuous framework. Its core mathematical structures — the timelike gradient ∇_μσ, the generation
 
-flow vector n^μ, smooth scalar-field representations, continuous propagation equations, smooth
+flow vector n^μ, smooth scalar-field representations, continuous propagation equations, a Cauchy
 
-Cauchy foliation, and ADM evolution — are all continuously defined. Causal-set models and other
+foliation that is smooth wherever cosmological time is differentiable, and ADM evolution — are all
 
-discrete approaches to quantum gravity are compatible with CTGP as possible discrete realizations of
+continuously defined. Continuity here refers to the generative ordering, not to the smoothness of
 
-its generative-ordering principles, but they are not its ontological foundation. CTGP’s fundamental
+every hypersurface: inside collapsed structure, the level sets of cosmological time can acquire
 
-picture is a continuously advancing generative flow, not a sequence of discrete frames.
+corners while remaining Cauchy surfaces (§6.1). Causal-set models and other discrete approaches to
+
+quantum gravity are compatible with CTGP as possible discrete realizations of its generative-
+
+ordering principles, but they are not its ontological foundation. CTGP’s fundamental picture is a
+
+continuously advancing generative flow, not a sequence of discrete frames.
 
 
 
@@ -343,23 +349,3 @@ same physics that differ only in this respect make identical predictions for eve
 (§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
 
 past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
-
-the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
-
-which the paper tests (§11).
-
-
-
-----------------------------------------------------------------------------------------------------
-
-2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
-
-----------------------------------------------------------------------------------------------------
-
-
-
-2.1 The Standard Taxonomy
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-

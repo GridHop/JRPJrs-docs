@@ -1,6 +1,20 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 25 (1,794 words)
+Part 06 of 25 (1,800 words)
+
+Geometric interpretation of the growth hypersurface. In the emergent geometric regime, each
+
+hypersurface Σ_σ is defined as a level set of the scalar field σ(x): Σ_σ = {x ∈ M | σ(x) = const}.
+
+Because σ admits representation as a scalar field in this regime, this construction is covariant
+
+under diffeomorphisms. The hypersurfaces therefore represent a physical ordering of generative
+
+events rather than a coordinate-dependent slicing, and no preferred coordinate frame is introduced;
+
+the foliation is fixed by the level sets of cosmological time, of which σ is a relabeling, and
+
+involves no additional field dynamics. To ensure causal consistency, the gradient ∇_μσ is required
 
 to remain timelike: ∇_μσ ∇^μσ < 0. This condition — guaranteed wherever τ is differentiable, since
 
@@ -307,23 +321,3 @@ fundamentally stochastic while still occurring within a lawful causal framework.
 known determining cause for a particular outcome does not imply the absence of prerequisite physical
 
 structures, lawful constraints, or causal continuity with prior generated states. CTGP does not
-
-require strict determinism; it requires only that present reality emerges from prior generated
-
-reality through lawful physical processes, and that no confirmed observation presently requires the
-
-existence of causal influence entirely disconnected from physical state evolution.
-
-
-
-CTGP distinguishes between uncaused outcomes and unconditioned existence. An event may lack a prior
-
-determining cause while still requiring a pre-existing physical framework, lawful constraints, and
-
-generated domain within which the event occurs. No confirmed observation presently requires the
-
-existence of events that occur independently of all prerequisite physical structure.
-
-
-
-Retrocausality is a speculative interpretive option rather than a settled feature of quantum

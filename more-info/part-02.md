@@ -1,10 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 02 of 5 (1,797 words)
-
-be different because A occurred. Three notions must therefore be kept apart:
-
-
+Part 02 of 5 (1,800 words)
 
     causal influence ≠ surviving information ≠ recoverability
 
@@ -88,15 +84,15 @@ unrecoverable.
 
 Two clarifications keep generability from being overstated. First, the excluded future data are
 
-independent inputs. A final condition that merely restates what forward evolution already produces
+independent inputs. A final condition that merely restates what the forward dynamics already
 
-is no violation; what CTGP excludes is a future boundary condition or global consistency requirement
+produces is no violation; what CTGP excludes is a future boundary condition or global consistency
 
-that is indispensable, in that it must be imposed as an independent input to fix the earlier
+requirement that is indispensable, in that it must be imposed as an independent input to fix earlier
 
-evolution, so that no adequate forward-generative account exists. Second, three claims are easily
+states, so that no adequate forward-generative account exists. Second, three claims are easily run
 
-run together:
+together:
 
 
 
@@ -425,3 +421,5 @@ than configurational. A snapshot of a person at 10:00 and another at 20:00 can b
 configurations while belonging to the same continuing individual.
 
 
+
+“Mind” must mean more than the mental contents present at a given moment; otherwise sleep,

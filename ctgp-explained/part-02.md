@@ -1,6 +1,26 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 02 of 25 (1,797 words)
+Part 02 of 25 (1,787 words)
+
+the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
+
+which the paper tests (§11).
+
+
+
+----------------------------------------------------------------------------------------------------
+
+2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
+
+----------------------------------------------------------------------------------------------------
+
+
+
+2.1 The Standard Taxonomy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 Three major ontological positions on time are standardly distinguished in the philosophy of physics
 
@@ -52,15 +72,19 @@ it is one.
 
 The block universe faces a philosophical challenge that is not merely intuitive but structural. In a
 
-truly static four-dimensional block, every event — including every purported moment of 'experiencing
+four-dimensional block in which nothing comes into being, every event — including every purported
 
-the present' — is simply a fixed point in the manifold. The block does not evolve or generate; it
+moment of 'experiencing the present' — is simply a fixed point in the manifold. The block does not
 
-simply is. The verbs standardly used to describe temporal experience — 'moving through,' 'arriving
+evolve or generate; it simply is. The verbs standardly used to describe temporal experience —
 
-at,' 'leaving behind,' 'anticipating' — all presuppose change occurring over time. But change
+'moving through,' 'arriving at,' 'leaving behind,' 'anticipating' — all presuppose change occurring
 
-occurring over time is precisely what the block universe denies at the ontological level.
+over time. The block universe accepts change only as variation of properties from one time to
+
+another; what it denies at the ontological level is objective becoming: nothing comes into
+
+existence, and no moment is the one now occurring.
 
 
 
@@ -307,13 +331,3 @@ coincidental. The causal and memory-formation arrows point in the direction of g
 construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
 
 not reduced to it, since each also depends on contingent features of our universe’s initial
-
-conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
-
-to future — runs in the direction in which stages are generated, since each new hypersurface is
-
-generated from its predecessor and never the reverse. Generation supplies the orientation, not the
-
-gradient: as in standard cosmology, the increase itself requires a low-entropy initial condition,
-
-which CTGP must assume exactly as eternalism does. What the generative flow contributes is the

@@ -1,6 +1,52 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 25 of 25 (487 words)
+Part 25 of 25 (756 words)
+
+does not select the foliation, and it could not. Presenting it as doing so would invite a
+
+circularity objection against something the framework already supplies independently.
+
+
+
+E.5.3 The Placement
+
+
+
+The collapse belonged to the stage whose σ-value is earlier than that of the 1987 detection by
+
+approximately 168,000 years of matter-frame proper time. The approximation holds because the LMC’s
+
+peculiar velocity and the relevant gravitational potential differences are small; cosmological time
+
+is realized along the comoving worldlines, and neither Earth nor the LMC lies exactly on them.
+
+
+
+One number, two roles. The figure “168,000 years” appears here in two roles, and only the second is
+
+a CTGP claim. As a light-travel time it characterizes a null pair (the first row of Table E.1); it
+
+is frame-dependent — a boosted observer assigns a different Δt to the same null pair — but it
+
+asserts nothing about simultaneity. As a σ-difference it asserts which stage the collapse belonged
+
+to, and that is a claim about the foliation. The figure also carries an observational spread of a
+
+few percent: 51.4 kpc ≈ 168,000 light-years is the commonly cited value for the supernova (Panagia
+
+1999), while the most precise distance to the Large Magellanic Cloud, 49.59 kpc (Pietrzyński et al.
+
+2019), corresponds to about 162,000 light-years. None of the argument turns on which value is
+
+correct.
+
+
+
+The placement is also robust, which is its main operational payoff. Earth’s peculiar velocity
+
+relative to the CMB is about 370 km/s, so the CMB-frame σ-assignment and the naive light-travel-time
+
+subtraction differ by at most about 200 years out of 168,000. The everyday answer is nearly right,
 
 and it is nearly right because we are nearly comoving — itself a fact about the matter frame to
 

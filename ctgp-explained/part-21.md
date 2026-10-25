@@ -1,6 +1,88 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 25 (1,792 words)
+Part 21 of 25 (1,790 words)
+
+Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
+
+    29, 454–462.
+
+
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
+
+    11, 127–138.
+
+
+
+Garriga, J., & Mukhanov, V. F. (1999). Perturbations in k-inflation. Physics Letters B, 458,
+
+    219–225.
+
+
+
+Geroch, R. (1970). Domain of dependence. Journal of Mathematical Physics, 11(2), 437–449.
+
+
+
+Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+
+    systems. Physical Review D, 34(2), 470–491.
+
+
+
+Gödel, K. (1949). An example of a new type of cosmological solutions of Einstein’s field equations.
+
+    Reviews of Modern Physics, 21, 447–450.
+
+
+
+Gottesman, D., & Preskill, J. (2004). Comment on “The black hole final state.” Journal of High
+
+    Energy Physics, 2004(03), 026.
+
+
+
+Hartle, J. B., & Hawking, S. W. (1983). Wave function of the universe. Physical Review D, 28(12),
+
+    2960–2975.
+
+
+
+Hawking, S. W., & Ellis, G. F. R. (1973). The Large Scale Structure of Space-Time. Cambridge
+
+    University Press.
+
+
+
+Hawking, S. W., King, A. R., & McCarthy, P. J. (1976). A new topology for curved space-time which
+
+    incorporates the causal, differential, and conformal structures. Journal of Mathematical
+
+    Physics, 17(2), 174–181.
+
+
+
+Hoftuft, J., Eriksen, H. K., Banday, A. J., Górski, K. M., Hansen, F. K., & Lilje, P. B. (2009).
+
+    Increasing evidence for hemispherical power asymmetry in the five-year WMAP data. The
+
+    Astrophysical Journal, 699, 985–989.
+
+
+
+Hořava, P. (2009). Quantum gravity at a Lifshitz point. Physical Review D, 79, 084008.
+
+
+
+Horowitz, G. T., & Maldacena, J. (2004). The black hole final state. Journal of High Energy Physics,
+
+    2004(02), 008.
+
+
+
+Ismael, J. (2016). How Physics Makes Us Free. Oxford University Press.
+
+
 
 Jacobson, T., & Mattingly, D. (2001). Gravity with a dynamical preferred frame. Physical Review D,
 
@@ -441,55 +523,3 @@ metric structure of relativistic spacetime under mild conditions. Temporal prece
 coordinate convention but a geometric fact encoded in causal relations.
 
 
-
-Theorem B.3 (Geroch, 1970). In a globally hyperbolic spacetime there exists a continuous time
-
-function — a function that strictly increases along every future-directed causal curve. Moreover, M
-
-≅ ℝ × Σ, where each slice is a Cauchy hypersurface. This splitting is not imposed but follows from
-
-the causal structure.
-
-
-
-Theorem B.4 (Bernal and Sánchez, 2003, 2005). In any globally hyperbolic spacetime, there exists a
-
-smooth temporal function whose gradient is everywhere timelike and whose level sets are smooth
-
-spacelike Cauchy hypersurfaces. Any Geroch splitting can be refined to a smooth one. Moreover, any
-
-two smooth Cauchy foliations can be smoothly deformed into each other.
-
-
-
-B.2 Application to CTGP
-
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-These theorems guarantee that the mathematical structure CTGP requires — a global foliation by
-
-present hypersurfaces Σ_σ with σ increasing causally — exists in any globally hyperbolic spacetime.
-
-This is not an additional CTGP postulate but a consequence of GR’s causal structure under physically
-
-reasonable assumptions. Standard interpretations treat the entire product manifold ℝ × Σ as
-
-ontologically complete. CTGP instead interprets the parameter labeling the slices as indexing the
-
-progressive generation of spacetime structure: at stage σ, only the present slice exists; the
-
-hypersurfaces in its past belong to the formal history M(σ), and the future hypersurfaces Σ_{σ′>σ},
-
-while mathematically definable within the full spacetime manifold, are not part of the generated
-
-domain.
-
-
-
-The freedom to choose among smooth temporal foliations corresponds to the freedom to pick different
-
-smooth temporal functions. CTGP resolves this ambiguity with cosmological time: among all time
-
-functions whose level sets are Cauchy surfaces, it is singled out by maximal elapsed proper time,

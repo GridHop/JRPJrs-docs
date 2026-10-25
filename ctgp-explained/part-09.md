@@ -1,6 +1,22 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 09 of 25 (1,796 words)
+Part 09 of 25 (1,800 words)
+
+is not a constraint on a pre-existing four-dimensional structure but a production rule: given Σ_σ,
+
+it tells us what Σ_{σ+Δσ} is. The hyperbolic character of the equations — their dependence on
+
+initial data rather than boundary data in the future — supports this reading structurally.
+
+
+
+Becoming as primitive. Generation is not an ordinary relation between two coexisting states.
+
+Predecessor and successor are never present together, so there is no stage at which both exist and
+
+one produces the other. On CTGP, generation is primitive and tensed: the present has come to be from
+
+what was present. The division of labor is exact. Cosmological time supplies the ordering and co-
 
 presence of stages (§6.1), and the initial-value formulation supplies the lawful connection between
 
@@ -357,27 +373,3 @@ framework.
 
 
     Local physical present: what an observer experiences at their worldline. This is the
-
-    phenomenological present, dependent on local physical processes and subject to the usual
-
-    relativistic effects of time dilation and gravitational redshift.
-
-
-
-    Cosmological present: the foliation naturally selected by the large-scale matter distribution of
-
-    the universe, approximated observationally by the CMB rest frame. This is a physically motivated
-
-    but not observer-dependent quantity: any observer can in principle determine the CMB frame and
-
-    locate themselves within it.
-
-
-
-    Ontological present: the boundary between the generated domain M(σ) and the ungenerated future.
-
-    This is the active edge at which new hypersurfaces are produced, parameterized by σ.
-
-
-
-CTGP’s present edge Σ_σ is identified with the cosmological present rather than with Newtonian

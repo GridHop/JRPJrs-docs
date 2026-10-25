@@ -1,6 +1,58 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 25 (1,787 words)
+Part 22 of 25 (1,792 words)
+
+Theorem B.3 (Geroch, 1970). In a globally hyperbolic spacetime there exists a continuous time
+
+function — a function that strictly increases along every future-directed causal curve. Moreover, M
+
+≅ ℝ × Σ, where each slice is a Cauchy hypersurface. This splitting is not imposed but follows from
+
+the causal structure.
+
+
+
+Theorem B.4 (Bernal and Sánchez, 2003, 2005). In any globally hyperbolic spacetime, there exists a
+
+smooth temporal function whose gradient is everywhere timelike and whose level sets are smooth
+
+spacelike Cauchy hypersurfaces. Any Geroch splitting can be refined to a smooth one. Moreover, any
+
+two smooth Cauchy foliations can be smoothly deformed into each other.
+
+
+
+B.2 Application to CTGP
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+These theorems guarantee that the mathematical structure CTGP requires — a global foliation by
+
+present hypersurfaces Σ_σ with σ increasing causally — exists in any globally hyperbolic spacetime.
+
+This is not an additional CTGP postulate but a consequence of GR’s causal structure under physically
+
+reasonable assumptions. Standard interpretations treat the entire product manifold ℝ × Σ as
+
+ontologically complete. CTGP instead interprets the parameter labeling the slices as indexing the
+
+progressive generation of spacetime structure: at stage σ, only the present slice exists; the
+
+hypersurfaces in its past belong to the formal history M(σ), and the future hypersurfaces Σ_{σ′>σ},
+
+while mathematically definable within the full spacetime manifold, are not part of the generated
+
+domain.
+
+
+
+The freedom to choose among smooth temporal foliations corresponds to the freedom to pick different
+
+smooth temporal functions. CTGP resolves this ambiguity with cosmological time: among all time
+
+functions whose level sets are Cauchy surfaces, it is singled out by maximal elapsed proper time,
 
 and in cosmology it coincides with the matter rest frame. The logical priority is clear: causal
 
@@ -212,7 +264,7 @@ signal cascades converts microscopic state distinctions into macroscopic, causal
 
 differences. Third, causal continuity — the fact that each Σ_{σ+Δσ} is generated from Σ_σ by
 
-deterministic or stochastic lawful evolution — ensures that experiential states are embedded in a
+deterministic or stochastic lawful generation — ensures that experiential states are embedded in a
 
 continuous causal history, not isolated events.
 
@@ -329,55 +381,3 @@ D.4.2 Representation and Instantiation
 
 
 One of CTGP's most distinctive commitments is the domain-relative instantiation criterion. It claims
-
-that representing a process is not the same as instantiating it, and that this distinction matters
-
-for qualia.
-
-
-
-A computational simulation of neural dynamics encodes structural patterns and may reproduce
-
-input–output behaviour, but the simulation's states are symbolic representations of a process rather
-
-than the process itself. CTGP suggests that qualia depend on the actual physical instantiation of
-
-processes at Σ_σ—physical dynamics actively unfolding in the present—rather than on the manipulation
-
-of representations. This view leaves open whether some digital or other substrates might instantiate
-
-the relevant dynamics; it cautions only that functional equivalence alone does not guarantee that
-
-the requisite physical processes are present.
-
-
-
-This criterion grounds CTGP's cautious stance on strong functionalism. While functional organisation
-
-may be necessary for qualia, it may not be sufficient: the nature of the underlying physical process
-
-could matter. CTGP's domain-relative instantiation criterion is a philosophical elaboration of the
-
-Representation–Instantiation Distinction and does not modify any equation of the core framework. It
-
-emphasises that the framework's claims about mind are metaphysical extensions of its temporal
-
-ontology, not empirically settled facts.
-
-
-
-The physically instantiated criterion is a philosophical extension of CTGP’s ontology, not part of
-
-its physical foundation: the generation rate depends only on cosmic epoch (§11), and nothing in the
-
-core framework makes temporal progression depend on any further property of physical systems. The
-
-physical framework of CTGP is therefore logically independent of the criterion; this appendix
-
-explores one philosophical extension consistent with the ontology but not required for its physical
-
-validity.
-
-
-
-A pressing objection is that quantum gravity hints at discrete physics — Planck-scale discreteness

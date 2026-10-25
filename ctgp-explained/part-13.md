@@ -1,6 +1,52 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 25 (1,794 words)
+Part 13 of 25 (1,793 words)
+
+Ontological Hierarchy (§10.3) and the Pre-Geometric Minimal Ontology below; the geometric machinery
+
+enters only after the transition described in §9.2.
+
+
+
+Proper-Time Qualification. Proper time presupposes a metric and is therefore not available as a
+
+concept in the pre-geometric regime. Any statement in this paper of the form “σ corresponds to
+
+cosmological proper time” is to be read as: “In the emergent geometric regime, σ is cosmological
+
+time up to monotone relabeling.” The claim that σ fundamentally is proper time is not made and would
+
+be inconsistent with CTGP’s pre-geometric ontology. The proper-time interpretation is an emergent
+
+correspondence, not a definition.
+
+
+
+Regime-Dependent Representation Principle. The relationship between σ and geometry is regime-
+
+dependent and must be stated precisely. In the pre-geometric regime, σ is primitive and is not
+
+defined through any geometric or material quantity; it is the ontological ground from which causal
+
+structure, geometry, and eventually matter-energy descriptions emerge. In the emergent geometric
+
+regime, σ is represented by cosmological time and its relabelings, satisfying ∇_μσ ∇^μσ = −f(σ). The
+
+generation law may depend on σ but not on local matter content (§§6.11, 11). The logical order
+
+remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
+
+representative of σ.
+
+
+
+Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
+
+fundamental entities in CTGP is:
+
+
+
+    Present at the pre-geometric level: generative ordering parameter σ; causal relation structure
 
     C; minimal generative laws governing lawful succession.
 
@@ -297,57 +343,3 @@ term: matter enters only through the coefficient P_X(X, T). On an FLRW backgroun
 = C, so that near the preferred norm c_s² ≈ C/(2κX a³σ̇). The sound speed is therefore set by an
 
 integration constant rather than predicted, and C = 0 reproduces the pressureless behavior of the
-
-exact constraint, as in ghost condensation (Arkani-Hamed et al. 2004).
-
-
-
-Theorem 11.4 (Static rate uniformity). Let the σ-sector be shift-symmetric, S_σ = ∫√(−g) P(X, T)
-
-d⁴x, with T_{μν} depending only on metric and matter fields. Consider a static, asymptotically flat
-
-configuration σ = ωt + φ(x), regular everywhere, and suppose P_X > 0 wherever it is supported. Then
-
-∇φ ≡ 0.
-
-
-
-Proof. The spatial equation is ∂_i(√(−g) P_X g^{ij}∂_jφ) = 0. Regularity and the divergence theorem
-
-make the flux through every closed surface vanish, so φ − φ_∞ = O(r⁻²). Multiplying by φ − φ_∞ and
-
-integrating by parts gives ∫√(−g) P_X g^{ij}∂_iφ∂_jφ d³x = lim_{r→∞} ∮(φ − φ_∞)P_X ∇φ · dS = 0. The
-
-integrand is non-negative, so ∇φ = 0. □
-
-
-
-Every stable static structure therefore has the same generation rate as its surroundings: σ = ωt,
-
-with X = ω²/(2N²) where N is the lapse. A locally enhanced generation rate inside bound structure is
-
-excluded for the entire class.
-
-
-
-Proposition 11.5 (Stability transport bound). Suppose the background evolves near the preferred
-
-norm, X̄ ≈ X⋆(ρ̄). (a) By Theorem 11.4, a static structure containing densities up to ρ_{max} at an
-
-epoch with background norm X₁ is stable only if
-
-
-
-        P₀′(X₁) > κ [X⋆(ρ_{max}) − X₁].
-
-
-
-(b) Along the background, the no-ghost condition reads d(X^{1/2}P₀′)/dX > −κX^{1/2}. Integrating to
-
-an earlier epoch with X₂ > X₁ gives
-
-
-
-        P₀′(X₂) ≳ κ X⋆(ρ_{max}) (X₁/X₂)^{1/2},
-
-

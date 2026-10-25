@@ -1,6 +1,42 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 19 of 25 (1,792 words)
+Part 19 of 25 (1,793 words)
+
+Proposition 17.6 (Matter-constrained foliation expansion). Let u^μ be the timelike congruence
+
+aligned with the cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. In
+
+globally hyperbolic, irrotational cosmological spacetimes satisfying the Einstein equations, the
+
+evolution of θ is governed by the Raychaudhuri equation: dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} +
+
+ω_{μν}ω^{μν} − R_{μν}u^μu^ν + ∇_μa^μ. In the irrotational, geodesic cosmological limit this reduces
+
+to dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} − R_{μν}u^μu^ν. Under standard energy conditions, the matter
+
+content constrains the sign and evolution of θ, and hence constrains the geometric extension of the
+
+CTGP foliation. The expansion scalar θ = d(ln √h)/dτ provides the physically grounded local measure
+
+of how the present hypersurface is extending relative to neighboring hypersurfaces in the generated
+
+sequence.
+
+
+
+Proposition 17.7 (Variational Derivation of the Norm Condition). The norm condition ∇_μσ ∇^μσ =
+
+−f(σ) is not an independent postulate. The derivation treats σ as a smooth field and therefore
+
+applies on open regions where τ is sufficiently smooth and the other fields satisfy the regularity
+
+assumptions required for the classical variational calculation. Extending it across nonsmooth
+
+regions, including corners of cosmological-time level sets, would require an appropriate weak
+
+formulation, which is not attempted here. Independently of the action, τ is locally Lipschitz
+
+(Theorem 17.4), so for smooth F with F′ > 0, ∇_μσ exists almost everywhere, and Theorem 17.4
 
 together with the chain rule gives the norm condition wherever τ is differentiable, hence almost
 
@@ -257,35 +293,3 @@ Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} 
 Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
 
 V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity
-
-subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
-
-projection onto the constraint manifold via the conformal method, provided the constraint mismatch
-
-on the overlap is sufficiently small in H^{s-1}, there exists T > 0 and a unique local solution U ∈
-
-C([0,T], H^s) ∩ C^1([0,T], H^{s-1}) with stability bound ‖U − U^{(a)}‖_{Hs-1(V′a)} ≤ C_T ‖overlap
-
-mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim is thereby a standard PDE
-
-construction: local CTGP foliations may be patched only through overlap data first reconciled at the
-
-level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
-
-corrected blended data. □
-
-
-
-Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be a family of smooth
-
-spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
-
-ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
-
-Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
-
-(2) Energy-boundedness — each smeared generator ℒ(f) = ∫_Σ f(x) ℒ_x dΣ is closable on D and
-
-satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
-
-on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
