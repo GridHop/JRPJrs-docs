@@ -1,6 +1,10 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 02 of 5 (1,800 words)
+Part 02 of 5 (1,797 words)
+
+be different because A occurred. Three notions must therefore be kept apart:
+
+
 
     causal influence ≠ surviving information ≠ recoverability
 
@@ -421,5 +425,3 @@ than configurational. A snapshot of a person at 10:00 and another at 20:00 can b
 configurations while belonging to the same continuing individual.
 
 
-
-“Mind” must mean more than the mental contents present at a given moment; otherwise sleep,

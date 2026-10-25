@@ -1,6 +1,10 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 18 of 25 (1,796 words)
+Part 18 of 25 (1,797 words)
+
+the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
+
+ordering that is observationally accessible: in FLRW the level sets of cosmological time are the
 
 surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
 
@@ -309,11 +313,3 @@ then σ = F(τ), with F smooth and F′ > 0, is a time function whose level sets
 and ∇_μσ is timelike wherever τ is differentiable. (2) Matter alignment: in FLRW, τ is cosmic time
 
 and the level sets of σ are orthogonal to the comoving matter congruence; beyond FLRW, alignment
-
-holds with the free fall of pressureless matter in single-stream regions at linear order. (3)
-
-Monotonicity: σ is strictly increasing along every future-directed causal curve, independently of
-
-energy conditions.
-
-

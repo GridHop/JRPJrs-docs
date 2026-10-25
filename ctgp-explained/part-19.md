@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 19 of 25 (1,793 words)
+Part 19 of 25 (1,785 words)
+
+holds with the free fall of pressureless matter in single-stream regions at linear order. (3)
+
+Monotonicity: σ is strictly increasing along every future-directed causal curve, independently of
+
+energy conditions.
+
+
 
 Proposition 17.6 (Matter-constrained foliation expansion). Let u^μ be the timelike congruence
 
@@ -289,7 +297,3 @@ to leading order. □
 
 
 Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} be solutions of the
-
-Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
-
-V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity

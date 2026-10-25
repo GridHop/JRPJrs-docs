@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 25 of 25 (756 words)
+Part 25 of 25 (802 words)
+
+CTGP supplies what fixes the pairing, and supplies it from §6.1 rather than from the supernova:
+
+cosmological time fixes which stages are co-present, and in our universe it approximately coincides
+
+with the CMB rest frame and is realized along the comoving matter worldlines (§9.3.1). The supernova
 
 does not select the foliation, and it could not. Presenting it as doing so would invite a
 

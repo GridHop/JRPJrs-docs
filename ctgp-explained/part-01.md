@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 25 (1,799 words)
+Part 01 of 25 (1,788 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -28,19 +28,19 @@ progression in which each present state lawfully emerges from immediately preced
 
 states no longer exist as independently real regions of spacetime; their causal consequences persist
 
-as present matter, fields, and records. Present systems therefore inherit transformed physical
+as present matter, fields, and records. Present systems therefore exhibit lawful physical continuity
 
-continuities, causal records, and distributed consequences of prior states, rather than preserving
+and may bear transformed structures, causal records, and distributed consequences of earlier states,
 
-those earlier states themselves. Unlike static block-universe interpretations of relativity, CTGP
+without preserving those earlier states themselves. Unlike static block-universe interpretations of
 
-treats spacetime as a continuously generated structure emerging through causal propagation governed
+relativity, CTGP treats spacetime as a continuously generated structure emerging through causal
 
-by physical law. The framework preserves relativistic causal structure while identifying
+propagation governed by physical law. The framework preserves relativistic causal structure while
 
-cosmological time, which in FLRW models is the proper time of the cosmic matter flow, as the natural
+identifying cosmological time, which in FLRW models is the proper time of the cosmic matter flow, as
 
-parameter governing the progression of physical reality.
+the natural parameter governing the progression of physical reality.
 
 
 
@@ -347,5 +347,3 @@ CTGP is a thesis about what exists: the present, not the past or the future. Two
 same physics that differ only in this respect make identical predictions for every measurement
 
 (§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
-
-past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from

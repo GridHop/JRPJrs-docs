@@ -1,6 +1,10 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 05 of 25 (1,791 words)
+Part 05 of 25 (1,788 words)
+
+unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
+
+is, not by the cosmological foliation, which settles only which configurations are co-present and
 
 how stages are ordered: an organism, a hurricane, and a field have different conditions of
 
@@ -329,11 +333,3 @@ against the next. Correspondingly, M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathem
 generated history and should not be interpreted as an ontological accumulation of independently
 
 existing temporal slices; it represents a single, continuous causal-temporal process viewed through
-
-a foliation-based description, not a growing pile of spacetime sheets. Reality itself is the
-
-uninterrupted lawful progression connecting these representations — the succession of hypersurfaces
-
-describes one continuous process of becoming, not a series of separately existing states.
-
-

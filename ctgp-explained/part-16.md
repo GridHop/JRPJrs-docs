@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 16 of 25 (1,799 words)
+Part 16 of 25 (1,800 words)
+
+Reply: CTGP does not require an operationally absolute simultaneity relation between arbitrary
+
+spacelike-separated events. It requires a foliation adequate for cosmology and compatible with GR's
+
+initial-value structure. Cosmological time provides a physically grounded, non-absolute global
 
 'now', which on large scales is the rest frame of the CMB — not a kinematic absolute but a physical
 
@@ -329,7 +335,3 @@ demanded by CTGP’s ontology: the signal exists now; the emitting hydrogen exis
 earlier state itself no longer exists as an independently real spacetime region under CTGP; what
 
 remains is not the earlier organization itself but its physical consequences, carried by the present
-
-configuration, one subset of which functions as a causal record. On CTGP’s reading this is a direct
-
-physical instance of Postulate 4 rather than an analogy to it, although, as with every record in

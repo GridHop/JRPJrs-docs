@@ -1,6 +1,12 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 05 of 5 (782 words)
+Part 05 of 5 (791 words)
+
+33. Changing one assumption and following the consequences
+
+----------------------------------------------------------------------------------------------------
+
+
 
 Worldbuilding of the kind found in the literary fiction work does what philosophers and theoretical
 

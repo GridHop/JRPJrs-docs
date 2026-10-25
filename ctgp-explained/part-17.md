@@ -1,6 +1,10 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 17 of 25 (1,789 words)
+Part 17 of 25 (1,793 words)
+
+configuration, one subset of which functions as a causal record. On CTGP’s reading this is a direct
+
+physical instance of Postulate 4 rather than an analogy to it, although, as with every record in
 
 this section, the same facts are equally available on a block reading. Within the CTGP framework,
 
@@ -349,7 +353,3 @@ The distinguishing feature of CTGP lies in its integration of three elements tha
 treated separately in the existing literature. First, a generation parameter grounded in
 
 relativistic causal structure: CTGP identifies the growth parameter with cosmological time, fixed by
-
-the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
-
-ordering that is observationally accessible: in FLRW the level sets of cosmological time are the

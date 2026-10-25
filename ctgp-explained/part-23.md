@@ -1,6 +1,18 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 23 of 25 (1,789 words)
+Part 23 of 25 (1,797 words)
+
+that functional equivalence by itself is insufficient to establish phenomenal equivalence. Whether
+
+artificial substrates instantiate the relevant intrinsic properties remains an open question.
+
+
+
+D.4.2 Representation and Instantiation
+
+
+
+One of CTGP's most distinctive commitments is the domain-relative instantiation criterion. It claims
 
 that representing a process is not the same as instantiating it, and that this distinction matters
 
@@ -321,13 +333,5 @@ them.
 D.6 The Remaining Mapping Problem
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP intentionally distinguishes between two explanatory levels: (1) ontological placement of
-
-experience, and (2) specific mapping from physical processes to qualitative character. CTGP resolves
-
-the first but leaves the second partially open.
 
 

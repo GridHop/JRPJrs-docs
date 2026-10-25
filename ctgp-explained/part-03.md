@@ -1,6 +1,8 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 03 of 25 (1,798 words)
+Part 03 of 25 (1,789 words)
+
+not reduced to it, since each also depends on contingent features of our universe’s initial
 
 conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
 
@@ -317,17 +319,3 @@ Whether a unified account is preferable to a distributed one is the philosophica
 not a result either side can prove. The two ontologies are also economical in different respects:
 
 presentism posits fewer existing things, eternalism less structure, since it needs neither a
-
-distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
-
-the dispute.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-5. The Core Postulates of CTGP
-
-----------------------------------------------------------------------------------------------------
-
-

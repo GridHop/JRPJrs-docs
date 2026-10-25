@@ -2,6 +2,12 @@
 
 Part 07 of 25 (1,786 words)
 
+fundamentally stochastic while still occurring within a lawful causal framework. The absence of a
+
+known determining cause for a particular outcome does not imply the absence of prerequisite physical
+
+structures, lawful constraints, or causal continuity with prior generated states. CTGP does not
+
 require strict determinism; it requires only that present reality emerges from prior generated
 
 reality through lawful physical processes, and that no confirmed observation presently requires the
@@ -317,11 +323,3 @@ formalism. A new field modifies GR by adding independent degrees of freedom whos
 diverge from those of the Einstein–matter system; scalar–tensor theories (Brans–Dicke), f(R)
 
 gravity, and quintessence models all do this. σ does not: it is fixed by the metric through
-
-cosmological time, and with λ = 0 the constraint sector carries no stress-energy. CTGP’s ontological
-
-claim — that σ indexes genuine spacetime generation — is interpretive, not dynamical. The physics is
-
-unmodified; the ontological reading of the physics is what CTGP proposes.
-
-

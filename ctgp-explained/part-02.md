@@ -2,6 +2,8 @@
 
 Part 02 of 25 (1,787 words)
 
+past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
+
 the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
 
 which the paper tests (§11).
@@ -329,5 +331,3 @@ The following arrows all point in the same direction within CTGP, and their alig
 coincidental. The causal and memory-formation arrows point in the direction of generation by
 
 construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
-
-not reduced to it, since each also depends on contingent features of our universe’s initial

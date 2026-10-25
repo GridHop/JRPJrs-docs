@@ -1,6 +1,18 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 09 of 25 (1,800 words)
+Part 09 of 25 (1,788 words)
+
+interprets this structure as ontological generation: the next hypersurface is not pre-existing but
+
+is computed from the present one by lawful dynamics.
+
+
+
+        G_{μν} = 8πG T_{μν}
+
+
+
+The Einstein equation governs the generation of each new slice. On the CTGP reading, this equation
 
 is not a constraint on a pre-existing four-dimensional structure but a production rule: given Σ_σ,
 
@@ -353,23 +365,3 @@ that breaks rotational symmetry, with the symmetry-breaking direction selected b
 configuration rather than by the Lagrangian itself. The CMB rest frame is precisely analogous: the
 
 Einstein equations are foliation-neutral, but the physical solution — a universe filled with matter
-
-in a particular configuration — fixes a metric whose cosmological time is, on large scales, the CMB
-
-rest frame.
-
-
-
-9.4 Cosmological Simultaneity and Relativistic Locality
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP distinguishes three senses of “present” that are often conflated in objections to the
-
-framework.
-
-
-
-    Local physical present: what an observer experiences at their worldline. This is the

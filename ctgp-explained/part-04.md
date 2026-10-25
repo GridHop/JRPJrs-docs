@@ -1,6 +1,20 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 04 of 25 (1,798 words)
+Part 04 of 25 (1,787 words)
+
+distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
+
+the dispute.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+5. The Core Postulates of CTGP
+
+----------------------------------------------------------------------------------------------------
+
+
 
 5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
 
@@ -321,7 +335,3 @@ CTGP distinguishes a state from what it is a state of. An earlier state, as the 
 ceases to exist, even when successive stages produce a qualitatively identical state; the system
 
 whose state it was persists for as long as its conditions of persistence are satisfied, that is,
-
-unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
-
-is, not by the cosmological foliation, which settles only which configurations are co-present and

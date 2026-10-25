@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 14 of 25 (1,793 words)
+Part 14 of 25 (1,799 words)
+
+term: matter enters only through the coefficient P_X(X, T). On an FLRW background this gives a³P_Xσ̇
+
+= C, so that near the preferred norm c_s² ≈ C/(2κX a³σ̇). The sound speed is therefore set by an
+
+integration constant rather than predicted, and C = 0 reproduces the pressureless behavior of the
 
 exact constraint, as in ghost condensation (Arkani-Hamed et al. 2004).
 
@@ -339,9 +345,3 @@ no empirically equivalent formulation of this kind exists. Enlarging the state s
 only if the added variables are physically instantiated on Σ_σ and have dynamics of their own, not
 
 if they are defined by reference to later data; without that restriction, any history could be made
-
-generable by encoding its future in the present state. A choice of formulation cannot refute CTGP; a
-
-law with no legitimate generative formulation can. Conditioning a stochastic process on a later
-
-event of nonzero probability can, under suitable assumptions, yield a forward transition law through

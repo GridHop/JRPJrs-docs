@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 24 of 25 (1,799 words)
+Part 24 of 25 (1,785 words)
+
+CTGP intentionally distinguishes between two explanatory levels: (1) ontological placement of
+
+experience, and (2) specific mapping from physical processes to qualitative character. CTGP resolves
+
+the first but leaves the second partially open.
+
+
 
 The framework establishes that qualia occur only in ongoing, causally continuous physical processes
 
@@ -413,9 +421,3 @@ nonexistent: the observer affirms concurrency and disputes individuation, which 
 division drawn above.
 
 
-
-CTGP supplies what fixes the pairing, and supplies it from §6.1 rather than from the supernova:
-
-cosmological time fixes which stages are co-present, and in our universe it approximately coincides
-
-with the CMB rest frame and is realized along the comoving matter worldlines (§9.3.1). The supernova

@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 25 (1,793 words)
+Part 13 of 25 (1,788 words)
+
+structure is guaranteed by causal geometry alone — not to assert that geometry is prior to
+
+causality. This restriction applies universally to §§6, 7, 8, 9, and their subsections. The pre-
+
+geometric regime is governed by the minimal generative structure (σ, C) specified by the Fundamental
 
 Ontological Hierarchy (§10.3) and the Pre-Geometric Minimal Ontology below; the geometric machinery
 
@@ -337,9 +343,3 @@ absence of gradient instability requires P_X > 0. The penalty must carry the sta
 opposite sign makes P_{XX} negative near the preferred norm and produces a ghost. Because P does not
 
 depend on σ, the field equation is the conserved-current equation ∇_μ(P_X∇^μσ) = 0 with no source
-
-term: matter enters only through the coefficient P_X(X, T). On an FLRW background this gives a³P_Xσ̇
-
-= C, so that near the preferred norm c_s² ≈ C/(2κX a³σ̇). The sound speed is therefore set by an
-
-integration constant rather than predicted, and C = 0 reproduces the pressureless behavior of the

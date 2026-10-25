@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 25 (1,800 words)
+Part 06 of 25 (1,796 words)
+
+a foliation-based description, not a growing pile of spacetime sheets. Reality itself is the
+
+uninterrupted lawful progression connecting these representations — the succession of hypersurfaces
+
+describes one continuous process of becoming, not a series of separately existing states.
+
+
 
 Geometric interpretation of the growth hypersurface. In the emergent geometric regime, each
 
@@ -315,9 +323,3 @@ where continuum spacetime ceases to apply.
 
 
 CTGP also distinguishes between causal continuity and deterministic predictability. A process may be
-
-fundamentally stochastic while still occurring within a lawful causal framework. The absence of a
-
-known determining cause for a particular outcome does not imply the absence of prerequisite physical
-
-structures, lawful constraints, or causal continuity with prior generated states. CTGP does not

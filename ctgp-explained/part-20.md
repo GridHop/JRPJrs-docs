@@ -1,6 +1,10 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 25 (1,796 words)
+Part 20 of 25 (1,794 words)
+
+Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
+
+V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity
 
 subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
 
@@ -387,17 +391,5 @@ Ellis, G. F. R. (2014). The evolving block universe and the meshing together of 
 Ellis, G. F. R., & Rothman, T. (2010). Time and spacetime: The crystallizing block universe.
 
     International Journal of Theoretical Physics, 49, 988–1003.
-
-
-
-Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
-
-    University Press.
-
-
-
-Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
-
-    cosmic microwave background. Physical Review D, 78, 083012.
 
 

@@ -1,6 +1,8 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 03 of 5 (1,795 words)
+Part 03 of 5 (1,796 words)
+
+“Mind” must mean more than the mental contents present at a given moment; otherwise sleep,
 
 anesthesia, unconsciousness, or memory loss would seem to create a new person. A more robust
 
@@ -371,5 +373,3 @@ tell us that X’s output is numerically identical to its input. The first is an
 the second concerns the identity conditions we apply to physical processes. CTGP can say that a
 
 present state causally arose from an earlier one; it does not follow that the present entity is
-
-numerically identical to the earlier entity. That requires a theory of persistence. CTGP supplies

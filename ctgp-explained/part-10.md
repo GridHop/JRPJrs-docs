@@ -1,6 +1,26 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 10 of 25 (1,788 words)
+Part 10 of 25 (1,799 words)
+
+in a particular configuration — fixes a metric whose cosmological time is, on large scales, the CMB
+
+rest frame.
+
+
+
+9.4 Cosmological Simultaneity and Relativistic Locality
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP distinguishes three senses of “present” that are often conflated in objections to the
+
+framework.
+
+
+
+    Local physical present: what an observer experiences at their worldline. This is the
 
     phenomenological present, dependent on local physical processes and subject to the usual
 
@@ -279,11 +299,3 @@ ADM evolution admits many-fingered time: different choices of lapse and shift fo
 spacetime differently while describing identical physics. What selects one foliation among these is
 
 cosmological time (§6.1), the maximal proper time elapsed since the initial singularity. The
-
-constitutive argument therefore answers why there is a cosmic present; cosmological time answers
-
-which one it is. Presenting either as discharging both burdens would overstate the case.
-
-
-
-The scope of the claim should nevertheless be stated precisely, because it is easy to overstate.

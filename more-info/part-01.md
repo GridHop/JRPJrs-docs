@@ -1,6 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 01 of 5 (1,795 words)
+Part 01 of 5 (1,789 words)
 
 MORE INFO
 
@@ -360,9 +360,9 @@ as independently real regions of spacetime; their causal consequences persist as
 
 fields, and records and continue to propagate through later structures. Present systems therefore
 
-inherit transformed physical continuities, causal records, and distributed consequences of prior
+exhibit lawful physical continuity and may bear transformed structures, causal records, and
 
-states, not the earlier states themselves.
+distributed consequences of earlier states, without preserving those earlier states themselves.
 
 
 
@@ -441,7 +441,3 @@ establish that it happened depends on surviving records and on the signals avail
 Suppose A causes B, B causes C, and C causes D. By the time D exists, A may be entirely gone, and
 
 there may be no recoverable record from which any observer could reconstruct it. D can nevertheless
-
-be different because A occurred. Three notions must therefore be kept apart:
-
-

@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 25 (1,788 words)
+Part 15 of 25 (1,798 words)
+
+generable by encoding its future in the present state. A choice of formulation cannot refute CTGP; a
+
+law with no legitimate generative formulation can. Conditioning a stochastic process on a later
+
+event of nonzero probability can, under suitable assumptions, yield a forward transition law through
 
 a Doob h-transform (Doob 1957). Consequently, the appearance of a future condition in one
 
@@ -337,9 +343,3 @@ Objection O1 (Relativity of simultaneity): Presentism requires a global present,
 absolute simultaneity.
 
 
-
-Reply: CTGP does not require an operationally absolute simultaneity relation between arbitrary
-
-spacelike-separated events. It requires a foliation adequate for cosmology and compatible with GR's
-
-initial-value structure. Cosmological time provides a physically grounded, non-absolute global

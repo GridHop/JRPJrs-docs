@@ -1,6 +1,18 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 25 (1,790 words)
+Part 21 of 25 (1,792 words)
+
+Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
+
+    University Press.
+
+
+
+Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
+
+    cosmic microwave background. Physical Review D, 78, 083012.
+
+
 
 Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
 
@@ -513,13 +525,5 @@ chronological relation I+(p) — the set of events reachable from p by future-di
 can be reconstructed uniquely up to an overall conformal factor from knowledge of the chronological
 
 order alone.
-
-
-
-Theorem B.2 (Malament, 1977). The causal ordering relation alone suffices to determine the conformal
-
-metric structure of relativistic spacetime under mild conditions. Temporal precedence is not a
-
-coordinate convention but a geometric fact encoded in causal relations.
 
 

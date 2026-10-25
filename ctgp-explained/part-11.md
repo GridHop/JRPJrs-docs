@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 25 (1,798 words)
+Part 11 of 25 (1,793 words)
+
+constitutive argument therefore answers why there is a cosmic present; cosmological time answers
+
+which one it is. Presenting either as discharging both burdens would overstate the case.
+
+
+
+The scope of the claim should nevertheless be stated precisely, because it is easy to overstate.
 
 CTGP does not hold that every mathematical solution of the Einstein field equations possesses a
 
@@ -351,9 +359,3 @@ covariantly fixed foliation, being the primary candidates. CTGP thus requires si
 realism: at each stage, each measurement has exactly one realized macroscopic outcome. The standard
 
 Everettian ontology, on which all branches are physically real, conflicts with this requirement,
-
-although not with the cosmological foliation itself: an Everettian could accept the foliation and a
-
-unique universal state on each level set while denying that each stage has a unique macroscopic
-
-outcome. The claim is specific to CTGP; it is not the claim that no-collapse quantum theories are

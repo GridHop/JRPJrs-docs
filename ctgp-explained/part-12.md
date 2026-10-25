@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 12 of 25 (1,796 words)
+Part 12 of 25 (1,798 words)
+
+although not with the cosmological foliation itself: an Everettian could accept the foliation and a
+
+unique universal state on each level set while denying that each stage has a unique macroscopic
+
+outcome. The claim is specific to CTGP; it is not the claim that no-collapse quantum theories are
 
 incompatible with presentism in general.
 
@@ -345,9 +351,3 @@ discussed in CTGP apply only within the emergent geometric regime where classica
 valid continuum approximation (ρ ≪ ρ_P). None of these constructions are claimed to be fundamental.
 
 Their role within CTGP is to establish that, once geometry has emerged, a well-defined foliation
-
-structure is guaranteed by causal geometry alone — not to assert that geometry is prior to
-
-causality. This restriction applies universally to §§6, 7, 8, 9, and their subsections. The pre-
-
-geometric regime is governed by the minimal generative structure (σ, C) specified by the Fundamental

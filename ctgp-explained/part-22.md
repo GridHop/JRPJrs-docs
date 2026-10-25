@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 25 (1,792 words)
+Part 22 of 25 (1,789 words)
+
+Theorem B.2 (Malament, 1977). The causal ordering relation alone suffices to determine the conformal
+
+metric structure of relativistic spacetime under mild conditions. Temporal precedence is not a
+
+coordinate convention but a geometric fact encoded in causal relations.
+
+
 
 Theorem B.3 (Geroch, 1970). In a globally hyperbolic spacetime there exists a continuous time
 
@@ -369,15 +377,3 @@ motivates empirical investigation rather than as a demonstrated result.
 
 
 Accordingly, CTGP does not claim that digital simulations are known to lack qualia. It claims only
-
-that functional equivalence by itself is insufficient to establish phenomenal equivalence. Whether
-
-artificial substrates instantiate the relevant intrinsic properties remains an open question.
-
-
-
-D.4.2 Representation and Instantiation
-
-
-
-One of CTGP's most distinctive commitments is the domain-relative instantiation criterion. It claims

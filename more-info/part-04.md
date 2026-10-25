@@ -1,6 +1,8 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 04 of 5 (1,791 words)
+Part 04 of 5 (1,796 words)
+
+numerically identical to the earlier entity. That requires a theory of persistence. CTGP supplies
 
 only the frame for one. It distinguishes a state from what it is a state of: an earlier state ceases
 
@@ -407,9 +409,3 @@ PART VII. Fiction as a Laboratory for Philosophy
 
 
 ----------------------------------------------------------------------------------------------------
-
-33. Changing one assumption and following the consequences
-
-----------------------------------------------------------------------------------------------------
-
-

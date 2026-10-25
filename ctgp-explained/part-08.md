@@ -2,6 +2,14 @@
 
 Part 08 of 25 (1,791 words)
 
+cosmological time, and with λ = 0 the constraint sector carries no stress-energy. CTGP’s ontological
+
+claim — that σ indexes genuine spacetime generation — is interpretive, not dynamical. The physics is
+
+unmodified; the ontological reading of the physics is what CTGP proposes.
+
+
+
 In summary, with λ = 0 (§6.9) the continuum generation parameter introduces no new propagating
 
 degrees of freedom and modifies no gravitational dynamics. Physical hypotheses that would give σ
@@ -329,15 +337,3 @@ Einstein's equations can be written as a well-posed initial-value problem (under
 conditions). Given Cauchy data on Σ_σ, the evolution equations determine a unique development — up
 
 to diffeomorphism — in a neighborhood of Σ_σ, without specifying future boundary data. CTGP
-
-interprets this structure as ontological generation: the next hypersurface is not pre-existing but
-
-is computed from the present one by lawful dynamics.
-
-
-
-        G_{μν} = 8πG T_{μν}
-
-
-
-The Einstein equation governs the generation of each new slice. On the CTGP reading, this equation
