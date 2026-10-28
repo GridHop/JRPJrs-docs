@@ -1,16 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 02 of 25 (1,787 words)
-
-past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
-
-the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
-
-which the paper tests (§11).
-
-
-
-----------------------------------------------------------------------------------------------------
+Part 02 of 25 (1,828 words)
 
 2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
 
@@ -98,11 +88,15 @@ it is a descriptive asymmetry, not an ontological one. The worldline runs throug
 
 structure; nothing is generated. The worldline perspective provides an account of why an observer
 
-would represent things as temporally ordered, but it does not explain why there is any experience at
+would represent things as temporally ordered, but it supplies nothing for the felt succession of
 
-all — why the mathematical structure would be accompanied by, or would constitute, the felt
+'nows' to be an experience of: in the block, no succession actually occurs. Why there is subjective
 
-succession of 'nows.' Structure alone does not equal experience.
+experience at all is a separate question, which neither the block universe nor CTGP answers (§15.4;
+
+Appendix D). CTGP's claim is narrower: it supplies an ontological correlate of experienced passage,
+
+namely succession that actually occurs, which the block lacks.
 
 
 
@@ -134,11 +128,11 @@ that the ontology must itself contain.
 
 CTGP takes this challenge as a positive constraint on ontology: an adequate ontology of time must
 
-not merely describe the temporal ordering of events but must sustain the conditions under which
+not merely describe the temporal ordering of events but must contain genuine temporal becoming if
 
-genuine temporal becoming — and the experience grounded in it — is possible. The generative
+experienced passage is to track something real. The generative presentist structure of CTGP is its
 
-presentist structure of CTGP is its response.
+response.
 
 
 
@@ -238,27 +232,27 @@ CTGP's generative ontology provides the required apparatus. Reality advances as 
 
 flowing generative process: the generation flow vector n^μ propagates the present boundary Σ_σ
 
-forward along a smooth, timelike field rather than advancing it frame-by-frame. The differential
+forward along a timelike field, smooth wherever cosmological time is differentiable (§6.6), rather
 
-notation Σ_σ → Σ_{σ+dσ} represents an infinitesimal increment of this continuous flow, not a
+than advancing it frame-by-frame. The differential notation Σ_σ → Σ_{σ+dσ} represents an
 
-discrete jump between fixed stages. This flow is asymmetric by design: M(σ) formally represents the
+infinitesimal increment of this continuous flow, not a discrete jump between fixed stages. This flow
 
-generated history of the universe up to the present flow parameter σ, while only the present state
+is asymmetric by design: M(σ) formally represents the generated history of the universe up to the
 
-possesses ontological existence, and Σ_σ is the advancing edge at which new structure continuously
+present flow parameter σ, while only the present state possesses ontological existence, and Σ_σ is
 
-emerges. M(σ) should accordingly be read as a formal representation of causal ancestry and
+the advancing edge at which new structure continuously emerges. M(σ) should accordingly be read as a
 
-generative ordering, not as a collection of simultaneously existing historical states; the symbol
+formal representation of causal ancestry and generative ordering, not as a collection of
 
-organizes the lawful sequence of generation, it does not store the generated stages as co-present
+simultaneously existing historical states; the symbol organizes the lawful sequence of generation,
 
-entities. The experienced sense of temporal flow corresponds to this actual, continuously unfolding
+it does not store the generated stages as co-present entities. The experienced sense of temporal
 
-generative process — not a sequence of discrete snapshots, but a river whose front perpetually
+flow corresponds to this actual, continuously unfolding generative process — not a sequence of
 
-advances.
+discrete snapshots, but a river whose front perpetually advances.
 
 
 
@@ -331,3 +325,9 @@ The following arrows all point in the same direction within CTGP, and their alig
 coincidental. The causal and memory-formation arrows point in the direction of generation by
 
 construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
+
+not reduced to it, since each also depends on contingent features of our universe’s initial
+
+conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
+
+to future — runs in the direction in which stages are generated, since each new hypersurface is

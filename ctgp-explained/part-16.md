@@ -1,6 +1,160 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 16 of 25 (1,800 words)
+Part 16 of 25 (1,837 words)
+
+preferred global foliation, whether detected as preferred-frame effects or required by an
+
+empirically successful theory of quantum gravity, would remove the principal relativistic objection
+
+to presentism, though an eternalist may accept such a foliation too. Conversely, Lorentz invariance
+
+confirmed to ever deeper levels raises the cost without refuting the view.
+
+
+
+CTGP inherits the local phenomenology of general relativity: the cosmological frame has no effect on
+
+local physics. Because the generative present is defined by cosmological time and introduces no new
+
+field, the preferred-frame parameters that would couple local physics to the CMB rest frame vanish.
+
+For an observer moving through that frame at v/c ≈ 1.2 × 10⁻³, such couplings of strength α would
+
+produce sidereal and annual modulations of clock rates and propagation of order α(v/c)². Pulsar
+
+timing bounds the relevant post-Newtonian preferred-frame parameters at about 4 × 10⁻⁵ and 2 × 10⁻⁹,
+
+and lunar laser ranging gives weaker independent bounds (Will 2014), and atomic-clock and
+
+spectroscopic comparisons bound preferred-frame effects on matter far more tightly (Kostelecký and
+
+Russell 2011). All such results are null, as CTGP requires. They are consistent with CTGP but do not
+
+discriminate it from eternalism, which makes the same prediction. Preferred-frame theories with a
+
+dynamical timelike vector, such as Einstein–æther and khronometric gravity (Jacobson and Mattingly
+
+2001; Hořava 2009), are the natural comparison class, and their bounds apply to any Layer 3
+
+extension of CTGP that would give the generation flow independent dynamics. The two halves of this
+
+claim should be stated together. CTGP introduces no local Lorentz violation and no new local field;
+
+it does commit to a globally distinguished foliation wherever cosmological time is regular. The null
+
+results above bear on the first half, not the second, and no measurement of local physics could bear
+
+on the second.
+
+
+
+12.4 Operational Locatability of the Present
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The generative present is not a posit beyond the reach of measurement. The universe contains nearly
+
+universal reference structures through which it becomes measurable: the CMB, the most comprehensive
+
+cosmological rest-frame reference, and the 21 cm hyperfine line, a spectroscopic reference for
+
+redshift and motion across cosmological distances (since reionization carried mainly by neutral
+
+hydrogen in and around galaxies). Neither generates time; both make its large-scale ordering
+
+observable. Any observer can determine the cosmic time of their own stage from the local CMB
+
+temperature, which falls in inverse proportion to the scale factor, and their motion relative to the
+
+cosmological frame from the CMB dipole, about 370 km s⁻¹ for the Solar System. The question “which
+
+stage of the cosmic present am I in” therefore has an operational answer, and the correction it
+
+requires can be computed in practice: for SN1987A the difference between the cosmological-time
+
+placement and the naive light-travel-time subtraction is at most about 200 years out of 168,000
+
+(Appendix E). This establishes that CTGP’s present is physically well defined. It does not
+
+discriminate CTGP from eternalism, which can use the same cosmic clock. That observers always find
+
+their own present real is guaranteed under both readings, since every observation occurs at the
+
+observer’s stage; it therefore confirms physical instantiation without bearing on ontological
+
+exclusivity.
+
+
+
+12.5 Summary of Empirical Standing
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Level           | Claim                                        | Empirical status
+
+----------------+----------------------------------------------+-----------------------------------
+
+Ontology        | Only the present exists                      | Not observable (Proposition 12.1)
+
+Structural      | Fundamental laws are generable from the      | Empirically exposed; refutable;
+
+constraint      | present (entailed by CTGP, merely permitted  | consistent with current physics
+
+                | by eternalism)                               | (§12.2)
+
+Physical        | Generation law, couplings, and signatures of | Ordinary empirical hypotheses;
+
+realization     | σ                                            | density-weighted forms excluded
+
+                |                                              | (§11)
+
+
+
+Three outcomes are possible for any physical realization of CTGP. If the added physics fails, as
+
+density-weighted generation does, that refutes the realization, not the ontology. If the added
+
+physics succeeds but is observationally equivalent to its rivals, CTGP is a physically coherent
+
+formulation of presentism without experimental discrimination. If it succeeds and yields
+
+observations its rivals do not naturally reproduce, the support runs along a chain: the observation
+
+supports a physical theory, the theory supports objective becoming, and becoming lends indirect
+
+support to presentism. At no step does an observation verify the ontology directly. CTGP does not
+
+seek an experiment that detects the nonexistence of the past; it seeks a coherent realization of
+
+objective becoming whose empirical consequences, if any, are carried by explicitly stated physics.
+
+
+
+====================================================================================================
+
+PART IV. Evaluation
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+13. Objections and Replies
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Objection O1 (Relativity of simultaneity): Presentism requires a global present, but SR denies
+
+absolute simultaneity.
+
+
 
 Reply: CTGP does not require an operationally absolute simultaneity relation between arbitrary
 
@@ -172,17 +326,17 @@ accordingly does not derive the present from the symmetries of special relativit
 
 present from the actual matter-filled solution of general relativity, whose cosmological time is
 
-regular and whose level sets are spatially extended Cauchy surfaces (§6). The present is a whole
+regular and whose level sets are spatially extended future Cauchy surfaces (§6). The present is a
 
-slice of the universe, not a point. This is a restriction to the relativistic spacetimes that model
+whole slice of the universe, not a point. This is a restriction to the relativistic spacetimes that
 
-the actual universe, not a retreat to non-relativistic ones. Minkowski spacetime, in which the
+model the actual universe, not a retreat to non-relativistic ones. Minkowski spacetime, in which the
 
 construction selects nothing, is an idealization of those spacetimes rather than a model of the
 
-universe as a whole. That it depends on the actual solution rather than on the laws is the same cost
+universe as a whole. That it depends on the actual solution rather than on the laws is the first of
 
-acknowledged under Objection O2.
+the costs acknowledged in §16.
 
 
 
@@ -200,138 +354,10 @@ Reply: The history such systems depend on is carried by present physical variabl
 
 ferromagnet’s present magnetization, which is a spatially extended present state. Generation
 
-requires only that whatever a system’s evolution depends on be instantiated now, not that the system
+requires only that whatever a system’s dynamics depend on be instantiated now, not that the system
 
 lack a history. A law with irreducible dependence on earlier states, one whose past dependence no
 
 present variable could carry, would indeed conflict with CTGP as sharply as future dependence would;
 
 hysteresis and other familiar memory effects are not of that kind.
-
-
-
-Objection O11 (Nothing marks the present): Cosmological time orders every stage alike. Nothing in it
-
-marks one level set as the present one.
-
-
-
-Reply: Correct, and CTGP does not claim otherwise. The geometry settles which events are co-present,
-
-not which stage is present. On an eternalist reading every level set exists, and something further
-
-would be needed to single one out. On CTGP no such selection problem arises: only the configuration
-
-on one level set exists, and the others appear only in the formal representation M(σ). Presentness
-
-is supplied by the ontology, not by the time function. General relativity supplies the foliation;
-
-CTGP supplies its interpretation.
-
-
-
-A unifying response to the objections above is worth making explicit: CTGP’s ontological thesis does
-
-not modify the dynamical equations of physics; it modifies the ontological interpretation of their
-
-solutions, while its Layer 3 hypotheses are stated separately as testable physics. The Einstein
-
-equations are compatible with both static and generative readings; CTGP argues that the generative
-
-reading is superior because it simultaneously respects relativistic causal structure, accommodates
-
-cosmological foliation, aligns with causal-set growth models, and provides a natural ontological
-
-location for temporal experience. At the level of Layers 1 and 2, the theory therefore functions not
-
-as a competing physical model but as an interpretive completion of relativistic spacetime —
-
-consistent with existing physics while providing an account of an additional observed phenomenon
-
-(the phenomenology of temporal experience) that the block universe ontology leaves unaddressed.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-14. Cosmological Records and the Persistence of Causal Information
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Within the CTGP framework, the physical universe does not merely evolve through time — it
-
-continuously encodes its own causal history in the structures that persist from one generated
-
-hypersurface to the next. This section examines how major cosmological observables function as
-
-precisely this kind of causal record: present physical structures whose organization carries the
-
-consequences of earlier states represented in M(σ). These records establish physical causal
-
-relationships that any ontology must accommodate, and every fact they encode is equally available on
-
-a block-universe reading; they illustrate CTGP’s account of the past rather than discriminating it
-
-from eternalism, a difference that is tested only through the generability constraint (§12.2).
-
-
-
-14.1 The Cosmic Microwave Background as Causal Record
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The cosmic microwave background (CMB) is the most precisely characterized causal record in
-
-observational cosmology. The thermal photons constituting the CMB were last scattered at the surface
-
-of last scattering approximately 380,000 years after the Big Bang, when the plasma of the early
-
-universe recombined and became transparent. The anisotropies in the CMB temperature field — density
-
-fluctuations at the level of one part in 100,000 — encode information about the baryon-photon plasma
-
-at that epoch. The radiation that carries them has existed at every intervening stage as a present
-
-field configuration, redshifted by cosmic expansion, and is observed on the present hypersurface
-
-Σ_σ. Within CTGP, the CMB is not merely a probe of the past; it is literally a physical record
-
-embedded in the present state. The past hypersurfaces at which last scattering occurred no longer
-
-exist as independently real spacetime regions — they are encoded causally in the radiation field now
-
-permeating the universe. The temperature map of the CMB is the universe’s causal receipt for the
-
-events of its first 380,000 years.
-
-
-
-14.1.1 The 21 cm Hydrogen Line: The Volumetric Causal Archive
-
-
-
-While the CMB provides a single, high-fidelity causal surface from the recombination epoch, the 21cm
-
-hyperfine transition line of neutral hydrogen (λ = 21.106 cm, ν = 1420.405 MHz) offers a uniquely
-
-powerful extension of CTGP’s causal continuity thesis and constitutes the most extensive known
-
-physical realization of Postulate 4 (Persistence Through Causal Continuity and Records). Before
-
-cosmic reionization (z ≳ 6), neutral hydrogen filled the intergalactic medium, the diffuse cosmic
-
-web between the first luminous structures; afterward it resides mainly in and around galaxies, where
-
-it serves as a tracer of the large-scale matter distribution. Across both epochs it provides a
-
-three-dimensional screen for mapping causal structure. The logical structure is precisely that
-
-demanded by CTGP’s ontology: the signal exists now; the emitting hydrogen existed earlier; the
-
-earlier state itself no longer exists as an independently real spacetime region under CTGP; what
-
-remains is not the earlier organization itself but its physical consequences, carried by the present

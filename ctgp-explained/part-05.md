@@ -1,10 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 05 of 25 (1,788 words)
-
-unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
-
-is, not by the cosmological foliation, which settles only which configurations are co-present and
+Part 05 of 25 (1,831 words)
 
 how stages are ordered: an organism, a hurricane, and a field have different conditions of
 
@@ -36,17 +32,17 @@ Within the emergent geometric regime, the generative ordering is represented by 
 
 and adds no dynamics to general relativity, which is used without modification; the “σ-generation
 
-law” names whatever pre-geometric physics realizes the ordering, not a modification of GR. Higher-
+law” names whatever pre-geometric physics realizes the ordering, not a modification of GR.
 
-level effective laws — including classical spacetime dynamics, relativistic causal structure, and
+Higher-level effective laws — including classical spacetime dynamics, relativistic causal structure,
 
-low-energy field behavior — emerge progressively as physical conditions permit their stable
+and low-energy field behavior — emerge progressively as physical conditions permit their stable
 
-realization. CTGP is therefore never lawless at any stage of cosmic evolution; the Planck epoch is
+realization. CTGP is therefore never lawless at any generative stage of the universe; the Planck
 
-governed by minimal generative structure even when the smooth Lorentzian manifold does not yet exist
+epoch is governed by minimal generative structure even when the smooth Lorentzian manifold does not
 
-as a continuum approximation.
+yet exist as a continuum approximation.
 
 
 
@@ -100,7 +96,7 @@ thermodynamic degradation; and record erasure, when it occurs via logically irre
 
 incurs a minimum thermodynamic cost as described by Landauer’s principle. CTGP therefore entails
 
-that the universe’s accessible causal archive is finite and dynamically evolving, without implying
+that the universe’s accessible causal archive is finite and continually changing, without implying
 
 that all past truths are stored or that failure of record formation carries a Landauer cost.
 
@@ -126,7 +122,7 @@ symmetries; an expanding universe, for example, conserves no global energy in ge
 
 generally is local conservation, ∇μTμν = 0, and that local lawful continuity is what CTGP requires.
 
-Matter distributions, field configurations, and organizational structures may evolve, or cease to
+Matter distributions, field configurations, and organizational structures may change, or cease to
 
 exist in their earlier form, while still participating in lawful transformations constrained by
 
@@ -146,7 +142,7 @@ conservation of energy, momentum, angular momentum, and other invariant quantiti
 
 persistence of earlier physical organizations; conserved quantities remain embedded within
 
-continuously evolving physical processes whose specific configurations change through time. CTGP
+continuously changing physical processes whose specific configurations change through time. CTGP
 
 therefore interprets conservation as evidence of lawful continuity across temporal and generative
 
@@ -232,27 +228,27 @@ sets Σ_τ = {τ = const}. The continuum generation parameter is σ = F(τ) for 
 
 function F; only the level sets are physical, and the choice of F is a labeling convention (Appendix
 
-A.3a).
+A.3.1).
 
 
 
 By a theorem of Andersson, Galloway, and Howard (Theorem 17.4), regular cosmological time is a
 
-continuous time function whose level sets are Cauchy surfaces; τ is locally Lipschitz, and every
+continuous time function whose level sets are future Cauchy surfaces; τ is locally Lipschitz, and
 
-event lies on a timelike geodesic from the initial singularity whose length equals τ(p). Wherever τ
+every event lies on a timelike geodesic from the initial singularity whose length equals τ(p).
 
-is differentiable, −∇^μτ is the future-directed unit tangent of that maximizing geodesic, so
+Wherever τ is differentiable, −∇^μτ is the future-directed unit tangent of that maximizing geodesic,
 
-g^{μν}∂_μτ∂_ντ = −1. Three consequences follow. In FLRW with a big-bang singularity, τ is cosmic
+so g^{μν}∂_μτ∂_ντ = −1. Three consequences follow. In FLRW with a big-bang singularity, τ is cosmic
 
 time t, and the generative present agrees with the cosmological foliation of §9.3. Where the family
 
 of maximizing geodesics develops caustics, as it does inside collapsed structure, τ loses
 
-differentiability: its level sets acquire corners but remain Cauchy surfaces, so the present stays
+differentiability: its level sets acquire corners but remain future Cauchy surfaces, so the present
 
-globally well defined through structure formation. At such points the level sets are achronal
+stays globally well defined through structure formation. At such points the level sets are achronal
 
 topological hypersurfaces rather than smooth spacelike ones; since τ is locally Lipschitz it is
 
@@ -266,70 +262,78 @@ description breaks down while the present defined by τ does not (§11.4).
 
 
 
-CTGP is formulated for globally hyperbolic spacetimes. This should be read as an entailment of the
+Future Cauchy, not necessarily Cauchy. The level sets of regular cosmological time are future Cauchy
 
-framework rather than as a restriction adopted for convenience: since generation is the successive
+surfaces (Andersson, Galloway, and Howard 1998, Corollary 2.6): writing S_a = {τ = a}, the future
 
-production of Cauchy hypersurfaces, a solution admitting no such foliation is not a spacetime that
+domain of dependence is D⁺(S_a) = {τ ≥ a}, so every past-inextendible causal curve from an event at
 
-lacks a present but a solution that could not be a generated history at all. CTGP therefore entails
+or after a level set meets that level set, and nothing outside it can influence what comes after it.
 
-that physically realized spacetime is globally hyperbolic, and classifies Cauchy-horizon and closed-
+The level sets need not be Cauchy surfaces in the full, two-sided sense. Because τ tends to zero
 
-timelike-curve solutions as unrealized idealizations. The entailment carries falsifiable content
+toward the past along every inextendible causal curve and increases strictly and continuously along
 
-through what it excludes: a confirmed observation of closed timelike curves, or of any phenomenon
+it, such a curve meets a level set exactly once if it reaches larger values of τ, and not at all
 
-requiring a Cauchy-horizon-crossing region to be physically realized, would refute the framework
+otherwise; a nonempty level set is therefore a Cauchy surface exactly when every future-inextendible
 
-(§9.4.2; §13). Eternalism, by contrast, permits spacetimes containing closed timelike curves and
+causal curve passes beyond it. A worldline that ends at a black-hole singularity typically has
 
-laws that allow them. The two views therefore do not make the same claim about global hyperbolicity,
+bounded τ, so in a universe containing black holes later level sets are not met by it and are future
 
-even though both are consistent with the observations to date: CTGP takes a risk that eternalism
+Cauchy surfaces without being Cauchy surfaces. This is the geometric condition that generation
 
-does not, which is the same asymmetry that underlies the generability constraint (§12.2).
+requires, and the geometry requires nothing more: a system whose worldline has ended at a
 
+singularity before a given stage is not among what exists at that stage, and every worldline that
 
+continues past a level set crosses it exactly once. The future Cauchy property is necessary for
 
-Locating the present without the future. Cosmological time is defined on a spacetime (M, g), and the
+generative sufficiency but does not by itself establish it. That the data on a level set actually
 
-theorem that its level sets are Cauchy surfaces concerns the whole manifold. It might therefore seem
+determine their successors, or fix the probabilities of their successors, is a further, dynamical
 
-that CTGP needs the completed block to say which surface is present. It does not. By definition,
+matter. It holds for general relativity and for relativistic field theories with well-posed
 
-τ(p) is the supremum of the lengths of past-directed causal curves from p, so its value at p depends
+initial-value formulations, given data of suitable regularity on smooth spacelike hypersurfaces (§7;
 
-only on the causal past J⁻(p); the regularity conditions are likewise past-directed. Whether an
+Proposition 17.2), and extending it to level sets with corners would require a generalized
 
-event lies on Σ_σ is therefore fixed by its past alone, and no future region enters. What makes the
+formulation not established here; for the fundamental laws, including any quantum-gravitational
 
-lengths of those past curves well defined, although the past does not exist, is what grounds every
+completion, it is the generability requirement of §12.2, which CTGP treats as a refutable commitment
 
-past truth (§5.2): τ is itself a past-tensed magnitude of the present, fixed by the present’s having
-
-been preceded by causal histories of those lengths. Global statements about the full manifold belong
-
-to the mathematical representation of the history as it would be generated; they show that the
-
-construction is well behaved, and they do not ground which slice is present.
+rather than as a consequence of the geometry.
 
 
 
-Clarification on process and representation. Neither Σ_σ nor the union M(σ) should be read as
+CTGP is formulated for globally hyperbolic spacetimes. This restriction follows from the framework's
 
-implying that reality consists of a sequence of discrete, ontologically fundamental temporal slices.
+stated postulates rather than being adopted for convenience, and it matters which postulates deliver
 
-Σ_σ is a mathematical representation of a physical reality in continuous temporal and generative
+it. Becoming alone excludes closed timelike curves, since no event can be among the conditions of
 
-progression, not a freestanding entity that reality simply “is.” The hypersurfaces function
+its own production. It does not by itself exclude every failure of global hyperbolicity. Anti-de
 
-analogously to the instantaneous configurations used in classical mechanics or field theory: useful
+Sitter spacetime contains no closed timelike curves, yet it is not globally hyperbolic, because data
 
-analytical cross-sections of a continuous process, not independently existing states stacked one
+must be supplied at its timelike boundary at every stage. Such spacetimes are excluded by CTGP's
 
-against the next. Correspondingly, M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathematical reconstruction of
+stronger requirement that each stage suffice for its successors, with no input from a boundary, a
 
-generated history and should not be interpreted as an ontological accumulation of independently
+naked singularity, or a region beyond a Cauchy horizon. Once the ordering is given by regular
 
-existing temporal slices; it represents a single, continuous causal-temporal process viewed through
+cosmological time (Postulate 3), global hyperbolicity follows as a theorem (Theorem 17.4). Given
+
+these postulates, CTGP entails that physically realized spacetime is globally hyperbolic, and
+
+classifies Cauchy-horizon and closed-timelike-curve solutions as unrealized idealizations; it does
+
+not claim that global hyperbolicity follows from the bare concept of becoming. The entailment
+
+carries falsifiable content through what it excludes: a confirmed observation of closed timelike
+
+curves, or of any phenomenon requiring a Cauchy-horizon-crossing region to be physically realized,
+
+would refute the framework (§9.4.2; §13). Eternalism, by contrast, permits spacetimes containing

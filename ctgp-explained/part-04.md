@@ -1,42 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 04 of 25 (1,787 words)
-
-distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
-
-the dispute.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-5. The Core Postulates of CTGP
-
-----------------------------------------------------------------------------------------------------
-
-
-
-5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 1 (Ontological Primacy of the Present): At any stage of cosmic evolution, only the current
-
-hypersurface of reality—the present state of the universe—possesses ontological existence as
-
-presently real. The present is not, however, an isolated instant: it exists as part of a continuous
-
-causal-temporal progression whereby each state lawfully emerges from immediately preceding states
+Part 04 of 25 (1,835 words)
 
 and in turn contributes to the emergence of subsequent states. Earlier states do not persist as
 
 independently existing regions of spacetime. Their physical consequences continue within later
 
-states through ongoing causal continuity, of which only a subset remains organized as information-
+states through ongoing causal continuity, of which only a subset remains organized as
 
-bearing records accessible in present physical systems.
+information-bearing records accessible in present physical systems.
 
 
 
@@ -52,9 +24,9 @@ whole but the whole of what exists. Two clarifications prevent the obvious misre
 
 P_{n−1} has ceased to exist as a state does not mean it left nothing behind: its causal consequences
 
-are incorporated into P_n, and a subset of them remain organised as records (Postulate 4, §14).
+are incorporated into P_n, and a subset of them remain organized as records (Postulate 4, §14).
 
-Ceasing to exist and becoming irrelevant are different things. Second, the future is unrealised
+Ceasing to exist and becoming irrelevant are different things. Second, the future is unrealized
 
 rather than hidden: P_{n+1} is not an existing region we are unable to observe but a set of
 
@@ -188,7 +160,15 @@ encoded or recoverable in the present state of the universe.
 
 Present encodings therefore function as partial physical persistence and evidential traces, not as
 
-the total grounding of all past truths.
+the total grounding of all past truths. Nor is the past only the past of things that still exist. An
+
+organism that has died, a star that has ceased to exist, or any system that has undergone its end
+
+also genuinely had a past. Within CTGP, the past is what actually occurred during earlier present
+
+stages of reality, regardless of whether the systems involved still exist; the currently existing
+
+universe has that past, without the earlier states themselves needing to coexist with it.
 
 
 
@@ -250,13 +230,17 @@ and CTGP denies that (Proposition 17.22). This cost also bears on the explanator
 
 of §3.4: the economy claimed there is unification of the arrows of time under one mechanism, not
 
-parsimony of ontology, and the primitive properties posited here count against the latter. CTGP
+parsimony of ontology, and the primitive properties posited here count against the latter. Because
 
-therefore does not eliminate past facts; it takes truths about what actually occurred to be grounded
+past-tensed properties are acquired through generation rather than consulted by it, the cost is
 
-in irreducible past-tensed properties of what presently exists. The ontology is leaner than
+confined to the account of past truths and does not reach the dynamics (§12.2). CTGP therefore does
 
-eternalism in what exists, not in what is fundamental.
+not eliminate past facts; it takes truths about what actually occurred to be grounded in irreducible
+
+past-tensed properties of what presently exists. The ontology is leaner than eternalism in what
+
+exists, not in what is fundamental.
 
 
 
@@ -335,3 +319,7 @@ CTGP distinguishes a state from what it is a state of. An earlier state, as the 
 ceases to exist, even when successive stages produce a qualitatively identical state; the system
 
 whose state it was persists for as long as its conditions of persistence are satisfied, that is,
+
+unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
+
+is, not by the cosmological foliation, which settles only which configurations are co-present and

@@ -1,6 +1,104 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 07 of 25 (1,786 words)
+Part 07 of 25 (1,835 words)
+
+
+
+In the emergent regime the continuum generation parameter is σ = F(τ) with F smooth and F′ > 0.
+
+Wherever τ is differentiable, ∇_μσ = F′(τ)∇_μτ, and σ satisfies the norm condition
+
+
+
+        ∇_μσ ∇^μσ = −f(σ),  f(σ) ≡ F′(F⁻¹(σ))² > 0.
+
+
+
+The canonical choice F = identity gives σ = τ and f = 1: σ is cosmological proper time, as Postulate
+
+3 states. Other choices relabel the stages without changing them. In FLRW, for example, σ(t) =
+
+∫ρ̄(t′) dt′ labels each stage by the cumulative mean energy density of the background; because ρ̄
+
+depends only on cosmic time, this is a relabeling, not a new physical structure.
+
+
+
+Alignment with matter. In cosmological spacetimes the maximizing geodesics that define τ are the
+
+comoving free-fall worldlines. In FLRW they coincide exactly with the matter congruence, whose four-
+
+velocity u^μ is the timelike eigenvector of T_{μν}, so that ∇_μσ ∝ u_μ. Beyond FLRW, alignment holds
+
+with the free-fall congruence of pressureless matter in single-stream regions at linear order. It is
+
+not claimed for pressure-supported components — the baryon–photon plasma and radiation do not follow
+
+the same geodesics — or within multistream regions of collapsed structure, where τ remains well
+
+defined but the matter flow is not single-valued.
+
+
+
+Admissibility of the generation law. The dependence of the generation rate on σ alone is not a
+
+convention. Laws in which the rate responds to local matter density — for instance f = ρ_c², with
+
+ρ_c := T_{μν}u^μu^ν the matter-frame energy density — are dynamically inconsistent with alignment
+
+and, in the presence of structure, with a timelike foliation (§11). A generation rate may vary with
+
+cosmic epoch through F, but not across space at fixed σ.
+
+
+
+6.4 Causality as a Fundamental Structural Principle
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+A common objection to present-edge ontologies is that quantum mechanics or a future theory of
+
+quantum gravity may ultimately require the abandonment of causality. CTGP regards this conclusion as
+
+interpretive rather than established.
+
+
+
+Within CTGP, causality is a structural feature of the generated domain M(σ). Every event contained
+
+within the present possesses a causal past that is likewise contained within M(σ). This follows from
+
+the causal structure of globally hyperbolic spacetimes (Theorem 17.1) and does not depend on whether
+
+the underlying microphysics is deterministic or indeterministic.
+
+
+
+Current quantum theory does not require the conclusion that causal ordering is absent. Bell
+
+experiments constrain local hidden-variable theories but do not uniquely determine the metaphysical
+
+status of causality. Multiple interpretations of quantum mechanics remain compatible with
+
+relativistic causal structure and with all presently available observations.
+
+
+
+CTGP is therefore fully compatible with standard relativistic quantum field theory in its
+
+experimentally tested domain. At the quantum-gravity level, approaches that treat causal order as
+
+primitive, such as causal set theory, are natural companions (§15.2); CTGP’s smooth σ-field may be
+
+read as the continuum description of a deeper causal ordering whose directionality is preserved even
+
+where continuum spacetime ceases to apply.
+
+
+
+CTGP also distinguishes between causal continuity and deterministic predictability. A process may be
 
 fundamentally stochastic while still occurring within a lawful causal framework. The absence of a
 
@@ -70,33 +168,35 @@ CTGP’s primitive ordering would require generalization.
 
 
 
-Wherever τ is differentiable, g^{μν}∂_μτ∂_ντ = −1, so ∇_μσ = F′(τ)∇_μτ is everywhere timelike. This
+Wherever τ is differentiable, g^{μν}∂_μτ∂_ντ = −1, so ∇_μσ = F′(τ)∇_μτ is timelike there. This is
 
-is not an additional assumption: it follows from the definition of cosmological time as maximal
+not an additional assumption: it follows from the definition of cosmological time as maximal elapsed
 
-elapsed proper time. Because a timelike gradient defines a local causal orientation — a preferred
+proper time. Because a timelike gradient defines a local causal orientation — a preferred arrow at
 
-arrow at each point consistent with the light-cone structure — the generation parameter behaves as a
+each point consistent with the light-cone structure — the generation parameter behaves as a cosmic
 
-cosmic time field fixed by the spacetime’s own causal and metric structure rather than by any
+time field fixed by the spacetime’s own causal and metric structure rather than by any externally
 
-externally imposed coordinate.
+imposed coordinate.
 
 
 
 Two consequences follow. First, spacetime generation has a locally defined forward direction: the
 
-timelike gradient of σ selects, at every event, which causal direction corresponds to ontological
+timelike gradient of σ selects, at every event where τ is differentiable, which causal direction
 
-growth, in a fully covariant manner consistent with the causal structure of general relativity.
+corresponds to ontological growth, in a fully covariant manner consistent with the causal structure
 
-Second, for the canonical choice σ = τ, generation advances at unit rate in the proper time of the
+of general relativity. Second, for the canonical choice σ = τ, generation advances at unit rate in
 
-generation flow everywhere on each stage; any variation of the rate is a function of cosmic epoch
+the proper time of the generation flow everywhere on each stage; any variation of the rate is a
 
-only. The generation rate is therefore not sourced by local matter density, and §11 shows that a
+function of cosmic epoch only. The generation rate is therefore not sourced by local matter density,
 
-density-sourced rate cannot be made consistent with a timelike, matter-aligned foliation.
+and §11 shows that a density-sourced rate cannot be made consistent with a timelike, matter-aligned
+
+foliation.
 
 
 
@@ -148,15 +248,39 @@ congruence theory. The generation flow vector is not an independently postulated
 
 determined by the spacetime generation field σ and therefore by the causal and metric structure of
 
-the spacetime. Because ∇_μσ ∝ ∇_μτ and the normalized flow has vanishing acceleration, the
+the spacetime. Because ∇_μσ ∝ ∇_μτ and the normalized flow has vanishing acceleration wherever τ is
 
-generation flow lines are timelike geodesics (Proposition 11.1). It introduces no new degrees of
+differentiable, the generation flow lines are timelike geodesics there (Proposition 11.1). It
 
-freedom beyond those already present in the CTGP variational structure.
+introduces no new degrees of freedom beyond those already present in the CTGP variational structure.
 
 
 
-6.6.1 Evolution of the Generative Field
+Domain of validity. Because τ is locally Lipschitz, its gradient exists almost everywhere and is
+
+locally bounded (Rademacher's theorem), so n^μ is a bounded vector field defined almost everywhere.
+
+It is smooth wherever the maximizing geodesics of cosmological time form a single-valued congruence;
+
+the set where τ fails to be differentiable has measure zero and includes the events where those
+
+geodesics cross, which is where the level sets acquire corners (§6.1; §11.4). Statements about n^μ,
+
+the unit normal, and the lapse are accordingly almost-everywhere statements. The level sets
+
+themselves, and with them co-presence, are defined everywhere, corners included. The flow lines also
+
+remain defined everywhere: every event lies on at least one maximizing geodesic from the initial
+
+singularity (Theorem 17.4), although at a corner more than one may pass through the same event.
+
+Where a smooth foliation is needed, as in the ADM formalism, the dynamics are computed in one
+
+without changing which events are co-present (§8).
+
+
+
+6.6.1 Propagation of the Generative Field
 
 
 
@@ -200,17 +324,19 @@ the admissible temporal foliation for which the induced data satisfy the ADM con
 
 succession is generated by the Einstein–matter evolution equations without appeal to future boundary
 
-conditions. In this sense, σ labels not merely a monotone scalar ordering but a constraint-
+conditions. In this sense, σ labels not merely a monotone scalar ordering but a
 
-preserving family of generated presents. The parameter is not introduced as a freely chosen cosmic
+constraint-preserving family of generated presents. The parameter is not introduced as a freely
 
-clock and only afterward tied to matter; rather, it indexes the sequence of hypersurfaces on which
+chosen cosmic clock and only afterward tied to matter; rather, it indexes the sequence of
 
-the relativistic initial-value problem is well posed. Cosmological time then selects one member of
+hypersurfaces on which the relativistic initial-value problem is well posed. Cosmological time then
 
-this class without further choice. Because its level sets are Cauchy surfaces of a solution of the
+selects one member of this class without further choice. Because its level sets are hypersurfaces in
 
-Einstein–matter equations, their induced data satisfy the constraints automatically.
+a solution of the Einstein–matter equations, their induced data satisfy the constraints
+
+automatically.
 
 
 
@@ -219,107 +345,3 @@ This three-stage structure — causal ordering, Cauchy foliation, and constraint
 — grounds σ at three independent levels. The three most common objections are thereby answered: (i)
 
 “σ is arbitrary” fails because σ’s existence is guaranteed by GR causal theorems, and cosmological
-
-time fixes it uniquely up to relabeling; (ii) “why not any scalar” fails because most scalars are
-
-not monotone on all future-directed causal curves and do not define Cauchy foliations; (iii) “growth
-
-is gauge” fails because the underlying ordering derives from the causal structure of spacetime
-
-itself, not from a choice of coordinates.
-
-
-
-6.8 Ontological vs. Dynamical Status of σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A potential source of confusion about CTGP’s theoretical commitments concerns the status of σ: is it
-
-a new dynamical field, a derived scalar, and does it carry independent energy? This subsection
-
-addresses these questions explicitly.
-
-
-
-Under the pre-geometric interpretation developed in §10.3, σ plays three distinct roles that should
-
-be explicitly distinguished: (1) as a generation parameter, it labels the sequence of causal stages
-
-that constitute the generated history M(σ), a formal representation rather than an accumulating
-
-region; (2) as an ordering structure, it induces the causal ordering whose continuum limit admits
-
-foliation by generated hypersurfaces; and (3) as a minimal lawful substrate, the primitive
-
-generative ordering represented by σ constitutes the minimal lawful structure required for the
-
-succession of physical states. In the emergent geometric regime, this primitive ordering admits
-
-representation as the σ field, but the field representation is not fundamental.
-
-
-
-This three-role structure elevates σ beyond a bookkeeping parameter. The deepest ontological
-
-commitment of CTGP is not that a fundamental scalar field generates reality, but that primitive
-
-generative ordering and its associated causal relations constitute the minimal lawful structure
-
-required for the succession of physical states and for the emergence of effective physical laws.
-
-
-
-At the level of continuum dynamics, σ is fixed by the geometry: cosmological time is a functional of
-
-the metric, so σ carries no initial data of its own. The action of §9.1 encodes σ through a Lagrange
-
-multiplier λ enforcing the norm condition ∇_μσ ∇^μσ = −f(σ). The multiplier sector is not inert in
-
-general: as in mimetic gravity, λ contributes a pressureless, dust-like stress-energy whose
-
-amplitude is set by initial data (§6.9). With λ = 0 on an initial surface, it vanishes identically
-
-and the Einstein equations are unmodified. This is the configuration CTGP adopts, because the Layer
-
-2 present is defined by cosmological time without reference to λ.
-
-
-
-This status is precisely analogous to several well-understood scalars in GR and thermodynamics.
-
-Proper time τ along a worldline is a derived scalar fixed by the metric and the worldline’s tangent
-
-vector; it introduces no new degrees of freedom and is entirely determined by the existing dynamical
-
-content of GR. Entropy production scalars in relativistic thermodynamics are similarly secondary:
-
-they are constructed from the stress-energy tensor and thermodynamic state variables, track the
-
-causal direction of physical processes, and do not add new fields to the theory. York time in
-
-canonical gravity — the trace of the extrinsic curvature K, used as an intrinsic time variable in
-
-certain foliations — provides perhaps the closest structural analog: it is extracted from the
-
-existing ADM variables, increases monotonically in expanding cosmologies, and defines a foliation
-
-without being an independent physical degree of freedom. σ plays an exactly analogous role: it is a
-
-physically calibrated member of the class of Cauchy time functions that every globally hyperbolic
-
-spacetime possesses, selected by maximal elapsed proper time rather than stipulated as an
-
-independent field, and smooth wherever τ is differentiable.
-
-
-
-The concern that σ “secretly introduces a new field that modifies GR” therefore misreads the
-
-formalism. A new field modifies GR by adding independent degrees of freedom whose dynamics can
-
-diverge from those of the Einstein–matter system; scalar–tensor theories (Brans–Dicke), f(R)
-
-gravity, and quintessence models all do this. σ does not: it is fixed by the metric through

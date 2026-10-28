@@ -1,6 +1,142 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 25 (1,788 words)
+Part 13 of 25 (1,834 words)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The continuum formalism of Part II is an effective description, and a small set of interpretive
+
+principles governs how its language is to be read across the pre-geometric and emergent regimes.
+
+They are collected here so that each can be cited by name. Together they fix the framework’s
+
+ontological commitments: the metric is emergent, general relativity is effective, and σ is
+
+fundamentally a pre-geometric ordering parameter.
+
+
+
+Primitive Status of σ Principle. At the deepest ontological level, σ is not a scalar field defined
+
+on spacetime. It is a pre-geometric generative ordering parameter that labels lawful stages of
+
+reality’s production. Before classical geometry exists, there is no manifold, no metric, and no
+
+scalar field in the standard sense; therefore σ cannot fundamentally be a spacetime scalar. The
+
+scalar-field representation of σ arises only in the emergent continuum limit once classical geometry
+
+becomes applicable. Passages in this paper that describe σ as “a scalar field,” “a spacetime field,”
+
+“a function of cosmological time,” or “a physically measurable scalar” are to be read as applying
+
+exclusively within the emergent geometric regime. At the fundamental level, the correct
+
+characterization is: σ is a primitive generative ordering parameter whose emergent geometric regime
+
+representation is a smooth scalar field.
+
+
+
+Two-Regime Representation Principle. The pre-geometric and emergent-geometric descriptions of σ must
+
+never be conflated. The following table defines the regime-appropriate interpretation for every
+
+context in which σ is invoked:
+
+
+
+Regime             | Interpretation of σ
+
+-------------------+-------------------------------------------------------------------------
+
+Pre-geometric      | Generative ordering parameter (no manifold assumed)
+
+Emergent geometry  | Cosmological time τ and its monotone relabelings σ = F(τ)
+
+Cosmological limit | Cosmic proper time t of FLRW
+
+Operational        | Locatable by any observer through the CMB temperature and dipole (§12.4)
+
+
+
+Dual Interpretation of Σ_σ. Because hypersurfaces require pre-existing geometry, the present
+
+boundary Σ_σ admits two regime-dependent definitions. In the pre-geometric regime, Σ_σ is defined as
+
+the set of events sharing equal generation stage in the causal ordering induced by σ — a “generation
+
+stage” rather than a hypersurface. In the emergent geometric regime, after classical geometry has
+
+become available, Σ_σ admits representation as the smooth spacelike hypersurface corresponding to
+
+the continuum representation of that generation stage. References to “the present hypersurface Σ_σ”
+
+in this paper apply in the emergent geometric regime. Three items should be kept apart. Σ_σ is a
+
+region: an achronal three-dimensional hypersurface, spacelike wherever τ is differentiable, that
+
+cuts across every system at once, not the region occupied by any particular one. The state at a
+
+generation stage is a mathematical object: the Cauchy data on Σ_σ (the induced metric, the extrinsic
+
+curvature, and the matter fields with their conjugate data, subject to the constraints), a point in
+
+the constrained phase space of the Einstein–matter system. What exists is the physical configuration
+
+of fields and matter that this state describes. In pre-geometric contexts, the phrase should be read
+
+as “the present generation stage Σ_σ.”
+
+
+
+Generative Stages Language Principle. Throughout this paper, the phrase “successive hypersurfaces
+
+are generated” is to be interpreted as shorthand for “the present boundary advances continuously
+
+along the generation flow vector n^μ; foliation into spacelike hypersurfaces Σ_σ is a mathematical
+
+representation of this continuous flow, available only in the emergent geometric regime.” The
+
+fundamental process is the continuous propagation of generative flow; the hypersurface description
+
+is a representation that becomes available after geometry emerges. This reading applies globally and
+
+does not require case-by-case annotation at each occurrence.
+
+
+
+Layered Causality Principle. CTGP operates with two distinct layers of causality that must not be
+
+conflated. Fundamental causality consists of σ-ordering and causal relations: the primitive
+
+directional structure from which reality’s generative sequence is constituted. Classical causality
+
+consists of light cones and relativistic propagation: an effective representation that becomes valid
+
+only after spacetime geometry has emerged. Classical causal structure therefore emerges from deeper
+
+generative ordering encoded by σ and its induced causal relations. References to “causality” in
+
+discussions of the pre-geometric regime concern the fundamental layer; references to “causal
+
+structure” in the context of GR, FLRW cosmology, or observational predictions concern the classical
+
+layer.
+
+
+
+Effective-Regime Restriction Principle. All reconstruction theorems (HKM, Malament), temporal-
+
+function theorems (Geroch), Cauchy-foliation results (Bernal–Sánchez), and ADM formulations
+
+discussed in CTGP apply only within the emergent geometric regime where classical spacetime is a
+
+valid continuum approximation (ρ ≪ ρ_P). None of these constructions are claimed to be fundamental.
+
+Their role within CTGP is to establish that, once geometry has emerged, a well-defined foliation
 
 structure is guaranteed by causal geometry alone — not to assert that geometry is prior to
 
@@ -213,133 +349,3 @@ acceleration
 
 
         a_μ = n^ν∇_ν n_μ = −D_μ ln √f,
-
-
-
-where D_μ = (δ_μ^ν + n_μ n^ν)∂_ν is the derivative projected orthogonally to n.
-
-
-
-Proof. Using the symmetry of ∇_μ∂_νσ and n^μ n_μ = −1, one finds n^μ∇_ν∂_μσ = ∂_ν√f, and hence
-
-n^μ∇_μ n_ν = −∂_ν ln√f − n_ν n^μ∂_μ ln√f = −D_ν ln√f. □
-
-
-
-Two cases follow. If f = f(σ), then D_μf = f′D_μσ = 0, so a_μ = 0: the generation flow is geodesic.
-
-If f carries spatial matter dependence — for example f = ρ_c²/ρ_*² — then a_μ = −D_μ ln ρ_c, and the
-
-flow is pushed down density gradients. In Newtonian terms (c = 1) the generation flow experiences
-
-the effective potential
-
-
-
-        Φ_{eff} = Φ + ln(ρ_c/ρ̄).
-
-
-
-On sub-horizon scales density contrasts exceed metric potentials by a factor of order (k/aH)², and
-
-inside a galaxy ln ρ_c varies by order ten while Φ ∼ 10⁻⁶. A density-weighted generation flow
-
-therefore responds to matter density far more strongly than to gravity.
-
-
-
-11.2 Relative Tilt Between the Generation Flow and Matter
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Linearize about FLRW in longitudinal gauge, with pressureless matter and λ = 0. Write the covariant
-
-velocities of the two flows as u_i = ∂_{iV}, so that V_σ = −δσ/σ̄̇ for the generation flow, while
-
-matter obeys V̇_m = −Φ. The linearized norm condition gives δσ̇ = Φσ̄̇ + δf/(2σ̄̇).
-
-
-
-Proposition 11.2 (Relative tilt). The relative tilt T ≡ V_σ − V_m is gauge-invariant and obeys
-
-
-
-        Ṫ = −(ḟ/2f̄) T − Δ_f,  Δ_f ≡ δf/(2f̄) + (ḟ/2f̄) V_m,
-
-
-
-with the metric potential Φ cancelling identically. For f = f(σ), Δ_f = −(ḟ/2f̄)T and Ṫ = 0, so the
-
-physical relative velocity v = kT/a decays as 1/a. For f = ρ_c²/ρ_*² in the matter era, the equation
-
-becomes Ṫ − 3HT = −Δ_c, where Δ_c is the comoving density contrast, with solution
-
-
-
-        T = C a³ + 2Δ_c/H,  v = C k a² + 2 (k/aH) Δ_c.
-
-
-
-Two conclusions follow for density weighting. A primordial tilt grows as a² during matter domination
-
-and a³ during radiation domination, a growth factor of order 10²⁶ from nucleosynthesis to the
-
-present alone and vastly larger from the end of inflation; an intrinsic tilt is therefore either
-
-fine-tuned to at least one part in 10²⁶ initially or has already driven the foliation toward null.
-
-And structure sources a tilt that exceeds matter peculiar velocities by a factor of order (k/aH)²,
-
-so that alignment of the generation flow with matter survives only on scales comparable to or larger
-
-than the horizon.
-
-
-
-Corollary 11.3 (Light-crossing bound). Suppose σ advances along matter worldlines at a rate set by
-
-local density, σ = ∫ρ_c dτ, in a quasi-static structure with density scale length L = ρ_c/|∇ρ_c|.
-
-Then σ ≈ ρ_c(x)t, and its level sets are spacelike only for t < L (c = 1). For a galaxy with L ≈ 10
-
-kpc and an age of 10¹⁰ yr this condition is violated by a factor of about 3 × 10⁵. If the exact norm
-
-condition is imposed instead, the generation flow is repelled from density peaks within a light-
-
-crossing time and forms caustics. □
-
-
-
-11.3 Soft Completions
-
-~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Adding a conventional kinetic term to the exact action changes nothing: a term proportional to
-
-∇_μσ∇^μσ appears in the Lagrangian only in combination with the multiplier term and is absorbed by a
-
-constant shift of λ, at the cost of a term proportional to f. Genuine propagation of σ therefore
-
-requires a Lagrangian nonlinear in X ≡ −½∇_μσ∇^μσ. The natural completion replaces the exact
-
-constraint by a stable-sign preferred norm,
-
-
-
-        S_σ = ∫ √(−g) P(X, T) d⁴x,  P = P₀(X) + (κ/2)[X − X⋆(ρ)]²,  κ > 0,
-
-
-
-with X⋆ increasing in ρ. The standard k-essence conditions (Garriga and Mukhanov 1999) apply: the
-
-sound speed is c_s² = P_X/(P_X + 2XP_{XX}), absence of ghosts requires P_X + 2XP_{XX} > 0, and
-
-absence of gradient instability requires P_X > 0. The penalty must carry the stable sign shown; the
-
-opposite sign makes P_{XX} negative near the preferred norm and produces a ghost. Because P does not
-
-depend on σ, the field equation is the conserved-current equation ∇_μ(P_X∇^μσ) = 0 with no source

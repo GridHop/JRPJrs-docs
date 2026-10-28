@@ -1,6 +1,110 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 08 of 25 (1,791 words)
+Part 08 of 25 (1,819 words)
+
+time fixes it uniquely up to relabeling; (ii) “why not any scalar” fails because most scalars are
+
+not monotone on all future-directed causal curves and do not define Cauchy foliations; (iii) “growth
+
+is gauge” fails because the underlying ordering derives from the causal structure of spacetime
+
+itself, not from a choice of coordinates.
+
+
+
+6.8 Ontological vs. Dynamical Status of σ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+A potential source of confusion about CTGP’s theoretical commitments concerns the status of σ: is it
+
+a new dynamical field, a derived scalar, and does it carry independent energy? This subsection
+
+addresses these questions explicitly.
+
+
+
+Under the pre-geometric interpretation developed in §10.3, σ plays three distinct roles that should
+
+be explicitly distinguished: (1) as a generation parameter, it labels the sequence of causal stages
+
+that constitute the generated history M(σ), a formal representation rather than an accumulating
+
+region; (2) as an ordering structure, it induces the causal ordering whose continuum limit admits
+
+foliation by generated hypersurfaces; and (3) as a minimal lawful substrate, the primitive
+
+generative ordering represented by σ constitutes the minimal lawful structure required for the
+
+succession of physical states. In the emergent geometric regime, this primitive ordering admits
+
+representation as the σ field, but the field representation is not fundamental.
+
+
+
+This three-role structure elevates σ beyond a bookkeeping parameter. The deepest ontological
+
+commitment of CTGP is not that a fundamental scalar field generates reality, but that primitive
+
+generative ordering and its associated causal relations constitute the minimal lawful structure
+
+required for the succession of physical states and for the emergence of effective physical laws.
+
+
+
+At the level of continuum dynamics, σ is fixed by the geometry: cosmological time is a functional of
+
+the metric, so σ carries no initial data of its own. The action of §9.1 encodes σ through a Lagrange
+
+multiplier λ enforcing the norm condition ∇_μσ ∇^μσ = −f(σ). The multiplier sector is not inert in
+
+general: as in mimetic gravity, λ contributes a pressureless, dust-like stress-energy whose
+
+amplitude is set by initial data (§6.9). With λ = 0 on an initial surface, it vanishes identically
+
+and the Einstein equations are unmodified. This is the configuration CTGP adopts, because the Layer
+
+2 present is defined by cosmological time without reference to λ.
+
+
+
+This status is precisely analogous to several well-understood scalars in GR and thermodynamics.
+
+Proper time τ along a worldline is a derived scalar fixed by the metric and the worldline’s tangent
+
+vector; it introduces no new degrees of freedom and is entirely determined by the existing dynamical
+
+content of GR. Entropy production scalars in relativistic thermodynamics are similarly secondary:
+
+they are constructed from the stress-energy tensor and thermodynamic state variables, track the
+
+causal direction of physical processes, and do not add new fields to the theory. York time in
+
+canonical gravity — the trace of the extrinsic curvature K, used as an intrinsic time variable in
+
+certain foliations — provides perhaps the closest structural analog: it is extracted from the
+
+existing ADM variables, increases monotonically in expanding cosmologies, and defines a foliation
+
+without being an independent physical degree of freedom. σ plays an exactly analogous role: it is a
+
+physically calibrated member of the class of time functions that every globally hyperbolic spacetime
+
+possesses, selected by maximal elapsed proper time rather than stipulated as an independent field,
+
+and smooth wherever τ is differentiable.
+
+
+
+The concern that σ “secretly introduces a new field that modifies GR” therefore misreads the
+
+formalism. A new field modifies GR by adding independent degrees of freedom whose dynamics can
+
+diverge from those of the Einstein–matter system; scalar–tensor theories (Brans–Dicke), f(R)
+
+gravity, and quintessence models all do this. σ does not: it is fixed by the metric through
 
 cosmological time, and with λ = 0 the constraint sector carries no stress-energy. CTGP’s ontological
 
@@ -32,17 +136,19 @@ field equations G_{μν} = 8πG T_{μν} are unchanged (§9.1), and the generati
 
 at the level of the ontological realization of spacetime events rather than modifying the local
 
-gravitational field equations. In this sense CTGP extends the interpretation of spacetime evolution
+gravitational field equations. In this sense CTGP extends the interpretation of the temporal
 
-without altering the empirically verified structure of General Relativity. Within the emergent
+progression of spacetime without altering the empirically verified structure of General Relativity.
 
-geometric regime, σ is represented by cosmological time, a geometric scalar, and therefore
+Within the emergent geometric regime, σ is represented by cosmological time, a geometric scalar, and
 
-transforms covariantly under diffeomorphisms. Fundamentally, however, σ is interpreted as a pre-
+therefore transforms covariantly under diffeomorphisms. Fundamentally, however, σ is interpreted as
 
-geometric generative ordering parameter rather than as a scalar field defined on a pre-existing
+a pre-geometric generative ordering parameter rather than as a scalar field defined on a
 
-manifold. This covariance is guaranteed by construction and does not require additional assumptions.
+pre-existing manifold. This covariance is guaranteed by construction and does not require additional
+
+assumptions.
 
 
 
@@ -118,21 +224,21 @@ Theorem (Uniqueness of the Cosmological-Time Foliation). Let (M, g) be a spaceti
 
 cosmological time τ. Then the foliation by the level sets of τ is uniquely determined: its leaves
 
-are the level sets of τ, which are Cauchy surfaces (Theorem 17.4), and every admissible generation
+are the level sets of τ, which are future Cauchy surfaces (Theorem 17.4), and every admissible
 
-parameter has the form σ = F(τ) with F strictly increasing. No choice of coordinates, observers, or
+generation parameter has the form σ = F(τ) with F strictly increasing. No choice of coordinates,
 
-matter calibration enters, because τ is defined from the causal and metric structure alone and is
+observers, or matter calibration enters, because τ is defined from the causal and metric structure
 
-preserved by isometries (Proposition 17.8).
+alone and is preserved by isometries (Proposition 17.8).
 
 
 
-The “arbitrary scalar” objection therefore does not apply. Of the many Cauchy time functions whose
+The “arbitrary scalar” objection therefore does not apply. Of the many time functions that a
 
-existence the Bernal–Sánchez theorems guarantee, the generative present is the unique one defined by
+globally hyperbolic spacetime admits, the generative present is the unique one defined by maximal
 
-maximal elapsed proper time, up to relabeling of its values. The logical chain is: causal geometry →
+elapsed proper time, up to relabeling of its values. The logical chain is: causal geometry →
 
 cosmological time → a distinguished foliation → CTGP’s interpretation of that foliation as
 
@@ -204,9 +310,9 @@ they follow from S being a Cauchy surface, since every past-inextendible causal 
 
 side reaches S and the region between S and any event is compact. The argument of Andersson,
 
-Galloway, and Howard therefore carries over on each side, and the level sets of τ_S are Cauchy
+Galloway, and Howard therefore carries over on each side, and the level sets of τ_S are future
 
-surfaces (Proposition 17.23).
+(respectively past) Cauchy surfaces (Proposition 17.23).
 
 
 
@@ -219,121 +325,3 @@ curvature, is unique, and is a Cauchy surface. Taking S to be this surface, τ_S
 measured from the bounce, and the generative present is well defined through the bounce with no
 
 averaging prescription. The stages before the bounce are simply earlier stages, generated and ceased
-
-like any past stage. Such a universe has no first stage; CTGP’s ontology and its tense semantics
-
-(Definition 17.20) do not require the sequence of past stages to be finite.
-
-
-
-Scope. Three limits fix the scope of the extension. First, S is an input rather than an output: the
-
-construction presupposes a distinguished Cauchy surface instead of deriving one from the causal
-
-structure alone, as cosmological time does in the big-bang case. Second, in a non-uniform bounce the
-
-regions of zero mean curvature need not join into a single surface, and whether a unique maximal
-
-Cauchy surface exists is open; the existence and uniqueness theorems for such surfaces assume
-
-conditions — compact Cauchy surfaces, symmetries, or energy conditions — that a bounce typically
-
-violates. Third, a cyclic universe has many surfaces of zero mean curvature, and an emergent
-
-universe with an Einstein-static past has zero mean curvature on every slice, so neither supplies a
-
-distinguished S. These cases remain outside the present continuum representative. As before, the
-
-limitation concerns the representative, not the ontology: replacing τ by τ_S where S exists is a
-
-change of representative, not of the Layer 2 claim.
-
-
-
-6.11 Admissible Generation Laws
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The kinematic structure of CTGP — a Cauchy foliation by the level sets of cosmological time, aligned
-
-with matter in cosmology — rests on established results: the causal-structure theorems of Appendix
-
-B, the cosmological time function, and the observed CMB rest frame. The generation law is the one
-
-element that could in principle carry new physics: the function f that fixes how fast σ advances.
-
-
-
-This freedom is narrower than it appears. Any generation law in which f carries spatial matter
-
-dependence gives the generation flow an acceleration away from free fall, a_μ = −D_μ ln √f
-
-(Proposition 11.1). That acceleration destroys alignment with matter and, in the presence of
-
-structure, the timelike character of the foliation; stable soft completions fare no better (§11.3).
-
-Within the local, stable classes analyzed in §11, the viable generation laws are those of the form f
-
-= f(σ), equivalent to a relabeling of cosmological time: the generation rate may vary with cosmic
-
-epoch but not across space. The choice of generation law is therefore not confined to Layer 3: it is
-
-constrained by the Layer 2 requirement that the present be a well-defined Cauchy surface aligned
-
-with matter.
-
-
-
-6.12 Succession of Hypersurfaces
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The ontological dynamic is expressed by the succession relation. In the emergent geometric regime,
-
-this takes the form of successive spacelike hypersurfaces; in the pre-geometric regime, it should be
-
-understood as successive generative stages of the causal ordering:
-
-
-
-        Σ_σ → Σ_{σ+Δσ}
-
-
-
-Each transition is governed by GR's evolution equations applied to data on Σ_σ without reference to
-
-any data at σ′ > σ. This succession produces the 'lived flow' of time as a real unfolding, not a
-
-representational one.
-
-
-
-[FIGURE: Figure 3]
-
-    Figure 3. Hypersurface generation: successive level sets Σ_σ → Σ_{σ+Δσ} produced by lawful
-
-  evolution of data on the present edge. The lapse of the cosmological foliation is constant on each
-
-  level set, so equal steps in σ correspond to equal proper time along the maximizing geodesics;
-
-  systems moving relative to them, including clocks at rest in gravitational wells, accumulate less.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-7. General Relativity as Initial-Value Generation
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Einstein's equations can be written as a well-posed initial-value problem (under standard
-
-conditions). Given Cauchy data on Σ_σ, the evolution equations determine a unique development — up
-
-to diffeomorphism — in a neighborhood of Σ_σ, without specifying future boundary data. CTGP

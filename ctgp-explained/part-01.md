@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 25 (1,788 words)
+Part 01 of 25 (1,828 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -54,21 +54,23 @@ background. In the emergent geometric regime, CTGP identifies the generative pre
 
 sets of the cosmological time function: the maximal proper time elapsed since the initial
 
-singularity. By a theorem of Andersson, Galloway, and Howard, these level sets are Cauchy surfaces
+singularity. By a theorem of Andersson, Galloway, and Howard, these level sets are future Cauchy
 
-whenever cosmological time is regular, so the present remains globally well defined even where the
+surfaces whenever cosmological time is regular, so the present remains globally well defined even
 
-flow of matter develops caustics inside collapsed structure. The framework therefore applies insofar
+where the flow of matter develops caustics inside collapsed structure. The framework therefore
 
-as the actual universe is globally hyperbolic with regular cosmological time. Identifying these
+applies insofar as the actual universe is globally hyperbolic with regular cosmological time.
 
-level sets with the present is an interpretive posit rather than a theorem, and the present can be
+Identifying these level sets with the present is an interpretive posit rather than a theorem, and
 
-located from its past alone, without reference to the future. The continuum generation parameter σ
+the present can be located from its past alone, without reference to the future. The continuum
 
-is a monotone relabeling of cosmological time, which introduces no new field and can optionally be
+generation parameter σ is a monotone relabeling of cosmological time, which introduces no new field
 
-expressed through a constrained action that leaves the Einstein equations unchanged.
+and can optionally be expressed through a constrained action that leaves the Einstein equations
+
+unchanged.
 
 
 
@@ -318,21 +320,21 @@ level of local dynamics. A note on CTGP’s fundamental ontological character: C
 
 continuous framework. Its core mathematical structures — the timelike gradient ∇_μσ, the generation
 
-flow vector n^μ, smooth scalar-field representations, continuous propagation equations, a Cauchy
+flow vector n^μ, smooth scalar-field representations, continuous propagation equations, a foliation
 
-foliation that is smooth wherever cosmological time is differentiable, and ADM evolution — are all
+by future Cauchy surfaces that is smooth wherever cosmological time is differentiable, and ADM
 
-continuously defined. Continuity here refers to the generative ordering, not to the smoothness of
+evolution — are all continuously defined. Continuity here refers to the generative ordering, not to
 
-every hypersurface: inside collapsed structure, the level sets of cosmological time can acquire
+the smoothness of every hypersurface: inside collapsed structure, the level sets of cosmological
 
-corners while remaining Cauchy surfaces (§6.1). Causal-set models and other discrete approaches to
+time can acquire corners while remaining future Cauchy surfaces (§6.1). Causal-set models and other
 
-quantum gravity are compatible with CTGP as possible discrete realizations of its generative-
+discrete approaches to quantum gravity are compatible with CTGP as possible discrete realizations of
 
-ordering principles, but they are not its ontological foundation. CTGP’s fundamental picture is a
+its generative-ordering principles, but they are not its ontological foundation. CTGP’s fundamental
 
-continuously advancing generative flow, not a sequence of discrete frames.
+picture is a continuously advancing generative flow, not a sequence of discrete frames.
 
 
 
@@ -347,3 +349,13 @@ CTGP is a thesis about what exists: the present, not the past or the future. Two
 same physics that differ only in this respect make identical predictions for every measurement
 
 (§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
+
+past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
+
+the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
+
+which the paper tests (§11).
+
+
+
+----------------------------------------------------------------------------------------------------

@@ -1,12 +1,208 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 19 of 25 (1,785 words)
+Part 19 of 25 (1,834 words)
 
-holds with the free fall of pressureless matter in single-stream regions at linear order. (3)
+cosmological rest frame; (b) the grounding of the generation parameter in standard cosmic time, with
 
-Monotonicity: σ is strictly increasing along every future-directed causal curve, independently of
+an explicit account of its admissible relabelings; (c) the account of cosmological observables as
 
-energy conditions.
+causal records embedded in successive present states, with decoherence as the mechanism of record
+
+formation; (d) the explicit treatment of qualia as intrinsic to physically instantiated processes at
+
+Σ_σ; (e) a consistency analysis establishing which generation laws are dynamically admissible,
+
+together with a precise statement of the ontology’s empirical standing — observationally equivalent
+
+to eternalism for fixed physics, yet exposed through the requirement that physical law be generable
+
+from the present; and (f) the structural preservation of causality rather than its abandonment. CTGP
+
+rejects the claim that quantum gravity necessarily violates causality. Instead, it treats causality
+
+as a structural feature of the generated domain M(σ), compatible with standard relativistic quantum
+
+field theory at tested scales and with causal set theory as an especially natural quantum-gravity
+
+companion framework. The future remains ontologically ungenerated rather than merely epistemically
+
+inaccessible, and no retrocausal influences are required or predicted by the framework.
+
+
+
+Two results of the paper deserve emphasis because they are negative. First, the rate of generation
+
+cannot be tied to local matter density: such laws break the alignment of the present with matter
+
+within a light-crossing time of any structure, and their stable completions suppress every
+
+cosmological signature below observability. Second, no measurement can distinguish presentism from
+
+eternalism when the physics is held fixed. Neither result weakens the ontology; both clarify where
+
+it stands.
+
+
+
+The costs of the view are explicit. It gives ontological significance to a foliation selected by the
+
+actual solution rather than by the laws; it applies only to globally hyperbolic spacetimes with
+
+regular cosmological time; it posits primitive past-tensed properties; it takes laws to govern
+
+rather than merely summarize; and it requires single-outcome realism in quantum theory. Cosmological
+
+time supplies the ordering of the present and general relativity its lawful succession, but becoming
+
+itself remains the posit that CTGP adds to both.
+
+
+
+Future work includes: (i) extending surface-relative time (§6.10.1) beyond exact FLRW, including
+
+determining when a unique maximal Cauchy surface exists in non-uniform bouncing cosmologies, and
+
+treating past-eternal, cyclic, and emergent cosmologies, for which neither cosmological time nor
+
+surface-relative time supplies the present; (ii) a quantum-gravity account of the primitive
+
+ordering, including whether it must admit indefinite causal order; (iii) connecting CTGP’s
+
+generative structure to concrete discrete dynamics, particularly causal sets; (iv) a sharper
+
+assessment of the evidential bearing of the generability constraint; and (v) development of the
+
+psychophysical program of Appendix D.
+
+
+
+CTGP is a coherent generative ontology, preserving general relativity and compatible with standard
+
+relativistic quantum theory in its tested domain, argued on explanatory grounds and exposed to
+
+refutation through the one structural commitment presentism cannot relinquish: that the world is
+
+made, moment by moment, from what exists now.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+17. Formal Theorems and Propositions
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Theorem 17.1 (Generated-domain causal closure). Let (M, g) be globally hyperbolic. By the Geroch
+
+splitting theorem (Geroch 1970), M admits a foliation by Cauchy hypersurfaces Σ_σ with M ≅ ℝ × Σ.
+
+Define M(σ) = ⋃_{σ′<σ} Σ_{σ′}. Then for any p ∈ Σ_σ, every event of the causal past J⁻(p) other than
+
+p itself lies in M(σ). Thus the generated domain is causally closed with respect to the present
+
+hypersurface.
+
+
+
+Sketch of proof. In globally hyperbolic spacetimes, each inextendible causal curve intersects each
+
+Cauchy surface exactly once. For p on Σ_σ, any point q ≠ p in J⁻(p) lies on Σ_{σ′} for some σ′ < σ,
+
+since distinct points of a level set of a time function cannot be causally related; hence q ∈ M(σ).
+
+□
+
+
+
+Proposition 17.2 (Well-posed growth step). Let Σ be a smooth spacelike hypersurface carrying ADM
+
+initial data (h_{ij}, K_{ij}, matter data) that satisfy the Hamiltonian and momentum constraints and
+
+are of sufficient regularity (smooth data, or data of the finite Sobolev regularity required by the
+
+local existence theorems), and let the matter fields obey equations for which the coupled
+
+Einstein–matter system has a well-posed Cauchy problem, as minimally coupled scalar and Maxwell
+
+fields do. Then the Einstein–matter equations determine a development of the data in a neighborhood
+
+of Σ, unique up to diffeomorphism, and a maximal globally hyperbolic development in which Σ is a
+
+Cauchy surface, unique up to isometry (Choquet-Bruhat and Geroch 1969). Where τ is differentiable
+
+and its maximizing geodesics form a single-valued congruence, the level sets Σ_σ are smooth
+
+spacelike hypersurfaces and the proposition applies to them directly. A level set with corners
+
+(§6.1) does not satisfy the smoothness hypothesis, and the proposition does not apply to it as it
+
+stands. The development can still be computed in a smooth foliation (§8), but the stronger statement
+
+that the data on a cornered level set by themselves determine its future domain of dependence would
+
+require an initial-value formulation for nonsmooth hypersurfaces, which is not established here. The
+
+temporal ordering implicit in this initial-value structure is inherited from the causal structure of
+
+spacetime itself.
+
+
+
+Corollary 17.3 (No future boundary dependence). The development depends on initial data and
+
+evolution equations, not on boundary conditions at σ′ > σ. CTGP interprets this as supporting non-
+
+teleological generation: the future is not consulted.
+
+
+
+Theorem 17.4 (Cosmological time; Andersson, Galloway, and Howard 1998). Let τ(p) = sup{L(γ) : γ a
+
+past-directed causal curve from p}, and suppose τ is regular: finite everywhere and tending to zero
+
+along every past-inextendible causal curve. Then (i) the spacetime is globally hyperbolic; (ii) τ is
+
+a time function, continuous and strictly increasing along every future-directed causal curve; (iii)
+
+every nonempty level set of τ is a future Cauchy surface, though not necessarily a Cauchy surface
+
+(their Corollary 2.6); (iv) τ is locally Lipschitz; and (v) every event p lies on a timelike
+
+geodesic from the initial singularity whose length equals τ(p). Wherever τ is differentiable, −∇^μτ
+
+is the future-directed unit tangent of that geodesic, so g^{μν}∂_μτ∂_ντ = −1.
+
+
+
+Remark. Clause (iii) is the future Cauchy property: for S_a = {τ = a}, D⁺(S_a) = {τ ≥ a}. A nonempty
+
+level set is a Cauchy surface in the full sense exactly when every future-inextendible causal curve
+
+passes beyond it (§6.1). In universes containing black holes, later level sets are therefore future
+
+Cauchy surfaces without being Cauchy surfaces. On the geometric side, generation needs only the
+
+future Cauchy property; that the data on a level set fix their successors is the separate dynamical
+
+requirement of generability (§12.2).
+
+
+
+Proposition 17.5 (Existence and monotonicity of σ). (1) Existence: if cosmological time is regular,
+
+then σ = F(τ), with F smooth and F′ > 0, is a time function whose level sets are future Cauchy
+
+surfaces, and ∇_μσ is timelike wherever τ is differentiable. (2) Matter alignment: in FLRW, τ is
+
+cosmic time and the level sets of σ are orthogonal to the comoving matter congruence; beyond FLRW,
+
+alignment holds with the free fall of pressureless matter in single-stream regions at linear order.
+
+(3) Monotonicity: σ is strictly increasing along every future-directed causal curve, independently
+
+of energy conditions.
 
 
 
@@ -116,184 +312,4 @@ selected. The justification for the norm condition is geometric: cosmological ti
 
 (Theorem 17.4). The proposition shows that the same condition can be expressed within a standard
 
-variational framework without altering the Einstein–matter dynamics, since λ = 0. □
-
-
-
-Proposition 17.8 (Geometric invariance of the generative present). Let Φ : (M, g) → (M′, g′) be an
-
-isometry between spacetimes with regular cosmological time. Then τ′ ∘ Φ = τ. Consequently, the
-
-generative present is fixed by the geometry and is not a gauge choice: diffeomorphisms that preserve
-
-the metric map its stages to stages, and no relabeling of coordinates can alter which events are co-
-
-present. The only freedom is the labeling σ = F(τ), which leaves the stages unchanged.
-
-
-
-Proof. Isometries map causal curves to causal curves and preserve Lorentzian length, so the supremum
-
-defining τ′(Φ(p)) ranges over the images of exactly the curves defining τ(p). □
-
-
-
-Theorem 17.9 (Stage-Relative Representation). Let M(σ) = ⋃_{σ′ < σ} Σ_{σ′} be the domain of the CTGP
-
-action S(σ) (§9.1). If (1) σ is monotonic, (2) Σ_σ obeys hyperbolic evolution, and (3) future
-
-hypersurfaces are excluded from the domain, then the family {M(σ)} is nested, M(σ′) ⊂ M(σ) for σ′ <
-
-σ, and each M(σ) is determined by data on Σ_σ and its causal past alone. The formalism therefore
-
-represents reality stage-relatively, without modifying the field equations. This representation is
-
-not by itself inequivalent to a completed manifold: a block theorist may read each M(σ) as a region
-
-of a pre-existing spacetime. Whether the nested family represents a history generated stage by stage
-
-or a sequence of regions of a fixed whole is settled by an ontological assumption about the
-
-existence of future stages, not by the mathematics. CTGP adopts the first reading; the theorem shows
-
-that its formalism expresses that reading consistently, not that the field equations or observations
-
-favor it (§12.1).
-
-
-
-Proposition 17.10 (Domain Restriction and Local Dynamics). Let S_{block} = ∫_M √(−g) L_{GR} d⁴x and
-
-S_{CTGP}(σ₀) = ∫_{M(σ₀)} √(−g) [L_{GR} + λ(∇_μσ ∇^μσ + f(σ))] d⁴x. (i) At every point of M(σ₀), the
-
-Euler–Lagrange equations of S_{CTGP} with λ = 0 coincide with those of S_{block} together with the
-
-norm condition. (ii) M(σ₀) has a future boundary Σ_{σ₀} and M does not, so the two domains are not
-
-diffeomorphic as manifolds with boundary. The domain restriction is therefore not a difference in
-
-local dynamics or in any observable (Proposition 12.1). It is the formal expression of the stage-
-
-relative ontology, and whether the future boundary marks the edge of reality or only the edge of a
-
-description is an interpretive question.
-
-
-
-Proof. Part (i) holds because Euler–Lagrange equations are local and the constraint sector
-
-contributes nothing when λ = 0. Part (ii) holds because diffeomorphisms map boundary points to
-
-boundary points. □
-
-
-
-Corollary 17.11 (A Formal, Not Empirical, Distinction). The CTGP and block-universe variational
-
-principles differ in domain but not in local field equations or observable consequences. The
-
-distinction they encode is ontological: whether the domain of the laws is the formal history of a
-
-generated present or a fixed manifold. Empirical bearing on that distinction comes only through the
-
-generability constraint (§12.2).
-
-
-
-Definition 17.12 (Geometric Growth Measure). Let u^μ be the timelike congruence aligned with the
-
-cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. CTGP identifies θ as the
-
-physically meaningful local measure of geometric growth: it equals d(ln √h)/dτ and thus measures the
-
-fractional rate of change of local hypersurface volume along the matter congruence. Rather than
-
-defining ontological growth as dM/dσ — which treats the generated domain as if it were a scalar
-
-quantity — CTGP uses the foliation expansion to characterize growth. The evolution of θ is governed
-
-by Proposition 17.6; it is constrained directly by matter content through the Einstein equations.
-
-Cosmologically, this yields a physically meaningful picture: in the early dense universe, θ is large
-
-(rapid geometric expansion); in the matter-dominated and late universe, the Raychaudhuri equation
-
-predicts the observed deceleration and re-acceleration through the curvature and energy-condition
-
-terms, without requiring the parameter dM/dσ to be interpreted as a rate of literal spacetime
-
-production.
-
-
-
-Proposition 17.13 (Compatibility with Causal-Set Quantum Gravity). Let a discrete causal set (C, ≺)
-
-be generated via sequential growth dynamics in the sense of Rideout and Sorkin (2000). Assume the
-
-continuum limit of (C, ≺) yields a globally hyperbolic spacetime (M, g) with a smooth temporal
-
-function σ whose level sets are spacelike Cauchy hypersurfaces (Bernal–Sánchez). Then: (1) the
-
-directional causal structure — past ⊂ M(σ), future ∉ M(σ) — is preserved in the continuum limit; (2)
-
-every element in the causal set has a finite causal past at any finite stage of growth, and no
-
-future elements are present at that stage; (3) the element-by-element addition of causal elements in
-
-sequential growth dynamics represents one possible discrete realization of CTGP’s fundamentally
-
-continuous generative flow, whose large-N limit may correspond to the continuum σ (§6.2). The
-
-direction of compatibility runs from CTGP’s continuous generative-flow ontology to causal-set models
-
-as discrete instantiations, not the reverse. Therefore, CTGP’s commitment to causality and the
-
-ontologically open future is compatible with at least one well-defined approach to quantum gravity.
-
-The claim that quantum gravity necessarily violates causality is accordingly a contingent
-
-interpretive claim, not a result established by any current quantum-gravity framework with empirical
-
-support. Remark: This result is stated as a compatibility proposition rather than a theorem because
-
-it depends on the unestablished identification of causal set theory as the correct theory of quantum
-
-gravity. Its purpose is to demonstrate that CTGP’s causal commitments are not undermined by quantum-
-
-gravity considerations in at least one well-developed approach.
-
-
-
-Because sequential growth dynamics is label-invariant, the birth order of elements is not itself
-
-physical; the compatibility asserted here concerns the directional causal structure of (1) and (2),
-
-not the identification of a global present, which CTGP supplies separately through cosmological time
-
-(§15.2).
-
-
-
-Theorem 17.14 (Constraint Stability under CTGP Perturbations). Let U = (h_{ij}, K_{ij}, matter)
-
-denote ADM variables evolving under ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
-
-evolution and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
-
-(ℋ, ℋ_i). Then the constraint propagation system satisfies ∂_t C = A^i(U)∂_i C + B(U)C + ε S(U). For
-
-Sobolev index s > 5/2 and vanishing initial constraints C(0) = 0, ‖C(t)‖_{Hs-1} ≤ ε e^{Kt} ∫_0^t
-
-‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite evolution
-
-intervals. If the source term S(U) lies within the standard gauge sector, the violation is
-
-absorbable by lapse and shift adjustment. The appropriate statement is a Sobolev-norm control bound
-
-rather than a fixed numerical tolerance: CTGP-compatible perturbations preserve constraint structure
-
-to leading order. □
-
-
-
-Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} be solutions of the
+variational framework without altering the Einstein–matter dynamics, since λ = 0. Because the domain

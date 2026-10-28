@@ -1,6 +1,138 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 18 of 25 (1,797 words)
+Part 18 of 25 (1,820 words)
+
+in important respects. Understanding these relationships clarifies CTGP’s position within the
+
+broader landscape of temporal ontologies.
+
+
+
+15.1 Growing-Block Universe Models
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Growing block models propose that the past and present exist while the future does not yet exist,
+
+with spacetime expanding as new moments are added to the existing structure. CTGP’s architecture is
+
+broadly continuous with this tradition, particularly with Ellis and Rothman’s crystallizing block
+
+universe (2010). The continuity is architectural rather than ontological: in CTGP, earlier states do
+
+not persist as ontologically existing regions of spacetime — it is precisely through this
+
+ontological absence that the causal records embedded in later physical states become the past’s only
+
+physical trace, while truths about the past are grounded in the present’s past-tensed properties
+
+(§5.2.1). Information about prior events survives only through those physical records. The universe
+
+therefore functions not as an ever-accumulating spacetime block but as a sequence of generated
+
+states whose causal history is encoded in present physical structures. The distinction has formal
+
+consequences for the structure of the action, which is integrated only over M(σ) at each stage
+
+rather than over an accumulating manifold containing all past slices as co-existing regions. CTGP
+
+also goes beyond prior growing-block proposals by identifying the growth parameter with a geometric
+
+invariant, cosmological time, whose level sets remain future Cauchy surfaces in the presence of
+
+collapsed structure.
+
+
+
+15.2 Causal Set Theory
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Causal set theory (Bombelli et al. 1987; Sorkin 2003; Dowker 2005) represents spacetime as a
+
+discrete partially ordered set of causally related events, with spacetime geometry emerging from the
+
+underlying causal network. Classical sequential growth models (Rideout and Sorkin 2000) provide a
+
+dynamical framework in which the causal set grows by sequential addition of new elements. CTGP
+
+shares with causal set approaches the emphasis on causal structure as fundamental to the
+
+organization of spacetime, and the treatment of temporal ordering as arising from causal
+
+connectivity rather than being imposed externally. Both frameworks treat causal ordering as primary
+
+and view spacetime structure as emerging from chains of physical interaction. CTGP can be understood
+
+as a continuum analogue of causal set cosmology: as discussed in §6.2, the continuous generation
+
+parameter σ may correspond, in an appropriate continuum approximation, to an averaged measure of
+
+generated causal structure — a motivating analogy rather than an established correspondence. One
+
+contrast deserves emphasis. Classical sequential growth dynamics is required to satisfy discrete
+
+general covariance: physical content must be independent of the order in which elements are born, so
+
+the birth order is itself a gauge labeling, and causal-set theorists generally read the resulting
+
+becoming as asynchronous, without a global now. CTGP’s physically calibrated global present is
+
+therefore an additional commitment, supplied by cosmological time in the continuum regime (§6.1),
+
+rather than something inherited from causal-set dynamics. CTGP differs from causal set theory in
+
+that it does not require spacetime to be fundamentally discrete. The framework remains fully
+
+compatible with the continuous spacetime manifolds of general relativity while interpreting their
+
+temporal structure as dynamically generated through the variational structure of σ.
+
+
+
+15.3 Process-Based and Dynamical Approaches
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Several philosophical and physical frameworks treat reality as fundamentally processual rather than
+
+static. Smolin’s temporal naturalism (2013) argues that time is ontologically fundamental and that
+
+physical laws evolve, sharing with CTGP the rejection of a completed four-dimensional block as the
+
+primary ontological category. Process cosmology in the tradition of Whitehead treats reality as
+
+composed of processes of becoming rather than static substances, a commitment that maps naturally
+
+onto CTGP’s generative hypersurface structure. Penrose’s conformal cyclic cosmology, with its
+
+succession of aeons, and various quantum gravity proposals also treat cosmic history dynamically,
+
+albeit with different formal structures. CTGP aligns with these process-oriented approaches in
+
+emphasizing the generative character of physical reality while providing a precise formal framework
+
+grounded in standard general relativity.
+
+
+
+15.4 The Distinguishing Integration of CTGP
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The distinguishing feature of CTGP lies in its integration of three elements that are typically
+
+treated separately in the existing literature. First, a generation parameter grounded in
+
+relativistic causal structure: CTGP identifies the growth parameter with cosmological time, fixed by
 
 the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
 
@@ -16,11 +148,11 @@ records embedded in successive present states provides a precise mechanism for h
 
 accessible despite no longer existing as an independent spacetime region. Together these components
 
-provide a framework in which temporal passage, causal structure, and cosmological evolution are
+provide a framework in which temporal passage, causal structure, and cosmic expansion are treated as
 
-treated as aspects of a single underlying generative process rather than as separate explananda
+aspects of a single underlying generative process rather than as separate explananda requiring
 
-requiring separate theoretical treatments.
+separate theoretical treatments.
 
 
 
@@ -30,25 +162,57 @@ appropriate. Its distinctive contribution, however, is something none of them pr
 
 gravity growth models describe the growth of causal relations — the addition of ordered pairs of
 
-events, the extension of the causal partial order. CTGP adds to this the growth of the experiential
+events, the extension of the causal partial order. CTGP adds to this an account of where experience
 
-present. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
+occurs. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
 
-causal structure; it is the ontological locus of qualia, the active edge at which physically
+causal structure: within CTGP, the currently generated physical state is the ontological locus of
 
-instantiated becoming constitutes experience. This connects physics and phenomenology in a way that
+physically instantiated conscious experience. Known biological experiences depend on physical
 
-causal set theory, temporal naturalism, and process cosmology do not attempt: alongside a formal
+processes, including the neural mechanisms responsible for sensation, internally generated imagery,
 
-account of how generation proceeds, CTGP specifies where within that structure experience occurs. It
+cognition, and awareness. Dreams and mental imagery do not require ongoing external sensory
 
-does not explain why physically instantiated becoming is accompanied by experience at all; Appendix
+stimulation, but they nevertheless involve physical neural activity. Insofar as qualia are
 
-D states plainly that the framework solves neither the hard problem nor the mapping problem, and the
+physically instantiated, their occurrence belongs to the physical reality that exists at the
 
-core ontology does not depend on it. The quantum gravity frameworks handle the former; CTGP handles
+corresponding generative stage, so the experiences occurring now belong to the currently generated
 
-both.
+state. Earlier conscious experiences genuinely occurred when their respective stages were present,
+
+but those earlier experiential states no longer exist as currently occurring experiences. The
+
+systems that underwent them may still exist, since a system can persist while its earlier states do
+
+not (§5.2.2), and present conscious systems may bear physical records and other consequences of
+
+earlier experiences without those earlier experiences themselves remaining instantiated. The past is
+
+therefore what actually occurred during earlier stages, not a collection of experiences that must
+
+still exist for their occurrence to remain true, and that an experience occurred does not depend on
+
+whether any record of it survives (§5.2.1). This conclusion follows conditionally from CTGP's
+
+temporal ontology together with the physical instantiation of the experiences concerned. It does not
+
+depend on settling whether nonphysical forms of consciousness are possible, and it does not by
+
+itself establish that every possible experience is physical. This connects physics and phenomenology
+
+in a way that causal set theory, temporal naturalism, and process cosmology do not attempt: those
+
+frameworks describe how causal structure grows, while CTGP also specifies where, within that
+
+structure, physically instantiated experience occurs. It does not explain why physically
+
+instantiated becoming is accompanied by experience at all; Appendix D states plainly that the
+
+framework solves neither the hard problem nor the mapping problem, and the core ontology does not
+
+depend on it.
 
 
 
@@ -62,7 +226,7 @@ which causal dynamics are actively instantiated rather than recorded. Past hyper
 
 represented within M(σ) as completed causal structure — fixed, encoded, no longer undergoing lawful
 
-evolution. Σ_σ alone is where the evolution equations are being applied, where fields are being
+change. Σ_σ alone is where the evolution equations are being applied, where fields are being
 
 propagated, where the Cauchy problem is being solved. If qualia require anything at all, they
 
@@ -154,162 +318,6 @@ form of physical law rather than in any measurement of the ontology itself.
 
 CTGP’s most distinctive contributions relative to prior growing-block models are: (a) the
 
-identification of the generative present with the level sets of cosmological time, a Cauchy
+identification of the generative present with the level sets of cosmological time, a foliation by
 
-foliation that survives caustic formation and approximately coincides with the cosmological rest
-
-frame; (b) the grounding of the generation parameter in standard cosmic time, with an explicit
-
-account of its admissible relabelings; (c) the account of cosmological observables as causal records
-
-embedded in successive present states, with decoherence as the mechanism of record formation; (d)
-
-the explicit treatment of qualia as intrinsic to physically instantiated processes at Σ_σ; (e) a
-
-consistency analysis establishing which generation laws are dynamically admissible, together with a
-
-precise statement of the ontology’s empirical standing — observationally equivalent to eternalism
-
-for fixed physics, yet exposed through the requirement that physical law be generable from the
-
-present; and (f) causality is structurally preserved, not abandoned. CTGP rejects the claim that
-
-quantum gravity necessarily violates causality. Instead, it treats causality as a structural feature
-
-of the generated domain M(σ), compatible with standard relativistic quantum field theory at tested
-
-scales and with causal set theory as an especially natural quantum-gravity companion framework. The
-
-future remains ontologically ungenerated rather than merely epistemically inaccessible, and no
-
-retrocausal influences are required or predicted by the framework.
-
-
-
-Two results of the paper deserve emphasis because they are negative. First, the rate of generation
-
-cannot be tied to local matter density: such laws break the alignment of the present with matter
-
-within a light-crossing time of any structure, and their stable completions suppress every
-
-cosmological signature below observability. Second, no measurement can distinguish presentism from
-
-eternalism when the physics is held fixed. Neither result weakens the ontology; both clarify where
-
-it stands.
-
-
-
-The costs of the view are explicit. It gives ontological significance to a foliation selected by the
-
-actual solution rather than by the laws; it applies only to globally hyperbolic spacetimes with
-
-regular cosmological time; it posits primitive past-tensed properties; it takes laws to govern
-
-rather than merely summarize; and it requires single-outcome realism in quantum theory. Cosmological
-
-time supplies the ordering of the present and general relativity its lawful succession, but becoming
-
-itself remains the posit that CTGP adds to both.
-
-
-
-Future work includes: (i) extending surface-relative time (§6.10.1) beyond exact FLRW, including
-
-determining when a unique maximal Cauchy surface exists in non-uniform bouncing cosmologies, and
-
-treating past-eternal, cyclic, and emergent cosmologies, for which neither cosmological time nor
-
-surface-relative time supplies the present; (ii) a quantum-gravity account of the primitive
-
-ordering, including whether it must admit indefinite causal order; (iii) connecting CTGP’s
-
-generative structure to concrete discrete dynamics, particularly causal sets; (iv) a sharper
-
-assessment of the evidential bearing of the generability constraint; and (v) development of the
-
-psychophysical program of Appendix D.
-
-
-
-CTGP is a coherent generative ontology, preserving general relativity and compatible with standard
-
-relativistic quantum theory in its tested domain, argued on explanatory grounds and exposed to
-
-refutation through the one structural commitment presentism cannot relinquish: that the world is
-
-made, moment by moment, from what exists now.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-17. Formal Theorems and Propositions
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Theorem 17.1 (Generated-domain causal closure). Let (M, g) be globally hyperbolic. By the Geroch
-
-splitting theorem (Geroch 1970), M admits a foliation by Cauchy hypersurfaces Σ_σ with M ≅ ℝ × Σ.
-
-Define M(σ) = ⋃_{σ′<σ} Σ_{σ′}. Then for any p ∈ Σ_σ, every event of the causal past J−(p) other than
-
-p itself lies in M(σ). Thus the generated domain is causally closed with respect to the present
-
-hypersurface.
-
-
-
-Sketch of proof. In globally hyperbolic spacetimes, each inextendible causal curve intersects each
-
-Cauchy surface exactly once. For p on Σ_σ, any point q ≠ p in J−(p) lies on Σ_{σ′} for some σ′ < σ,
-
-since distinct points of a level set of a time function cannot be causally related; hence q ∈ M(σ).
-
-□
-
-
-
-Proposition 17.2 (Well-posed growth step). Given ADM initial data (h_{ij}, K_{ij}, matter data)
-
-satisfying Hamiltonian and momentum constraints on Σ_σ, Einstein-matter evolution determines
-
-(locally in σ) a unique development up to diffeomorphism. The temporal ordering implicit in this
-
-initial-value structure is inherited from the causal structure of spacetime itself.
-
-
-
-Corollary 17.3 (No future boundary dependence). The development depends on initial data and
-
-evolution equations, not on boundary conditions at σ′ > σ. CTGP interprets this as supporting non-
-
-teleological generation: the future is not consulted.
-
-
-
-Theorem 17.4 (Cosmological time; Andersson, Galloway, and Howard 1998). Let τ(p) = sup{L(γ) : γ a
-
-past-directed causal curve from p}, and suppose τ is regular: finite everywhere and tending to zero
-
-along every past-inextendible causal curve. Then (i) the spacetime is globally hyperbolic; (ii) τ is
-
-a time function, continuous and strictly increasing along every future-directed causal curve; (iii)
-
-every level set of τ is a Cauchy surface; (iv) τ is locally Lipschitz; and (v) every event p lies on
-
-a timelike geodesic from the initial singularity whose length equals τ(p). Wherever τ is
-
-differentiable, −∇^μτ is the future-directed unit tangent of that geodesic, so g^{μν}∂_μτ∂_ντ = −1.
-
-
-
-Proposition 17.5 (Existence and monotonicity of σ). (1) Existence: if cosmological time is regular,
-
-then σ = F(τ), with F smooth and F′ > 0, is a time function whose level sets are Cauchy surfaces,
-
-and ∇_μσ is timelike wherever τ is differentiable. (2) Matter alignment: in FLRW, τ is cosmic time
-
-and the level sets of σ are orthogonal to the comoving matter congruence; beyond FLRW, alignment
+future Cauchy surfaces that survives caustic formation and approximately coincides with the

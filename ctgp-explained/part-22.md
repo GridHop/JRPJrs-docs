@@ -1,6 +1,316 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 25 (1,789 words)
+Part 22 of 25 (1,822 words)
+
+    relativity. Philosophy of Science, 33(4), 341–344.
+
+
+
+Rovelli, C. (2004). Quantum Gravity. Cambridge University Press.
+
+
+
+Savitt, S. F. (2009). The transient nows. In W. C. Myrvold & J. Christian (Eds.), Quantum Reality,
+
+    Relativistic Causality, and Closing the Epistemic Circle. Springer.
+
+
+
+Sider, T. (2001). Four-Dimensionalism: An Ontology of Persistence and Time. Oxford University Press.
+
+
+
+Skow, B. (2015). Objective Becoming. Oxford University Press.
+
+
+
+Smolin, L. (2013). Time Reborn. Houghton Mifflin Harcourt.
+
+
+
+Sorkin, R. D. (2003). Causal sets: Discrete gravity. In Lectures on Quantum Gravity (pp. 305–327).
+
+    Springer.
+
+
+
+Stein, H. (1991). On relativity theory and openness of the future. Philosophy of Science, 58(2),
+
+    147–167.
+
+
+
+Stoner, E. C., & Wohlfarth, E. P. (1948). A mechanism of magnetic hysteresis in heterogeneous
+
+    alloys. Philosophical Transactions of the Royal Society A, 240(826), 599–642.
+
+
+
+Tegmark, M. (1997). On the dimensionality of spacetime. Classical and Quantum Gravity, 14, L69–L75.
+
+
+
+Tononi, G. (2008). Consciousness as integrated information: A provisional manifesto. Biological
+
+    Bulletin, 215, 216–242.
+
+
+
+Vilasini, V., & Renner, R. (2024). Fundamental limits for realising quantum processes in spacetime.
+
+    Physical Review Letters, 133, 080201.
+
+
+
+Wald, R. M. (1984). General Relativity. University of Chicago Press.
+
+
+
+Wallace, D. (2012). The Emergent Multiverse. Oxford University Press.
+
+
+
+Will, C. M. (2014). The confrontation between general relativity and experiment. Living Reviews in
+
+    Relativity, 17, 4.
+
+
+
+Zimmerman, D. W. (2011). Presentism and the space-time manifold. In C. Callender (Ed.), The Oxford
+
+Handbook of Philosophy of Time (pp. 163–244). Oxford University Press.
+
+
+
+Zurek, W. H. (2003). Decoherence, einselection, and the quantum origins of the classical. Reviews of
+
+    Modern Physics, 75, 715–775.
+
+
+
+Zurek, W. H. (2009). Quantum Darwinism. Nature Physics, 5, 181–188.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+Appendix A. ADM Evolution and σ-Reparameterization (Derivations)
+
+----------------------------------------------------------------------------------------------------
+
+
+
+This appendix collects standard ADM equations and shows how CTGP's growth parameter σ can be used to
+
+reparameterize evolution. The presentation follows standard canonical GR notation and then adds
+
+CTGP's σ-change of variables.
+
+
+
+A.1 ADM Variables and Constraints
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+        g_{μν} → (h_{ij}, N, N^i);  K_{ij} = (1/2N)(∂_t h_{ij} − ∇_i N_j − ∇_j N_i)
+
+
+
+Hamiltonian constraint:
+
+
+
+        H = R^{(3)} + K² − K_{ij}K^{ij} − 16πG ρ = 0
+
+
+
+Momentum constraint:
+
+
+
+        H_i = ∇_j (K^j_i − δ^j_i K) − 8πG j_i = 0
+
+
+
+A.2 Evolution Equations
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+        ∂_t h_{ij} = 2N K_{ij} + ∇_i N_j + ∇_j N_i
+
+
+
+        ∂_t K_{ij} = −∇_i ∇_j N + N( R^{(3)}_{ij} + K K_{ij} − 2K_{ik}K^k_j ) + (shift and matter terms)
+
+
+
+A.3 Cosmological Time and Its Relabelings
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The discussion in §6.7 establishes that the present hypersurfaces are future Cauchy surfaces whose
+
+induced data satisfy the ADM constraints and fix their successors under the Einstein equations. This
+
+appendix records the explicit form of the generation parameter in cosmological settings.
+
+
+
+In FLRW with a big-bang singularity, cosmological time is cosmic time: τ = t. A relabeling σ = F(t)
+
+with F′ > 0 converts time derivatives by ∂_σ = (1/F′) ∂_t; for the canonical choice F = identity, σ
+
+= t.
+
+
+
+A.3.1 Well-Definedness, Dimensions, and Reparameterization of σ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Three properties of the generation parameter are relied upon elsewhere and are stated explicitly
+
+here. The first is well-definedness. Cosmological time is defined as a supremum over all
+
+past-directed causal curves, not by integration along a chosen congruence, so no path-independence
+
+condition is required: τ(p) is well defined whenever it is finite. Its level sets are future Cauchy
+
+surfaces when τ is regular (Theorem 17.4). A rotating cosmology such as Gödel’s dust solution admits
+
+no regular cosmological time, consistent with the global hyperbolicity requirement of §6.1.
+
+
+
+The second is dimension. For the canonical choice σ = τ, σ carries dimensions of time; for other
+
+relabelings, its dimensions are those of F. The two are related monotonically, induce the same
+
+foliation, and differ only in normalization and units. Statements that σ “corresponds to”
+
+cosmological proper time are to be read in this sense.
+
+
+
+The third is reparameterization. Any strictly increasing F yields an equally admissible parameter,
+
+so σ is fixed only up to monotonic relabeling. This is harmless for every claim the framework makes,
+
+because those claims depend on the level sets of σ and the direction of ∇_μσ, both of which are
+
+relabeling-invariant. The magnitude |∇_μσ| = F′ is conventional and carries no physical content.
+
+
+
+For reference, the chain from geometry to foliation is as follows: g_{μν} → causal structure → τ,
+
+the maximal elapsed proper time, defined without choice → Σ_τ, future Cauchy surfaces when τ is
+
+regular → σ = F(τ), a labeling convention. The matter congruence enters only as a consequence: in
+
+cosmology, the maximizing geodesics are the comoving worldlines.
+
+
+
+A.4 ADM Equations Parameterized by σ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Substituting ∂_t = F′ ∂_σ into ADM evolution, with the lapse normalized to cosmic time:
+
+
+
+        ∂_σ h_{ij} = (2N/F′) K_{ij} + (1/F′)(∇_i N_j + ∇_j N_i)
+
+
+
+        ∂_σ K_{ij} = (1/F′)(standard ADM right-hand side)
+
+
+
+A.5 Expansion Scalar and Raychaudhuri Calibration
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Let u^μ be the timelike unit vector field aligned with the matter congruence. The expansion scalar θ
+
+= ∇_μu^μ satisfies θ = d(ln √h)/dτ, measuring the fractional rate of local volume change of the
+
+foliation along the congruence. Its evolution is governed by the Raychaudhuri equation:
+
+
+
+        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} + ω_{μν}ω^{μν} - R_{μν}u^μu^ν + ∇_μa^μ
+
+
+
+In the irrotational, geodesic cosmological limit (ω_{μν} = 0, a^μ = 0) this reduces to:
+
+
+
+        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} - R_{μν}u^μu^ν
+
+
+
+CTGP uses this result to interpret geometric growth in terms of foliation expansion rather than as a
+
+derivative dM/dσ of the generated domain treated as a scalar quantity. The expansion scalar θ
+
+provides the GR-native local measure of how the present hypersurface is extending relative to
+
+neighboring hypersurfaces: θ > 0 in expanding cosmologies, θ < 0 in collapsing regimes. Via the
+
+Einstein equations, the R_{μν}u^μu^ν term links the evolution of θ directly to the matter content
+
+through the Ricci curvature, grounding CTGP’s growth picture in standard relativistic dynamics.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+Appendix B. Causal Structure Theorems and Their Application to CTGP
+
+----------------------------------------------------------------------------------------------------
+
+
+
+B.1 Global Hyperbolicity and Causal Order
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+A spacetime (M, g) is globally hyperbolic if it admits a Cauchy hypersurface — a spacelike surface
+
+intersected exactly once by every inextendible causal curve. This property is widely believed to
+
+hold for our universe on cosmological scales (Hawking and Ellis 1973).
+
+
+
+Theorem B.1 (Hawking–King–McCarthy, 1976). In suitably well-behaved relativistic spacetimes, the
+
+chronological relation I⁺(p) — the set of events reachable from p by future-directed timelike curves
+
+— determines the conformal structure of the spacetime metric. The topology and light-cone structure
+
+can be reconstructed uniquely up to an overall conformal factor from knowledge of the chronological
+
+order alone.
+
+
 
 Theorem B.2 (Malament, 1977). The causal ordering relation alone suffices to determine the conformal
 
@@ -60,15 +370,15 @@ The freedom to choose among smooth temporal foliations corresponds to the freedo
 
 smooth temporal functions. CTGP resolves this ambiguity with cosmological time: among all time
 
-functions whose level sets are Cauchy surfaces, it is singled out by maximal elapsed proper time,
+functions, it is singled out by maximal elapsed proper time, and in cosmology it coincides with the
 
-and in cosmology it coincides with the matter rest frame. The logical priority is clear: causal
+matter rest frame. The logical priority is clear: causal geometry (Theorems B.1–B.4) precedes
 
-geometry (Theorems B.1–B.4) precedes cosmological time (Theorem 17.4), which precedes the labeling
+cosmological time (Theorem 17.4), which precedes the labeling convention σ = F(τ). σ is not a novel
 
-convention σ = F(τ). σ is not a novel object introduced by CTGP; it is a distinguished Cauchy time
+object introduced by CTGP; it is a distinguished time function that general relativity already
 
-function that general relativity already provides.
+provides.
 
 
 
@@ -151,229 +461,3 @@ ontology into the domain of mind and experience. This extension is motivated by 
 the present-edge structure of M(σ) provides a natural locus for qualia — but it is not a
 
 prerequisite for accepting the core framework. Readers primarily interested in the physics case may
-
-treat Appendix D as an optional philosophical appendix. Its conclusions do not feed back into the
-
-formal theorems of §17 or the empirical analysis of §§11–12. The physically instantiated criterion
-
-(§D.4) and the mapping problem (§§D.5–D.6) are philosophical elaborations, not physical postulates
-
-of the core theory. The discussion of conscious temporal experience throughout this appendix is
-
-intended as phenomenological motivation for the CTGP framework rather than as empirical evidence for
-
-it. This scope restriction applies to the qualia material collected here and not to the explanatory
-
-arguments of the main text. In particular, the explanatory challenge to the block universe in §2.2
-
-and the convergence of the thermodynamic, causal, cosmological, and memory-formation arrows in §3.4
-
-are main-body arguments from explanatory economy, not claims about phenomenal consciousness, and
-
-they stand or fall independently of anything in this appendix.
-
-
-
-D.1 Qualia Ontology: Locus on Σ_σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP locates qualia — the intrinsic, subjective character of experience — on the present
-
-hypersurface Σ_σ. The claim is not that qualia are identical to physical processes on Σ_σ (that
-
-would presuppose a solution to the hard problem that CTGP does not claim to provide), but that
-
-qualia are intrinsic to ongoing, physically instantiated processes at the present edge. The key
-
-ontological theses are:
-
-
-
-• Qualia are features of the present moment Σ_σ. They exist only as properties of processes that are
-
-  actively unfolding at the present edge of M(σ).
-
-• Past brain states belong to the formal history M(σ). They were fully real when present, and their
-
-  consequences persist as causal records in present neural structure, but they do not persist as
-
-  qualia. The qualia associated with a past experience are not still 'present' in any ontologically
-
-  loaded sense.
-
-• Memory is re-instantiation, not continuation. When one remembers a past experience, the relevant
-
-  neural patterns are re-activated at the present Σ_σ, producing a current experience that
-
-  represents the past. This maps onto empirical findings about memory reconsolidation.
-
-
-
-Which experience is occurring. One may ask, of a four-dimensional person, why one particular brain
-
-state is the one being experienced rather than another or all of them at once. Posed as a request
-
-for a selection mechanism, the question has a ready eternalist answer: nothing selects, each state
-
-is experienced at its own location, and “now” is indexical. The question that remains is sharper.
-
-Assigning experiences to temporal parts establishes that each part has its experience; it is less
-
-clear that it accounts for the diachronic fact of being an experiencer whose experience is actually
-
-going on, rather than redescribing that fact in four-dimensional terms. CTGP answers with an
-
-additional ontological fact: only the generatively active state is presently real and presently
-
-undergoing physical realization. Earlier states were experienced when they were present and are not
-
-experienced now, because they no longer exist; later states are not yet experienced, because they
-
-have not been generated.
-
-
-
-CTGP also provides a principled explanation for the apparent privacy and inaccessibility of fine-
-
-grained experience. Because many internal processes leave limited or non-redundant causal traces,
-
-the detailed structure of subjective experience is often underdetermined by publicly accessible
-
-data. This follows directly from the limited persistence and recoverability of causal encodings,
-
-rather than from any non-physical property of consciousness.
-
-
-
-D.2 Classicalization as the Bridge Mechanism
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-How do microscopic quantum processes at Σ_σ give rise to determinate experiential states? CTGP
-
-proposes classicalization — the combination of decoherence, amplification, and causal continuity —
-
-as the physical bridge from microphysics to determinate experience. The mechanism works in three
-
-stages:
-
-
-
-First, decoherence suppresses quantum interference between macroscopically distinct states, yielding
-
-effective classicality at the scale of neural dynamics. Second, amplification through biological
-
-signal cascades converts microscopic state distinctions into macroscopic, causally potent
-
-differences. Third, causal continuity — the fact that each Σ_{σ+Δσ} is generated from Σ_σ by
-
-deterministic or stochastic lawful generation — ensures that experiential states are embedded in a
-
-continuous causal history, not isolated events.
-
-
-
-These three stages together produce the physical conditions under which determinate experiential
-
-states are possible. CTGP does not claim that classicalization provides an account of why there is
-
-experience at all (the 'hard problem' in Chalmers's sense) but that it identifies the physical
-
-architecture necessary for the qualia-capable processes that CTGP posits.
-
-
-
-D.3 Necessary Conditions for Qualia on Σ_σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP proposes the following as necessary (not sufficient) conditions for a physical process to be a
-
-vehicle of qualia:
-
-
-
-• Robust classical dynamics: the process must be sufficiently decohered that quantum interference is
-
-  negligible at the relevant scale.
-
-• Organized integration: the process must integrate information across multiple degrees of freedom
-
-  in an organized, non-random way. (This condition is related to but not identical to IIT's phi; see
-
-  below.)
-
-• Causal continuity: the process must be embedded in a continuous causal chain connecting it to past
-
-  states within M(σ). Isolated, causally disconnected events are not qualia-capable on this account.
-
-• Physical instantiation: the vehicle of qualia must be an actual, physically instantiated process,
-
-  not the structure that a description or simulation represents. This condition excludes represented
-
-  structure as a locus of experience; it does not by itself exclude any physical system, including
-
-  the physical system carrying out a simulation. See §D.4.
-
-
-
-D.4 Domain-Relative Instantiation Criterion
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-D.4.1 Operational Clarification of the Physically Instantiated Criterion
-
-
-
-The physically instantiated criterion should not be interpreted as a presently established empirical
-
-discriminator between conscious and non-conscious systems. Rather, it functions as a research
-
-hypothesis concerning the relationship between phenomenal experience and physical realization.
-
-
-
-Formally, CTGP distinguishes three claims:
-
-
-
-    (1) Structural Equivalence Claim: Two systems may exhibit identical input-output behavior and
-
-    implement isomorphic computational structures.
-
-
-
-    (2) Instantiation Claim: Structural equivalence alone does not guarantee identity of physically
-
-    realized causal dynamics.
-
-
-
-    (3) Phenomenal Dependence Claim: If phenomenal experience depends in part upon intrinsic
-
-    physical properties rather than solely upon abstract functional organization, then structurally
-
-    equivalent systems may differ phenomenally despite computational equivalence.
-
-
-
-CTGP does not presently provide an experimentally validated criterion capable of determining whether
-
-a given substrate possesses the intrinsic properties relevant to phenomenal experience. The
-
-framework therefore treats the physically instantiated criterion as a philosophical hypothesis that
-
-motivates empirical investigation rather than as a demonstrated result.
-
-
-
-Accordingly, CTGP does not claim that digital simulations are known to lack qualia. It claims only

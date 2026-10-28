@@ -1,6 +1,76 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 25 (1,796 words)
+Part 06 of 25 (1,829 words)
+
+closed timelike curves and laws that allow them. The two views therefore do not make the same claim
+
+about global hyperbolicity, even though both are consistent with the observations to date: CTGP
+
+takes a risk that eternalism does not, which is the same asymmetry that underlies the generability
+
+constraint (§12.2).
+
+
+
+Locating the present without the future. Cosmological time is defined on a spacetime (M, g), and the
+
+theorem that its level sets are future Cauchy surfaces concerns the whole manifold. It might
+
+therefore seem that CTGP needs the completed block to say which surface is present. It does not. By
+
+definition, τ(p) is the supremum of the lengths of past-directed causal curves from p, so its value
+
+at p depends only on the causal past J⁻(p); the regularity conditions are likewise past-directed.
+
+Whether an event lies on Σ_σ is therefore fixed by its past alone, and no future region enters. What
+
+makes the lengths of those past curves well defined, although the past does not exist, is what
+
+grounds every past truth (§5.2): τ is itself a past-tensed magnitude of the present, fixed by the
+
+present’s having been preceded by causal histories of those lengths. Global statements about the
+
+full manifold belong to the mathematical representation of the history as it would be generated;
+
+they show that the construction is well behaved, and they do not ground which slice is present. Nor
+
+does locating later stages require anything past-tensed beyond a label. For an event q with τ(q) ≥
+
+a, every past-inextendible causal curve from q meets S_a, and τ(q) = a + d(S_a, q), where d(S_a, q)
+
+is the supremum of the lengths of causal curves from S_a to q. Splitting each past-directed causal
+
+curve from q where it crosses S_a gives one inequality; joining a nearly maximal curve from S_a to q
+
+with nearly maximal past-directed curves from its starting point gives the other. The successor
+
+level sets are therefore the surfaces of constant maximal proper-time separation from the present
+
+level set, fixed by the geometry of its future domain of dependence. The past enters only through
+
+the value a, and since only the level sets are physical, that value is a labeling convention
+
+(Appendix A.3.1).
+
+
+
+Clarification on process and representation. Neither Σ_σ nor the union M(σ) should be read as
+
+implying that reality consists of a sequence of discrete, ontologically fundamental temporal slices.
+
+Σ_σ is a mathematical representation of a physical reality in continuous temporal and generative
+
+progression, not a freestanding entity that reality simply “is.” The hypersurfaces function
+
+analogously to the instantaneous configurations used in classical mechanics or field theory: useful
+
+analytical cross-sections of a continuous process, not independently existing states stacked one
+
+against the next. Correspondingly, M(σ) = ⋃_{σ′<σ} Σ_{σ′} is a mathematical reconstruction of
+
+generated history and should not be interpreted as an ontological accumulation of independently
+
+existing temporal slices; it represents a single, continuous causal-temporal process viewed through
 
 a foliation-based description, not a growing pile of spacetime sheets. Reality itself is the
 
@@ -28,13 +98,13 @@ to remain timelike: ∇_μσ ∇^μσ < 0. This condition — guaranteed whereve
 
 ∇_μτ is then a unit timelike covector — ensures that the generative ordering corresponds to a
 
-physically admissible temporal direction and that Σ_σ is everywhere spacelike. CTGP does not claim
+physically admissible temporal direction and that Σ_σ is spacelike wherever τ is differentiable.
 
-that general relativity singles out a unique foliation in every spacetime. It claims that
+CTGP does not claim that general relativity singles out a unique foliation in every spacetime. It
 
-cosmological time, defined from the causal and metric structure alone, supplies a physically
+claims that cosmological time, defined from the causal and metric structure alone, supplies a
 
-distinguished foliation wherever it is regular, and that in our universe this foliation
+physically distinguished foliation wherever it is regular, and that in our universe this foliation
 
 approximately coincides, on large scales, with the rest frame of the cosmic matter distribution. The
 
@@ -82,7 +152,7 @@ itself.
 
 The starting point is a result due to Hawking, King, and McCarthy (1976), which suggests that in
 
-suitably well-behaved relativistic spacetimes the chronological relation I+(p) — the set of events
+suitably well-behaved relativistic spacetimes the chronological relation I⁺(p) — the set of events
 
 reachable from p by future-directed timelike curves — determines the conformal structure of the
 
@@ -110,41 +180,47 @@ requirement of a temporal ordering parameter.
 
 
 
-From the causal ordering, a continuous global time function can be constructed via Geroch’s volume-
+From the causal ordering, a continuous global time function can be constructed via Geroch’s
 
-time method. Let J−(p) and J+(p) denote the causal past and future of an event p, and let μ be an
+volume-time method. Let J⁻(p) and J⁺(p) denote the causal past and future of an event p, and let μ
 
-invariant measure on spacetime. Quantities such as t−(p) = μ(J−(p)) increase strictly along every
+be an invariant measure on spacetime. Quantities such as t⁻(p) = μ(J⁻(p)) increase strictly along
 
-future-directed causal curve in any distinguishing spacetime and, in globally hyperbolic spacetimes,
+every future-directed causal curve in any distinguishing spacetime and, in globally hyperbolic
 
-define a continuous time function (Geroch 1970), yielding a continuous causal ordering parameter.
+spacetimes, define a continuous time function (Geroch 1970), yielding a continuous causal ordering
 
-This establishes that relativistic spacetime already contains the ordering CTGP needs, independently
+parameter. This establishes that relativistic spacetime already contains the ordering CTGP needs,
 
-of any interpretive choice.
+independently of any interpretive choice.
 
 
 
-However, a continuous causal ordering is not yet sufficient for CTGP, which requires smooth
+However, a continuous causal ordering is not yet sufficient for the dynamics, whose initial-value
 
-hypersurfaces Σ_σ suitable for Cauchy evolution. This refinement is provided by the Bernal–Sánchez
+formulation is posed on smooth spacelike hypersurfaces. This refinement is provided by the
 
-theorems. In any globally hyperbolic spacetime (M, g), there exists a smooth temporal function t
+Bernal–Sánchez theorems. In any globally hyperbolic spacetime (M, g), there exists a smooth temporal
 
-whose gradient is everywhere timelike, and whose level sets Σ_t = const are smooth spacelike Cauchy
+function t whose gradient is everywhere timelike, and whose level sets Σ_t = const are smooth
 
-hypersurfaces, with M ≅ ℝ × Σ globally (Bernal and Sánchez 2003, 2005). The existence of time
+spacelike Cauchy hypersurfaces, with M ≅ ℝ × Σ globally (Bernal and Sánchez 2003, 2005). The
 
-functions of this kind is therefore not an additional physical postulate but a consequence of the
+existence of time functions of this kind is therefore not an additional physical postulate but a
 
-causal geometry of globally hyperbolic spacetimes. The logical structure is: causal ordering exists
+consequence of the causal geometry of globally hyperbolic spacetimes. The logical structure is:
 
-(HKM, Malament) → a continuous time function exists (Geroch) → a smooth Cauchy temporal function
+causal ordering exists (HKM, Malament) → a continuous time function exists (Geroch) → a smooth
 
-exists (Bernal–Sánchez) → CTGP selects, within the class of Cauchy time functions, the one fixed by
+Cauchy temporal function exists (Bernal–Sánchez) → CTGP selects, within the class of time functions,
 
-cosmological time (§6.3), which is smooth wherever τ is differentiable (§6.1).
+the one fixed by cosmological time (§6.3), which is smooth wherever τ is differentiable (§6.1).
+
+Where it is not, the two results divide the labor: the level sets of τ fix which events are
+
+co-present, and a smooth Cauchy temporal function of the kind Bernal and Sánchez guarantee supplies
+
+hypersurfaces on which the dynamics can be computed (§8).
 
 
 
@@ -168,7 +244,7 @@ from entropy production. Second, in a discrete quantum-gravity setting, σ admit
 
 realization within causal-set approaches, where growth dynamics suggest a natural analogue of
 
-spacetime generation (Rideout and Sorkin, 2000): one possible interpretation is that σ corresponds,
+spacetime generation (Rideout and Sorkin 2000): one possible interpretation is that σ corresponds,
 
 in an appropriate continuum approximation, to an averaged measure of generated causal structure.
 
@@ -178,9 +254,9 @@ as a motivating analogy rather than a proven result. Importantly, causal-set app
 
 one possible discrete realization of CTGP’s more general continuous generative-flow ontology; CTGP’s
 
-continuum structure is the generation flow ∇_μσ, and discrete models provide compatible but non-
+continuum structure is the generation flow ∇_μσ, and discrete models provide compatible but
 
-foundational instantiations. These two independent lines of motivation suggest possible deeper
+non-foundational instantiations. These two independent lines of motivation suggest possible deeper
 
 foundations for σ, but neither presently constitutes a derivation of the CTGP formalism.
 
@@ -225,101 +301,3 @@ ontological priority of causal ordering over metric structure. The reconstructio
 causal order to geometry, never the reverse — is precisely the direction CTGP’s Causal
 
 Reconstruction Principle requires.
-
-
-
-In the emergent regime the continuum generation parameter is σ = F(τ) with F smooth and F′ > 0.
-
-Wherever τ is differentiable, ∇_μσ = F′(τ)∇_μτ, and σ satisfies the norm condition
-
-
-
-        ∇_μσ ∇^μσ = −f(σ),  f(σ) ≡ F′(F⁻¹(σ))² > 0.
-
-
-
-The canonical choice F = identity gives σ = τ and f = 1: σ is cosmological proper time, as Postulate
-
-3 states. Other choices relabel the stages without changing them. In FLRW, for example, σ(t) =
-
-∫ρ̄(t′) dt′ labels each stage by the cumulative mean energy density of the background; because ρ̄
-
-depends only on cosmic time, this is a relabeling, not a new physical structure.
-
-
-
-Alignment with matter. In cosmological spacetimes the maximizing geodesics that define τ are the
-
-comoving free-fall worldlines. In FLRW they coincide exactly with the matter congruence, whose four-
-
-velocity u^μ is the timelike eigenvector of T_{μν}, so that ∇_μσ ∝ u_μ. Beyond FLRW, alignment holds
-
-with the free-fall congruence of pressureless matter in single-stream regions at linear order. It is
-
-not claimed for pressure-supported components — the baryon–photon plasma and radiation do not follow
-
-the same geodesics — or within multistream regions of collapsed structure, where τ remains well
-
-defined but the matter flow is not single-valued.
-
-
-
-Admissibility of the generation law. The dependence of the generation rate on σ alone is not a
-
-convention. Laws in which the rate responds to local matter density — for instance f = ρ_c², with
-
-ρ_c := T_{μν}u^μu^ν the matter-frame energy density — are dynamically inconsistent with alignment
-
-and, in the presence of structure, with a timelike foliation (§11). A generation rate may vary with
-
-cosmic epoch through F, but not across space at fixed σ.
-
-
-
-6.4 Causality as a Fundamental Structural Principle
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A common objection to present-edge ontologies is that quantum mechanics or a future theory of
-
-quantum gravity may ultimately require the abandonment of causality. CTGP regards this conclusion as
-
-interpretive rather than established.
-
-
-
-Within CTGP, causality is a structural feature of the generated domain M(σ). Every event contained
-
-within the present possesses a causal past that is likewise contained within M(σ). This follows from
-
-the causal structure of globally hyperbolic spacetimes (Theorem 17.1) and does not depend on whether
-
-the underlying microphysics is deterministic or indeterministic.
-
-
-
-Current quantum theory does not require the conclusion that causal ordering is absent. Bell
-
-experiments constrain local hidden-variable theories but do not uniquely determine the metaphysical
-
-status of causality. Multiple interpretations of quantum mechanics remain compatible with
-
-relativistic causal structure and with all presently available observations.
-
-
-
-CTGP is therefore fully compatible with standard relativistic quantum field theory in its
-
-experimentally tested domain. At the quantum-gravity level, approaches that treat causal order as
-
-primitive, such as causal set theory, are natural companions (§15.2); CTGP’s smooth σ-field may be
-
-read as the continuum description of a deeper causal ordering whose directionality is preserved even
-
-where continuum spacetime ceases to apply.
-
-
-
-CTGP also distinguishes between causal continuity and deterministic predictability. A process may be

@@ -1,6 +1,214 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 24 of 25 (1,785 words)
+Part 24 of 25 (1,843 words)
+
+dφ/dt = F(φ), where φ is a genuine physical field evolving under real forces. The crucial asymmetry
+
+is that computation manipulates representations of states, while physics evolves actual states. A
+
+computation is therefore a mapping between symbolic states that represents a physical process; a
+
+physical process instantiates that process. The corollary is familiar at the macroscopic level: a
+
+perfect simulation of a hurricane does not produce wind. CTGP extends this principle into the domain
+
+of consciousness: a perfect simulation of a brain does not thereby instantiate the intrinsic causal
+
+dynamics of the brain it represents, because the simulation operates on representations of those
+
+dynamics rather than on the dynamics themselves. The claim is that the simulated brain is not a
+
+second locus of experience; it is not a claim about whether the simulating machine is one. The
+
+physically instantiated criterion is thus not a free-standing metaphysical stipulation but a direct
+
+application of the Representation–Instantiation Distinction to the case of qualia—grounded in the
+
+philosophy of computation, not merely asserted.
+
+
+
+Clarification of Intrinsic Physical Properties. The distinction between digital representation and
+
+ontological physical process requires clarification. CTGP’s physically instantiated criterion does
+
+not deny that physical theories may admit discrete microstructures (as in causal-set theory or loop
+
+quantum gravity). Rather, the claim concerns the difference between representation and
+
+instantiation.
+
+
+
+A digital register encodes information symbolically. The bit “1” possesses no intrinsic physical
+
+property corresponding to redness, pain, or any other qualitative character. Its significance is
+
+purely relational and interpreter-dependent. The point concerns what a symbol is, not what the
+
+system implementing it may possess. By contrast, a physical event in spacetime possesses intrinsic
+
+properties determined by its participation in causal interactions. These properties are not merely
+
+structural relations but include the local physical character of the event itself.
+
+
+
+This position aligns with Russellian monism, which holds that physics describes relational structure
+
+while leaving the intrinsic nature of physical properties underdetermined. CTGP therefore adopts the
+
+following ontological claim: physical events possess intrinsic properties that ground both causal
+
+powers and qualitative character. Physics describes the structural relations between these events,
+
+while the intrinsic properties provide the ontological substrate of experience.
+
+
+
+The criterion also presupposes a distinction that is easy to lose: the conditions for intelligence
+
+and the conditions for qualitative experience are not the same conditions. Intelligence is specified
+
+functionally — by what a system does — and is therefore settled by functional duplication.
+
+Qualitative character is not specified functionally, and no argument from task performance
+
+establishes it. A system may satisfy the first set of conditions completely while the second remains
+
+an open question.
+
+
+
+The argument against strong functionalism does not depend on the representation/instantiation
+
+framing and is not weakened by the scoping above. It follows from Russellian monism alone:
+
+functional equivalence is specified structurally; intrinsic character is not fixed by structure;
+
+therefore functional duplication does not settle phenomenal identity. This holds whatever the
+
+substrate of either system, and it is unaffected by any question about what a simulating machine
+
+instantiates.
+
+
+
+The physically instantiated criterion therefore asserts: a digital simulation may reproduce the
+
+structural relations between events without thereby instantiating the intrinsic physical properties
+
+of the processes it represents. This claim is metaphysical rather than empirical, but it functions
+
+analogously to other ontological commitments in physics (e.g., the existence of spacetime events or
+
+quantum states).
+
+
+
+Three further claims should be kept apart here. The first is what the criterion denies: a system
+
+that represents another system's experience does not thereby have that experience. Experience is
+
+here understood to involve subject-relative registration — there being someone for whom the content
+
+occurs — and a representation of a subject does not constitute one. This is a clarification of terms
+
+rather than a theory of consciousness, and nothing in it turns on whether experienced content is
+
+also available for report, attention, or behavioral control. The denial concerns representation
+
+only, and carries no implication about what the representing system may undergo on its own account.
+
+The second concerns range: a conscious existence can only be aware of what can reach it, and what
+
+can reach it is fixed by the classes of signal exchange its substrate, architecture, and interfaces
+
+permit. Differently constituted systems therefore differ in their participatory capacities — in what
+
+they can receive, register, and enter into — and their experiential ranges, including the scope,
+
+integration, persistence, and contents of awareness, are correspondingly not identical. These
+
+constraints are specifiable in physical terms, whereas experiential range is not; the former
+
+constrains the latter without determining or revealing it. The criterion asserts the non-identity of
+
+ranges; it does not specify the content of any range, and it does not hold that experience is
+
+available only to non-digital substrates. The third concerns realization: within a shared
+
+experiential category, each experiencer instantiates that experience in a way particular to itself —
+
+a point holding between any two experiencers and implying nothing about substrate in particular.
+
+
+
+D.5 Substrate-Sensitivity and the Mapping Problem
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP adopts a substrate-sensitive account of qualia: not every physical process that satisfies the
+
+necessary conditions in §D.3 necessarily instantiates qualia of any given qualitative character. The
+
+substrate's specific dynamical properties — the particular way in which it integrates, amplifies,
+
+and causally continues information — shape the character of experience. This is the mapping problem,
+
+explicitly named in CTGP: the framework provides the metaphysical arena (the present + physically
+
+instantiated process + causal continuity) but does not by itself derive the specific pattern-to-
+
+quale mapping. That mapping requires additional theoretical work.
+
+
+
+Three bridge principle options are available:
+
+
+
+• Russellian intrinsic properties: the intrinsic (non-structural) properties of physical processes
+
+  at Σ_σ just are the qualitative characters of experience. This is Russellian monism adapted to
+
+  CTGP's temporal ontology.
+
+• IIT-style lawlike mapping: integrated information (or a generalization thereof) determines quale
+
+  character via a law-like relation. CTGP's classicalization conditions set the stage; IIT or a
+
+  successor theory provides the specific mapping.
+
+• Protopanpsychist composition: micro-experiential properties combine — via rules that CTGP's
+
+  present-slice structure constrains — into macro-experiential properties. CTGP's physically
+
+  instantiated criterion then rules out purely combinatorial accounts based on abstract functional
+
+  roles.
+
+
+
+CTGP's working hypothesis is a combination of the Russellian and IIT-style options: a lawlike
+
+mapping from the intrinsic properties of causally continuous, classicalized physical processes at
+
+Σ_σ to qualitative experience, with the specific mapping remaining an open empirical and theoretical
+
+question. CTGP is compatible with Russellian intrinsic-property accounts, IIT-style lawlike mapping,
+
+and protopanpsychist composition — the framework constrains but does not decide between them.
+
+
+
+D.6 The Remaining Mapping Problem
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 CTGP intentionally distinguishes between two explanatory levels: (1) ontological placement of
 
@@ -78,25 +286,23 @@ abstract philosophy-of-mind positions:
 
 • No macroscopic quantum consciousness: CTGP suggests that qualia require classicalized dynamics.
 
-  Proposals requiring quantum coherence at the neural scale (e.g., Penrose-Hameroff) are
+  Proposals requiring quantum coherence at the neural scale (e.g., Penrose–Hameroff) are
 
-  incompatible with CTGP's classicalization requirement.
+  incompatible with CTGP's classicalization requirement. • Substrate signatures: if the physically
 
-• Substrate signatures: if the physically instantiated criterion is correct, there should in
+  instantiated criterion is correct, there should in principle be signatures distinguishing
 
-  principle be signatures distinguishing genuinely qualia-capable processes from digital
+  genuinely qualia-capable processes from digital simulations, even when they are functionally
 
-  simulations, even when they are functionally equivalent. Identifying such signatures is a research
+  equivalent. Identifying such signatures is a research program, not a settled result. • Memory as
 
-  program, not a settled result.
+  re-instantiation: CTGP suggests that memory recovery is best understood as re-instantiation of
 
-• Memory as re-instantiation: CTGP suggests that memory recovery is best understood as re-
+  patterns at the present Σ_σ, not retrieval of stored qualia. This maps onto the empirical finding
 
-  instantiation of patterns at the present Σ_σ, not retrieval of stored qualia. This maps onto the
+  of memory reconsolidation — the fact that recalled memories are transiently labile and can be
 
-  empirical finding of memory reconsolidation — the fact that recalled memories are transiently
-
-  labile and can be modified by conditions at the time of recall.
+  modified by conditions at the time of recall.
 
 
 
@@ -122,7 +328,7 @@ processes—rather than their abstract functional structure alone—plays a role
 
 experience occurs. The framework does not claim that all paused systems lack experience; instead,
 
-the pause argument motivates the domain-relative instantiation criterion, emphasising that the
+the pause argument motivates the domain-relative instantiation criterion, emphasizing that the
 
 nature of a process’s physical unfolding, including its causal continuity, may be relevant to
 
@@ -191,233 +397,3 @@ This distinction is stated first, because every confusion about the case descend
 the two. The interval between two events is not classified by spatial distance alone. A signal that
 
 crosses between them disqualifies the pair from being spacelike, however far apart they are.
-
-
-
-Pair of events          | Interval                                    | Significance for CTGP
-
-------------------------+---------------------------------------------+----------------------------
-
-Collapse → photon       | Null                                        | Ordinary causal propagation
-
-detection (1987)        |                                             |
-
-Collapse → neutrino     | Essentially null (ultrarelativistic;        | Ordinary causal propagation
-
-detection               | strictly timelike, since neutrinos are      |
-
-                        | massive)                                    |
-
-Collapse →              | Spacelike                                   | Requires a foliation to
-
-contemporaneous Earth-  |                                             | define “contemporaneous”
-
-state                   |                                             |
-
-1987 detection → Earth  | Timelike                                    | Ordinary causal succession
-
-now                     |                                             |
-
-
-
-  Table E.1. Interval classification of the event pairs relevant to SN1987A.
-
-
-
-The collapse lies on our past light cone. Reconstructing it from its messengers is ordinary causal
-
-inference, not access to a spacelike elsewhere, and nothing in that reconstruction bears on
-
-simultaneity. The one genuinely spacelike pair is the third, which by construction exchanges nothing
-
-with us; §E.5 concerns that pair alone.
-
-
-
-E.2 The Event in CTGP’s Tenses
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A blue supergiant in the Large Magellanic Cloud, roughly 168,000 light-years distant, underwent core
-
-collapse. The neutrino burst was detected on 23 February 1987; the optical signal followed within
-
-hours.
-
-
-
-The neutrino lead is a fact about emission, not propagation. Neutrinos decoupled from the collapsing
-
-core immediately and escaped; the shock required additional hours to traverse the envelope and break
-
-out of the photosphere. Both messengers then crossed 168,000 years of intervening space at, or
-
-indistinguishably near, the speed of light. Nothing outran anything. Under CTGP the correct tensed
-
-description is as follows.
-
-
-
-• The collapse was generated at an earlier stage Σ_{σ′} and does not now exist.
-
-• The emitted neutrino and photon fields were generated at every intervening stage, as present-state
-
-  field configurations, in unbroken causal continuity.
-
-• The 1987 detection was not the past arriving. It was a present-state detector interacting with a
-
-  present-state field whose organization is a lawful transformation of the organization the source
-
-  had when the source was present.
-
-• There is no retrieval across time. There is only inheritance within the present.
-
-
-
-None of this is a retrieval operation dressed in tensed language. Each arrow in the chain source
-
-state → radiation state → later radiation state → detector state relates two adjacent stages, and at
-
-every stage only the current state exists. The chain is long; it is nowhere non-local, and at no
-
-point does a photon carry a preserved fragment of the source stage forward as an existing past
-
-object.
-
-
-
-E.3 The Event’s Reality Did Not Depend on Being Observed
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The independence of the event from its observation is CTGP-consistent: the collapse was a generative
-
-stage of M(σ), not a fact constituted at detection. The messenger structure is the reason. Two
-
-channels, emitted under different source conditions, arrived in the order and with the separation
-
-that source physics dictates. An observation-constituted event would owe no such debt to stellar-
-
-interior physics that had, on that view, never occurred.
-
-
-
-The claim that distant events are not real until observed is not a position any serious
-
-interpretation holds, and refuting it carries little weight. The live alternatives are eternalism
-
-and the growing block, neither of which this argument touches.
-
-
-
-E.4 What “Cosmic Receipts” May and May Not Mean
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The ledger metaphor is useful and requires care. Read loosely, it implies a stored past — a
-
-repository holding earlier states in reserve — which is exactly the eternalist picture CTGP rejects.
-
-
-
-Under Postulate 4, a record is not a preserved earlier state. It is a presently existing physical
-
-organization whose structure is a lawful transformation of an earlier organization that no longer
-
-exists. Some consequences stay organized as records; others become distributed and effectively
-
-unrecoverable. SN1987A is a case in which several stayed organized and mutually cross-validating.
-
-
-
-Stated carefully, the metaphor says this: the present carries forward organized consequences from
-
-which earlier stages can be reconstructed, because the transformations were lawful and partially
-
-information-preserving. The universe does not keep books. The universe is the current page, written
-
-by the previous page, with the previous page gone.
-
-
-
-E.5 Co-presence: What Is Entailed and What Is Selected
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The claim that SN1987A demonstrates nonlocal temporal comparability divides into two claims, only
-
-one of which is contested.
-
-
-
-E.5.1 That There Was a Co-present Earth-Stage Is Entailed, Not Evidenced
-
-
-
-If the collapse was generated at all, the stage it belonged to was generated — and generation is not
-
-selective about where it happens. Our region was in that stage. Denying this would require the LMC’s
-
-collapse to have been real while our own concurrent existence was somehow in abeyance, which is
-
-incoherent rather than merely unsupported.
-
-
-
-The concurrency claim has specific content. Earth had existed for roughly 4.54 billion years by
-
-then; the progenitor, Sanduleak −69° 202, was a massive star whose whole lifetime spanned only on
-
-the order of ten million years, so it was born, lived, and died entirely within Earth’s existing
-
-lifetime. The co-present Earth-stage was an Earth with oceans, an atmosphere, a biosphere, and
-
-hominins. Earth’s own stage also left its own causal records — ice cores, sediments, and the genomes
-
-still being carried forward — so its reality is independently attested, not inferred from the
-
-supernova.
-
-
-
-This follows from Postulate 1 together with the reality of the event. It does not require the
-
-supernova’s light, and it is not something the light could have established.
-
-
-
-E.5.2 Which Earth-Stage It Was Requires the Foliation
-
-
-
-What the evidence alone underdetermines is the pairing. We reach the collapse along our past light
-
-cone; we reach Earth 168,000 years ago through terrestrial records; we never reach the two as a
-
-pair, because that pairing is spacelike and exchanges nothing. The pairing is produced by a
-
-subtraction, and the subtraction requires a slicing.
-
-
-
-The sensitivity is substantial. To first order, Δt′ ≈ vx/c², and x here is 168,000 light-years, so
-
-an observer coasting through Earth at 0.5c assigns the collapse to an Earth-moment displaced by
-
-roughly 84,000 years from ours (about 97,000 years once the Lorentz factor is included). The photons
-
-and the light cone are the same; the answer differs. Such an observer does not claim that Earth was
-
-nonexistent: the observer affirms concurrency and disputes individuation, which is exactly the
-
-division drawn above.
-
-

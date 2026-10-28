@@ -1,6 +1,296 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 25 (1,792 words)
+Part 21 of 25 (1,828 words)
+
+under causal perturbation (TMS, anesthesia, sleep-stage shifts, focal lesions); (4) nested model
+
+comparison suggests CTGP-style substrate-sensitive models outperform purely functional baselines;
+
+(5) a primary endpoint is pre-registered. These criteria convert the mapping problem from an
+
+unfalsifiable metaphysical claim into a testable research program. Note that identifiability in this
+
+strong sense is required for the psychophysical extension of Appendix D but is not a prerequisite
+
+for the core spacetime ontology of the main text, which stands on its own physics and philosophy-of-
+
+physics merits. □
+
+
+
+Definition 17.20 (Tense Semantics). Let W_σ denote the present world at stage σ, and for σ′ < σ let
+
+Had(σ′, φ) denote the primitive property *having been, at stage σ′, such that φ* (§5.2.1), where φ
+
+ranges over non-tensed propositions.
+
+
+
+    (a) *Truth condition.* “At σ′ it was the case that φ” is true at σ iff W_σ instantiates Had(σ′,
+
+    φ).
+
+
+
+    (b) *Accuracy condition.* For every σ′ < σ, W_σ instantiates Had(σ′, φ) iff W_σ′ ⊨ φ.
+
+
+
+    (c) *Representation.* M(σ) = ⋃_{σ′<σ} Σ_{σ′} is the formal representation of the history carried
+
+    by the present world’s past-tensed profile. For each σ′ < σ, the represented stage Σ_{σ′}
+
+    satisfies φ in M(σ) exactly when W_σ instantiates Had(σ′, φ).
+
+
+
+    (d) *Asymmetry.* W_σ instantiates no property grounded in a future stage, since no stage Σ_{σ″}
+
+    with σ″ > σ exists.
+
+
+
+Corollary 17.21 (Nesting). For σ < σ″, M(σ) ⊂ M(σ″).
+
+
+
+Proof. Every stage in ⋃_{σ′<σ} Σ_{σ′} also lies in ⋃_{σ′<σ″} Σ_{σ′}. Nesting is a property of the
+
+formal representation; it does not imply that earlier stages continue to exist. □
+
+
+
+Proposition 17.22 (No Revision of the Past). For σ < σ″ and every σ′ < σ, Σ_{σ′} satisfies φ in M(σ)
+
+iff Σ_{σ′} satisfies φ in M(σ″).
+
+
+
+Proof. By (c) and (b), Σ_{σ′} satisfies φ in M(σ) iff W_σ instantiates Had(σ′, φ) iff W_σ′ ⊨ φ. The
+
+same chain holds with σ″ in place of σ. □
+
+
+
+Proposition 17.22 is the formal counterpart of the claim in §5.2.1 that losing a record does not
+
+change what happened. Records can degrade between σ and σ″; the represented history of every earlier
+
+stage cannot.
+
+
+
+Proposition 17.23 (Surface-Relative Cosmological Time). Let (M, g) be globally hyperbolic and S a
+
+spacelike Cauchy surface, and let τ_S be the signed Lorentzian distance from S (§6.10.1). Then on
+
+each side of S, τ_S is the cosmological time of that region with S as its past (respectively future)
+
+boundary; it is finite, tends to zero on approach to S, and its level sets are future (respectively
+
+past) Cauchy surfaces. Consequently σ = F(τ_S), with F strictly increasing, is an admissible
+
+generation parameter through S. In an exact FLRW universe with a single bounce, taking S to be the
+
+surface of zero mean curvature at the bounce makes τ_S cosmic time measured from the bounce.
+
+
+
+Proof sketch. Restrict to the open region I⁺(S), itself globally hyperbolic. Every past-inextendible
+
+causal curve in it approaches S, and J⁻(p) ∩ J⁺(S) is compact for each p, so the supremum defining
+
+τ_S(p) is finite and τ_S → 0 along curves approaching S: the cosmological time of I⁺(S) is regular.
+
+Theorem 17.4 then applies to that region, and the same argument with time reversed applies to I⁻(S).
+
+□
+
+
+
+----------------------------------------------------------------------------------------------------
+
+References
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
+
+    Quantum Gravity, 15, 309–322.
+
+
+
+Arkani-Hamed, N., Cheng, H.-C., Luty, M. A., & Mukohyama, S. (2004). Ghost condensation and a
+
+    consistent infrared modification of gravity. Journal of High Energy Physics, 2004(05), 074.
+
+
+
+Arnowitt, R., Deser, S., & Misner, C. W. (1962). The dynamics of general relativity. In L. Witten
+
+    (Ed.), Gravitation: An Introduction to Current Research (pp. 227–265). Wiley. (arXiv:gr-
+
+    qc/0405109)
+
+
+
+Babichev, E., & Ramazanov, S. (2017). Caustic free completion of pressureless perfect fluid and
+
+    k-essence. Journal of High Energy Physics, 2017(08), 040.
+
+
+
+Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
+
+    collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
+
+
+
+Bell, J. S. (1987). Speakable and Unspeakable in Quantum Mechanics. Cambridge University Press.
+
+
+
+Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
+
+    Communications in Mathematical Physics, 243(3), 461–470.
+
+
+
+Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
+
+    globally hyperbolic spacetimes. Communications in Mathematical Physics, 257(1), 43–50.
+
+
+
+Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
+
+
+
+Bohm, D. (1952). A suggested interpretation of the quantum theory in terms of 'hidden' variables.
+
+    Physical Review, 85, 166–179; 180–193.
+
+
+
+Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
+
+    Review Letters, 59(5), 521–524.
+
+
+
+Broad, C. D. (1923). Scientific Thought. Routledge.
+
+
+
+Brown, H. R. (2005). Physical Relativity: Space-Time Structure from a Dynamical Perspective. Oxford
+
+    University Press.
+
+
+
+Callender, C. (2017). What Makes Time Special? Oxford University Press.
+
+
+
+Carroll, S. M. (2004). Spacetime and Geometry: An Introduction to General Relativity. Addison-
+
+    Wesley.
+
+
+
+Carroll, S. M. (2010). From Eternity to Here: The Quest for the Ultimate Theory of Time. Dutton.
+
+
+
+Chalmers, D. J. (1996). The Conscious Mind. Oxford University Press.
+
+
+
+Chamseddine, A. H., & Mukhanov, V. (2013). Mimetic dark matter. Journal of High Energy Physics,
+
+    2013(11), 135.
+
+
+
+Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum computations without
+
+    definite causal structure. Physical Review A, 88, 022318.
+
+
+
+Christodoulou, D. (2009). The Formation of Black Holes in General Relativity. European Mathematical
+
+    Society.
+
+
+
+Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
+
+    Physical Review D, 58, 116002.
+
+
+
+Craig, W. L. (2001). Time and the Metaphysics of Relativity. Kluwer Academic Publishers.
+
+
+
+Dafermos, M., & Luk, J. (2025). The interior of dynamical vacuum black holes I: The C⁰-stability of
+
+    the Kerr Cauchy horizon. Annals of Mathematics, 202, 309–630.
+
+
+
+Dehaene, S. (2014). Consciousness and the Brain. Viking.
+
+
+
+Deng, N. (2013). The block universe: A metaphysical analysis. In R. Ciuni et al. (Eds.), New Papers
+
+    on the Present. Philosophia Verlag.
+
+
+
+Dieks, D. (Ed.). (2006). The Ontology of Spacetime. Elsevier.
+
+
+
+Doob, J. L. (1957). Conditional Brownian motion and the boundary limits of harmonic functions.
+
+    Bulletin de la Société Mathématique de France, 85, 431–458.
+
+
+
+Dowker, F. (2005). Causal sets and the deep structure of spacetime. In 100 Years of Relativity.
+
+    World Scientific.
+
+
+
+Earman, J. (2006). Two challenges to the requirement of substantive general covariance. Synthese,
+
+    148, 443–468.
+
+
+
+Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Preussischen Akademie
+
+    der Wissenschaften.
+
+
+
+Ellis, G. F. R. (2014). The evolving block universe and the meshing together of times. Annals of the
+
+    New York Academy of Sciences, 1326, 26–41.
+
+
+
+Ellis, G. F. R., & Rothman, T. (2010). Time and spacetime: The crystallizing block universe.
+
+    International Journal of Theoretical Physics, 49, 988–1003.
+
+
 
 Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
 
@@ -217,313 +507,3 @@ Riess, A. G., et al. (1998). Observational evidence from supernovae for an accel
 
 
 Rietdijk, C. W. (1966). A rigorous proof of determinism derived from the special theory of
-
-    relativity. Philosophy of Science, 33(4), 341–344.
-
-
-
-Rovelli, C. (2004). Quantum Gravity. Cambridge University Press.
-
-
-
-Savitt, S. F. (2009). The transient nows. In W. C. Myrvold & J. Christian (Eds.), Quantum Reality,
-
-    Relativistic Causality, and Closing the Epistemic Circle. Springer.
-
-
-
-Sider, T. (2001). Four-Dimensionalism: An Ontology of Persistence and Time. Oxford University Press.
-
-
-
-Skow, B. (2015). Objective Becoming. Oxford University Press.
-
-
-
-Smolin, L. (2013). Time Reborn. Houghton Mifflin Harcourt.
-
-
-
-Sorkin, R. D. (2003). Causal sets: Discrete gravity. In Lectures on Quantum Gravity (pp. 305–327).
-
-    Springer.
-
-
-
-Stein, H. (1991). On relativity theory and openness of the future. Philosophy of Science, 58(2),
-
-    147–167.
-
-
-
-Stoner, E. C., & Wohlfarth, E. P. (1948). A mechanism of magnetic hysteresis in heterogeneous
-
-    alloys. Philosophical Transactions of the Royal Society A, 240(826), 599–642.
-
-
-
-Tegmark, M. (1997). On the dimensionality of spacetime. Classical and Quantum Gravity, 14, L69–L75.
-
-
-
-Tononi, G. (2008). Consciousness as integrated information: A provisional manifesto. Biological
-
-    Bulletin, 215, 216–242.
-
-
-
-Vilasini, V., & Renner, R. (2024). Fundamental limits for realising quantum processes in spacetime.
-
-    Physical Review Letters, 133, 080201.
-
-
-
-Wald, R. M. (1984). General Relativity. University of Chicago Press.
-
-
-
-Wallace, D. (2012). The Emergent Multiverse. Oxford University Press.
-
-
-
-Will, C. M. (2014). The confrontation between general relativity and experiment. Living Reviews in
-
-    Relativity, 17, 4.
-
-
-
-Zimmerman, D. W. (2011). Presentism and the space-time manifold. In C. Callender (Ed.), The Oxford
-
-Handbook of Philosophy of Time (pp. 163–244). Oxford University Press.
-
-
-
-Zurek, W. H. (2003). Decoherence, einselection, and the quantum origins of the classical. Reviews of
-
-    Modern Physics, 75, 715–775.
-
-
-
-Zurek, W. H. (2009). Quantum Darwinism. Nature Physics, 5, 181–188.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix A. ADM Evolution and σ-Reparameterization (Derivations)
-
-----------------------------------------------------------------------------------------------------
-
-
-
-This appendix collects standard ADM equations and shows how CTGP's growth parameter σ can be used to
-
-reparameterize evolution. The presentation follows standard canonical GR notation and then adds
-
-CTGP's σ-change of variables.
-
-
-
-A.1 ADM Variables and Constraints
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-        g_{μν} → (h_{ij}, N, N^i);  K_{ij} = (1/2N)(∂_t h_{ij} − ∇_i N_j − ∇_j N_i)
-
-
-
-Hamiltonian constraint:
-
-
-
-        H = R^{(3)} + K² − K_{ij}K^{ij} − 16πG ρ = 0
-
-
-
-Momentum constraint:
-
-
-
-        H_i = ∇_j (K^j_i − δ^j_i K) − 8πG j_i = 0
-
-
-
-A.2 Evolution Equations
-
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-        ∂_t h_{ij} = 2N K_{ij} + ∇_i N_j + ∇_j N_i
-
-
-
-        ∂_t K_{ij} = −∇_i ∇_j N + N( R^{(3)}_{ij} + K K_{ij} − 2K_{ik}K^k_j ) + (matter terms)
-
-
-
-A.3 Cosmological Time and Its Relabelings
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The discussion in §6.7 establishes that the present hypersurfaces are Cauchy surfaces whose induced
-
-data satisfy the ADM constraints and evolve consistently under the Einstein equations. This appendix
-
-records the explicit form of the generation parameter in cosmological settings.
-
-
-
-In FLRW with a big-bang singularity, cosmological time is cosmic time: τ = t. A relabeling σ = F(t)
-
-with F′ > 0 converts time derivatives by ∂_σ = (1/F′) ∂_t; for the canonical choice F = identity, σ
-
-= t.
-
-
-
-A.3a Well-Definedness, Dimensions, and Reparameterization of σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Three properties of the generation parameter are relied upon elsewhere and are stated explicitly
-
-here. The first is well-definedness. Cosmological time is defined as a supremum over all past-
-
-directed causal curves, not by integration along a chosen congruence, so no path-independence
-
-condition is required: τ(p) is well defined whenever it is finite. Its level sets are Cauchy
-
-surfaces when τ is regular (Theorem 17.4). A rotating cosmology such as Gödel’s dust solution admits
-
-no regular cosmological time, consistent with the global hyperbolicity requirement of §6.1.
-
-
-
-The second is dimension. For the canonical choice σ = τ, σ carries dimensions of time; for other
-
-relabelings, its dimensions are those of F. The two are related monotonically, induce the same
-
-foliation, and differ only in normalization and units. Statements that σ “corresponds to”
-
-cosmological proper time are to be read in this sense.
-
-
-
-The third is reparameterization. Any strictly increasing F yields an equally admissible parameter,
-
-so σ is fixed only up to monotonic relabeling. This is harmless for every claim the framework makes,
-
-because those claims depend on the level sets of σ and the direction of ∇_μσ, both of which are
-
-relabeling-invariant. The magnitude |∇_μσ| = F′ is conventional and carries no physical content.
-
-
-
-For reference, the chain from geometry to foliation is as follows: g_{μν} → causal structure → τ,
-
-the maximal elapsed proper time, defined without choice → Σ_τ, Cauchy surfaces when τ is regular → σ
-
-= F(τ), a labeling convention. The matter congruence enters only as a consequence: in cosmology, the
-
-maximizing geodesics are the comoving worldlines.
-
-
-
-A.4 σ-Evolution of ADM Equations
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Substituting ∂_t = F′ ∂_σ into ADM evolution, with the lapse normalized to cosmic time:
-
-
-
-        ∂_σ h_{ij} = (2N/F′) K_{ij} + (1/F′)(∇_i N_j + ∇_j N_i)
-
-
-
-        ∂_σ K_{ij} = (1/F′)(standard ADM right-hand side)
-
-
-
-A.5 Expansion Scalar and Raychaudhuri Calibration
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Let u^μ be the timelike unit vector field aligned with the matter congruence. The expansion scalar θ
-
-= ∇_μu^μ satisfies θ = d(ln √h)/dτ, measuring the fractional rate of local volume change of the
-
-foliation along the congruence. Its evolution is governed by the Raychaudhuri equation:
-
-
-
-        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} + ω_{μν}ω^{μν} - R_{μν}u^μu^ν + ∇_μa^μ
-
-
-
-In the irrotational, geodesic cosmological limit (ω_{μν} = 0, a^μ = 0) this reduces to:
-
-
-
-        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} - R_{μν}u^μu^ν
-
-
-
-CTGP uses this result to interpret geometric growth in terms of foliation expansion rather than as a
-
-derivative dM/dσ of the generated domain treated as a scalar quantity. The expansion scalar θ
-
-provides the GR-native local measure of how the present hypersurface is extending relative to
-
-neighboring hypersurfaces: θ > 0 in expanding cosmologies, θ < 0 in collapsing regimes. Via the
-
-Einstein equations, the R_{μν}u^μu^ν term links the evolution of θ directly to the matter content
-
-through the Ricci curvature, grounding CTGP’s growth picture in standard relativistic dynamics.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix B. Causal Structure Theorems and Their Application to CTGP
-
-----------------------------------------------------------------------------------------------------
-
-
-
-B.1 Global Hyperbolicity and Causal Order
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A spacetime (M, g) is globally hyperbolic if it admits a Cauchy hypersurface — a spacelike surface
-
-intersected exactly once by every inextendible causal curve. This property is widely believed to
-
-hold for our universe on cosmological scales (Hawking and Ellis 1973).
-
-
-
-Theorem B.1 (Hawking–King–McCarthy, 1976). In suitably well-behaved relativistic spacetimes, the
-
-chronological relation I+(p) — the set of events reachable from p by future-directed timelike curves
-
-— determines the conformal structure of the spacetime metric. The topology and light-cone structure
-
-can be reconstructed uniquely up to an overall conformal factor from knowledge of the chronological
-
-order alone.
-
-

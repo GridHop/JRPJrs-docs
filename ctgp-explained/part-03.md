@@ -1,12 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 03 of 25 (1,789 words)
-
-not reduced to it, since each also depends on contingent features of our universe’s initial
-
-conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
-
-to future — runs in the direction in which stages are generated, since each new hypersurface is
+Part 03 of 25 (1,834 words)
 
 generated from its predecessor and never the reverse. Generation supplies the orientation, not the
 
@@ -319,3 +313,31 @@ Whether a unified account is preferable to a distributed one is the philosophica
 not a result either side can prove. The two ontologies are also economical in different respects:
 
 presentism posits fewer existing things, eternalism less structure, since it needs neither a
+
+distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
+
+the dispute.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+5. The Core Postulates of CTGP
+
+----------------------------------------------------------------------------------------------------
+
+
+
+5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Postulate 1 (Ontological Primacy of the Present): At any generative stage of the universe, only the
+
+current hypersurface of reality—the present state of the universe—possesses ontological existence as
+
+presently real. The present is not, however, an isolated instant: it exists as part of a continuous
+
+causal-temporal progression whereby each state lawfully emerges from immediately preceding states

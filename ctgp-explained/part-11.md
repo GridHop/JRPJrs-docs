@@ -1,6 +1,118 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 25 (1,793 words)
+Part 11 of 25 (1,826 words)
+
+change of any kind between two successive stages — no alteration of internal or spatial state. CTGP
+
+still distinguishes Σ_σ from Σ_{σ+dσ} as a progression in cosmological generation. Participation in
+
+the advancing present is not conditional on possessing a changing state variable: under Postulate 2,
+
+persisting at all is being generated at successive stages, and an unchanging configuration is one in
+
+which successive stages produce qualitatively identical states rather than one exempt from
+
+generation.
+
+
+
+    In brief. CTGP's simultaneity isn't Newton's absolute 'cosmic now.' Newton's time is imposed
+
+    from outside and flows identically everywhere, so every clock in the universe ticks at the same
+
+    rate and agrees on the same reading. CTGP rejects that. In CTGP, two events are co-present when
+
+    they belong to the same generative stage of reality, the same step in the present's unfolding.
+
+    The dividing line isn't imposed from outside. It's fixed by the geometry the universe's own
+
+    matter produces, and on large scales it's the frame in which the cosmic microwave background
+
+    looks uniform. Co-present events don't share proper time, clock rates, or any synchronization,
+
+    and relativity's local effects like time dilation stay fully intact. Picture two people raising
+
+    their arms billions of light years apart. They can never signal each other, and their clocks
+
+    don't agree, but they still belong to the same stage of the present. Think of a computer’s
+
+    shared system time, with each program showing its own timer — except that no clock anywhere
+
+    keeps the present; the universe’s own structure does.
+
+
+
+9.4.2 Why There Is Always a Present
+
+
+
+Stated without formalism, CTGP’s core claim is one that ordinary experience already assumes: there
+
+is a way things currently are. Not a privileged coordinate system, not a universal clock reading,
+
+not a synchronization procedure — simply that reality has a current state, which is succeeded by
+
+another. On this framework that assumption is correct and is what Σ_σ formalizes. It is worth noting
+
+which side of this dispute is the revisionary one. The block universe does not merely add a claim to
+
+ordinary understanding; it denies one, holding that “the way things currently are” picks out nothing
+
+ontologically distinguished. CTGP’s burden is to show that the formalism can carry the ordinary
+
+assumption, not to motivate the assumption itself.
+
+
+
+The present also need not be postulated as an additional structure laid over spacetime. On this
+
+framework it is constituted. At any generative stage, every physical system in the universe is in
+
+transition from its present state to its next. This is CTGP’s ontological premise and is not
+
+established by general relativity, which describes evolution without asserting that later states are
+
+brought into existence; what follows here is what that premise yields, not a derivation of it. Take
+
+the totality of those transitions — one per system, across the whole universe — and that totality is
+
+the cosmic present. Σ_σ is not a surface selected from among many and then declared privileged; it
+
+is the collection of everything currently being generated. Once the generative ontology is adopted,
+
+the universe-wide present is therefore not an additional structure appended to the physical
+
+dynamics; it is constituted by the totality of physically ongoing state transitions. The posit is
+
+the generative ontology itself, not a privileged surface added on top of it. A system undergoing no
+
+change is included on the same terms, its transition being to a qualitatively identical state
+
+(§9.4.1).
+
+
+
+Two things must be kept apart here, because the constitutive account establishes less than it may
+
+appear to. It establishes that there is a present: the totality of transitions is well defined
+
+whether or not any observer selects a slicing. It does not by itself establish either that those
+
+transitions glue into a single spacelike hypersurface or that the resulting slicing is unique. The
+
+first is secured elsewhere in the formalism. The Hamiltonian and momentum constraints are precisely
+
+the conditions under which a local generative step is consistent with the steps taken in neighboring
+
+regions, so the transitions cohere into a surface rather than fragmenting into unrelated local
+
+advances (§6.7; Appendix A.1). The second is not secured by the transitions at all. ADM evolution
+
+admits many-fingered time: different choices of lapse and shift foliate the same spacetime
+
+differently while describing identical physics. What selects one foliation among these is
+
+cosmological time (§6.1), the maximal proper time elapsed since the initial singularity. The
 
 constitutive argument therefore answers why there is a cosmic present; cosmological time answers
 
@@ -36,13 +148,19 @@ timelike curves is not a generated history whose foliation happens to fail. It i
 
 sequence of generative stages could produce, since producing it would require an event to be among
 
-the conditions of its own production. The restriction to globally hyperbolic spacetimes is thus not
+the conditions of its own production. The exclusion of closed timelike curves is thus not a boundary
 
-a boundary drawn around the theory to protect it; it is what the theory says about which geometries
+drawn around the theory to protect it; it is what the theory says about which geometries can be
 
-can be real. A confirmed observation of closed timelike curves, or of any phenomenon requiring a
+real. The full restriction to globally hyperbolic spacetimes draws on more than becoming alone: it
 
-Cauchy-horizon-crossing region to be physically realized, would falsify the framework (§13).
+also uses the requirement that each stage suffice for its successors and the ordering by regular
+
+cosmological time (§6.1). A confirmed observation of closed timelike curves, or of any phenomenon
+
+requiring a Cauchy-horizon-crossing region to be physically realized, would falsify the framework
+
+(§13).
 
 
 
@@ -88,7 +206,7 @@ Option (1): Restrict CTGP's domain of application to globally hyperbolic spaceti
 
 cosmological time. This is the primary intended domain of the framework. It is not confined to
 
-regions where the FLRW approximation holds: the level sets of cosmological time remain Cauchy
+regions where the FLRW approximation holds: the level sets of cosmological time remain future Cauchy
 
 surfaces through strong anisotropy and collapsed structure, where only their smoothness fails (§6.1;
 
@@ -166,196 +284,18 @@ black holes formed by collapse develop apparent horizons whose exterior evolutio
 
 and globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior.
 
-Perturbations are also expected to make the Cauchy horizon singular through mass inflation. In
+Worldlines that fall inside and reach the singularity end there, typically at finite cosmological
 
-Christodoulou’s formulation of strong cosmic censorship, the maximal globally hyperbolic development
+time; later level sets do not meet them, which is why those level sets are future Cauchy surfaces
 
-of generic initial data is expected to admit no extension whose metric has locally square-integrable
+rather than Cauchy surfaces (§6.1). Perturbations are also expected to make the Cauchy horizon
 
-Christoffel symbols, a regularity threshold associated with weak formulations of the Einstein
+singular through mass inflation. In Christodoulou’s formulation of strong cosmic censorship, the
 
-equations (Christodoulou 2009; Dafermos and Luk 2025). For generic perturbations of Kerr black
+maximal globally hyperbolic development of generic initial data is expected to admit no extension
 
-holes, this inextendibility remains conjectural. Mass inflation therefore gives strong reason to
+whose metric has locally square-integrable Christoffel symbols, a regularity threshold associated
 
-doubt that the idealized analytic extension of the Kerr interior beyond the inner horizon is
+with weak formulations of the Einstein equations (Christodoulou 2009; Dafermos and Luk 2025). For
 
-physically realized, although it does not by itself establish that no continuation is possible.
-
-These three anchors ground the three-option framework in established GR results.
-
-
-
-9.6 Emergent but Law-Selecting Structures
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP belongs to a broader class of physical frameworks in which large-scale emergent structures
-
-activate effective physical constraints. This framing positions CTGP within emergent-law physics
-
-rather than metaphysics.
-
-
-
-The key idea is that certain large-scale physical structures — while not themselves fundamental —
-
-nonetheless select which effective laws govern the system. Consider the following canonical
-
-examples:
-
-
-
-Emergent structure               | Effective law selected
-
----------------------------------+-------------------------------
-
-Fluid phase                      | Navier–Stokes equations
-
-Superconductivity (Cooper pairs) | London equations
-
-Cosmic fluid (FLRW)              | FLRW foliation and cosmic time
-
-
-
-In each case, a lower-level theory (classical mechanics, quantum electrodynamics, general
-
-relativity) is formally foliation-neutral or medium-neutral. But the actual physical configuration —
-
-the fluid phase, the superconducting condensate, the cosmic matter distribution — selects an
-
-effective structure that constrains physical law at the relevant scale.
-
-
-
-CTGP applies the same logic to the cosmological foliation. The matter distribution of the universe
-
-may produce, through its large-scale dynamics:
-
-
-
-• the CMB rest frame as the dynamically selected preferred frame;
-
-• the σ ordering as the physically realized temporal ordering;
-
-• the cosmological time slicing as the constraint-preserving foliation for the initial-value
-
-  problem.
-
-
-
-These structures are emergent in the technical sense: they are not present in the Einstein equations
-
-as written, but they arise from the physical solution. Once emerged, however, they are law-
-
-selecting: they determine which temporal framework is operative and which temporal ordering is
-
-physically operative.
-
-
-
-This framing recasts the central CTGP claim from a metaphysical thesis about the nature of time into
-
-a physical thesis about how the universe's matter content generates its own temporal structure.
-
-Physicists who would be skeptical of the former are often already committed to the latter in other
-
-contexts. CTGP asks only for consistency: if emergent structures can select effective dynamics in
-
-fluids, superconductors, and condensed matter systems, then the cosmological matter distribution can
-
-select an effective temporal structure for the universe as a whole.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-10. Quantum Compatibility and Pre-Geometric Ontology
-
-----------------------------------------------------------------------------------------------------
-
-
-
-CTGP is compatible with multiple quantum interpretations so long as they preserve (i) relativistic
-
-causal structure and (ii) the open-future ontology at the global level. The layered structure of
-
-causality that makes this possible is stated in the Layered Causality Principle (§10.4).
-
-
-
-10.1 Interpretive Routes
-
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-(Q1) Decoherence-based readings: Macroscopic definiteness is approached without introducing an
-
-observer-dependent ontology; CTGP interprets the realized quasiclassical history as the generated
-
-one. Decoherence provides an account of why interference between macroscopically distinct states
-
-becomes negligible due to entanglement with environmental degrees of freedom. Decoherence alone does
-
-not select an outcome, however, so this route inherits the measurement problem rather than solving
-
-it, and it secures CTGP’s unique factual past only by assumption. CTGP treats the realized
-
-quasiclassical trajectory as generated stage by stage along n^μ.
-
-
-
-(Q2) Objective collapse models (e.g., CSL): Collapse provides a physically real stochastic
-
-actualization mechanism aligned with CTGP's ontological edge. σ can be treated as indexing collapse-
-
-updated hypersurfaces. This route has the virtue of providing an explicit physical mechanism for
-
-'selection' at each generation step.
-
-
-
-        dρ/dt = −(i/ħ)[H, ρ] − (λ_{CSL}/2) ∫ d³x [A(x), [A(x), ρ]]
-
-
-
-Here A(x) is a smeared mass-density operator and λ_{CSL} sets the collapse strength; on this route,
-
-collapse events realize the transition Σ_σ → Σ_{σ+Δσ}, making the stochastic dynamics coextensive
-
-with the growth of M(σ).
-
-
-
-(Q3) Epistemic readings: CTGP treats the wavefunction as informational while spacetime generation is
-
-ontologically basic; local predictions remain unchanged. On this route, the quantum state encodes
-
-epistemic facts about the actual generated structure, not additional ontological elements. Like
-
-decoherence-based readings, this route does not itself select an outcome, so it secures CTGP’s
-
-unique factual past only by assumption; collapse models and foliation-dependent hidden-variable
-
-theories supply that uniqueness through their dynamics. Relational interpretations, which make facts
-
-relative to observers, conflict with a unique factual past and are not among CTGP’s available
-
-routes.
-
-
-
-CTGP does not require a specific quantum interpretation, but it is most naturally aligned with
-
-approaches that provide definite macroscopic outcomes at the present edge — collapse models and
-
-foliation-dependent hidden-variable theories, such as relativistic Bohmian mechanics with a
-
-covariantly fixed foliation, being the primary candidates. CTGP thus requires single-outcome
-
-realism: at each stage, each measurement has exactly one realized macroscopic outcome. The standard
-
-Everettian ontology, on which all branches are physically real, conflicts with this requirement,
+generic perturbations of Kerr black holes, this inextendibility remains conjectural. Mass inflation
