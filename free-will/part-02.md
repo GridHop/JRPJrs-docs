@@ -1,10 +1,6 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 02 of 3 (1,796 words)
-
-and prior brain states all contribute to the organism's structure.
-
-
+Part 02 of 3 (1,794 words)
 
 This objection only succeeds if agency requires ultimate self-creation. That standard is implausibly
 
@@ -859,5 +855,9 @@ For example:
 
 
 A sleeping person may have reduced accountability.
+
+
+
+A very young child may have reduced accountability.
 
 

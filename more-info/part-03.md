@@ -1,6 +1,6 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 03 of 5 (1,796 words)
+Part 03 of 5 (1,797 words)
 
 “Mind” must mean more than the mental contents present at a given moment; otherwise sleep,
 
@@ -46,29 +46,15 @@ present access to part of that history. The view therefore has three interconnec
 
 
 
-Under CTGP only the present exists, so the claim “I am the same person I was ten years ago” relates
 
-something that exists (the present person) to something that does not (the earlier person). The same
 
-resources that answer the general question about past truths answer this one. That the present
+Under CTGP only the present exists, but what has ceased to exist is the person’s earlier state, not the person. A person persists for as long as the conditions of persistence for persons are satisfied, while each earlier state ceases (CTGP – explained, §5.2.2). The claim “I am the same
 
-person was the earlier person is grounded in the present world’s past-tensed properties; the person
-
-is the present stage of a process whose history is also physically written into it now, as memory,
-
-neural structure, habits, dispositions, and commitments.
+person I was ten years ago” therefore says that the presently existing individual is the one who was in that earlier state. The same resources that answer the general question about past truths answer this one: that this individual was in that state is grounded in the present world’s past-tensed properties. The person’s history is also physically written into the person now, as memory, neural structure, habits, dispositions, and commitments.
 
 
 
-Memory is evidence of this continuity, not what creates it. A present brain is not merely a
-
-container of information about its past; it is one of the physical consequences produced by that
-
-past. The resulting self-description is not “I am the person who remembers being me” but rather “I
-
-am the presently existing continuation produced through the causal development of that earlier
-
-individual.”
+Memory is evidence of this continuity, not what creates it. A present brain is not merely a container of information about its past; it is one of the physical consequences produced by that past. The resulting self-description is not “I am the person who remembers being me” but rather “I am the same individual, now in my present state, produced through the causal development of my earlier states.”
 
 
 
@@ -369,7 +355,3 @@ carries great metaphysical and practical weight.
 Physics may one day tell us with great precision that process X occurred. That does not by itself
 
 tell us that X’s output is numerically identical to its input. The first is an empirical question;
-
-the second concerns the identity conditions we apply to physical processes. CTGP can say that a
-
-present state causally arose from an earlier one; it does not follow that the present entity is

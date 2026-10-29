@@ -1,6 +1,22 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 05 of 5 (791 words)
+Part 05 of 5 (823 words)
+
+    universe’s contents and exists entirely within it. The observer is a part of the universe
+
+    observing other parts of the universe.
+
+
+
+====================================================================================================
+
+PART VII. Fiction as a Laboratory for Philosophy
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
 
 33. Changing one assumption and following the consequences
 

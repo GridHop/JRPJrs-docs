@@ -1,10 +1,6 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 03 of 3 (1,246 words)
-
-A very young child may have reduced accountability.
-
-
+Part 03 of 3 (1,238 words)
 
 Someone acting under coercion may have reduced accountability.
 

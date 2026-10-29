@@ -1,6 +1,10 @@
 # More Info — Causation, Information, Identity, and Becoming
 
-Part 04 of 5 (1,796 words)
+Part 04 of 5 (1,794 words)
+
+the second concerns the identity conditions we apply to physical processes. CTGP can say that a
+
+present state causally arose from an earlier one; it does not follow that the present entity is
 
 numerically identical to the earlier entity. That requires a theory of persistence. CTGP supplies
 
@@ -14,13 +18,7 @@ What the conditions are for a person is the question at issue. The best summary 
 
 
 
-    Personal identity is not preserved merely by preserving information. It is preserved, if at all,
-
-    by the kind of causal continuity through which one presently existing individual develops into
-
-    its next state. A representation can preserve everything needed to describe an individual
-
-    without becoming that individual.
+Personal identity is not preserved merely by preserving information. It is preserved by the kind of causal continuity through which one presently existing individual develops into its next state. A representation can preserve everything needed to describe an individual without becoming that individual.
 
 
 
@@ -393,19 +391,3 @@ ends.
     A teapot is not the house merely because it is made of the house’s contents and exists entirely
 
     within it. Likewise, a person is not the universe merely because that person is made of the
-
-    universe’s contents and exists entirely within it. The observer is a part of the universe
-
-    observing other parts of the universe.
-
-
-
-====================================================================================================
-
-PART VII. Fiction as a Laboratory for Philosophy
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------

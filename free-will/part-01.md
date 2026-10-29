@@ -1,6 +1,6 @@
 # Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 
-Part 01 of 3 (1,792 words)
+Part 01 of 3 (1,795 words)
 
 FREE WILL — HUMANS MIGHT ACTUALLY HAVE WILL, VOLITION, AND SELF-AGENCY
 
@@ -159,14 +159,6 @@ microscopic indeterminacy.
 FREE WILL, VOLITION, AND SELF-AGENCY AS EMERGENT CONTROL PROCESSES:
 
 A COMPATIBILIST ACCOUNT
-
-
-
-Jeffrey Robert Palin Jr.
-
-
-
-June 6, 2026
 
 ----------------------------------------------------------------------------------------------------
 
@@ -415,3 +407,7 @@ A stronger objection comes from source incompatibilism, which argues that indivi
 genuine authorship because they did not create the underlying architecture that generates their
 
 decisions (Strawson, 1994; Pereboom, 2001). Genes, developmental history, environmental conditions,
+
+and prior brain states all contribute to the organism's structure.
+
+

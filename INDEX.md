@@ -50,9 +50,9 @@ Seven works. Each reading page has an HTML and a Markdown version. Part boundari
 ## Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 - [Contents](free-will/index.html) — 3 parts
 
-- [Part 01 HTML](free-will/part-01.html) · [Markdown](free-will/part-01.md) — 1,792 words
-- [Part 02 HTML](free-will/part-02.html) · [Markdown](free-will/part-02.md) — 1,796 words
-- [Part 03 HTML](free-will/part-03.html) · [Markdown](free-will/part-03.md) — 1,246 words
+- [Part 01 HTML](free-will/part-01.html) · [Markdown](free-will/part-01.md) — 1,795 words
+- [Part 02 HTML](free-will/part-02.html) · [Markdown](free-will/part-02.md) — 1,794 words
+- [Part 03 HTML](free-will/part-03.html) · [Markdown](free-will/part-03.md) — 1,238 words
 
 ## Info
 - [Contents](info/index.html) — 23 parts
@@ -84,11 +84,11 @@ Seven works. Each reading page has an HTML and a Markdown version. Part boundari
 ## More Info — Causation, Information, Identity, and Becoming
 - [Contents](more-info/index.html) — 5 parts
 
-- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,795 words
-- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,800 words
-- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,795 words
-- [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,791 words
-- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 782 words
+- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,789 words
+- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,797 words
+- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,797 words
+- [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,794 words
+- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 823 words
 
 ## Deal's Worth
 - [Contents](deals-worth/index.html) — 22 parts

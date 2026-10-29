@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "source_fidelity": "Each source DOCX paragraph's plain text is preserved in order, including empty paragraphs; inline formatting, embedded images, and tables are not converted.",
+  "source_fidelity": "Each updated source DOCX paragraph's plain text is preserved in order, including empty paragraphs; Word inline formatting, embedded images, and tables are not converted.",
   "works": [
     {
       "title": "Signal-Based Epistemology — Explained",
@@ -14,19 +14,19 @@
     {
       "title": "Cosmic-Time Generative Presentism (CTGP) — Explained",
       "slug": "ctgp-explained",
-      "source_filename": "CTGP - explained(20261025-183339).docx",
+      "source_filename": "CTGP - explained(20261025-154837).docx",
       "source_paragraphs": 4272,
       "published_paragraphs": 4272,
-      "words": 43809,
+      "words": 43805,
       "parts": 25
     },
     {
       "title": "Free Will — Humans Might Actually Have Will, Volition, and Self-Agency",
       "slug": "free-will",
-      "source_filename": "Free Will - Humans Might Actually Have Will Volition and Self-agency(2).docx",
-      "source_paragraphs": 801,
-      "published_paragraphs": 801,
-      "words": 4834,
+      "source_filename": "Free Will - Humans Might Actually Have Will Volition and Self-agency(1).docx",
+      "source_paragraphs": 797,
+      "published_paragraphs": 797,
+      "words": 4827,
       "parts": 3
     },
     {
@@ -41,10 +41,10 @@
     {
       "title": "More Info — Causation, Information, Identity, and Becoming",
       "slug": "more-info",
-      "source_filename": "More Info(20261025-183339).docx",
-      "source_paragraphs": 909,
-      "published_paragraphs": 909,
-      "words": 7969,
+      "source_filename": "More Info(1).docx",
+      "source_paragraphs": 899,
+      "published_paragraphs": 899,
+      "words": 8000,
       "parts": 5
     },
     {
