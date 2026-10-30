@@ -156,6 +156,15 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 35 HTML](quantum-reference-frames-single-outcome-dynamics/part-35.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-35.md) — 1,648 words
 
 ## Informative
-- [Contents](informative/index.html) — 1 part
+- [Contents](informative/index.html) — 10 parts
 
-- [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 276 words
+- [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 1,771 words
+- [Part 02 HTML](informative/part-02.html) · [Markdown](informative/part-02.md) — 1,794 words
+- [Part 03 HTML](informative/part-03.html) · [Markdown](informative/part-03.md) — 1,796 words
+- [Part 04 HTML](informative/part-04.html) · [Markdown](informative/part-04.md) — 1,784 words
+- [Part 05 HTML](informative/part-05.html) · [Markdown](informative/part-05.md) — 1,793 words
+- [Part 06 HTML](informative/part-06.html) · [Markdown](informative/part-06.md) — 1,754 words
+- [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,800 words
+- [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,793 words
+- [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,792 words
+- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 499 words
