@@ -2,7 +2,7 @@
 
 Public site: https://gridhop.github.io/JRPJrs-docs/
 
-Seven works. Each reading page has an HTML and a Markdown version. Part boundaries are chosen at paragraph boundaries.
+Eight works. Each reading page has an HTML and a Markdown version. Part boundaries are chosen at paragraph boundaries.
 
 ## Signal-Based Epistemology — Explained
 - [Contents](signal-based-epistemology/index.html) — 10 parts
@@ -154,3 +154,8 @@ Seven works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 33 HTML](quantum-reference-frames-single-outcome-dynamics/part-33.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-33.md) — 1,795 words
 - [Part 34 HTML](quantum-reference-frames-single-outcome-dynamics/part-34.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-34.md) — 1,800 words
 - [Part 35 HTML](quantum-reference-frames-single-outcome-dynamics/part-35.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-35.md) — 1,648 words
+
+## Informative
+- [Contents](informative/index.html) — 1 part
+
+- [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 276 words
