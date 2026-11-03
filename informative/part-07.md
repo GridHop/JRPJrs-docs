@@ -1,3 +1,6 @@
+But I would be careful about turning that into the claim that indefinite order requires absolutely no physical trace anywhere. The precise requirement is that distinguishability of the relevant alternatives must not destroy the coherence needed for the particular interference effect. Partial distinguishability can coexist with partial interference. Correlations may also be manipulated or erased under suitable conditions, and the result depends on which degrees of freedom are included and which measurements are performed.
+More importantly, the absence of a distinguishable quantum record does not logically establish the absence of every conceivable underlying fact. That’s a philosophical inference, not a consequence of the overlap equation alone.
+Consider the possibility that there really is some deeper variable O specifying which operation occurred first.
 If O is an ordinary classical variable that selects A-before-B or B-before-A and the experiment is otherwise described by the usual fixed-order processes, then the resulting process belongs to the class that causal-nonseparability tests are designed to exclude. Simply adding ignorance about O won’t reproduce the coherent quantum-switch statistics.
 But that doesn’t mean every hidden-order theory is impossible.
 A deeper theory might contain additional variables, nonclassical dynamics, or contextual relationships between the hidden description and observed results. Bohmian mechanics is an instructive comparison. In Bohmian mechanics, particles have definite trajectories, even when the wavefunction follows multiple paths and produces interference. The particle’s trajectory is not necessarily something that can be reconstructed from the ordinary quantum measurement statistics.
@@ -67,13 +70,3 @@ P(+) = ½(1 + 0.854) = 0.927.
 That numerical result is just an illustration of the formula, not a universal prediction about quantum clocks.
 There are several qualifications here. The clock states have to be defined consistently, the intervention model matters, and one must distinguish a genuine coherent measurement from merely reading out a classical clock value. The formula is an idealized two-branch model, not a general theorem covering every quantum-clock construction.
 This is relevant to quantum reference frames because different physical clocks need not supply identical descriptions of when an interaction occurs. Baumann and Lock investigated temporal localization and causality across quantum reference frames in 2026. Their analysis shows that consistent modeling of interventions across multiple clocks can require temporal delocalization, and that certain cases naturally lead to indefinite operational causal order.
-That still doesn’t mean different clocks literally create different objective histories. Nor does it prove that there’s one unique fundamental history. Those are further interpretive questions.
-It means that assuming every quantum-clock description can be reduced to one ordinary classical timeline may be too restrictive.
-Gravity makes the issue even more interesting.
-General relativity says that clocks tick at rates influenced by gravitational potential and spacetime geometry. If the source of the gravitational field is itself in a quantum superposition, one can investigate whether the relative timing of operations becomes correlated with different gravitational configurations.
-In a weak, approximately static gravitational field, the fractional proper-time difference associated with a gravitational-potential difference is approximately
-Δτ/τ ≈ ΔΦ/c².
-For a point mass M, the magnitude of the potential difference between distances r₁ and r₂ is
-|ΔΦ| = GM|1/r₁ − 1/r₂|.
-Therefore,
-|Δτ|/τ ≈ (GM/c²)|1/r₁ − 1/r₂|.

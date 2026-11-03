@@ -1,3 +1,7 @@
+There’s also no need to treat different configurations of a persisting entity as numerically distinct entities. A person, planet, particle, or field can be described at successive stages without assuming that its earlier and later configurations are separate objects interacting with one another. How persistence is understood is a further philosophical question, and neither presentism nor eternalism is uniquely established by the local interactions and causal connections we observe.
+
+So I wouldn’t answer with an unconditional “no, it’s impossible,” because that would claim more than the evidence establishes. But I also wouldn’t answer “yes” merely because physical processes connect events at different times, or because some mathematical formulations directly couple temporally separated variables.
+
 The conclusion I think the evidence supports is that local physical interactions and causal connections across time are established, whereas direct physical interaction between entities as instantiated in distinct whole-universe states has not been demonstrated, established, nor required by the evidence. Standard local relativistic field theories account for the relevant observations without requiring such cross-stage direct coupling. Alternative formulations show why universal impossibility shouldn’t simply be assumed, but they don’t establish that the universe actually contains independently interacting global temporal states.
 
 In other words, being causally connected across different times isn’t the same as directly interacting from those different times, and neither relationship by itself tells us whether past, present, and future coexist.
@@ -66,10 +70,3 @@ GRW-type collapse theories
 GRW-type collapse theories provide another approach. In the flash ontology, the realized history consists of definite spacetime events called flashes.
 For a short experiment involving a microscopic particle, spontaneous collapses are extraordinarily unlikely, so quantum-switch interference can survive essentially unchanged.
 If no collapse occurs during the coherent evolution, the collapse dynamics does not select either effective operational-order branch as uniquely realized. In the flash ontology, the history need not contain an event identifying one of those branches as the actual one.
-This does not mean that the history establishes that neither operation came first, or that the underlying localized interactions lack definite causal relationships. It means that a definite history of flashes need not determine a unique classical ordering of the effective operations.
-These examples distinguish definite realized events from definite classical orderings of effective operations. They illustrate possible single-outcome accounts, while a fully satisfactory relativistic implementation remains a further theoretical requirement.
-4. What a single-outcome theory must demonstrate
-Merely postulating one realized history is insufficient. A satisfactory theory must provide a consistent physical account of:
-How the underlying events and interactions are realized.
-How quantum coherence between alternative operational orders is preserved.
-How the observed interference and causal-nonseparability statistics arise.

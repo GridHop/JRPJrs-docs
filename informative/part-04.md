@@ -1,3 +1,13 @@
+A cloned human, if reproductive cloning became feasible, would ordinarily develop from an embryo rather than emerge as an adult duplicate.
+
+Mammalian cloning has been demonstrated since Dolly the sheep’s birth in 1996, and cloned macaques were reported in 2018.
+
+Human reproductive cloning is not an established technology and raises substantial safety and ethical concerns.
+
+A duplicate possessing someone’s detailed physical and mental organization would be a much more demanding achievement.
+
+25. Why full duplication remains remote
+
 The human brain contains approximately 86 billion neurons and an estimated hundreds of trillions of synaptic connections, depending on counting methods.
 
 Reconstructing a person’s memories and cognitive organization would likely require much more than a simple wiring diagram, including relevant synaptic strengths, molecular states, and other physiological features.
@@ -121,8 +131,4 @@ Here the delta function restricts the coupled events to lightlike separation. Un
 But I also wouldn’t infer from that mathematics that distinct whole-universe states physically coexist or directly interact as independently existing wholes. A relationship between charged-particle events isn’t automatically a relationship between entire global states as separate physical entities. Nor has Wheeler–Feynman theory been experimentally established as an indispensable fundamental replacement for conventional electromagnetic field theory. The appearance of advanced terms or future-absorber conditions also doesn’t, by itself, demonstrate that independent future boundary information is physically indispensable in every adequate account of the observations.
 
 I think the same caution applies more generally. A mathematical relationship between variables at different times, a physical interaction between specified entities, and an ontological claim that distinct temporal states coexist are three different propositions. Even if an experiment eventually established an indispensable direct coupling between temporally separated events, that wouldn’t automatically prove eternalism, or that whole-universe states themselves interact. It would first establish something about the dynamics of the physical degrees of freedom involved.
-
-There’s also no need to treat different configurations of a persisting entity as numerically distinct entities. A person, planet, particle, or field can be described at successive stages without assuming that its earlier and later configurations are separate objects interacting with one another. How persistence is understood is a further philosophical question, and neither presentism nor eternalism is uniquely established by the local interactions and causal connections we observe.
-
-So I wouldn’t answer with an unconditional “no, it’s impossible,” because that would claim more than the evidence establishes. But I also wouldn’t answer “yes” merely because physical processes connect events at different times, or because some mathematical formulations directly couple temporally separated variables.
 

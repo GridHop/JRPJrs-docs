@@ -1,3 +1,13 @@
+That still doesn’t mean different clocks literally create different objective histories. Nor does it prove that there’s one unique fundamental history. Those are further interpretive questions.
+It means that assuming every quantum-clock description can be reduced to one ordinary classical timeline may be too restrictive.
+Gravity makes the issue even more interesting.
+General relativity says that clocks tick at rates influenced by gravitational potential and spacetime geometry. If the source of the gravitational field is itself in a quantum superposition, one can investigate whether the relative timing of operations becomes correlated with different gravitational configurations.
+In a weak, approximately static gravitational field, the fractional proper-time difference associated with a gravitational-potential difference is approximately
+Δτ/τ ≈ ΔΦ/c².
+For a point mass M, the magnitude of the potential difference between distances r₁ and r₂ is
+|ΔΦ| = GM|1/r₁ − 1/r₂|.
+Therefore,
+|Δτ|/τ ≈ (GM/c²)|1/r₁ − 1/r₂|.
 To get an idea of the scale, imagine a 1 kg mass in a hypothetical superposition of configurations placing it 1 cm and 2 cm from a clock.
 Using
 G ≈ 6.67 × 10⁻¹¹ m³ kg⁻¹ s⁻²,
@@ -70,5 +80,3 @@ Whether nature ever produces fundamentally indefinite spacetime causal order, an
 
 Does "experiencing backwards (T1→T0)"="one's experiences reverse-propagate, one is 'passenger of experience' "observing 'already present-in-own-brain info'" via the 'outcome' arrives before the 'prediction', making authorship/evaluation impossible"?
 
-If "experiencing backwards (T1→T0)" means that conscious experience itself traverses an already-existing sequence of brain states in reverse order, then outcomes would indeed be encountered before predictions, conclusions before inferences, and answers before questions. In that sense, the experiencer would not be generating those outcomes within their experienced direction of time. They would encounter informational states that are already present in the brain state being traversed.
-However, saying that the experiencer is "observing already-present-in-own-brain information" may be too strong. Observation, evaluation, interpretation, deduction, and judgment are themselves cognitive processes. Under a strict reversal, those processes would not be experienced as constructive activities. The subject would not first receive information and then actively work on it. Rather, each instant would simply contain whatever conscious (if the "experiencing backwards (T1→T0)" setup even enables being conscious) content belongs to that instant's brain state.

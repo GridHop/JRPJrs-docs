@@ -1,3 +1,10 @@
+This does not mean that the history establishes that neither operation came first, or that the underlying localized interactions lack definite causal relationships. It means that a definite history of flashes need not determine a unique classical ordering of the effective operations.
+These examples distinguish definite realized events from definite classical orderings of effective operations. They illustrate possible single-outcome accounts, while a fully satisfactory relativistic implementation remains a further theoretical requirement.
+4. What a single-outcome theory must demonstrate
+Merely postulating one realized history is insufficient. A satisfactory theory must provide a consistent physical account of:
+How the underlying events and interactions are realized.
+How quantum coherence between alternative operational orders is preserved.
+How the observed interference and causal-nonseparability statistics arise.
 How the account remains consistent with relevant relativistic constraints and operational no-signaling.
 Why changing the effective description or quantum reference frame does not change which underlying history actually occurred.
 These are substantive mathematical and physical requirements, not automatic consequences of single-outcome realism.
@@ -84,6 +91,3 @@ Take ε = 10⁻⁶ and N = 10⁸. Then
 e^(−Nε) = e^(−100) ≈ 3.7 × 10⁻⁴⁴.
 Each environmental component carries very little distinguishing information, yet the combined effect almost completely suppresses interference.
 This is why simply saying “nobody measured the order” isn’t enough. Environmental correlations can matter even when nobody deliberately measures or collects them.
-But I would be careful about turning that into the claim that indefinite order requires absolutely no physical trace anywhere. The precise requirement is that distinguishability of the relevant alternatives must not destroy the coherence needed for the particular interference effect. Partial distinguishability can coexist with partial interference. Correlations may also be manipulated or erased under suitable conditions, and the result depends on which degrees of freedom are included and which measurements are performed.
-More importantly, the absence of a distinguishable quantum record does not logically establish the absence of every conceivable underlying fact. That’s a philosophical inference, not a consequence of the overlap equation alone.
-Consider the possibility that there really is some deeper variable O specifying which operation occurred first.

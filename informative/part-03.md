@@ -1,3 +1,11 @@
+Lawfulness does not necessarily imply that outcomes are predetermined, and unpredictability does not imply absence of causal structure.
+
+CTGP allows lawful generation without an already existing future. Whether a particular generative law is deterministic or stochastic is a separate question.
+
+A completed causal sequence can be reconstructed retrospectively even when no earlier participant possessed a complete representation of its outcome.
+
+13. A complete causal history without a complete history book
+
 Suppose a lawful sequence runs from A to E, but afterward all evidence distinguishing A from alternative antecedents disappears.
 
 There may still be a determinate fact about what happened, even if no observer can reconstruct it.
@@ -221,14 +229,4 @@ PART V. Human Duplication as a Future Technology
 24. Clones and duplicates
 
 A biological clone is primarily a genetic copy, not a copy of an existing person’s memories and personality.
-
-A cloned human, if reproductive cloning became feasible, would ordinarily develop from an embryo rather than emerge as an adult duplicate.
-
-Mammalian cloning has been demonstrated since Dolly the sheep’s birth in 1996, and cloned macaques were reported in 2018.
-
-Human reproductive cloning is not an established technology and raises substantial safety and ethical concerns.
-
-A duplicate possessing someone’s detailed physical and mental organization would be a much more demanding achievement.
-
-25. Why full duplication remains remote
 

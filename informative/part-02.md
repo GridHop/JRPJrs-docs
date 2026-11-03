@@ -1,3 +1,5 @@
+A way to picture CTGP: "imagine (a hypothetical scenario whereby) all of planet Earth being a clay mold whose clay, at times, changes shape, "each event-instant" (of time) is an instant "that 'a state that the Earth's mold was, is, or will be in' 'is, was, or will be' during". But the "past and/or future" only exist(s) abstractly (you wouldn't say intuition exists non-abstractly)."
+
 Randomness alone doesn't build order. But randomness plus lawful dynamics does, constantly. The order comes from the laws and conditions that shape random variation, not from a separate force. And quantum randomness is what those laws leave undetermined: they fix the odds, not which outcome happens.
 
 Reality, Information, and Knowledge
@@ -176,12 +178,4 @@ Likewise, an outcome’s definiteness when realized does not establish that it e
 Three concepts must be distinguished:
 
 prewritten ≠ lawful ≠ predictable
-
-Lawfulness does not necessarily imply that outcomes are predetermined, and unpredictability does not imply absence of causal structure.
-
-CTGP allows lawful generation without an already existing future. Whether a particular generative law is deterministic or stochastic is a separate question.
-
-A completed causal sequence can be reconstructed retrospectively even when no earlier participant possessed a complete representation of its outcome.
-
-13. A complete causal history without a complete history book
 
