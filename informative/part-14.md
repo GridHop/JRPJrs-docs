@@ -1,3 +1,19 @@
+So, to the question: yes. Numerical identity across times is via the measure of time plus the persistence conditions of the kind of thing in question. The measure of time here means time's order and, where a kind's conditions require it, time's magnitude, both fixed by cosmological time as one common, definite standard in any spacetime where it's regular, the standard model of ours included. Where it isn't, the order along each worldline is still fixed by the causal structure and durations along it by proper time, but a single common standard needs a physically distinguished slice to count from. The order is necessary but not sufficient, and the persistence conditions supply what the order can't, though they only apply across an order. The act of measuring time is neither necessary nor sufficient: it presupposes the identity of the clock doing the measuring, it can be wrong, and it answers to the actual order and durations, which cosmological time fixes. It's how we come to know identity, always from the present, not what makes it so. The same holds in a block universe, where cosmological time is just as available and every stage exists.
+
+Regarding block-universe's "slice & loaf", a τ-slice is an instant of the universe as a whole in cosmological time. Is our universe's cosmological time gapless & does each τ-slice have every part of our universe co-occurring during cosmological time?
+
+Regarding the standard cosmological model, yes to both, though each "yes" needs pinning down. Cosmological time is continuous, so its slices form an unbroken succession. No cosmic time is skipped, and no worldline jumps over any slice. Whether time stays continuous at the very smallest scales is a separate and open question. And each τ-slice contains exactly one moment of every part of the universe that exists at that cosmic time, all at the same value of τ, none able to affect another, together making a state of the universe that everything later traces back through. Here's the longer version.
+
+In the block picture, spacetime is a loaf. All of it, past, present and future together, is the universe as a whole, and a slice is a three-dimensional cross-section: the whole of space at one instant. The catch relativity adds is that the loaf doesn't come pre-sliced. Observers moving relative to each other cut it at different angles, because their clocks, synchronized by light signals in their own frames, disagree about which distant events are simultaneous:
+
+t′ = γ (t − v x / c²),  γ = 1/√(1 − v²/c²)
+
+so two events with Δt = 0, a distance Δx apart, get Δt′ = −γ v Δx / c². Nothing in the laws picks one cut over another. What can pick one is the geometry of the particular loaf, and that's where cosmological time comes in.
+
+Every clock measures proper time along its own path through spacetime, its worldline. For a path λ,
+
+L(λ) = (1/c) ∫ √(−g_μν dx^μ dx^ν)
+
 where g_μν is the metric (sign convention −,+,+,+). That's local: it orders and measures events along one worldline and says nothing about anything off it. Andersson, Galloway and Howard (1998) built a global time out of it. At any event p,
 
 τ(p) = sup { L(λ) : λ a past-directed causal curve from p }
@@ -45,16 +61,4 @@ Now, gapless. Andersson, Galloway and Howard showed that a regular τ is continu
 0 < τ < T
 
 where T is infinite if the universe expands forever, as the standard model says ours does. So no cosmic time is skipped: between any two slices there's a slice for every value in between. The same holds along every worldline. If a future-directed worldline λ runs from τ = a to τ = b, then τ along it is continuous and strictly increasing, so for every c between a and b there's exactly one point on λ where τ = c. No worldline jumps over a slice.
-
-Notice also what the open bottom end means. There's no first slice. The beginning is a boundary of the loaf, not an instant in it, so cosmic time starts without a first moment, the way the numbers greater than zero have no smallest member.
-
-Two things can look like gaps but aren't. The first is the shape of the slices. In a lumpy universe τ stops being smooth where the longest-time paths from the past stop being unique, so the slices can pick up creases. Near a black hole, a slice can run up against the singularity, which isn't a place in spacetime but marks where spacetime stops, so the slice is left incomplete there, and a worldline that ends at the singularity simply stops crossing later slices; that's something ending, not time skipping. More generally, regularity alone doesn't guarantee that every slice is smooth or even connected. None of that is a gap in time: gaplessness is about τ's values, which still fill an unbroken interval, and about each worldline, which still passes through every value between any two it reaches. The second is an endless past. If causal paths reaching an event could have unboundedly long proper times, as in some models where the past goes on forever, τ would be infinite there rather than gappy, and you'd count instead from some physically distinguished slice, such as a bounce.
-
-The real open question is the smallest scales. Continuity is a feature of spacetime as general relativity describes it, and nobody knows whether that description holds down to the Planck time,
-
-t_P = √(ħG/c⁵) ≈ 5.39 × 10⁻⁴⁴ s.
-
-Some approaches to quantum gravity, causal sets for instance, make spacetime fundamentally discrete. It's worth separating two senses of "gapless" here. If it means continuous, that's what's open at the Planck scale. If it means that each instant follows the one immediately before it with nothing in between, that could still hold in a discrete world, as long as that world has whole-universe instants at all; there'd just be a smallest step. Some discrete approaches, causal sets among them, don't come with global instants, only a discrete web of before-and-after relations, and there the question would have to be restated.
-
-Now, co-occurrence. Read the time-function property backward: two different events with the same τ can't be causally related, so they're spacelike-separated. A τ-slice therefore holds exactly one moment of every worldline that reaches that cosmic time, and none of those moments can affect any other. That includes galaxies beyond our horizons, ones we've never exchanged a signal with and, beyond our event horizon at roughly 16 billion light-years, never will.
 

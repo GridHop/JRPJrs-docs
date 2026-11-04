@@ -1,3 +1,13 @@
+The dome is a special construction, and people still argue about how much it tells us about realistic Newtonian systems. Mathematically, though, it's a clean counterexample to guaranteed uniqueness. General relativity has an analogous issue in certain spacetimes with Cauchy horizons, beyond which the data on a slice no longer fixes a unique continuation. That's a feature of particular solutions, not of the theory across the board.
+
+Determinism also isn't the same as predictability. In chaotic systems a small error δ₀ in your data typically grows roughly like δ₀e^(λt) over a range of times, where λ is the Lyapunov exponent. So "fixed in principle" doesn't mean "knowable in practice." Running the equations backward is no better: in typical chaotic systems, errors grow just as quickly when you retrodict as when you predict.
+
+Quantum mechanics adds another layer. The Schrödinger equation, iħ ∂ψ/∂t = Ĥψ, is deterministic for ψ in both directions: given ψ at one time, it's fixed at every earlier and later time. But what ψ tells you about actual measurement outcomes is probabilities, via the Born rule P(a) = |⟨a|ψ⟩|². So in its standard formulation, even complete present data narrows a future measurement's outcome only to a weighted set of candidates. Retrodiction has a parallel problem. On readings where measurement collapses ψ, many different earlier states could have led to the same post-measurement state, so present data doesn't single out earlier specifics either.
+
+Whether the underlying physics is genuinely indeterministic depends on interpretation. Bohmian mechanics adds definite particle positions plus a guidance equation that steers them. That gets you single outcomes, but only once you feed in exact particle positions as further data. Many-worlds keeps only the Schrödinger equation and says every outcome occurs on some branch, though how probability fits into that picture is itself debated. Collapse theories such as GRW go the other way, building genuine randomness into the dynamics itself. The math alone doesn't decide between these.
+
+Could a theory ever fix every specific, past, present, and future, by its laws alone? Only if its equations admitted exactly one solution, with no free data and no free constants. Even then, for a quantum theory a unique state fixes probabilities for outcomes, so whether that counts as fixing every specific event depends on interpretation.
+
 Some proposals push in this direction. Hartle and Hawking's no-boundary proposal, for instance, tries to make the universe's initial quantum state a matter of law rather than input. Even so, what it aims to yield is probabilities for different possible courses of cosmic events, not one detailed course of events, and it isn't established.
 
 More generally, even a theory with a single solution would still need observation to confirm it describes our world rather than just a consistent mathematical one, because a uniqueness proof says nothing about which model reality matches. And bare math doesn't even say what its symbols stand for. It takes rules linking them to observables to turn equations into a physical theory at all.
@@ -33,20 +43,4 @@ which in words is the longest proper time that could have elapsed along any caus
 That definition does depend on the past being finite in the right way. If the past goes on forever in proper time, so that causal curves reaching p can have unboundedly long proper times, then
 
 τ(p) = +∞
-
-and if the universe is uniform on large scales, that's true at every point, so τ has no finite value anywhere. The flat, empty spacetime of special relativity is the textbook case. That isn't a flaw in the idea, just a fact about which spacetimes have a cosmological time. Whether ours does is open. The standard cosmological model, which the CMB supports, gives a finite, regular τ. It does so only by extrapolating back to a(t) → 0, beyond the epochs observations test, and some live proposals for the earliest history, such as a bounce or a long or endless phase before the hot Big Bang, would make τ infinite. So nothing below assumes our universe's past is finite. Here's the condition once, for everything that follows: what I say about τ in general holds in any spacetime where τ is regular, and what I say about τ in our universe holds on the standard model. Whether time has an end doesn't matter, since τ only looks backward. And nothing in the account of identity below depends on time having a beginning or an end. Order and magnitude, and particular times and intervals, make sense either way. What a regular τ provides is one common standard for them, set by the geometry itself. In a hypothetical universe with an endless past, you'd have to measure from some physically distinguished slice instead, such as the moment of a bounce, taking the longest proper time from that slice rather than from a beginning. That standard would be only as good as the slice is distinguished. For our universe this fallback is close at hand. The standard model assigns only minutes to everything before the earliest epoch we test directly, the formation of the first light nuclei. So the figures below, such as the 13.8 billion years, are, to within those minutes, the longest proper time since that epoch, whatever came before it.
-
-In an idealized expanding universe with the FLRW metric
-
-ds² = −c² dt² + a(t)² dΣ²
-
-that begins in a Big Bang, with a(t) → 0 as t → 0, the cosmological time is just t, the proper time of observers who ride along with the expansion, the comoving observers. That's what cosmologists mean by the age of the universe, about 13.8 billion years. (Without such a beginning the same metric can give τ = ∞, as de Sitter expansion, a(t) ∝ e^(Ht), does when its t runs back without limit.) In our actual, lumpier universe, τ's slices still exist; only their match with comoving clocks is approximate.
-
-A clock that moves relative to the comoving observers accumulates less time. In FLRW, a clock with peculiar velocity v, measured by the local comoving observers, ticks at
-
-dτ = dt √(1 − v²/c²)
-
-and in a weak gravitational field you get approximately
-
-dτ ≈ dt (1 + Φ/c² − v²/2c²)
 

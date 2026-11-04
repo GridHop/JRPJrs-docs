@@ -1,3 +1,17 @@
+That distinction matters because a geometrically distinguished foliation isn’t automatically an ontologically privileged present. The geometry can supply the slicing without establishing that only one slice exists, or that all slices coexist. Those are additional claims about temporal existence. And regardless of which suitable foliation is chosen, a pointlike local interaction event belongs to one hypersurface of that foliation, even though a larger physical process can involve events on many hypersurfaces.
+
+Now, there are serious theoretical formulations that complicate any categorical claim that physical interactions must always be local in this particular sense. Wheeler–Feynman direct-action electrodynamics is an example. Rather than treating an independently propagating electromagnetic field as the fundamental mediator, it formulates interactions through direct relationships between charged particles at lightlike-separated events, with time-symmetric contributions associated with source events in both the past and future light cones.
+
+Schematically, its direct-action structure includes terms of the form:
+
+S_int ∼ Σ_{i≠j} ∫ dτᵢ dτⱼ (ẋᵢ · ẋⱼ) δ((xᵢ − xⱼ)²)
+
+Here the delta function restricts the coupled events to lightlike separation. Unlike the local interaction-density example, this term relates variables associated with different spacetime events. So I wouldn’t dismiss it as merely ordinary local field theory with different bookkeeping. The mathematical coupling really is nonlocal in its direct-action formulation.
+
+But I also wouldn’t infer from that mathematics that distinct whole-universe states physically coexist or directly interact as independently existing wholes. A relationship between charged-particle events isn’t automatically a relationship between entire global states as separate physical entities. Nor has Wheeler–Feynman theory been experimentally established as an indispensable fundamental replacement for conventional electromagnetic field theory. The appearance of advanced terms or future-absorber conditions also doesn’t, by itself, demonstrate that independent future boundary information is physically indispensable in every adequate account of the observations.
+
+I think the same caution applies more generally. A mathematical relationship between variables at different times, a physical interaction between specified entities, and an ontological claim that distinct temporal states coexist are three different propositions. Even if an experiment eventually established an indispensable direct coupling between temporally separated events, that wouldn’t automatically prove eternalism, or that whole-universe states themselves interact. It would first establish something about the dynamics of the physical degrees of freedom involved.
+
 There’s also no need to treat different configurations of a persisting entity as numerically distinct entities. A person, planet, particle, or field can be described at successive stages without assuming that its earlier and later configurations are separate objects interacting with one another. How persistence is understood is a further philosophical question, and neither presentism nor eternalism is uniquely established by the local interactions and causal connections we observe.
 
 So I wouldn’t answer with an unconditional “no, it’s impossible,” because that would claim more than the evidence establishes. But I also wouldn’t answer “yes” merely because physical processes connect events at different times, or because some mathematical formulations directly couple temporally separated variables.
@@ -54,19 +68,3 @@ Recent device-independent tests certify the switch's indefinite order in a diffe
 Consider a quantum-switch experiment implemented using a coherent superposition of different paths through physical devices.
 At the effective level, operations A and B have no single classical order that adequately describes the process.
 At the more detailed physical level, however, the apparatus consists of interactions occurring in spacetime. A theory may assign definite causal relationships to these localized interactions while retaining the quantum coherence responsible for the operational statistics.
-Vilasini and Renner (2024) established an important result: under their assumptions, implementations of indefinite-order processes in a fixed classical spacetime that respect relativistic causality admit a finer-grained description with definite, acyclic causal order.
-This demonstrates that operational indefinite order can be compatible with a finer-grained, definite causal structure under those assumptions. It does not, by itself, establish a single objectively realized event history.
-The distinction matters because an effective operation is not necessarily identical to one uniquely localized spacetime event. It may represent a transformation implemented through multiple physical interactions or delocalized quantum degrees of freedom.
-Consequently, an underlying description with definite spacetime causal relationships need not imply that the effective operations admit a classical mixture of definite orders.
-This is not the same as saying that each run behaves like an A-before-B or a B-before-A circuit, with ordinary classical probabilities. That simpler explanation fails to reproduce quantum-switch interference, even in theories where some underlying variable, such as a particle’s path, does take one route.
-3. Examples from single-outcome quantum theories
-Two existing approaches illustrate how single-outcome ontologies can accommodate quantum interference without necessarily assigning a unique classical ordering to effective operations.
-Bohmian mechanics
-In Bohmian mechanics, particles have definite trajectories, while the guiding wave evolves through coherent alternatives.
-Consider a quantum switch implemented using a massive particle whose spatial path controls whether it encounters operation A or B first. Before the paths recombine, the particle follows one actual route, but the interference observed at the output depends on the guiding wave associated with both routes.
-Bohmian mechanics reproduces the standard quantum predictions for output-position measurements under quantum equilibrium.
-Thus, a definite underlying trajectory does not make the experiment equivalent to an ordinary classical mixture of definite-order circuits.
-GRW-type collapse theories
-GRW-type collapse theories provide another approach. In the flash ontology, the realized history consists of definite spacetime events called flashes.
-For a short experiment involving a microscopic particle, spontaneous collapses are extraordinarily unlikely, so quantum-switch interference can survive essentially unchanged.
-If no collapse occurs during the coherent evolution, the collapse dynamics does not select either effective operational-order branch as uniquely realized. In the flash ontology, the history need not contain an event identifying one of those branches as the actual one.

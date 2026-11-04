@@ -1,3 +1,17 @@
+Here the labels are chosen so that δ₁ corresponds to U_B acting first and δ₂ to U_A acting first.
+Now suppose the two clock-offset alternatives are orthogonal and we measure only the target system, without accessing the clocks’ coherence. In this idealized model, tracing out the clocks removes the interference terms, so the target statistics are exactly those of an incoherent mixture:
+P(α) = ∫ dΔ |χ(Δ)|² P_Δ(α).
+Here χ(Δ) is the normalized clock-offset wavefunction and P_Δ(α) is the outcome probability for a definite offset Δ. The expression is a weighted average of definite-offset predictions. It doesn’t mean the full quantum state was an incoherent mixture; it means measurements restricted to the target cannot distinguish the two descriptions in this model. Coherent measurements involving the clocks can reveal the interference.
+If the two offset states are orthogonal and we measure the clock in the superposition basis
+|f_±⟩ = (|f_δ₁⟩ ± |f_δ₂⟩)/√2,
+then the corresponding probabilities are
+P(±) = ½[1 ± Re⟨U_AU_Bψ|U_BU_Aψ⟩].
+Again, the interference term distinguishes a coherent superposition of alternatives from an incoherent mixture.
+For example, if the real part of the overlap is 0.854, then
+P(+) = ½(1 + 0.854) = 0.927.
+That numerical result is just an illustration of the formula, not a universal prediction about quantum clocks.
+There are several qualifications here. The clock states have to be defined consistently, the intervention model matters, and one must distinguish a genuine coherent measurement from merely reading out a classical clock value. The formula is an idealized two-branch model, not a general theorem covering every quantum-clock construction.
+This is relevant to quantum reference frames because different physical clocks need not supply identical descriptions of when an interaction occurs. Baumann and Lock investigated temporal localization and causality across quantum reference frames in 2026. Their analysis shows that consistent modeling of interventions across multiple clocks can require temporal delocalization, and that certain cases naturally lead to indefinite operational causal order.
 That still doesn’t mean different clocks literally create different objective histories. Nor does it prove that there’s one unique fundamental history. Those are further interpretive questions.
 It means that assuming every quantum-clock description can be reduced to one ordinary classical timeline may be too restrictive.
 Gravity makes the issue even more interesting.
@@ -65,18 +79,3 @@ There is also an important distinction between temporal order and causal order. 
 And none of these results, by themselves, settles the philosophical debate between presentism and eternalism. A definite causal structure does not establish that only the present exists, just as an indefinite operational causal structure does not establish that past, present and future all exist equally.
 One could also consider a generative view of time in which physical reality has one realized history, produced through successive stages, while certain quantum operations lack a definite ordering at the operational level. That is a possible interpretive program, not an experimentally established conclusion. It would need to specify the underlying dynamics and show that they reproduce the relevant quantum predictions.
 This is close to the distinction between the physical state of a system and the truth of propositions about its history.
-Suppose a particular event happened but left no recoverable record. The fact that nobody could reconstruct it would not logically imply that it never happened or that there was no fact about it.
-Conversely, the mere logical possibility of such a hidden fact does not give us evidence that it exists.
-Those two points are easy to confuse when discussing quantum mechanics.
-The experiments tell us something definite about which operational descriptions fail. They do not automatically provide a complete ontology of time.
-So my answer would be that the two alternatives in the question are not necessarily exhaustive, and they aren’t always mutually exclusive.
-For the effective operations in a quantum switch, the process can be causally nonseparable. An ordinary classical mixture of definite operation orders is not an adequate explanation of its statistics.
-For the finer-grained interactions in the laboratory, a definite spacetime causal ordering can still exist.
-For a proposed deeper ordering of reality, the answer depends on the theory. Some possible underlying descriptions may preserve definite facts about trajectories or events; others may not. Whether those descriptions make distinct empirical predictions is a separate question.
-And for genuinely quantum spacetime, we don’t yet have the experimental evidence needed to decide whether fundamental causal order must be indefinite.
-What I wouldn’t conclude is that the absence of an operationally definite order proves there is no objective fact about any deeper ordering. Nor would I conclude that a definite underlying order must exist simply because ordinary experience presents events as happening successively.
-The strongest conclusion currently justified is narrower but still remarkable: quantum theory permits experimentally supported processes whose effective causal ordering cannot be reduced to an ordinary classical choice between two definite orders, even though known laboratory realizations can be understood within a finer-grained, definitely ordered spacetime description.
-Whether nature ever produces fundamentally indefinite spacetime causal order, and what that would mean for the ontology of time, remains open.
-
-Does "experiencing backwards (T1→T0)"="one's experiences reverse-propagate, one is 'passenger of experience' "observing 'already present-in-own-brain info'" via the 'outcome' arrives before the 'prediction', making authorship/evaluation impossible"?
-

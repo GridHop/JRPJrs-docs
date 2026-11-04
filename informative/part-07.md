@@ -1,3 +1,32 @@
+P(±) = ½[1 ± Re(⟨BAψ|ABψ⟩⟨e_BA|e_AB⟩)].
+The additional factor,
+⟨e_BA|e_AB⟩,
+is the overlap between the environmental states associated with the two alternatives.
+If those states are identical, their overlap has magnitude one and they carry no distinguishable which-order information. The interference can remain intact.
+If the environmental states are orthogonal,
+⟨e_BA|e_AB⟩ = 0,
+they are perfectly distinguishable. The interference term disappears, leaving
+P(+) = P(−) = ½.
+That’s decoherence. The environment has become correlated with the alternative orderings, and interference in the reduced system is lost.
+Nobody has to look at the environment for this to happen. The effect depends on physical entanglement and distinguishability, not on whether a human observer learns anything.
+There is a familiar quantitative relation here from Englert’s 1996 work on interference visibility and which-way information. For two equally weighted alternatives with pure environmental marker states, define the distinguishability as
+D = √(1 − |⟨e_BA|e_AB⟩|²).
+If V denotes the normalized interference visibility, then in the ideal pure-state case,
+V = |⟨e_BA|e_AB⟩|,
+and
+V² + D² = 1.
+More generally, the complementarity relation is
+V² + D² ≤ 1.
+This is important because it gives a physical meaning to the distinction between interference and accessible which-alternative information. As the alternatives become more distinguishable, the interference visibility decreases.
+It also explains why maintaining coherence becomes difficult when many environmental degrees of freedom are involved.
+Suppose the environmental state factors into N components and each component acquires a tiny amount of information distinguishing the alternatives. The total overlap is
+⟨e_BA|e_AB⟩ = ∏ₖ ⟨eₖ,BA|eₖ,AB⟩.
+If each factor is approximately 1 − ε, then
+⟨e_BA|e_AB⟩ ≈ (1 − ε)ᴺ ≈ e^(−Nε).
+Take ε = 10⁻⁶ and N = 10⁸. Then
+e^(−Nε) = e^(−100) ≈ 3.7 × 10⁻⁴⁴.
+Each environmental component carries very little distinguishing information, yet the combined effect almost completely suppresses interference.
+This is why simply saying “nobody measured the order” isn’t enough. Environmental correlations can matter even when nobody deliberately measures or collects them.
 But I would be careful about turning that into the claim that indefinite order requires absolutely no physical trace anywhere. The precise requirement is that distinguishability of the relevant alternatives must not destroy the coherence needed for the particular interference effect. Partial distinguishability can coexist with partial interference. Correlations may also be manipulated or erased under suitable conditions, and the result depends on which degrees of freedom are included and which measurements are performed.
 More importantly, the absence of a distinguishable quantum record does not logically establish the absence of every conceivable underlying fact. That’s a philosophical inference, not a consequence of the overlap equation alone.
 Consider the possibility that there really is some deeper variable O specifying which operation occurred first.
@@ -56,17 +85,3 @@ Schematically, the initial state might be
 (|f_δ₁⟩ + |f_δ₂⟩)/√2 ⊗ |ψ⟩.
 After the controlled interactions, it becomes
 (|f_δ₁⟩ ⊗ U_AU_B|ψ⟩ + |f_δ₂⟩ ⊗ U_BU_A|ψ⟩)/√2.
-Here the labels are chosen so that δ₁ corresponds to U_B acting first and δ₂ to U_A acting first.
-Now suppose the two clock-offset alternatives are orthogonal and we measure only the target system, without accessing the clocks’ coherence. In this idealized model, tracing out the clocks removes the interference terms, so the target statistics are exactly those of an incoherent mixture:
-P(α) = ∫ dΔ |χ(Δ)|² P_Δ(α).
-Here χ(Δ) is the normalized clock-offset wavefunction and P_Δ(α) is the outcome probability for a definite offset Δ. The expression is a weighted average of definite-offset predictions. It doesn’t mean the full quantum state was an incoherent mixture; it means measurements restricted to the target cannot distinguish the two descriptions in this model. Coherent measurements involving the clocks can reveal the interference.
-If the two offset states are orthogonal and we measure the clock in the superposition basis
-|f_±⟩ = (|f_δ₁⟩ ± |f_δ₂⟩)/√2,
-then the corresponding probabilities are
-P(±) = ½[1 ± Re⟨U_AU_Bψ|U_BU_Aψ⟩].
-Again, the interference term distinguishes a coherent superposition of alternatives from an incoherent mixture.
-For example, if the real part of the overlap is 0.854, then
-P(+) = ½(1 + 0.854) = 0.927.
-That numerical result is just an illustration of the formula, not a universal prediction about quantum clocks.
-There are several qualifications here. The clock states have to be defined consistently, the intervention model matters, and one must distinguish a genuine coherent measurement from merely reading out a classical clock value. The formula is an idealized two-branch model, not a general theorem covering every quantum-clock construction.
-This is relevant to quantum reference frames because different physical clocks need not supply identical descriptions of when an interaction occurs. Baumann and Lock investigated temporal localization and causality across quantum reference frames in 2026. Their analysis shows that consistent modeling of interventions across multiple clocks can require temporal delocalization, and that certain cases naturally lead to indefinite operational causal order.

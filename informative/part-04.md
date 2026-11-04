@@ -1,3 +1,53 @@
+Consider a city reconstructed elsewhere from detailed plans. The new city may closely resemble the original without thereby being numerically identical to it.
+
+Similarly, reconstructing someone’s physical and psychological organization does not automatically establish preservation of that person’s numerical identity.
+
+The distinction motivates a candidate criterion:
+
+Personal identity consists in uninterrupted causal inheritance of an embodied organization, rather than reconstruction from a representation.
+
+This is a philosophical proposal, not an established theorem of physics.
+
+If adopted, it suggests:
+
+\* Sleep and anesthesia with continuing physical organization: identity preserved.  
+\* Gradual biological replacement within an ongoing organism: identity preserved.  
+\* Gradual synthetic replacement integrated into that organization: plausibly preserved.  
+\* Scan, destruction, and reconstruction elsewhere: identity not preserved under this criterion.  
+\* Reconstruction while the original survives: two distinct individuals.  
+\* Copying from stored information: creation of another individual.  
+\* Gradual repair of the Ship of Theseus: plausibly preservation of the original ship.
+
+Difficult cases remain. Replacing neurons individually with functional equivalents could be understood as continuing an organization or as successive local reconstructions.
+
+Potentially relevant features include locality, temporal continuity, preservation of causal organization, informational bottlenecks, and branching.
+
+The framework has not established which combination is decisive. It identifies the unresolved identity conditions.
+
+23. Is the identity criterion discovered or chosen?
+
+Some disagreements concern unknown empirical facts. Others concern which criteria should determine the application of a concept.
+
+Personal identity may involve both.
+
+Physics could describe a reconstruction procedure in extraordinary detail without independently settling whether its result counts as the same person.
+
+That depends partly on the theory of persistence being applied.
+
+This does not prove that identity is merely conventional. It leaves open whether reality determines a unique identity relation or whether competing criteria capture different legitimate concerns.
+
+The central conclusion is:
+
+Preserving information about an individual does not, by itself, establish preservation of that individual’s numerical identity.
+
+A theory of identity must explain what kind of continuity, if any, makes a later individual the same person.
+
+PART V. Human Duplication as a Future Technology
+
+24. Clones and duplicates
+
+A biological clone is primarily a genetic copy, not a copy of an existing person’s memories and personality.
+
 A cloned human, if reproductive cloning became feasible, would ordinarily develop from an embryo rather than emerge as an adult duplicate.
 
 Mammalian cloning has been demonstrated since Dolly the sheep’s birth in 1996, and cloned macaques were reported in 2018.
@@ -117,18 +167,4 @@ when x and y are spacelike separated. But that shouldn’t be confused with a ge
 So, within standard local field theory, if we additionally define direct interaction as local physical coupling at a common spacetime event, entities instantiated exclusively at distinct global stages cannot directly interact as those distinct temporal instantiations. That’s a consequence of the definition and the theory’s local structure, not an independent experimental proof that every physically possible theory must work that way. An extended physical process can involve events at many different times, but that doesn’t make each local coupling an interaction between different whole-universe states.
 
 There’s another complication: what exactly counts as a whole-universe state? Relativity allows physical states to be specified on suitable spacelike hypersurfaces, but its fundamental laws don’t generally select one uniquely preferred succession of them. A particular spacetime geometry can distinguish a foliation, though. For example, where cosmological time is regular, its level sets provide geometrically distinguished Cauchy hypersurfaces under the relevant conditions.
-
-That distinction matters because a geometrically distinguished foliation isn’t automatically an ontologically privileged present. The geometry can supply the slicing without establishing that only one slice exists, or that all slices coexist. Those are additional claims about temporal existence. And regardless of which suitable foliation is chosen, a pointlike local interaction event belongs to one hypersurface of that foliation, even though a larger physical process can involve events on many hypersurfaces.
-
-Now, there are serious theoretical formulations that complicate any categorical claim that physical interactions must always be local in this particular sense. Wheeler–Feynman direct-action electrodynamics is an example. Rather than treating an independently propagating electromagnetic field as the fundamental mediator, it formulates interactions through direct relationships between charged particles at lightlike-separated events, with time-symmetric contributions associated with source events in both the past and future light cones.
-
-Schematically, its direct-action structure includes terms of the form:
-
-S_int ∼ Σ_{i≠j} ∫ dτᵢ dτⱼ (ẋᵢ · ẋⱼ) δ((xᵢ − xⱼ)²)
-
-Here the delta function restricts the coupled events to lightlike separation. Unlike the local interaction-density example, this term relates variables associated with different spacetime events. So I wouldn’t dismiss it as merely ordinary local field theory with different bookkeeping. The mathematical coupling really is nonlocal in its direct-action formulation.
-
-But I also wouldn’t infer from that mathematics that distinct whole-universe states physically coexist or directly interact as independently existing wholes. A relationship between charged-particle events isn’t automatically a relationship between entire global states as separate physical entities. Nor has Wheeler–Feynman theory been experimentally established as an indispensable fundamental replacement for conventional electromagnetic field theory. The appearance of advanced terms or future-absorber conditions also doesn’t, by itself, demonstrate that independent future boundary information is physically indispensable in every adequate account of the observations.
-
-I think the same caution applies more generally. A mathematical relationship between variables at different times, a physical interaction between specified entities, and an ontological claim that distinct temporal states coexist are three different propositions. Even if an experiment eventually established an indispensable direct coupling between temporally separated events, that wouldn’t automatically prove eternalism, or that whole-universe states themselves interact. It would first establish something about the dynamics of the physical degrees of freedom involved.
 

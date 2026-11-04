@@ -37,6 +37,28 @@ Two principles follow:
 \* A fact can be true without any observer being able to establish it.  
 \* A confident belief can exist without its content being true.
 
+Confirmation is not the same as correctly interpreting what was confirmed
+This is a subtle but powerful principle.
+Suppose a child sees the Moon moving across the sky and concludes that the Moon is flying around Earth like a bird.
+The child really did observe the Moon appearing at different locations over time. But the conclusion that the Moon is flying like a bird goes beyond what the observation itself establishes.
+Or suppose a child notices that their shadow follows them wherever they go and concludes that the shadow likes to follow them.
+Again, the observation is real. The interpretation is not thereby established.
+This gives us a useful distinction:
+Observing something, correctly identifying what was observed, and correctly explaining why it occurred are three different achievements that are not guaranteed to be achieved.
+Even when an observation is accurate, the explanation can be mistaken.
+And even when an explanation is plausible, it can remain unconfirmed.
+This matters because people often describe themselves as having confirmed an entire explanation when they have actually confirmed only some of its components.
+"For example:
+'You observe a correlation, but that doesn’t establish causation.
+You observe behavior, but that doesn’t establish the exact intention behind it.
+You observe a physical representation, but that doesn’t establish that the representation is identical to what it represents.
+You observe that a claim is widely accepted, but that doesn’t establish its truth.'"
+The deeper lesson is that the evidential support for a conclusion cannot automatically exceed what the evidence and valid reasoning actually establish.
+This doesn’t mean conclusions can never go beyond direct observation. Scientific reasoning routinely establishes things indirectly. It means that every additional inference needs appropriate justification.
+Perhaps one of the most consequential intellectual achievements isn’t discovering a new fact, but learning to recognize exactly which fact has been established, which conclusion follows from it, and which additional conclusion has not yet been earned.
+That skill doesn’t guarantee that we’ll discover the truth. It does help us avoid mistaking our interpretations, representations, and assumptions for the truth itself.
+The world does not become more or less true according to how confidently we understand it. Our responsibility is to make our understanding answer to the world—not to make the world answer to our understanding.
+
 4. Epistemic limits do not imply ontological indeterminacy
 
 Suppose an event occurs and leaves no surviving detectable trace. “We cannot establish whether X happened” and “There is no fact about whether X happened” are different claims.
@@ -136,46 +158,4 @@ Loss of recoverable information about an earlier cause does not erase causal con
 For example, someone reads a letter, makes a decision, and burns the letter. Its wording may eventually become unrecoverable, but the decision may already have affected other people and events.
 
 Even the reader’s memory could disappear without undoing those consequences.
-
-This does not mean information loss is always causally irrelevant. Erasing information can change a system’s subsequent behavior. The point is that losing evidence of an earlier cause does not retroactively undo its effects.
-
-Under CTGP, present physical reality may bear consequences of earlier events without containing enough information to reconstruct those events.
-
-A present consequence is not necessarily a record of its cause.
-
-11. The present physical basis of future causation
-
-CTGP’s generability commitment requires the fundamental laws to determine, deterministically or probabilistically, the transition from the present state to subsequent states without independently imposed future boundary conditions, final-state conditions, or global consistency requirements spanning the whole history.
-
-CTGP further restricts attempts to enlarge the state space: additional dynamical variables must be physically instantiated in the present and possess appropriate dynamics.
-
-A central principle follows within the framework:
-
-Whatever present or future effects depend on earlier events must be generated through physically instantiated present conditions and the lawful dynamics acting on them.
-
-Earlier states cannot perform new causal work after ceasing to exist.
-
-If two present states agree in every categorical physical respect, CTGP requires what comes next for each to be governed by the same laws and transition probabilities, regardless of differences in past-tensed truth profiles that have no dynamical role.
-
-This does not require observers to decode every causally relevant feature. Present physical conditions may be distributed, complex, scrambled, or computationally inaccessible.
-
-Physical causal relevance is not identical to recoverable historical information.
-
-This is a theoretical commitment of CTGP, not an independently established result about every possible fundamental theory.
-
-12. Causality is lawful dependence, not foreknowledge
-
-A cause need not know its effect.
-
-A neuron need not represent the decision in which it participates. A weather system need not contain a forecast of tomorrow’s weather. Under CTGP, the present need not contain an already existing future to generate subsequent states.
-
-Causality is lawful dependence, not foreknowledge.
-
-Predictability and causation are distinct. A process can be causally determined yet computationally unpredictable, while a reliable prediction does not necessarily cause what it predicts.
-
-Likewise, an outcome’s definiteness when realized does not establish that it existed before its realization.
-
-Three concepts must be distinguished:
-
-prewritten ≠ lawful ≠ predictable
 

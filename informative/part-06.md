@@ -1,3 +1,19 @@
+Vilasini and Renner (2024) established an important result: under their assumptions, implementations of indefinite-order processes in a fixed classical spacetime that respect relativistic causality admit a finer-grained description with definite, acyclic causal order.
+This demonstrates that operational indefinite order can be compatible with a finer-grained, definite causal structure under those assumptions. It does not, by itself, establish a single objectively realized event history.
+The distinction matters because an effective operation is not necessarily identical to one uniquely localized spacetime event. It may represent a transformation implemented through multiple physical interactions or delocalized quantum degrees of freedom.
+Consequently, an underlying description with definite spacetime causal relationships need not imply that the effective operations admit a classical mixture of definite orders.
+This is not the same as saying that each run behaves like an A-before-B or a B-before-A circuit, with ordinary classical probabilities. That simpler explanation fails to reproduce quantum-switch interference, even in theories where some underlying variable, such as a particle’s path, does take one route.
+3. Examples from single-outcome quantum theories
+Two existing approaches illustrate how single-outcome ontologies can accommodate quantum interference without necessarily assigning a unique classical ordering to effective operations.
+Bohmian mechanics
+In Bohmian mechanics, particles have definite trajectories, while the guiding wave evolves through coherent alternatives.
+Consider a quantum switch implemented using a massive particle whose spatial path controls whether it encounters operation A or B first. Before the paths recombine, the particle follows one actual route, but the interference observed at the output depends on the guiding wave associated with both routes.
+Bohmian mechanics reproduces the standard quantum predictions for output-position measurements under quantum equilibrium.
+Thus, a definite underlying trajectory does not make the experiment equivalent to an ordinary classical mixture of definite-order circuits.
+GRW-type collapse theories
+GRW-type collapse theories provide another approach. In the flash ontology, the realized history consists of definite spacetime events called flashes.
+For a short experiment involving a microscopic particle, spontaneous collapses are extraordinarily unlikely, so quantum-switch interference can survive essentially unchanged.
+If no collapse occurs during the coherent evolution, the collapse dynamics does not select either effective operational-order branch as uniquely realized. In the flash ontology, the history need not contain an event identifying one of those branches as the actual one.
 This does not mean that the history establishes that neither operation came first, or that the underlying localized interactions lack definite causal relationships. It means that a definite history of flashes need not determine a unique classical ordering of the effective operations.
 These examples distinguish definite realized events from definite classical orderings of effective operations. They illustrate possible single-outcome accounts, while a fully satisfactory relativistic implementation remains a further theoretical requirement.
 4. What a single-outcome theory must demonstrate
@@ -62,32 +78,3 @@ This distinction matters when asking whether there’s “objectively no fact”
 There is a useful way to see why ordinary ignorance is inadequate. Suppose the two alternatives leave distinguishable records in the environment. Let |e_BA⟩ be the environmental state associated with the A-then-B branch, and |e_AB⟩ the state associated with the B-then-A branch. The joint state becomes
 (|0⟩ ⊗ BA|ψ⟩ ⊗ |e_BA⟩ + |1⟩ ⊗ AB|ψ⟩ ⊗ |e_AB⟩)/√2.
 The interference probabilities are then
-P(±) = ½[1 ± Re(⟨BAψ|ABψ⟩⟨e_BA|e_AB⟩)].
-The additional factor,
-⟨e_BA|e_AB⟩,
-is the overlap between the environmental states associated with the two alternatives.
-If those states are identical, their overlap has magnitude one and they carry no distinguishable which-order information. The interference can remain intact.
-If the environmental states are orthogonal,
-⟨e_BA|e_AB⟩ = 0,
-they are perfectly distinguishable. The interference term disappears, leaving
-P(+) = P(−) = ½.
-That’s decoherence. The environment has become correlated with the alternative orderings, and interference in the reduced system is lost.
-Nobody has to look at the environment for this to happen. The effect depends on physical entanglement and distinguishability, not on whether a human observer learns anything.
-There is a familiar quantitative relation here from Englert’s 1996 work on interference visibility and which-way information. For two equally weighted alternatives with pure environmental marker states, define the distinguishability as
-D = √(1 − |⟨e_BA|e_AB⟩|²).
-If V denotes the normalized interference visibility, then in the ideal pure-state case,
-V = |⟨e_BA|e_AB⟩|,
-and
-V² + D² = 1.
-More generally, the complementarity relation is
-V² + D² ≤ 1.
-This is important because it gives a physical meaning to the distinction between interference and accessible which-alternative information. As the alternatives become more distinguishable, the interference visibility decreases.
-It also explains why maintaining coherence becomes difficult when many environmental degrees of freedom are involved.
-Suppose the environmental state factors into N components and each component acquires a tiny amount of information distinguishing the alternatives. The total overlap is
-⟨e_BA|e_AB⟩ = ∏ₖ ⟨eₖ,BA|eₖ,AB⟩.
-If each factor is approximately 1 − ε, then
-⟨e_BA|e_AB⟩ ≈ (1 − ε)ᴺ ≈ e^(−Nε).
-Take ε = 10⁻⁶ and N = 10⁸. Then
-e^(−Nε) = e^(−100) ≈ 3.7 × 10⁻⁴⁴.
-Each environmental component carries very little distinguishing information, yet the combined effect almost completely suppresses interference.
-This is why simply saying “nobody measured the order” isn’t enough. Environmental correlations can matter even when nobody deliberately measures or collects them.

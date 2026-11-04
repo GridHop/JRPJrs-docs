@@ -1,4 +1,4 @@
-# More Info — Causation, Information, Identity, and Becoming
+# More Info
 
 Part 01 of 5 (1,789 words)
 

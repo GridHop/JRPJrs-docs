@@ -1,3 +1,45 @@
+This does not mean information loss is always causally irrelevant. Erasing information can change a system’s subsequent behavior. The point is that losing evidence of an earlier cause does not retroactively undo its effects.
+
+Under CTGP, present physical reality may bear consequences of earlier events without containing enough information to reconstruct those events.
+
+A present consequence is not necessarily a record of its cause.
+
+11. The present physical basis of future causation
+
+CTGP’s generability commitment requires the fundamental laws to determine, deterministically or probabilistically, the transition from the present state to subsequent states without independently imposed future boundary conditions, final-state conditions, or global consistency requirements spanning the whole history.
+
+CTGP further restricts attempts to enlarge the state space: additional dynamical variables must be physically instantiated in the present and possess appropriate dynamics.
+
+A central principle follows within the framework:
+
+Whatever present or future effects depend on earlier events must be generated through physically instantiated present conditions and the lawful dynamics acting on them.
+
+Earlier states cannot perform new causal work after ceasing to exist.
+
+If two present states agree in every categorical physical respect, CTGP requires what comes next for each to be governed by the same laws and transition probabilities, regardless of differences in past-tensed truth profiles that have no dynamical role.
+
+This does not require observers to decode every causally relevant feature. Present physical conditions may be distributed, complex, scrambled, or computationally inaccessible.
+
+Physical causal relevance is not identical to recoverable historical information.
+
+This is a theoretical commitment of CTGP, not an independently established result about every possible fundamental theory.
+
+12. Causality is lawful dependence, not foreknowledge
+
+A cause need not know its effect.
+
+A neuron need not represent the decision in which it participates. A weather system need not contain a forecast of tomorrow’s weather. Under CTGP, the present need not contain an already existing future to generate subsequent states.
+
+Causality is lawful dependence, not foreknowledge.
+
+Predictability and causation are distinct. A process can be causally determined yet computationally unpredictable, while a reliable prediction does not necessarily cause what it predicts.
+
+Likewise, an outcome’s definiteness when realized does not establish that it existed before its realization.
+
+Three concepts must be distinguished:
+
+prewritten ≠ lawful ≠ predictable
+
 Lawfulness does not necessarily imply that outcomes are predetermined, and unpredictability does not imply absence of causal structure.
 
 CTGP allows lawful generation without an already existing future. Whether a particular generative law is deterministic or stochastic is a separate question.
@@ -179,54 +221,4 @@ During sleep or anesthesia, conscious experience may be absent or altered while 
 Ordinary biological replacement involves ongoing physical organization participating in its own maintenance.
 
 Scan-and-rebuild procedures introduce a different causal pathway: a system is measured, information is encoded, and another system is constructed from that representation.
-
-Consider a city reconstructed elsewhere from detailed plans. The new city may closely resemble the original without thereby being numerically identical to it.
-
-Similarly, reconstructing someone’s physical and psychological organization does not automatically establish preservation of that person’s numerical identity.
-
-The distinction motivates a candidate criterion:
-
-Personal identity consists in uninterrupted causal inheritance of an embodied organization, rather than reconstruction from a representation.
-
-This is a philosophical proposal, not an established theorem of physics.
-
-If adopted, it suggests:
-
-\* Sleep and anesthesia with continuing physical organization: identity preserved.  
-\* Gradual biological replacement within an ongoing organism: identity preserved.  
-\* Gradual synthetic replacement integrated into that organization: plausibly preserved.  
-\* Scan, destruction, and reconstruction elsewhere: identity not preserved under this criterion.  
-\* Reconstruction while the original survives: two distinct individuals.  
-\* Copying from stored information: creation of another individual.  
-\* Gradual repair of the Ship of Theseus: plausibly preservation of the original ship.
-
-Difficult cases remain. Replacing neurons individually with functional equivalents could be understood as continuing an organization or as successive local reconstructions.
-
-Potentially relevant features include locality, temporal continuity, preservation of causal organization, informational bottlenecks, and branching.
-
-The framework has not established which combination is decisive. It identifies the unresolved identity conditions.
-
-23. Is the identity criterion discovered or chosen?
-
-Some disagreements concern unknown empirical facts. Others concern which criteria should determine the application of a concept.
-
-Personal identity may involve both.
-
-Physics could describe a reconstruction procedure in extraordinary detail without independently settling whether its result counts as the same person.
-
-That depends partly on the theory of persistence being applied.
-
-This does not prove that identity is merely conventional. It leaves open whether reality determines a unique identity relation or whether competing criteria capture different legitimate concerns.
-
-The central conclusion is:
-
-Preserving information about an individual does not, by itself, establish preservation of that individual’s numerical identity.
-
-A theory of identity must explain what kind of continuity, if any, makes a later individual the same person.
-
-PART V. Human Duplication as a Future Technology
-
-24. Clones and duplicates
-
-A biological clone is primarily a genetic copy, not a copy of an existing person’s memories and personality.
 
