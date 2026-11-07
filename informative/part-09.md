@@ -1,3 +1,7 @@
+There is also an important distinction between temporal order and causal order. Special relativity already tells us that the chronological order of spacelike-separated events can depend on the reference frame, while their causal relationship remains constrained by the light-cone structure. Quantum indefinite causal order is not simply another name for relativity of simultaneity.
+And none of these results, by themselves, settles the philosophical debate between presentism and eternalism. A definite causal structure does not establish that only the present exists, just as an indefinite operational causal structure does not establish that past, present and future all exist equally.
+One could also consider a generative view of time in which physical reality has one realized history, produced through successive stages, while certain quantum operations lack a definite ordering at the operational level. That is a possible interpretive program, not an experimentally established conclusion. It would need to specify the underlying dynamics and show that they reproduce the relevant quantum predictions.
+This is close to the distinction between the physical state of a system and the truth of propositions about its history.
 Suppose a particular event happened but left no recoverable record. The fact that nobody could reconstruct it would not logically imply that it never happened or that there was no fact about it.
 Conversely, the mere logical possibility of such a hidden fact does not give us evidence that it exists.
 Those two points are easy to confuse when discussing quantum mechanics.
@@ -46,9 +50,3 @@ The cosmic microwave background gives us an observable cosmological rest-frame r
 A more general construction is the cosmological time function studied by Lars Andersson, Gregory Galloway, and Ralph Howard.
 It can be written as:
 τ(p) = sup { L(γ) : γ is a past-directed causal curve starting at p }
-Here L(γ) is the proper-time length of the curve. Informally, τ(p) gives the supremum of proper time that can be accumulated along past-directed causal curves from the event p.
-Under the regularity conditions studied by Andersson, Galloway, and Howard, cosmological time is continuous, increases strictly along future-directed causal curves, and implies global hyperbolicity. Its level sets provide geometrically distinguished, acausal time slices. Additional conditions are needed to guarantee that every such level set is a full Cauchy hypersurface, meaning that every inextendible causal curve intersects it exactly once.
-This is significant because it shows how a spacetime’s geometry can distinguish a global temporal structure without requiring Einstein’s equations to prescribe one preferred slicing for every possible universe.
-It doesn’t, however, establish that any particular slice is the only one that physically exists.
-That brings me to a framework I’ve been developing called Cosmic-Time Generative Presentism (CTGP).
-CTGP proposes that only the currently generated state of the universe physically exists. Earlier states genuinely existed when they were present, but they have ceased to exist as those states. The present physical configuration of matter, fields, and radiation bears causal consequences and records of earlier events. Future states have not yet been generated.

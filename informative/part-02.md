@@ -2,6 +2,8 @@ A way to picture CTGP: "imagine (a hypothetical scenario whereby) all of planet 
 
 Randomness alone doesn't build order. But randomness plus lawful dynamics does, constantly. The order comes from the laws and conditions that shape random variation, not from a separate force. And quantum randomness is what those laws leave undetermined: they fix the odds, not which outcome happens.
 
+(Andersson's, Galloway's and Howard's) "Cosmological Time (represented by the symbol τ)" is "the longest proper time along any causal path" or "the supremum of proper time along past-directed causal curves", which in a big-bang universe is the maximal proper time elapsed since the initial singularity. Regarding block-universe's "slice and loaf", a τ-slice is an instant of the universe as a whole in cosmological time. Our universe's cosmological time is gapless and each τ-slice has every part of our universe co-occurring during cosmological time. τ uses only the spacetime geometry. An alternative slice's "now" comes from synchronizing clocks with light signals in its own momentary rest frame, and it changes with its speed. Both slicings can be drawn, but they aren't on a par: one depends on who's doing the slicing, and the other doesn't. That's why τ works as a universal time standard. It isn't a clock that sets anyone's local rate, since local clocks keep their own proper time, but it's the common time every one of them sits under. One can call a τ-slice "one shared tick of the cosmic clock".
+
 Reality, Information, and Knowledge
 
 1. Reality and information about reality are different categories
@@ -134,28 +136,4 @@ These properties are attributed to the present world and, once acquired, are ret
 Physical records serve a different function. They provide evidence of earlier events and can be damaged, altered, or erased. They are not themselves the fundamental truthmakers.
 
 Erasing a record does not change what happened. It changes what observers can establish about what happened.
-
-CTGP accepts a metaphysical cost: primitive past-tensed properties need not supervene on the present categorical physical configuration. Two worlds could be categorically alike at a given stage yet have different histories.
-
-This invites the familiar objection that Lucretian properties are metaphysically unilluminating or “cheat,” associated with critics such as Sider.
-
-The central distinction remains:
-
-What happened is not identical to what can presently be established about what happened.
-
-10. Causal influence, surviving information, and recoverability
-
-Suppose A causes B, B causes C, and C causes D. When D exists, A may no longer exist, and no observer may be able to reconstruct A from surviving evidence.
-
-Nevertheless, D may have its particular properties partly because A occurred.
-
-Three notions must remain distinct:
-
-causal influence ≠ surviving information ≠ recoverability
-
-Loss of recoverable information about an earlier cause does not erase causal consequences that have already occurred.
-
-For example, someone reads a letter, makes a decision, and burns the letter. Its wording may eventually become unrecoverable, but the decision may already have affected other people and events.
-
-Even the reader’s memory could disappear without undoing those consequences.
 

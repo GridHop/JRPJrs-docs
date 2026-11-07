@@ -1,3 +1,9 @@
+It's perfectly good mathematics, but notice what it leaves out. The present state is the input. The demon doesn't get the specifics of the present from the math at all. It gets them from the data, and only then does the math fix the specifics at other times.
+
+Even with complete data, uniqueness isn't guaranteed. Norton's dome is the standard example. A ball rests at the apex of a dome shaped so that, in suitable units, its equation of motion is d²r/dt² = √r. One solution has the ball sit there forever, r(t) = 0. But for any later time T you like, there is also a solution where the ball sits at r = 0 until T and then follows r(t) = (t − T)⁴/144. You can check it. For t ≥ T the second derivative is (t − T)²/12, which is exactly √r, and position and velocity both match up smoothly at T.
+
+The equation is also unchanged when you run time backward, so the mirror-image solutions work too. A ball resting at the apex now is equally consistent with having sat there forever, or with having rolled up and come to rest there at any earlier time T, following r(t) = (T − t)⁴/144 until it arrives. Same law, same present data, infinitely many possible futures and infinitely many possible pasts.
+
 The dome is a special construction, and people still argue about how much it tells us about realistic Newtonian systems. Mathematically, though, it's a clean counterexample to guaranteed uniqueness. General relativity has an analogous issue in certain spacetimes with Cauchy horizons, beyond which the data on a slice no longer fixes a unique continuation. That's a feature of particular solutions, not of the theory across the board.
 
 Determinism also isn't the same as predictability. In chaotic systems a small error δ₀ in your data typically grows roughly like δ₀e^(λt) over a range of times, where λ is the Lyapunov exponent. So "fixed in principle" doesn't mean "knowable in practice." Running the equations backward is no better: in typical chaotic systems, errors grow just as quickly when you retrodict as when you predict.
@@ -37,10 +43,4 @@ L(γ) = (1/c) ∫ √(−g_μν dx^μ dx^ν)
 where g_μν is the metric (sign convention −,+,+,+). Two clocks that start together and later meet again can disagree about how much time went by. That's the twin effect, and when the twins compare readings side by side, nobody in any frame disputes what the clocks say. Proper time is local, though. Cosmological time is built from it but is global. At any event p it's defined as
 
 τ(p) = sup { L(γ) : γ a past-directed causal curve from p }
-
-which in words is the longest proper time that could have elapsed along any causal path reaching p from its past; if the past has a beginning, that's the longest time since the beginning. Andersson, Galloway and Howard worked this out in 1998. When τ is finite everywhere and goes to zero along every causal curve traced back as far as it goes, they call it regular. Regularity is what makes it well behaved. It forces the spacetime to be globally hyperbolic, which among other things rules out closed timelike curves, so "earlier" and "later" can never loop back on themselves. And the surfaces of constant τ slice spacetime into whole-universe "nows": every worldline that continues past one crosses it exactly once, and every causal path traced back from a later event runs through it, so nothing off the slice can influence what comes after it. (Technically they're future Cauchy surfaces, not always full Cauchy surfaces, because a worldline that ends early, say at a black hole's singularity, never reaches the later slices.) So cosmological time isn't a second kind of time competing with proper time. It is proper time, taken at its maximum.
-
-That definition does depend on the past being finite in the right way. If the past goes on forever in proper time, so that causal curves reaching p can have unboundedly long proper times, then
-
-τ(p) = +∞
 

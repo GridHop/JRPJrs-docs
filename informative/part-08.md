@@ -1,3 +1,19 @@
+There’s another way to formulate the problem that doesn’t depend on photons traveling along different optical routes. It involves quantum clocks.
+Suppose two clocks, A and B, have a relative offset
+Δ = t_A − t_B.
+Let operation U_A occur when clock A reads τ_A, and operation U_B occur when clock B reads τ_B.
+Using clock A’s time coordinate, the second operation occurs at
+t_A = τ_B + Δ,
+whereas the first occurs at
+t_A = τ_A.
+The order therefore depends on the sign of
+τ_A − (τ_B + Δ).
+If the relative offset is a definite classical quantity, then for fixed intervention readings the order can be definite.
+But suppose the relative clock offset is in a coherent superposition of two distinguishable alternatives, δ₁ and δ₂, chosen so that the operations occur in opposite orders.
+Schematically, the initial state might be
+(|f_δ₁⟩ + |f_δ₂⟩)/√2 ⊗ |ψ⟩.
+After the controlled interactions, it becomes
+(|f_δ₁⟩ ⊗ U_AU_B|ψ⟩ + |f_δ₂⟩ ⊗ U_BU_A|ψ⟩)/√2.
 Here the labels are chosen so that δ₁ corresponds to U_B acting first and δ₂ to U_A acting first.
 Now suppose the two clock-offset alternatives are orthogonal and we measure only the target system, without accessing the clocks’ coherence. In this idealized model, tracing out the clocks removes the interference terms, so the target statistics are exactly those of an incoherent mixture:
 P(α) = ∫ dΔ |χ(Δ)|² P_Δ(α).
@@ -75,7 +91,3 @@ But it wouldn’t necessarily mean that time doesn’t exist, that ordinary caus
 Another possibility is that operationally indefinite order emerges from a deeper physical description with definite ordering. That ordering might be expressed through finer-grained spacetime events, additional physical variables, or some structure not directly represented by the operational process.
 Such a theory would have to reproduce the observed interference and causal-correlation statistics. It couldn’t simply replace the quantum switch with an ordinary random choice between A-before-B and B-before-A.
 A third possibility is that our question about which operation “really happened first” isn’t well defined independently of the physical description being used. In that case, the problem may not be that a fact is hidden, but that we’re trying to assign a single ordering relation to objects that don’t possess one in the relevant theory.
-There is also an important distinction between temporal order and causal order. Special relativity already tells us that the chronological order of spacelike-separated events can depend on the reference frame, while their causal relationship remains constrained by the light-cone structure. Quantum indefinite causal order is not simply another name for relativity of simultaneity.
-And none of these results, by themselves, settles the philosophical debate between presentism and eternalism. A definite causal structure does not establish that only the present exists, just as an indefinite operational causal structure does not establish that past, present and future all exist equally.
-One could also consider a generative view of time in which physical reality has one realized history, produced through successive stages, while certain quantum operations lack a definite ordering at the operational level. That is a possible interpretive program, not an experimentally established conclusion. It would need to specify the underlying dynamics and show that they reproduce the relevant quantum predictions.
-This is close to the distinction between the physical state of a system and the truth of propositions about its history.

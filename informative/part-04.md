@@ -1,3 +1,25 @@
+This is the fission problem associated with Derek Parfit.
+
+It demonstrates that unrestricted psychological continuity cannot, by itself, serve as a sufficient criterion of numerical identity.
+
+The quantum no-cloning theorem prohibits perfect copying of arbitrary unknown quantum states. It does not, by itself, establish that producing functionally or psychologically similar successors is impossible.
+
+Whether such duplication could ever be technologically achieved remains unknown.
+
+Under CTGP, each successor would possess its own present physical state and causal history. Records might establish which successor underwent which procedure, but the numerical-identity question still requires a theory of persistence.
+
+Even if every distinguishing record disappeared, that would not automatically erase the historical facts.
+
+22. Transformation versus reconstruction
+
+Continuity of activity is not identical to continuity of identity.
+
+During sleep or anesthesia, conscious experience may be absent or altered while the brain’s organized physical structure remains. Temporary suppression of detectable neural activity need not imply destruction of the individual.
+
+Ordinary biological replacement involves ongoing physical organization participating in its own maintenance.
+
+Scan-and-rebuild procedures introduce a different causal pathway: a system is measured, information is encoded, and another system is constructed from that representation.
+
 Consider a city reconstructed elsewhere from detailed plans. The new city may closely resemble the original without thereby being numerically identical to it.
 
 Similarly, reconstructing someone’s physical and psychological organization does not automatically establish preservation of that person’s numerical identity.
@@ -163,8 +185,4 @@ There’s also microcausality, which for suitable local observables requires:
 [A(x), B(y)] = 0
 
 when x and y are spacelike separated. But that shouldn’t be confused with a general prohibition on every conceivable direct interaction between different temporal stages. Events on different hypersurfaces of a foliation can be spacelike, lightlike, or timelike related, and microcausality concerns only the spacelike case; the locality of the interaction terms is the more relevant point here.
-
-So, within standard local field theory, if we additionally define direct interaction as local physical coupling at a common spacetime event, entities instantiated exclusively at distinct global stages cannot directly interact as those distinct temporal instantiations. That’s a consequence of the definition and the theory’s local structure, not an independent experimental proof that every physically possible theory must work that way. An extended physical process can involve events at many different times, but that doesn’t make each local coupling an interaction between different whole-universe states.
-
-There’s another complication: what exactly counts as a whole-universe state? Relativity allows physical states to be specified on suitable spacelike hypersurfaces, but its fundamental laws don’t generally select one uniquely preferred succession of them. A particular spacetime geometry can distinguish a foliation, though. For example, where cosmological time is regular, its level sets provide geometrically distinguished Cauchy hypersurfaces under the relevant conditions.
 

@@ -1,3 +1,9 @@
+So when physicists call the quantum switch causally nonseparable, they’re making a precise statement. Within the relevant operational framework, the process cannot be decomposed into a probabilistic mixture of an A-before-B process and a B-before-A process.
+That does not mean all conceivable underlying descriptions of the experiment have been ruled out.
+This distinction matters when asking whether there’s “objectively no fact” about the order. In the standard operational quantum description, the process has no definite order of the relevant operations in the sense just explained. It’s not an ordinary unknown classical variable selecting one of two process orders. But interpreting that as a statement about every possible underlying physical fact is an additional step.
+There is a useful way to see why ordinary ignorance is inadequate. Suppose the two alternatives leave distinguishable records in the environment. Let |e_BA⟩ be the environmental state associated with the A-then-B branch, and |e_AB⟩ the state associated with the B-then-A branch. The joint state becomes
+(|0⟩ ⊗ BA|ψ⟩ ⊗ |e_BA⟩ + |1⟩ ⊗ AB|ψ⟩ ⊗ |e_AB⟩)/√2.
+The interference probabilities are then
 P(±) = ½[1 ± Re(⟨BAψ|ABψ⟩⟨e_BA|e_AB⟩)].
 The additional factor,
 ⟨e_BA|e_AB⟩,
@@ -69,19 +75,3 @@ If we’re talking about effective operations acting on a quantum system, the or
 If we’re talking about finer-grained physical interactions in a fixed spacetime, those interactions may have a definite causal organization.
 And if we’re talking about an even deeper ordering of physical reality, neither of those descriptions automatically settles whether such an ordering exists.
 So the two possibilities in the question aren’t necessarily mutually exclusive. There can be no definite operational order of A and B while a definite causal ordering exists in a finer-grained description of the apparatus.
-There’s another way to formulate the problem that doesn’t depend on photons traveling along different optical routes. It involves quantum clocks.
-Suppose two clocks, A and B, have a relative offset
-Δ = t_A − t_B.
-Let operation U_A occur when clock A reads τ_A, and operation U_B occur when clock B reads τ_B.
-Using clock A’s time coordinate, the second operation occurs at
-t_A = τ_B + Δ,
-whereas the first occurs at
-t_A = τ_A.
-The order therefore depends on the sign of
-τ_A − (τ_B + Δ).
-If the relative offset is a definite classical quantity, then for fixed intervention readings the order can be definite.
-But suppose the relative clock offset is in a coherent superposition of two distinguishable alternatives, δ₁ and δ₂, chosen so that the operations occur in opposite orders.
-Schematically, the initial state might be
-(|f_δ₁⟩ + |f_δ₂⟩)/√2 ⊗ |ψ⟩.
-After the controlled interactions, it becomes
-(|f_δ₁⟩ ⊗ U_AU_B|ψ⟩ + |f_δ₂⟩ ⊗ U_BU_A|ψ⟩)/√2.

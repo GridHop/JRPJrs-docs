@@ -1,3 +1,9 @@
+Here L(γ) is the proper-time length of the curve. Informally, τ(p) gives the supremum of proper time that can be accumulated along past-directed causal curves from the event p.
+Under the regularity conditions studied by Andersson, Galloway, and Howard, cosmological time is continuous, increases strictly along future-directed causal curves, and implies global hyperbolicity. Its level sets provide geometrically distinguished, acausal time slices. Additional conditions are needed to guarantee that every such level set is a full Cauchy hypersurface, meaning that every inextendible causal curve intersects it exactly once.
+This is significant because it shows how a spacetime’s geometry can distinguish a global temporal structure without requiring Einstein’s equations to prescribe one preferred slicing for every possible universe.
+It doesn’t, however, establish that any particular slice is the only one that physically exists.
+That brings me to a framework I’ve been developing called Cosmic-Time Generative Presentism (CTGP).
+CTGP proposes that only the currently generated state of the universe physically exists. Earlier states genuinely existed when they were present, but they have ceased to exist as those states. The present physical configuration of matter, fields, and radiation bears causal consequences and records of earlier events. Future states have not yet been generated.
 Within its intended domain, CTGP identifies the global present with a level set of cosmological time, provided the spacetime satisfies the conditions necessary for those level sets to serve as an appropriate global foliation.
 Schematically:
 Σₐ = { p ∈ M : τ(p) = a }
@@ -30,7 +36,9 @@ Whether that interpretation is ultimately correct remains open. But accounting f
 
 Regarding substrate-dependence, per conscious existence, does a conscious existence's substrate always non-stop constrain "'what is possible' experience-wise" for that conscious existence to be able to possibly potentially experience?
 
-An individual's own mental interpretations are part of what causes that individual's own emotions.
+An individual's emotions originate from one's "in reaction to 'an extent of that individual's own "interpretation/evaluation of something that that individual did an extent of interpretation/evaluation regarding"' before those emotions originated". An individual's own mental interpretations are part of what causes that individual's own emotions.
+
+Are "BCI that have 'AI &/or auditory neurofeedback system'" the only confirmed ways that "'sentence-level communication' via solely 'thought'" was accomplished by a severely paralyzed person? Did that first happen in 2021 or in 2022?
 
 Via math alone, can mathematical theories have the math that reveal each event's every specific of the past, present, and future, or are such theories' math only able to reveal "constraints on possible existence" but with Laplace's-demon limitations?
 
@@ -45,10 +53,4 @@ Scale that up and nothing changes in principle. Einstein's field equations, G_μ
 On top of that, dimensionless constants like the fine-structure constant (about 1/137 at low energies) are measured, not derived. The Standard Model alone has 19 such free parameters in its basic form, and around 26 once neutrino masses are included.
 
 Now set up a complete initial-value problem: the equations plus fully specified data at one time, say the present. A deterministic theory with well-behaved equations then returns exactly one solution, and it fixes things in both directions. Plug measured values of x₀ and v₀ into x(t) = x₀ + v₀t and you get one position for every t, earlier as well as later. That's the Laplace's demon idea: an intellect for whom both past and future would be calculable from the present state.
-
-It's perfectly good mathematics, but notice what it leaves out. The present state is the input. The demon doesn't get the specifics of the present from the math at all. It gets them from the data, and only then does the math fix the specifics at other times.
-
-Even with complete data, uniqueness isn't guaranteed. Norton's dome is the standard example. A ball rests at the apex of a dome shaped so that, in suitable units, its equation of motion is d²r/dt² = √r. One solution has the ball sit there forever, r(t) = 0. But for any later time T you like, there is also a solution where the ball sits at r = 0 until T and then follows r(t) = (t − T)⁴/144. You can check it. For t ≥ T the second derivative is (t − T)²/12, which is exactly √r, and position and velocity both match up smoothly at T.
-
-The equation is also unchanged when you run time backward, so the mirror-image solutions work too. A ball resting at the apex now is equally consistent with having sat there forever, or with having rolled up and come to rest there at any earlier time T, following r(t) = (T − t)⁴/144 until it arrives. Same law, same present data, infinitely many possible futures and infinitely many possible pasts.
 

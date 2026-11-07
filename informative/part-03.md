@@ -1,3 +1,27 @@
+CTGP accepts a metaphysical cost: primitive past-tensed properties need not supervene on the present categorical physical configuration. Two worlds could be categorically alike at a given stage yet have different histories.
+
+This invites the familiar objection that Lucretian properties are metaphysically unilluminating or “cheat,” associated with critics such as Sider.
+
+The central distinction remains:
+
+What happened is not identical to what can presently be established about what happened.
+
+10. Causal influence, surviving information, and recoverability
+
+Suppose A causes B, B causes C, and C causes D. When D exists, A may no longer exist, and no observer may be able to reconstruct A from surviving evidence.
+
+Nevertheless, D may have its particular properties partly because A occurred.
+
+Three notions must remain distinct:
+
+causal influence ≠ surviving information ≠ recoverability
+
+Loss of recoverable information about an earlier cause does not erase causal consequences that have already occurred.
+
+For example, someone reads a letter, makes a decision, and burns the letter. Its wording may eventually become unrecoverable, but the decision may already have affected other people and events.
+
+Even the reader’s memory could disappear without undoing those consequences.
+
 This does not mean information loss is always causally irrelevant. Erasing information can change a system’s subsequent behavior. The point is that losing evidence of an earlier cause does not retroactively undo its effects.
 
 Under CTGP, present physical reality may bear consequences of earlier events without containing enough information to reconstruct those events.
@@ -199,26 +223,4 @@ The duplicate need not be considered unreal or inferior. If conscious, it would 
 Suppose one person produces two psychologically continuous successors, each possessing the original memories and personality.
 
 If psychological continuity alone guaranteed numerical identity, both successors would be identical to the original. By transitivity, they would then be identical to each other, despite being two distinct individuals.
-
-This is the fission problem associated with Derek Parfit.
-
-It demonstrates that unrestricted psychological continuity cannot, by itself, serve as a sufficient criterion of numerical identity.
-
-The quantum no-cloning theorem prohibits perfect copying of arbitrary unknown quantum states. It does not, by itself, establish that producing functionally or psychologically similar successors is impossible.
-
-Whether such duplication could ever be technologically achieved remains unknown.
-
-Under CTGP, each successor would possess its own present physical state and causal history. Records might establish which successor underwent which procedure, but the numerical-identity question still requires a theory of persistence.
-
-Even if every distinguishing record disappeared, that would not automatically erase the historical facts.
-
-22. Transformation versus reconstruction
-
-Continuity of activity is not identical to continuity of identity.
-
-During sleep or anesthesia, conscious experience may be absent or altered while the brain’s organized physical structure remains. Temporary suppression of detectable neural activity need not imply destruction of the individual.
-
-Ordinary biological replacement involves ongoing physical organization participating in its own maintenance.
-
-Scan-and-rebuild procedures introduce a different causal pathway: a system is measured, information is encoded, and another system is constructed from that representation.
 
