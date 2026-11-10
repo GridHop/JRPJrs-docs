@@ -167,8 +167,8 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,798 words
 - [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,750 words
 - [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,774 words
-- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,778 words
-- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,669 words
+- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,786 words
+- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,752 words
 - [Part 12 HTML](informative/part-12.html) · [Markdown](informative/part-12.md) — 1,785 words
 - [Part 13 HTML](informative/part-13.html) · [Markdown](informative/part-13.md) — 1,700 words
 - [Part 14 HTML](informative/part-14.html) · [Markdown](informative/part-14.md) — 1,786 words
