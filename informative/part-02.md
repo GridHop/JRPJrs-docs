@@ -4,6 +4,8 @@ Randomness alone doesn't build order. But randomness plus lawful dynamics does, 
 
 (Andersson's, Galloway's and Howard's) "Cosmological Time (represented by the symbol τ)" is "the longest proper time along any causal path" or "the supremum of proper time along past-directed causal curves", which in a big-bang universe is the maximal proper time elapsed since the initial singularity. Regarding block-universe's "slice and loaf", a τ-slice is an instant of the universe as a whole in cosmological time. Our universe's cosmological time is gapless and each τ-slice has every part of our universe co-occurring during cosmological time. τ uses only the spacetime geometry. An alternative slice's "now" comes from synchronizing clocks with light signals in its own momentary rest frame, and it changes with its speed. Both slicings can be drawn, but they aren't on a par: one depends on who's doing the slicing, and the other doesn't. That's why τ works as a universal time standard. It isn't a clock that sets anyone's local rate, since local clocks keep their own proper time, but it's the common time every one of them sits under. One can call a τ-slice "one shared tick of the cosmic clock".
 
+In accordance with the framework CTGP, I did not exist until the conditions for my formation were satisfied, and my parents' actions were among the necessary causes.
+
 Reality, Information, and Knowledge
 
 1. Reality and information about reality are different categories
@@ -132,8 +134,4 @@ Presentism faces a truthmaker problem: if earlier states no longer exist, what m
 CTGP adopts a Lucretian approach, associated with Bigelow (1996). The presently existing world instantiates primitive past-tensed properties expressing that particular things occurred at earlier stages.
 
 These properties are attributed to the present world and, once acquired, are retained at subsequent stages.
-
-Physical records serve a different function. They provide evidence of earlier events and can be damaged, altered, or erased. They are not themselves the fundamental truthmakers.
-
-Erasing a record does not change what happened. It changes what observers can establish about what happened.
 

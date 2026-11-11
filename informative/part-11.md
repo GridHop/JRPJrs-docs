@@ -1,3 +1,5 @@
+On top of that, dimensionless constants like the fine-structure constant (about 1/137 at low energies) are measured, not derived. The Standard Model alone has 19 such free parameters in its basic form, and around 26 once neutrino masses are included.
+
 Now set up a complete initial-value problem: the equations plus fully specified data at one time, say the present. A deterministic theory with well-behaved equations then returns exactly one solution, and it fixes things in both directions. Plug measured values of x₀ and v₀ into x(t) = x₀ + v₀t and you get one position for every t, earlier as well as later. That's the Laplace's demon idea: an intellect for whom both past and future would be calculable from the present state.
 
 It's perfectly good mathematics, but notice what it leaves out. The present state is the input. The demon doesn't get the specifics of the present from the math at all. It gets them from the data, and only then does the math fix the specifics at other times.

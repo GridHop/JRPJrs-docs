@@ -1,3 +1,5 @@
+However, causal nonseparability does not, by itself, establish that every underlying physical event lacks a definite causal relationship or that spacetime itself has no definite causal structure.
+Also, the standard quantum switch does not, by itself, violate a causal inequality. Causal nonseparability and causal-inequality violation are distinct properties.
 Recent device-independent tests certify the switch's indefinite order in a different way: they add a spacelike-separated party entangled with the switch and assume relativistic causality and free interventions, a Bell-type scenario rather than a standard causal inequality (van der Lugt, Barrett, and Chiribella 2023). Photonic experiments along these lines have been reported (Richter et al. 2026; Qu et al. 2025), with loopholes still open.
 2. How a definite underlying history can coexist with operational ICO
 Consider a quantum-switch experiment implemented using a coherent superposition of different paths through physical devices.
@@ -76,4 +78,3 @@ The minus outcome occurs with certainty. If A and B commute instead, the plus ou
 This is not something an ordinary classical random choice between the two orders reproduces. If the control is an incoherent mixture of |0⟩ and |1⟩, measuring it in the |±⟩ basis gives
 P(+) = P(−) = ½.
 If both branches instead perform the same operation sequence coherently, the control remains |+⟩, giving P(−) = 0.
-Notice the qualification, though. These calculations distinguish particular coherent and incoherent implementations. They do not, by themselves, rule out every conceivable definite-order quantum circuit. The stronger result comes from the theory of quantum supermaps and quantum circuits: under specified restrictions, including a single use of each unknown operation, the quantum switch can accomplish discrimination tasks that circuits with a fixed order or a classical mixture of orders cannot accomplish with the same resources. Chiribella’s 2012 work on perfect discrimination and the 2013 paper by Chiribella, D’Ariano, Perinotti and Valiron establish results of this kind.

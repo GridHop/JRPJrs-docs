@@ -1,3 +1,7 @@
+If we’re talking about effective operations acting on a quantum system, the order can be indefinite in the operational sense.
+If we’re talking about finer-grained physical interactions in a fixed spacetime, those interactions may have a definite causal organization.
+And if we’re talking about an even deeper ordering of physical reality, neither of those descriptions automatically settles whether such an ordering exists.
+So the two possibilities in the question aren’t necessarily mutually exclusive. There can be no definite operational order of A and B while a definite causal ordering exists in a finer-grained description of the apparatus.
 There’s another way to formulate the problem that doesn’t depend on photons traveling along different optical routes. It involves quantum clocks.
 Suppose two clocks, A and B, have a relative offset
 Δ = t_A − t_B.
@@ -90,4 +94,3 @@ If that turned out to be correct at the level of fundamental spacetime structure
 But it wouldn’t necessarily mean that time doesn’t exist, that ordinary causality is an illusion, or that every event in the universe lacks a definite temporal relationship. A theory could have indefinite order in some circumstances while retaining well-defined causal relations in others.
 Another possibility is that operationally indefinite order emerges from a deeper physical description with definite ordering. That ordering might be expressed through finer-grained spacetime events, additional physical variables, or some structure not directly represented by the operational process.
 Such a theory would have to reproduce the observed interference and causal-correlation statistics. It couldn’t simply replace the quantum switch with an ordinary random choice between A-before-B and B-before-A.
-A third possibility is that our question about which operation “really happened first” isn’t well defined independently of the physical description being used. In that case, the problem may not be that a fact is hidden, but that we’re trying to assign a single ordering relation to objects that don’t possess one in the relevant theory.

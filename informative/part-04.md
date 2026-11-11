@@ -1,3 +1,7 @@
+Suppose one person produces two psychologically continuous successors, each possessing the original memories and personality.
+
+If psychological continuity alone guaranteed numerical identity, both successors would be identical to the original. By transitivity, they would then be identical to each other, despite being two distinct individuals.
+
 This is the fission problem associated with Derek Parfit.
 
 It demonstrates that unrestricted psychological continuity cannot, by itself, serve as a sufficient criterion of numerical identity.
@@ -183,6 +187,4 @@ The fields in that expression are coupled at x, not through a fundamental intera
 There’s also microcausality, which for suitable local observables requires:
 
 [A(x), B(y)] = 0
-
-when x and y are spacelike separated. But that shouldn’t be confused with a general prohibition on every conceivable direct interaction between different temporal stages. Events on different hypersurfaces of a foliation can be spacelike, lightlike, or timelike related, and microcausality concerns only the spacelike case; the locality of the interaction terms is the more relevant point here.
 

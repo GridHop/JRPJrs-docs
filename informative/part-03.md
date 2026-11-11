@@ -1,3 +1,7 @@
+Physical records serve a different function. They provide evidence of earlier events and can be damaged, altered, or erased. They are not themselves the fundamental truthmakers.
+
+Erasing a record does not change what happened. It changes what observers can establish about what happened.
+
 CTGP accepts a metaphysical cost: primitive past-tensed properties need not supervene on the present categorical physical configuration. Two worlds could be categorically alike at a given stage yet have different histories.
 
 This invites the familiar objection that Lucretian properties are metaphysically unilluminating or “cheat,” associated with critics such as Sider.
@@ -219,8 +223,4 @@ An identity theory must specify which causal relationships constitute continuati
 The duplicate need not be considered unreal or inferior. If conscious, it would be a real individual whose psychological state includes information derived from another person’s experiences.
 
 21. Branching and psychological continuity
-
-Suppose one person produces two psychologically continuous successors, each possessing the original memories and personality.
-
-If psychological continuity alone guaranteed numerical identity, both successors would be identical to the original. By transitivity, they would then be identical to each other, despite being two distinct individuals.
 

@@ -1,3 +1,6 @@
+A more general construction is the cosmological time function studied by Lars Andersson, Gregory Galloway, and Ralph Howard.
+It can be written as:
+τ(p) = sup { L(γ) : γ is a past-directed causal curve starting at p }
 Here L(γ) is the proper-time length of the curve. Informally, τ(p) gives the supremum of proper time that can be accumulated along past-directed causal curves from the event p.
 Under the regularity conditions studied by Andersson, Galloway, and Howard, cosmological time is continuous, increases strictly along future-directed causal curves, and implies global hyperbolicity. Its level sets provide geometrically distinguished, acausal time slices. Additional conditions are needed to guarantee that every such level set is a full Cauchy hypersurface, meaning that every inextendible causal curve intersects it exactly once.
 This is significant because it shows how a spacetime’s geometry can distinguish a global temporal structure without requiring Einstein’s equations to prescribe one preferred slicing for every possible universe.
@@ -55,6 +58,4 @@ The simplest way to see this is Newton's second law, F = ma. Take a free particl
 A spring works the same way. From m d²x/dt² = −kx you get x(t) = A cos(ωt + φ), with ω = √(k/m). The math fixes the frequency, which is a genuine constraint. The amplitude A and phase φ, though, are only pinned down once you specify the spring's position and velocity at some time, and nothing in the equation itself supplies those.
 
 Scale that up and nothing changes in principle. Einstein's field equations, G_μν = (8πG/c⁴)T_μν, have an enormous space of solutions: black holes, expanding universes, gravitational waves, and plenty of exotic spacetimes nobody thinks are physically realistic. General relativity actually makes the narrowing unusually explicit. The data you specify on a slice of spacetime, including the slice you'd call the present, has to satisfy the Hamiltonian and momentum constraint equations. Not every configuration is admissible, but infinitely many still are.
-
-On top of that, dimensionless constants like the fine-structure constant (about 1/137 at low energies) are measured, not derived. The Standard Model alone has 19 such free parameters in its basic form, and around 26 once neutrino masses are included.
 
