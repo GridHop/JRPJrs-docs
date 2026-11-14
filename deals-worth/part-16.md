@@ -1,88 +1,6 @@
 # Deal's Worth
 
-Part 16 of 22 (1,662 words)
-
-Chapter 3: Slice of Home
-
-
-
-
-
-The wind set Yogi down on the front lawn the way a toddler sets down a full glass of milk: with enormous confidence and very little follow-through.
-
-His shoes touched grass. The rest of him kept going. He completed one last slow quarter-turn on his heels, like a weather vane settling an argument, and came to rest facing the mailbox.
-
-"Welcome to my house," Jeff said.
-
-Yogi turned around, "That," he said, "was the craziest lift I've ever gotten."
-
-Jeff let his wings fold in and looked at the place like he always did after a long day out, as if checking that nobody had moved it. One story, cabin-built, split-log siding weathered to the color of old honey. Garage on the left. A little attic window tucked under the peak of the roof like a raised eyebrow. Out back, the shed leaned slightly toward the house, the way it had for years, like it was trying to hear what was going on inside. Past the trees, the lake threw sunlight around in pieces.
-
-His phone said 1:47 PM, barely visible under a stack of notifications that had doubled since the forest.
-
-He was halfway up the porch steps when a voice came through the front door.
-
-"Why do you smell like a pond and an old man?"
-
-Yogi's head came up. "Who said that?"
-
-"The dog," Jeff said.
-
-"The dog."
-
-"He's family."
-
-The door swung open. A young yellow Australian shepherd stood in the doorway, not jumping, not wiggling, just leaning a shoulder against the frame with the unbothered posture of a teenager who has been waiting for his ride for eleven minutes and wants that noted. His nose picking up scents.
-
-"Pine sap," Biscuit reported. "Pond water. And a sweater that's been in a closet since before phones."
-
-"Cedar block," Yogi said. "Keeps the moths honest."
-
-Biscuit's nose swung to Jeff, and his ears went flat with disappointment. "And you smell like cooked thumb. You were smoking. The usual."
-
-Yogi's eyebrows had climbed so high over his sunglasses they were in danger of leaving. "Your dog talks clearer than my nephew."
-
-"Cost me a wish," Jeff said. "It's one of my best ones too."
-
-"He wanted somebody to argue with about the playoffs," Biscuit said.
-
-"I have Alicia for that."
-
-From deep inside the house, without a trace of hesitation: "You have me for losing that! Jeff! Get in here!"
-
-The living room was warm in the way rooms get when people actually live in them. A couch that had surrendered its original shape years ago. Two quilts, one on the couch, one on the floor where it had apparently been kicked. A lamp with a slightly crooked shade that Jeff kept meaning to fix and had decided, at some point, was simply the lamp's personality now. On the side table sat a thick, plain book with a coffee ring on the cover. Every room of every home had one. This one had the coffee ring.
-
-Alicia was on the couch with her knees pulled up, hoodie sleeves pushed down over her hands, dark brunette waves escaping a clip that had given up an hour ago. She had her phone in one hand, thumb scrolling without her looking at it, because her hazel eyes were locked on the television with the focus of someone defusing it.
-
-"Jeff. Sit. No, don't sit, there's no time. Look."
-
-Jeff looked.
-
-The screen showed a canyon from high above, the way a hawk would see one. Sandstone pillars stood up out of the ground like the knuckles of something buried. Glass-like crystals glittered among them in scattered clusters, orange here, green there, one far off throwing back light like a signal mirror. And in the middle of all of it, very small, a figure in red armor was fighting a dragon.
-
-The dragon was not small.
-
-It opened its jaws, and a column of blue flame poured out and missed the armored figure by a body length.
-
-Alicia gestured at the TV with her ring hand. "It's streaming on the main Smart TV app for Sports. Some guy wished for himself to be streamed this morning and it's been streaming since. The view is from high above and follows him."
-
-The sports bars are furious."
-
-She turned the phone toward him without taking her eyes off the screen. A news feed scrolled past. Headlines. Clips of the same footage recorded off people's televisions.
-
-Jeff stared at the tiny armored man, who was shouting at the sky between swings.
-
-A dry voice from the doorway said, "Somebody want to tell the blind man what's happening on the television?"
-
-The room went quiet in a new and uncomfortable way.
-
-"Oh my gosh." Alicia finally looked away from the screen, saw the short bald man in the cardigan and sunglasses, and was off the couch in one motion. "Hi. I'm so sorry. I thought you were a neighbor. I'm Alicia."
-
-"Yogi. I get that a lot."
-
-The dragon's back is doing the thing again," Biscuit said, trotting to the middle of the rug.
-
-"What thing?" Yogi asked.
+Part 16 of 21 (1,798 words)
 
 "Its back plates," Alicia said, and there it was again, the tone. She'd been sitting here for an hour and a half, and she had notes. "Before it does anything that isn't biting or clawing, the plates on its back stand up. Different arrangement every time.
 
@@ -161,3 +79,117 @@ He watched the boy test his own weight, and a quiet thought slid in under the no
 Biscuit let go of the couch. Stood. Swayed. Stayed up.
 
 "Two legs is so much easier than I thought," he said, amazed. "You guys make it look hard. You guys are so dramatic about it." His hip twitched. He looked over his shoulder. His hip twitched again. "I keep trying to wag. There's nothing there. It's like reaching for a step that's not there."
+
+"You'll get used to it," Alicia said.
+
+"I don't want to get used to it, I liked it." Then his face changed, and Jeff saw the worry arrive all at once. Biscuit turned his head, closed his eyes, and breathed in through his nose. Long and slow.
+
+His eyes snapped open.
+
+"Yogi had eggs," he said. "Over easy."
+
+Yogi was quiet for a moment. "That was three days ago."
+
+A grin split Biscuit's face so wide it looked like it hurt. "Still got it." He turned toward the kitchen. "And there's a bag of chips open in the pantry that somebody said they didn't open."
+
+"I have no idea what you're talking about," said Alicia, who had opened the chips.
+
+"You could've wished me switchable." He looked down at his hands, then back at Jeff, and the grin didn't leave, but something rueful sat down next to it. "Human and dog. Whenever I wanted."
+
+Jeff opened his mouth, closed it, and pointed at him.
+
+"Yeah," he admitted. "That would've been the smarter wish."
+
+"Okay," Alicia said, and clapped once, and the whole house seemed to change gears. "Weapons. Stuff. Now."
+
+"Attic," Jeff said, already moving.
+
+"Attic!"
+
+"Do I need clothes?" Biscuit called, following them down the hall with the quilt dragging behind him like a royal train.
+
+"YES," Jeff said. "Obviously. Stay away from me until you have pants."
+
+"Whose pants?"
+
+Jeff yanked down the attic ladder. Alicia was up it in four quick steps, her head and shoulders vanishing into the dusty dark, and then her voice drifted down, flat with realization.
+
+"It's not up here."
+
+"What do you mean it's not up here?"
+
+"We moved it all after the raccoon thing."
+
+"What raccoon thing?"
+
+"The raccoon thing, Jeff."
+
+Jeff closed his eyes briefly as the memory of the raccoon thing arrived. "Bedroom."
+
+"Bedroom!"
+
+Alicia came down the ladder fast and cracked the top of her head on the frame of the hatch on the way. It made a real sound, a solid wooden thunk.
+
+"Huh," she said, mildly, and kept going.
+
+Jeff's own scalp prickled in sympathy, a reflex for a kind of hurt she'd never have to collect on. He'd been married to her for years, and he still flinched every single time.
+
+In the bedroom, Alicia dove into the closet and came out with an armful of red-and-white fabric, which she lobbed past Jeff into the hallway. "Biscuit! Those are Jeff's pajamas I shrunk in the dryer."
+
+"That's where those went," Jeff said.
+
+"They went to a better place."
+
+"They were my good pajamas."
+
+"And now they're his good pajamas."
+
+From the hallway came the sounds of a boy fighting pajama pants for the first time in his life and losing several early rounds. Jeff pulled a hoodie out of his dresser and tossed it out the door without looking. "And that."
+
+"This smells like you," Biscuit called.
+
+"It's my hoodie."
+
+"It's nice. It's just a lot."
+
+Biscuit reappeared in the doorway wearing pajama pants that stopped a few inches above his ankles, a hoodie that went down to the middle of his thighs, and the fiercely dignified expression of someone who knows exactly how he looks and has decided to be above it. The drawstring hung loose. The waistband was already sliding.
+
+Alicia crossed the room, knelt, and tied the drawstring in a firm double knot. "There. Now they'll stay up."
+
+"Thanks." He peered down at the knot. "How'd you do that so fast? Fingers are hard."
+
+"Practice."
+
+Biscuit wiggled all ten of his and looked at them with deep suspicion.
+
+The bag wasn't under the bed, so it was in the basement, and the basement was dark, because the bulb at the bottom of the stairs had been dead for a month and a half and both of them had decided, independently and without discussion, that it was the other one's job.
+
+Halfway down the stairs, the tattoo on the back of Jeff's neck woke up.
+
+It always did in the dark. A faint gold halo, glowing soft through the collar of his hoodie, and lower, behind the fabric over the right side of his stomach, the dim outline of a smiley face with a single red tear. Not bright. Just enough to see by if you didn't mind a little atmosphere.
+
+"Your neck's on," Alicia said.
+
+"I know my neck's on."
+
+"I'm just saying, you're very easy to find down here."
+
+"Find the bag."
+
+She found the bag.
+
+It was nothing to look at. A cloth sack the size of a pillowcase, with thin shoulder straps that had been repaired twice with thread that didn't match. Alicia shrugged it on, slid her whole arm into it up to the shoulder, and started naming things.
+
+"Healing shards." Her hand came out holding a velvet pouch that clinked, and she tucked it into her hoodie pocket. Arm back in. "Coins. Rope." A coil of rope came out. She looked at it and put it back. "Rope." Another coil came out. "Why do we have so much rope?"
+
+"You said rope is always useful."
+
+"I did say that." She put the rope back. "Why did you listen to me."
+
+Jeff dragged a heavy wooden box off the bottom shelf and flipped the lid. Crystal shards lay inside on old towels, broken pieces of a dozen different formations, each one and each of their auras faintly glowing its own color in the dark: amber, frost-blue, a sullen red, a green so bright it looked fake. He started filling his pockets, but he did it the way he'd learned to, holding each piece up against his own finger first. Anything shorter than that was just a very pretty paperweight. He knew because he had a drawer full of very pretty paperweights.
+
+"Red," he muttered. "Blue. Blue. Too short. Too short. Why did I keep this one, it's a pebble."
+
+"Sentimental value," Alicia said from inside the bag.
+
+"It doesn't do anything."

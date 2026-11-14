@@ -50,11 +50,11 @@
     {
       "title": "Deal's Worth",
       "slug": "deals-worth",
-      "source_filename": "Deal's Worth(4).docx",
-      "source_paragraphs": 2393,
-      "published_paragraphs": 2393,
-      "words": 36425,
-      "parts": 22
+      "source_filename": "Deals_Worth.docx",
+      "source_paragraphs": 2390,
+      "published_paragraphs": 2390,
+      "words": 36353,
+      "parts": 21
     },
     {
       "title": "Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism",
@@ -701,199 +701,190 @@
       "work": "deals-worth",
       "part": 1,
       "source_paragraph_start": 0,
-      "source_paragraph_end_exclusive": 106,
-      "paragraphs": 106,
-      "words": 1776,
-      "sha256_paragraph_sequence": "439d44741c2ec71e75fb161aa52820a2d75dd6ffab5d7c91a8506f502afefab3"
+      "source_paragraph_end_exclusive": 108,
+      "paragraphs": 108,
+      "words": 1783,
+      "sha256_paragraph_sequence": "0bc9095e72015348d651828ab74a44b2ee3e7213d1e248c6f1ab3a953137150d"
     },
     {
       "work": "deals-worth",
       "part": 2,
-      "source_paragraph_start": 106,
-      "source_paragraph_end_exclusive": 211,
-      "paragraphs": 105,
-      "words": 1630,
-      "sha256_paragraph_sequence": "98899c32cc32cf00bd7b53d137ecade2e66be9c9400fb51eee95795d346668d7"
+      "source_paragraph_start": 108,
+      "source_paragraph_end_exclusive": 230,
+      "paragraphs": 122,
+      "words": 1799,
+      "sha256_paragraph_sequence": "8bd4acad89c1ca40ad1a78b9115616b95e8c796f5e2cf695316952879aa146bd"
     },
     {
       "work": "deals-worth",
       "part": 3,
-      "source_paragraph_start": 211,
-      "source_paragraph_end_exclusive": 298,
-      "paragraphs": 87,
-      "words": 1874,
-      "sha256_paragraph_sequence": "30c985ecb90577f8cc5f82549c061448fcb0489c1ceb716ac9e415f8df0124be"
+      "source_paragraph_start": 230,
+      "source_paragraph_end_exclusive": 304,
+      "paragraphs": 74,
+      "words": 1746,
+      "sha256_paragraph_sequence": "5946676315484c701d3a7bda3e793a4b7b55db150bcd90cc97834d52d151e7d5"
     },
     {
       "work": "deals-worth",
       "part": 4,
-      "source_paragraph_start": 298,
-      "source_paragraph_end_exclusive": 365,
-      "paragraphs": 67,
-      "words": 1740,
-      "sha256_paragraph_sequence": "9ae0eebbcd3bf38efc135d30a416c7ff9d75c168b3747b59d2ffe1011124de0d"
+      "source_paragraph_start": 304,
+      "source_paragraph_end_exclusive": 373,
+      "paragraphs": 69,
+      "words": 1800,
+      "sha256_paragraph_sequence": "cfd219be2c051c794764e5a792e47df5aa44990a3e50ad85b083bff98c8f8410"
     },
     {
       "work": "deals-worth",
       "part": 5,
-      "source_paragraph_start": 365,
-      "source_paragraph_end_exclusive": 463,
-      "paragraphs": 98,
-      "words": 1980,
-      "sha256_paragraph_sequence": "7fd83cb739a669f0211c9db7571268d3cc1c0928e0e681e3612338931e74d6ce"
+      "source_paragraph_start": 373,
+      "source_paragraph_end_exclusive": 460,
+      "paragraphs": 87,
+      "words": 1786,
+      "sha256_paragraph_sequence": "386c97d08eeb48b3212da2eed250ca298b87043901cc93450eaedca9ffbb382c"
     },
     {
       "work": "deals-worth",
       "part": 6,
-      "source_paragraph_start": 463,
-      "source_paragraph_end_exclusive": 552,
-      "paragraphs": 89,
-      "words": 1855,
-      "sha256_paragraph_sequence": "505ab370bfd2a61e944e5552980decac12988cb002b4b2017a4c6c05c27e189e"
+      "source_paragraph_start": 460,
+      "source_paragraph_end_exclusive": 531,
+      "paragraphs": 71,
+      "words": 1211,
+      "sha256_paragraph_sequence": "e7fe9c1485593c839d1cbe54333b6f11fa4c003976d40c7183e8e7110fd13cac"
     },
     {
       "work": "deals-worth",
       "part": 7,
-      "source_paragraph_start": 552,
-      "source_paragraph_end_exclusive": 605,
-      "paragraphs": 53,
-      "words": 1590,
-      "sha256_paragraph_sequence": "1363b8ade4c4a13c2d38612cf272c5d516e51f486b96c2050b2ff73287104051"
+      "source_paragraph_start": 531,
+      "source_paragraph_end_exclusive": 586,
+      "paragraphs": 55,
+      "words": 1747,
+      "sha256_paragraph_sequence": "636b49e9cfbf3264b8a8d836ae8da76e29102ff5cf273048bda50ab35f1d82d0"
     },
     {
       "work": "deals-worth",
       "part": 8,
-      "source_paragraph_start": 605,
-      "source_paragraph_end_exclusive": 685,
-      "paragraphs": 80,
-      "words": 1378,
-      "sha256_paragraph_sequence": "df23abab0924b0f6203ae5ef38c6ee5a7ddb42585bee8a71781e5af2d7c63d9b"
+      "source_paragraph_start": 586,
+      "source_paragraph_end_exclusive": 668,
+      "paragraphs": 82,
+      "words": 1697,
+      "sha256_paragraph_sequence": "e52ac3ee12f40d582fc68d973cfdbfbc7fc7d49a06514b01ca87a2d8df6dbf44"
     },
     {
       "work": "deals-worth",
       "part": 9,
-      "source_paragraph_start": 685,
-      "source_paragraph_end_exclusive": 815,
-      "paragraphs": 130,
-      "words": 1652,
-      "sha256_paragraph_sequence": "3fcbdcbbe9f55e1419f1152e582ce1ee77714e55f39811d7ffc8df847efa5ecc"
+      "source_paragraph_start": 668,
+      "source_paragraph_end_exclusive": 810,
+      "paragraphs": 142,
+      "words": 1737,
+      "sha256_paragraph_sequence": "80b8f1a82d2f81b606ca2ef218ac42203343ac39cf08e1d261692a33ada560d6"
     },
     {
       "work": "deals-worth",
       "part": 10,
-      "source_paragraph_start": 815,
-      "source_paragraph_end_exclusive": 967,
-      "paragraphs": 152,
-      "words": 1648,
-      "sha256_paragraph_sequence": "5bf590ed58adfcd6846bc3d31ee6bd22a3cc25232f70fb3e421a78f1eea4b0d7"
+      "source_paragraph_start": 810,
+      "source_paragraph_end_exclusive": 960,
+      "paragraphs": 150,
+      "words": 1790,
+      "sha256_paragraph_sequence": "556d76aeb7f297d2589ed3e0af7de5f3b8fc1ee096b16859d885ac5ab5f5e226"
     },
     {
       "work": "deals-worth",
       "part": 11,
-      "source_paragraph_start": 967,
-      "source_paragraph_end_exclusive": 1117,
-      "paragraphs": 150,
-      "words": 1667,
-      "sha256_paragraph_sequence": "11d4918d4045942d917eceafc92bc94d382fbb3fcca64e23a9ef6ceafcf0bbdd"
+      "source_paragraph_start": 960,
+      "source_paragraph_end_exclusive": 1122,
+      "paragraphs": 162,
+      "words": 1800,
+      "sha256_paragraph_sequence": "3c645b7a6f78f671d0dc3be14bfa854fe87fa0398a5b6c06a33ddb6b9a6fca96"
     },
     {
       "work": "deals-worth",
       "part": 12,
-      "source_paragraph_start": 1117,
-      "source_paragraph_end_exclusive": 1233,
-      "paragraphs": 116,
-      "words": 1635,
-      "sha256_paragraph_sequence": "f2033711b468a1fdcad11eb714301f75f6da5c10c5e15983f14e51d52677b829"
+      "source_paragraph_start": 1122,
+      "source_paragraph_end_exclusive": 1250,
+      "paragraphs": 128,
+      "words": 1717,
+      "sha256_paragraph_sequence": "724f16b5554b37b051ec8ad5de3aaab1b048f51f8de282b2ca3269a3abff48b8"
     },
     {
       "work": "deals-worth",
       "part": 13,
-      "source_paragraph_start": 1233,
-      "source_paragraph_end_exclusive": 1414,
-      "paragraphs": 181,
-      "words": 1647,
-      "sha256_paragraph_sequence": "a931af1792aed8afb04554f8f32e55326b836b45a2a1fe5b4d2e87edff3be5ec"
+      "source_paragraph_start": 1250,
+      "source_paragraph_end_exclusive": 1459,
+      "paragraphs": 209,
+      "words": 1799,
+      "sha256_paragraph_sequence": "32bb15cd6d9ca8bb3fc424b136bb6cafa873cd8a49a7447c8ae0a56cec8ecf73"
     },
     {
       "work": "deals-worth",
       "part": 14,
-      "source_paragraph_start": 1414,
-      "source_paragraph_end_exclusive": 1596,
+      "source_paragraph_start": 1459,
+      "source_paragraph_end_exclusive": 1641,
       "paragraphs": 182,
-      "words": 1644,
-      "sha256_paragraph_sequence": "a21e38de2e753cc5d345ada900a52815e614c6c7216e55b33ad68328c80ce59f"
+      "words": 1738,
+      "sha256_paragraph_sequence": "64944d543592926bb90bfd02a26962d522d17428b473a868935e5475ef326e32"
     },
     {
       "work": "deals-worth",
       "part": 15,
-      "source_paragraph_start": 1596,
-      "source_paragraph_end_exclusive": 1771,
-      "paragraphs": 175,
-      "words": 1297,
-      "sha256_paragraph_sequence": "e679bd528ad20bd8893b162893d5408c47b75b96cf6a185a61419e1a6563e757"
+      "source_paragraph_start": 1641,
+      "source_paragraph_end_exclusive": 1813,
+      "paragraphs": 172,
+      "words": 1768,
+      "sha256_paragraph_sequence": "9d50c0547e8cd5a0808fe2916c50b9fe3f783b60be97cc96d9b7085db2571639"
     },
     {
       "work": "deals-worth",
       "part": 16,
-      "source_paragraph_start": 1771,
-      "source_paragraph_end_exclusive": 1851,
-      "paragraphs": 80,
-      "words": 1662,
-      "sha256_paragraph_sequence": "dfd900eed1ad6694a6ff39acaeb171f9a07a150f9b496530491362ef89ce2248"
+      "source_paragraph_start": 1813,
+      "source_paragraph_end_exclusive": 1909,
+      "paragraphs": 96,
+      "words": 1798,
+      "sha256_paragraph_sequence": "197a6bed340a809e25a803e75d0c64a61c969d37fefbf1bef7f2b0626d0e90f6"
     },
     {
       "work": "deals-worth",
       "part": 17,
-      "source_paragraph_start": 1851,
-      "source_paragraph_end_exclusive": 1946,
-      "paragraphs": 95,
-      "words": 1657,
-      "sha256_paragraph_sequence": "a6023b0162c7d4cfb7e713d48cd83a04c82fad95d641edfe952d2c0cf32bd7f9"
+      "source_paragraph_start": 1909,
+      "source_paragraph_end_exclusive": 2001,
+      "paragraphs": 92,
+      "words": 1742,
+      "sha256_paragraph_sequence": "f544636de57576bd5363c8742a6ef3f006f689d4ce993a17848dcb34fce078c3"
     },
     {
       "work": "deals-worth",
       "part": 18,
-      "source_paragraph_start": 1946,
-      "source_paragraph_end_exclusive": 2024,
-      "paragraphs": 78,
-      "words": 1660,
-      "sha256_paragraph_sequence": "122c12571218f36f90b93926a5a69a3759b32f6c76c9ca0952b15449b67ee2ca"
+      "source_paragraph_start": 2001,
+      "source_paragraph_end_exclusive": 2089,
+      "paragraphs": 88,
+      "words": 1798,
+      "sha256_paragraph_sequence": "e5e6d4bfe535f99efde8076110849b180af117fdbbf4b8dee76cd5e5866e1c50"
     },
     {
       "work": "deals-worth",
       "part": 19,
-      "source_paragraph_start": 2024,
-      "source_paragraph_end_exclusive": 2108,
-      "paragraphs": 84,
-      "words": 1640,
-      "sha256_paragraph_sequence": "992c35c5005ef3f4b148a8aa29398822aa822ed87f2b4f26bf04f22542bb2a56"
+      "source_paragraph_start": 2089,
+      "source_paragraph_end_exclusive": 2208,
+      "paragraphs": 119,
+      "words": 1651,
+      "sha256_paragraph_sequence": "c8a603c508c21095dd293b7b56bc089d01a3756711520ce0c37aa3cfa51d97d4"
     },
     {
       "work": "deals-worth",
       "part": 20,
-      "source_paragraph_start": 2108,
-      "source_paragraph_end_exclusive": 2214,
-      "paragraphs": 106,
-      "words": 1632,
-      "sha256_paragraph_sequence": "b1af7639da1a2315eadecc542b27d1fe5b7208234d50e47a8b5dcb73437213aa"
+      "source_paragraph_start": 2208,
+      "source_paragraph_end_exclusive": 2301,
+      "paragraphs": 93,
+      "words": 1769,
+      "sha256_paragraph_sequence": "ee51235df0a53661d1f73ad5898bb67f14cb39ebe6bee3e7fa71d65ff546ec0a"
     },
     {
       "work": "deals-worth",
       "part": 21,
-      "source_paragraph_start": 2214,
-      "source_paragraph_end_exclusive": 2312,
-      "paragraphs": 98,
-      "words": 1618,
-      "sha256_paragraph_sequence": "ac2640519c2f506c9a0b0af06f71c6a580b992ee6342edbbd3dd913ad9378449"
-    },
-    {
-      "work": "deals-worth",
-      "part": 22,
-      "source_paragraph_start": 2312,
-      "source_paragraph_end_exclusive": 2393,
-      "paragraphs": 81,
-      "words": 1543,
-      "sha256_paragraph_sequence": "ae94236da40d362ac00c34029882ca9fb257470f1cdb8d6b8bdf2852f690c31b"
+      "source_paragraph_start": 2301,
+      "source_paragraph_end_exclusive": 2390,
+      "paragraphs": 89,
+      "words": 1677,
+      "sha256_paragraph_sequence": "8c1220bc54ce8bd2f5cb99450a90b00dc27462f149124233b78afad44dc08bf4"
     },
     {
       "work": "informative",

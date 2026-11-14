@@ -1,16 +1,6 @@
 # Deal's Worth
 
-Part 05 of 22 (1,980 words)
-
-1. “Any wish to make “a dead existence be/become alive again”” is not able to be granted
-
-2. “Any wish “observably motivated by evil/malice”” is not able to be granted
-
-3. “Any wish to make an existence appear/be revealed as guilty” is not able to be granted
-
-4. “Any wish to make an existence immortal” is not able to be granted
-
-5. “Any wish with an irreversible effect and/or causing an inability” is not able to be granted
+Part 05 of 21 (1,786 words)
 
 6. “Any wish to to “locate a “””wish-granter”-summoning” object” or create a new “””wish-granter”-summoning” object”””” is not able to be granted
 
@@ -183,17 +173,5 @@ The Reference Points
 
 
 The rules measure from several different points. They are not interchangeable:
-
-
-
-1. The moment right before the most recent biological death. This supplies the body that is copied for Options 1, 2, and 3 and for Physical Form 3, and the magical properties (same levels and potential) the person carries forward.
-
-
-
-2. The most recent Physical Form 1 life as a whole, from its start to the death that ended it. This is the only span whose 'good' and 'bad' are weighed. A wish-granter who dies while serving is weighed only on the time since being summoned.
-
-
-
-3. The body's visibly aged state while alive. This sets how old a regenerated body looks. If the death was from old age, the regenerated body appears half that age.
 
 

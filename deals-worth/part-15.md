@@ -1,94 +1,6 @@
 # Deal's Worth
 
-Part 15 of 22 (1,297 words)
-
-Jeff stayed crouched, staring at the blue light, feeling the pull of it in his chest like a hook.
-
-
-
-"I need a better look at this place first," he said finally, standing. "I'm gonna go up."
-
-
-
-"Up."
-
-
-
-"I've got wings."
-
-
-
-"Of course you do." Yogi folded his arms. "Go on, then."
-
-
-
-Jeff pulled off his hoodie, then his undershirt-”tank top”, and tied both around his waist. In the dappled light, his tattoos showed dark against his light-brown skin: the yellow outline of a smiley face on the right side of his stomach, one red teardrop falling from its left eye, and black runic script running up his left forearm.
-
-
-
-"Why'd everything just go quiet?" Yogi asked.
-
-
-
-"Taking my shirt off. Wings don't come out through cotton."
-
-
-
-"And you're telling a blind man this because?"
-
-
-
-"Transparency."
-
-
-
-Then Jeff folded his tongue in three places at once, a trick that looked deeply wrong from the outside and that he had absolutely no plans to explain, and the wings arrived.
-
-
-
-They didn't unfold so much as "appear", attached to his back as if they'd always been there, white-feathered and wide enough to shade them both. Yogi turned his head a half-second later, one hand coming up toward his left side.
-
-
-
-"Did you just grow something?"
-
-
-
-"Wings. I told you."
-
-
-
-"What'd you do to get them out?"
-
-
-
-"Folded my tongue three times at once."
-
-
-
-Yogi was silent for a moment. "I'm glad I can't see that."
-
-
-
-Jeff locked his pinky, the double joint bending back at an angle that made strangers wince, and wind answered. It gathered under him in a rush, and he jumped up in it, wings beating hard. His thumb rolled against the side of his finger like a joystick, steering the gust, and he climbed through a gap in the canopy into open sky.
-
-
-
----
-
-
-
-From above, the forest stopped being a forest.
-
-
-
-It was a maze.
-
-
-
-Mirrors stood among the trees. No frames, no stands, nothing holding them up, just enormous sheets of perfect reflection planted upright in the earth at angles that couldn't have been accidental. The forest reflected the forest reflected the forest. The gaps between the mirrors made corridors, the corridors folded back into each other, and Jeff's eyes kept trying to follow a path and kept arriving somewhere they'd already been.
-
-
+Part 15 of 21 (1,768 words)
 
 Between the mirrors, crystal formations jutted from the ground in clusters: red, violet, a green so bright it looked fake. Each one sat inside its own faint shimmering colored aura, like haze with a tint. The violet cluster near the pond explained the boar. Whatever else had been living down there long enough, soaking in those auras hour after hour, was going to have powers too.
 
@@ -351,3 +263,85 @@ Jeff locked his fingers. The wind came up underneath Yogi and lifted him off his
 
 
 
+
+Chapter 3: Slice of Home
+
+
+
+
+
+The wind set Yogi down on the front lawn the way a toddler sets down a full glass of milk: with enormous confidence and very little follow-through.
+
+His shoes touched grass. The rest of him kept going. He completed one last slow quarter-turn on his heels, like a weather vane settling an argument, and came to rest facing the mailbox.
+
+"Welcome to my house," Jeff said.
+
+Yogi turned around, "That," he said, "was the craziest lift I've ever gotten."
+
+Jeff let his wings fold in and looked at the place like he always did after a long day out, as if checking that nobody had moved it. One story, cabin-built, split-log siding weathered to the color of old honey. Garage on the left. A little attic window tucked under the peak of the roof like a raised eyebrow. Out back, the shed leaned slightly toward the house, the way it had for years, like it was trying to hear what was going on inside. Past the trees, the lake threw sunlight around in pieces.
+
+His phone said 1:47 PM, barely visible under a stack of notifications that had doubled since the forest.
+
+He was halfway up the porch steps when a voice came through the front door.
+
+"Why do you smell like a pond and an old man?"
+
+Yogi's head came up. "Who said that?"
+
+"The dog," Jeff said.
+
+"The dog."
+
+"He's family."
+
+The door swung open. A young yellow Australian shepherd stood in the doorway, not jumping, not wiggling, just leaning a shoulder against the frame with the unbothered posture of a teenager who has been waiting for his ride for eleven minutes and wants that noted. His nose picking up scents.
+
+"Pine sap," Biscuit reported. "Pond water. And a sweater that's been in a closet since before phones."
+
+"Cedar block," Yogi said. "Keeps the moths honest."
+
+Biscuit's nose swung to Jeff, and his ears went flat with disappointment. "And you smell like cooked thumb. You were smoking. The usual."
+
+Yogi's eyebrows had climbed so high over his sunglasses they were in danger of leaving. "Your dog talks clearer than my nephew."
+
+"Cost me a wish," Jeff said. "It's one of my best ones too."
+
+"He wanted somebody to argue with about the playoffs," Biscuit said.
+
+"I have Alicia for that."
+
+From deep inside the house, without a trace of hesitation: "You have me for losing that! Jeff! Get in here!"
+
+The living room was warm in the way rooms get when people actually live in them. A couch that had surrendered its original shape years ago. Two quilts, one on the couch, one on the floor where it had apparently been kicked. A lamp with a slightly crooked shade that Jeff kept meaning to fix and had decided, at some point, was simply the lamp's personality now. On the side table sat a thick, plain book with a coffee ring on the cover. Every room of every home had one. This one had the coffee ring.
+
+Alicia was on the couch with her knees pulled up, hoodie sleeves pushed down over her hands, dark brunette waves escaping a clip that had given up an hour ago. She had her phone in one hand, thumb scrolling without her looking at it, because her hazel eyes were locked on the television with the focus of someone defusing it.
+
+"Jeff. Sit. No, don't sit, there's no time. Look."
+
+Jeff looked.
+
+The screen showed a canyon from high above, the way a hawk would see one. Sandstone pillars stood up out of the ground like the knuckles of something buried. Glass-like crystals glittered among them in scattered clusters, orange here, green there, one far off throwing back light like a signal mirror. And in the middle of all of it, very small, a figure in red armor was fighting a dragon.
+
+The dragon was not small.
+
+It opened its jaws, and a column of blue flame poured out and missed the armored figure by a body length.
+
+Alicia gestured at the TV with her ring hand. "It's streaming on the main Smart TV app for Sports. Some guy wished for himself to be streamed this morning and it's been streaming since. The view is from high above and follows him."
+
+The sports bars are furious."
+
+She turned the phone toward him without taking her eyes off the screen. A news feed scrolled past. Headlines. Clips of the same footage recorded off people's televisions.
+
+Jeff stared at the tiny armored man, who was shouting at the sky between swings.
+
+A dry voice from the doorway said, "Somebody want to tell the blind man what's happening on the television?"
+
+The room went quiet in a new and uncomfortable way.
+
+"Oh my gosh." Alicia finally looked away from the screen, saw the short bald man in the cardigan and sunglasses, and was off the couch in one motion. "Hi. I'm so sorry. I thought you were a neighbor. I'm Alicia."
+
+"Yogi. I get that a lot."
+
+The dragon's back is doing the thing again," Biscuit said, trotting to the middle of the rug.
+
+"What thing?" Yogi asked.

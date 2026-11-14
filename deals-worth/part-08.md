@@ -1,6 +1,50 @@
 # Deal's Worth
 
-Part 08 of 22 (1,378 words)
+Part 08 of 21 (1,697 words)
+
+“Option 3: They immediately exist as own spirit/soul form, then immediately “magically merge with a “magically fully healthy physical form 2 copy of their last Physical Form 1 own body (from the moment right before their own most recent biological death)” that is magically fully healthy” at the location where they most recently died, and are still with their original mind, and are still with their original consciousness (such is the only way for a non-”physical form 2” existence to become physical form 2). They have all their magical properties (same levels and potential) that they had the moment right before their own most recent biological death.
+
+They are instantly teleported to Physical Form 2— physical form 2 location/place whose every planet and location/place are whereby:
+
+	•	Perfect health maintained magically (no sickness/disease/viruses possible, except all disorientation/”disorientation-like experiences/undergoings/effects)
+
+	•	Harm/”overly harsh treatment” not tolerated (offenders magically instantly simultaneously “become solely spirit/soul form, are ejected to a physical form 1 location/place, and are banned from option 3 until upon being alive again”)
+
+	•	Option 3 residents birthing/originating life is impossible
+
+	•	Non-abstract pain always minimal (such pain barely registers)
+
+	•	No wish-granting objects exist at/in physical form 2
+
+	•	Abundant resources: planets, life, “magical portals (appearing every 2640 ft near Option 3 residents) that only connect to physical form 2 locations/places”, TV, video games, creative arts supplies, entertainment, and “creative resources”
+
+	•	Wishes can’t affect this realm
+
+Requesting to leave anytime → they're magically automatically given only Options 1 & 2 to choose from.
+
+Wish-Granter Duty (magically only works for those who have ever “'"thought while moving" for 149,022+ hours', doesn't have to be a gapless amount of time"):
+
+	•	Touch special non-biological units scattered throughout Physical Form 2 → a button appears → press it → they instantly magically are on Wish-Granter Duty Standby
+
+	•	Auto-”Wish-Granter Duty Standby” cycle: Every 624 hours (unless already on duty/summoned)
+
+	•	Being Summoned: Only while on ”Wish-Granter Duty Standby”, they are able to be “”magically automatically teleport-summoned into ”magically transitioning into being” the temporary solely physical form 1 wish-granter within 10ft of the last one who broke physical touch-contact with the “wish-granter”-summoning object that summoned that wish-granter” via/of whenever a ““wish-granter”-summoning object” summons a wish-granter”. Upon their such “magical transition into a solely physical form 1 wish-granter” completion, “their form matches “what their most recent physical form 1 “body's state” was while they were non-dead” but fully healthy”. While they are a solely physical form 1 wish-granter, they have “”all their magical properties (same levels and potential) that they had the moment right before their own most recent biological death” +234,000 levels added”. They (the solely physical form 1 wish-granter) instantly are magically teleported/”transitioned into being” back to physical form 2 as their physical form 2 form” after 264 hours OR after granting 3 wishes, whichever comes first.
+
+	•	Never on Wish-Granter Duty Standby while a wish-granter and while not physical form 2
+
+	•	Auto-translation magic: All spoken communication between wish-granter and currently assigned-to-that-wish-granter-by-Eric's-system-design (potential) grantee (within 37 ft) is magically translated into one's own language in real-time
+
+	•	The summoning object magically automatically teleports 6+ trillion miles away upon whenever “the temporary time period duration that “the temporary wish-granter that it summoned” is a wish-granter for” is over.
+
+	•	If they die as wish-granter: Their 'good'/'bad' is only regarding from the moment they were most recently summoned until most recent “death while they were a wish-granter”; standard “Eric’s One's-Still-Existing-After-Own-Death System” processes apply until they are Physical Form 1 again
+
+	•	Being a Physical Form 2 existence is the only way to be on Wish-Granter Duty Standby””””
+
+
+
+
+
+
 
 “Section 0028:
 
@@ -121,43 +165,3 @@ Upon the deceased conscious thinking existence exiting physical form 3, the evil
 
 
 
-
-The VRC representative explains to Eric that Eric's Universe's doppelgangers will have unique "APIing with the simulation"-privileges that enable them the observation-"scope/scale" in accordance with Eric's Universe's parameters. Conscious cursed objects as well and all conscious existences experiencing the simulation-multiverse are “'AGI or non-digital individuals' controlling avatars” but those avatars may also be referred to as those conscious existences. The VRC representative also explains to Eric that, because Eric’s Universe entails many thousands of existences while the VRC’s available AGIs, avatars, and related resources are comparatively limited, Eric’s Universe will initially begin populated only within your universe's modified Solar System's “'Earth and its moons' and etc.”. The remainder of Eric’s Universe will be gradually added to and populated over time, with VRC non-simulated employees being paid weekly to implement the additional “AGIs and their avatars”, digital content, inhabitants, and related simulation elements required for such expansion, including for any simulation-universe. But the VRC representative explains to Eric to keep in mind that the VRC's computers that run the VRC's simulation, even though those computers are supercomputers, the simulation-multiverse will be running within only those supercomputers' "capacity and capabilities".
-
-
-
-
-
-
-
-
-
-With his worldbuilding now complete, Eric is now in control of his avatar. He notices that it's like he can see through his own eyes and that he's even able to undergo sensations and whatnot in this simulation, but "his body and the whole feel of everything" is very different.
-
-
-
-"It beats the hell out of ""dealing with whatever is physically wrong with my non-digital body" and "not being able to even enjoy what non-simulation life has to offer"". This'll have to do."
-
-
-
-Eric breaks into a run.
-
-
-
-
-
-
-
-
-
-Title: "Deal's Worth"
-
- 
-
-Author: Jeffrey Robert Palin Jr. 
-
-
-
- 
-
- 

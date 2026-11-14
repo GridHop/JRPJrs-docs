@@ -1,12 +1,6 @@
 # Deal's Worth
 
-Part 04 of 22 (1,740 words)
-
-“Section 0017:
-
-“From now on, these permanent “universe laws/rules” override all that conflicts with such:
-
-“Excluding cursed objects: 
+Part 04 of 21 (1,800 words)
 
 “"”Per conscious "thinking existence", a conscious "thinking existence" receives a set of 4 random level-1 "magical capabilities/abilities/powers/attributes/properties" that manifest at specific intervals (40s, 50s, 60s, 70s marks) during that conscious "thinking existence's" first 80 seconds of existence as Physical Form 1, or immediately upon birth/separation from origin point (400% of body length from enclosure). "Self-harm via any of those "magical capabilities/abilities powers/attributes/properties"" "is not able to exceed 3% physical damage and also is not able to exceed 103% of maximum non-abstract pain tolerance"". "All "attack-based/defense-based magic/"magical effects/"magical attributes/powers/"magical abilities"""" scale continuously from 0.2747% (weakest) to 100% (strongest) output. Each "attack-based/defense-based magic/"magical effect/"magical attribute/power/"magical ability"""" starts at 0.2747%-0.5495% maximum potential, increasing by 0.000019859745518% per use. A wish can boost maximum potential by 1%-15% once per most recent life. Growth caps when reaching the maximum gamma-ray burst max power extent that occurred before Eric first controlled his simulation avatar. Physical conscious thinking existences gain 1.315789473684211% exhaustion per use, scaled to 0.028921052631579% of the ability’s output", except that “per individual, """magic-related exhaustion always is able to be recovered from" via the same as recovering from "non-magic"-related exhaustion" such as via rest/etc.". Exhaustion is not permanent and is not able to be permanent”. “All "attack-based/defense-based magic/"magical effects/"magical attributes/powers/"magical abilities"""" start at level 1 with minimum output. Each "use of such" increases "that "such that was used""'s level by 0.01219512195122%".””””
 
@@ -135,3 +129,13 @@ Magical auras:
 “Section 0023:
 
 “Permanent, unbreakable magical constraints on all wish-granters summoned via any of Eric’s system's objects, “apply and are in effect” from now on:
+
+1. “Any wish to make “a dead existence be/become alive again”” is not able to be granted
+
+2. “Any wish “observably motivated by evil/malice”” is not able to be granted
+
+3. “Any wish to make an existence appear/be revealed as guilty” is not able to be granted
+
+4. “Any wish to make an existence immortal” is not able to be granted
+
+5. “Any wish with an irreversible effect and/or causing an inability” is not able to be granted

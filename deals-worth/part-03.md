@@ -1,38 +1,6 @@
 # Deal's Worth
 
-Part 03 of 22 (1,874 words)
-
-“Section 0011:
-
-“These permanent “universe laws/rules” “apply and are in effect” from now on:
-
-“Magical Anti-Teleport Barrier:
-
-Once per 24hrs, “species with anti-teleport magic” create an 8-hour non-physical invisible sphere (radius: 1100% of longest body dimension of any “sub-70128 hour old” species member). Effect: blocks all magical illusion-sensing and magical teleportation within radius for existences inside the barrier.”””
-
-
-
-
-
-
-
-“Section 0012:
-
-“These permanent “universe laws/rules” “apply and are in effect” from now on:
-
-Physical invisibility/transparency is impossible for existences under 70,128 hours old, limited to 18 uses per 24 hours (max 7 minutes each), and cannot occur during invisibility.””
-
-
-
-
-
-
-
-“Section 0013:
-
-“This is the state (overriding all that conflicts with such) of “what is in Eric's Universe” upon Eric's completion of Eric's modifications/creations regarding Eric's Universe:
-
-“Scattered throughout Eric’s universe, there “permanently and unchangeably” are many indestructible physical form 1 “non-crystal”/”non-crystalline”/”non-living”/”non-thinking” objects of various sizes/shapes that entail: 
+Part 03 of 21 (1,746 words)
 
 “When a biological conscious “thinking existence” first touches one of these objects, and that object's longest/shortest dimension is 0.17%–150% of that biological conscious “thinking existence's” longest dimension, a physical form 1 wish-granter is summoned within 4 seconds and within 10ft of the last one who broke physical touch-contact with the “wish-granter”-summoning object that summoned that wish-granter. If multiple qualifying biological conscious “thinking existences” touch simultaneously, the summoning triggers when the last one breaks physical touch-contact.
 
@@ -175,3 +143,9 @@ The biological conscious “thinking existence” who was last touching the obje
 
 
 
+
+“Section 0017:
+
+“From now on, these permanent “universe laws/rules” override all that conflicts with such:
+
+“Excluding cursed objects: 

@@ -1,94 +1,6 @@
 # Deal's Worth
 
-Part 14 of 22 (1,644 words)
-
-They walked a few steps. Then Yogi said, "Something's wrong with your left hand. It won't sit still."
-
-
-
-Jeff looked down. His thumb had been rolling the ring on his finger around and around. Not his wedding band. The other one.
-
-
-
-"How can you even tell that?"
-
-
-
-"Later. What's wrong with it?"
-
-
-
-"It's cursed." Jeff held his hand up out of habit, then remembered who he was holding it up for and lowered it. "Found it on a trip. Doesn't come off. But I've had dark powers ever since. I can make these black orbs that blow things apart, and then a tiny black hole shows up and eats whatever got blown up."
-
-
-
-"A tiny black hole."
-
-
-
-"Two seconds, tops. It's like a cleanup crew with anger issues."
-
-
-
-"And the curse part?"
-
-
-
-Jeff's thumb stopped moving.
-
-
-
-"If I get mad enough," he said, "it drives. I'm still in there. I'm just in the passenger seat, watching my own hands do things."
-
-
-
-Yogi was quiet for a few steps. "You could wish it off."
-
-
-
-"I could."
-
-
-
-"But."
-
-
-
-"Not yet."
-
-
-
-What Jeff didn't say was the part that sometimes kept him up at night. The book was very clear that some cursed objects could think, and that a thinking one could observe the thoughts of whoever it was touching, for as long as it was touching them.
-
-
-
-If this was one of the thinking ones, it had been reading him since the day he put it on. It had been reading everything the VRC had ever told him.
-
-
-
-"Maybe I like the company," he said out loud.
-
-
-
-"Mm."
-
-
-
----
-
-
-
-"Okay," Jeff said, clapping once. "Wishes. I've been wanting to find Eric."
-
-
-
-Yogi's eyebrows rose over the sunglasses. "'The' Eric?"
-
-
-
-"The one who changed everything."
-
-
+Part 14 of 21 (1,738 words)
 
 "Everybody's read about him. I've never met a single person who's met him." Yogi scratched his beard. "People say he's seen for years at a time, then nobody sees him for years at a time. Like a comet with trust issues."
 
@@ -363,5 +275,93 @@ Jeff leaned in until his nose was a foot from the surface. Blue light. Maybe a c
 
 
 "If it was him, he walked through that door right as a wish was pointing at him, and he didn't come back out to say hello." Yogi's voice stayed calm. "Think about what kind of man does that."
+
+
+
+Jeff stayed crouched, staring at the blue light, feeling the pull of it in his chest like a hook.
+
+
+
+"I need a better look at this place first," he said finally, standing. "I'm gonna go up."
+
+
+
+"Up."
+
+
+
+"I've got wings."
+
+
+
+"Of course you do." Yogi folded his arms. "Go on, then."
+
+
+
+Jeff pulled off his hoodie, then his undershirt-”tank top”, and tied both around his waist. In the dappled light, his tattoos showed dark against his light-brown skin: the yellow outline of a smiley face on the right side of his stomach, one red teardrop falling from its left eye, and black runic script running up his left forearm.
+
+
+
+"Why'd everything just go quiet?" Yogi asked.
+
+
+
+"Taking my shirt off. Wings don't come out through cotton."
+
+
+
+"And you're telling a blind man this because?"
+
+
+
+"Transparency."
+
+
+
+Then Jeff folded his tongue in three places at once, a trick that looked deeply wrong from the outside and that he had absolutely no plans to explain, and the wings arrived.
+
+
+
+They didn't unfold so much as "appear", attached to his back as if they'd always been there, white-feathered and wide enough to shade them both. Yogi turned his head a half-second later, one hand coming up toward his left side.
+
+
+
+"Did you just grow something?"
+
+
+
+"Wings. I told you."
+
+
+
+"What'd you do to get them out?"
+
+
+
+"Folded my tongue three times at once."
+
+
+
+Yogi was silent for a moment. "I'm glad I can't see that."
+
+
+
+Jeff locked his pinky, the double joint bending back at an angle that made strangers wince, and wind answered. It gathered under him in a rush, and he jumped up in it, wings beating hard. His thumb rolled against the side of his finger like a joystick, steering the gust, and he climbed through a gap in the canopy into open sky.
+
+
+
+---
+
+
+
+From above, the forest stopped being a forest.
+
+
+
+It was a maze.
+
+
+
+Mirrors stood among the trees. No frames, no stands, nothing holding them up, just enormous sheets of perfect reflection planted upright in the earth at angles that couldn't have been accidental. The forest reflected the forest reflected the forest. The gaps between the mirrors made corridors, the corridors folded back into each other, and Jeff's eyes kept trying to follow a path and kept arriving somewhere they'd already been.
 
 

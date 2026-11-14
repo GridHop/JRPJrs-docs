@@ -91,30 +91,29 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 823 words
 
 ## Deal's Worth
-- [Contents](deals-worth/index.html) — 22 parts
+- [Contents](deals-worth/index.html) — 21 parts
 
-- [Part 01 HTML](deals-worth/part-01.html) · [Markdown](deals-worth/part-01.md) — 1,776 words
-- [Part 02 HTML](deals-worth/part-02.html) · [Markdown](deals-worth/part-02.md) — 1,630 words
-- [Part 03 HTML](deals-worth/part-03.html) · [Markdown](deals-worth/part-03.md) — 1,874 words
-- [Part 04 HTML](deals-worth/part-04.html) · [Markdown](deals-worth/part-04.md) — 1,740 words
-- [Part 05 HTML](deals-worth/part-05.html) · [Markdown](deals-worth/part-05.md) — 1,980 words
-- [Part 06 HTML](deals-worth/part-06.html) · [Markdown](deals-worth/part-06.md) — 1,855 words
-- [Part 07 HTML](deals-worth/part-07.html) · [Markdown](deals-worth/part-07.md) — 1,590 words
-- [Part 08 HTML](deals-worth/part-08.html) · [Markdown](deals-worth/part-08.md) — 1,378 words
-- [Part 09 HTML](deals-worth/part-09.html) · [Markdown](deals-worth/part-09.md) — 1,652 words
-- [Part 10 HTML](deals-worth/part-10.html) · [Markdown](deals-worth/part-10.md) — 1,648 words
-- [Part 11 HTML](deals-worth/part-11.html) · [Markdown](deals-worth/part-11.md) — 1,667 words
-- [Part 12 HTML](deals-worth/part-12.html) · [Markdown](deals-worth/part-12.md) — 1,635 words
-- [Part 13 HTML](deals-worth/part-13.html) · [Markdown](deals-worth/part-13.md) — 1,647 words
-- [Part 14 HTML](deals-worth/part-14.html) · [Markdown](deals-worth/part-14.md) — 1,644 words
-- [Part 15 HTML](deals-worth/part-15.html) · [Markdown](deals-worth/part-15.md) — 1,297 words
-- [Part 16 HTML](deals-worth/part-16.html) · [Markdown](deals-worth/part-16.md) — 1,662 words
-- [Part 17 HTML](deals-worth/part-17.html) · [Markdown](deals-worth/part-17.md) — 1,657 words
-- [Part 18 HTML](deals-worth/part-18.html) · [Markdown](deals-worth/part-18.md) — 1,660 words
-- [Part 19 HTML](deals-worth/part-19.html) · [Markdown](deals-worth/part-19.md) — 1,640 words
-- [Part 20 HTML](deals-worth/part-20.html) · [Markdown](deals-worth/part-20.md) — 1,632 words
-- [Part 21 HTML](deals-worth/part-21.html) · [Markdown](deals-worth/part-21.md) — 1,618 words
-- [Part 22 HTML](deals-worth/part-22.html) · [Markdown](deals-worth/part-22.md) — 1,543 words
+- [Part 01 HTML](deals-worth/part-01.html) · [Markdown](deals-worth/part-01.md) — 1,783 words
+- [Part 02 HTML](deals-worth/part-02.html) · [Markdown](deals-worth/part-02.md) — 1,799 words
+- [Part 03 HTML](deals-worth/part-03.html) · [Markdown](deals-worth/part-03.md) — 1,746 words
+- [Part 04 HTML](deals-worth/part-04.html) · [Markdown](deals-worth/part-04.md) — 1,800 words
+- [Part 05 HTML](deals-worth/part-05.html) · [Markdown](deals-worth/part-05.md) — 1,786 words
+- [Part 06 HTML](deals-worth/part-06.html) · [Markdown](deals-worth/part-06.md) — 1,211 words
+- [Part 07 HTML](deals-worth/part-07.html) · [Markdown](deals-worth/part-07.md) — 1,747 words
+- [Part 08 HTML](deals-worth/part-08.html) · [Markdown](deals-worth/part-08.md) — 1,697 words
+- [Part 09 HTML](deals-worth/part-09.html) · [Markdown](deals-worth/part-09.md) — 1,737 words
+- [Part 10 HTML](deals-worth/part-10.html) · [Markdown](deals-worth/part-10.md) — 1,790 words
+- [Part 11 HTML](deals-worth/part-11.html) · [Markdown](deals-worth/part-11.md) — 1,800 words
+- [Part 12 HTML](deals-worth/part-12.html) · [Markdown](deals-worth/part-12.md) — 1,717 words
+- [Part 13 HTML](deals-worth/part-13.html) · [Markdown](deals-worth/part-13.md) — 1,799 words
+- [Part 14 HTML](deals-worth/part-14.html) · [Markdown](deals-worth/part-14.md) — 1,738 words
+- [Part 15 HTML](deals-worth/part-15.html) · [Markdown](deals-worth/part-15.md) — 1,768 words
+- [Part 16 HTML](deals-worth/part-16.html) · [Markdown](deals-worth/part-16.md) — 1,798 words
+- [Part 17 HTML](deals-worth/part-17.html) · [Markdown](deals-worth/part-17.md) — 1,742 words
+- [Part 18 HTML](deals-worth/part-18.html) · [Markdown](deals-worth/part-18.md) — 1,798 words
+- [Part 19 HTML](deals-worth/part-19.html) · [Markdown](deals-worth/part-19.md) — 1,651 words
+- [Part 20 HTML](deals-worth/part-20.html) · [Markdown](deals-worth/part-20.md) — 1,769 words
+- [Part 21 HTML](deals-worth/part-21.html) · [Markdown](deals-worth/part-21.md) — 1,677 words
 
 ## Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 - [Contents](quantum-reference-frames-single-outcome-dynamics/index.html) — 35 parts

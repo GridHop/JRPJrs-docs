@@ -1,6 +1,8 @@
 # Deal's Worth
 
-Part 02 of 22 (1,630 words)
+Part 02 of 21 (1,799 words)
+
+1. Thinking existences always retain their ability to move/will things as they could in the 9 minutes before Eric first controlled his avatar.
 
 2. Spirits and souls are the same thing; conscious thinking existences are not able to cease to exist. 
 
@@ -211,3 +213,35 @@ upon being implanted without the implantee's informed consent
 
 
 
+
+“Section 0011:
+
+“These permanent “universe laws/rules” “apply and are in effect” from now on:
+
+“Magical Anti-Teleport Barrier:
+
+Once per 24hrs, “species with anti-teleport magic” create an 8-hour non-physical invisible sphere (radius: 1100% of longest body dimension of any “sub-70128 hour old” species member). Effect: blocks all magical illusion-sensing and magical teleportation within radius for existences inside the barrier.”””
+
+
+
+
+
+
+
+“Section 0012:
+
+“These permanent “universe laws/rules” “apply and are in effect” from now on:
+
+Physical invisibility/transparency is impossible for existences under 70,128 hours old, limited to 18 uses per 24 hours (max 7 minutes each), and cannot occur during invisibility.””
+
+
+
+
+
+
+
+“Section 0013:
+
+“This is the state (overriding all that conflicts with such) of “what is in Eric's Universe” upon Eric's completion of Eric's modifications/creations regarding Eric's Universe:
+
+“Scattered throughout Eric’s universe, there “permanently and unchangeably” are many indestructible physical form 1 “non-crystal”/”non-crystalline”/”non-living”/”non-thinking” objects of various sizes/shapes that entail: 

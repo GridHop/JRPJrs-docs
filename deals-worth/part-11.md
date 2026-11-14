@@ -1,6 +1,22 @@
 # Deal's Worth
 
-Part 11 of 22 (1,667 words)
+Part 11 of 21 (1,800 words)
+
+"'Which you're' designing. You may also copy any laws and implementations from other existing users' worlds. Or skip creation entirely and simply live in someone else's. Many do. It's considerably less work and there's no shame in it".
+
+
+
+"No", Eric thought, and was surprised by how fast it came, and how certain. "No, I'll build it".
+
+
+
+He'd been lying in one room for three weeks. Some part of him had apparently been taking notes.
+
+
+
+---
+
+
 
 The entity explained where the people would come from, and that was where the floor moved.
 
@@ -299,5 +315,13 @@ The simulation automatically incorporates exactly one exact copy of each creator
 
 
 Death travels by local law. Die in a universe that isn't yours, and whatever death system that place runs is the one you're subject to. Get stuck in a world that isn't your home for what feels like a full year with no way out, and you're teleported instantly to a random location you've previously visited back home. Die in a world with no death system at all, and the same thing happens. Universally applied. No exceptions, not even for creators.
+
+
+
+"And the limits on your side?" Eric asked. "What can't your tech do?"
+
+
+
+"We're unable to detect intent. Not desire, not intention, not motive — we infer, like anyone else, and we can be wrong. We're unable to distinguish a true memory from a false one in a biological brain. We're unable to pause or reverse time itself".
 
 

@@ -1,6 +1,6 @@
 # Deal's Worth
 
-Part 01 of 22 (1,776 words)
+Part 01 of 21 (1,783 words)
 
 Literary Fiction Work titled "Deal's Worth"
 
@@ -10,9 +10,15 @@ by author Jeffrey Robert Palin Jr.
 
 
 
+ 
 
 
 
+Deal's Worth (Keep in mind that "the 'Synopsis and World Reference' are more like a World Bible that the reader can refer to to help make sense of Chapters 2+").
+
+
+
+ 
 
 
 
@@ -211,5 +217,3 @@ Everything described in Eric’s Systems and Sections becomes unchangeable, perm
 “Section 0002:
 
 “From this moment forward in Eric’s universe, these “universe laws/rules” apply permanently:
-
-1. Thinking existences always retain their ability to move/will things as they could in the 9 minutes before Eric first controlled his avatar.

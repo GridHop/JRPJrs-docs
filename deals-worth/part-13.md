@@ -1,38 +1,6 @@
 # Deal's Worth
 
-Part 13 of 22 (1,647 words)
-
-"On the sixtieth second, all custom signals to your brain stop for eight hours. Your avatar freezes in place, though the world around it keeps running as normal — which means many simulation-years will pass while you're out. Afterward the signals resume automatically and your avatar unfreezes. You can use the method whenever you need it. You should experience a great many years before exhaustion sets in, though I'll admit we're uncertain how quickly mental fatigue actually accumulates under these conditions".
-
-
-
-"Pinky. To bellybutton. For a full minute".
-
-
-
-"The gesture is arbitrary. Every gesture is arbitrary".
-
-
-
-"You could have made it a salute".
-
-
-
-"Someone in engineering found this funnier".
-
-
-
----
-
-
-
-The entity spoke once more, and this time there was no lightness in it anywhere.
-
-
-
-"Understand what the Simulation is, because people romanticize it and the romance causes problems later.
-
-
+Part 13 of 21 (1,799 words)
 
 It exists solely through human-made computer technology. Every human being and everything humans produce can only ever be external stimuli to that technology. Musical or articulated sound has never been shown to originate inside the human brain — and if it ever has, nothing we've built has detected it. What happens instead is this: physical custom signals reach your physical brain, and your brain interprets them into particular, depending on the custom signal, thoughts, imaginings, smells, tastes, pain, imagery, sounds, weight, heat, or whatever else I may be failing to remember to mention. That is the Simulation you will experience."
 
@@ -361,5 +329,93 @@ Yogi laughed, short and surprised, the laugh of a man who is currently a genie a
 
 
 "Aren't we all."
+
+
+
+They walked a few steps. Then Yogi said, "Something's wrong with your left hand. It won't sit still."
+
+
+
+Jeff looked down. His thumb had been rolling the ring on his finger around and around. Not his wedding band. The other one.
+
+
+
+"How can you even tell that?"
+
+
+
+"Later. What's wrong with it?"
+
+
+
+"It's cursed." Jeff held his hand up out of habit, then remembered who he was holding it up for and lowered it. "Found it on a trip. Doesn't come off. But I've had dark powers ever since. I can make these black orbs that blow things apart, and then a tiny black hole shows up and eats whatever got blown up."
+
+
+
+"A tiny black hole."
+
+
+
+"Two seconds, tops. It's like a cleanup crew with anger issues."
+
+
+
+"And the curse part?"
+
+
+
+Jeff's thumb stopped moving.
+
+
+
+"If I get mad enough," he said, "it drives. I'm still in there. I'm just in the passenger seat, watching my own hands do things."
+
+
+
+Yogi was quiet for a few steps. "You could wish it off."
+
+
+
+"I could."
+
+
+
+"But."
+
+
+
+"Not yet."
+
+
+
+What Jeff didn't say was the part that sometimes kept him up at night. The book was very clear that some cursed objects could think, and that a thinking one could observe the thoughts of whoever it was touching, for as long as it was touching them.
+
+
+
+If this was one of the thinking ones, it had been reading him since the day he put it on. It had been reading everything the VRC had ever told him.
+
+
+
+"Maybe I like the company," he said out loud.
+
+
+
+"Mm."
+
+
+
+---
+
+
+
+"Okay," Jeff said, clapping once. "Wishes. I've been wanting to find Eric."
+
+
+
+Yogi's eyebrows rose over the sunglasses. "'The' Eric?"
+
+
+
+"The one who changed everything."
 
 

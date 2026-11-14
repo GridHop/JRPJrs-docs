@@ -1,6 +1,54 @@
 # Deal's Worth
 
-Part 07 of 22 (1,590 words)
+Part 07 of 21 (1,747 words)
+
+“Any magical portal leading to whereabouts is an exception to the impossibility of magical spying. 'A magical wish effect is magically able to magically transmit visual and/or auditory information, including as a live transmission through electronic communication systems" but only “non-mental and external to the mind” and “only via ”what is granted via ”a wish granted by a wish-granter”” but such wish effect is not able to (still) be in effect 24.1 hours after granted”. 'Without exception, magic is able to make an existence's audible speech be perfectly clearly audibly pronounced and conveyed but such magical clarity is able to be obtained via only “'wish granted by wish-granter', 'a crystal's magical aura that has that magic and entails one's being able to be in radius-effect of that aura long enough to obtain that magic for oneself' and/or 'from magic acquired from “own first magic set during own first 80 seconds of one's own first ever existing as Physical Form 1”'”'. Whenever any conscious thinking existence dies (biological death or cessation of sustenance processes), they instantly become spirit/soul form until they (the deceased conscious thinking existence) are physically “non-dead as a physical form 1 existence” again. Only they and their spirit/soul form doppelganger can detect/observe each other and their surroundings. The doppelganger visibly appears as a color-inverted version of the deceased but differs in name, colors, voice, equipment, attire, familiarity, preferences, style, memory, movements, potential, “mental/mind activity”, stamina, desire, level, power, energy, intentions, aggression, competitiveness, determination, commitment, dedication, experience, feelings, thinking, emotions, behavior, and personality—it’s not mimicry/mirroring. The deceased conscious thinking existence appears uninjured, wearing intact attire from their last non-dead physical form 1 moment. The doppelganger is never an evil twin from Eric’s One's-Still-Existing-After-Own-Death System. While the deceased conscious thinking existence is dead, the doppelganger is automatically magically teleported to remain within half the deceased conscious thinking existence's full body-length distance) whenever the deceased conscious thinking existence is magically teleported. Both are spirit/soul form existences while deceased conscious thinking existence is dead and both are not able to feel non-abstract pain while deceased conscious thinking existence is dead. They communicate via automatically magically translated communication. While the deceased conscious thinking existence  is dead, “only the deceased conscious thinking existence is able to detect/observe/hear the doppelganger—no other existence is able to detect/observe/hear the doppelganger, and only the doppelganger is able to detect/observe/hear the deceased conscious thinking existence—no other existence is able to detect/observe/hear the deceased conscious thinking existence”. Both the deceased conscious thinking existence and doppelganger are able to detect/observe/hear each other’s physical surroundings. They exclusively are able to detect/observe/hear each other and exclusively are able to “communicate to/with each other”. The doppelganger continuously accompanies the deceased conscious thinking existence for the entire duration the deceased conscious thinking existence remains dead. The deceased conscious thinking existence is able to move only as if in a vacuum of space, starting 7ft from where they died. While the deceased conscious thinking existence is dead, the doppelganger presents Eric’s One's-Still-Existing-After-Own-Death System “options 1, 2, and 3” within 30 minutes (defaulting to “”option 2 as being selected” in Eric’s One's-Still-Existing-After-Own-Death System” if no choice is made). To choose an option, the deceased conscious thinking existence must communicate their definite decision to the doppelganger within 30 minutes. Upon communicating this decision, the deceased conscious thinking existence immediately magically undergoes what that option entails. Whenever the doppelganger is not in spirit/soul form, the doppelganger is able to observe all observable physical events happening/occurring in Eric’s universe and the doppelganger knows psychology principles but is never able to detect any other's “”mind/mental/brain activity”, “brains' neural networks”, and/or “any “feeling, emotion, desire, and/or intention” of those others”. “Whenever the deceased conscious thinking existence becomes spirit/soul form, the doppelganger also becomes spirit/soul form until the deceased conscious thinking existence is a non-dead physical form 1 existence again. Whenever the deceased conscious thinking existence is a non-dead physical form 1 existence again, the doppelganger becomes a physical form 4 existence again and is teleported to a physical form 4 location/place. Except whenever spirit/soul form, doppelgangers  exist as physical Form 4 existences—physical form 4 location/place has magic, planets, “”locations/places that have “magical portals that only connect to physical form 4 locations/places”, TV, video games, creative arts supplies, entertainment, and “creative resources”” where doppelgangers can interact””. No wish-granting objects exist at/in physical form 4. Per doppelganger, a doppelganger is magically auto-teleported to safety whenever they are in immediate danger and automatically magically respawn if they die. the term “doppelganger” is simply only “a nickname for their kind” whenever that term refers to them.”””
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 “Section 0026:
 
@@ -61,49 +109,5 @@ Whenever a conscious thinking existence biologically dies with “neither their 
 
 
 “Option 2: They immediately “exist as own spirit/soul form until they exist as a Physical Form 1 existence again” starting at their most recent biological death location. A copy of their last Physical Form 1 own body (from the moment right before their own most recent biological death) magically “regenerates into fully healthy” at the physical form 1 location where they most recently biologically died. They choose either: (1) keep “all of their magical properties (same levels and potential) that they had the moment right before their own most recent biological death” as-is, (2) replace some with random new ones, or (3) discard some. They get to select their “visible form's visibly aged state and/or its associated “what is visibly present that is not behavior” only if they have ever “'"thought while moving" for 149,022+ hours', doesn't have to be a gapless amount of time". Immediately after they finished making their selections, the “copy of their body”'s regeneration completes within 20 seconds. Upon completion of such regeneration, their spirit/soul magically merges with their regenerated “own body” copy whereby “”they (solely that conscious thinking existence) are ““alive as a physical form 1 existence existing as the aforementioned regenerated body from that point” at the physical form 1 location where they most recently biologically died”, are still with their original mind, and are still with their original consciousness. They are then able to choose to be instantly magically teleported to any former home physical form 1 location (if adequate for 48-hour survival) or to the nearest safe physical form 1 location near a former physical form 1 home. If such choices aren’t made within 30 minutes, defaults apply: they still have all of their magical properties (same levels and potential) that they had the moment right before their own most recent biological death, their body is “”what their most recent physical form 1 “body's visibly aged state” was during the moment right before their own most recent biological death” but fully healthy” (or half if they biologically died of own bodily functionality failure due to old age), they instantly magically auto-teleport to nearest observably safe adequate former physical form 1 home.”
-
-
-
-“Option 3: They immediately exist as own spirit/soul form, then immediately “magically merge with a “magically fully healthy physical form 2 copy of their last Physical Form 1 own body (from the moment right before their own most recent biological death)” that is magically fully healthy” at the location where they most recently died, and are still with their original mind, and are still with their original consciousness (such is the only way for a non-”physical form 2” existence to become physical form 2). They have all their magical properties (same levels and potential) that they had the moment right before their own most recent biological death.
-
-They are instantly teleported to Physical Form 2— physical form 2 location/place whose every planet and location/place are whereby:
-
-	•	Perfect health maintained magically (no sickness/disease/viruses possible, except all disorientation/”disorientation-like experiences/undergoings/effects)
-
-	•	Harm/”overly harsh treatment” not tolerated (offenders magically instantly simultaneously “become solely spirit/soul form, are ejected to a physical form 1 location/place, and are banned from option 3 until upon being alive again”)
-
-	•	Option 3 residents birthing/originating life is impossible
-
-	•	Non-abstract pain always minimal (such pain barely registers)
-
-	•	No wish-granting objects exist at/in physical form 2
-
-	•	Abundant resources: planets, life, “magical portals (appearing every 2640 ft near Option 3 residents) that only connect to physical form 2 locations/places”, TV, video games, creative arts supplies, entertainment, and “creative resources”
-
-	•	Wishes can’t affect this realm
-
-Requesting to leave anytime → they're magically automatically given only Options 1 & 2 to choose from.
-
-Wish-Granter Duty (magically only works for those who have ever “'"thought while moving" for 149,022+ hours', doesn't have to be a gapless amount of time"):
-
-	•	Touch special non-biological units scattered throughout Physical Form 2 → a button appears → press it → they instantly magically are on Wish-Granter Duty Standby
-
-	•	Auto-”Wish-Granter Duty Standby” cycle: Every 624 hours (unless already on duty/summoned)
-
-	•	Being Summoned: Only while on ”Wish-Granter Duty Standby”, they are able to be “”magically automatically teleport-summoned into ”magically transitioning into being” the temporary solely physical form 1 wish-granter within 10ft of the last one who broke physical touch-contact with the “wish-granter”-summoning object that summoned that wish-granter” via/of whenever a ““wish-granter”-summoning object” summons a wish-granter”. Upon their such “magical transition into a solely physical form 1 wish-granter” completion, “their form matches “what their most recent physical form 1 “body's state” was while they were non-dead” but fully healthy”. While they are a solely physical form 1 wish-granter, they have “”all their magical properties (same levels and potential) that they had the moment right before their own most recent biological death” +234,000 levels added”. They (the solely physical form 1 wish-granter) instantly are magically teleported/”transitioned into being” back to physical form 2 as their physical form 2 form” after 264 hours OR after granting 3 wishes, whichever comes first.
-
-	•	Never on Wish-Granter Duty Standby while a wish-granter and while not physical form 2
-
-	•	Auto-translation magic: All spoken communication between wish-granter and currently assigned-to-that-wish-granter-by-Eric's-system-design (potential) grantee (within 37 ft) is magically translated into one's own language in real-time
-
-	•	The summoning object magically automatically teleports 6+ trillion miles away upon whenever “the temporary time period duration that “the temporary wish-granter that it summoned” is a wish-granter for” is over.
-
-	•	If they die as wish-granter: Their 'good'/'bad' is only regarding from the moment they were most recently summoned until most recent “death while they were a wish-granter”; standard “Eric’s One's-Still-Existing-After-Own-Death System” processes apply until they are Physical Form 1 again
-
-	•	Being a Physical Form 2 existence is the only way to be on Wish-Granter Duty Standby””””
-
-
-
-
 
 

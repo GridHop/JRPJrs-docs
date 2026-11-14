@@ -1,14 +1,6 @@
 # Deal's Worth
 
-Part 12 of 22 (1,635 words)
-
-"And the limits on your side?" Eric asked. "What can't your tech do?"
-
-
-
-"We're unable to detect intent. Not desire, not intention, not motive — we infer, like anyone else, and we can be wrong. We're unable to distinguish a true memory from a false one in a biological brain. We're unable to pause or reverse time itself".
-
-
+Part 12 of 21 (1,717 words)
 
 "And what won't the system allow?"
 
@@ -231,5 +223,37 @@ Eric decided not to ask.
 
 
 "...I'm sorry, what?"
+
+
+
+"On the sixtieth second, all custom signals to your brain stop for eight hours. Your avatar freezes in place, though the world around it keeps running as normal — which means many simulation-years will pass while you're out. Afterward the signals resume automatically and your avatar unfreezes. You can use the method whenever you need it. You should experience a great many years before exhaustion sets in, though I'll admit we're uncertain how quickly mental fatigue actually accumulates under these conditions".
+
+
+
+"Pinky. To bellybutton. For a full minute".
+
+
+
+"The gesture is arbitrary. Every gesture is arbitrary".
+
+
+
+"You could have made it a salute".
+
+
+
+"Someone in engineering found this funnier".
+
+
+
+---
+
+
+
+The entity spoke once more, and this time there was no lightness in it anywhere.
+
+
+
+"Understand what the Simulation is, because people romanticize it and the romance causes problems later.
 
 

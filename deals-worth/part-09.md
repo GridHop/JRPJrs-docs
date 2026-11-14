@@ -1,6 +1,46 @@
 # Deal's Worth
 
-Part 09 of 22 (1,652 words)
+Part 09 of 21 (1,737 words)
+
+The VRC representative explains to Eric that Eric's Universe's doppelgangers will have unique "APIing with the simulation"-privileges that enable them the observation-"scope/scale" in accordance with Eric's Universe's parameters. Conscious cursed objects as well and all conscious existences experiencing the simulation-multiverse are “'AGI or non-digital individuals' controlling avatars” but those avatars may also be referred to as those conscious existences. The VRC representative also explains to Eric that, because Eric’s Universe entails many thousands of existences while the VRC’s available AGIs, avatars, and related resources are comparatively limited, Eric’s Universe will initially begin populated only within your universe's modified Solar System's “'Earth and its moons' and etc.”. The remainder of Eric’s Universe will be gradually added to and populated over time, with VRC non-simulated employees being paid weekly to implement the additional “AGIs and their avatars”, digital content, inhabitants, and related simulation elements required for such expansion, including for any simulation-universe. But the VRC representative explains to Eric to keep in mind that the VRC's computers that run the VRC's simulation, even though those computers are supercomputers, the simulation-multiverse will be running within only those supercomputers' "capacity and capabilities".
+
+
+
+
+
+
+
+
+
+With his worldbuilding now complete, Eric is now in control of his avatar. He notices that it's like he can see through his own eyes and that he's even able to undergo sensations and whatnot in this simulation, but "his body and the whole feel of everything" is very different.
+
+
+
+"It beats the hell out of ""dealing with whatever is physically wrong with my non-digital body" and "not being able to even enjoy what non-simulation life has to offer"". This'll have to do."
+
+
+
+Eric breaks into a run.
+
+
+
+
+
+
+
+
+
+Title: "Deal's Worth"
+
+ 
+
+Author: Jeffrey Robert Palin Jr. 
+
+
+
+ 
+
+ 
 
 Chapter 1 : Eric's Deal
 
@@ -243,21 +283,5 @@ They talked it over for days, and to their credit they did it in front of him. A
 
 
 On the sixth day, Amy said yes.
-
-
-
-The paperwork went on for a long time. She read all of it, out loud, so he could hear it, asking questions in the gaps so he could listen to the answers. It aligned with everything they'd discussed. It also expanded on it in the way paperwork always expands on it, in appendices, in language that had clearly been through a room full of lawyers and come out the other side smooth as a river stone.
-
-
-
-She signed her name twice. Once for herself. Once on his behalf, because he was documented as unable to consent, which was true in every legal sense and false in every sense that mattered to him.
-
-
-
-He heard the pen. It was a good pen. Heavy. The kind you bring when you expect people to sign things.
-
-
-
-They scheduled the surgery for the next morning, which gave Amy the night to call everyone. His mother came. His brother came. Somebody brought a folding chair from a waiting room two floors down and nobody slept, and around 3 a.m. his brother started telling a story about a canoe that Eric had heard eleven hundred times and had never once been so glad to hear.
 
 

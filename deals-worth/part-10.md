@@ -1,6 +1,22 @@
 # Deal's Worth
 
-Part 10 of 22 (1,648 words)
+Part 10 of 21 (1,790 words)
+
+The paperwork went on for a long time. She read all of it, out loud, so he could hear it, asking questions in the gaps so he could listen to the answers. It aligned with everything they'd discussed. It also expanded on it in the way paperwork always expands on it, in appendices, in language that had clearly been through a room full of lawyers and come out the other side smooth as a river stone.
+
+
+
+She signed her name twice. Once for herself. Once on his behalf, because he was documented as unable to consent, which was true in every legal sense and false in every sense that mattered to him.
+
+
+
+He heard the pen. It was a good pen. Heavy. The kind you bring when you expect people to sign things.
+
+
+
+They scheduled the surgery for the next morning, which gave Amy the night to call everyone. His mother came. His brother came. Somebody brought a folding chair from a waiting room two floors down and nobody slept, and around 3 a.m. his brother started telling a story about a canoe that Eric had heard eleven hundred times and had never once been so glad to hear.
+
+
 
 "He'll be ready by noon tomorrow," the man in the suit said.
 
@@ -250,11 +266,7 @@ The specification was this: the simulation could not perfectly reproduce the rea
 
 
 
-What makes the simulation "extremely" interesting, the entity said, is the genuine unpredictability — real randomness, not a random number generator — because the whole system was continuously perturbed from outside by non-digital hands: maintenance performed by actual people at actual terminals, and every interaction between the simulation and an avatar driven by a living human in the physical world.
-
-
-
-"Randomness has to come from somewhere. Ours comes from you. All of you".
+What makes the simulation "extremely" interesting, the entity said, is its unpredictability — not a random number generator, and not true randomness either, but something its digital population cannot tell apart from true randomness — because the whole system was continuously perturbed from outside by non-digital hands: maintenance performed by actual people at actual terminals, and every interaction between the simulation and an avatar driven by a living human in the physical world. Every such event has a cause; the cause simply sits where nothing inside the simulation can observe it”.
 
 
 
@@ -287,21 +299,5 @@ Eric stopped.
 
 
 "Which I'm — writing".
-
-
-
-"'Which you're' designing. You may also copy any laws and implementations from other existing users' worlds. Or skip creation entirely and simply live in someone else's. Many do. It's considerably less work and there's no shame in it".
-
-
-
-"No", Eric thought, and was surprised by how fast it came, and how certain. "No, I'll build it".
-
-
-
-He'd been lying in one room for three weeks. Some part of him had apparently been taking notes.
-
-
-
----
 
 
