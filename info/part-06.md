@@ -1,6 +1,14 @@
 # Info
 
-Part 06 of 23 (1,796 words)
+Part 06 of 23 (1,799 words)
+
+Law & governance: Rules need to be explained so they’re understood and accepted.
+
+
+
+Culture & philosophy: Passing on values, reasoning, moral frameworks—all rely on explanations.
+
+
 
 Interpersonal trust: Explanations calm doubts, repair misunderstandings, and strengthen bonds.
 
@@ -625,25 +633,5 @@ influence one another feedback into each other modulate one another’s outputs
 
 
 No interaction → no waking consciousness.
-
-
-
-Criterion met.
-
-
-
-(4) Organization
-
-
-
-The interactions are:
-
-
-
-highly structured non-random constrained by anatomy, development, and learning
-
-
-
-Random interaction gives noise, not thought.
 
 

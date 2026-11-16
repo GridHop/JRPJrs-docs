@@ -2,6 +2,26 @@
 
 Part 07 of 23 (1,797 words)
 
+Criterion met.
+
+
+
+(4) Organization
+
+
+
+The interactions are:
+
+
+
+highly structured non-random constrained by anatomy, development, and learning
+
+
+
+Random interaction gives noise, not thought.
+
+
+
 Organization is exactly what differentiates “mind” from “neural soup”.
 
 
@@ -709,17 +729,5 @@ Knowledge? Not without signals.
 
 
 Consistent with the framework’s own rules. That internal consistency matters.
-
-
-
-8) Hypotheses should not be worn like trophies
-
-
-
-This is a rare point people emotionally resist:
-
-
-
-hypotheses feel meaningful meaning ≠ confirmation
 
 

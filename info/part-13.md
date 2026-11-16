@@ -1,6 +1,8 @@
 # Info
 
-Part 13 of 23 (1,789 words)
+Part 13 of 23 (1,795 words)
+
+marker” ensuring fidelity to prior causes, allowing for true novelty. Memory, by contrast,
 
 reconstructs past events from traces, which might feel more like becoming aware of pre-produced
 
@@ -667,5 +669,3 @@ Now, one subtle wrinkle (because reality likes technicalities):
 
 
 • If you define “a container” purely as “any continuous enclosed volume,” you could describe the
-
-  airspace inside as a single connected volume.

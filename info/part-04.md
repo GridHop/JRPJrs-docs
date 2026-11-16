@@ -1,6 +1,18 @@
 # Info
 
-Part 04 of 23 (1,800 words)
+Part 04 of 23 (1,789 words)
+
+• Particle colliders searching for signs (graviton emission, micro black holes)
+
+• Result so far: No confirmed detection
+
+
+
+—–
+
+
+
+----------------------------------------------------------------------------------------------------
 
 What Has NOT Been Confirmed
 
@@ -777,15 +789,5 @@ Both natural and artificial trackers rely on the same universal principle:
 Detection is always based on some form of emitted or reflected energy, pattern, or field — and
 
 recognition arises from comparing that input to a learned or stored model.
-
-
-
-So, whether it’s a wolf following a scent trail or a satellite tracking a person’s thermal outline,
-
-both are simply reading existence’s resonance in its medium.
-
-
-
-Different hardware, same metaphysical idea
 
 

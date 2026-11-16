@@ -2,6 +2,14 @@
 
 Part 11 of 23 (1,795 words)
 
+• But the capacity remains anchored and can re-emerge without a new form
+
+
+
+This explains why:
+
+
+
 • There’s no memory of “nothingness”
 
 • Awakening feels like continuity rather than resurrection
@@ -733,9 +741,3 @@ What is true
   photosynthesis and, possibly, magnetoreception)
 
 
-
-What there is no evidence for
-
-
-
-• The brain existing in a unified, coherent quantum state

@@ -1,6 +1,6 @@
 # Info
 
-Part 02 of 23 (1,798 words)
+Part 02 of 23 (1,795 words)
 
 • To keep it alive, surgeons would need to reconnect all major arteries and veins seamlessly in
 
@@ -145,6 +145,10 @@ Until we can fully regenerate or simulate a body around an existing brain—or t
 full connectome into an artificial substrate—true “brain transplantation” remains in the domain of
 
 speculative neuroscience.
+
+
+
+Do brain-computer interfaces (BCIs) do any detecting of "'audio' itself" and/or sound waves? Does neural activity produce audio/sound?
 
 
 
@@ -617,17 +621,5 @@ Over years, this process can:
 
 
 Summary Table
-
-
-
-Stage Accuracy Level Mechanism of Change
-
-
-
-Encoding (initial storage) Partially accurate Selective attention, perception bias
-
-
-
-Short-term recall Fairly accurate Minimal distortion
 
 

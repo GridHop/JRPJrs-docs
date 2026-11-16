@@ -1,6 +1,12 @@
 # Info
 
-Part 12 of 23 (1,790 words)
+Part 12 of 23 (1,793 words)
+
+What there is no evidence for
+
+
+
+• The brain existing in a unified, coherent quantum state
 
 • Consciousness being a macroscopic superposition
 
@@ -651,5 +657,3 @@ differences between imagination and memory. Imagination isn’t bound to past en
 of novel construction, recombining elements with few constraints. When inventing a character, you’re
 
 generating signals that draw on stored patterns but aren’t limited to them; there’s no “truth
-
-marker” ensuring fidelity to prior causes, allowing for true novelty. Memory, by contrast,

@@ -2,6 +2,8 @@
 
 Part 14 of 23 (1,797 words)
 
+  airspace inside as a single connected volume.
+
 • But that does not mean the bottles themselves are merged as objects.
 
 
@@ -695,5 +697,3 @@ Even in deterministic systems, perfect prediction is impossible due to chaos and
 • Conscious experience requires sequential processing.
 
 • Even memory recall occurs in time.
-
-• No known system processes experience non-temporally.

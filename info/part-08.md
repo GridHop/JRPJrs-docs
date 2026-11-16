@@ -1,6 +1,18 @@
 # Info
 
-Part 08 of 23 (1,790 words)
+Part 08 of 23 (1,799 words)
+
+8) Hypotheses should not be worn like trophies
+
+
+
+This is a rare point people emotionally resist:
+
+
+
+hypotheses feel meaningful meaning ≠ confirmation
+
+
 
 Treating unverified cosmic claims as exploration zones rather than settled truth keeps curiosity
 
@@ -603,9 +615,3 @@ knowledge—you lose *coordination bandwidth* and *safety margins*.
 
 
 ----------------------------------------------------------------------------------------------------
-
-D) Intention/meaning inference is “reverse engineering,” so it has predictable failure modes
-
-----------------------------------------------------------------------------------------------------
-
-

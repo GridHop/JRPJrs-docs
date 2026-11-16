@@ -1,6 +1,16 @@
 # Info
 
-Part 05 of 23 (1,791 words)
+Part 05 of 23 (1,797 words)
+
+So, whether it’s a wolf following a scent trail or a satellite tracking a person’s thermal outline,
+
+both are simply reading existence’s resonance in its medium.
+
+
+
+Different hardware, same metaphysical idea
+
+
 
 —–
 
@@ -525,13 +535,5 @@ Science & medicine: Hypotheses, results, diagnoses, treatments all rely on expla
 
 
 Technology: Engineering requires not just knowing what works but why.
-
-
-
-Law & governance: Rules need to be explained so they’re understood and accepted.
-
-
-
-Culture & philosophy: Passing on values, reasoning, moral frameworks—all rely on explanations.
 
 

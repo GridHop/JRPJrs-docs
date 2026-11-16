@@ -1,6 +1,10 @@
 # Info
 
-Part 16 of 23 (1,787 words)
+Part 16 of 23 (1,789 words)
+
+️ Subvocalization
+
+
 
 • Tiny muscle movements in the throat during thinking
 

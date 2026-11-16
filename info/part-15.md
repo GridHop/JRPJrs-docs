@@ -1,6 +1,8 @@
 # Info
 
-Part 15 of 23 (1,795 words)
+Part 15 of 23 (1,800 words)
+
+• No known system processes experience non-temporally.
 
 • No evidence of spatial “membranes” between realities
 
@@ -527,9 +529,5 @@ Brain–computer interfaces (BCIs)
 • Heavy computation
 
 • No sound produced by the brain itself
-
-
-
-️ Subvocalization
 
 

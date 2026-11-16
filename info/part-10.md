@@ -1,6 +1,8 @@
 # Info
 
-Part 10 of 23 (1,799 words)
+Part 10 of 23 (1,789 words)
+
+   (perception, memory, regulation, symbolic modeling, etc.).
 
 2. Its contents are the moment-to-moment results of those subsystems continuously integrating and
 
@@ -685,11 +687,3 @@ So under your hypothesis:
 
 
 • Consciousness is not currently instantiated
-
-• But the capacity remains anchored and can re-emerge without a new form
-
-
-
-This explains why:
-
-

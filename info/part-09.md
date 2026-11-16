@@ -1,6 +1,12 @@
 # Info
 
-Part 09 of 23 (1,792 words)
+Part 09 of 23 (1,799 words)
+
+D) Intention/meaning inference is “reverse engineering,” so it has predictable failure modes
+
+----------------------------------------------------------------------------------------------------
+
+
 
 If meaning is inferred from use and intention is inferred from behavior/cues/logs, then
 
@@ -773,5 +779,3 @@ The Anchored, Integrated Control Hypothesis
 
 
 1. Consciousness is a whole-system property of an organized set of interacting subsystems
-
-   (perception, memory, regulation, symbolic modeling, etc.).

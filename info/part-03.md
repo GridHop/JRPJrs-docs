@@ -1,6 +1,18 @@
 # Info
 
-Part 03 of 23 (1,796 words)
+Part 03 of 23 (1,797 words)
+
+Stage Accuracy Level Mechanism of Change
+
+
+
+Encoding (initial storage) Partially accurate Selective attention, perception bias
+
+
+
+Short-term recall Fairly accurate Minimal distortion
+
+
 
 Repeated recall over time Gradually less accurate Reconsolidation and reinterpretation
 
@@ -459,15 +471,3 @@ Theories Proposing Extra Dimensions/Universes
 
 
 • Gravity experiments at small scales (looking for deviations)
-
-• Particle colliders searching for signs (graviton emission, micro black holes)
-
-• Result so far: No confirmed detection
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
