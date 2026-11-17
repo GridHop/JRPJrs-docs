@@ -39,6 +39,8 @@ Whether that interpretation is ultimately correct remains open. But accounting f
 
 Regarding substrate-dependence, per conscious existence, does a conscious existence's substrate always non-stop constrain "'what is possible' experience-wise" for that conscious existence to be able to possibly potentially experience?
 
+Do brain-computer interfaces (BCIs) do any detecting of "'audio' itself" and/or sound waves? Does neural activity produce audio/sound?
+
 “Regarding “you & ‘a digital representation of you’” exist independently regarding each other, is it possible for both to be at the same exact most precise coordinate, not numerically different, &/or for a “device that houses digital” to be no factor?
 
 Is “to digitize” a form of “converting” or is it “transforming an information-bearing representation but the digitization does nothing to the original, and 'all that is digitized is numerically different than the original and exists independently’”?
@@ -56,6 +58,4 @@ Via math alone, meaning a theory's equations and laws without any empirical inpu
 The simplest way to see this is Newton's second law, F = ma. Take a free particle, so F = 0. Then a = 0, and integrating twice gives x(t) = x₀ + v₀t. The equation has done real work: it rules out the particle speeding up, slowing down, or curving. But x₀ and v₀ are left completely open. Every choice of them gives a different trajectory, and every one of those trajectories satisfies the law equally well. So at any given t, whether it's an earlier time, the present, or a later one, the law alone leaves infinitely many candidate positions. Notice that this includes the present: the law doesn't tell you where the particle is now any more than where it was or will be.
 
 A spring works the same way. From m d²x/dt² = −kx you get x(t) = A cos(ωt + φ), with ω = √(k/m). The math fixes the frequency, which is a genuine constraint. The amplitude A and phase φ, though, are only pinned down once you specify the spring's position and velocity at some time, and nothing in the equation itself supplies those.
-
-Scale that up and nothing changes in principle. Einstein's field equations, G_μν = (8πG/c⁴)T_μν, have an enormous space of solutions: black holes, expanding universes, gravitational waves, and plenty of exotic spacetimes nobody thinks are physically realistic. General relativity actually makes the narrowing unusually explicit. The data you specify on a slice of spacetime, including the slice you'd call the present, has to satisfy the Hamiltonian and momentum constraint equations. Not every configuration is admissible, but infinitely many still are.
 

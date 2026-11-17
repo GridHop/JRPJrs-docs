@@ -166,10 +166,10 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,795 words
 - [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,791 words
 - [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,791 words
-- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,785 words
-- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,792 words
-- [Part 12 HTML](informative/part-12.html) · [Markdown](informative/part-12.md) — 1,785 words
-- [Part 13 HTML](informative/part-13.html) · [Markdown](informative/part-13.md) — 1,700 words
-- [Part 14 HTML](informative/part-14.html) · [Markdown](informative/part-14.md) — 1,786 words
-- [Part 15 HTML](informative/part-15.html) · [Markdown](informative/part-15.md) — 1,743 words
-- [Part 16 HTML](informative/part-16.html) · [Markdown](informative/part-16.md) — 408 words
+- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,724 words
+- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,789 words
+- [Part 12 HTML](informative/part-12.html) · [Markdown](informative/part-12.md) — 1,640 words
+- [Part 13 HTML](informative/part-13.html) · [Markdown](informative/part-13.md) — 1,788 words
+- [Part 14 HTML](informative/part-14.html) · [Markdown](informative/part-14.md) — 1,724 words
+- [Part 15 HTML](informative/part-15.html) · [Markdown](informative/part-15.md) — 1,787 words
+- [Part 16 HTML](informative/part-16.html) · [Markdown](informative/part-16.md) — 565 words

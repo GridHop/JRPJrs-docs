@@ -1,3 +1,5 @@
+Scale that up and nothing changes in principle. Einstein's field equations, G_μν = (8πG/c⁴)T_μν, have an enormous space of solutions: black holes, expanding universes, gravitational waves, and plenty of exotic spacetimes nobody thinks are physically realistic. General relativity actually makes the narrowing unusually explicit. The data you specify on a slice of spacetime, including the slice you'd call the present, has to satisfy the Hamiltonian and momentum constraint equations. Not every configuration is admissible, but infinitely many still are.
+
 On top of that, dimensionless constants like the fine-structure constant (about 1/137 at low energies) are measured, not derived. The Standard Model alone has 19 such free parameters in its basic form, and around 26 once neutrino masses are included.
 
 Now set up a complete initial-value problem: the equations plus fully specified data at one time, say the present. A deterministic theory with well-behaved equations then returns exactly one solution, and it fixes things in both directions. Plug measured values of x₀ and v₀ into x(t) = x₀ + v₀t and you get one position for every t, earlier as well as later. That's the Laplace's demon idea: an intellect for whom both past and future would be calculable from the present state.
@@ -43,8 +45,4 @@ It's also fair to ask what makes an order temporal at all, since points along a 
 Now, cosmological time. In relativity every clock measures its own proper time, the time elapsed along its own path through spacetime, its worldline. For a path γ, that's
 
 L(γ) = (1/c) ∫ √(−g_μν dx^μ dx^ν)
-
-where g_μν is the metric (sign convention −,+,+,+). Two clocks that start together and later meet again can disagree about how much time went by. That's the twin effect, and when the twins compare readings side by side, nobody in any frame disputes what the clocks say. Proper time is local, though. Cosmological time is built from it but is global. At any event p it's defined as
-
-τ(p) = sup { L(γ) : γ a past-directed causal curve from p }
 
