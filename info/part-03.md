@@ -1,6 +1,18 @@
 # Info
 
-Part 03 of 23 (1,797 words)
+Part 03 of 23 (1,798 words)
+
+• Omit or alter details,
+
+• Add things that never happened but “fit” the emotional or narrative logic,
+
+• And reshape memories to match personal beliefs or social reinforcement.
+
+
+
+Summary Table
+
+
 
 Stage Accuracy Level Mechanism of Change
 
@@ -457,17 +469,3 @@ Theories Proposing Extra Dimensions/Universes
 
 
 • Inflation creates separate “bubble universes”
-
-• Possible signatures: cosmic microwave background anomalies from bubble collisions
-
-• Entirely theoretical — no confirmed detection
-
-
-
-3. Experimental Tests
-
-~~~~~~~~~~~~~~~~~~~~~
-
-
-
-• Gravity experiments at small scales (looking for deviations)

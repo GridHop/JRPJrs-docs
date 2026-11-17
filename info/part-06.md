@@ -2,6 +2,18 @@
 
 Part 06 of 23 (1,799 words)
 
+Education: Schools, apprenticeship, mentoring—impossible without explanation.
+
+
+
+Science & medicine: Hypotheses, results, diagnoses, treatments all rely on explanation.
+
+
+
+Technology: Engineering requires not just knowing what works but why.
+
+
+
 Law & governance: Rules need to be explained so they’re understood and accepted.
 
 
@@ -613,25 +625,5 @@ perform different functions operate at different timescales fail independently (
 
 
 They are functionally distinguishable even if physically continuous.
-
-
-
-Criterion met.
-
-
-
-(3) Interaction
-
-
-
-Neural, hormonal, sensory, and cognitive processes:
-
-
-
-influence one another feedback into each other modulate one another’s outputs
-
-
-
-No interaction → no waking consciousness.
 
 

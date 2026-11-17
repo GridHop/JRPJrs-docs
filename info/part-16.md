@@ -1,6 +1,14 @@
 # Info
 
-Part 16 of 23 (1,789 words)
+Part 16 of 23 (1,791 words)
+
+• Requires direct measurement
+
+• Heavy computation
+
+• No sound produced by the brain itself
+
+
 
 ️ Subvocalization
 
@@ -473,5 +481,3 @@ states and external inputs.
 
 
 Prior to the full articulation of a thought, cognition may possess anticipatory awareness of an
-
-intended conceptual target. If so, this anticipatory awareness is not merely passive recognition,

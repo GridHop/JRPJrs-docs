@@ -1,6 +1,8 @@
 # Info
 
-Part 13 of 23 (1,795 words)
+Part 13 of 23 (1,794 words)
+
+generating signals that draw on stored patterns but aren’t limited to them; there’s no “truth
 
 marker” ensuring fidelity to prior causes, allowing for true novelty. Memory, by contrast,
 
@@ -667,5 +669,3 @@ sounds chaotic, lol ).
 Now, one subtle wrinkle (because reality likes technicalities):
 
 
-
-• If you define “a container” purely as “any continuous enclosed volume,” you could describe the

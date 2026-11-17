@@ -1,6 +1,20 @@
 # Info
 
-Part 09 of 23 (1,799 words)
+Part 09 of 23 (1,800 words)
+
+Civilizations don’t scale on facts; they scale on portable loop-packages (math, protocols,
+
+contracts, measurement standards, reproducible methods). When those degrade, you don’t merely lose
+
+knowledge—you lose *coordination bandwidth* and *safety margins*.
+
+
+
+—
+
+
+
+----------------------------------------------------------------------------------------------------
 
 D) Intention/meaning inference is “reverse engineering,” so it has predictable failure modes
 
@@ -763,19 +777,3 @@ So a conscious person can be:
 ----------------------------------------------------------------------------------------------------
 
 My “consciousness hypothesis” (if I must state one)
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Here’s my own hypothesis in a tight form, consistent with the documents:
-
-
-
-The Anchored, Integrated Control Hypothesis
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-1. Consciousness is a whole-system property of an organized set of interacting subsystems

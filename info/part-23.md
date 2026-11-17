@@ -1,6 +1,10 @@
 # Info
 
-Part 23 of 23 (461 words)
+Part 23 of 23 (529 words)
+
+For something confirmed, belief is not really belief anymore. Once one has confirmed something oneself, it is effectively settled for that person, because confirming is what closed the gap, unless new evidence shows that the confirmation itself was mistaken (perception, memory, and instruments can err). There is nothing left for belief to bridge. The strength of the position comes from the act of confirming, not from an estimate.
+
+
 
 For something unconfirmed, belief has no such anchor, so its strength is whatever the plausibility is. Belief in the unconfirmed is proportional: it rises and falls with how plausible the thing is, given what one actually has.
 

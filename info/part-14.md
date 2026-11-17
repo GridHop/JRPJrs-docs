@@ -1,6 +1,8 @@
 # Info
 
-Part 14 of 23 (1,797 words)
+Part 14 of 23 (1,800 words)
+
+• If you define “a container” purely as “any continuous enclosed volume,” you could describe the
 
   airspace inside as a single connected volume.
 
@@ -693,7 +695,3 @@ Even in deterministic systems, perfect prediction is impossible due to chaos and
 • There is no evidence that human vision can directly represent extra spatial dimensions.
 
 • At best, humans can symbolize higher dimensions mathematically—not naturally see them.
-
-• Conscious experience requires sequential processing.
-
-• Even memory recall occurs in time.

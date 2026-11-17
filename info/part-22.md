@@ -1,6 +1,14 @@
 # Info
 
-Part 22 of 23 (1,784 words)
+Part 22 of 23 (1,758 words)
+
+If an ai is configured to have to always have/choose style via having to non-randomly select, on the
+
+fly and based on circumstances/context, any combination of any parts of any various predefined style
+
+templates, would that enable various “AIs and ai styles”?
+
+
 
 For conceptual/technical analysis on AI style control — dynamic, context-based, non-random selection
 
@@ -329,9 +337,5 @@ physical system with parts; the self is the unshared experiencer those parts don
 
 
 Belief tracks two different things depending on whether confirmation occurred.
-
-
-
-For something confirmed, belief is not really belief anymore. Once one has confirmed something oneself, it is effectively settled for that person, because confirming is what closed the gap, unless new evidence shows that the confirmation itself was mistaken (perception, memory, and instruments can err). There is nothing left for belief to bridge. The strength of the position comes from the act of confirming, not from an estimate.
 
 

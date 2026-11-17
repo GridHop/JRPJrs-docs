@@ -1,6 +1,8 @@
 # Info
 
-Part 17 of 23 (1,798 words)
+Part 17 of 23 (1,790 words)
+
+intended conceptual target. If so, this anticipatory awareness is not merely passive recognition,
 
 but an active generative state that contributes to the production of internal guiding signals, which
 
@@ -509,15 +511,5 @@ humans are real agents, agency is emergent and meaningful, accountability matter
 matters, consequences are justified, society must defend itself, but punishment should still remain
 
 tied to:
-
-
-
-proportionality, future outcomes, fairness, and recognition that nobody self-created their entire
-
-causal structure.
-
-
-
-That produces a justice philosophy that is neither:
 
 

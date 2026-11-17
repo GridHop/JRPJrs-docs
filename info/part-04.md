@@ -1,6 +1,20 @@
 # Info
 
-Part 04 of 23 (1,789 words)
+Part 04 of 23 (1,790 words)
+
+• Possible signatures: cosmic microwave background anomalies from bubble collisions
+
+• Entirely theoretical — no confirmed detection
+
+
+
+3. Experimental Tests
+
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+• Gravity experiments at small scales (looking for deviations)
 
 • Particle colliders searching for signs (graviton emission, micro black holes)
 
@@ -783,11 +797,5 @@ Meta takeaway
 
 
 Both natural and artificial trackers rely on the same universal principle:
-
-
-
-Detection is always based on some form of emitted or reflected energy, pattern, or field — and
-
-recognition arises from comparing that input to a learned or stored model.
 
 

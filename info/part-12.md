@@ -1,6 +1,12 @@
 # Info
 
-Part 12 of 23 (1,793 words)
+Part 12 of 23 (1,795 words)
+
+• Some biological systems appear to exploit very short-lived quantum effects (e.g., in
+
+  photosynthesis and, possibly, magnetoreception)
+
+
 
 What there is no evidence for
 
@@ -655,5 +661,3 @@ To clarify why creative origination doesn’t fit the “pre-produced then aware
 differences between imagination and memory. Imagination isn’t bound to past encodings—it’s a process
 
 of novel construction, recombining elements with few constraints. When inventing a character, you’re
-
-generating signals that draw on stored patterns but aren’t limited to them; there’s no “truth

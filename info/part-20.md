@@ -1,6 +1,14 @@
 # Info
 
-Part 20 of 23 (1,787 words)
+Part 20 of 23 (1,790 words)
+
+   program. The physical substrate does not become wet; it only implements the rules for
+
+   representing wetness. The criterion demands that the physical process itself be the thing that
+
+   has the qualitative character, not that it stands for something else.
+
+
 
 So your analogy can be read as supporting the nondigital criterion: the digital AI’s wetness does
 
@@ -367,9 +375,3 @@ descriptive tool but also as a source of constraints on what may count as a viab
 Examples often cited as mathematically conceivable but physically problematic illustrate this
 
 complexity. Perfectly rigid bodies conflict with relativity because they would permit instantaneous
-
-transmission of information. Faster-than-light signaling is generally regarded as impossible within
-
-relativistic physics because it would enable causal paradoxes. Negative mass appears in certain
-
-mathematical solutions of gravitational theories and remains a topic of speculative investigation,

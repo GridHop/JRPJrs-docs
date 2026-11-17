@@ -1,6 +1,12 @@
 # Info
 
-Part 21 of 23 (1,796 words)
+Part 21 of 23 (1,790 words)
+
+transmission of information. Faster-than-light signaling is generally regarded as impossible within
+
+relativistic physics because it would enable causal paradoxes. Negative mass appears in certain
+
+mathematical solutions of gravitational theories and remains a topic of speculative investigation,
 
 but no confirmed physical examples are known. These cases are not merely “forbidden by physics” in
 
@@ -361,13 +367,5 @@ limits, and the possibility of chaotic sensitivity to initial conditions—many 
 that a computer within the universe is unlikely to be capable of perfectly simulating the entire
 
 universe in order to infallibly predict every subsequent instant.
-
-
-
-If an ai is configured to have to always have/choose style via having to non-randomly select, on the
-
-fly and based on circumstances/context, any combination of any parts of any various predefined style
-
-templates, would that enable various “AIs and ai styles”?
 
 

@@ -1,6 +1,26 @@
 # Info
 
-Part 07 of 23 (1,797 words)
+Part 07 of 23 (1,793 words)
+
+Criterion met.
+
+
+
+(3) Interaction
+
+
+
+Neural, hormonal, sensory, and cognitive processes:
+
+
+
+influence one another feedback into each other modulate one another’s outputs
+
+
+
+No interaction → no waking consciousness.
+
+
 
 Criterion met.
 
@@ -705,29 +725,5 @@ That also quietly kills a lot of wishful metaphysics without being hostile about
 The continuity-of-mind argument isn’t trying to disprove afterlife claims—it’s doing something more
 
 important:
-
-
-
-it refuses to promote them to “knowledge” without confirmation channels
-
-
-
-That’s epistemic hygiene.
-
-
-
-Belief? Fine.
-
-
-
-Hope? Human.
-
-
-
-Knowledge? Not without signals.
-
-
-
-Consistent with the framework’s own rules. That internal consistency matters.
 
 

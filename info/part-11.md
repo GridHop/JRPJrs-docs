@@ -1,6 +1,16 @@
 # Info
 
-Part 11 of 23 (1,795 words)
+Part 11 of 23 (1,799 words)
+
+• But it is not functionally organized in the “conscious configuration”
+
+
+
+So under your hypothesis:
+
+
+
+• Consciousness is not currently instantiated
 
 • But the capacity remains anchored and can re-emerge without a new form
 
@@ -735,9 +745,3 @@ What is true
 • The brain is made of quantum matter
 
 • Quantum mechanics governs chemistry
-
-• Some biological systems appear to exploit very short-lived quantum effects (e.g., in
-
-  photosynthesis and, possibly, magnetoreception)
-
-

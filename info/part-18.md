@@ -1,6 +1,16 @@
 # Info
 
-Part 18 of 23 (1,795 words)
+Part 18 of 23 (1,784 words)
+
+proportionality, future outcomes, fairness, and recognition that nobody self-created their entire
+
+causal structure.
+
+
+
+That produces a justice philosophy that is neither:
+
+
 
 “nobody is responsible for anything,”
 
@@ -503,7 +513,3 @@ Qualia are features of the present moment. They exist only as properties of proc
 actively unfolding in the present.
 
 
-
-Past brain states belong to the formal history M(σ). They were fully real when present, and their
-
-consequences persist as causal records in present neural structure, but they do not persist as

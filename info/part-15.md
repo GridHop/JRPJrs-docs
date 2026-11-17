@@ -1,6 +1,10 @@
 # Info
 
-Part 15 of 23 (1,800 words)
+Part 15 of 23 (1,798 words)
+
+• Conscious experience requires sequential processing.
+
+• Even memory recall occurs in time.
 
 • No known system processes experience non-temporally.
 
@@ -523,11 +527,3 @@ Brain–computer interfaces (BCIs)
 • Machines can decode neural activity with sensors
 
 • Still:
-
-• Requires direct measurement
-
-• Heavy computation
-
-• No sound produced by the brain itself
-
-

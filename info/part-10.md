@@ -1,6 +1,22 @@
 # Info
 
-Part 10 of 23 (1,789 words)
+Part 10 of 23 (1,800 words)
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Here’s my own hypothesis in a tight form, consistent with the documents:
+
+
+
+The Anchored, Integrated Control Hypothesis
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+1. Consciousness is a whole-system property of an organized set of interacting subsystems
 
    (perception, memory, regulation, symbolic modeling, etc.).
 
@@ -677,13 +693,3 @@ Anchoring outcome
 
 
 • The physical process is still alive and functional
-
-• But it is not functionally organized in the “conscious configuration”
-
-
-
-So under your hypothesis:
-
-
-
-• Consciousness is not currently instantiated

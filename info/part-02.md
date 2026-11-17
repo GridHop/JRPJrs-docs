@@ -1,6 +1,6 @@
 # Info
 
-Part 02 of 23 (1,795 words)
+Part 02 of 23 (1,798 words)
 
 • To keep it alive, surgeons would need to reconnect all major arteries and veins seamlessly in
 
@@ -149,6 +149,10 @@ speculative neuroscience.
 
 
 Do brain-computer interfaces (BCIs) do any detecting of "'audio' itself" and/or sound waves? Does neural activity produce audio/sound?
+
+
+
+How do brain-computer interfaces (BCIs) analyze/interpret tinnitus & translate/convey info about it? What is subjective tinnitus vs objective tinnitus? Are sound waves ever non-physical? Do BCIs detect sound waves? Is neural activity sound waves?
 
 
 
@@ -611,15 +615,3 @@ Over years, this process can:
 
 
 • Merge different events together,
-
-• Omit or alter details,
-
-• Add things that never happened but “fit” the emotional or narrative logic,
-
-• And reshape memories to match personal beliefs or social reinforcement.
-
-
-
-Summary Table
-
-

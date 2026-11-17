@@ -1,6 +1,12 @@
 # Info
 
-Part 05 of 23 (1,797 words)
+Part 05 of 23 (1,799 words)
+
+Detection is always based on some form of emitted or reflected energy, pattern, or field — and
+
+recognition arises from comparing that input to a learned or stored model.
+
+
 
 So, whether it’s a wolf following a scent trail or a satellite tracking a person’s thermal outline,
 
@@ -523,17 +529,5 @@ communities would depend on strict imitation, not understanding.
 
 
 1. What things is explanation required for human advancement?
-
-
-
-Education: Schools, apprenticeship, mentoring—impossible without explanation.
-
-
-
-Science & medicine: Hypotheses, results, diagnoses, treatments all rely on explanation.
-
-
-
-Technology: Engineering requires not just knowing what works but why.
 
 

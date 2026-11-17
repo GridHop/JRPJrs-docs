@@ -33,9 +33,9 @@
       "title": "Info",
       "slug": "info",
       "source_filename": "Info.docx",
-      "source_paragraphs": 6254,
-      "published_paragraphs": 6254,
-      "words": 39939,
+      "source_paragraphs": 6256,
+      "published_paragraphs": 6256,
+      "words": 39973,
       "parts": 23
     },
     {
@@ -69,9 +69,9 @@
       "title": "Informative",
       "slug": "informative",
       "source_filename": "Informative.docx",
-      "source_paragraphs": 1258,
-      "published_paragraphs": 1258,
-      "words": 27021,
+      "source_paragraphs": 1260,
+      "published_paragraphs": 1260,
+      "words": 27055,
       "parts": 16
     }
   ],
@@ -449,199 +449,199 @@
       "work": "info",
       "part": 2,
       "source_paragraph_start": 174,
-      "source_paragraph_end_exclusive": 485,
-      "paragraphs": 311,
-      "words": 1795,
-      "sha256_paragraph_sequence": "f40fbc368130ecf651409deb349930cbeb9010389d0ec1a9c0904ec05a1b3d7e"
+      "source_paragraph_end_exclusive": 481,
+      "paragraphs": 307,
+      "words": 1798,
+      "sha256_paragraph_sequence": "c0753dfcc79e99ef9c41aaf5e242ed3e1cfc320db70f749269ee495d1ddae94d"
     },
     {
       "work": "info",
       "part": 3,
-      "source_paragraph_start": 485,
-      "source_paragraph_end_exclusive": 720,
-      "paragraphs": 235,
-      "words": 1797,
-      "sha256_paragraph_sequence": "a649da0100e1f155d1dee8971c2e3e9defb1f4f5668b5437773155cfe9bde008"
+      "source_paragraph_start": 481,
+      "source_paragraph_end_exclusive": 715,
+      "paragraphs": 234,
+      "words": 1798,
+      "sha256_paragraph_sequence": "ee5c5ebe3734a14c6d76af53931b35eddead2db8539f7f1a22d490d080bef787"
     },
     {
       "work": "info",
       "part": 4,
-      "source_paragraph_start": 720,
-      "source_paragraph_end_exclusive": 1115,
-      "paragraphs": 395,
-      "words": 1789,
-      "sha256_paragraph_sequence": "a29c1ecd51e1137139b5da894263fc406b4e8d27b90c2513252707ff0f656cfd"
+      "source_paragraph_start": 715,
+      "source_paragraph_end_exclusive": 1114,
+      "paragraphs": 399,
+      "words": 1790,
+      "sha256_paragraph_sequence": "31f536ebca837d55a3eae875811b1ca65edf601c887314edf8b924dbbee9d415"
     },
     {
       "work": "info",
       "part": 5,
-      "source_paragraph_start": 1115,
-      "source_paragraph_end_exclusive": 1383,
-      "paragraphs": 268,
-      "words": 1797,
-      "sha256_paragraph_sequence": "ebd3032f6aaaca5c887cf0153ede4cf74b3fff253e1a03c3aa96bb1648ab09b9"
+      "source_paragraph_start": 1114,
+      "source_paragraph_end_exclusive": 1379,
+      "paragraphs": 265,
+      "words": 1799,
+      "sha256_paragraph_sequence": "777dcb12893ea918f22166932dc29dcae0a35234eaa1154a907898912def9ef3"
     },
     {
       "work": "info",
       "part": 6,
-      "source_paragraph_start": 1383,
-      "source_paragraph_end_exclusive": 1700,
-      "paragraphs": 317,
+      "source_paragraph_start": 1379,
+      "source_paragraph_end_exclusive": 1692,
+      "paragraphs": 313,
       "words": 1799,
-      "sha256_paragraph_sequence": "cef62894b5c16e4c70b3844d1fffc7f2498a957eb7f5e37a3624075de7db7e3c"
+      "sha256_paragraph_sequence": "f858d6638e46b5a033a51365c341bc380b5ca8c2f5ae7fd17f38d9abee807f75"
     },
     {
       "work": "info",
       "part": 7,
-      "source_paragraph_start": 1700,
-      "source_paragraph_end_exclusive": 2065,
-      "paragraphs": 365,
-      "words": 1797,
-      "sha256_paragraph_sequence": "d3bfd9cedc9721bc2b627392757ea4bb4e72a5b1ed67d9b4dbad22f005f21dcf"
+      "source_paragraph_start": 1692,
+      "source_paragraph_end_exclusive": 2055,
+      "paragraphs": 363,
+      "words": 1793,
+      "sha256_paragraph_sequence": "5769c2a27a7237bc897f093bd4038d25e538a5a88e8c2c01cc4a875811669be8"
     },
     {
       "work": "info",
       "part": 8,
-      "source_paragraph_start": 2065,
-      "source_paragraph_end_exclusive": 2372,
-      "paragraphs": 307,
-      "words": 1799,
-      "sha256_paragraph_sequence": "52bd4a691f06b86a16662ff7e26bf1cec1b9d464bff6818aaaed3afa5f0de445"
+      "source_paragraph_start": 2055,
+      "source_paragraph_end_exclusive": 2367,
+      "paragraphs": 312,
+      "words": 1797,
+      "sha256_paragraph_sequence": "cb683d159205dac1556da69d5ede155ca6e1c0e553d6b84daae8a75a4f0acb8c"
     },
     {
       "work": "info",
       "part": 9,
-      "source_paragraph_start": 2372,
-      "source_paragraph_end_exclusive": 2761,
-      "paragraphs": 389,
-      "words": 1799,
-      "sha256_paragraph_sequence": "e9509b07ea714223cd8488cbb12a92ad97ea54cf935502f23b5eb9e8fa73df17"
+      "source_paragraph_start": 2367,
+      "source_paragraph_end_exclusive": 2755,
+      "paragraphs": 388,
+      "words": 1800,
+      "sha256_paragraph_sequence": "79b0335de4a4a81c195f8d6d5ffa2c3cfcd894d8368a3a5ee1f3651e429aa7e3"
     },
     {
       "work": "info",
       "part": 10,
-      "source_paragraph_start": 2761,
-      "source_paragraph_end_exclusive": 3104,
-      "paragraphs": 343,
-      "words": 1789,
-      "sha256_paragraph_sequence": "e8d5cea24e0e343654d919614692286baa5be3fed6cc1404eceade46988b1b37"
+      "source_paragraph_start": 2755,
+      "source_paragraph_end_exclusive": 3101,
+      "paragraphs": 346,
+      "words": 1800,
+      "sha256_paragraph_sequence": "926102e09f62f8794ae6c77411da0d313174b3f33d115ddb92ac9877d4708746"
     },
     {
       "work": "info",
       "part": 11,
-      "source_paragraph_start": 3104,
-      "source_paragraph_end_exclusive": 3474,
-      "paragraphs": 370,
-      "words": 1795,
-      "sha256_paragraph_sequence": "a52b691e8fe2eb207e07dc1081b5ab0ad46e08bb28ffe367db0053048e93e56d"
+      "source_paragraph_start": 3101,
+      "source_paragraph_end_exclusive": 3473,
+      "paragraphs": 372,
+      "words": 1799,
+      "sha256_paragraph_sequence": "edd3dd40acf5ed8af75840eb99686f12fa9b6fd8efd38319a5ba04262fa83771"
     },
     {
       "work": "info",
       "part": 12,
-      "source_paragraph_start": 3474,
-      "source_paragraph_end_exclusive": 3802,
-      "paragraphs": 328,
-      "words": 1793,
-      "sha256_paragraph_sequence": "db83c045beaaafbc7468a252aee516a529fd404cc34001a2ff21e742defaaf94"
+      "source_paragraph_start": 3473,
+      "source_paragraph_end_exclusive": 3803,
+      "paragraphs": 330,
+      "words": 1795,
+      "sha256_paragraph_sequence": "95293446f956b43382837bd524cd2ea6a7cacea361e2f155feaa724fbebdf53e"
     },
     {
       "work": "info",
       "part": 13,
-      "source_paragraph_start": 3802,
-      "source_paragraph_end_exclusive": 4136,
+      "source_paragraph_start": 3803,
+      "source_paragraph_end_exclusive": 4137,
       "paragraphs": 334,
-      "words": 1795,
-      "sha256_paragraph_sequence": "42ec4d7d36c33f42ffa8440104d5aef54ce1fac7e527aa1707e82a950f73e26a"
+      "words": 1794,
+      "sha256_paragraph_sequence": "7b9d8891276b4b49c45e023bc75038e73ead540c2484135c15c39f675d33eb1e"
     },
     {
       "work": "info",
       "part": 14,
-      "source_paragraph_start": 4136,
+      "source_paragraph_start": 4137,
       "source_paragraph_end_exclusive": 4484,
-      "paragraphs": 348,
-      "words": 1797,
-      "sha256_paragraph_sequence": "a5c0accf1645ca840314e44c22b46f64c073d0c1e76e4ed0676ce6df4d6500f6"
+      "paragraphs": 347,
+      "words": 1800,
+      "sha256_paragraph_sequence": "e30572df32ec0afbd69995747252e421d404306c99fdac8a0413cacad06d3069"
     },
     {
       "work": "info",
       "part": 15,
       "source_paragraph_start": 4484,
-      "source_paragraph_end_exclusive": 4749,
-      "paragraphs": 265,
-      "words": 1800,
-      "sha256_paragraph_sequence": "3fc0fa78bf2272f5113eecc5850b08f8fa51898d548154769710d9ed6de748f4"
+      "source_paragraph_end_exclusive": 4747,
+      "paragraphs": 263,
+      "words": 1798,
+      "sha256_paragraph_sequence": "835849ec316e799a850684c8f8274863c6fda0a5192b49f6d9a65714b7fcaa43"
     },
     {
       "work": "info",
       "part": 16,
-      "source_paragraph_start": 4749,
-      "source_paragraph_end_exclusive": 4986,
-      "paragraphs": 237,
-      "words": 1789,
-      "sha256_paragraph_sequence": "b93569d115f3780aabb8af3836e866451ad5b1d066c039a5319ca4594e3f15d0"
+      "source_paragraph_start": 4747,
+      "source_paragraph_end_exclusive": 4987,
+      "paragraphs": 240,
+      "words": 1791,
+      "sha256_paragraph_sequence": "531b350db438d0b10be213916f3c3db586bf93e918b7d2d4d339dee3a327e337"
     },
     {
       "work": "info",
       "part": 17,
-      "source_paragraph_start": 4986,
-      "source_paragraph_end_exclusive": 5246,
-      "paragraphs": 260,
-      "words": 1798,
-      "sha256_paragraph_sequence": "eded0d6c08c395f19b8eb7377354d63284ed5debc02d5f46bd0a3839af7f90b4"
+      "source_paragraph_start": 4987,
+      "source_paragraph_end_exclusive": 5243,
+      "paragraphs": 256,
+      "words": 1790,
+      "sha256_paragraph_sequence": "57a69637e3c46b6bb3462f20b7f3340aa9e45fb93d59a38a5a1214d481e9df26"
     },
     {
       "work": "info",
       "part": 18,
-      "source_paragraph_start": 5246,
+      "source_paragraph_start": 5243,
       "source_paragraph_end_exclusive": 5499,
-      "paragraphs": 253,
-      "words": 1795,
-      "sha256_paragraph_sequence": "92d732463d96181bf580e0afef5c8b71aad97b32382e872a6a6d35c17dcf0715"
+      "paragraphs": 256,
+      "words": 1784,
+      "sha256_paragraph_sequence": "21d212d05e38676bf9792959de76ee94da708d566d8aa4bed5abd4a03b696b1c"
     },
     {
       "work": "info",
       "part": 19,
       "source_paragraph_start": 5499,
-      "source_paragraph_end_exclusive": 5679,
-      "paragraphs": 180,
-      "words": 1796,
-      "sha256_paragraph_sequence": "df3bc1e4fccc238a2b71d81d8022ca20aca5be64b303d94ac397db08b4369ebc"
+      "source_paragraph_end_exclusive": 5677,
+      "paragraphs": 178,
+      "words": 1789,
+      "sha256_paragraph_sequence": "5d81fbc508291e66240bdf6ac278a118b07aded054ec24765e0c7872729c6c7c"
     },
     {
       "work": "info",
       "part": 20,
-      "source_paragraph_start": 5679,
-      "source_paragraph_end_exclusive": 5865,
-      "paragraphs": 186,
-      "words": 1787,
-      "sha256_paragraph_sequence": "1430d20421dd12439cecb28578027f1b6f5261a70546d822b7e5406092571463"
+      "source_paragraph_start": 5677,
+      "source_paragraph_end_exclusive": 5864,
+      "paragraphs": 187,
+      "words": 1790,
+      "sha256_paragraph_sequence": "3d622e3daed0fc98628de88a3e069c1da93466bb867c161ed73922b7f5ba8512"
     },
     {
       "work": "info",
       "part": 21,
-      "source_paragraph_start": 5865,
-      "source_paragraph_end_exclusive": 6050,
-      "paragraphs": 185,
-      "words": 1796,
-      "sha256_paragraph_sequence": "4b5480dd0fcfc076eef3dae0a96fedc59fbd05650bd9386cd10e63bd12b441a5"
+      "source_paragraph_start": 5864,
+      "source_paragraph_end_exclusive": 6048,
+      "paragraphs": 184,
+      "words": 1790,
+      "sha256_paragraph_sequence": "ed2251f780c758b30aeb3e341026f5881a0ceb9d14dfd191b7a609b654111f02"
     },
     {
       "work": "info",
       "part": 22,
-      "source_paragraph_start": 6050,
+      "source_paragraph_start": 6048,
       "source_paragraph_end_exclusive": 6217,
-      "paragraphs": 167,
-      "words": 1784,
-      "sha256_paragraph_sequence": "8722de40a9800a9e4628ce595c4e717edd7c7d2b4075207220278d9f18d7d8b4"
+      "paragraphs": 169,
+      "words": 1758,
+      "sha256_paragraph_sequence": "fe29db4e35580f759b3fc195f0a3be1a8470c02e7cbfb0720c3f7438e1607e15"
     },
     {
       "work": "info",
       "part": 23,
       "source_paragraph_start": 6217,
-      "source_paragraph_end_exclusive": 6254,
-      "paragraphs": 37,
-      "words": 461,
-      "sha256_paragraph_sequence": "b2959bdb55bb170206de40cd9d98bc46af712681369b4fe4beda15d7b377e390"
+      "source_paragraph_end_exclusive": 6256,
+      "paragraphs": 39,
+      "words": 529,
+      "sha256_paragraph_sequence": "29145662127ed63dc9e1610bb87b31d8978d8f918d1261e596762f01d6abbe60"
     },
     {
       "work": "more-info",
@@ -962,16 +962,16 @@
       "work": "informative",
       "part": 10,
       "source_paragraph_start": 956,
-      "source_paragraph_end_exclusive": 1017,
-      "paragraphs": 61,
-      "words": 1724,
-      "sha256_paragraph_sequence": "54e1cb7502532c69978de550ee430c1e6eaab0e350b4e3402eab31b2b9ef880c"
+      "source_paragraph_end_exclusive": 1019,
+      "paragraphs": 63,
+      "words": 1758,
+      "sha256_paragraph_sequence": "8dc562b57b05c9af1a1c4570a17055ffc69bd55eb61b8b65c6d22ccbf46b8f2c"
     },
     {
       "work": "informative",
       "part": 11,
-      "source_paragraph_start": 1017,
-      "source_paragraph_end_exclusive": 1065,
+      "source_paragraph_start": 1019,
+      "source_paragraph_end_exclusive": 1067,
       "paragraphs": 48,
       "words": 1789,
       "sha256_paragraph_sequence": "92486628bfb3769ea59060e144d857f4cbd79d090ef46811ce215a28a42d51ac"
@@ -979,8 +979,8 @@
     {
       "work": "informative",
       "part": 12,
-      "source_paragraph_start": 1065,
-      "source_paragraph_end_exclusive": 1111,
+      "source_paragraph_start": 1067,
+      "source_paragraph_end_exclusive": 1113,
       "paragraphs": 46,
       "words": 1640,
       "sha256_paragraph_sequence": "122af32b07b24ae690a08c48f1f66e16c3b464e64de1f4ee3206d804c14ba5b5"
@@ -988,8 +988,8 @@
     {
       "work": "informative",
       "part": 13,
-      "source_paragraph_start": 1111,
-      "source_paragraph_end_exclusive": 1135,
+      "source_paragraph_start": 1113,
+      "source_paragraph_end_exclusive": 1137,
       "paragraphs": 24,
       "words": 1788,
       "sha256_paragraph_sequence": "d8f36e060361b6080e91d5df30692ee87ff18e2ee026fbe3c9117649d59d59e6"
@@ -997,8 +997,8 @@
     {
       "work": "informative",
       "part": 14,
-      "source_paragraph_start": 1135,
-      "source_paragraph_end_exclusive": 1185,
+      "source_paragraph_start": 1137,
+      "source_paragraph_end_exclusive": 1187,
       "paragraphs": 50,
       "words": 1724,
       "sha256_paragraph_sequence": "64f8fd5cae376cff62ee92bff0f08b5af5db4d4f2de454dcb90d599a4f7b8df3"
@@ -1006,8 +1006,8 @@
     {
       "work": "informative",
       "part": 15,
-      "source_paragraph_start": 1185,
-      "source_paragraph_end_exclusive": 1239,
+      "source_paragraph_start": 1187,
+      "source_paragraph_end_exclusive": 1241,
       "paragraphs": 54,
       "words": 1787,
       "sha256_paragraph_sequence": "cb2f5c85073785a18d6ac6dcdf9077ba67cecc18a0c2e5889e964381469ce5e7"
@@ -1015,8 +1015,8 @@
     {
       "work": "informative",
       "part": 16,
-      "source_paragraph_start": 1239,
-      "source_paragraph_end_exclusive": 1258,
+      "source_paragraph_start": 1241,
+      "source_paragraph_end_exclusive": 1260,
       "paragraphs": 19,
       "words": 565,
       "sha256_paragraph_sequence": "8207c9130485982490b24a125b77235f27109ba02570496e84182cfe877a57be"

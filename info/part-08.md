@@ -1,6 +1,30 @@
 # Info
 
-Part 08 of 23 (1,799 words)
+Part 08 of 23 (1,797 words)
+
+it refuses to promote them to “knowledge” without confirmation channels
+
+
+
+That’s epistemic hygiene.
+
+
+
+Belief? Fine.
+
+
+
+Hope? Human.
+
+
+
+Knowledge? Not without signals.
+
+
+
+Consistent with the framework’s own rules. That internal consistency matters.
+
+
 
 8) Hypotheses should not be worn like trophies
 
@@ -601,17 +625,3 @@ A good explanation is like shipping someone a minimal executable:
 Conclusion: “teaching” is literally: *making someone else’s loop cheaper to run*.
 
 
-
-Civilizations don’t scale on facts; they scale on portable loop-packages (math, protocols,
-
-contracts, measurement standards, reproducible methods). When those degrade, you don’t merely lose
-
-knowledge—you lose *coordination bandwidth* and *safety margins*.
-
-
-
-—
-
-
-
-----------------------------------------------------------------------------------------------------

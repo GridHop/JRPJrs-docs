@@ -1,6 +1,10 @@
 # Info
 
-Part 19 of 23 (1,796 words)
+Part 19 of 23 (1,789 words)
+
+Past brain states belong to the formal history M(σ). They were fully real when present, and their
+
+consequences persist as causal records in present neural structure, but they do not persist as
 
 qualia. The qualia associated with a past experience are not still ‘present’ in any ontologically
 
@@ -353,11 +357,3 @@ this; two considerations bear on it:
    consciousness is an open question.
 
 2. Representational mediation – In the digital AI, the “wetness” is a representation used by the
-
-   program. The physical substrate does not become wet; it only implements the rules for
-
-   representing wetness. The criterion demands that the physical process itself be the thing that
-
-   has the qualitative character, not that it stands for something else.
-
-

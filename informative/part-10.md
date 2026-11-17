@@ -41,6 +41,8 @@ Regarding substrate-dependence, per conscious existence, does a conscious existe
 
 Do brain-computer interfaces (BCIs) do any detecting of "'audio' itself" and/or sound waves? Does neural activity produce audio/sound?
 
+How do brain-computer interfaces (BCIs) analyze/interpret tinnitus & translate/convey info about it? What is subjective tinnitus vs objective tinnitus? Are sound waves ever non-physical? Do BCIs detect sound waves? Is neural activity sound waves?
+
 “Regarding “you & ‘a digital representation of you’” exist independently regarding each other, is it possible for both to be at the same exact most precise coordinate, not numerically different, &/or for a “device that houses digital” to be no factor?
 
 Is “to digitize” a form of “converting” or is it “transforming an information-bearing representation but the digitization does nothing to the original, and 'all that is digitized is numerically different than the original and exists independently’”?
