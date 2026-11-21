@@ -1,6 +1,304 @@
 # Info
 
-Part 12 of 23 (1,795 words)
+Part 12 of 23 (1,792 words)
+
+• What about extremely simple conscious experiences? Pure pain with no self-model, no memory access,
+
+  no conceptual overlay—just *hurts*. Does that require multiplicity and interaction, or could
+
+  consciousness be simpler in extreme cases?
+
+• Infant consciousness might not have a robust “world+self model” yet but probably has *some* form
+
+  of experience. How early does the architecture requirement kick in?
+
+
+
+This isn’t necessarily wrong—maybe consciousness *does* require more architecture than we
+
+intuitively assume. But it’s a place where the framework makes a strong claim that could be tested
+
+(and potentially contradicted) by developmental or minimal-consciousness cases.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+4. The AI implication is honest but leaves a verification gap
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Your framework correctly says: *if* an AI has the right architecture, we’d have to take
+
+consciousness seriously. But it also (correctly) notes we can’t just read that off behavior.
+
+
+
+The problem: we have no reliable third-person test for “is this system running a unified control-
+
+model with continuous internal interaction?”
+
+
+
+• We can check for *architecture* (does it have persistent state, self-modeling, autonomous goals?)
+
+• We can’t check for *experience* directly
+
+
+
+So the framework implies:
+
+
+
+1. Consciousness might be present in systems we can’t verify from outside
+
+2. We might be ethically obligated to treat certain systems as potentially conscious even without
+
+   proof
+
+
+
+That’s not an objection to the *logic*—but it’s a practical gap with real consequences.
+
+
+
+—–
+
+
+
+----------------------------------------------------------------------------------------------------
+
+My read
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Whether these are dealbreakers depends on how the framework answers them. As it stands, they mark
+
+the limits of a structural/functional account:
+
+
+
+• It tells you what architecture consciousness requires
+
+• It doesn’t tell you where identity continuity lives
+
+• It doesn’t solve the hard problem of *why* this architecture produces experience
+
+• It doesn’t give you a consciousness-meter you can point at things
+
+
+
+A framework doesn’t need to answer every question, but it does need to answer *its* questions
+
+clearly and make predictions that could fail.
+
+
+
+This one has candidates for that, such as the prediction that consciousness degrades as integration
+
+among subsystems is disrupted, but most of its current support comes from fitting known cases after
+
+the fact. Whether its fuzzy edges reflect fuzziness in reality or gaps in the framework is something
+
+those tests would have to settle.
+
+
+
+Could a super basic setup (say, just raw sensation without much self-reflection) count as conscious?
+
+Infants or animals might hit that: they’re aware, but their “world + self” model is pretty basic,
+
+like a sketch instead of a full map. Your model allows for degrees: it treats consciousness as
+
+something that can be dim or spotty, not all-or-nothing.
+
+
+
+So: the pressure points above are where the framework is most exposed and where precision would
+
+help. Its implications are uncomfortable, but discomfort is not evidence either way; they are
+
+consequences to test, not signs of being right.
+
+
+
+Short answer: No — not even remotely, and not just because we “haven’t figured it out yet.”
+
+
+
+Long answer: the reasons why are actually very illuminating (and a little brutal)
+
+
+
+The hard wall you run into immediately
+
+
+
+For all of a human’s skull-contents (brain, blood, ions, molecules, proteins, water, etc.) to be
+
+simultaneously in a shared quantum superposition or entangled state for a prolonged duration, all of
+
+the following would have to be true at once:
+
+
+
+1. Extreme isolation from the environment
+
+2. Near-zero thermal noise
+
+3. Minimal internal interactions that leak information
+
+4. A well-defined quantum state describable by a single wavefunction
+
+5. No ongoing classical computation or chemistry
+
+
+
+A living brain violates every single one of these conditions continuously.
+
+
+
+And not a little.
+
+
+
+Catastrophically.
+
+
+
+The biggest killer: decoherence (the party crasher)
+
+
+
+Quantum coherence dies when information leaks into the environment.
+
+
+
+The brain leaks information like a sprinkler system on overdrive.
+
+
+
+Inside a human skull:
+
+
+
+• ~10²⁶ particles
+
+• 37 °C (hot by quantum standards)
+
+• Constant:
+
+• ion flow
+
+• molecular collisions
+
+• electromagnetic signaling
+
+• chemical reactions
+
+• thermal vibration
+
+• Neurons intentionally amplify microscopic events into macroscopic signals
+
+
+
+That last point is crucial.
+
+
+
+Brains are literally designed to destroy quantum coherence by turning tiny fluctuations into
+
+reliable classical signals.
+
+
+
+Time scale reality check (this is the nail)
+
+
+
+Estimated decoherence times for brain-relevant structures:
+
+
+
+• Tegmark (2000): roughly 10⁻²⁰ to 10⁻¹³ seconds for the relevant neural degrees of freedom
+
+• Orch-OR proponents (Hagan, Hameroff & Tuszyński 2002): much longer, up to about 10⁻⁴ seconds; the
+
+  estimates remain disputed
+
+
+
+Meanwhile:
+
+
+
+• Neurons fire on milliseconds
+
+• Thoughts unfold over seconds
+
+
+
+On Tegmark’s estimates, the quantum effects die billions of times faster (or more) than the brain
+
+could ever “use” them.
+
+
+
+No overlap. No window. The more optimistic estimates have not been experimentally confirmed.
+
+
+
+“But what about microtubules / special structures / exotic theories?”
+
+
+
+These ideas pop up a lot, so let’s ground them:
+
+
+
+• The most prominent proposals, Orch-OR (Penrose–Hameroff) and Fisher’s nuclear-spin (Posner
+
+  molecule) hypothesis, claim that shielded quantum states could survive at body temperature; these
+
+  claims are speculative and contested
+
+• No experiment has established:
+
+• long-lived entanglement
+
+• coherent quantum computation
+
+• functional quantum control
+
+
+
+in living neural tissue
+
+
+
+At best, quantum effects influence chemistry locally, the same way they do in all matter.
+
+
+
+That is not brain-wide superposition or entanglement.
+
+
+
+A subtle but important distinction
+
+
+
+What is true
+
+
+
+• The brain is made of quantum matter
+
+• Quantum mechanics governs chemistry
 
 • Some biological systems appear to exploit very short-lived quantum effects (e.g., in
 
@@ -481,183 +779,3 @@ It helps bridge:
 If the universe stayed quantum-coherent at every scale:
 
 
-
-• there would be no stable records or observers as we know them
-
-• no experiences
-
-• no questions like the one you’re asking now
-
-
-
-The fact that reality forgets its quantum past is what allows anything to remember.
-
-
-
-So yeah—
-
-
-
-Decoherence wins...
-
-
-
-...and consciousness gets to exist at all.
-
-
-
-A sharp and insightful point here, pushing back against a purely passive model of mental
-
-origination—especially in creative contexts like inventing new fictional characters for writing. The
-
-idea that such originality is merely the brain pre-producing information through cause-and-effect
-
-chains, only for you to “become aware” of it afterward via signals, doesn’t fully capture the
-
-dynamic, active nature of creativity. Instead, let’s unpack this by examining how internal signals
-
-originate, the role of causality, and where volition and self-agency fit in as active contributors,
-
-particularly in generating novel ideas. This builds on a signal-based understanding of mental
-
-processes, where everything from thoughts to imaginings is mediated, but creativity introduces a
-
-layer of emergent synthesis that isn’t reducible to simple pre-awareness.
-
-
-
-Reexamining the Causal Chain: Not Just Pre-Production and Awareness
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-At its foundation, internal signals—like those sparking a new thought or emotion—do emerge through
-
-cause-and-effect mechanisms in the brain. These involve neurotransmitter releases triggering
-
-electrical cascades across neural networks, creating patterns that form the physical basis of mental
-
-content. Without these firings, no signal exists, and thus no experience. However, this doesn’t mean
-
-creative origination is always a two-step process of “brain produces info causally in the
-
-background, then signals it to your awareness.” That model implies a kind of deterministic conveyor
-
-belt, where novelty is just uncovered rather than truly generated.
-
-
-
-In reality, causality provides the raw mechanics, but it’s not always linear or preemptive in
-
-creative acts. For instance, when mentally originating a new fictional character, you’re not
-
-passively receiving pre-fabricated details that your brain has already churned out via prior causes.
-
-Instead, the process involves real-time construction: blending fragments of existing neural patterns
-
-(from memories, sensory inputs, or random firings) into something unprecedented. This synthesis
-
-happens in the present, without a strict “pre-production” phase followed by delayed awareness. The
-
-signals aren’t just revealing hidden info; they’re being shaped and iterated upon as you engage with
-
-them, making the origination feel immediate and participatory rather than retrospective.
-
-
-
-This aligns with how mental content is always a present-time construction. There’s no intrinsic
-
-marker in the signals themselves to label something as “pre-produced” versus “newly originated”—it’s
-
-all interpreted in the moment. The key distinction is that creativity recombines elements in
-
-flexible, weakly constrained ways, leading to outputs that are hard to predict in advance, without
-
-bypassing causality.
-
-
-
-The Emergent Role of Volition and Self-Agency in Origination
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Here’s where volition (the willful direction of mental effort) and self-agency (the sense of
-
-authoring your own processes) come into play—not as the ultimate source of all internal signals,
-
-especially not the very first ones rooted in your past (like basic sensory responses or instinctive
-
-urges, which stem purely from causal biology). Instead, they act as sources for specific, emergent
-
-types of signals, particularly those involved in reasoning, problem-solving, and creative invention.
-
-This isn’t about omnipotent control but about guiding and amplifying causal processes to produce
-
-novelty.
-
-
-
-• Volition as a Directive Force: When originating a fictional character, volition allows you to
-
-  intentionally steer the signal generation. You might start with a vague prompt (e.g., “I need a
-
-  mysterious villain”), which triggers causal neural firings, but then you volitionally refine
-
-  it—adding traits, backstory, or quirks through iterative thought. This isn’t the brain handing you
-
-  ready-made info; it’s you actively shaping emergent signals. Volition emerges from the interplay
-
-  of causal patterns but then influences subsequent firings, creating a feedback loop. For example,
-
-  deciding to “make the character more complex” isn’t a passive awareness—it’s a volitional act that
-
-  generates new signals, leading to fresh ideas like unique motivations or appearances.
-
-• Self-Agency in Creative Synthesis: Self-agency provides the feeling of ownership over this
-
-  process, enabling you to “own” the origination without it being prewritten. It’s not about
-
-  interfering or investing in every outcome (which could veer into overcontrol) but about a neutral,
-
-  non-interfering stance where you coexist with the emerging ideas, allowing them to develop without
-
-  forcing allegiance or malice. In fiction writing, this might mean letting a character’s
-
-  personality evolve organically through your agency—restraining from over-editing too soon, out of
-
-  respectful indifference to rigid plans. This agency isn’t the root of all signals but selectively
-
-  sources those tied to deliberate creation, like devising solutions or resolves in a story. It’s
-
-  how reasoning happens: you volitionally combine signals to think up plot twists or character arcs,
-
-  turning raw causal inputs into structured, original outputs.
-
-
-
-This emergent quality means volition and self-agency aren’t illusions—they’re functional layers that
-
-build on causality to enable things like innovation. They’re particularly vital for “particular
-
-various but not all” signals, such as those in problem-solving (e.g., brainstorming resolutions to a
-
-narrative conflict) or abstract thinking, where the brain doesn’t just replay pre-existing info but
-
-generates novel combinations through your directed effort.
-
-
-
-Distinguishing Imagination from Memory in Origination
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-To clarify why creative origination doesn’t fit the “pre-produced then aware” model, consider the
-
-differences between imagination and memory. Imagination isn’t bound to past encodings—it’s a process
-
-of novel construction, recombining elements with few constraints. When inventing a character, you’re

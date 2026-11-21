@@ -1,6 +1,6 @@
 # Info
 
-Part 03 of 23 (1,798 words)
+Part 03 of 23 (1,795 words)
 
 • Omit or alter details,
 
@@ -336,11 +336,23 @@ digital-made “computer ” simulation that is an app’ that is detailed/compl
 
 another digital-made ‘computer “simulation that is an app” and so on’, each new simulation in the
 
-simulation is another universe/layer/level, but the original non-digital world is always easy to
+simulation is another universe/layer/level, but the original non-digital world is always
 
-identify because ‘due to quantum randomness/wierdness, it is impossible for a digital simulation to
+identifiable in principle as the base layer, because every simulation, at any depth, ultimately runs
 
-mimic non-digital real world’s physics’. It’s a form of a multiverse, but only for digital thinkers.
+on physical hardware that exists in the non-digital world. Quantum randomness would not give it away
+
+by itself: a simulation can draw genuinely random numbers from hardware random-number generators,
+
+and quantum physics can, in principle, be simulated digitally. What does limit the layers is cost.
+
+Each nested layer has at most the computing capacity of the layer hosting it, and simulating quantum
+
+systems in full detail on ordinary computers takes resources that grow exponentially with system
+
+size, so deeper layers must be slower, smaller, or coarser approximations of the non-digital world’s
+
+physics. It’s a form of a multiverse, but only for digital thinkers.
 
 Now make other man-made multiple ‘computer “simulation that is an app” that is detailed/complex
 
@@ -421,51 +433,3 @@ What Scientists Mean
 ----------------------------------------------------------------------------------------------------
 
 
-
-Extra dimensions: Additional spatial dimensions beyond 3D + time (e.g., string theory’s 10-11 total
-
-dimensions, most “compactified” — curled up tiny)
-
-
-
-Multiverse/other universes: Our universe as one “bubble” among many, possibly with different
-
-physical constants “Other realms via frequency”: Not supported by physics — speculative/metaphorical
-
-at best
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Theories Proposing Extra Dimensions/Universes
-
-----------------------------------------------------------------------------------------------------
-
-
-
-1. String Theory/M-Theory
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-• Requires 10-11 total dimensions
-
-• Extra dimensions are tiny (compactified)
-
-• String vibrations in these dimensions produce particle properties
-
-
-
-2. Eternal Inflation/“Bubble Universes”
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-• Inflation creates separate “bubble universes”

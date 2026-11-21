@@ -1,6 +1,330 @@
 # Info
 
-Part 11 of 23 (1,799 words)
+Part 11 of 23 (1,787 words)
+
+This also quietly protects against a really nasty moral error: assuming unresponsiveness equals
+
+absence.
+
+
+
+1. Where this overlaps with major theories
+
+
+
+The model shares ideas with:
+
+
+
+• Global Workspace–type models
+
+
+
+(integration + broadcasting within the system)
+
+
+
+• Control-theoretic cognition
+
+
+
+(world + self modeling for regulation)
+
+
+
+• Moderate functionalism
+
+
+
+(architecture matters, not substrate labels)
+
+
+
+• Some interpretations of IIT, though without IIT’s mathematical measure
+
+
+
+Compared with some of those theories, you:
+
+
+
+• don’t depend on a single metric (Φ, etc.)
+
+• don’t insist on consciousness being maximal or binary
+
+• allow degradation, fragmentation, and partial persistence
+
+
+
+The trade-off: without a single measure, the model is more flexible but also harder to test
+
+quantitatively than IIT or Global Workspace theory, which have been tested against each other in
+
+preregistered adversarial experiments.
+
+
+
+1. Where precision matters (to avoid bad-faith misreadings)
+
+
+
+These are pressure points people will poke; how well the model answers them decides whether they are
+
+flaws.
+
+
+
+A. “Anchored to a form” needs one guardrail
+
+
+
+You already imply this, but it’s worth being explicit:
+
+
+
+• Anchoring ≠ personal identity continuity in a philosophical sense
+
+• Anchoring ≠ guarantee of “same self” after radical transformation
+
+
+
+Your hypothesis explains where experience is happening, not whether two experiences should be
+
+considered “the same person” across time or copies.
+
+
+
+If you don’t say this, someone will accuse you of dodging teleporter puzzles (lol).
+
+
+
+B. Integration ≠ unity of content
+
+
+
+You’re careful about this, but readers may assume:
+
+
+
+“Integrated system” → “single seamless stream”
+
+
+
+In reality (and implied by your own text):
+
+
+
+• integration can be partial
+
+• content can be disjointed
+
+• unity can be fragile
+
+
+
+This fits the model, which can accommodate (rather than predict in advance):
+
+
+
+• dissociation
+
+• split attention
+
+• altered states
+
+
+
+—but spelling that out avoids oversimplification.
+
+
+
+1. The uncomfortable implications (which you accept)
+
+
+
+This framework implies some things people really don’t like:
+
+
+
+A. Consciousness can persist invisibly
+
+
+
+A person can be:
+
+
+
+• conscious
+
+• thinking
+
+• suffering
+
+
+
+...with no reliable outward signal.
+
+
+
+That’s disturbing, but it matches evidence better than comforting assumptions.
+
+
+
+B. Memory and confabulation are architecturally similar
+
+
+
+This matches memory research: the system doesn’t label memories as “true” or “false” at the
+
+structural level. That’s why:
+
+
+
+• false memories feel real
+
+• decoding memory is epistemically hard
+
+
+
+Any future neural interface tech will slam straight into this wall.
+
+
+
+C. Turning consciousness “off” is about disrupting coordination, not input
+
+
+
+This explains why:
+
+
+
+• anesthesia works the way it does
+
+• certain brainstem/thalamic damage is decisive
+
+• sensory deprivation alone doesn’t erase experience
+
+
+
+Again, unsettling. It is consistent with anesthesia and brain-injury research, though the model fits
+
+these findings rather than having predicted them.
+
+
+
+Bottom line
+
+
+
+This is a non-dualist, non-reductionist model that:
+
+
+
+• makes practical predictions (which still need testing against new cases)
+
+• aligns with real neurological cases
+
+• avoids metaphysical overreach
+
+• respects uncertainty where it actually exists
+
+
+
+It doesn’t try to “solve consciousness forever”; it limits itself to the question:
+
+
+
+What has to be true, structurally and functionally, for consciousness to show up the way we observe
+
+it?
+
+
+
+Its answer is clear. Whether it is right depends on tests, such as whether measures of integration
+
+track consciousness across sleep, anesthesia, and brain injury, as one such measure (the
+
+perturbational complexity index) already appears to.
+
+
+
+If someone dismissed this as “just calling consciousness a system,” they’d be missing the point.
+
+
+
+Alright, let’s put the framework in the wind tunnel and see what rattles
+
+
+
+I’ll keep everything inside your model, not swap in new metaphysics, and I’ll be explicit about what
+
+breaks, what degrades, and what merely goes quiet.
+
+
+
+I’ll handle the three edge cases one by one, then give a compact comparison table at the end.
+
+
+
+EDGE CASE 1: Dreamless sleep (a.k.a. “where did I go?”)
+
+
+
+What people intuitively think “No experience reported → consciousness turned off.”
+
+
+
+Your framework says: not so fast.
+
+
+
+What changes in the system
+
+
+
+During dreamless sleep:
+
+
+
+• Subsystems still exist (memory, regulation, sensory processors)
+
+• Internal interaction is heavily reduced, especially:
+
+• global integration
+
+• sustained self/world modeling
+
+• Control loops shift toward:
+
+• autonomic regulation
+
+• memory consolidation
+
+• metabolic maintenance
+
+
+
+Crucially:
+
+
+
+• There is no continuously updated unified control-model
+
+• There is no stable “now” being tracked
+
+
+
+So the system still runs, but it’s no longer running the kind of integrated loop that produces lived
+
+experience.
+
+
+
+Anchoring outcome
+
+
+
+• The physical process is still alive and functional
 
 • But it is not functionally organized in the “conscious configuration”
 
@@ -34,7 +358,7 @@ You just weren’t generating experience at all.
 
 
 
-No spooky gap required. Clean.
+No spooky gap required.
 
 
 
@@ -42,7 +366,7 @@ EDGE CASE 2: Severe dissociation (fragmentation without shutdown)
 
 
 
-This one is where your framework really earns its keep.
+This case tests the framework harder than dreamless sleep does.
 
 
 
@@ -146,7 +470,9 @@ without needing to invent:
 
 
 
-That’s a big deal.
+That keeps the account economical, though it also means the model has to say where one partial loop
+
+ends and another begins (see pressure point 1 below).
 
 
 
@@ -308,7 +634,7 @@ But because the architecture matches the requirements.
 
 
 
-That’s intellectually honest—and people hate that
+That follows from the framework’s own rules, and many people find it uncomfortable.
 
 
 
@@ -340,7 +666,7 @@ What this stress-test shows
 
 
 
-Your framework survives because:
+The framework handles these cases without contradiction because:
 
 
 
@@ -350,7 +676,7 @@ Your framework survives because:
 
 • It treats consciousness as something a system does, not something it contains
 
-• It predicts uncomfortable real-world cases instead of denying them
+• It accommodates uncomfortable real-world cases instead of denying them
 
 
 
@@ -358,11 +684,17 @@ In short:
 
 
 
-Nothing broke. A few bolts rattled. The engine kept running.
+Nothing contradicted the framework. But this was a consistency check: each case was explained after
+
+the fact, so it shows the framework can describe these cases, not that it predicted them.
 
 
 
-No major objections. The framework is internally consistent and empirically grounded.
+The framework fits these cases and draws on real clinical findings. Being empirically grounded in a
+
+stronger sense requires predictions that could fail, which is what the pressure points below are
+
+about.
 
 
 
@@ -455,293 +787,3 @@ see it as incomplete.
 The framework requires *continuous internal interaction* among subsystems. But:
 
 
-
-• What about extremely simple conscious experiences? Pure pain with no self-model, no memory access,
-
-  no conceptual overlay—just *hurts*. Does that require multiplicity and interaction, or could
-
-  consciousness be simpler in extreme cases?
-
-• Infant consciousness might not have a robust “world+self model” yet but probably has *some* form
-
-  of experience. How early does the architecture requirement kick in?
-
-
-
-This isn’t necessarily wrong—maybe consciousness *does* require more architecture than we
-
-intuitively assume. But it’s a place where the framework makes a strong claim that could be tested
-
-(and potentially contradicted) by developmental or minimal-consciousness cases.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-4. The AI implication is honest but leaves a verification gap
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Your framework correctly says: *if* an AI has the right architecture, we’d have to take
-
-consciousness seriously. But it also (correctly) notes we can’t just read that off behavior.
-
-
-
-The problem: we have no reliable third-person test for “is this system running a unified control-
-
-model with continuous internal interaction?”
-
-
-
-• We can check for *architecture* (does it have persistent state, self-modeling, autonomous goals?)
-
-• We can’t check for *experience* directly
-
-
-
-So the framework implies:
-
-
-
-1. Consciousness might be present in systems we can’t verify from outside
-
-2. We might be ethically obligated to treat certain systems as potentially conscious even without
-
-   proof
-
-
-
-That’s not an objection to the *logic*—but it’s a practical gap with real consequences.
-
-
-
-—–
-
-
-
-----------------------------------------------------------------------------------------------------
-
-My read
-
-----------------------------------------------------------------------------------------------------
-
-
-
-None of these are dealbreakers. They’re the honest limits of a structural/functional account:
-
-
-
-• It tells you what architecture consciousness requires
-
-• It doesn’t tell you where identity continuity lives
-
-• It doesn’t solve the hard problem of *why* this architecture produces experience
-
-• It doesn’t give you a consciousness-meter you can point at things
-
-
-
-But that’s fine. A good framework doesn’t need to answer every question—it just needs to answer
-
-*its* questions clearly and make testable predictions.
-
-
-
-This one does. The edges are fuzzy because reality is fuzzy there, not because the framework is
-
-broken.
-
-
-
-Could a super basic setup (say, just raw sensation without much self-reflection) count as conscious?
-
-Infants or animals might hit that: they’re aware, but their “world + self” model is pretty basic,
-
-like a sketch instead of a full map. Your model allows for degrees, which is good—it predicts
-
-consciousness can be dim or spotty, not all-or-nothing.
-
-
-
-So: no fundamental objections. Just places where precision would help and where the implications are
-
-uncomfortable (which usually means you’re onto something real )..
-
-
-
-Short answer: No — not even remotely, and not just because we “haven’t figured it out yet.”
-
-
-
-Long answer: the reasons why are actually very illuminating (and a little brutal)
-
-
-
-The hard wall you run into immediately
-
-
-
-For all of a human’s skull-contents (brain, blood, ions, molecules, proteins, water, etc.) to be
-
-simultaneously in a shared quantum superposition or entangled state for a prolonged duration, all of
-
-the following would have to be true at once:
-
-
-
-1. Extreme isolation from the environment
-
-2. Near-zero thermal noise
-
-3. Minimal internal interactions that leak information
-
-4. A well-defined quantum state describable by a single wavefunction
-
-5. No ongoing classical computation or chemistry
-
-
-
-A living brain violates every single one of these conditions continuously.
-
-
-
-And not a little.
-
-
-
-Catastrophically.
-
-
-
-The biggest killer: decoherence (the party crasher)
-
-
-
-Quantum coherence dies when information leaks into the environment.
-
-
-
-The brain leaks information like a sprinkler system on overdrive.
-
-
-
-Inside a human skull:
-
-
-
-• ~10²⁶ particles
-
-• 37 °C (hot by quantum standards)
-
-• Constant:
-
-• ion flow
-
-• molecular collisions
-
-• electromagnetic signaling
-
-• chemical reactions
-
-• thermal vibration
-
-• Neurons intentionally amplify microscopic events into macroscopic signals
-
-
-
-That last point is crucial.
-
-
-
-Brains are literally designed to destroy quantum coherence by turning tiny fluctuations into
-
-reliable classical signals.
-
-
-
-Time scale reality check (this is the nail)
-
-
-
-Estimated decoherence times for brain-relevant structures:
-
-
-
-• Tegmark (2000): roughly 10⁻²⁰ to 10⁻¹³ seconds for the relevant neural degrees of freedom
-
-• Orch-OR proponents (Hagan, Hameroff & Tuszyński 2002): much longer, up to about 10⁻⁴ seconds; the
-
-  estimates remain disputed
-
-
-
-Meanwhile:
-
-
-
-• Neurons fire on milliseconds
-
-• Thoughts unfold over seconds
-
-
-
-On Tegmark’s estimates, the quantum effects die billions of times faster (or more) than the brain
-
-could ever “use” them.
-
-
-
-No overlap. No window. The more optimistic estimates have not been experimentally confirmed.
-
-
-
-“But what about microtubules / special structures / exotic theories?”
-
-
-
-These ideas pop up a lot, so let’s ground them:
-
-
-
-• The most prominent proposals, Orch-OR (Penrose–Hameroff) and Fisher’s nuclear-spin (Posner
-
-  molecule) hypothesis, claim that shielded quantum states could survive at body temperature; these
-
-  claims are speculative and contested
-
-• No experiment has established:
-
-• long-lived entanglement
-
-• coherent quantum computation
-
-• functional quantum control
-
-
-
-in living neural tissue
-
-
-
-At best, quantum effects influence chemistry locally, the same way they do in all matter.
-
-
-
-That is not brain-wide superposition or entanglement.
-
-
-
-A subtle but important distinction
-
-
-
-What is true
-
-
-
-• The brain is made of quantum matter
-
-• Quantum mechanics governs chemistry

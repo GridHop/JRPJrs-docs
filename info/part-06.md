@@ -2,6 +2,32 @@
 
 Part 06 of 23 (1,799 words)
 
+them, discovery halts.
+
+
+
+Law and order break down: Courts, negotiations, contracts—everything requires explanation.
+
+Otherwise, it’s just raw power and guesswork.
+
+
+
+Technology stagnates: Imagine trying to build a rocket without explanations. You’d only be able to
+
+copy by trial and error, and progress would crawl.
+
+
+
+In short: Humanity would freeze at a very primitive level, maybe even regress. Survival of
+
+communities would depend on strict imitation, not understanding.
+
+
+
+1. What things is explanation required for human advancement?
+
+
+
 Education: Schools, apprenticeship, mentoring—impossible without explanation.
 
 
@@ -573,57 +599,5 @@ Is this an organized multiplicity that behaves as a unit?
 
 
 Nothing more. Nothing less.
-
-
-
-So “system” here is structural, not metaphysical.
-
-
-
-1. Do conscious thinking individuals meet the criteria?
-
-
-
-Let’s check one by one.
-
-
-
-(1) Multiplicity
-
-
-
-A conscious individual involves:
-
-
-
-neural subsystems sensory subsystems memory systems regulatory processes symbolic processing
-
-(language, concepts)
-
-
-
-This is not controversial. If this fails, physiology itself collapses.
-
-
-
-Criterion met.
-
-
-
-(2) Distinguishability
-
-
-
-These components:
-
-
-
-perform different functions operate at different timescales fail independently (aphasia ≠ paralysis
-
-≠ amnesia)
-
-
-
-They are functionally distinguishable even if physically continuous.
 
 

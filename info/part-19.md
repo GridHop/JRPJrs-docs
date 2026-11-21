@@ -1,6 +1,228 @@
 # Info
 
-Part 19 of 23 (1,789 words)
+Part 19 of 23 (1,788 words)
+
+actually externalize into the shared world rather than what exists solely within their minds. A
+
+system that punishes thoughts creates incentives for surveillance, mind-reading, fear of one’s own
+
+thoughts, self-censorship, and punishment of people who have not actually harmed anyone. In
+
+contrast, a system focused on externalized conduct provides clearer boundaries and better protects
+
+individual freedom of thought.
+
+
+
+I also think such a system results in less overall suffering when applied equally and without
+
+exception. People remain accountable for intentional mistreatment, callous conduct, recklessness,
+
+coercion, fraud, violence, and other actions that affect others, while remaining free to think,
+
+imagine, question, doubt, fantasize, or internally struggle without fear of punishment merely for
+
+having certain thoughts.
+
+
+
+In short, I believe accountability should be tied to what a person brings into the shared world
+
+through their conduct and its effects on others, not to the mere existence of unexternalized mental
+
+phenomena.
+
+
+
+For example, whether a killing was murder, self-defense, accidental, reckless, or intentional may
+
+depend on evidence that allows us to infer the actor’s state of mind from what they said, did, knew,
+
+or reasonably perceived at the time. Likewise, evidence that an assault was motivated by hatred can
+
+be relevant because it helps explain an observable act that actually occurred.
+
+
+
+The distinction I am drawing is between judging someone for what they did and judging someone merely
+
+for what existed in their mind. This is about a system that holds people accountable for
+
+externalized conduct, with intent helping to interpret that conduct, vs a system that includes
+
+holding people accountable for thoughts, desires, fantasies, beliefs, or other purely internal
+
+mental states even when they were never acted upon or externalized.
+
+
+
+Intent, motive, knowledge, recklessness, fear, or similar mental states can be inferred from
+
+observable conduct, statements, circumstances, preparations, patterns of behavior, known
+
+information, and other external evidence. Inference necessarily involves some degree of assumption
+
+in the sense that we never directly observe another person’s intent. The question, though, is
+
+whether those assumptions are constrained by evidence or are merely speculative. Inferences can
+
+still be more or less justified depending on how well they explain/“correspond with” the available
+
+facts.
+
+
+
+For example, intent can be inferred when someone purchases poison, researches lethal doses, secretly
+
+administers the poison to a victim, and then attempts to conceal the act. We do not observe the
+
+intent directly; we infer it from the conduct.
+
+
+
+Motive can be inferred when someone stands to gain a large inheritance from a death, repeatedly
+
+expresses hostility toward the deceased, and then engages in conduct leading to that death. The
+
+motive is not directly visible, but external evidence may support the inference.
+
+
+
+Knowledge can be inferred when someone receives repeated warnings that a bridge is unsafe,
+
+acknowledges those warnings, and then continues sending people across it. Their knowledge is
+
+evidenced by what they were told and how they responded.
+
+
+
+Fear can be inferred when someone is cornered by an armed attacker, attempts to retreat, calls for
+
+help, visibly panics, and then uses force against the attacker. We cannot directly observe fear
+
+itself, but the surrounding conduct may provide evidence that fear was present.
+
+
+
+Recklessness can be inferred when someone knowingly drives at extreme speeds through a crowded area,
+
+fires a weapon into an occupied building, or ignores obvious and substantial risks that a reasonable
+
+person would recognize. The recklessness is inferred from the choice to proceed despite the apparent
+
+danger.
+
+
+
+Suppose a person privately fantasizes about harming someone for twenty years but never threatens,
+
+attempts, plans, encourages, or commits any harmful act. Under the system I am describing, the
+
+fantasy alone would not create accountability.
+
+
+
+Suppose another person secretly poisons someone and is never caught. The poisoning itself remains an
+
+observable-type event because it is a physical action occurring in the world, even if no one
+
+actually discovers who did it. Accountability would attach to the poisoning, not to whether
+
+observers happened to identify the culprit.
+
+
+
+Suppose a person accidentally causes harm while exercising reasonable care. The harmful outcome
+
+alone would not automatically establish malicious intent, recklessness, or callousness.
+
+
+
+Suppose a person claims an action was an accident, but evidence shows extensive preparation, prior
+
+threats, concealment efforts, and attempts to benefit from the outcome. Those observable facts may
+
+justify inferring intent despite the claim.
+
+
+
+Suppose a person genuinely fears for their life and acts in self-defense. Their fear is not directly
+
+observed, but it may be inferred from the circumstances and their conduct. Conversely, if someone
+
+merely claims fear while the evidence strongly indicates aggression or retaliation, the claim may
+
+not be supported.
+
+
+
+“Experience is dynamic/‘non-stop temporally unfolding flow’. Staticness can’t produce/constitute
+
+something dynamic. A continuous geometric curve isn’t the same as lived flow”, correct? Can block
+
+universe’s 4D static block produce dynamic experience?
+
+
+
+“Staticness = paused (e.g., paused movie/flow). Paused doesn’t = activity. ‘A portfolio of static
+
+snapshots of mid-activity’ isn’t activity. ‘Related-to-each-other static snapshots’ doesn’t = being
+
+actual activity”, correct?
+
+
+
+Is a static pattern able to “do or be” functioning?
+
+
+
+Does the block universe explain why we experience temporal passage if it’s an illusion, and why that
+
+illusion has the specific character it does?
+
+
+
+Does the block universe explain “If all of a person’s brain states exist equally (as in the block
+
+universe), why is one particular state the one currently experienced, instead of another—or instead
+
+of ‘multiple or all’ of them simultaneously?”?
+
+
+
+Appendix D.
+
+
+
+Two analytically distinct levels are kept separate here. Appendix D extends temporal ontology into
+
+the domain of mind and experience. This extension is motivated by the core hypothesis — Qualia is
+
+naturally located in the Present — but it is not a prerequisite for the core temporal ontology, and
+
+its conclusions do not feed back into it. The discussion of conscious temporal experience throughout
+
+this appendix is intended as phenomenological motivation for the framework rather than as empirical
+
+evidence for it.
+
+
+
+D.1 Qualia Ontology:
+
+
+
+Qualia— the intrinsic, subjective character of experience — is located in the Present. The claim is
+
+that qualia are intrinsic to ongoing, physically instantiated processes in the present.
+
+
+
+Qualia are features of the present moment. They exist only as properties of processes that are
+
+actively unfolding in the present.
+
+
 
 Past brain states belong to the formal history M(σ). They were fully real when present, and their
 
@@ -163,197 +385,3 @@ intrinsic character of its physical substrate. Digital computation, by contrast,
 discreteness: a finite state machine manipulates representations of structure according to rules,
 
 without thereby instantiating the intrinsic properties of the system it represents. Whether the
-
-computing hardware has experiential properties of its own is a separate question this criterion
-
-leaves open. A Planck-scale causal element in a growing causal set is a genuine event with intrinsic
-
-physical properties; a bit in a register is a representation of such an event. The distinction is
-
-not between fine-grained and coarse-grained physics but between instantiation and representation.
-
-Russellian monism makes this precise: physical processes have both structural (relational)
-
-properties, which can be encoded and simulated, and intrinsic properties, which are not fixed by
-
-that structure. The latter are identified as the vehicle of qualia. What follows is a claim about
-
-level of description rather than about substrate: the represented structure, the sequence of
-
-symbolic states a computation implements, is an abstractum, and an abstractum is not a locus of
-
-experience. This leaves entirely open what the physical system carrying out the computation may
-
-instantiate on its own account. This argument does not require physics to be continuous; it requires
-
-only that computation be representational, which is constitutive of what computation is.
-
-
-
-This distinction can be stated formally as the Representation–Instantiation Distinction.
-
-Computational systems implement syntactic state transitions. Physical systems can instantiate
-
-intrinsic causal dynamics. The crucial asymmetry is that computation manipulates representations of
-
-states, while physics evolves actual states. A computation is therefore a mapping between symbolic
-
-states that represents a physical process; a physical process instantiates that process. The
-
-corollary is familiar at the macroscopic level: a perfect simulation of a hurricane does not produce
-
-wind. This principle extends into the domain of consciousness: a perfect simulation of a brain does
-
-not thereby instantiate the intrinsic causal dynamics of the brain it represents, because the
-
-simulation operates on representations of those dynamics rather than on the dynamics themselves. The
-
-claim is that the simulated brain is not a second locus of experience; it is not a claim about
-
-whether the simulating machine is one. The physically instantiated criterion is thus not a free-
-
-standing metaphysical stipulation but a direct application of the Representation–Instantiation
-
-Distinction to the case of qualia—grounded in the philosophy of computation, not merely asserted.
-
-
-
-Clarification of Intrinsic Physical Properties. The distinction between digital representation and
-
-ontological physical process requires clarification. The physically instantiated criterion does not
-
-deny that physical theories may admit discrete microstructures (as in causal-set theory or loop
-
-quantum gravity). Rather, the claim concerns the difference between representation and
-
-instantiation.
-
-
-
-A digital register encodes information symbolically. The bit “1” possesses no intrinsic physical
-
-property corresponding to redness, pain, or any other qualitative character. Its significance is
-
-purely relational and interpreter-dependent. The point concerns what a symbol is, not what the
-
-system implementing it may possess. By contrast, a physical event in spacetime possesses intrinsic
-
-properties determined by its participation in causal interactions. These properties are not merely
-
-structural relations but include the local physical character of the event itself.
-
-
-
-This position aligns with Russellian monism, which holds that physics describes relational structure
-
-while leaving the intrinsic nature of physical properties underdetermined. Claim: physical events
-
-possess intrinsic properties that ground both causal powers and qualitative character. Physics
-
-describes the structural relations between these events, while the intrinsic properties provide the
-
-ontological substrate of experience.
-
-
-
-The physically instantiated criterion therefore asserts: a digital simulation may reproduce the
-
-structural relations between events without thereby instantiating the intrinsic physical properties
-
-of the processes it represents. This claim is metaphysical rather than empirical, but it functions
-
-analogously to other ontological commitments in physics (e.g., the existence of spacetime events or
-
-quantum states).
-
-
-
-“Regarding the non-digital criterion, I believe that substrate matters in a way whereby although
-
-digital rain is not able to wet non-digital entities, but I think that with the right digital
-
-configuration, digital ai can experience getting wet but ‘what wets those digital ai’ is not able to
-
-wet non-digital entities. ‘What is wet for digital ai’ is not wet for non-digital entities” due to
-
-physics. Digital’s wetness is not able to “cross over and wet” non-digital.
-
-
-
-Your refinement of the nondigital criterion is insightful. Let me unpack the layers.
-
-
-
-The Analogy Clarifies Representation vs. Instantiation
-
-
-
-Your “digital rain” analogy maps cleanly onto the Representation–Instantiation Distinction used to
-
-ground its nondigital criterion.
-
-
-
-· A digital simulation of rain encodes structural information about rain—its drop sizes, velocities,
-
-patterns. It can even trigger, within the simulation, a representation of “getting wet” (e.g., a
-
-variable labeled wetness=1 that influences subsequent simulated states).
-
-
-
-· But that simulation does not instantiate the physical property of wetness. No actual water
-
-molecules are transferred, no skin receptors are activated, no thermodynamic wetting occurs. The
-
-“wetness” in the simulation is a symbolic state, not a physical process.
-
-
-
-Qualia require instantiation, not mere representation. The present hypersurface Σ_σ is the locus
-
-where actual, nonrepresentational physical dynamics unfold. A digital system running a perfect
-
-simulation of a brain is still operating at the level of representational states; its underlying
-
-physical process (transistor switching, electron flow) is not the same as the process it simulates.
-
-Hence, on ontology, the digital system does not inherit the qualia of the simulated brain, because
-
-qualia are properties of the instantiating process, not the represented structure.
-
-
-
-What About a Digital AI That Genuinely Experiences “Wetness”?
-
-
-
-Your point that a digital AI could experience wetness within its own digital world raises the
-
-crucial question: would that experience count as qualia?
-
-
-
-Would need to answer this by looking at the physical substrate of the AI. If the AI is implemented
-
-on conventional digital hardware, its “experience of wetness” would consist of electrical signals
-
-representing wetness. Those signals are real physical processes—they instantiate something. But do
-
-they instantiate the kind of physical becoming identified with qualia? The criterion does not settle
-
-this; two considerations bear on it:
-
-
-
-1. Causal continuity – The program’s states are discrete logic states updated by a clock, although
-
-   the hardware itself is a continuously evolving physical system that takes part in the continuous,
-
-   law-governed generation of the present hypersurface. Whether that hardware’s intrinsic dynamics
-
-   (silicon, electrons, clock cycles) have the integrated, classicalized character associated with
-
-   consciousness is an open question.
-
-2. Representational mediation – In the digital AI, the “wetness” is a representation used by the
