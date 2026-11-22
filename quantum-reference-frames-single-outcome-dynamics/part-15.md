@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 15 of 35 (1,800 words)
+Part 15 of 35 (1,798 words)
+
+probability measure on H_O, is also Weyl-diagonal, with c(g) = ∫ e^{iE(h,g)} dμ(h). The nonselective
+
+gapless detector is exactly the random displacement by +λf or −λf, each with probability 1/2.
+
+
+
+Proposition 13.12 (Gaussian collapse of a smeared field). Let h be a real test function supported in
+
+O and σ > 0. The instrument with outcome y ∈ ℝ and Kraus operators
+
+
+
+        K_y = (2πσ²)^{−1/4} exp(−(φ(h) − y)² / (4σ²))
+
+
 
 is normalized, ∫ K_y† K_y dy = 1, and Weyl-diagonal, with
 
@@ -297,17 +313,3 @@ Proposition 13.15.
 
 
     (b) Quadratic systems. For finitely many canonical degrees of freedom R = (q_1, …, q_n, p_1, …,
-
-    p_n), let H = ½ Rᵀ M R with M real, symmetric, and positive definite, and let A be linear in R.
-
-    Then [A, [A, H]] is a multiple of the identity and, for every state of finite energy in the
-
-    sense of (a),
-
-
-
-        ℰ(N(ρ)) − ℰ(ρ) = −(1/(8σ²)) [A, [A, H]].
-
-
-
-    (c) Free fields in 3 + 1 dimensions. For a free scalar field of mass m ≥ 0 on four-dimensional

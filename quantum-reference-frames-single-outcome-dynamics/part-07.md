@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 07 of 35 (1,789 words)
+Part 07 of 35 (1,800 words)
+
+    contrary to No Revision (C-b) and to the distinction between truth and recoverability (C-i).
+
+
+
+    (ii) Abstract histories. Past-tense truths might be grounded in an abstract representation of
+
+    history, such as an ersatz time series of maximal propositions (Bourne 2006; Crisp 2007). Such a
+
+    representation is formally the event history again. It still requires a fact that selects which
+
+    abstract history is the actual one, and on presentism that fact must be a fact about the
 
     present. Supplying it is exactly what a Lucretian property does.
 
@@ -355,19 +367,3 @@ of §7.2, which is one realization among others.
 
 
 ----------------------------------------------------------------------------------------------------
-
-8. The Criteria in the Model, With Numerical Checks
-
-----------------------------------------------------------------------------------------------------
-
-
-
-8.1 Generative Law and Single Outcome
-
-
-
-With the law of §7, one stage-to-stage transition samples exactly one event k ∈ 𝒦 with probability
-
-‖F_k W Ψ_σ‖² and updates the state. The realized history is a single sequence of events. Unrealized
-
-sequences are not facts: they have kernel probabilities before the transition and no Had-properties

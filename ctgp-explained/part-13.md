@@ -1,6 +1,104 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 25 (1,834 words)
+Part 13 of 26 (1,793 words)
+
+table instantiates Postulate 5 mathematically: σ is the only structure whose domain of validity is
+
+unrestricted.
+
+
+
+10.3 Pre-Geometric Ontology
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP posits that the deepest layer of reality consists not of spacetime geometry but of lawful
+
+generative ordering, of which classical spacetime geometry is an effective continuum approximation.
+
+The principles that govern this relationship are stated below and in §10.4.
+
+
+
+Emergent Metric Principle: The Lorentzian metric g_{μν} is not fundamental but emerges as an
+
+effective low-energy description of underlying generative and causal relations. Diffeomorphism
+
+invariance is correspondingly an emergent symmetry of the continuum limit rather than a primitive
+
+feature of pre-geometric reality. The continuum action of CTGP (§9.1), which contains √(−g) d⁴x,
+
+should therefore be interpreted as an effective low-energy action valid after the emergence of
+
+classical geometry, not as a fundamental statement about pre-geometric structure.
+
+
+
+Causal Reconstruction Principle: Effective spacetime geometry is reconstructed from underlying
+
+causal relations and generative ordering. This principle connects naturally to the
+
+Hawking–King–McCarthy and Malament reconstruction results already cited in §6.2, which establish
+
+that causal ordering determines conformal metric structure. CTGP’s pre-geometric ontology
+
+strengthens these results from a mathematical convenience into an ontological commitment: geometry
+
+is not prior to causality but is derived from it. The generative ordering therefore takes
+
+ontological precedence: generative ordering → causal structure → emergent metric, not the reverse.
+
+
+
+Fundamental Ontological Hierarchy: The following chain specifies the direction of ontological
+
+priority in CTGP. Each arrow denotes “grounds” or “gives rise to”, never the reverse:
+
+
+
+        σ (primitive generative ordering)  →  causal partial order  →  conformal geometry  →  full Lorentzian metric  →  GR dynamics (effective)  →  QFT (effective)  →  thermodynamic regularities (emergent)
+
+
+
+Each step in this chain has associated formal conditions for when the transition becomes valid. The
+
+step from causal partial order to conformal geometry corresponds to the large-N limit of causal-set
+
+theory. The step from conformal geometry to full metric requires specifying a volume element (in
+
+causal-set theory, this is supplied by the counting measure). The step from full metric to GR
+
+dynamics requires the α(ρ) suppression factor of §9.2 to reach the value α → 1, which occurs as
+
+ρ/ρ_P → 0. No step in this chain runs in the reverse direction within CTGP; the hierarchy is
+
+strictly one-directional. This provides the formal grounding for the claim that GR cannot be
+
+“applied at the Planck epoch”: GR appears only at the end of the chain, where all prior steps have
+
+been completed.
+
+
+
+Effective Law Emergence Principle: Stable regularities emerge when the generated present acquires
+
+sufficient physical structure to support reproducible signal propagation and dynamical constraints.
+
+This links directly to the signal-based epistemological dimension of CTGP: the observability of
+
+physical laws is itself signal-dependent. Effective laws become epistemically accessible only when
+
+the universe supports the propagation and persistence of the signals required to reveal those
+
+regularities. Physical structure and epistemic accessibility therefore co-emerge at the same
+
+threshold.
+
+
+
+10.4 Pre-Geometric Consistency Principles
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -245,107 +343,3 @@ and recover the effective description characterized by the CTGP action in the lo
 
 
 Primitive Generative Structure Principle. Explanatory chains terminate in primitive structures.
-
-Within CTGP, σ-ordering and minimal generative laws are primitive. The question “what governs σ?”
-
-receives the answer: nothing governs σ from without, for the same reason that causal order in
-
-causal-set theory requires no external explanation, logical consistency is not explained by a meta-
-
-logic, and quantum postulates are not derived from a more fundamental theory. Explanatory
-
-termination in primitive structures is a standard and unavoidable feature of any axiomatic
-
-framework. No contradiction arises from this termination; it is a feature of all foundational
-
-theories, not a deficiency of CTGP specifically. The Generative Minimality Principle (Postulate 5)
-
-formalizes this: (σ, C) with minimal generative laws is the sufficient primitive structure, and no
-
-regress threatens because no further explanation is required of a primitive.
-
-
-
-Unified Ontological Thesis of CTGP. Reality is fundamentally constituted by a minimal lawful
-
-generative structure consisting of a primitive ordering parameter σ and associated causal relations
-
-C. Classical spacetime geometry, relativistic causal structure, stress-energy descriptions, and
-
-Einsteinian dynamics are emergent effective representations arising when the generated domain
-
-acquires sufficient structure to support stable signal propagation and reproducible dynamical
-
-regularities. The continuum formalism of General Relativity therefore describes the low-energy limit
-
-of a deeper pre-geometric generative ontology rather than the fundamental architecture of reality.
-
-This thesis is the integrating statement of CTGP’s ontology. Its content is the conjunction of the
-
-principles above: (σ, C) are primitive; geometry is emergent; GR is effective; all geometric
-
-machinery applies only in the appropriate regime; proper time, hypersurfaces, and cosmological time
-
-are regime-dependent representations of more fundamental pre-geometric structure; the framework is a
-
-research program as much as a completed theory; and explanatory termination at the primitive level
-
-is not a deficiency but a philosophical necessity shared by all foundational theories.
-
-
-
-====================================================================================================
-
-PART III. Physical Realization and Empirical Standing
-
-====================================================================================================
-
-
-
-----------------------------------------------------------------------------------------------------
-
-11. Admissible Generation Laws: A Consistency Analysis
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The generative present of §6 is fixed by geometry. A natural further hypothesis is that the rate at
-
-which σ advances depends on local physical conditions — in particular, that generation proceeds
-
-faster where matter is denser. Such a law would give the generation parameter physical content
-
-beyond geometry and could in principle imprint new cosmological signatures. This section shows that
-
-the hypothesis is untenable. The exact form of the law destroys the alignment of the present with
-
-matter (§§11.1–11.2); its stable soft completions force a uniform rate inside bound structures and
-
-suppress any cosmological effect far below observability (§11.3). Within the local, stable classes
-
-analyzed, the viable generation laws reduce to functions of σ alone (§6.11), and their residual
-
-caustic problem is resolved at Layer 2 by cosmological time (§11.4). Finally, no admissible law
-
-yields an intrinsic cosmological axis (§11.5). Within those classes, the results hold for general f
-
-and apply to every increasing density dependence, not only to particular choices.
-
-
-
-11.1 The Conformal Form of the Norm Condition
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Proposition 11.1 (Conformal form). If g^{μν}∂_μσ∂_νσ = −f with f > 0, then σ has unit-norm gradient
-
-in the conformally related metric g̃ = f g. The normalized generation flow n_μ = −∂_μσ/√f has
-
-acceleration
-
-
-
-        a_μ = n^ν∇_ν n_μ = −D_μ ln √f,

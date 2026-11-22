@@ -1,6 +1,14 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 21 of 35 (1,799 words)
+Part 21 of 35 (1,796 words)
+
+by the Hopf–Rinow theorem. Therefore x lies in the compact set [t_0, t_1] × N, where t_1 is the
+
+smaller of t_K + τ and T_max − τ, and a compact set has finite four-volume. (b) The intensity
+
+measure is finite on compact sets, so the number of centres in a compact set is a Poisson variable
+
+with finite mean and is finite almost surely. Exhausting M by countably many compact sets shows
 
 that, almost surely, every compact set contains finitely many centres. For a finite set S of
 
@@ -255,11 +263,3 @@ operator K_y of Proposition 13.12. For collapses applied in the order 1, …, n,
 relation gives V_n ⋯ V_1 = exp(−(i/2) Σ_{k>l} E(h_k, h_l) p_k p_l) exp(−i Σ_k p_k φ(h_k)). In a
 
 linear extension of the causal order of an admissible configuration, if l precedes k then O_l does
-
-not meet the causal future of O_k, so Γ_lk = 0 and Γ_kl = E(h_k, h_l). Hence Σ_{k,l} Γ_kl p_k p_l =
-
-Σ_k Γ_kk p_k² + Σ_{k>l} E(h_k, h_l) p_k p_l, and the diagonal part of the phase in U cancels the
-
-pre-chirp. U applied to the pre-chirped pointers therefore gives the same joint state of the field
-
-and the pointers as V_n ⋯ V_1 applied to the unchirped ones, and the readings and conditional field

@@ -1,6 +1,144 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 25 (1,837 words)
+Part 20 of 26 (1,795 words)
+
+Remark. Clause (iii) is the future Cauchy property: for S_a = {τ = a}, D⁺(S_a) = {τ ≥ a}. A nonempty
+
+level set is a Cauchy surface in the full sense exactly when every future-inextendible causal curve
+
+passes beyond it (§6.1). In universes containing black holes, later level sets are therefore future
+
+Cauchy surfaces without being Cauchy surfaces. On the geometric side, generation needs only the
+
+future Cauchy property; that the data on a level set fix their successors is the separate dynamical
+
+requirement of generability (§12.2).
+
+
+
+Proposition 17.5 (Existence and monotonicity of σ). (1) Existence: if cosmological time is regular,
+
+then σ = F(τ), with F smooth and F′ > 0, is a time function whose level sets are future Cauchy
+
+surfaces, and ∇_μσ is timelike wherever τ is differentiable. (2) Matter alignment: in FLRW, τ is
+
+cosmic time and the level sets of σ are orthogonal to the comoving matter congruence; beyond FLRW,
+
+alignment holds with the free fall of pressureless matter in single-stream regions at linear order.
+
+(3) Monotonicity: σ is strictly increasing along every future-directed causal curve, independently
+
+of energy conditions.
+
+
+
+Proposition 17.6 (Matter-constrained foliation expansion). Let u^μ be the timelike congruence
+
+aligned with the cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. In
+
+globally hyperbolic, irrotational cosmological spacetimes satisfying the Einstein equations, the
+
+evolution of θ is governed by the Raychaudhuri equation: dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} +
+
+ω_{μν}ω^{μν} − R_{μν}u^μu^ν + ∇_μa^μ. In the irrotational, geodesic cosmological limit this reduces
+
+to dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} − R_{μν}u^μu^ν. Under standard energy conditions, the matter
+
+content constrains the sign and evolution of θ, and hence constrains the geometric extension of the
+
+CTGP foliation. The expansion scalar θ = d(ln √h)/dτ provides the physically grounded local measure
+
+of how the present hypersurface is extending relative to neighboring hypersurfaces in the generated
+
+sequence.
+
+
+
+Proposition 17.7 (Variational Derivation of the Norm Condition). The norm condition ∇_μσ ∇^μσ =
+
+−f(σ) is not an independent postulate. The derivation treats σ as a smooth field and therefore
+
+applies on open regions where τ is sufficiently smooth and the other fields satisfy the regularity
+
+assumptions required for the classical variational calculation. Extending it across nonsmooth
+
+regions, including corners of cosmological-time level sets, would require an appropriate weak
+
+formulation, which is not attempted here. Independently of the action, τ is locally Lipschitz
+
+(Theorem 17.4), so for smooth F with F′ > 0, ∇_μσ exists almost everywhere, and Theorem 17.4
+
+together with the chain rule gives the norm condition wherever τ is differentiable, hence almost
+
+everywhere. The two results are distinct: the variational one shows that the norm condition is
+
+required by stationarity of the action with respect to the multiplier, while the geometric one shows
+
+that cosmological time satisfies it. The generative present itself does not depend on the action,
+
+since cosmological time fixes it (§6.3). Consider the CTGP action
+
+
+
+        S[g_{μν}, σ, λ] = ∫_{M(σ)} √(−g) [ L_{GR} + λ(∇_μσ ∇^μσ + f(σ)) ] d⁴x
+
+
+
+where λ(x) is a Lagrange multiplier scalar field and f(σ) > 0 is the generation law. Because M(σ) is
+
+itself defined through σ, the variation is taken on a fixed domain: the region and its boundary are
+
+held fixed while the fields vary, and variations vanish on the boundary. The three Euler–Lagrange
+
+conditions are as follows.
+
+
+
+    (i) Variation with respect to λ: δS/δλ = 0 gives ∇_μσ ∇^μσ + f(σ) = 0, i.e., ∇_μσ ∇^μσ = −f(σ).
+
+    This is the norm condition, established as a necessary condition for stationarity of S.
+
+
+
+    (ii) Variation with respect to σ: since ∂/∂σ of the Lagrangian is λf′(σ) and ∂/∂(∂_μσ) is
+
+    2λ∇^μσ, integrating by parts and discarding the boundary term, which vanishes for such
+
+    variations, yields the propagation equation ∇_μ(λ∇^μσ) = ½λf′(σ). It is linear and homogeneous
+
+    in λ, reduces to a conservation law for the current λ∇^μσ when f is constant, and transports λ
+
+    along the generation flow; λ = 0 on an initial surface therefore implies λ ≡ 0.
+
+
+
+    (iii) Variation with respect to g^{μν}: the L_{GR} term yields G_{μν} = 8πG T_{μν} as usual. The
+
+    constraint term contributes T^{(σ)}_{μν} = 2λ∇_μσ∇_νσ − λg_{μν}(∇_ρσ∇^ρσ + f), up to the sign
+
+    convention adopted for T_{μν}. On the constraint surface the second term vanishes, leaving
+
+    T^{(σ)}_{μν} = 2λ∇_μσ∇_νσ: a pressureless fluid flowing along ∇^μσ with energy density
+
+    proportional to λf — the structure familiar from mimetic gravity (Chamseddine and Mukhanov
+
+    2013). Because f depends only on σ, no term couples the constraint sector to the matter
+
+    equations. For λ ≡ 0, the Einstein–matter system is exactly that of general relativity.
+
+
+
+The significance of this proposition is methodological. A Lagrange multiplier implements a chosen
+
+constraint exactly, so that the condition follows from stationarity of the action rather than being
+
+added separately; it does not by itself explain why that constraint, or that action, should be
+
+selected. The justification for the norm condition is geometric: cosmological time satisfies it
+
+(Theorem 17.4). The proposition shows that the same condition can be expressed within a standard
+
+variational framework without altering the Einstein–matter dynamics, since λ = 0. Because the domain
 
 is held fixed during variation, the action also does not select the boundary of M(σ) or derive its
 
@@ -151,145 +289,3 @@ support. Remark: This result is stated as a compatibility proposition rather tha
 it depends on the unestablished identification of causal set theory as the correct theory of quantum
 
 gravity. Its purpose is to demonstrate that CTGP’s causal commitments are not undermined by quantum-
-
-gravity considerations in at least one well-developed approach.
-
-
-
-Because sequential growth dynamics is label-invariant, the birth order of elements is not itself
-
-physical; the compatibility asserted here concerns the directional causal structure of (1) and (2),
-
-not the identification of a global present, which CTGP supplies separately through cosmological time
-
-(§15.2).
-
-
-
-Theorem 17.14 (Constraint Stability under CTGP Perturbations). Let U = (h_{ij}, K_{ij}, matter)
-
-denote ADM variables evolving under ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
-
-evolution and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
-
-(ℋ, ℋ_i). Then the constraint propagation system satisfies ∂_t C = A^i(U)∂_i C + B(U)C + ε S(U). For
-
-Sobolev index s > 5/2 and vanishing initial constraints C(0) = 0, ‖C(t)‖_{Hs-1} ≤ ε e^{Kt} ∫_0^t
-
-‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite evolution
-
-intervals. If the source term S(U) lies within the standard gauge sector, the violation is
-
-absorbable by lapse and shift adjustment. The appropriate statement is a Sobolev-norm control bound
-
-rather than a fixed numerical tolerance: CTGP-compatible perturbations preserve constraint structure
-
-to leading order. □
-
-
-
-Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} be solutions of the
-
-Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
-
-V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity
-
-subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
-
-projection onto the constraint manifold via the conformal method, provided the constraint mismatch
-
-on the overlap is sufficiently small in H^{s-1}, there exists T > 0 and a unique local solution U ∈
-
-C([0,T], H^s) ∩ C^1([0,T], H^{s-1}) with stability bound ‖U − U^{(a)}‖_{Hs-1(V′a)} ≤ C_T ‖overlap
-
-mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim is thereby a standard PDE
-
-construction: local CTGP foliations may be patched only through overlap data first reconciled at the
-
-level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
-
-corrected blended data. □
-
-
-
-Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be a family of smooth
-
-spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
-
-ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
-
-Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
-
-(2) Energy-boundedness — each smeared generator ℒ(f) = ∫_Σ f(x) ℒ_x dΣ is closable on D and
-
-satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
-
-on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
-
-swept out, not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-
-
-independent. No superluminal signaling is introduced. CTGP requires only collapse densities built
-
-from local commuting field polynomials or smeared number/energy densities with spacelike-separated
-
-supports commuting in the AQFT sense; this admissible class satisfies the conditions above, making
-
-hypersurface-path independence a conditional theorem rather than an assumed property. □
-
-
-
-Theorem 17.17 (Continuum Limit of Local CP Evolution). Let ℒ^{(n)} be a sequence of Lindblad
-
-generators built from bounded truncations L_α^{(n)} of a local operator family L_α with UV cutoff
-
-Λ_n → ∞. Assume: (1) L_α^{(n)} → L_α strongly on a common dense domain D; (2) ∑_α L_α† L_α ≤ c_1 H_0
-
-+ c_2 I relative to a positive reference Hamiltonian H_0; (3) truncated semigroups e^{tℒ(n)} are
-
-CPTP; (4) initial states satisfy Tr(ρ H_0) < ∞. Then for each finite interval [0,T]: sup_{t ≤ T}
-
-‖e^{tℒ(n)}ρ − e^{tℒ}ρ‖_1 → 0 as n → ∞. The error bound is ‖e^{tℒ(n)}ρ − e^{tℒ}ρ‖_1 ≤ C_T(ε_n(ρ) +
-
-δ_n), where ε_n(ρ) = Tr(ρ Π_{>Λn}) is the UV tail measure and δ_n is the truncation error. The
-
-theorem gives the finite-mode-to-continuum passage the form of a trace-norm convergence statement,
-
-supplying the reference Hamiltonian, common domain, UV tail parameter, and finite-time control that
-
-make the claim a genuine mathematical program. □
-
-
-
-Proposition 17.18 (Emergent Status of σ Near Planck Scale). For curvature invariants satisfying
-
-|R_{μνρσ}| ≪ M_{Pl}^2, σ exists as a time function whose level sets are future Cauchy surfaces,
-
-given by cosmological time as in §§6.1–6.3, and it is a smooth temporal scalar field wherever the
-
-maximizing congruence is single-valued. Near Planck curvature, the smooth representation may break
-
-down; CTGP then treats σ as the continuum image of an underlying growth ordering variable, with
-
-causal-set counting as the preferred candidate discrete realization. CTGP is therefore fundamental
-
-at the ordering level, not necessarily at the smooth-manifold level: the smooth σ-field is emergent
-
-in the classical regime, and singular classical regions mark breakdown of the continuum
-
-representation rather than breakdown of temporal ordering itself. This avoids a false dichotomy
-
-between “σ is fundamental as a smooth field everywhere” and “CTGP fails wherever classical GR
-
-fails.” □
-
-
-
-Proposition 17.19 (Bridge-Model Identifiability Conditions). Let q = Θ F(X) represent a candidate
-
-mapping from physiological state vector X to phenomenological proxy q. The mapping is empirically
-
-meaningful for CTGP’s psychophysical research program only if: (1) it generalizes to held-out
-
-subjects not used in fitting; (2) it remains predictive after nuisance regression controlling for
-
-arousal, task difficulty, medication status, and global signal; (3) it retains predictive power

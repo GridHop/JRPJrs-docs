@@ -1,6 +1,14 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 22 of 35 (1,791 words)
+Part 22 of 35 (1,799 words)
+
+not meet the causal future of O_k, so Γ_lk = 0 and Γ_kl = E(h_k, h_l). Hence Σ_{k,l} Γ_kl p_k p_l =
+
+Σ_k Γ_kk p_k² + Σ_{k>l} E(h_k, h_l) p_k p_l, and the diagonal part of the phase in U cancels the
+
+pre-chirp. U applied to the pre-chirped pointers therefore gives the same joint state of the field
+
+and the pointers as V_n ⋯ V_1 applied to the unchirped ones, and the readings and conditional field
 
 states agree; Theorem 13.21 identifies the law of the sequential collapses as Q_ξ. For the non-
 
@@ -273,19 +281,3 @@ implementations compare as follows.
     with a separate proof (Lemma 13.30, Proposition 13.31(f)); it is a law of records, not a global
 
     present state containing infinitely many pointers, and it does not establish the generation of
-
-    those records in an infinite volume.
-
-
-
-What fails is the identification of the pointer law with the law of Candidate extension 13.27. On
-
-non-admissible configurations the two differ, so the gapless-pointer construction is a different
-
-candidate law, not a physical implementation of rule (iii). The gapless pointer, the natural local
-
-realization of a Gaussian collapse, does not reproduce centre-time ordering: it yields a law with no
-
-ordering rule.
-
-

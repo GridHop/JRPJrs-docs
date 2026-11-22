@@ -1,6 +1,32 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 05 of 25 (1,831 words)
+Part 05 of 26 (1,797 words)
+
+vanishes and is recreated from one state to the next. Generation is gapless: reality never lapses,
+
+and each present state arises from immediately preceding states through lawful temporal and
+
+generative progression (§5.4). Gapless does not require every physical quantity to change smoothly;
+
+abrupt changes, including quantum jumps in models that contain them, are compatible with gapless
+
+generation. What ceases to exist is the earlier state itself, not necessarily the physical
+
+constituents or systems that were in that state; whether those persist depends on their own
+
+conditions of persistence.
+
+
+
+CTGP distinguishes a state from what it is a state of. An earlier state, as the state at its stage,
+
+ceases to exist, even when successive stages produce a qualitatively identical state; the system
+
+whose state it was persists for as long as its conditions of persistence are satisfied, that is,
+
+unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
+
+is, not by the cosmological foliation, which settles only which configurations are co-present and
 
 how stages are ordered: an organism, a hurricane, and a field have different conditions of
 
@@ -307,33 +333,3 @@ completion, it is the generability requirement of §12.2, which CTGP treats as a
 rather than as a consequence of the geometry.
 
 
-
-CTGP is formulated for globally hyperbolic spacetimes. This restriction follows from the framework's
-
-stated postulates rather than being adopted for convenience, and it matters which postulates deliver
-
-it. Becoming alone excludes closed timelike curves, since no event can be among the conditions of
-
-its own production. It does not by itself exclude every failure of global hyperbolicity. Anti-de
-
-Sitter spacetime contains no closed timelike curves, yet it is not globally hyperbolic, because data
-
-must be supplied at its timelike boundary at every stage. Such spacetimes are excluded by CTGP's
-
-stronger requirement that each stage suffice for its successors, with no input from a boundary, a
-
-naked singularity, or a region beyond a Cauchy horizon. Once the ordering is given by regular
-
-cosmological time (Postulate 3), global hyperbolicity follows as a theorem (Theorem 17.4). Given
-
-these postulates, CTGP entails that physically realized spacetime is globally hyperbolic, and
-
-classifies Cauchy-horizon and closed-timelike-curve solutions as unrealized idealizations; it does
-
-not claim that global hyperbolicity follows from the bare concept of becoming. The entailment
-
-carries falsifiable content through what it excludes: a confirmed observation of closed timelike
-
-curves, or of any phenomenon requiring a Cauchy-horizon-crossing region to be physically realized,
-
-would refute the framework (§9.4.2; §13). Eternalism, by contrast, permits spacetimes containing

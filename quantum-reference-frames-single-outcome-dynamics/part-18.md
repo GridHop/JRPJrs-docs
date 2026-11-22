@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 18 of 35 (1,797 words)
+Part 18 of 35 (1,787 words)
+
+invariant under them.
+
+
+
+Proof. By Proposition 13.16(c), and its analogue in other dimensions for m > 0, the unit vector u(h)
+
+= ΔP(h)/(ΔP(h) · ΔP(h))^{1/2} is a continuous, Lorentz-equivariant map into the hyperboloid H³ of
+
+future-directed unit timelike vectors, and it is unaffected by translating h. If μ were invariant,
+
+its image under u would be a Lorentz-invariant probability measure ν on H³. Choose R with ν(K) >
 
 1/2, where K is the closed hyperbolic ball of radius R about a unit vector e. A boost of rapidity
 
@@ -271,17 +283,3 @@ spacetime with a big-bang singularity, so that its cosmological time T is regula
 the FLRW time, is smooth, and has Cauchy surfaces as level sets (§13.1), and let φ be the free field
 
 of §13.6. The candidate is stated for this class only. For other spacetimes with regular
-
-cosmological time, a smooth smearing law built from T and g alone would first have to be specified.
-
-
-
-    (i) Locations. Collapse centres form a Poisson process with intensity λ dVol_g in the region T >
-
-    t_0, as in Definition 13.20, where t_0 > τ is fixed by condition (ii). If the universe
-
-    recollapses at a finite cosmological time T_max, the region is t_0 < T < T_max − τ, so that
-
-    every collapse region lies in the spacetime.
-
-

@@ -1,4 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 30 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 30 of 35 · 1,794 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav><main class="source"><div>n = 3</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 30 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 30 of 35 · 1,791 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav><main class="source"><div># exhaustive record distribution over n stages, frame A vs frame B vs neutral</div>
+<div>def record_dist(psi0, Wm, Fm, n):</div>
+<div>    out = {}</div>
+<div>    def rec(psi, hist, p):</div>
+<div>        if len(hist) == n: out[hist] = (p, psi); return</div>
+<div>        phi = Wm @ psi</div>
+<div>        for k, K in Fm.items():</div>
+<div>            v = K @ phi; q = np.vdot(v, v).real</div>
+<div>            if q &gt; 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)</div>
+<div>    rec(psi0, (), 1.0); return out</div>
+<div>phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)</div>
+<div>n = 3</div>
 <div>dA = record_dist(phiA0, WA, FA, n)</div>
 <div>dB = record_dist(V_AB @ phiA0, WB, FB, n)</div>
 <div>dN = record_dist(JA @ phiA0, W, F, n)</div>
@@ -226,15 +237,4 @@
 <div>    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real</div>
 <div>    return m</div>
 <div>m0 = marg(instr); worst = 0.0</div>
-<div>for y in set(range(len(slots))) - past:</div>
-<div>    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())</div>
-<div>print(f&quot;    instruments changed outside the predecessor set of slot {X}: &quot;</div>
-<div>      f&quot;max change = {worst:.1e}&quot;)</div>
-<div># consistency on nested order ideals: law on I computed from instruments in I alone</div>
-<div>I_ideal = sorted(past)</div>
-<div>devI = 0.0</div>
-<div>full = joint(next(iter(exts)), instr)</div>
-<div>for oI in itertools.product((0, 1), repeat=len(I_ideal)):</div>
-<div>    v = psi_c.copy()</div>
-<div>    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v</div>
-<div>    pI = np.vdot(v, v).real</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav></body></html>
+<div>for y in set(range(len(slots))) - past:</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav></body></html>

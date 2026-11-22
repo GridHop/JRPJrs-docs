@@ -1,6 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 31 of 35 (1,798 words)
+Part 31 of 35 (1,787 words)
+
+    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())
+
+print(f"    instruments changed outside the predecessor set of slot {X}: "
+
+      f"max change = {worst:.1e}")
+
+# consistency on nested order ideals: law on I computed from instruments in I alone
+
+I_ideal = sorted(past)
+
+devI = 0.0
+
+full = joint(next(iter(exts)), instr)
+
+for oI in itertools.product((0, 1), repeat=len(I_ideal)):
+
+    v = psi_c.copy()
+
+    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v
+
+    pI = np.vdot(v, v).real
 
     pm = sum(np.vdot(w, w).real for o, w in full.items()
 
@@ -395,19 +417,3 @@ C2(d) | ΔP(Λh) = Λ ΔP(h) under a boost; ΔP timelike    | 1.3 × 10⁻¹⁶;
 C3(a) | Poisson counts in a box: mean and variance     | 96.00 and 96.35          | Def. 13.20
 
       | both equal to λ × area = 96                    |                          |
-
-C3(b) | Probability of admissibility against the cell  | below the bound; 0.599   | Prop. 13.22
-
-      | bound                                          | to 0.015                 |
-
-C3(c) | Outcome covariance across linear extensions,   | max diff. 1.8 × 10⁻¹⁵    | Thm 13.21(a)
-
-      | 300 admissible configurations                  |                          |
-
-C3(d) | Direct Hilbert-space history laws: across      | 4.8 × 10⁻¹⁶; 1.8 × 10⁻¹⁴ | Thm 13.21(a)
-
-      | linear extensions; vs closed-form              |                          |
-
-      | characteristic function                        |                          |
-
-C3(e) | Overlapping pair: variance shift E²/(4σ_1²);   | 10 digits; TV 0.057;     | Props 13.23,

@@ -1,6 +1,14 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 11 of 35 (1,792 words)
+Part 11 of 35 (1,790 words)
+
+probability because invertible operators annihilate no nonzero vector. At the present stage, ω_1
+
+calls for {F_k} and ω_2 for {F″_k}. Since W Φ is the configuration state with separations x, y, and
+
+y−x for the pairs (A,B), (A,C), (B,C), the probability of the flash (i, j, d′) is λ · (1/3) ·
+
+w(r_{ij} − d′) under {F_k} and λ · q_{ij} · w(r_{ij} − d′) under {F″_k}, where r_{ij} is the
 
 corresponding separation; the probability of ∅ is 1 − λ in both. Summing |λ(q_{ij} − 1/3)| over the
 
@@ -182,9 +190,11 @@ The commitments to be preserved are those of §2.3, grouped as follows.
 
 
 
-    (P3) Generability (C-f): the complete present physical state and the laws fix the probability
+    (P3) Generability (C-f): under the laws, which obtain in the present, the complete present
 
-    distribution of successors, without indispensable independent future boundary inputs.
+    physical state fixes the probability distribution of successors, without indispensable independent
+
+    future boundary inputs.
 
 
 
@@ -365,27 +375,3 @@ propositions, and open targets.
 
 
 CTGP’s foundational ontology is what (P1)–(P6) assert. A relativistic flash model, a Bohmian field
-
-theory, or a quantum-gravitational causal structure might each satisfy Definition 12.1 by quite
-
-different physical mechanisms. They are therefore candidate realizations to be investigated, not
-
-components of CTGP itself. The same holds for the ring model of Part III: it is one realization,
-
-chosen because every claim about it can be proved.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-13. Relativistic Quantum Fields: Realized-History Consistency
-
-----------------------------------------------------------------------------------------------------
-
-
-
-13.1 Background Structure
-
-
-
-The first construction should not quantize gravity. It should assume a fixed classical spacetime (M,

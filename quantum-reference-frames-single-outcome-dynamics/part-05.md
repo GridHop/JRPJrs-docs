@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 05 of 35 (1,792 words)
+Part 05 of 35 (1,796 words)
+
+    Tier 3 (sharp properties). For an invariant projector Q and σ″ ≤ σ, the proposition “Q held at
+
+    σ″” is determinately true iff Q Ψ_{σ″} = Ψ_{σ″}, determinately false iff Q Ψ_{σ″} = 0, and
+
+    otherwise has no determinate truth value.
+
+
+
+No proposition about a stage later than σ is determinate at σ. Future-directed claims have only the
+
+probabilities assigned by the kernel.
+
+
+
+Tier 1 carries single-outcome realism. In a flash ontology the macroscopic world is the pattern of
 
 events, so “the pointer pointed left” is a Tier 1 fact about which events occurred, not a Tier 3
 
@@ -337,21 +353,3 @@ measures over histories. □
 
 
 Corollary 5.13 shows what “valid transformation” excludes: it is not enough for each frame to use a
-
-law that looks natural from its own point of view; the laws must be related by the frame-change
-
-unitary. This is the QRF analogue of requiring that a law be written in covariant form.
-
-
-
-Corollary 5.14 (Covariant generability). In every frame A, the future is conditionally independent
-
-of the past given the present:
-
-
-
-        Pr^A(𝔉⁺_σ | ψ^A_σ, L^A_σ) = Pr^A(𝔉⁺_σ | ψ^A_σ),
-
-
-
-and this conditional distribution is the image under the frame change of the corresponding

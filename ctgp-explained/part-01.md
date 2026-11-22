@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 25 (1,828 words)
+Part 01 of 26 (1,789 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -92,35 +92,37 @@ presentist and eternalist readings of identical physics are observationally equi
 
 ontology cannot be verified by measurement at fixed physics. It remains empirically exposed:
 
-presentism requires the fundamental laws to be generable from the present state, with no dependence
+presentism requires the fundamental laws to be generable from the present state, meaning that under
 
-on future boundary data and no global consistency conditions requiring the whole history at once — a
+them the present state alone suffices to generate its successor, with no dependence on future boundary
 
-structural commitment that a confirmed chronology violation, interventionist retrocausal dependence,
+data and no global consistency conditions requiring the whole history at once — a structural
 
-or an indispensable future boundary condition or global consistency requirement that precludes an
+commitment that a confirmed chronology violation, interventionist retrocausal dependence, or an
 
-adequate forward-generative account would refute. A unique final state that simply results from
+indispensable future boundary condition or global consistency requirement that precludes an adequate
 
-deterministic dynamics does not count; only a final condition that must be imposed as an independent
+forward-generative account would refute. A unique final state that simply results from deterministic
 
-input to fix earlier states would. Current physics is consistent with that commitment but does not
+dynamics does not count; only a final condition that must be imposed as an independent input to fix
 
-establish it. Because it entails a unique factual past, CTGP also requires single-outcome realism in
+earlier states would. Current physics is consistent with that commitment but does not establish it.
 
-quantum theory, which excludes standard Everettian ontology. CTGP traces the causal, record-forming,
+Because it entails a unique factual past, CTGP also requires single-outcome realism in quantum theory,
 
-and experiential arrows of time to the direction of generation, relates the thermodynamic arrow to
+which excludes standard Everettian ontology. CTGP traces the causal, record-forming, and
 
-it without reducing it, answers the principal objections — relativity of simultaneity, Lorentz
+experiential arrows of time to the direction of generation, relates the thermodynamic arrow to it
 
-invariance, diffeomorphism invariance, strong-curvature foliation, point presentism, the absence of
+without reducing it, answers the principal objections — relativity of simultaneity, Lorentz invariance,
 
-any intrinsic marker of the present, and underdetermination — and constrains where physically
+diffeomorphism invariance, strong-curvature foliation, point presentism, the absence of any intrinsic
 
-instantiated processes associated with experience may occur, without claiming to determine the
+marker of the present, and underdetermination — and constrains where physically instantiated
 
-nature of consciousness.
+processes associated with experience may occur, without claiming to determine the nature of
+
+consciousness.
 
 
 
@@ -347,15 +349,3 @@ picture is a continuously advancing generative flow, not a sequence of discrete 
 CTGP is a thesis about what exists: the present, not the past or the future. Two readings of the
 
 same physics that differ only in this respect make identical predictions for every measurement
-
-(§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
-
-past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
-
-the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
-
-which the paper tests (§11).
-
-
-
-----------------------------------------------------------------------------------------------------

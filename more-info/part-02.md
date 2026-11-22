@@ -1,6 +1,8 @@
 # More Info
 
-Part 02 of 5 (1,797 words)
+Part 02 of 5 (1,788 words)
+
+there may be no recoverable record from which any observer could reconstruct it. D can nevertheless
 
 be different because A occurred. Three notions must therefore be kept apart:
 
@@ -419,9 +421,3 @@ which change over a lifetime: molecules are replaced, appearance changes, neural
 shifts from moment to moment, and memories are formed and lost. The relevant continuity is
 
 continuity of the mind as an ongoing process, which makes identity fundamentally diachronic rather
-
-than configurational. A snapshot of a person at 10:00 and another at 20:00 can be different physical
-
-configurations while belonging to the same continuing individual.
-
-

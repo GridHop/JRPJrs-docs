@@ -1,6 +1,20 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 27 of 35 (1,798 words)
+Part 27 of 35 (1,799 words)
+
+    preservation are proved (Propositions 9.2–9.9, Theorems 9.7 and 9.10); the identification of its
+
+    time parameter with cosmic time is stated as a postulate (§9.4).
+
+
+
+    (9) Within the class, generative order is shared by all frames, the law is generable, the future
+
+    is open, and there are no relative facts (§10).
+
+
+
+    (10) The truth profile is formally interchangeable with the event history (Proposition 5.21);
 
     its independent role is ontological, as the present ground for past-tense truths required by
 
@@ -315,15 +329,3 @@ Part 27 of 35 (1,798 words)
 
 
     (O5) Records. The model has no record subsystems; evidence about the past is whatever the
-
-    present state encodes. Adding pointer or environment systems would allow a formal treatment of
-
-    how records serve as evidence for L across frames, of how records degrade while L does not (CTGP
-
-    – explained, §14.6), and of observers with access to records rather than to the full present
-
-    state.
-
-
-
-    (O6) Weak non-supervenience at generic parameters. Whether two distinct histories from a fixed

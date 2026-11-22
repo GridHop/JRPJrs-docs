@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 20 of 35 (1,790 words)
+Part 20 of 35 (1,799 words)
+
+violation. By part (e), no unconditioned statistic of other operations reveals the order of law
+
+collapses among themselves, so whether these correlations induce operationally detectable signatures
+
+requires an explicit account of how collapse outcomes are recorded in accessible observables. The
+
+candidate preferred-frame effects identified so far are the energy–momentum injection of part (e)
+
+and the order effects for interfering interventions described under the second limit; neither has
+
+yet been shown to be measurable, as explained below. Fourth, no-signaling and Lorentz invariance are
 
 different properties. Four notions must be kept apart: a Lorentz-invariant law, which refers to no
 
@@ -247,11 +259,3 @@ future-directed causal curves. The value T(p) lies in the compact interval [t_0 
 a has a positive minimum a_*, so the condition a(T(p)) d_γ(π(p), π(x)) ≤ ℓ gives d_γ(π(x), π(A)) ≤
 
 ℓ/a_*. The set N of points of S within γ-distance ℓ/a_* of π(A) is closed and bounded, hence compact
-
-by the Hopf–Rinow theorem. Therefore x lies in the compact set [t_0, t_1] × N, where t_1 is the
-
-smaller of t_K + τ and T_max − τ, and a compact set has finite four-volume. (b) The intensity
-
-measure is finite on compact sets, so the number of centres in a compact set is a Poisson variable
-
-with finite mean and is finite almost surely. Exhausting M by countably many compact sets shows

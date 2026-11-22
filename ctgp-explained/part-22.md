@@ -1,6 +1,288 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 25 (1,822 words)
+Part 22 of 26 (1,797 words)
+
+Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
+
+    Physical Review D, 58, 116002.
+
+
+
+Craig, W. L. (2001). Time and the Metaphysics of Relativity. Kluwer Academic Publishers.
+
+
+
+Dafermos, M., & Luk, J. (2025). The interior of dynamical vacuum black holes I: The C⁰-stability of
+
+    the Kerr Cauchy horizon. Annals of Mathematics, 202, 309–630.
+
+
+
+Dehaene, S. (2014). Consciousness and the Brain. Viking.
+
+
+
+Deng, N. (2013). The block universe: A metaphysical analysis. In R. Ciuni et al. (Eds.), New Papers
+
+    on the Present. Philosophia Verlag.
+
+
+
+Dieks, D. (Ed.). (2006). The Ontology of Spacetime. Elsevier.
+
+
+
+Doob, J. L. (1957). Conditional Brownian motion and the boundary limits of harmonic functions.
+
+    Bulletin de la Société Mathématique de France, 85, 431–458.
+
+
+
+Dowker, F. (2005). Causal sets and the deep structure of spacetime. In 100 Years of Relativity.
+
+    World Scientific.
+
+
+
+Earman, J. (2006). Two challenges to the requirement of substantive general covariance. Synthese,
+
+    148, 443–468.
+
+
+
+Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Preussischen Akademie
+
+    der Wissenschaften.
+
+
+
+Ellis, G. F. R. (2014). The evolving block universe and the meshing together of times. Annals of the
+
+    New York Academy of Sciences, 1326, 26–41.
+
+
+
+Ellis, G. F. R., & Rothman, T. (2010). Time and spacetime: The crystallizing block universe.
+
+    International Journal of Theoretical Physics, 49, 988–1003.
+
+
+
+Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
+
+    University Press.
+
+
+
+Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
+
+    cosmic microwave background. Physical Review D, 78, 083012.
+
+
+
+Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
+
+    29, 454–462.
+
+
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
+
+    11, 127–138.
+
+
+
+Garriga, J., & Mukhanov, V. F. (1999). Perturbations in k-inflation. Physics Letters B, 458,
+
+    219–225.
+
+
+
+Geroch, R. (1970). Domain of dependence. Journal of Mathematical Physics, 11(2), 437–449.
+
+
+
+Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+
+    systems. Physical Review D, 34(2), 470–491.
+
+
+
+Gödel, K. (1949). An example of a new type of cosmological solutions of Einstein’s field equations.
+
+    Reviews of Modern Physics, 21, 447–450.
+
+
+
+Gottesman, D., & Preskill, J. (2004). Comment on “The black hole final state.” Journal of High
+
+    Energy Physics, 2004(03), 026.
+
+
+
+Hartle, J. B., & Hawking, S. W. (1983). Wave function of the universe. Physical Review D, 28(12),
+
+    2960–2975.
+
+
+
+Hawking, S. W., & Ellis, G. F. R. (1973). The Large Scale Structure of Space-Time. Cambridge
+
+    University Press.
+
+
+
+Hawking, S. W., King, A. R., & McCarthy, P. J. (1976). A new topology for curved space-time which
+
+    incorporates the causal, differential, and conformal structures. Journal of Mathematical
+
+    Physics, 17(2), 174–181.
+
+
+
+Hoftuft, J., Eriksen, H. K., Banday, A. J., Górski, K. M., Hansen, F. K., & Lilje, P. B. (2009).
+
+    Increasing evidence for hemispherical power asymmetry in the five-year WMAP data. The
+
+    Astrophysical Journal, 699, 985–989.
+
+
+
+Hořava, P. (2009). Quantum gravity at a Lifshitz point. Physical Review D, 79, 084008.
+
+
+
+Horowitz, G. T., & Maldacena, J. (2004). The black hole final state. Journal of High Energy Physics,
+
+    2004(02), 008.
+
+
+
+Ismael, J. (2016). How Physics Makes Us Free. Oxford University Press.
+
+
+
+Jacobson, T., & Mattingly, D. (2001). Gravity with a dynamical preferred frame. Physical Review D,
+
+    64, 024028.
+
+
+
+Joos, E., Zeh, H. D., Kiefer, C., Giulini, D., Kupsch, J., & Stamatescu, I.-O. (2003). Decoherence
+
+    and the Appearance of a Classical World in Quantum Theory (2nd ed.). Springer.
+
+
+
+Kiefer, C. (2012). Quantum Gravity (3rd ed.). Oxford University Press.
+
+
+
+Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
+
+    Modern Physics, 83, 11–31.
+
+
+
+Malament, D. B. (1977). The class of continuous timelike curves determines the topology of
+
+    spacetime. Journal of Mathematical Physics, 18(7), 1399–1404.
+
+
+
+Maudlin, T. (2012). Philosophy of Physics: Space and Time. Princeton University Press.
+
+
+
+Maudlin, T. (2019). Philosophy of Physics: Quantum Theory. Princeton University Press.
+
+
+
+Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). Gravitation. W. H. Freeman.
+
+
+
+Nagel, T. (1974). What is it like to be a bat? Philosophical Review, 83(4), 435–450.
+
+
+
+Page, D. N., & Wootters, W. K. (1983). Evolution without evolution: Dynamics described by stationary
+
+    observables. Physical Review D, 27(12), 2885–2892.
+
+
+
+Panagia, N. (1999). Distance to SN 1987A and the LMC. In Y.-H. Chu et al. (Eds.), New Views of the
+
+    Magellanic Clouds (IAU Symposium 190, pp. 549–554). Astronomical Society of the Pacific.
+
+
+
+Pearle, P. (1989). Combining stochastic dynamical state-vector reduction with spontaneous
+
+    localization. Physical Review A, 39, 2277–2289.
+
+
+
+Penrose, R. (1989). The Emperor's New Mind. Oxford University Press.
+
+
+
+Pietrzyński, G., Graczyk, D., Gallenne, A., Gieren, W., Thompson, I. B., et al. (2019). A distance
+
+    to the Large Magellanic Cloud that is precise to one per cent. Nature, 567, 200–203.
+
+
+
+Planck Collaboration. (2020a). Planck 2018 results. VI. Cosmological parameters. Astronomy &
+
+    Astrophysics, 641, A6.
+
+
+
+Planck Collaboration. (2020b). Planck 2018 results. VII. Isotropy and statistics of the CMB.
+
+    Astronomy & Astrophysics, 641, A7.
+
+
+
+Pooley, O. (2013). Relativity, the open future, and the passage of time. Proceedings of the
+
+    Aristotelian Society, 113, 321–363.
+
+
+
+Price, H. (1996). Time's Arrow and Archimedes' Point. Oxford University Press.
+
+
+
+Procopio, L. M., et al. (2015). Experimental superposition of orders of quantum gates. Nature
+
+    Communications, 6, 7913.
+
+
+
+Putnam, H. (1967). Time and physical geometry. The Journal of Philosophy, 64(8), 240–247.
+
+
+
+Rickles, D. (2016). Philosophy of Physics. Polity Press.
+
+
+
+Rideout, D. P., & Sorkin, R. D. (2000). Classical sequential growth dynamics for causal sets.
+
+    Physical Review D, 61, 024002.
+
+
+
+Riess, A. G., et al. (1998). Observational evidence from supernovae for an accelerating universe.
+
+    Astronomical Journal, 116, 1009–1038.
+
+
+
+Rietdijk, C. W. (1966). A rigorous proof of determinism derived from the special theory of
 
     relativity. Philosophy of Science, 33(4), 341–344.
 
@@ -259,205 +541,3 @@ foliation along the congruence. Its evolution is governed by the Raychaudhuri eq
 In the irrotational, geodesic cosmological limit (ω_{μν} = 0, a^μ = 0) this reduces to:
 
 
-
-        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} - R_{μν}u^μu^ν
-
-
-
-CTGP uses this result to interpret geometric growth in terms of foliation expansion rather than as a
-
-derivative dM/dσ of the generated domain treated as a scalar quantity. The expansion scalar θ
-
-provides the GR-native local measure of how the present hypersurface is extending relative to
-
-neighboring hypersurfaces: θ > 0 in expanding cosmologies, θ < 0 in collapsing regimes. Via the
-
-Einstein equations, the R_{μν}u^μu^ν term links the evolution of θ directly to the matter content
-
-through the Ricci curvature, grounding CTGP’s growth picture in standard relativistic dynamics.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix B. Causal Structure Theorems and Their Application to CTGP
-
-----------------------------------------------------------------------------------------------------
-
-
-
-B.1 Global Hyperbolicity and Causal Order
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-A spacetime (M, g) is globally hyperbolic if it admits a Cauchy hypersurface — a spacelike surface
-
-intersected exactly once by every inextendible causal curve. This property is widely believed to
-
-hold for our universe on cosmological scales (Hawking and Ellis 1973).
-
-
-
-Theorem B.1 (Hawking–King–McCarthy, 1976). In suitably well-behaved relativistic spacetimes, the
-
-chronological relation I⁺(p) — the set of events reachable from p by future-directed timelike curves
-
-— determines the conformal structure of the spacetime metric. The topology and light-cone structure
-
-can be reconstructed uniquely up to an overall conformal factor from knowledge of the chronological
-
-order alone.
-
-
-
-Theorem B.2 (Malament, 1977). The causal ordering relation alone suffices to determine the conformal
-
-metric structure of relativistic spacetime under mild conditions. Temporal precedence is not a
-
-coordinate convention but a geometric fact encoded in causal relations.
-
-
-
-Theorem B.3 (Geroch, 1970). In a globally hyperbolic spacetime there exists a continuous time
-
-function — a function that strictly increases along every future-directed causal curve. Moreover, M
-
-≅ ℝ × Σ, where each slice is a Cauchy hypersurface. This splitting is not imposed but follows from
-
-the causal structure.
-
-
-
-Theorem B.4 (Bernal and Sánchez, 2003, 2005). In any globally hyperbolic spacetime, there exists a
-
-smooth temporal function whose gradient is everywhere timelike and whose level sets are smooth
-
-spacelike Cauchy hypersurfaces. Any Geroch splitting can be refined to a smooth one. Moreover, any
-
-two smooth Cauchy foliations can be smoothly deformed into each other.
-
-
-
-B.2 Application to CTGP
-
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-These theorems guarantee that the mathematical structure CTGP requires — a global foliation by
-
-present hypersurfaces Σ_σ with σ increasing causally — exists in any globally hyperbolic spacetime.
-
-This is not an additional CTGP postulate but a consequence of GR’s causal structure under physically
-
-reasonable assumptions. Standard interpretations treat the entire product manifold ℝ × Σ as
-
-ontologically complete. CTGP instead interprets the parameter labeling the slices as indexing the
-
-progressive generation of spacetime structure: at stage σ, only the present slice exists; the
-
-hypersurfaces in its past belong to the formal history M(σ), and the future hypersurfaces Σ_{σ′>σ},
-
-while mathematically definable within the full spacetime manifold, are not part of the generated
-
-domain.
-
-
-
-The freedom to choose among smooth temporal foliations corresponds to the freedom to pick different
-
-smooth temporal functions. CTGP resolves this ambiguity with cosmological time: among all time
-
-functions, it is singled out by maximal elapsed proper time, and in cosmology it coincides with the
-
-matter rest frame. The logical priority is clear: causal geometry (Theorems B.1–B.4) precedes
-
-cosmological time (Theorem 17.4), which precedes the labeling convention σ = F(τ). σ is not a novel
-
-object introduced by CTGP; it is a distinguished time function that general relativity already
-
-provides.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix C. Vulnerability Assessment
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The three principal vulnerabilities of CTGP concern foliation dependence, underdetermination with
-
-respect to eternalism, and the use of a preferred cosmological frame. The responses to each are
-
-developed in the main text (§§6.10, 11.4, 12, 9.3.1); this appendix records the residual assessment.
-
-
-
-After these responses, the residual severity of each vulnerability is as follows. The foliation
-
-criticism is answered: the present is geometrically unique wherever cosmological time is regular,
-
-aligned with matter in cosmology, and globally defined through structure formation; the open cases
-
-are past-eternal, cyclic, and emergent cosmologies and non-uniform bounces, with single uniform
-
-bounces covered by §6.10.1. The underdetermination criticism is correct and is accepted in its
-
-precise form: the ontology is observationally equivalent to eternalism for fixed physics, and its
-
-empirical exposure is structural rather than observational (§12). The preferred-frame criticism is
-
-answered in its usual form, since cosmology already employs the same frame and CTGP predicts no
-
-local preferred-frame effects.
-
-
-
-The deep philosophical challenge that remains is whether a generative ontology is more than an
-
-interpretive preference. That question cannot be settled by formal argument or by measurement alone;
-
-it belongs to the broader debate over scientific realism, underdetermination, and inference to the
-
-best explanation. CTGP’s contribution is to make the debate concrete: to specify the present
-
-precisely, to show which physical realizations of it are consistent, and to identify the structural
-
-commitment through which the ontology remains exposed to evidence.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-Appendix D. CTGP and Conscious Experience
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The relationship between CTGP's temporal ontology and the philosophy of mind is among the
-
-framework's most distinctive contributions. This appendix develops the connection systematically.
-
-
-
-Structural note on scope. CTGP operates at two analytically distinct levels that should be kept
-
-separate when evaluating the framework’s physics credentials. The core theory — comprising §§1–12,
-
-the σ formalism, ADM evolution, cosmological foliation, and the empirical standing set out in §12 —
-
-is a standalone spacetime ontology that can be evaluated entirely on physics and philosophy-of-
-
-physics merits, independent of the consciousness discussion. Appendix D extends CTGP’s temporal
-
-ontology into the domain of mind and experience. This extension is motivated by the core theory —
-
-the present-edge structure of M(σ) provides a natural locus for qualia — but it is not a
-
-prerequisite for accepting the core framework. Readers primarily interested in the physics case may

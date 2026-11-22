@@ -1,6 +1,30 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 12 of 35 (1,784 words)
+Part 12 of 35 (1,798 words)
+
+theory, or a quantum-gravitational causal structure might each satisfy Definition 12.1 by quite
+
+different physical mechanisms. They are therefore candidate realizations to be investigated, not
+
+components of CTGP itself. The same holds for the ring model of Part III: it is one realization,
+
+chosen because every claim about it can be proved.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+13. Relativistic Quantum Fields: Realized-History Consistency
+
+----------------------------------------------------------------------------------------------------
+
+
+
+13.1 Background Structure
+
+
+
+The first construction should not quantize gravity. It should assume a fixed classical spacetime (M,
 
 g) with a regular cosmological time function T(p) = sup { L(γ) : γ a past-directed causal curve from
 
@@ -291,15 +315,3 @@ Foliation-independent probabilities do not by themselves establish that any foli
 ontologically privileged. What Corollary 13.5 shows is that privileging one foliation is empirically
 
 invisible under the stated assumptions. That one foliation is in fact generative is CTGP’s
-
-interpretive thesis, supplied separately, in the same way that Thesis 5.10 supplies the ontological
-
-reading of description orbits.
-
-
-
-The locality condition cannot be dropped. In the numerical check (Appendix B, item 14), a brickwork
-
-arrangement of eight two-outcome instruments on six qubits has 136 foliations, and all of them
-
-assign identical probabilities to all 256 outcome histories, to within 7 × 10⁻¹⁸. Changing the

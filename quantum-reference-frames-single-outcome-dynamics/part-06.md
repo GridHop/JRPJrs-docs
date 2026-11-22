@@ -2,6 +2,24 @@
 
 Part 06 of 35 (1,798 words)
 
+law that looks natural from its own point of view; the laws must be related by the frame-change
+
+unitary. This is the QRF analogue of requiring that a law be written in covariant form.
+
+
+
+Corollary 5.14 (Covariant generability). In every frame A, the future is conditionally independent
+
+of the past given the present:
+
+
+
+        Pr^A(𝔉⁺_σ | ψ^A_σ, L^A_σ) = Pr^A(𝔉⁺_σ | ψ^A_σ),
+
+
+
+and this conditional distribution is the image under the frame change of the corresponding
+
 distribution in any other frame B, with event labels unchanged and states mapped by V_{A→B}.
 
 
@@ -347,15 +365,3 @@ must make past-tense propositions true, and the options are limited.
     no record contained in it, fixes the complete past. Grounding past truths in records would leave
 
     many of them without truthmakers, and it would make the past revisable whenever records degrade,
-
-    contrary to No Revision (C-b) and to the distinction between truth and recoverability (C-i).
-
-
-
-    (ii) Abstract histories. Past-tense truths might be grounded in an abstract representation of
-
-    history, such as an ersatz time series of maximal propositions (Bourne 2006; Crisp 2007). Such a
-
-    representation is formally the event history again. It still requires a fact that selects which
-
-    abstract history is the actual one, and on presentism that fact must be a fact about the

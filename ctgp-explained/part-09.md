@@ -1,6 +1,56 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 09 of 25 (1,834 words)
+Part 09 of 26 (1,795 words)
+
+measured from that singularity.) If the contracting phase extends indefinitely into the past, causal
+
+curves continue through the bounce instead of ending at a past boundary, so τ is infinite everywhere
+
+and both regularity conditions of Theorem 17.4 fail. The construction can nevertheless be extended
+
+when the spacetime supplies a distinguished Cauchy surface to play the role of the initial
+
+singularity.
+
+
+
+Definition (Surface-relative time). Let S be a spacelike Cauchy surface. For an event p, let
+
+
+
+        τ_S(p) = ± sup { L(γ) : γ a causal curve between S and p },  τ_S = 0 on S,
+
+
+
+with the positive sign when p lies to the future of S and the negative sign when it lies to the
+
+past. The sign is fixed by the spacetime’s time orientation, not by an additional convention. On
+
+each side of S, τ_S is cosmological time with S in place of the initial singularity. The one-sided
+
+analogues of the regularity conditions of Theorem 17.4 — τ_S finite, and τ_S → 0 along every causal
+
+curve approaching S — are not additional physical assumptions: in a globally hyperbolic spacetime
+
+they follow from S being a Cauchy surface, since every past-inextendible causal curve on the future
+
+side reaches S and the region between S and any event is compact. The argument of Andersson,
+
+Galloway, and Howard therefore carries over on each side, and the level sets of τ_S are future
+
+(respectively past) Cauchy surfaces (Proposition 17.23).
+
+
+
+The settled case. In an exact FLRW universe with a single bounce, the surface at the moment of the
+
+bounce — where the scale factor stops decreasing and begins increasing, ȧ = 0 — has zero mean
+
+curvature, is unique, and is a Cauchy surface. Taking S to be this surface, τ_S is cosmic time
+
+measured from the bounce, and the generative present is well defined through the bounce with no
+
+averaging prescription. The stages before the bounce are simply earlier stages, generated and ceased
 
 like any past stage. Such a universe has no first stage; CTGP’s ontology and its tense semantics
 
@@ -305,57 +355,3 @@ should obey that condition; the reason is geometric, since cosmological time sat
 Theorem 17.4). The formal statement is given in Proposition 17.7 (§17).
 
 
-
-The restriction of the integration domain to M(σ) is the formal expression of the framework’s
-
-central ontological commitment — not merely a heuristic convenience. In the standard block universe
-
-interpretation, the action is implicitly integrated over the entire four-dimensional manifold,
-
-treating all events as equally real elements of the variational principle. By explicitly limiting
-
-the action to M(σ), CTGP asserts that future spacetime regions do not contribute to the dynamical
-
-definition of the theory at stage σ. The future is not simply unknown; it is not part of the domain
-
-of the physical laws that generate the present. On CTGP's reading, the Euler–Lagrange equations
-
-derived from this action are accordingly not constraints on a static block but rules by which each
-
-successor state is generated from the present one. The action expresses this reading; it does not
-
-establish it. Because the variation holds M(σ) and its boundary fixed (Proposition 17.7), the action
-
-implements the norm condition and the field equations within a domain that is already specified. It
-
-does not select the boundary Σ_σ, which cosmological time fixes (§6.1), and it does not derive the
-
-advance of the present, which is CTGP's ontological posit (§7). The domain of the action, M(σ), is
-
-the formal representation of the history generated up to the present stage, and the field equations
-
-are defined only over that domain. Because Euler–Lagrange equations are local, this restriction does
-
-not alter the field equations at any point of M(σ); the distinction it draws concerns the domain
-
-over which the laws are defined, not their local form. A completed block would serve as the domain
-
-for an action defined over the whole of M; the CTGP action has no such domain. This distinction is
-
-formalized in Theorem 17.9 (§17).
-
-
-
-9.2 Domain of Validity and the Extended Action
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The effective action S(σ) of §9.1 is valid within a precisely specified domain: the emergent
-
-geometric regime, where ρ ≪ ρ_P (the Planck density), and the smooth Lorentzian manifold (M, g_{μν})
-
-is a valid continuum approximation. Outside this domain — specifically in the pre-geometric regime
-
-where ρ ∼ ρ_P — the continuum integral, the metric volume element √(−g) d⁴x, and the Ricci scalar R

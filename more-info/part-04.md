@@ -2,6 +2,10 @@
 
 Part 04 of 5 (1,794 words)
 
+Physics may one day tell us with great precision that process X occurred. That does not by itself
+
+tell us that X’s output is numerically identical to its input. The first is an empirical question;
+
 the second concerns the identity conditions we apply to physical processes. CTGP can say that a
 
 present state causally arose from an earlier one; it does not follow that the present entity is
@@ -387,7 +391,3 @@ an observer. When a person dies, the larger system continues while one organized
 ends.
 
 
-
-    A teapot is not the house merely because it is made of the house’s contents and exists entirely
-
-    within it. Likewise, a person is not the universe merely because that person is made of the

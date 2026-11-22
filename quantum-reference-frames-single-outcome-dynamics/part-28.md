@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 28 of 35 (1,794 words)
+Part 28 of 35 (1,791 words)
+
+    present state encodes. Adding pointer or environment systems would allow a formal treatment of
+
+    how records serve as evidence for L across frames, of how records degrade while L does not (CTGP
+
+    – explained, §14.6), and of observers with access to records rather than to the full present
+
+    state.
+
+
+
+    (O6) Weak non-supervenience at generic parameters. Whether two distinct histories from a fixed
 
     initial state can end in exactly the same present state for generic finite-width parameters is
 
@@ -421,23 +433,5 @@ Physical Review D, 104, 066001.
 
 
 Hollands, S., & Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.
-
-
-
-Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort & M. A.
-
-Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).
-
-Kluwer.
-
-
-
-Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
-
-Modern Physics, 83, 11–31.
-
-
-
-Kraus, K. (1983). States, Effects, and Operations: Fundamental Notions of Quantum Theory. Springer.
 
 

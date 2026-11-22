@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 14 of 35 (1,800 words)
+Part 14 of 35 (1,796 words)
+
+which are bounded functions of the smeared field in O_j and satisfy (K^j_0)† K^j_0 + (K^j_1)† K^j_1
+
+= 1. The nonselective update of detector j acts on Weyl operators by multiplication with a number:
+
+
+
+        N_j*(W(g)) = ⟨0| U_j† (W(g) ⊗ 1) U_j |0⟩ = cos(λ_j E(f_j, g)) W(g).
+
+
+
+This follows from the second Weyl relation, applied separately to the two eigenvalues s = ±1 of σ_x,
 
 each occurring with probability 1/2 in |0⟩. A unitary kick W(α f_j) acts in the same diagonal way:
 
@@ -281,19 +293,3 @@ satisfies N*(W(g)) = c(g) W(g) for every test function g, for some function c.
 Examples are the gapless detector of Definition 13.8, with c(g) = cos(λ E(f, g)), and the unitary
 
 kick, with c(g) = e^{iαE(f,g)}. The random-displacement channel ρ ↦ ∫ W(h) ρ W(h)* dμ(h), with μ a
-
-probability measure on H_O, is also Weyl-diagonal, with c(g) = ∫ e^{iE(h,g)} dμ(h). The nonselective
-
-gapless detector is exactly the random displacement by +λf or −λf, each with probability 1/2.
-
-
-
-Proposition 13.12 (Gaussian collapse of a smeared field). Let h be a real test function supported in
-
-O and σ > 0. The instrument with outcome y ∈ ℝ and Kraus operators
-
-
-
-        K_y = (2πσ²)^{−1/4} exp(−(φ(h) − y)² / (4σ²))
-
-

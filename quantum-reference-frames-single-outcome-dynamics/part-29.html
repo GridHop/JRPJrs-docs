@@ -1,4 +1,13 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 29 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 29 of 35 · 1,799 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav><main class="source"><div>Krumm, M., Höhn, P. A., &amp; Müller, M. P. (2021). Quantum reference frame transformations as</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 29 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 29 of 35 · 1,790 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav><main class="source"><div>Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort &amp; M. A.</div>
+<div>Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).</div>
+<div>Kluwer.</div>
+<div>&nbsp;</div>
+<div>Kostelecký, V. A., &amp; Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of</div>
+<div>Modern Physics, 83, 11–31.</div>
+<div>&nbsp;</div>
+<div>Kraus, K. (1983). States, Effects, and Operations: Fundamental Notions of Quantum Theory. Springer.</div>
+<div>&nbsp;</div>
+<div>Krumm, M., Höhn, P. A., &amp; Müller, M. P. (2021). Quantum reference frame transformations as</div>
 <div>symmetries and the paradox of the third particle. Quantum, 5, 530.</div>
 <div>&nbsp;</div>
 <div>Kuchař, K. V. (1992). Time and interpretations of quantum gravity. In G. Kunstatter, D. Vincent, &amp;</div>
@@ -202,15 +211,4 @@
 <div>ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \</div>
 <div>     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)</div>
 <div>print(&quot;3. intertwining V K^A V^dag = K^B for W and every Kraus operator:&quot;, ok)</div>
-<div>&nbsp;</div>
-<div># exhaustive record distribution over n stages, frame A vs frame B vs neutral</div>
-<div>def record_dist(psi0, Wm, Fm, n):</div>
-<div>    out = {}</div>
-<div>    def rec(psi, hist, p):</div>
-<div>        if len(hist) == n: out[hist] = (p, psi); return</div>
-<div>        phi = Wm @ psi</div>
-<div>        for k, K in Fm.items():</div>
-<div>            v = K @ phi; q = np.vdot(v, v).real</div>
-<div>            if q &gt; 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)</div>
-<div>    rec(psi0, (), 1.0); return out</div>
-<div>phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav></body></html>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav></body></html>

@@ -1,6 +1,30 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 35 of 35 (1,648 words)
+Part 35 of 35 (1,735 words)
+
+print('       direct characteristic functions differ by up to %.4f' % ov['seq'])
+
+
+
+Output:
+
+
+
+C1. Random-kick form of the unread Gaussian collapse channel
+
+   Kraus integral over y vs exact multiplier:     max dev 2.4e-14
+
+   Gaussian mixture of kicks vs exact multiplier: max dev 7.8e-16
+
+C2. Energy-momentum cost
+
+   (a) cutoff 140: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
+
+   (a) cutoff 180: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
+
+   (b) two modes: vacuum 0.126367187500, random 0.126367187500; predicted 0.126367187500
+
+   (c) lattice: canonical 0.041729335207, Fourier formula 0.041729335207, relative diff. 5.0e-16
 
    (d) Delta P(h) = (0.00710022, 0.00104472), squared invariant mass 0.00004932
 

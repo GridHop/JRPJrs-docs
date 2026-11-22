@@ -1,6 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 03 of 35 (1,799 words)
+Part 03 of 35 (1,794 words)
 
 Proposition 3.5 (Groupoid law). V_{A→B} is unitary; V_{A→A} = 1; V_{B→A} = V_{A→B}^{−1}; and V_{B→C}
 
@@ -178,7 +178,19 @@ Ontological Reading 4.3 (Primitive ontology). At stage σ, the present world con
 
 
 
-    (ii) the present world’s past-tensed profile L_σ (§4.4).
+    (ii) the present world’s past-tensed profile L_σ (§4.4);
+
+
+
+    (iii) the generative law that obtains in it, the generative kernel of Definition 4.2. The law is a
+
+    primitive nomic aspect of the present world: not a further existent alongside the present, and not
+
+    a component of [Ψ_σ] or L_σ (CTGP – explained, §12.2). The complete state Ω_σ = (S_σ, L_σ)
+
+    omits the law only because the formalism separates a state from the law applied to it; that
+
+    separation is formal, not a second ontological ingredient.
 
 
 
@@ -353,17 +365,3 @@ existing state to its past; it does not mean that the present has already become
 history, by contrast, is a mathematical object: a possible sequence of events permitted by the law,
 
 an element of the probability space defined below. The set of admissible histories lists the
-
-alternatives the law permits. It does not represent alternative histories that exist side by side,
-
-and a probability measure on future trajectories describes possible continuations of the present,
-
-not an existing future.
-
-
-
-Within CTGP no state or event exists as future. Each state first exists as the present, and each
-
-realized transition becomes part of the actual past only after it has occurred. The actual past is
-
-therefore not a completed structure containing future events: it grows as successive presents are

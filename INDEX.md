@@ -19,33 +19,34 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 10 HTML](signal-based-epistemology/part-10.html) · [Markdown](signal-based-epistemology/part-10.md) — 1,106 words
 
 ## Cosmic-Time Generative Presentism (CTGP) — Explained
-- [Contents](ctgp-explained/index.html) — 25 parts
+- [Contents](ctgp-explained/index.html) — 26 parts
 
-- [Part 01 HTML](ctgp-explained/part-01.html) · [Markdown](ctgp-explained/part-01.md) — 1,799 words
-- [Part 02 HTML](ctgp-explained/part-02.html) · [Markdown](ctgp-explained/part-02.md) — 1,787 words
-- [Part 03 HTML](ctgp-explained/part-03.html) · [Markdown](ctgp-explained/part-03.md) — 1,798 words
+- [Part 01 HTML](ctgp-explained/part-01.html) · [Markdown](ctgp-explained/part-01.md) — 1,789 words
+- [Part 02 HTML](ctgp-explained/part-02.html) · [Markdown](ctgp-explained/part-02.md) — 1,792 words
+- [Part 03 HTML](ctgp-explained/part-03.html) · [Markdown](ctgp-explained/part-03.md) — 1,785 words
 - [Part 04 HTML](ctgp-explained/part-04.html) · [Markdown](ctgp-explained/part-04.md) — 1,798 words
-- [Part 05 HTML](ctgp-explained/part-05.html) · [Markdown](ctgp-explained/part-05.md) — 1,791 words
-- [Part 06 HTML](ctgp-explained/part-06.html) · [Markdown](ctgp-explained/part-06.md) — 1,800 words
-- [Part 07 HTML](ctgp-explained/part-07.html) · [Markdown](ctgp-explained/part-07.md) — 1,786 words
-- [Part 08 HTML](ctgp-explained/part-08.html) · [Markdown](ctgp-explained/part-08.md) — 1,791 words
-- [Part 09 HTML](ctgp-explained/part-09.html) · [Markdown](ctgp-explained/part-09.md) — 1,800 words
-- [Part 10 HTML](ctgp-explained/part-10.html) · [Markdown](ctgp-explained/part-10.md) — 1,788 words
-- [Part 11 HTML](ctgp-explained/part-11.html) · [Markdown](ctgp-explained/part-11.md) — 1,798 words
-- [Part 12 HTML](ctgp-explained/part-12.html) · [Markdown](ctgp-explained/part-12.md) — 1,796 words
+- [Part 05 HTML](ctgp-explained/part-05.html) · [Markdown](ctgp-explained/part-05.md) — 1,797 words
+- [Part 06 HTML](ctgp-explained/part-06.html) · [Markdown](ctgp-explained/part-06.md) — 1,793 words
+- [Part 07 HTML](ctgp-explained/part-07.html) · [Markdown](ctgp-explained/part-07.md) — 1,784 words
+- [Part 08 HTML](ctgp-explained/part-08.html) · [Markdown](ctgp-explained/part-08.md) — 1,789 words
+- [Part 09 HTML](ctgp-explained/part-09.html) · [Markdown](ctgp-explained/part-09.md) — 1,795 words
+- [Part 10 HTML](ctgp-explained/part-10.html) · [Markdown](ctgp-explained/part-10.md) — 1,793 words
+- [Part 11 HTML](ctgp-explained/part-11.html) · [Markdown](ctgp-explained/part-11.md) — 1,797 words
+- [Part 12 HTML](ctgp-explained/part-12.html) · [Markdown](ctgp-explained/part-12.md) — 1,790 words
 - [Part 13 HTML](ctgp-explained/part-13.html) · [Markdown](ctgp-explained/part-13.md) — 1,793 words
-- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,793 words
-- [Part 15 HTML](ctgp-explained/part-15.html) · [Markdown](ctgp-explained/part-15.md) — 1,788 words
-- [Part 16 HTML](ctgp-explained/part-16.html) · [Markdown](ctgp-explained/part-16.md) — 1,799 words
-- [Part 17 HTML](ctgp-explained/part-17.html) · [Markdown](ctgp-explained/part-17.md) — 1,789 words
-- [Part 18 HTML](ctgp-explained/part-18.html) · [Markdown](ctgp-explained/part-18.md) — 1,796 words
-- [Part 19 HTML](ctgp-explained/part-19.html) · [Markdown](ctgp-explained/part-19.md) — 1,793 words
-- [Part 20 HTML](ctgp-explained/part-20.html) · [Markdown](ctgp-explained/part-20.md) — 1,796 words
-- [Part 21 HTML](ctgp-explained/part-21.html) · [Markdown](ctgp-explained/part-21.md) — 1,790 words
-- [Part 22 HTML](ctgp-explained/part-22.html) · [Markdown](ctgp-explained/part-22.md) — 1,792 words
-- [Part 23 HTML](ctgp-explained/part-23.html) · [Markdown](ctgp-explained/part-23.md) — 1,789 words
-- [Part 24 HTML](ctgp-explained/part-24.html) · [Markdown](ctgp-explained/part-24.md) — 1,799 words
-- [Part 25 HTML](ctgp-explained/part-25.html) · [Markdown](ctgp-explained/part-25.md) — 756 words
+- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,795 words
+- [Part 15 HTML](ctgp-explained/part-15.html) · [Markdown](ctgp-explained/part-15.md) — 1,793 words
+- [Part 16 HTML](ctgp-explained/part-16.html) · [Markdown](ctgp-explained/part-16.md) — 1,798 words
+- [Part 17 HTML](ctgp-explained/part-17.html) · [Markdown](ctgp-explained/part-17.md) — 1,794 words
+- [Part 18 HTML](ctgp-explained/part-18.html) · [Markdown](ctgp-explained/part-18.md) — 1,790 words
+- [Part 19 HTML](ctgp-explained/part-19.html) · [Markdown](ctgp-explained/part-19.md) — 1,781 words
+- [Part 20 HTML](ctgp-explained/part-20.html) · [Markdown](ctgp-explained/part-20.md) — 1,795 words
+- [Part 21 HTML](ctgp-explained/part-21.html) · [Markdown](ctgp-explained/part-21.md) — 1,788 words
+- [Part 22 HTML](ctgp-explained/part-22.html) · [Markdown](ctgp-explained/part-22.md) — 1,797 words
+- [Part 23 HTML](ctgp-explained/part-23.html) · [Markdown](ctgp-explained/part-23.md) — 1,794 words
+- [Part 24 HTML](ctgp-explained/part-24.html) · [Markdown](ctgp-explained/part-24.md) — 1,792 words
+- [Part 25 HTML](ctgp-explained/part-25.html) · [Markdown](ctgp-explained/part-25.md) — 1,797 words
+- [Part 26 HTML](ctgp-explained/part-26.html) · [Markdown](ctgp-explained/part-26.md) — 1,071 words
 
 ## Free Will — Humans Might Actually Have Will, Volition, and Self-Agency
 - [Contents](free-will/index.html) — 3 parts
@@ -84,11 +85,11 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 ## More Info
 - [Contents](more-info/index.html) — 5 parts
 
-- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,789 words
-- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,797 words
-- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,797 words
+- [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,785 words
+- [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,788 words
+- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,787 words
 - [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,794 words
-- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 823 words
+- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 858 words
 
 ## Deal's Worth
 - [Contents](deals-worth/index.html) — 21 parts
@@ -120,44 +121,44 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 
 - [Part 01 HTML](quantum-reference-frames-single-outcome-dynamics/part-01.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-01.md) — 1,799 words
 - [Part 02 HTML](quantum-reference-frames-single-outcome-dynamics/part-02.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-02.md) — 1,790 words
-- [Part 03 HTML](quantum-reference-frames-single-outcome-dynamics/part-03.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-03.md) — 1,799 words
-- [Part 04 HTML](quantum-reference-frames-single-outcome-dynamics/part-04.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-04.md) — 1,792 words
-- [Part 05 HTML](quantum-reference-frames-single-outcome-dynamics/part-05.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-05.md) — 1,792 words
+- [Part 03 HTML](quantum-reference-frames-single-outcome-dynamics/part-03.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-03.md) — 1,794 words
+- [Part 04 HTML](quantum-reference-frames-single-outcome-dynamics/part-04.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-04.md) — 1,794 words
+- [Part 05 HTML](quantum-reference-frames-single-outcome-dynamics/part-05.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-05.md) — 1,796 words
 - [Part 06 HTML](quantum-reference-frames-single-outcome-dynamics/part-06.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-06.md) — 1,798 words
-- [Part 07 HTML](quantum-reference-frames-single-outcome-dynamics/part-07.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-07.md) — 1,789 words
-- [Part 08 HTML](quantum-reference-frames-single-outcome-dynamics/part-08.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-08.md) — 1,787 words
+- [Part 07 HTML](quantum-reference-frames-single-outcome-dynamics/part-07.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-07.md) — 1,800 words
+- [Part 08 HTML](quantum-reference-frames-single-outcome-dynamics/part-08.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-08.md) — 1,784 words
 - [Part 09 HTML](quantum-reference-frames-single-outcome-dynamics/part-09.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-09.md) — 1,789 words
-- [Part 10 HTML](quantum-reference-frames-single-outcome-dynamics/part-10.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-10.md) — 1,797 words
-- [Part 11 HTML](quantum-reference-frames-single-outcome-dynamics/part-11.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-11.md) — 1,792 words
-- [Part 12 HTML](quantum-reference-frames-single-outcome-dynamics/part-12.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-12.md) — 1,784 words
-- [Part 13 HTML](quantum-reference-frames-single-outcome-dynamics/part-13.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-13.md) — 1,790 words
-- [Part 14 HTML](quantum-reference-frames-single-outcome-dynamics/part-14.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-14.md) — 1,800 words
-- [Part 15 HTML](quantum-reference-frames-single-outcome-dynamics/part-15.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-15.md) — 1,800 words
+- [Part 10 HTML](quantum-reference-frames-single-outcome-dynamics/part-10.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-10.md) — 1,793 words
+- [Part 11 HTML](quantum-reference-frames-single-outcome-dynamics/part-11.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-11.md) — 1,790 words
+- [Part 12 HTML](quantum-reference-frames-single-outcome-dynamics/part-12.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-12.md) — 1,798 words
+- [Part 13 HTML](quantum-reference-frames-single-outcome-dynamics/part-13.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-13.md) — 1,788 words
+- [Part 14 HTML](quantum-reference-frames-single-outcome-dynamics/part-14.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-14.md) — 1,796 words
+- [Part 15 HTML](quantum-reference-frames-single-outcome-dynamics/part-15.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-15.md) — 1,798 words
 - [Part 16 HTML](quantum-reference-frames-single-outcome-dynamics/part-16.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-16.md) — 1,793 words
-- [Part 17 HTML](quantum-reference-frames-single-outcome-dynamics/part-17.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-17.md) — 1,796 words
-- [Part 18 HTML](quantum-reference-frames-single-outcome-dynamics/part-18.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-18.md) — 1,797 words
-- [Part 19 HTML](quantum-reference-frames-single-outcome-dynamics/part-19.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-19.md) — 1,794 words
-- [Part 20 HTML](quantum-reference-frames-single-outcome-dynamics/part-20.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-20.md) — 1,790 words
-- [Part 21 HTML](quantum-reference-frames-single-outcome-dynamics/part-21.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-21.md) — 1,799 words
-- [Part 22 HTML](quantum-reference-frames-single-outcome-dynamics/part-22.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-22.md) — 1,791 words
-- [Part 23 HTML](quantum-reference-frames-single-outcome-dynamics/part-23.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-23.md) — 1,794 words
-- [Part 24 HTML](quantum-reference-frames-single-outcome-dynamics/part-24.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-24.md) — 1,798 words
-- [Part 25 HTML](quantum-reference-frames-single-outcome-dynamics/part-25.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-25.md) — 1,791 words
-- [Part 26 HTML](quantum-reference-frames-single-outcome-dynamics/part-26.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-26.md) — 1,798 words
-- [Part 27 HTML](quantum-reference-frames-single-outcome-dynamics/part-27.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-27.md) — 1,798 words
-- [Part 28 HTML](quantum-reference-frames-single-outcome-dynamics/part-28.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-28.md) — 1,794 words
-- [Part 29 HTML](quantum-reference-frames-single-outcome-dynamics/part-29.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-29.md) — 1,799 words
-- [Part 30 HTML](quantum-reference-frames-single-outcome-dynamics/part-30.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-30.md) — 1,794 words
-- [Part 31 HTML](quantum-reference-frames-single-outcome-dynamics/part-31.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-31.md) — 1,798 words
-- [Part 32 HTML](quantum-reference-frames-single-outcome-dynamics/part-32.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-32.md) — 1,800 words
-- [Part 33 HTML](quantum-reference-frames-single-outcome-dynamics/part-33.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-33.md) — 1,795 words
-- [Part 34 HTML](quantum-reference-frames-single-outcome-dynamics/part-34.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-34.md) — 1,800 words
-- [Part 35 HTML](quantum-reference-frames-single-outcome-dynamics/part-35.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-35.md) — 1,648 words
+- [Part 17 HTML](quantum-reference-frames-single-outcome-dynamics/part-17.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-17.md) — 1,800 words
+- [Part 18 HTML](quantum-reference-frames-single-outcome-dynamics/part-18.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-18.md) — 1,787 words
+- [Part 19 HTML](quantum-reference-frames-single-outcome-dynamics/part-19.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-19.md) — 1,790 words
+- [Part 20 HTML](quantum-reference-frames-single-outcome-dynamics/part-20.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-20.md) — 1,799 words
+- [Part 21 HTML](quantum-reference-frames-single-outcome-dynamics/part-21.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-21.md) — 1,796 words
+- [Part 22 HTML](quantum-reference-frames-single-outcome-dynamics/part-22.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-22.md) — 1,799 words
+- [Part 23 HTML](quantum-reference-frames-single-outcome-dynamics/part-23.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-23.md) — 1,796 words
+- [Part 24 HTML](quantum-reference-frames-single-outcome-dynamics/part-24.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-24.md) — 1,792 words
+- [Part 25 HTML](quantum-reference-frames-single-outcome-dynamics/part-25.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-25.md) — 1,799 words
+- [Part 26 HTML](quantum-reference-frames-single-outcome-dynamics/part-26.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-26.md) — 1,799 words
+- [Part 27 HTML](quantum-reference-frames-single-outcome-dynamics/part-27.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-27.md) — 1,799 words
+- [Part 28 HTML](quantum-reference-frames-single-outcome-dynamics/part-28.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-28.md) — 1,791 words
+- [Part 29 HTML](quantum-reference-frames-single-outcome-dynamics/part-29.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-29.md) — 1,790 words
+- [Part 30 HTML](quantum-reference-frames-single-outcome-dynamics/part-30.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-30.md) — 1,791 words
+- [Part 31 HTML](quantum-reference-frames-single-outcome-dynamics/part-31.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-31.md) — 1,787 words
+- [Part 32 HTML](quantum-reference-frames-single-outcome-dynamics/part-32.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-32.md) — 1,799 words
+- [Part 33 HTML](quantum-reference-frames-single-outcome-dynamics/part-33.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-33.md) — 1,799 words
+- [Part 34 HTML](quantum-reference-frames-single-outcome-dynamics/part-34.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-34.md) — 1,798 words
+- [Part 35 HTML](quantum-reference-frames-single-outcome-dynamics/part-35.html) · [Markdown](quantum-reference-frames-single-outcome-dynamics/part-35.md) — 1,735 words
 
 ## Informative
 - [Contents](informative/index.html) — 16 parts
 
-- [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 1,771 words
+- [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 1,781 words
 - [Part 02 HTML](informative/part-02.html) · [Markdown](informative/part-02.md) — 1,777 words
 - [Part 03 HTML](informative/part-03.html) · [Markdown](informative/part-03.md) — 1,795 words
 - [Part 04 HTML](informative/part-04.html) · [Markdown](informative/part-04.md) — 1,769 words
@@ -166,7 +167,7 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,795 words
 - [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,791 words
 - [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,791 words
-- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,758 words
+- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,764 words
 - [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,789 words
 - [Part 12 HTML](informative/part-12.html) · [Markdown](informative/part-12.md) — 1,640 words
 - [Part 13 HTML](informative/part-13.html) · [Markdown](informative/part-13.md) — 1,788 words

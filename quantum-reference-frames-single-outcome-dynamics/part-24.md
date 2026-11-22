@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 24 of 35 (1,798 words)
+Part 24 of 35 (1,792 words)
+
+    (iii) A clock-conditional description is a description of the rest of the world conditioned on
+
+    the readings of a chosen clock.
+
+
+
+CTGP identifies the ontological order of existence with (i) alone. A clock reading is physically
+
+instantiated information about a process, in the sense of the signal-based epistemology discussed in
+
+More Info, not automatically the fundamental ordering of existence.
+
+
+
+14.3 A Worked Model With Imperfect Clocks
+
+
 
 Proposition 14.2 (Imperfect clocks in a generative model). Consider a model of the kind defined in
 
@@ -287,17 +305,5 @@ Proposition 14.5 (Two ideal clocks and record events).
     O_j} intertwine with the record measurements {E_j, 1 − E_j} relative to either clock, and they
 
     compose in any order.
-
-
-
-    (d) Superposed order. If an interaction keyed to A and one keyed to B have non-commuting
-
-    operators, the order in which they act depends on Δ. The law of the record outcomes is then the
-
-    mixture ∫ ‖χ(Δ)‖² P_Δ(α) dΔ of the laws P_Δ for the definite orders fixed by each offset, with
-
-    P_Δ computed from χ(Δ)/‖χ(Δ)‖. Interference between the orders appears only in observables that
-
-    are not diagonal in the offset.
 
 

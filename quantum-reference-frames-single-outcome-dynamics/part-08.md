@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 08 of 35 (1,787 words)
+Part 08 of 35 (1,784 words)
+
+8. The Criteria in the Model, With Numerical Checks
+
+----------------------------------------------------------------------------------------------------
+
+
+
+8.1 Generative Law and Single Outcome
+
+
+
+With the law of §7, one stage-to-stage transition samples exactly one event k ∈ 𝒦 with probability
+
+‖F_k W Ψ_σ‖² and updates the state. The realized history is a single sequence of events. Unrealized
+
+sequences are not facts: they have kernel probabilities before the transition and no Had-properties
 
 afterward. This is single-outcome realism (C-d) at the level of the primitive ontology. Macroscopic
 
@@ -317,17 +333,3 @@ profile contains a continuum of state propositions. Both must be defined explici
 Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t > 0. A record on [0, t] is a finite
 
 sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 < t_1 < ⋯ < t_m ≤ t, and k_j ∈ 𝒦. The record
-
-space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference
-
-measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along
-
-ω, the state at time s ∈ [0, t] is the normalized vector
-
-
-
-        Ψ_s(ω) ∝ e^{−iH(s − t_j)} J_{k_j} e^{−iH(t_j − t_{j−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0
-
-                for t_j ≤ s < t_{j+1},
-
-

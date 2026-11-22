@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 33 of 35 (1,795 words)
+Part 33 of 35 (1,799 words)
+
+    print('   (a) cutoff %d: ground %.12f, random %.12f; 1/(8 m sig^2) = %.12f'
+
+          % (nc, dE[0], dE[1], 1 / (8 * mass * sig**2)))
+
+# (b) two coupled modes, A linear in (q, p), H quadratic: (|a|^2 + b.K.b)/(8 sig^2)
+
+nc, sig = 24, 0.8
+
+Kc = np.array([[1.3, -0.4], [-0.4, 0.9]])
+
+H2 = 0.5 * (p[0] @ p[0] + p[1] @ p[1])
+
+H2 = H2 + 0.5 * sum(Kc[i, j] * q[i] @ q[j] for i in range(2) for j in range(2))
+
+av, bv = np.array([0.6, -0.3]), np.array([0.2, 0.5])
 
 A = av[0] * q[0] + av[1] * q[1] + bv[0] * p[0] + bv[1] * p[1]
 
@@ -521,27 +537,3 @@ print('   (d) 4 three-collapse configurations, one-mode realization, Fock cutoff
 print('       characteristic function, direct vs closed form: max dev %.1e' % cf_dev)
 
 print('       64-cell binned history laws: max difference between linear extensions %.1e,'
-
-      % ord_dev)
-
-print('       normalization error %.1e' % norm_dev)
-
-pts = np.array([[0.3, 0.1], [0.55, 0.25]])               # two overlapping diamonds
-
-R, E = geometry(pts, dl, scale)
-
-cu, cw = realize(E)
-
-eigs = [eigh(cu[i] * qo + cw[i] * po) for i in range(2)]
-
-sg = np.array([0.8, 0.9])
-
-rho = np.zeros((ncut, ncut), complex)
-
-rho[0, 0] = 1
-
-A2 = cu[1] * qo + cw[1] * po
-
-rho1 = dephase(rho, cu[0] * qo + cw[0] * po, sg[0])
-
-var_after = (np.trace(rho1 @ A2 @ A2) - np.trace(rho1 @ A2)**2).real

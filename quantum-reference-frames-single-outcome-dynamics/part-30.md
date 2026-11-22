@@ -1,6 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 30 of 35 (1,794 words)
+Part 30 of 35 (1,791 words)
+
+# exhaustive record distribution over n stages, frame A vs frame B vs neutral
+
+def record_dist(psi0, Wm, Fm, n):
+
+    out = {}
+
+    def rec(psi, hist, p):
+
+        if len(hist) == n: out[hist] = (p, psi); return
+
+        phi = Wm @ psi
+
+        for k, K in Fm.items():
+
+            v = K @ phi; q = np.vdot(v, v).real
+
+            if q > 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)
+
+    rec(psi0, (), 1.0); return out
+
+phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)
 
 n = 3
 
@@ -459,25 +481,3 @@ def marg(ins):
 m0 = marg(instr); worst = 0.0
 
 for y in set(range(len(slots))) - past:
-
-    ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())
-
-print(f"    instruments changed outside the predecessor set of slot {X}: "
-
-      f"max change = {worst:.1e}")
-
-# consistency on nested order ideals: law on I computed from instruments in I alone
-
-I_ideal = sorted(past)
-
-devI = 0.0
-
-full = joint(next(iter(exts)), instr)
-
-for oI in itertools.product((0, 1), repeat=len(I_ideal)):
-
-    v = psi_c.copy()
-
-    for x, ax in zip(I_ideal, oI): v = embed(instr[x][ax], slots[x][1]) @ v
-
-    pI = np.vdot(v, v).real

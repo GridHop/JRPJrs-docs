@@ -2,6 +2,20 @@
 
 Part 09 of 35 (1,789 words)
 
+space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference
+
+measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along
+
+ω, the state at time s ∈ [0, t] is the normalized vector
+
+
+
+        Ψ_s(ω) ∝ e^{−iH(s − t_j)} J_{k_j} e^{−iH(t_j − t_{j−1})} ⋯ J_{k_1} e^{−iH t_1} Ψ_0
+
+                for t_j ≤ s < t_{j+1},
+
+
+
 with t_0 = 0 and t_{m+1} = ∞, so that the state is right-continuous at each jump.
 
 
@@ -279,29 +293,3 @@ it places each event at the end of its stage. The probability of two or more hit
 order (Λτ)², so the discrete model approximates the continuous one when Λτ is small. The discrete
 
 stages are therefore not a claim that generation proceeds in jumps; they are a sampling of a
-
-continuous process, used in Part II because finite induction makes every proof exact.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-10. CTGP’s Further Requirements (Task T5)
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Cross-frame consistency is not the whole of CTGP’s demands. A QRF-compatible single-outcome model
-
-must also satisfy definite generative ordering and generability. This section checks these and
-
-related requirements.
-
-
-
-10.1 Definite Generative Ordering
-
-
-
-Proposition 10.1 (Frame changes act within stages and commute with generation). For every admissible

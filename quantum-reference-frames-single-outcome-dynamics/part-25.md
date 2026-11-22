@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 25 of 35 (1,791 words)
+Part 25 of 35 (1,799 words)
+
+    (d) Superposed order. If an interaction keyed to A and one keyed to B have non-commuting
+
+    operators, the order in which they act depends on Δ. The law of the record outcomes is then the
+
+    mixture ∫ ‖χ(Δ)‖² P_Δ(α) dΔ of the laws P_Δ for the definite orders fixed by each offset, with
+
+    P_Δ computed from χ(Δ)/‖χ(Δ)‖. Interference between the orders appears only in observables that
+
+    are not diagonal in the offset.
+
+
 
     (e) Interference between the orders. Suppose H_S = 0, let f be a wave packet in the offset whose
 
@@ -265,21 +277,5 @@ functions, has no unique classical T. The program therefore distinguishes
 
 
         fundamental generative order  ≠  classical cosmological-time function.
-
-
-
-The two must agree in the appropriate classical limit, but they need not coincide at the fundamental
-
-level. This develops the distinction between primitive generation and emergent geometry that CTGP
-
-already draws (CTGP – explained, §§10.3–10.4). It also raises a demanding question: what physical
-
-structure carries the objective generative ordering before classical spacetime exists? Naming a
-
-parameter does not answer it.
-
-
-
-15.2 Three Pathways
 
 

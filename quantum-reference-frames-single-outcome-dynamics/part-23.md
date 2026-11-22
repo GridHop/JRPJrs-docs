@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 23 of 35 (1,794 words)
+Part 23 of 35 (1,796 words)
+
+    those records in an infinite volume.
+
+
+
+What fails is the identification of the pointer law with the law of Candidate extension 13.27. On
+
+non-admissible configurations the two differ, so the gapless-pointer construction is a different
+
+candidate law, not a physical implementation of rule (iii). The gapless pointer, the natural local
+
+realization of a Gaussian collapse, does not reproduce centre-time ordering: it yields a law with no
+
+ordering rule.
+
+
 
 The pointer realization has further costs. First, as explained above, it adds physical degrees of
 
@@ -321,23 +337,5 @@ Definition 14.1 (Three temporal notions). In a CTGP model with clock subsystems:
     (ii) A clock reading is the value of a clock observable of a physical subsystem at a stage. It
 
     is a Tier 3 proposition (§5.1) unless a recording event makes it a Tier 1 fact.
-
-
-
-    (iii) A clock-conditional description is a description of the rest of the world conditioned on
-
-    the readings of a chosen clock.
-
-
-
-CTGP identifies the ontological order of existence with (i) alone. A clock reading is physically
-
-instantiated information about a process, in the sense of the signal-based epistemology discussed in
-
-More Info, not automatically the fundamental ordering of existence.
-
-
-
-14.3 A Worked Model With Imperfect Clocks
 
 

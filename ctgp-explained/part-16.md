@@ -1,6 +1,134 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 16 of 25 (1,837 words)
+Part 16 of 26 (1,798 words)
+
+This does not conflict with Proposition 12.1: the discrimination occurs across candidate physical
+
+theories, not within a fixed one.
+
+
+
+The evidence. The successful physical theories considered here admit well-posed initial-value
+
+formulations: general relativity on globally hyperbolic spacetimes and relativistic field theories
+
+with hyperbolic equations of motion. No confirmed fundamental dynamics has required future-dependent
+
+input, and physics has survived increasingly stringent tests without it. The accurate summary is
+
+that the empirical physics examined so far has not revealed a confirmed violation of the
+
+generability requirement.
+
+
+
+The limits of the evidence. Three qualifications apply. First, the support is shared: the growing
+
+block entails generability as well, so the evidence favors dynamic ontologies as a class over
+
+eternalism, not CTGP over the growing block. Second, an eternalist may regard generable, locally
+
+predictive dynamics as independently natural for reasons unrelated to temporal ontology — one
+
+example is the argument that observers can arise only where the field equations are hyperbolic and
+
+the world is predictable (Tegmark 1997). To the extent that such reasons hold, the evidence has
+
+correspondingly little force. Third, the evidence is theory-relative: it bears on which laws nature
+
+has, and so on the ontology only through the constraint the ontology imposes on laws. The evidence
+
+is therefore consistent with the requirement, but its evidential force is limited: current physics
+
+does not establish generability.
+
+
+
+Future tests. The constraint is exposed to physics still to come. It would fail with the
+
+establishment of fundamental dynamics that cannot be specified by an adequate forward-generative law
+
+on the cosmological-time slices, because an independently imposed future boundary condition or a
+
+global consistency requirement is indispensable to determining the realized history. Here an
+
+adequate forward-generative account is one that satisfies the generability criterion stated above
+
+while reproducing the relevant empirical predictions of the theory, including those concerning
+
+admissible interventions. Failure of a well-posed initial-value formulation would provide one
+
+possible indication of an obstruction, but mathematical ill-posedness alone would not establish
+
+future dependence. Conversely, the existence of a forward representation of selected trajectory
+
+probabilities would not automatically establish physical generability. A fundamental final-state
+
+proposal, such as the black-hole final state of Horowitz and Maldacena (2004; for its difficulties,
+
+see Gottesman and Preskill 2004), would therefore count against CTGP only if its indispensable
+
+physical requirements could not be accommodated by an adequate forward-generative account.
+
+
+
+In classical stochastic models, conditioning on a later event of nonzero probability can yield a
+
+forward law for a specified experimental arrangement. However, reproducing the predictions for each
+
+fixed arrangement does not necessarily establish a single forward-generative account valid across
+
+freely chosen later interventions. The relevant empirical question is whether the statistics of
+
+earlier outcomes in unselected experiments depend on those later interventions, after accounting for
+
+common causes and ordinary post-selection. Such dependence, if established as a genuine physical
+
+effect rather than a selection artifact, would be the interventionist retrocausal dependence of
+
+§12.3. Whether particular quantum final-state proposals admit an adequate forward-generative account
+
+across admissible interventions requires separate analysis.
+
+
+
+A requirement that quantum gravity involve indefinite causal order at the level of spacetime itself
+
+would similarly bear on CTGP’s definite primitive ordering (§6.4). By contrast, resolution of black-
+
+hole evaporation through ordinary initial-value dynamics would count as a survived risk.
+
+
+
+12.3 Refuting Observations and Preferred-Frame Tests
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Two kinds of observation would count directly against the ontology: a confirmed physically realized
+
+closed timelike curve, and a retrocausal dependence in the interventionist sense, P(O_t |
+
+do(F_{t+Δ})) ≠ P(O_t) that cannot be reduced to correlations from common causes or to post-selection
+
+in the analysis of data, and cannot be eliminated by an empirically equivalent formulation without
+
+retrocausation. Time-symmetric descriptions and correlations with later variables do not meet this
+
+standard. Either would contradict the requirement that each present be generated from its past alone
+
+(§9.4.2; §13). No maintained physical connection between the present and a past or future moment has
+
+ever been observed; phenomena that suggest one — entanglement between photons that never coexisted,
+
+delayed-choice erasure, violations of temporal Leggett–Garg inequalities — establish correlations
+
+among present records, not persisting links across time.
+
+
+
+Other observations would change the cost of holding the ontology without deciding it. A physically
 
 preferred global foliation, whether detected as preferred-frame effects or required by an
 
@@ -227,137 +355,3 @@ through the requirement that physical law be generable from the present, which c
 (Appendix D).
 
 
-
-Objection O5 (Infinite Regress of Laws): If σ governs the emergence of physical laws, what governs
-
-σ? This threatens an infinite regress of meta-laws.
-
-
-
-Reply: σ is not an emergent law requiring a further law to explain it but a primitive generative
-
-structure, and explanatory chains may terminate in primitives without contradiction, as causal set
-
-theory terminates at the partial order. The point is formalized by the Generative Minimality
-
-Principle (Postulate 5) and the Primitive Generative Structure Principle (§10.4).
-
-
-
-Objection O6 (What Is σ Defined Over?): If spacetime is not fundamental, what mathematical object
-
-does σ live on? A scalar field requires a manifold; a manifold requires spacetime; but spacetime is
-
-claimed to be emergent.
-
-
-
-Reply: σ is not fundamentally a field over spacetime but an ordering parameter labeling generative
-
-stages; at the pre-geometric level it orders a partially ordered set of stages without requiring a
-
-manifold (§10.3). The continuum action of §9.1 is accordingly an effective low-energy description,
-
-with the same status GR occupies within quantum gravity.
-
-
-
-Objection O7 (Closed timelike curves): If spacetime admits closed timelike curves, a global Cauchy
-
-foliation fails, and with it the generated present.
-
-
-
-Reply: CTGP does not treat global hyperbolicity as a convenience: a solution with closed timelike
-
-curves is a geometry that no sequence of generative stages could produce (§9.4.2). The known CTC-
-
-admitting spacetimes — Gödel’s rotating dust universe, Tipler cylinders, and Kerr interiors beyond
-
-the Cauchy horizon — are either inconsistent with observed cosmological boundary conditions or
-
-idealizations that break down before the chronology-violating region is reached (§9.5). The
-
-restriction is therefore physically motivated, and a confirmed observation of chronology violation
-
-would falsify the framework (§12.3).
-
-
-
-Objection O8 (Worldline perspective): Eternalists can explain temporal experience as a worldline
-
-perspective within the block.
-
-
-
-Reply: The worldline response succeeds only if the phenomenology of temporal experience is treated
-
-as a representational illusion — a feature of how observers inside the block model their situation,
-
-not of how things are. CTGP rejects this on the grounds developed in §§2.2 and 3: structure alone
-
-does not amount to experience, and the felt asymmetry between past and future is a positive
-
-constraint on ontology. The worldline perspective is descriptive and cannot say why any part of a
-
-static manifold is accompanied by experience; CTGP supplies the architecture — active present-edge
-
-processes, causal continuity, classicalization — within which that question can be posed (Appendix
-
-D).
-
-
-
-Objection O9 (Point presentism): In special relativity the only frame-independent candidate for an
-
-event’s present is the event itself (Stein 1991). A relativistic presentism therefore collapses into
-
-a present consisting of a single point.
-
-
-
-Reply: The objection is correct about special relativity, and CTGP does not dispute it. The
-
-invariant structure of Minkowski spacetime supplies no global present, and its cosmological time is
-
-not even regular, since every event has past-directed timelike curves of unbounded length. CTGP
-
-accordingly does not derive the present from the symmetries of special relativity. It takes the
-
-present from the actual matter-filled solution of general relativity, whose cosmological time is
-
-regular and whose level sets are spatially extended future Cauchy surfaces (§6). The present is a
-
-whole slice of the universe, not a point. This is a restriction to the relativistic spacetimes that
-
-model the actual universe, not a retreat to non-relativistic ones. Minkowski spacetime, in which the
-
-construction selects nothing, is an idealization of those spacetimes rather than a model of the
-
-universe as a whole. That it depends on the actual solution rather than on the laws is the first of
-
-the costs acknowledged in §16.
-
-
-
-Objection O10 (History-dependent dynamics): Some systems respond to present conditions in ways that
-
-depend on their history. In magnetic hysteresis, described by the Stoner–Wohlfarth model (Stoner and
-
-Wohlfarth 1948), a ferromagnet’s response to an applied field depends on how the field varied
-
-earlier. The present state therefore seems insufficient without the past.
-
-
-
-Reply: The history such systems depend on is carried by present physical variables, here the
-
-ferromagnet’s present magnetization, which is a spatially extended present state. Generation
-
-requires only that whatever a system’s dynamics depend on be instantiated now, not that the system
-
-lack a history. A law with irreducible dependence on earlier states, one whose past dependence no
-
-present variable could carry, would indeed conflict with CTGP as sharply as future dependence would;
-
-hysteresis and other familiar memory effects are not of that kind.

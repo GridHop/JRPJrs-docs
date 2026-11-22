@@ -1,6 +1,30 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 34 of 35 (1,800 words)
+Part 34 of 35 (1,798 words)
+
+      % ord_dev)
+
+print('       normalization error %.1e' % norm_dev)
+
+pts = np.array([[0.3, 0.1], [0.55, 0.25]])               # two overlapping diamonds
+
+R, E = geometry(pts, dl, scale)
+
+cu, cw = realize(E)
+
+eigs = [eigh(cu[i] * qo + cw[i] * po) for i in range(2)]
+
+sg = np.array([0.8, 0.9])
+
+rho = np.zeros((ncut, ncut), complex)
+
+rho[0, 0] = 1
+
+A2 = cu[1] * qo + cw[1] * po
+
+rho1 = dephase(rho, cu[0] * qo + cw[0] * po, sg[0])
+
+var_after = (np.trace(rho1 @ A2 @ A2) - np.trace(rho1 @ A2)**2).real
 
 var_alone = (np.trace(rho @ A2 @ A2) - np.trace(rho @ A2)**2).real
 
@@ -455,27 +479,3 @@ dC = ov['C'] - ov['Cord']
 print('       overlapping pair, pointer law minus the law of collapses in centre-time order:')
 
 print('       Var(y1) %+.6f, Var(y2) %+.6f, Cov(y1, y2) %+.6f;' % (dC[0, 0], dC[1, 1], dC[0, 1]))
-
-print('       direct characteristic functions differ by up to %.4f' % ov['seq'])
-
-
-
-Output:
-
-
-
-C1. Random-kick form of the unread Gaussian collapse channel
-
-   Kraus integral over y vs exact multiplier:     max dev 2.4e-14
-
-   Gaussian mixture of kicks vs exact multiplier: max dev 7.8e-16
-
-C2. Energy-momentum cost
-
-   (a) cutoff 140: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
-
-   (a) cutoff 180: ground 0.150060024010, random 0.150060024010; 1/(8 m sig^2) = 0.150060024010
-
-   (b) two modes: vacuum 0.126367187500, random 0.126367187500; predicted 0.126367187500
-
-   (c) lattice: canonical 0.041729335207, Fourier formula 0.041729335207, relative diff. 5.0e-16

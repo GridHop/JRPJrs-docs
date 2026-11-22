@@ -1,6 +1,118 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 25 (1,832 words)
+Part 15 of 26 (1,793 words)
+
+the literature (Babichev and Ramazanov 2017).
+
+
+
+CTGP does not need such a completion. The Layer 2 present is defined by cosmological time, which is
+
+the maximal single-valued continuation of the unit-norm solution: where maximizing geodesics cross,
+
+τ loses differentiability, its level sets acquire corners, and they remain future Cauchy surfaces
+
+(Theorem 17.4). With λ = 0 (§6.9) no divergent stress-energy arises. The generative present is
+
+therefore globally well defined in a universe with nonlinear structure, while the smooth continuum
+
+σ-field is a valid description only where the maximizing congruence is single-valued. Alignment of
+
+the present with matter is correspondingly narrowed: it holds exactly in FLRW and with the free fall
+
+of pressureless matter in single-stream regions, not with pressure-supported components or within
+
+multistream regions.
+
+
+
+11.5 No Intrinsic Cosmological Axis
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Three directions on the sky must be distinguished. The kinematic dipole n̂_{kin}, near Galactic (l,
+
+b) ≈ (264°, 48°), records the motion of the Solar System relative to the CMB rest frame at about 370
+
+km s⁻¹. The axis n̂_{mod} of the observed large-angle hemispherical power modulation, with amplitude
+
+A ≈ 0.07, lies near (l, b) ≈ (220°, −20°) (Hoftuft et al. 2009; Planck Collaboration 2020b), roughly
+
+70–80° from n̂_{kin}. A third direction, n̂_σ, would be the spatial projection of ∇_μσ on the
+
+present hypersurface, if such a projection existed.
+
+
+
+On a homogeneous background it does not: ∇_μσ̄ = (σ̄̇, 0, 0, 0), so the spatial projection vanishes
+
+and n̂_σ is undefined. An intrinsic axis would require a long-wavelength gradient mode of σ, which
+
+by Proposition 11.2 is a tilt of the generation foliation relative to matter. For admissible
+
+generation laws such a tilt decays as 1/a, leaving no intrinsic axis at late times; for
+
+density-weighted laws it grows by a factor of at least order 10²² and is either fine-tuned or
+
+runaway. Superhorizon modes invoked to generate hemispherical asymmetry are further constrained by
+
+the low multipoles they induce through the Grishchuk–Zel’dovich effect (Erickcek, Carroll, and
+
+Kamionkowski 2008).
+
+
+
+CTGP therefore predicts no intrinsic cosmological axis and offers no explanation of the observed
+
+large-angle anomalies, which remain questions for standard cosmology. This is a consequence of the
+
+framework rather than an omission: the generative present is a geometric structure, and geometry
+
+alone does not single out a spatial direction in a homogeneous, isotropic universe.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+12. Empirical Standing of the Ontology
+
+----------------------------------------------------------------------------------------------------
+
+
+
+This section states precisely what observation can and cannot establish about CTGP’s ontology. The
+
+results are general: they apply to any presentist reading of physics, not only to CTGP.
+
+
+
+12.1 Observational Equivalence
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Proposition 12.1 (Observational equivalence of presentist and eternalist readings). Let P
+
+(presentist) and E (eternalist) be two ontological readings of the same physical content 𝒦 = (M,
+
+g_{μν}, matter fields, dynamical laws, probability measure μ over admissible histories). Call a
+
+quantity *observable* if it is a function of the physical records present to an observer at the
+
+stage where the observation occurs — for the presentist, the records on the present surface Σ_σ.
+
+Then every observable has the same probability distribution under P and under E, and no experiment
+
+can discriminate between them.
+
+
+
+Proof. An observation is a physical process, and its outcome is a function of the records present at
+
+the stage where it occurs. Both readings assign the same admissible histories and the same measure
 
 μ, and hence the same distribution of present records at every stage, so each observable has the
 
@@ -166,25 +278,37 @@ independently existing future, not indeterminacy. The reading carries a commitme
 
 grounded in the present rather than supervening on the whole spacetime mosaic, as Humean accounts of
 
-laws hold. A presentist must therefore take laws to govern rather than merely summarize. The phrase
+laws hold. A presentist must therefore take laws to govern rather than merely summarize. Stated
 
-should also be read as concerning the categorical physical state. The state S_σ in the criterion
+precisely, the present world comprises its categorical physical state S_σ, its primitive past-tensed
 
-above is the configuration of fields and matter on Σ_σ, including any physically instantiated
+properties (§5.2.1), and the primitive generative laws that obtain in it (Postulate 5; §10.4). Those laws
 
-variables the dynamics require, such as definite measurement outcomes or a Bohmian configuration.
+are neither further existents alongside the present nor derivable from S_σ alone; they are a primitive
 
-The past-tensed properties of §5.2.1 are acquired through generation but are not inputs to it: two
+nomic aspect of the present world, distinct from its categorical configuration. Effective laws likewise
 
-presents alike in every categorical respect have the same successors, or the same transition
+obtain in the present insofar as its physical structure supports their stable realization (§10.2). Every
 
-probabilities to their successors, whatever their pasts. A law that consulted past-tensed properties
+law that obtains, obtains in the present: the present world includes the laws, although the present
 
-not carried by present categorical variables would involve the irreducible dependence on earlier
+categorical state does not by itself entail them. The phrase should also be read as concerning the
 
-states that generability excludes (§13, Objection O10). Past-tensed properties therefore do
+categorical physical state. The state S_σ in the criterion above is the configuration of fields and matter
 
-grounding work for truths about the past and no dynamical work.
+on Σ_σ, including any physically instantiated variables the dynamics require, such as definite
+
+measurement outcomes or a Bohmian configuration. The past-tensed properties of §5.2.1 are acquired
+
+through generation but are not inputs to it: two presents alike in every categorical respect have the
+
+same successors, or the same transition probabilities to their successors, whatever their pasts. A law
+
+that consulted past-tensed properties not carried by present categorical variables would involve the
+
+irreducible dependence on earlier states that generability excludes (§13, Objection O10). Past-tensed
+
+properties therefore do grounding work for truths about the past and no dynamical work.
 
 
 
@@ -193,131 +317,3 @@ No particular probability is assigned here to generable laws on the eternalist v
 only that presentism is exposed to this evidence where eternalism is not.
 
 
-
-This does not conflict with Proposition 12.1: the discrimination occurs across candidate physical
-
-theories, not within a fixed one.
-
-
-
-The evidence. The successful physical theories considered here admit well-posed initial-value
-
-formulations: general relativity on globally hyperbolic spacetimes and relativistic field theories
-
-with hyperbolic equations of motion. No confirmed fundamental dynamics has required future-dependent
-
-input, and physics has survived increasingly stringent tests without it. The accurate summary is
-
-that the empirical physics examined so far has not revealed a confirmed violation of the
-
-generability requirement.
-
-
-
-The limits of the evidence. Three qualifications apply. First, the support is shared: the growing
-
-block entails generability as well, so the evidence favors dynamic ontologies as a class over
-
-eternalism, not CTGP over the growing block. Second, an eternalist may regard generable, locally
-
-predictive dynamics as independently natural for reasons unrelated to temporal ontology — one
-
-example is the argument that observers can arise only where the field equations are hyperbolic and
-
-the world is predictable (Tegmark 1997). To the extent that such reasons hold, the evidence has
-
-correspondingly little force. Third, the evidence is theory-relative: it bears on which laws nature
-
-has, and so on the ontology only through the constraint the ontology imposes on laws. The evidence
-
-is therefore consistent with the requirement, but its evidential force is limited: current physics
-
-does not establish generability.
-
-
-
-Future tests. The constraint is exposed to physics still to come. It would fail with the
-
-establishment of fundamental dynamics that cannot be specified by an adequate forward-generative law
-
-on the cosmological-time slices, because an independently imposed future boundary condition or a
-
-global consistency requirement is indispensable to determining the realized history. Here an
-
-adequate forward-generative account is one that satisfies the generability criterion stated above
-
-while reproducing the relevant empirical predictions of the theory, including those concerning
-
-admissible interventions. Failure of a well-posed initial-value formulation would provide one
-
-possible indication of an obstruction, but mathematical ill-posedness alone would not establish
-
-future dependence. Conversely, the existence of a forward representation of selected trajectory
-
-probabilities would not automatically establish physical generability. A fundamental final-state
-
-proposal, such as the black-hole final state of Horowitz and Maldacena (2004; for its difficulties,
-
-see Gottesman and Preskill 2004), would therefore count against CTGP only if its indispensable
-
-physical requirements could not be accommodated by an adequate forward-generative account.
-
-
-
-In classical stochastic models, conditioning on a later event of nonzero probability can yield a
-
-forward law for a specified experimental arrangement. However, reproducing the predictions for each
-
-fixed arrangement does not necessarily establish a single forward-generative account valid across
-
-freely chosen later interventions. The relevant empirical question is whether the statistics of
-
-earlier outcomes in unselected experiments depend on those later interventions, after accounting for
-
-common causes and ordinary post-selection. Such dependence, if established as a genuine physical
-
-effect rather than a selection artifact, would be the interventionist retrocausal dependence of
-
-§12.3. Whether particular quantum final-state proposals admit an adequate forward-generative account
-
-across admissible interventions requires separate analysis.
-
-
-
-A requirement that quantum gravity involve indefinite causal order at the level of spacetime itself
-
-would similarly bear on CTGP’s definite primitive ordering (§6.4). By contrast, resolution of black-
-
-hole evaporation through ordinary initial-value dynamics would count as a survived risk.
-
-
-
-12.3 Refuting Observations and Preferred-Frame Tests
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Two kinds of observation would count directly against the ontology: a confirmed physically realized
-
-closed timelike curve, and a retrocausal dependence in the interventionist sense, P(O_t |
-
-do(F_{t+Δ})) ≠ P(O_t) that cannot be reduced to correlations from common causes or to post-selection
-
-in the analysis of data, and cannot be eliminated by an empirically equivalent formulation without
-
-retrocausation. Time-symmetric descriptions and correlations with later variables do not meet this
-
-standard. Either would contradict the requirement that each present be generated from its past alone
-
-(§9.4.2; §13). No maintained physical connection between the present and a past or future moment has
-
-ever been observed; phenomena that suggest one — entanglement between photons that never coexisted,
-
-delayed-choice erasure, violations of temporal Leggett–Garg inequalities — establish correlations
-
-among present records, not persisting links across time.
-
-
-
-Other observations would change the cost of holding the ontology without deciding it. A physically

@@ -1,6 +1,20 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 19 of 35 (1,794 words)
+Part 19 of 35 (1,790 words)
+
+cosmological time, a smooth smearing law built from T and g alone would first have to be specified.
+
+
+
+    (i) Locations. Collapse centres form a Poisson process with intensity λ dVol_g in the region T >
+
+    t_0, as in Definition 13.20, where t_0 > τ is fixed by condition (ii). If the universe
+
+    recollapses at a finite cosmological time T_max, the region is t_0 < T < T_max − τ, so that
+
+    every collapse region lies in the spacetime.
+
+
 
     (ii) Smearing law. Each smearing h_x is built from T and g alone and is supported in the slab |T
 
@@ -257,15 +271,3 @@ orders them, and this limit does not arise. Third, the correlation structure of 
 statement about the collapse outcomes, which CTGP treats as primitive occurrences. It shows that the
 
 event statistics depend on the cosmic frame; it does not by itself show measurable Lorentz
-
-violation. By part (e), no unconditioned statistic of other operations reveals the order of law
-
-collapses among themselves, so whether these correlations induce operationally detectable signatures
-
-requires an explicit account of how collapse outcomes are recorded in accessible observables. The
-
-candidate preferred-frame effects identified so far are the energy–momentum injection of part (e)
-
-and the order effects for interfering interventions described under the second limit; neither has
-
-yet been shown to be measurable, as explained below. Fourth, no-signaling and Lorentz invariance are

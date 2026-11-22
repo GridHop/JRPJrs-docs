@@ -1,6 +1,110 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 14 of 25 (1,825 words)
+Part 14 of 26 (1,795 words)
+
+Within CTGP, σ-ordering and minimal generative laws are primitive. The question “what governs σ?”
+
+receives the answer: nothing governs σ from without, for the same reason that causal order in
+
+causal-set theory requires no external explanation, logical consistency is not explained by a meta-
+
+logic, and quantum postulates are not derived from a more fundamental theory. Explanatory
+
+termination in primitive structures is a standard and unavoidable feature of any axiomatic
+
+framework. No contradiction arises from this termination; it is a feature of all foundational
+
+theories, not a deficiency of CTGP specifically. The Generative Minimality Principle (Postulate 5)
+
+formalizes this: (σ, C) with minimal generative laws is the sufficient primitive structure, and no
+
+regress threatens because no further explanation is required of a primitive.
+
+
+
+Unified Ontological Thesis of CTGP. Reality is fundamentally constituted by a minimal lawful
+
+generative structure consisting of a primitive ordering parameter σ and associated causal relations
+
+C. Classical spacetime geometry, relativistic causal structure, stress-energy descriptions, and
+
+Einsteinian dynamics are emergent effective representations arising when the generated domain
+
+acquires sufficient structure to support stable signal propagation and reproducible dynamical
+
+regularities. The continuum formalism of General Relativity therefore describes the low-energy limit
+
+of a deeper pre-geometric generative ontology rather than the fundamental architecture of reality.
+
+This thesis is the integrating statement of CTGP’s ontology. Its content is the conjunction of the
+
+principles above: (σ, C) are primitive; geometry is emergent; GR is effective; all geometric
+
+machinery applies only in the appropriate regime; proper time, hypersurfaces, and cosmological time
+
+are regime-dependent representations of more fundamental pre-geometric structure; the framework is a
+
+research program as much as a completed theory; and explanatory termination at the primitive level
+
+is not a deficiency but a philosophical necessity shared by all foundational theories.
+
+
+
+====================================================================================================
+
+PART III. Physical Realization and Empirical Standing
+
+====================================================================================================
+
+
+
+----------------------------------------------------------------------------------------------------
+
+11. Admissible Generation Laws: A Consistency Analysis
+
+----------------------------------------------------------------------------------------------------
+
+
+
+The generative present of §6 is fixed by geometry. A natural further hypothesis is that the rate at
+
+which σ advances depends on local physical conditions — in particular, that generation proceeds
+
+faster where matter is denser. Such a law would give the generation parameter physical content
+
+beyond geometry and could in principle imprint new cosmological signatures. This section shows that
+
+the hypothesis is untenable. The exact form of the law destroys the alignment of the present with
+
+matter (§§11.1–11.2); its stable soft completions force a uniform rate inside bound structures and
+
+suppress any cosmological effect far below observability (§11.3). Within the local, stable classes
+
+analyzed, the viable generation laws reduce to functions of σ alone (§6.11), and their residual
+
+caustic problem is resolved at Layer 2 by cosmological time (§11.4). Finally, no admissible law
+
+yields an intrinsic cosmological axis (§11.5). Within those classes, the results hold for general f
+
+and apply to every increasing density dependence, not only to particular choices.
+
+
+
+11.1 The Conformal Form of the Norm Condition
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Proposition 11.1 (Conformal form). If g^{μν}∂_μσ∂_νσ = −f with f > 0, then σ has unit-norm gradient
+
+in the conformally related metric g̃ = f g. The normalized generation flow n_μ = −∂_μσ/√f has
+
+acceleration
+
+
+
+        a_μ = n^ν∇_ν n_μ = −D_μ ln √f,
 
 
 
@@ -249,115 +353,3 @@ pressureless free fall shell-crosses inside every collapsed halo. A smooth scala
 develops caustics wherever structure has formed, and any nonzero λ-dust would acquire a divergent
 
 density there. Caustic-free completions of pressureless fluids and k-essence have been studied in
-
-the literature (Babichev and Ramazanov 2017).
-
-
-
-CTGP does not need such a completion. The Layer 2 present is defined by cosmological time, which is
-
-the maximal single-valued continuation of the unit-norm solution: where maximizing geodesics cross,
-
-τ loses differentiability, its level sets acquire corners, and they remain future Cauchy surfaces
-
-(Theorem 17.4). With λ = 0 (§6.9) no divergent stress-energy arises. The generative present is
-
-therefore globally well defined in a universe with nonlinear structure, while the smooth continuum
-
-σ-field is a valid description only where the maximizing congruence is single-valued. Alignment of
-
-the present with matter is correspondingly narrowed: it holds exactly in FLRW and with the free fall
-
-of pressureless matter in single-stream regions, not with pressure-supported components or within
-
-multistream regions.
-
-
-
-11.5 No Intrinsic Cosmological Axis
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Three directions on the sky must be distinguished. The kinematic dipole n̂_{kin}, near Galactic (l,
-
-b) ≈ (264°, 48°), records the motion of the Solar System relative to the CMB rest frame at about 370
-
-km s⁻¹. The axis n̂_{mod} of the observed large-angle hemispherical power modulation, with amplitude
-
-A ≈ 0.07, lies near (l, b) ≈ (220°, −20°) (Hoftuft et al. 2009; Planck Collaboration 2020b), roughly
-
-70–80° from n̂_{kin}. A third direction, n̂_σ, would be the spatial projection of ∇_μσ on the
-
-present hypersurface, if such a projection existed.
-
-
-
-On a homogeneous background it does not: ∇_μσ̄ = (σ̄̇, 0, 0, 0), so the spatial projection vanishes
-
-and n̂_σ is undefined. An intrinsic axis would require a long-wavelength gradient mode of σ, which
-
-by Proposition 11.2 is a tilt of the generation foliation relative to matter. For admissible
-
-generation laws such a tilt decays as 1/a, leaving no intrinsic axis at late times; for
-
-density-weighted laws it grows by a factor of at least order 10²² and is either fine-tuned or
-
-runaway. Superhorizon modes invoked to generate hemispherical asymmetry are further constrained by
-
-the low multipoles they induce through the Grishchuk–Zel’dovich effect (Erickcek, Carroll, and
-
-Kamionkowski 2008).
-
-
-
-CTGP therefore predicts no intrinsic cosmological axis and offers no explanation of the observed
-
-large-angle anomalies, which remain questions for standard cosmology. This is a consequence of the
-
-framework rather than an omission: the generative present is a geometric structure, and geometry
-
-alone does not single out a spatial direction in a homogeneous, isotropic universe.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-12. Empirical Standing of the Ontology
-
-----------------------------------------------------------------------------------------------------
-
-
-
-This section states precisely what observation can and cannot establish about CTGP’s ontology. The
-
-results are general: they apply to any presentist reading of physics, not only to CTGP.
-
-
-
-12.1 Observational Equivalence
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Proposition 12.1 (Observational equivalence of presentist and eternalist readings). Let P
-
-(presentist) and E (eternalist) be two ontological readings of the same physical content 𝒦 = (M,
-
-g_{μν}, matter fields, dynamical laws, probability measure μ over admissible histories). Call a
-
-quantity *observable* if it is a function of the physical records present to an observer at the
-
-stage where the observation occurs — for the presentist, the records on the present surface Σ_σ.
-
-Then every observable has the same probability distribution under P and under E, and no experiment
-
-can discriminate between them.
-
-
-
-Proof. An observation is a physical process, and its outcome is a function of the records present at
-
-the stage where it occurs. Both readings assign the same admissible histories and the same measure

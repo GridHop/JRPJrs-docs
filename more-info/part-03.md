@@ -1,6 +1,12 @@
 # More Info
 
-Part 03 of 5 (1,797 words)
+Part 03 of 5 (1,787 words)
+
+than configurational. A snapshot of a person at 10:00 and another at 20:00 can be different physical
+
+configurations while belonging to the same continuing individual.
+
+
 
 “Mind” must mean more than the mental contents present at a given moment; otherwise sleep,
 
@@ -351,7 +357,3 @@ structure, though imperfectly, since “planet” is a classificatory term while
 carries great metaphysical and practical weight.
 
 
-
-Physics may one day tell us with great precision that process X occurred. That does not by itself
-
-tell us that X’s output is numerically identical to its input. The first is an empirical question;

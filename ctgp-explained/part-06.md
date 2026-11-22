@@ -1,6 +1,36 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 25 (1,829 words)
+Part 06 of 26 (1,793 words)
+
+CTGP is formulated for globally hyperbolic spacetimes. This restriction follows from the framework's
+
+stated postulates rather than being adopted for convenience, and it matters which postulates deliver
+
+it. Becoming alone excludes closed timelike curves, since no event can be among the conditions of
+
+its own production. It does not by itself exclude every failure of global hyperbolicity. Anti-de
+
+Sitter spacetime contains no closed timelike curves, yet it is not globally hyperbolic, because data
+
+must be supplied at its timelike boundary at every stage. Such spacetimes are excluded by CTGP's
+
+stronger requirement that each stage suffice for its successors, with no input from a boundary, a
+
+naked singularity, or a region beyond a Cauchy horizon. Once the ordering is given by regular
+
+cosmological time (Postulate 3), global hyperbolicity follows as a theorem (Theorem 17.4). Given
+
+these postulates, CTGP entails that physically realized spacetime is globally hyperbolic, and
+
+classifies Cauchy-horizon and closed-timelike-curve solutions as unrealized idealizations; it does
+
+not claim that global hyperbolicity follows from the bare concept of becoming. The entailment
+
+carries falsifiable content through what it excludes: a confirmed observation of closed timelike
+
+curves, or of any phenomenon requiring a Cauchy-horizon-crossing region to be physically realized,
+
+would refute the framework (§9.4.2; §13). Eternalism, by contrast, permits spacetimes containing
 
 closed timelike curves and laws that allow them. The two views therefore do not make the same claim
 
@@ -257,47 +287,3 @@ one possible discrete realization of CTGP’s more general continuous generative
 continuum structure is the generation flow ∇_μσ, and discrete models provide compatible but
 
 non-foundational instantiations. These two independent lines of motivation suggest possible deeper
-
-foundations for σ, but neither presently constitutes a derivation of the CTGP formalism.
-
-
-
-6.3 The Generation Parameter as Cosmological Time
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The causal-structure results of HKM, Malament, Geroch, and Bernal–Sánchez jointly establish three
-
-facts: that relativistic spacetime possesses an objective causal ordering not reducible to
-
-coordinate choice; that this ordering can be represented by a continuous global time function; and
-
-that in globally hyperbolic spacetimes it can be smoothed into a temporal function whose level sets
-
-are spacelike Cauchy hypersurfaces. Geometry alone determines the existence of admissible temporal
-
-orderings, though not yet their physical interpretation. CTGP resolves that remaining freedom
-
-through cosmological time, which is fixed by the causal and metric structure alone. In FLRW its
-
-level sets are orthogonal to the comoving matter congruence; beyond FLRW the alignment is
-
-approximate (see *Alignment with matter* below). The matter frame is where the present is realized,
-
-not what defines it. These reconstruction results are additionally strengthened by the pre-geometric
-
-ontology of §10.3: since causal structure determines most geometric information up to conformal
-
-factors, CTGP’s commitment to fundamental causal ordering naturally supports the claim that geometry
-
-is emergent from causality rather than prior to it. The HKM and Malament theorems are not merely
-
-mathematical scaffolding for CTGP; under the pre-geometric reading, they become expressions of the
-
-ontological priority of causal ordering over metric structure. The reconstruction direction — from
-
-causal order to geometry, never the reverse — is precisely the direction CTGP’s Causal
-
-Reconstruction Principle requires.

@@ -1,6 +1,10 @@
 # More Info
 
-Part 05 of 5 (823 words)
+Part 05 of 5 (858 words)
+
+    A teapot is not the house merely because it is made of the house’s contents and exists entirely
+
+    within it. Likewise, a person is not the universe merely because that person is made of the
 
     universe’s contents and exists entirely within it. The observer is a part of the universe
 

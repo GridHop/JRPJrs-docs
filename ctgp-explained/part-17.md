@@ -1,6 +1,140 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 17 of 25 (1,831 words)
+Part 17 of 26 (1,794 words)
+
+Objection O5 (Infinite Regress of Laws): If σ governs the emergence of physical laws, what governs
+
+σ? This threatens an infinite regress of meta-laws.
+
+
+
+Reply: σ is not an emergent law requiring a further law to explain it but a primitive generative
+
+structure, and explanatory chains may terminate in primitives without contradiction, as causal set
+
+theory terminates at the partial order. The point is formalized by the Generative Minimality
+
+Principle (Postulate 5) and the Primitive Generative Structure Principle (§10.4).
+
+
+
+Objection O6 (What Is σ Defined Over?): If spacetime is not fundamental, what mathematical object
+
+does σ live on? A scalar field requires a manifold; a manifold requires spacetime; but spacetime is
+
+claimed to be emergent.
+
+
+
+Reply: σ is not fundamentally a field over spacetime but an ordering parameter labeling generative
+
+stages; at the pre-geometric level it orders a partially ordered set of stages without requiring a
+
+manifold (§10.3). The continuum action of §9.1 is accordingly an effective low-energy description,
+
+with the same status GR occupies within quantum gravity.
+
+
+
+Objection O7 (Closed timelike curves): If spacetime admits closed timelike curves, a global Cauchy
+
+foliation fails, and with it the generated present.
+
+
+
+Reply: CTGP does not treat global hyperbolicity as a convenience: a solution with closed timelike
+
+curves is a geometry that no sequence of generative stages could produce (§9.4.2). The known CTC-
+
+admitting spacetimes — Gödel’s rotating dust universe, Tipler cylinders, and Kerr interiors beyond
+
+the Cauchy horizon — are either inconsistent with observed cosmological boundary conditions or
+
+idealizations that break down before the chronology-violating region is reached (§9.5). The
+
+restriction is therefore physically motivated, and a confirmed observation of chronology violation
+
+would falsify the framework (§12.3).
+
+
+
+Objection O8 (Worldline perspective): Eternalists can explain temporal experience as a worldline
+
+perspective within the block.
+
+
+
+Reply: The worldline response succeeds only if the phenomenology of temporal experience is treated
+
+as a representational illusion — a feature of how observers inside the block model their situation,
+
+not of how things are. CTGP rejects this on the grounds developed in §§2.2 and 3: structure alone
+
+does not amount to experience, and the felt asymmetry between past and future is a positive
+
+constraint on ontology. The worldline perspective is descriptive and cannot say why any part of a
+
+static manifold is accompanied by experience; CTGP supplies the architecture — active present-edge
+
+processes, causal continuity, classicalization — within which that question can be posed (Appendix
+
+D).
+
+
+
+Objection O9 (Point presentism): In special relativity the only frame-independent candidate for an
+
+event’s present is the event itself (Stein 1991). A relativistic presentism therefore collapses into
+
+a present consisting of a single point.
+
+
+
+Reply: The objection is correct about special relativity, and CTGP does not dispute it. The
+
+invariant structure of Minkowski spacetime supplies no global present, and its cosmological time is
+
+not even regular, since every event has past-directed timelike curves of unbounded length. CTGP
+
+accordingly does not derive the present from the symmetries of special relativity. It takes the
+
+present from the actual matter-filled solution of general relativity, whose cosmological time is
+
+regular and whose level sets are spatially extended future Cauchy surfaces (§6). The present is a
+
+whole slice of the universe, not a point. This is a restriction to the relativistic spacetimes that
+
+model the actual universe, not a retreat to non-relativistic ones. Minkowski spacetime, in which the
+
+construction selects nothing, is an idealization of those spacetimes rather than a model of the
+
+universe as a whole. That it depends on the actual solution rather than on the laws is the first of
+
+the costs acknowledged in §16.
+
+
+
+Objection O10 (History-dependent dynamics): Some systems respond to present conditions in ways that
+
+depend on their history. In magnetic hysteresis, described by the Stoner–Wohlfarth model (Stoner and
+
+Wohlfarth 1948), a ferromagnet’s response to an applied field depends on how the field varied
+
+earlier. The present state therefore seems insufficient without the past.
+
+
+
+Reply: The history such systems depend on is carried by present physical variables, here the
+
+ferromagnet’s present magnetization, which is a spatially extended present state. Generation
+
+requires only that whatever a system’s dynamics depend on be instantiated now, not that the system
+
+lack a history. A law with irreducible dependence on earlier states, one whose past dependence no
+
+present variable could carry, would indeed conflict with CTGP as sharply as future dependence would;
+
+hysteresis and other familiar memory effects are not of that kind.
 
 
 
@@ -191,161 +325,3 @@ an even richer causal record: a superposition of gravitational-wave signals from
 cosmological sources across the history of the generated universe.
 
 
-
-14.3 Large-Scale Structure Formation as Causal Continuity
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The filamentary large-scale structure of galaxies and clusters observed in surveys such as the Sloan
-
-Digital Sky Survey and the Dark Energy Spectroscopic Instrument represents the gravitational
-
-amplification of density fluctuations seeded in the early universe. These fluctuations, encoded in
-
-the CMB anisotropy field, grew through gravitational dynamics across cosmic history to produce the
-
-cosmic web observed today. This growth is a paradigm case of causal continuity: the present
-
-distribution of matter in the universe is the direct causal consequence of initial conditions at
-
-recombination, mediated by gravity, dark matter, and baryonic physics across billions of years of
-
-generated cosmic time. The correspondence between CMB anisotropies and present-day structure —
-
-quantitatively verified to high precision — indicates that the universe’s causal records are not
-
-merely qualitative but are precisely encoded and propagated. Within CTGP, this causal continuity
-
-between early and late cosmic states is not merely an empirical pattern but a structural consequence
-
-of how successive hypersurfaces are generated from prior ones through hyperbolic dynamics.
-
-
-
-14.4 Supernova Neutrinos and Relic Backgrounds
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The neutrino burst from Supernova 1987A, detected hours before the optical signal (Appendix E),
-
-provided a direct confirmation that neutrinos propagate causally from their source event, existing
-
-as present field configurations at every intervening stage. The diffuse supernova neutrino
-
-background — the superposition of neutrino emissions from all core-collapse supernovae across cosmic
-
-history — constitutes a diffuse causal record of stellar death events spanning billions of years.
-
-Similarly, the relic neutrino background from the first second of the universe, while not yet
-
-directly detected, represents the oldest surviving causal record of thermalized matter, encoding the
-
-conditions of the universe’s early hot, dense state. These diverse cosmological observables
-
-collectively indicate that CTGP’s claim about causal records is not merely philosophical but is
-
-concretely instantiated in the physical content of the observable universe: every major class of
-
-cosmological relic corresponds to a present physical signal whose organization is a lawful
-
-transformation of earlier states represented in M(σ).
-
-
-
-14.5 Record Formation as Environmental Redundancy
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The physical mechanism by which records form is decoherence. When a system interacts with its
-
-environment, correlations with the system’s state are copied into many environmental degrees of
-
-freedom; because entanglement is monogamous, the system’s coherence with any isolated partner is
-
-correspondingly diluted. What later stages contain is therefore not a preserved earlier state but a
-
-redundant, environmentally distributed record of selected properties of it — the structure Zurek
-
-calls quantum Darwinism (Zurek 2003, 2009). This gives Postulate 4 a concrete physical basis. A
-
-causal record is a present correlation, multiply copied into the environment, whose structure is a
-
-lawful transformation of an earlier organization that no longer exists. Coherence is lost through
-
-specific environmental mechanisms at specific rates, and records are correspondingly finite,
-
-redundant, and degradable (§14.6).
-
-
-
-14.6 Limits of the Causal Archive
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Crucially, causal propagation is selective and lossy. Record formation is governed by local physical
-
-dynamics — decoherence, amplification, thermalization — whose rates vary enormously across the
-
-universe: dense, strongly interacting regions both create and scramble records rapidly, while near-
-
-vacuum regions transmit signals over long distances with little distortion. The fidelity with which
-
-information about prior events is carried forward is therefore not uniform across spacetime.
-
-
-
-(1) Finite Encoding Capacity. The amount of information about Σ_{σ′} that the state on Σ_σ can carry
-
-is limited by the physical degrees of freedom of intervening fields and their dynamics. Processes
-
-such as thermalization, decoherence, gravitational mixing, and nonlinear interactions progressively
-
-degrade fine-grained information. CTGP therefore suggests that most microphysical details of earlier
-
-stages will not be recoverable at later stages, even in principle, because their causal imprints are
-
-dispersed below any reconstructible threshold.
-
-
-
-(2) Coarse-Graining and Record Formation. What Σ_σ carries is not a full record of prior microstates
-
-but a set of coarse-grained invariants—stable, redundantly encoded features of the dynamics.
-
-Cosmological relics such as the cosmic microwave background, large-scale structure correlations, and
-
-conserved quantities function as high-fidelity carriers of such information.
-
-
-
-(3) Local Variability of Epistemic Access. Because record formation depends on local physical
-
-conditions, the efficiency of causal encoding varies across spacetime. Matter-dense regions may both
-
-generate and rapidly scramble information, while near-vacuum regions can preserve signals over long
-
-distances with minimal distortion. The epistemic accessibility of past events is therefore spatially
-
-heterogeneous, reflecting underlying physical conditions rather than any global indeterminacy.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-15. Relationship to Causal Set Theory and Growing-Block Models
-
-----------------------------------------------------------------------------------------------------
-
-
-
-The conceptual structure of Cosmic-Time Generative Presentism shares significant similarities with
-
-several existing approaches in the foundations of spacetime physics while also differing from them

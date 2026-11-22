@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 29 of 35 (1,799 words)
+Part 29 of 35 (1,790 words)
+
+Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort & M. A.
+
+Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).
+
+Kluwer.
+
+
+
+Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
+
+Modern Physics, 83, 11–31.
+
+
+
+Kraus, K. (1983). States, Effects, and Operations: Fundamental Notions of Quantum Theory. Springer.
+
+
 
 Krumm, M., Höhn, P. A., & Müller, M. P. (2021). Quantum reference frame transformations as
 
@@ -411,25 +429,3 @@ ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \
 print("3. intertwining V K^A V^dag = K^B for W and every Kraus operator:", ok)
 
 
-
-# exhaustive record distribution over n stages, frame A vs frame B vs neutral
-
-def record_dist(psi0, Wm, Fm, n):
-
-    out = {}
-
-    def rec(psi, hist, p):
-
-        if len(hist) == n: out[hist] = (p, psi); return
-
-        phi = Wm @ psi
-
-        for k, K in Fm.items():
-
-            v = K @ phi; q = np.vdot(v, v).real
-
-            if q > 1e-14: rec(v/np.sqrt(q), hist+(k,), p*q)
-
-    rec(psi0, (), 1.0); return out
-
-phiA0 = rng.normal(size=d2) + 1j*rng.normal(size=d2); phiA0 /= np.linalg.norm(phiA0)

@@ -1,6 +1,40 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 04 of 25 (1,835 words)
+Part 04 of 26 (1,798 words)
+
+Whether a unified account is preferable to a distributed one is the philosophical question at issue,
+
+not a result either side can prove. The two ontologies are also economical in different respects:
+
+presentism posits fewer existing things, eternalism less structure, since it needs neither a
+
+distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
+
+the dispute.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+5. The Core Postulates of CTGP
+
+----------------------------------------------------------------------------------------------------
+
+
+
+5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Postulate 1 (Ontological Primacy of the Present): At any generative stage of the universe, only the
+
+current hypersurface of reality—the present state of the universe—possesses ontological existence as
+
+presently real. The present is not, however, an isolated instant: it exists as part of a continuous
+
+causal-temporal progression whereby each state lawfully emerges from immediately preceding states
 
 and in turn contributes to the emergence of subsequent states. Earlier states do not persist as
 
@@ -297,29 +331,3 @@ CTGP distinguishes four separate concepts that are often conflated:
 
 
 Accordingly, CTGP’s claim that earlier states no longer exist does not mean that physical reality
-
-vanishes and is recreated from one state to the next. Generation is gapless: reality never lapses,
-
-and each present state arises from immediately preceding states through lawful temporal and
-
-generative progression (§5.4). Gapless does not require every physical quantity to change smoothly;
-
-abrupt changes, including quantum jumps in models that contain them, are compatible with gapless
-
-generation. What ceases to exist is the earlier state itself, not necessarily the physical
-
-constituents or systems that were in that state; whether those persist depends on their own
-
-conditions of persistence.
-
-
-
-CTGP distinguishes a state from what it is a state of. An earlier state, as the state at its stage,
-
-ceases to exist, even when successive stages produce a qualitatively identical state; the system
-
-whose state it was persists for as long as its conditions of persistence are satisfied, that is,
-
-unless it has undergone its end. Whether and how a system can end is fixed by the kind of system it
-
-is, not by the cosmological foliation, which settles only which configurations are co-present and

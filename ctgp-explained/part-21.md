@@ -1,6 +1,148 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 25 (1,828 words)
+Part 21 of 26 (1,788 words)
+
+gravity considerations in at least one well-developed approach.
+
+
+
+Because sequential growth dynamics is label-invariant, the birth order of elements is not itself
+
+physical; the compatibility asserted here concerns the directional causal structure of (1) and (2),
+
+not the identification of a global present, which CTGP supplies separately through cosmological time
+
+(§15.2).
+
+
+
+Theorem 17.14 (Constraint Stability under CTGP Perturbations). Let U = (h_{ij}, K_{ij}, matter)
+
+denote ADM variables evolving under ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
+
+evolution and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
+
+(ℋ, ℋ_i). Then the constraint propagation system satisfies ∂_t C = A^i(U)∂_i C + B(U)C + ε S(U). For
+
+Sobolev index s > 5/2 and vanishing initial constraints C(0) = 0, ‖C(t)‖_{Hs-1} ≤ ε e^{Kt} ∫_0^t
+
+‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite evolution
+
+intervals. If the source term S(U) lies within the standard gauge sector, the violation is
+
+absorbable by lapse and shift adjustment. The appropriate statement is a Sobolev-norm control bound
+
+rather than a fixed numerical tolerance: CTGP-compatible perturbations preserve constraint structure
+
+to leading order. □
+
+
+
+Theorem 17.15 (Constraint-Compatible Foliation Gluing). Let U^{(1)} and U^{(2)} be solutions of the
+
+Einstein–matter system in Sobolev class H^s (s > 5/2 + 1) on overlapping globally hyperbolic charts
+
+V_1, V_2 whose initial data agree on the overlap up to order s. Let χ_1, χ_2 be a partition of unity
+
+subordinate to V_1, V_2 and define blended initial data U_0 = χ_1 U_0^{(1)} + χ_2 U_0^{(2)}. After
+
+projection onto the constraint manifold via the conformal method, provided the constraint mismatch
+
+on the overlap is sufficiently small in H^{s-1}, there exists T > 0 and a unique local solution U ∈
+
+C([0,T], H^s) ∩ C^1([0,T], H^{s-1}) with stability bound ‖U − U^{(a)}‖_{Hs-1(V′a)} ≤ C_T ‖overlap
+
+mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim is thereby a standard PDE
+
+construction: local CTGP foliations may be patched only through overlap data first reconciled at the
+
+level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
+
+corrected blended data. □
+
+
+
+Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be a family of smooth
+
+spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
+
+ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
+
+Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
+
+(2) Energy-boundedness — each smeared generator ℒ(f) = ∫_Σ f(x) ℒ_x dΣ is closable on D and
+
+satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
+
+on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
+
+swept out, not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-
+
+independent. No superluminal signaling is introduced. CTGP requires only collapse densities built
+
+from local commuting field polynomials or smeared number/energy densities with spacelike-separated
+
+supports commuting in the AQFT sense; this admissible class satisfies the conditions above, making
+
+hypersurface-path independence a conditional theorem rather than an assumed property. □
+
+
+
+Theorem 17.17 (Continuum Limit of Local CP Evolution). Let ℒ^{(n)} be a sequence of Lindblad
+
+generators built from bounded truncations L_α^{(n)} of a local operator family L_α with UV cutoff
+
+Λ_n → ∞. Assume: (1) L_α^{(n)} → L_α strongly on a common dense domain D; (2) ∑_α L_α† L_α ≤ c_1 H_0
+
++ c_2 I relative to a positive reference Hamiltonian H_0; (3) truncated semigroups e^{tℒ(n)} are
+
+CPTP; (4) initial states satisfy Tr(ρ H_0) < ∞. Then for each finite interval [0,T]: sup_{t ≤ T}
+
+‖e^{tℒ(n)}ρ − e^{tℒ}ρ‖_1 → 0 as n → ∞. The error bound is ‖e^{tℒ(n)}ρ − e^{tℒ}ρ‖_1 ≤ C_T(ε_n(ρ) +
+
+δ_n), where ε_n(ρ) = Tr(ρ Π_{>Λn}) is the UV tail measure and δ_n is the truncation error. The
+
+theorem gives the finite-mode-to-continuum passage the form of a trace-norm convergence statement,
+
+supplying the reference Hamiltonian, common domain, UV tail parameter, and finite-time control that
+
+make the claim a genuine mathematical program. □
+
+
+
+Proposition 17.18 (Emergent Status of σ Near Planck Scale). For curvature invariants satisfying
+
+|R_{μνρσ}| ≪ M_{Pl}^2, σ exists as a time function whose level sets are future Cauchy surfaces,
+
+given by cosmological time as in §§6.1–6.3, and it is a smooth temporal scalar field wherever the
+
+maximizing congruence is single-valued. Near Planck curvature, the smooth representation may break
+
+down; CTGP then treats σ as the continuum image of an underlying growth ordering variable, with
+
+causal-set counting as the preferred candidate discrete realization. CTGP is therefore fundamental
+
+at the ordering level, not necessarily at the smooth-manifold level: the smooth σ-field is emergent
+
+in the classical regime, and singular classical regions mark breakdown of the continuum
+
+representation rather than breakdown of temporal ordering itself. This avoids a false dichotomy
+
+between “σ is fundamental as a smooth field everywhere” and “CTGP fails wherever classical GR
+
+fails.” □
+
+
+
+Proposition 17.19 (Bridge-Model Identifiability Conditions). Let q = Θ F(X) represent a candidate
+
+mapping from physiological state vector X to phenomenological proxy q. The mapping is empirically
+
+meaningful for CTGP’s psychophysical research program only if: (1) it generalizes to held-out
+
+subjects not used in fitting; (2) it remains predictive after nuisance regression controlling for
+
+arousal, task difficulty, medication status, and global signal; (3) it retains predictive power
 
 under causal perturbation (TMS, anesthesia, sleep-stage shifts, focal lesions); (4) nested model
 
@@ -225,285 +367,3 @@ Christodoulou, D. (2009). The Formation of Black Holes in General Relativity. Eu
     Society.
 
 
-
-Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
-
-    Physical Review D, 58, 116002.
-
-
-
-Craig, W. L. (2001). Time and the Metaphysics of Relativity. Kluwer Academic Publishers.
-
-
-
-Dafermos, M., & Luk, J. (2025). The interior of dynamical vacuum black holes I: The C⁰-stability of
-
-    the Kerr Cauchy horizon. Annals of Mathematics, 202, 309–630.
-
-
-
-Dehaene, S. (2014). Consciousness and the Brain. Viking.
-
-
-
-Deng, N. (2013). The block universe: A metaphysical analysis. In R. Ciuni et al. (Eds.), New Papers
-
-    on the Present. Philosophia Verlag.
-
-
-
-Dieks, D. (Ed.). (2006). The Ontology of Spacetime. Elsevier.
-
-
-
-Doob, J. L. (1957). Conditional Brownian motion and the boundary limits of harmonic functions.
-
-    Bulletin de la Société Mathématique de France, 85, 431–458.
-
-
-
-Dowker, F. (2005). Causal sets and the deep structure of spacetime. In 100 Years of Relativity.
-
-    World Scientific.
-
-
-
-Earman, J. (2006). Two challenges to the requirement of substantive general covariance. Synthese,
-
-    148, 443–468.
-
-
-
-Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Preussischen Akademie
-
-    der Wissenschaften.
-
-
-
-Ellis, G. F. R. (2014). The evolving block universe and the meshing together of times. Annals of the
-
-    New York Academy of Sciences, 1326, 26–41.
-
-
-
-Ellis, G. F. R., & Rothman, T. (2010). Time and spacetime: The crystallizing block universe.
-
-    International Journal of Theoretical Physics, 49, 988–1003.
-
-
-
-Ellis, G. F. R., Maartens, R., & MacCallum, M. A. H. (2012). Relativistic Cosmology. Cambridge
-
-    University Press.
-
-
-
-Erickcek, A. L., Carroll, S. M., & Kamionkowski, M. (2008). Superhorizon perturbations and the
-
-    cosmic microwave background. Physical Review D, 78, 083012.
-
-
-
-Everett, H. (1957). 'Relative state' formulation of quantum mechanics. Reviews of Modern Physics,
-
-    29, 454–462.
-
-
-
-Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience,
-
-    11, 127–138.
-
-
-
-Garriga, J., & Mukhanov, V. F. (1999). Perturbations in k-inflation. Physics Letters B, 458,
-
-    219–225.
-
-
-
-Geroch, R. (1970). Domain of dependence. Journal of Mathematical Physics, 11(2), 437–449.
-
-
-
-Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
-
-    systems. Physical Review D, 34(2), 470–491.
-
-
-
-Gödel, K. (1949). An example of a new type of cosmological solutions of Einstein’s field equations.
-
-    Reviews of Modern Physics, 21, 447–450.
-
-
-
-Gottesman, D., & Preskill, J. (2004). Comment on “The black hole final state.” Journal of High
-
-    Energy Physics, 2004(03), 026.
-
-
-
-Hartle, J. B., & Hawking, S. W. (1983). Wave function of the universe. Physical Review D, 28(12),
-
-    2960–2975.
-
-
-
-Hawking, S. W., & Ellis, G. F. R. (1973). The Large Scale Structure of Space-Time. Cambridge
-
-    University Press.
-
-
-
-Hawking, S. W., King, A. R., & McCarthy, P. J. (1976). A new topology for curved space-time which
-
-    incorporates the causal, differential, and conformal structures. Journal of Mathematical
-
-    Physics, 17(2), 174–181.
-
-
-
-Hoftuft, J., Eriksen, H. K., Banday, A. J., Górski, K. M., Hansen, F. K., & Lilje, P. B. (2009).
-
-    Increasing evidence for hemispherical power asymmetry in the five-year WMAP data. The
-
-    Astrophysical Journal, 699, 985–989.
-
-
-
-Hořava, P. (2009). Quantum gravity at a Lifshitz point. Physical Review D, 79, 084008.
-
-
-
-Horowitz, G. T., & Maldacena, J. (2004). The black hole final state. Journal of High Energy Physics,
-
-    2004(02), 008.
-
-
-
-Ismael, J. (2016). How Physics Makes Us Free. Oxford University Press.
-
-
-
-Jacobson, T., & Mattingly, D. (2001). Gravity with a dynamical preferred frame. Physical Review D,
-
-    64, 024028.
-
-
-
-Joos, E., Zeh, H. D., Kiefer, C., Giulini, D., Kupsch, J., & Stamatescu, I.-O. (2003). Decoherence
-
-    and the Appearance of a Classical World in Quantum Theory (2nd ed.). Springer.
-
-
-
-Kiefer, C. (2012). Quantum Gravity (3rd ed.). Oxford University Press.
-
-
-
-Kostelecký, V. A., & Russell, N. (2011). Data tables for Lorentz and CPT violation. Reviews of
-
-    Modern Physics, 83, 11–31.
-
-
-
-Malament, D. B. (1977). The class of continuous timelike curves determines the topology of
-
-    spacetime. Journal of Mathematical Physics, 18(7), 1399–1404.
-
-
-
-Maudlin, T. (2012). Philosophy of Physics: Space and Time. Princeton University Press.
-
-
-
-Maudlin, T. (2019). Philosophy of Physics: Quantum Theory. Princeton University Press.
-
-
-
-Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). Gravitation. W. H. Freeman.
-
-
-
-Nagel, T. (1974). What is it like to be a bat? Philosophical Review, 83(4), 435–450.
-
-
-
-Page, D. N., & Wootters, W. K. (1983). Evolution without evolution: Dynamics described by stationary
-
-    observables. Physical Review D, 27(12), 2885–2892.
-
-
-
-Panagia, N. (1999). Distance to SN 1987A and the LMC. In Y.-H. Chu et al. (Eds.), New Views of the
-
-    Magellanic Clouds (IAU Symposium 190, pp. 549–554). Astronomical Society of the Pacific.
-
-
-
-Pearle, P. (1989). Combining stochastic dynamical state-vector reduction with spontaneous
-
-    localization. Physical Review A, 39, 2277–2289.
-
-
-
-Penrose, R. (1989). The Emperor's New Mind. Oxford University Press.
-
-
-
-Pietrzyński, G., Graczyk, D., Gallenne, A., Gieren, W., Thompson, I. B., et al. (2019). A distance
-
-    to the Large Magellanic Cloud that is precise to one per cent. Nature, 567, 200–203.
-
-
-
-Planck Collaboration. (2020a). Planck 2018 results. VI. Cosmological parameters. Astronomy &
-
-    Astrophysics, 641, A6.
-
-
-
-Planck Collaboration. (2020b). Planck 2018 results. VII. Isotropy and statistics of the CMB.
-
-    Astronomy & Astrophysics, 641, A7.
-
-
-
-Pooley, O. (2013). Relativity, the open future, and the passage of time. Proceedings of the
-
-    Aristotelian Society, 113, 321–363.
-
-
-
-Price, H. (1996). Time's Arrow and Archimedes' Point. Oxford University Press.
-
-
-
-Procopio, L. M., et al. (2015). Experimental superposition of orders of quantum gates. Nature
-
-    Communications, 6, 7913.
-
-
-
-Putnam, H. (1967). Time and physical geometry. The Journal of Philosophy, 64(8), 240–247.
-
-
-
-Rickles, D. (2016). Philosophy of Physics. Polity Press.
-
-
-
-Rideout, D. P., & Sorkin, R. D. (2000). Classical sequential growth dynamics for causal sets.
-
-    Physical Review D, 61, 024002.
-
-
-
-Riess, A. G., et al. (1998). Observational evidence from supernovae for an accelerating universe.
-
-    Astronomical Journal, 116, 1009–1038.
-
-
-
-Rietdijk, C. W. (1966). A rigorous proof of determinism derived from the special theory of

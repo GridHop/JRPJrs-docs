@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 32 of 35 (1,800 words)
+Part 32 of 35 (1,799 words)
+
+C3(b) | Probability of admissibility against the cell  | below the bound; 0.599   | Prop. 13.22
+
+      | bound                                          | to 0.015                 |
+
+C3(c) | Outcome covariance across linear extensions,   | max diff. 1.8 × 10⁻¹⁵    | Thm 13.21(a)
+
+      | 300 admissible configurations                  |                          |
+
+C3(d) | Direct Hilbert-space history laws: across      | 4.8 × 10⁻¹⁶; 1.8 × 10⁻¹⁴ | Thm 13.21(a)
+
+      | linear extensions; vs closed-form              |                          |
+
+      | characteristic function                        |                          |
+
+C3(e) | Overlapping pair: variance shift E²/(4σ_1²);   | 10 digits; TV 0.057;     | Props 13.23,
 
       | distance between the two orders; unread        | states agree to          | 13.28(e)
 
@@ -321,19 +337,3 @@ for nc in (140, 180):
         rho = np.outer(vec, vec.conj())
 
         dE.append(np.trace(dephase(rho, Qt, sig) @ H).real - np.trace(rho @ H).real)
-
-    print('   (a) cutoff %d: ground %.12f, random %.12f; 1/(8 m sig^2) = %.12f'
-
-          % (nc, dE[0], dE[1], 1 / (8 * mass * sig**2)))
-
-# (b) two coupled modes, A linear in (q, p), H quadratic: (|a|^2 + b.K.b)/(8 sig^2)
-
-nc, sig = 24, 0.8
-
-Kc = np.array([[1.3, -0.4], [-0.4, 0.9]])
-
-H2 = 0.5 * (p[0] @ p[0] + p[1] @ p[1])
-
-H2 = H2 + 0.5 * sum(Kc[i, j] * q[i] @ q[j] for i in range(2) for j in range(2))
-
-av, bv = np.array([0.6, -0.3]), np.array([0.2, 0.5])

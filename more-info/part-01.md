@@ -1,6 +1,6 @@
 # More Info
 
-Part 01 of 5 (1,789 words)
+Part 01 of 5 (1,785 words)
 
 MORE INFO
 
@@ -64,11 +64,11 @@ physics are observationally equivalent, so its ontology cannot be confirmed by m
 
 physics; it remains empirically exposed only through its requirement that the fundamental laws be
 
-generable from the present state. Second, conclusions drawn from the literary fiction work concern a
+generable from the present state: under them, the present state alone must suffice to generate its
 
-fictional world. They are useful as thought experiments, not as evidence about how actual persons or
+successor. Second, conclusions drawn from the literary fiction work concern a fictional world. They
 
-minds work.
+are useful as thought experiments, not as evidence about how actual persons or minds work.
 
 
 
@@ -439,5 +439,3 @@ establish that it happened depends on surviving records and on the signals avail
 
 
 Suppose A causes B, B causes C, and C causes D. By the time D exists, A may be entirely gone, and
-
-there may be no recoverable record from which any observer could reconstruct it. D can nevertheless

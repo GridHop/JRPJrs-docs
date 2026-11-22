@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 13 of 35 (1,790 words)
+Part 13 of 35 (1,788 words)
+
+interpretive thesis, supplied separately, in the same way that Thesis 5.10 supplies the ontological
+
+reading of description orbits.
+
+
+
+The locality condition cannot be dropped. In the numerical check (Appendix B, item 14), a brickwork
+
+arrangement of eight two-outcome instruments on six qubits has 136 foliations, and all of them
+
+assign identical probabilities to all 256 outcome histories, to within 7 × 10⁻¹⁸. Changing the
 
 instruments outside the predecessor set of a slot changes that slot’s marginal by at most 8 × 10⁻¹⁶.
 
@@ -307,15 +319,3 @@ operators
         K^j_0 = cos(λ_j φ(f_j)),     K^j_1 = i sin(λ_j φ(f_j)),
 
 
-
-which are bounded functions of the smeared field in O_j and satisfy (K^j_0)† K^j_0 + (K^j_1)† K^j_1
-
-= 1. The nonselective update of detector j acts on Weyl operators by multiplication with a number:
-
-
-
-        N_j*(W(g)) = ⟨0| U_j† (W(g) ⊗ 1) U_j |0⟩ = cos(λ_j E(f_j, g)) W(g).
-
-
-
-This follows from the second Weyl relation, applied separately to the two eigenvalues s = ±1 of σ_x,

@@ -1,6 +1,32 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 10 of 35 (1,797 words)
+Part 10 of 35 (1,793 words)
+
+continuous process, used in Part II because finite induction makes every proof exact.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+10. CTGP’s Further Requirements (Task T5)
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Cross-frame consistency is not the whole of CTGP’s demands. A QRF-compatible single-outcome model
+
+must also satisfy definite generative ordering and generability. This section checks these and
+
+related requirements.
+
+
+
+10.1 Definite Generative Ordering
+
+
+
+Proposition 10.1 (Frame changes act within stages and commute with generation). For every admissible
 
 law, every pair of frames, and every event k, the frame-A and frame-B single-step maps G^A_k(ψ) =
 
@@ -331,11 +357,3 @@ F_∅ W are invertible, because for s > 0 every Kraus operator of either instrum
 (w(r) > 0 for all r and λ < 1). Define the initial rays [M_1^{−1} Φ] and [M_2^{−1} Φ]. Running each
 
 history from its initial ray returns a vector proportional to Φ, and each transition has nonzero
-
-probability because invertible operators annihilate no nonzero vector. At the present stage, ω_1
-
-calls for {F_k} and ω_2 for {F″_k}. Since W Φ is the configuration state with separations x, y, and
-
-y−x for the pairs (A,B), (A,C), (B,C), the probability of the flash (i, j, d′) is λ · (1/3) ·
-
-w(r_{ij} − d′) under {F_k} and λ · q_{ij} · w(r_{ij} − d′) under {F″_k}, where r_{ij} is the

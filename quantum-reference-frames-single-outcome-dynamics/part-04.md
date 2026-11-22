@@ -1,6 +1,20 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 04 of 35 (1,792 words)
+Part 04 of 35 (1,794 words)
+
+alternatives the law permits. It does not represent alternative histories that exist side by side,
+
+and a probability measure on future trajectories describes possible continuations of the present,
+
+not an existing future.
+
+
+
+Within CTGP no state or event exists as future. Each state first exists as the present, and each
+
+realized transition becomes part of the actual past only after it has occurred. The actual past is
+
+therefore not a completed structure containing future events: it grows as successive presents are
 
 generated, without revision of what has occurred. What has occurred cannot later become something
 
@@ -323,19 +337,3 @@ determinate propositions fall into three tiers.
     σ″ < σ it is true iff Had(σ″, [Ψ]) ∈ L_σ; for σ″ = σ it is true iff S_σ = [Ψ].
 
 
-
-    Tier 3 (sharp properties). For an invariant projector Q and σ″ ≤ σ, the proposition “Q held at
-
-    σ″” is determinately true iff Q Ψ_{σ″} = Ψ_{σ″}, determinately false iff Q Ψ_{σ″} = 0, and
-
-    otherwise has no determinate truth value.
-
-
-
-No proposition about a stage later than σ is determinate at σ. Future-directed claims have only the
-
-probabilities assigned by the kernel.
-
-
-
-Tier 1 carries single-outcome realism. In a flash ontology the macroscopic world is the pattern of

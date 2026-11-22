@@ -1,6 +1,60 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 10 of 25 (1,836 words)
+Part 10 of 26 (1,793 words)
+
+The restriction of the integration domain to M(σ) is the formal expression of the framework’s
+
+central ontological commitment — not merely a heuristic convenience. In the standard block universe
+
+interpretation, the action is implicitly integrated over the entire four-dimensional manifold,
+
+treating all events as equally real elements of the variational principle. By explicitly limiting
+
+the action to M(σ), CTGP asserts that future spacetime regions do not contribute to the dynamical
+
+definition of the theory at stage σ. The future is not simply unknown; it is not part of the domain
+
+of the physical laws that generate the present. On CTGP's reading, the Euler–Lagrange equations
+
+derived from this action are accordingly not constraints on a static block but rules by which each
+
+successor state is generated from the present one. The action expresses this reading; it does not
+
+establish it. Because the variation holds M(σ) and its boundary fixed (Proposition 17.7), the action
+
+implements the norm condition and the field equations within a domain that is already specified. It
+
+does not select the boundary Σ_σ, which cosmological time fixes (§6.1), and it does not derive the
+
+advance of the present, which is CTGP's ontological posit (§7). The domain of the action, M(σ), is
+
+the formal representation of the history generated up to the present stage, and the field equations
+
+are defined only over that domain. Because Euler–Lagrange equations are local, this restriction does
+
+not alter the field equations at any point of M(σ); the distinction it draws concerns the domain
+
+over which the laws are defined, not their local form. A completed block would serve as the domain
+
+for an action defined over the whole of M; the CTGP action has no such domain. This distinction is
+
+formalized in Theorem 17.9 (§17).
+
+
+
+9.2 Domain of Validity and the Extended Action
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The effective action S(σ) of §9.1 is valid within a precisely specified domain: the emergent
+
+geometric regime, where ρ ≪ ρ_P (the Planck density), and the smooth Lorentzian manifold (M, g_{μν})
+
+is a valid continuum approximation. Outside this domain — specifically in the pre-geometric regime
+
+where ρ ∼ ρ_P — the continuum integral, the metric volume element √(−g) d⁴x, and the Ricci scalar R
 
 are themselves emergent structures that cannot be taken as primitive inputs to the variational
 
@@ -279,63 +333,3 @@ The non-synchrony is quantitative and already carried by the formalism. On open 
 sufficiently smooth for the lapse and normal congruence to be defined, the norm condition of §6.3
 
 fixes the lapse of the cosmological foliation: N = f(σ)^{−1/2}, which is constant on each level set
-
-and equals 1 for the canonical labeling σ = τ. The observers normal to Σ_σ are therefore the
-
-maximizing geodesics themselves, and a system moving with speed v relative to them accumulates
-
-proper time dτ_local = N√(1 − v²/c²) dσ. Gravitational time dilation enters through the same factor,
-
-since a clock held at rest in a gravitational well is not in free fall and moves relative to the
-
-geodesics passing through it. Systems co-present at Σ_σ therefore accumulate different amounts of
-
-proper time between Σ_σ and Σ_{σ+dσ}. Both arm-raisers are co-present; neither is a clock the other
-
-could read, and the local simultaneity surface of each is in general tilted relative to Σ_σ. CTGP
-
-therefore does not claim that either observer’s own present is the privileged one. It claims that
-
-the generative ordering is settled by a foliation that neither of them occupies.
-
-
-
-Both facts hold at once, and neither displaces the other. The value co-present events share is
-
-itself a proper time: σ is a monotone relabeling of cosmological time, the maximal proper time
-
-accumulated since the initial singularity. In FLRW cosmologies, cosmological time agrees with the
-
-proper time of comoving observers; beyond FLRW the identification holds only approximately, under
-
-the conditions stated in §11.4. Each co-present system also carries its own proper time, which in
-
-general differs from the cosmic value — a system with peculiar velocity accumulates less between Σ_σ
-
-and Σ_{σ+dσ} than a matter-frame worldline does, and a clock at rest in a gravitational well
-
-accumulates less for the same reason. The two arm-raisers therefore share one cosmic proper time and
-
-carry non-identical local times simultaneously. This introduces no second kind of time. There is one
-
-quantity, proper time, evaluated along different worldlines; what distinguishes the cosmic value is
-
-the congruence along which it is measured and the fact that its level sets foliate the spacetime,
-
-not that it is a different sort of thing.
-
-
-
-This is why the matter-frame congruence enters as a realization rather than as a criterion of
-
-membership. Cosmological time is attained along the maximizing geodesics, which in cosmology are the
-
-comoving worldlines. Systems carrying peculiar velocity — essentially all systems, including the
-
-Earth — do not lie on those worldlines, and are co-present nonetheless. The construction selects the
-
-parameter; it does not impose a shared clock on the events the parameter orders.
-
-
-
-This also settles what would otherwise be an awkward case. Suppose a physical system underwent no

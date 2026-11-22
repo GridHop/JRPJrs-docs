@@ -1,0 +1,217 @@
+# Cosmic-Time Generative Presentism (CTGP) — Explained
+
+Part 26 of 26 (1,071 words)
+
+The concurrency claim has specific content. Earth had existed for roughly 4.54 billion years by
+
+then; the progenitor, Sanduleak −69° 202, was a massive star whose whole lifetime spanned only on
+
+the order of ten million years, so it was born, lived, and died entirely within Earth’s existing
+
+lifetime. The co-present Earth-stage was an Earth with oceans, an atmosphere, a biosphere, and
+
+hominins. Earth’s own stage also left its own causal records — ice cores, sediments, and the genomes
+
+still being carried forward — so its reality is independently attested, not inferred from the
+
+supernova.
+
+
+
+This follows from Postulate 1 together with the reality of the event. It does not require the
+
+supernova’s light, and it is not something the light could have established.
+
+
+
+E.5.2 Which Earth-Stage It Was Requires the Foliation
+
+
+
+What the evidence alone underdetermines is the pairing. We reach the collapse along our past light
+
+cone; we reach Earth 168,000 years ago through terrestrial records; we never reach the two as a
+
+pair, because that pairing is spacelike and exchanges nothing. The pairing is produced by a
+
+subtraction, and the subtraction requires a slicing.
+
+
+
+The sensitivity is substantial. To first order, Δt′ ≈ vx/c², and x here is 168,000 light-years, so
+
+an observer coasting through Earth at 0.5c assigns the collapse to an Earth-moment displaced by
+
+roughly 84,000 years from ours (about 97,000 years once the Lorentz factor is included). The photons
+
+and the light cone are the same; the answer differs. Such an observer does not claim that Earth was
+
+nonexistent: the observer affirms concurrency and disputes individuation, which is exactly the
+
+division drawn above.
+
+
+
+CTGP supplies what fixes the pairing, and supplies it from §6.1 rather than from the supernova:
+
+cosmological time fixes which stages are co-present, and in our universe it approximately coincides
+
+with the CMB rest frame and is realized along the comoving matter worldlines (§9.3.1). The supernova
+
+does not select the foliation, and it could not. Presenting it as doing so would invite a
+
+circularity objection against something the framework already supplies independently.
+
+
+
+E.5.3 The Placement
+
+
+
+The collapse belonged to the stage whose σ-value is earlier than that of the 1987 detection by
+
+approximately 168,000 years of matter-frame proper time. The approximation holds because the LMC’s
+
+peculiar velocity and the relevant gravitational potential differences are small; cosmological time
+
+is realized along the comoving worldlines, and neither Earth nor the LMC lies exactly on them.
+
+
+
+One number, two roles. The figure “168,000 years” appears here in two roles, and only the second is
+
+a CTGP claim. As a light-travel time it characterizes a null pair (the first row of Table E.1); it
+
+is frame-dependent — a boosted observer assigns a different Δt to the same null pair — but it
+
+asserts nothing about simultaneity. As a σ-difference it asserts which stage the collapse belonged
+
+to, and that is a claim about the foliation. The figure also carries an observational spread of a
+
+few percent: 51.4 kpc ≈ 168,000 light-years is the commonly cited value for the supernova (Panagia
+
+1999), while the most precise distance to the Large Magellanic Cloud, 49.59 kpc (Pietrzyński et al.
+
+2019), corresponds to about 162,000 light-years. None of the argument turns on which value is
+
+correct.
+
+
+
+The placement is also robust, which is its main operational payoff. Earth’s peculiar velocity
+
+relative to the CMB is about 370 km/s, so the CMB-frame σ-assignment and the naive light-travel-time
+
+subtraction differ by at most about 200 years out of 168,000. The everyday answer is nearly right,
+
+and it is nearly right because we are nearly comoving — itself a fact about the matter frame to
+
+which CTGP points, not a coincidence.
+
+
+
+It follows, to the extent supported, that the relevant σ-stage was co-present with a stage of
+
+terrestrial history falling well within the span of anatomically modern humans in Africa. This is
+
+co-presence — equality of σ — and carries no implication of shared proper time, shared rate,
+
+synchronization, or coordination of any kind. The two regions exchanged nothing. They shared a
+
+generative stage.
+
+
+
+E.6 Against Retrofitting
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The generated domain does not acquire earlier structure retroactively upon inspection. The 1987
+
+detection was constrained by conditions at the source stage, whose consequences propagated through
+
+an unbroken chain of lawful transformations, with no point at which the chain could have been
+
+inserted after the fact. The present inherited the causal consequences of the past; it did not
+
+author them.
+
+
+
+E.7 What SN1987A Bears On
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Claim                        | Does SN1987A bear on it?
+
+-----------------------------+---------------------------------------------------------------------
+
+“Only the local now is real” | Yes. A reconstructible distant event with a determinate σ-placement
+
+                             | is incompatible with a purely local-bubble ontology.
+
+“There was no co-present     | Yes — by entailment (§E.5.1), not by measurement.
+
+distant state”               |
+
+“Distant events do not exist | Yes, but the target is not a position seriously held; low value.
+
+until observed”              |
+
+“Time cannot be compared     | Partially. The comparison is reconstructible and cross-validating
+
+across space”                | given a foliation; the case cannot select the foliation.
+
+“The block universe is       | No. Nothing here discriminates between CTGP and eternalism.
+
+false”                       |
+
+
+
+  Table E.2. The bearing of SN1987A on claims about time and co-presence.
+
+
+
+E.8 Summary
+
+~~~~~~~~~~~
+
+
+
+Supernova 1987A was a generative event at a definite stage of the universe’s causal unfolding, not a
+
+fact constituted by its detection. It emitted multiple messengers according to local physics at that
+
+stage; those messengers propagated as present-state configurations through every intervening stage;
+
+and their present organization is structured enough that the source stage can be reconstructed from
+
+it, consistently across independent channels. That a co-present terrestrial stage existed follows
+
+from the event being generated at all. Which terrestrial stage it was follows from the matter-frame
+
+foliation — which the universe’s own matter distribution, not the supernova, supplies.
+
+
+
+    The past is gone. Its consequences are here, organized well enough to read — and the reading is
+
+    nearly independent of reference frame, because we are nearly comoving.
+
+
+
+The universe is neither a block of equally real moments nor a fog of observation-constituted facts.
+
+SN1987A is consistent with that picture and illustrates the record mechanism vividly; it does not
+
+establish it, and it does not need to. Presenting an illustration as decisive evidence would invite
+
+the objection that the framework reads its own ontology into evidence that does not select for it.
+
+Stated as entailment plus foliation, the argument is less rhetorically striking and considerably
+
+harder to dislodge.

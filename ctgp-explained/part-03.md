@@ -1,6 +1,18 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 03 of 25 (1,834 words)
+Part 03 of 26 (1,785 words)
+
+The following arrows all point in the same direction within CTGP, and their alignment is not
+
+coincidental. The causal and memory-formation arrows point in the direction of generation by
+
+construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
+
+not reduced to it, since each also depends on contingent features of our universe’s initial
+
+conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
+
+to future — runs in the direction in which stages are generated, since each new hypersurface is
 
 generated from its predecessor and never the reverse. Generation supplies the orientation, not the
 
@@ -307,37 +319,3 @@ low-entropy boundary condition for the thermodynamic arrow, Lorentzian causal st
 causal arrow, and the architecture of cognition for temporal experience. On CTGP’s assessment, this
 
 leaves their correlation without a single ontological source, whereas CTGP derives them from one.
-
-Whether a unified account is preferable to a distributed one is the philosophical question at issue,
-
-not a result either side can prove. The two ontologies are also economical in different respects:
-
-presentism posits fewer existing things, eternalism less structure, since it needs neither a
-
-distinguished foliation nor primitive succession. Which economy should weigh more is itself part of
-
-the dispute.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-5. The Core Postulates of CTGP
-
-----------------------------------------------------------------------------------------------------
-
-
-
-5.1 Postulates 1–3: The Present, Causal Continuity, and the Cosmological Parameter
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Postulate 1 (Ontological Primacy of the Present): At any generative stage of the universe, only the
-
-current hypersurface of reality—the present state of the universe—possesses ontological existence as
-
-presently real. The present is not, however, an isolated instant: it exists as part of a continuous
-
-causal-temporal progression whereby each state lawfully emerges from immediately preceding states

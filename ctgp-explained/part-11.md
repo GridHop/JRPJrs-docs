@@ -1,6 +1,66 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 25 (1,826 words)
+Part 11 of 26 (1,797 words)
+
+and equals 1 for the canonical labeling σ = τ. The observers normal to Σ_σ are therefore the
+
+maximizing geodesics themselves, and a system moving with speed v relative to them accumulates
+
+proper time dτ_local = N√(1 − v²/c²) dσ. Gravitational time dilation enters through the same factor,
+
+since a clock held at rest in a gravitational well is not in free fall and moves relative to the
+
+geodesics passing through it. Systems co-present at Σ_σ therefore accumulate different amounts of
+
+proper time between Σ_σ and Σ_{σ+dσ}. Both arm-raisers are co-present; neither is a clock the other
+
+could read, and the local simultaneity surface of each is in general tilted relative to Σ_σ. CTGP
+
+therefore does not claim that either observer’s own present is the privileged one. It claims that
+
+the generative ordering is settled by a foliation that neither of them occupies.
+
+
+
+Both facts hold at once, and neither displaces the other. The value co-present events share is
+
+itself a proper time: σ is a monotone relabeling of cosmological time, the maximal proper time
+
+accumulated since the initial singularity. In FLRW cosmologies, cosmological time agrees with the
+
+proper time of comoving observers; beyond FLRW the identification holds only approximately, under
+
+the conditions stated in §11.4. Each co-present system also carries its own proper time, which in
+
+general differs from the cosmic value — a system with peculiar velocity accumulates less between Σ_σ
+
+and Σ_{σ+dσ} than a matter-frame worldline does, and a clock at rest in a gravitational well
+
+accumulates less for the same reason. The two arm-raisers therefore share one cosmic proper time and
+
+carry non-identical local times simultaneously. This introduces no second kind of time. There is one
+
+quantity, proper time, evaluated along different worldlines; what distinguishes the cosmic value is
+
+the congruence along which it is measured and the fact that its level sets foliate the spacetime,
+
+not that it is a different sort of thing.
+
+
+
+This is why the matter-frame congruence enters as a realization rather than as a criterion of
+
+membership. Cosmological time is attained along the maximizing geodesics, which in cosmology are the
+
+comoving worldlines. Systems carrying peculiar velocity — essentially all systems, including the
+
+Earth — do not lie on those worldlines, and are co-present nonetheless. The construction selects the
+
+parameter; it does not impose a shared clock on the events the parameter orders.
+
+
+
+This also settles what would otherwise be an awkward case. Suppose a physical system underwent no
 
 change of any kind between two successive stages — no alteration of internal or spatial state. CTGP
 
@@ -229,73 +289,3 @@ Option (3): Treat black hole interiors and CTC-permitting solutions as requiring
 or as lying outside CTGP's intended domain. The interior of a black hole beyond the Cauchy horizon
 
 may be physically inaccessible and dynamically isolated from the exterior universe; CTGP's
-
-generative structure applies to the exterior region, and the interior is flagged as a domain
-
-requiring separate treatment in any future extension.
-
-
-
-CTC-permitting solutions are handled under Option (1) by restricting to globally hyperbolic sectors:
-
-CTGP treats CTC-permitting solutions as physical idealizations absent from our universe's actual
-
-global structure.
-
-
-
-Each option can be substantiated by existing results in GR. For Option (1), the empirical and
-
-theoretical case is strong: global hyperbolicity is a standard causal assumption of relativistic
-
-cosmology (Hawking and Ellis 1973); strong cosmic censorship, the still-unproven conjecture that
-
-generic physically reasonable spacetimes cannot be extended beyond their maximal globally hyperbolic
-
-development, would make it a consequence of the dynamics rather than an assumption, although the
-
-conjecture has inequivalent formulations that differ in the regularity required of an extension, and
-
-its strongest form, which rules out even extensions with a merely continuous metric, fails for
-
-perturbed rotating black holes if, as is widely expected, the Kerr exterior is stable (Dafermos and
-
-Luk 2025); and nothing in the observed large-scale structure of our universe indicates its failure;
-
-CMB isotropy to one part in 10^5 confirms the FLRW approximation at cosmological scales to high
-
-precision. CTGP’s restriction to this domain is therefore a principled constraint, not a limitation,
-
-in the same sense that thermodynamics restricts its domain to systems with well-defined state
-
-variables. For Option (2), dual foliation methods developed in mathematical GR suggest that
-
-overlapping foliation patches can be glued consistently wherever the constraint data on the overlaps
-
-can be reconciled; patch inconsistencies are therefore diagnosable and resolvable by standard
-
-constraint-solving methods (Theorem 17.15). For Option (3), the relevant physical fact is that the
-
-spacetimes known to require it — Kerr interiors, Taub-NUT, and Gödel universes — are not consistent
-
-with our observed cosmological boundary conditions. Kerr interiors are idealized; real astrophysical
-
-black holes formed by collapse develop apparent horizons whose exterior evolution remains well-posed
-
-and globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior.
-
-Worldlines that fall inside and reach the singularity end there, typically at finite cosmological
-
-time; later level sets do not meet them, which is why those level sets are future Cauchy surfaces
-
-rather than Cauchy surfaces (§6.1). Perturbations are also expected to make the Cauchy horizon
-
-singular through mass inflation. In Christodoulou’s formulation of strong cosmic censorship, the
-
-maximal globally hyperbolic development of generic initial data is expected to admit no extension
-
-whose metric has locally square-integrable Christoffel symbols, a regularity threshold associated
-
-with weak formulations of the Einstein equations (Christodoulou 2009; Dafermos and Luk 2025). For
-
-generic perturbations of Kerr black holes, this inextendibility remains conjectural. Mass inflation

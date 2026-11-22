@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 26 of 35 (1,798 words)
+Part 26 of 35 (1,799 words)
+
+The two must agree in the appropriate classical limit, but they need not coincide at the fundamental
+
+level. This develops the distinction between primitive generation and emergent geometry that CTGP
+
+already draws (CTGP – explained, §§10.3–10.4). It also raises a demanding question: what physical
+
+structure carries the objective generative ordering before classical spacetime exists? Naming a
+
+parameter does not answer it.
+
+
+
+15.2 Three Pathways
+
+
 
     (i) Semiclassical and quantum-geometric emergence. Begin with quantum matter on an approximately
 
@@ -417,17 +433,3 @@ Part III:
     (8) The model has a continuous-time form, with histories as marked point processes, for which
 
     admissibility, reconstruction, dynamical idleness, cross-frame correspondence, and truth
-
-    preservation are proved (Propositions 9.2–9.9, Theorems 9.7 and 9.10); the identification of its
-
-    time parameter with cosmic time is stated as a postulate (§9.4).
-
-
-
-    (9) Within the class, generative order is shared by all frames, the law is generable, the future
-
-    is open, and there are no relative facts (§10).
-
-
-
-    (10) The truth profile is formally interchangeable with the event history (Proposition 5.21);

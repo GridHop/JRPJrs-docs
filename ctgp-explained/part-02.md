@@ -1,6 +1,18 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 02 of 25 (1,828 words)
+Part 02 of 26 (1,792 words)
+
+(§12.1), so the framework does not claim that any instrument can detect the nonexistence of the
+
+past. Its empirical exposure lies elsewhere: in the requirement that physical law be generable from
+
+the present, which can be refuted (§12.2), and in the consistency of its continuum realization,
+
+which the paper tests (§11).
+
+
+
+----------------------------------------------------------------------------------------------------
 
 2. Philosophical Background: Locating CTGP Among Presentism, Eternalism, and the Growing Block
 
@@ -319,15 +331,3 @@ generative flow represented by M(σ), whose present boundary Σ_σ advances in o
 the generation flow vector n^μ.
 
 
-
-The following arrows all point in the same direction within CTGP, and their alignment is not
-
-coincidental. The causal and memory-formation arrows point in the direction of generation by
-
-construction; the thermodynamic and cosmological-expansion arrows are related to that direction but
-
-not reduced to it, since each also depends on contingent features of our universe’s initial
-
-conditions and matter content. The thermodynamic arrow — the overall increase of entropy from past
-
-to future — runs in the direction in which stages are generated, since each new hypersurface is
