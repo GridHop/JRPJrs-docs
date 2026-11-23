@@ -1,3 +1,8 @@
+Yes, in principle, in suitable theoretical settings. A definite underlying event history and an indefinite operational causal order are not necessarily contradictory. The crucial distinction is between the physical events that actually occur and the effective quantum operations used to describe an experiment.
+In nonrelativistic settings, single-outcome theories such as Bohmian mechanics and GRW-type collapse theories already derive definite trajectories or events from their dynamics while retaining quantum interference (section 3). However, these examples do not, by themselves, establish a complete relativistic theory deriving a single realized history for all operational indefinite-causal-order phenomena.
+1. What indefinite causal order (ICO) experiments establish
+In a quantum switch, two operations, A and B, can be coherently controlled so that the experiment cannot generally be represented as an ordinary probabilistic mixture of the fixed orders A-before-B and B-before-A.
+Interference between these alternatives can produce operational statistics incompatible with such a mixture. This is evidence of causal nonseparability at the level of the effective operations.
 However, causal nonseparability does not, by itself, establish that every underlying physical event lacks a definite causal relationship or that spacetime itself has no definite causal structure.
 Also, the standard quantum switch does not, by itself, violate a causal inequality. Causal nonseparability and causal-inequality violation are distinct properties.
 Recent device-independent tests certify the switch's indefinite order in a different way: they add a spacelike-separated party entangled with the switch and assume relativistic causality and free interventions, a Bell-type scenario rather than a standard causal inequality (van der Lugt, Barrett, and Chiribella 2023). Photonic experiments along these lines have been reported (Richter et al. 2026; Qu et al. 2025), with loopholes still open.
@@ -13,14 +18,14 @@ This is not the same as saying that each run behaves like an A-before-B or a B-b
 3. Examples from single-outcome quantum theories
 Two existing approaches illustrate how single-outcome ontologies can accommodate quantum interference without necessarily assigning a unique classical ordering to effective operations.
 Bohmian mechanics
-In Bohmian mechanics, particles have definite trajectories, while the guiding wave evolves through coherent alternatives.
+In Bohmian mechanics, particles have definite trajectories, while the guiding wave propagates through coherent alternatives.
 Consider a quantum switch implemented using a massive particle whose spatial path controls whether it encounters operation A or B first. Before the paths recombine, the particle follows one actual route, but the interference observed at the output depends on the guiding wave associated with both routes.
 Bohmian mechanics reproduces the standard quantum predictions for output-position measurements under quantum equilibrium.
 Thus, a definite underlying trajectory does not make the experiment equivalent to an ordinary classical mixture of definite-order circuits.
 GRW-type collapse theories
 GRW-type collapse theories provide another approach. In the flash ontology, the realized history consists of definite spacetime events called flashes.
 For a short experiment involving a microscopic particle, spontaneous collapses are extraordinarily unlikely, so quantum-switch interference can survive essentially unchanged.
-If no collapse occurs during the coherent evolution, the collapse dynamics does not select either effective operational-order branch as uniquely realized. In the flash ontology, the history need not contain an event identifying one of those branches as the actual one.
+If no collapse occurs during the coherent dynamics, the collapse dynamics does not select either effective operational-order branch as uniquely realized. In the flash ontology, the history need not contain an event identifying one of those branches as the actual one.
 This does not mean that the history establishes that neither operation came first, or that the underlying localized interactions lack definite causal relationships. It means that a definite history of flashes need not determine a unique classical ordering of the effective operations.
 These examples distinguish definite realized events from definite classical orderings of effective operations. They illustrate possible single-outcome accounts, while a fully satisfactory relativistic implementation remains a further theoretical requirement.
 4. What a single-outcome theory must demonstrate
@@ -71,10 +76,3 @@ That inner product measures the interference between the two possible orderings.
 For a particularly simple example, choose A = X and B = Z, the Pauli matrices. They anticommute:
 XZ = −ZX.
 Consequently,
-⟨BAψ|ABψ⟩ = −1,
-and therefore
-P(−) = 1, P(+) = 0.
-The minus outcome occurs with certainty. If A and B commute instead, the plus outcome occurs with certainty.
-This is not something an ordinary classical random choice between the two orders reproduces. If the control is an incoherent mixture of |0⟩ and |1⟩, measuring it in the |±⟩ basis gives
-P(+) = P(−) = ½.
-If both branches instead perform the same operation sequence coherently, the control remains |+⟩, giving P(−) = 0.

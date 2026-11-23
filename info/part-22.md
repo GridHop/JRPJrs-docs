@@ -1,6 +1,6 @@
 # Info
 
-Part 22 of 23 (1,799 words)
+Part 22 of 23 (1,800 words)
 
 conditions were met” in order for life to form, which resulted in life forming?
 
@@ -194,15 +194,15 @@ deterministic universe, this does not guarantee practical predictability. A perf
 
 face the additional challenge of computing the future faster than the universe itself is already
 
-evolving, since the universe is effectively “performing” its own state transitions in real time. For
+generating it, since the universe is effectively “performing” its own state transitions in real
 
-these reasons—finite information capacity, self-reference, resource limitations, computational
+time. For these reasons—finite information capacity, self-reference, resource limitations,
 
-limits, and the possibility of chaotic sensitivity to initial conditions—many researchers conclude
+computational limits, and the possibility of chaotic sensitivity to initial conditions—many
 
-that a computer within the universe is unlikely to be capable of perfectly simulating the entire
+researchers conclude that a computer within the universe is unlikely to be capable of perfectly
 
-universe in order to infallibly predict every subsequent instant.
+simulating the entire universe in order to infallibly predict every subsequent instant.
 
 
 
@@ -272,7 +272,7 @@ human’s audibly speaking”?
 
 Hypothetically, if a BCI feeds custom signals to the brain but the signals are solely based on an
 
-external surveilance electronic device-camera that records the external world in real time and the
+external surveillance electronic device-camera that records the external world in real time and the
 
 brain receives “live streams of that camera’s data in real time” converted into brain signals for
 

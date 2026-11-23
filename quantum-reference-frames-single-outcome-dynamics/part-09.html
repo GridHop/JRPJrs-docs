@@ -1,4 +1,14 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 09 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 09 of 35 · 1,789 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-09.md">Raw Markdown</a><a href="part-08.html">Previous part</a><a href="part-10.html">Next part</a></nav><main class="source"><div>space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 09 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 09 of 36 · 1,794 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-09.md">Raw Markdown</a><a href="part-08.html">Previous part</a><a href="part-10.html">Next part</a></nav><main class="source"><div>state; so the joint law of (hit time, event) sequences is the same in every frame, and induction</div>
+<div>over hits gives the state relation, as in Theorem 5.12. □</div>
+<div>&nbsp;</div>
+<div>9.3 Continuous-Time Histories as Marked Point Processes</div>
+<div>&nbsp;</div>
+<div>In continuous time a history consists of event labels together with their times, and the truth</div>
+<div>profile contains a continuum of state propositions. Both must be defined explicitly.</div>
+<div>&nbsp;</div>
+<div>Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t &gt; 0. A record on [0, t] is a finite</div>
+<div>sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 &lt; t_1 &lt; ⋯ &lt; t_m ≤ t, and k_j ∈ 𝒦. The record</div>
+<div>space Ω_t is the disjoint union over m of the sets of such sequences, equipped with the reference</div>
 <div>measure given by Lebesgue measure on ordered m-tuples of times and counting measure on labels. Along</div>
 <div>ω, the state at time s ∈ [0, t] is the normalized vector</div>
 <div>&nbsp;</div>
@@ -17,7 +27,7 @@
 <div>Proof. The hit times of a Poisson process of rate Λ have density Λ^m e^{−Λt} on ordered m-tuples in</div>
 <div>(0, t]. Given the hit times, the labels are drawn successively with probabilities ‖J_{k_j} φ_j‖² /</div>
 <div>Λ, where φ_j is the normalized state just before t_j. The product of these probabilities times Λ^m</div>
-<div>is Π_j ‖J_{k_j} φ_j‖². Because the evolution between hits is unitary, this product telescopes into</div>
+<div>is Π_j ‖J_{k_j} φ_j‖². Because the propagation between hits is unitary, this product telescopes into</div>
 <div>the squared norm of the unnormalized vector shown. □</div>
 <div>&nbsp;</div>
 <div>Definition 9.5 (Continuous-time truth profile). The past-tensed language in continuous time consists</div>
@@ -68,7 +78,7 @@
 <div>&nbsp;</div>
 <div>Proposition 9.8 (Reconstruction from an earlier time). For 0 ≤ s &lt; t and ω ∈ 𝒜_t, the present state</div>
 <div>S_t = [Ψ_t(ω)] is fixed by the state proposition Had(s, [Ψ_s(ω)]), the event propositions with times</div>
-<div>in (s, t], and the law: it is obtained by applying to Ψ_s(ω) the unitary evolution between those</div>
+<div>in (s, t], and the law: it is obtained by applying to Ψ_s(ω) the unitary propagation between those</div>
 <div>events and the corresponding jump operators.</div>
 <div>&nbsp;</div>
 <div>Proof. Definition 9.3, applied from time s rather than time 0. □</div>
@@ -118,9 +128,9 @@
 <div>with common random numbers: the 1,158 events, and their times, were identical in the two frames, and</div>
 <div>the final states were related by V_{A→B} to machine precision.</div>
 <div>&nbsp;</div>
-<div>The resulting picture matches CTGP’s description of generation: continuous evolution of the present</div>
-<div>state, punctuated by discrete primitive events, with each moment’s state and each event passing into</div>
-<div>the past-tensed profile.</div>
+<div>The resulting picture matches CTGP’s description of generation: continuous generative progression of</div>
+<div>the present state, punctuated by discrete primitive events, with each moment’s state and each event</div>
+<div>becoming part of the past-tensed profile.</div>
 <div>&nbsp;</div>
 <div>9.4 What Is Postulated: The Identification of t With Cosmic Time</div>
 <div>&nbsp;</div>
@@ -128,19 +138,13 @@
 <div>Identifying it with CTGP’s generation parameter σ, which in the emergent geometric regime is the</div>
 <div>cosmological time function (CTGP – explained, §6), is a postulate of the application, not a result.</div>
 <div>Nothing in the model derives cosmic time. What the model shows is conditional: if the generation</div>
-<div>parameter is a global time with respect to which the present state evolves by a law of this form,</div>
-<div>then the continuous-time model has every property established in Part II and §9.3. Deriving the</div>
-<div>identification would require at least a relativistic version of the dynamics and an account of how</div>
-<div>its time parameter is fixed by the cosmological matter distribution; these are the subjects of §13</div>
-<div>and §14, and they remain open (§17.3, O2 and O3). The regularity of cosmological time that the</div>
+<div>parameter is a global time with respect to which the present state is generated by a law of this</div>
+<div>form, then the continuous-time model has every property established in Part II and §9.3. Deriving</div>
+<div>the identification would require at least a relativistic version of the dynamics and an account of</div>
+<div>how its time parameter is fixed by the cosmological matter distribution; these are the subjects of</div>
+<div>§13 and §14, and they remain open (§17.3, O2 and O3). The regularity of cosmological time that the</div>
 <div>identification requires is stated precisely in §13.1: the level sets are future Cauchy surfaces in</div>
 <div>general, and Cauchy surfaces under the condition of Proposition 13.1.</div>
 <div>&nbsp;</div>
 <div>9.5 The Discrete Stages as a Coarse-Grained Description</div>
-<div>&nbsp;</div>
-<div>The discrete-stage model of Part II is a coarse-grained description of the continuous one. With</div>
-<div>stage duration τ and λ = 1 − e^{−Λτ}, the probability of at least one hit in a stage is the same in</div>
-<div>both models. The discrete model differs in two respects: it allows at most one event per stage, and</div>
-<div>it places each event at the end of its stage. The probability of two or more hits in one stage is of</div>
-<div>order (Λτ)², so the discrete model approximates the continuous one when Λτ is small. The discrete</div>
-<div>stages are therefore not a claim that generation proceeds in jumps; they are a sampling of a</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-09.md">Raw Markdown</a><a href="part-08.html">Previous part</a><a href="part-10.html">Next part</a></nav></body></html>
+<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-09.md">Raw Markdown</a><a href="part-08.html">Previous part</a><a href="part-10.html">Next part</a></nav></body></html>

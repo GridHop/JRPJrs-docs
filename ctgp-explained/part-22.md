@@ -1,6 +1,104 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 26 (1,797 words)
+Part 22 of 26 (1,789 words)
+
+Arnowitt, R., Deser, S., & Misner, C. W. (1962). The dynamics of general relativity. In L. Witten
+
+    (Ed.), Gravitation: An Introduction to Current Research (pp. 227–265). Wiley. (arXiv:gr-
+
+    qc/0405109)
+
+
+
+Babichev, E., & Ramazanov, S. (2017). Caustic free completion of pressureless perfect fluid and
+
+    k-essence. Journal of High Energy Physics, 2017(08), 040.
+
+
+
+Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
+
+    collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
+
+
+
+Bell, J. S. (1987). Speakable and Unspeakable in Quantum Mechanics. Cambridge University Press.
+
+
+
+Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
+
+    Communications in Mathematical Physics, 243(3), 461–470.
+
+
+
+Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
+
+    globally hyperbolic spacetimes. Communications in Mathematical Physics, 257(1), 43–50.
+
+
+
+Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
+
+
+
+Bohm, D. (1952). A suggested interpretation of the quantum theory in terms of 'hidden' variables.
+
+    Physical Review, 85, 166–179; 180–193.
+
+
+
+Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
+
+    Review Letters, 59(5), 521–524.
+
+
+
+Broad, C. D. (1923). Scientific Thought. Routledge.
+
+
+
+Brown, H. R. (2005). Physical Relativity: Space-Time Structure from a Dynamical Perspective. Oxford
+
+    University Press.
+
+
+
+Callender, C. (2017). What Makes Time Special? Oxford University Press.
+
+
+
+Carroll, S. M. (2004). Spacetime and Geometry: An Introduction to General Relativity. Addison-
+
+    Wesley.
+
+
+
+Carroll, S. M. (2010). From Eternity to Here: The Quest for the Ultimate Theory of Time. Dutton.
+
+
+
+Chalmers, D. J. (1996). The Conscious Mind. Oxford University Press.
+
+
+
+Chamseddine, A. H., & Mukhanov, V. (2013). Mimetic dark matter. Journal of High Energy Physics,
+
+    2013(11), 135.
+
+
+
+Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum computations without
+
+    definite causal structure. Physical Review A, 88, 022318.
+
+
+
+Christodoulou, D. (2009). The Formation of Black Holes in General Relativity. European Mathematical
+
+    Society.
+
+
 
 Colladay, D., & Kostelecký, V. A. (1998). Lorentz-violating extension of the standard model.
 
@@ -376,7 +474,7 @@ Zurek, W. H. (2009). Quantum Darwinism. Nature Physics, 5, 181–188.
 
 ----------------------------------------------------------------------------------------------------
 
-Appendix A. ADM Evolution and σ-Reparameterization (Derivations)
+Appendix A. ADM Dynamics and σ-Reparameterization (Derivations)
 
 ----------------------------------------------------------------------------------------------------
 
@@ -384,7 +482,7 @@ Appendix A. ADM Evolution and σ-Reparameterization (Derivations)
 
 This appendix collects standard ADM equations and shows how CTGP's growth parameter σ can be used to
 
-reparameterize evolution. The presentation follows standard canonical GR notation and then adds
+reparameterize the dynamics. The presentation follows standard canonical GR notation and then adds
 
 CTGP's σ-change of variables.
 
@@ -416,7 +514,7 @@ Momentum constraint:
 
 
 
-A.2 Evolution Equations
+A.2 Dynamical Equations
 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -465,79 +563,3 @@ here. The first is well-definedness. Cosmological time is defined as a supremum 
 past-directed causal curves, not by integration along a chosen congruence, so no path-independence
 
 condition is required: τ(p) is well defined whenever it is finite. Its level sets are future Cauchy
-
-surfaces when τ is regular (Theorem 17.4). A rotating cosmology such as Gödel’s dust solution admits
-
-no regular cosmological time, consistent with the global hyperbolicity requirement of §6.1.
-
-
-
-The second is dimension. For the canonical choice σ = τ, σ carries dimensions of time; for other
-
-relabelings, its dimensions are those of F. The two are related monotonically, induce the same
-
-foliation, and differ only in normalization and units. Statements that σ “corresponds to”
-
-cosmological proper time are to be read in this sense.
-
-
-
-The third is reparameterization. Any strictly increasing F yields an equally admissible parameter,
-
-so σ is fixed only up to monotonic relabeling. This is harmless for every claim the framework makes,
-
-because those claims depend on the level sets of σ and the direction of ∇_μσ, both of which are
-
-relabeling-invariant. The magnitude |∇_μσ| = F′ is conventional and carries no physical content.
-
-
-
-For reference, the chain from geometry to foliation is as follows: g_{μν} → causal structure → τ,
-
-the maximal elapsed proper time, defined without choice → Σ_τ, future Cauchy surfaces when τ is
-
-regular → σ = F(τ), a labeling convention. The matter congruence enters only as a consequence: in
-
-cosmology, the maximizing geodesics are the comoving worldlines.
-
-
-
-A.4 ADM Equations Parameterized by σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Substituting ∂_t = F′ ∂_σ into ADM evolution, with the lapse normalized to cosmic time:
-
-
-
-        ∂_σ h_{ij} = (2N/F′) K_{ij} + (1/F′)(∇_i N_j + ∇_j N_i)
-
-
-
-        ∂_σ K_{ij} = (1/F′)(standard ADM right-hand side)
-
-
-
-A.5 Expansion Scalar and Raychaudhuri Calibration
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Let u^μ be the timelike unit vector field aligned with the matter congruence. The expansion scalar θ
-
-= ∇_μu^μ satisfies θ = d(ln √h)/dτ, measuring the fractional rate of local volume change of the
-
-foliation along the congruence. Its evolution is governed by the Raychaudhuri equation:
-
-
-
-        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} + ω_{μν}ω^{μν} - R_{μν}u^μu^ν + ∇_μa^μ
-
-
-
-In the irrotational, geodesic cosmological limit (ω_{μν} = 0, a^μ = 0) this reduces to:
-
-

@@ -1,6 +1,60 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 12 of 26 (1,790 words)
+Part 12 of 26 (1,797 words)
+
+configuration is one in which successive stages produce qualitatively identical states, not one
+
+standing outside the succession. Absolute stasis is not a rival to the generative present; it is not
+
+a describable condition within it.
+
+
+
+9.5 Foliation in Strong-Curvature Regimes
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The FLRW foliation is well-defined in the cosmologically relevant regime of large-scale homogeneity
+
+and isotropy. However, a global Cauchy foliation is not guaranteed in all spacetimes. Pathological
+
+topologies, strong anisotropy, closed timelike curves (CTCs), and black hole interiors may each
+
+undermine the existence of a smooth global foliation. CTGP addresses these cases via a three-option
+
+framework:
+
+
+
+Option (1): Restrict CTGP's domain of application to globally hyperbolic spacetimes with regular
+
+cosmological time. This is the primary intended domain of the framework. It is not confined to
+
+regions where the FLRW approximation holds: the level sets of cosmological time remain future Cauchy
+
+surfaces through strong anisotropy and collapsed structure, where only their smoothness fails (§6.1;
+
+§11.4).
+
+
+
+Option (2): Use local foliation patches with gluing rules. In regions where the global foliation
+
+breaks down, define Σ_σ patchwise over overlapping open sets, with consistency conditions on patch
+
+boundaries. This extends CTGP's applicability at the cost of introducing gluing ambiguities that
+
+must be handled by additional physical data (e.g., the stress-energy distribution at the boundary).
+
+
+
+Option (3): Treat black hole interiors and CTC-permitting solutions as requiring separate analysis
+
+or as lying outside CTGP's intended domain. The interior of a black hole beyond the Cauchy horizon
+
+may be physically inaccessible and dynamically isolated from the exterior universe; CTGP's
 
 generative structure applies to the exterior region, and the interior is flagged as a domain
 
@@ -52,33 +106,33 @@ spacetimes known to require it — Kerr interiors, Taub-NUT, and Gödel universe
 
 with our observed cosmological boundary conditions. Kerr interiors are idealized; real astrophysical
 
-black holes formed by collapse develop apparent horizons whose exterior evolution remains well-posed
+black holes formed by collapse develop apparent horizons whose exterior regions remain globally
 
-and globally hyperbolic. CTGP’s generative structure continues without interruption in the exterior.
+hyperbolic, with well-posed dynamics. CTGP’s generative structure continues without interruption in
 
-Worldlines that fall inside and reach the singularity end there, typically at finite cosmological
+the exterior. Worldlines that fall inside and reach the singularity end there, typically at finite
 
-time; later level sets do not meet them, which is why those level sets are future Cauchy surfaces
+cosmological time; later level sets do not meet them, which is why those level sets are future
 
-rather than Cauchy surfaces (§6.1). Perturbations are also expected to make the Cauchy horizon
+Cauchy surfaces rather than Cauchy surfaces (§6.1). Perturbations are also expected to make the
 
-singular through mass inflation. In Christodoulou’s formulation of strong cosmic censorship, the
+Cauchy horizon singular through mass inflation. In Christodoulou’s formulation of strong cosmic
 
-maximal globally hyperbolic development of generic initial data is expected to admit no extension
+censorship, the maximal globally hyperbolic development of generic initial data is expected to admit
 
-whose metric has locally square-integrable Christoffel symbols, a regularity threshold associated
+no extension whose metric has locally square-integrable Christoffel symbols, a regularity threshold
 
-with weak formulations of the Einstein equations (Christodoulou 2009; Dafermos and Luk 2025). For
+associated with weak formulations of the Einstein equations (Christodoulou 2009; Dafermos and Luk
 
-generic perturbations of Kerr black holes, this inextendibility remains conjectural. Mass inflation
+2025). For generic perturbations of Kerr black holes, this inextendibility remains conjectural. Mass
 
-therefore gives strong reason to doubt that the idealized analytic extension of the Kerr interior
+inflation therefore gives strong reason to doubt that the idealized analytic extension of the Kerr
 
-beyond the inner horizon is physically realized, although it does not by itself establish that no
+interior beyond the inner horizon is physically realized, although it does not by itself establish
 
-continuation is possible. These three anchors ground the three-option framework in established GR
+that no continuation is possible. These three anchors ground the three-option framework in
 
-results.
+established GR results.
 
 
 
@@ -144,25 +198,31 @@ may produce, through its large-scale dynamics:
 
 These structures are emergent in the technical sense: they are not present in the Einstein equations
 
-as written, but they arise from the physical solution. Once emerged, however, they are law-
+as written, but they arise from the physical solution. The selection runs through the geometry: the
 
-selecting: they determine which temporal framework is operative and which temporal ordering is
+matter distribution shapes the metric through the Einstein equations, and the metric fixes
 
-physically operative.
+cosmological time (§6.3), so matter shapes the foliation without defining it. Once they have
+
+emerged, they are law-selecting: they determine which temporal framework applies and which temporal
+
+ordering is physically operative.
 
 
 
 This framing recasts the central CTGP claim from a metaphysical thesis about the nature of time into
 
-a physical thesis about how the universe's matter content generates its own temporal structure.
+a physical thesis about how the universe's matter content, through the geometry it produces, gives
 
-Physicists who would be skeptical of the former are often already committed to the latter in other
+rise to its own temporal structure. Physicists who would be skeptical of the former are often
 
-contexts. CTGP asks only for consistency: if emergent structures can select effective dynamics in
+already committed to the latter in other contexts. CTGP asks only for consistency: if emergent
 
-fluids, superconductors, and condensed matter systems, then the cosmological matter distribution can
+structures can select effective dynamics in fluids, superconductors, and condensed matter systems,
 
-select an effective temporal structure for the universe as a whole.
+then the cosmological matter distribution can select an effective temporal structure for the
+
+universe as a whole.
 
 
 
@@ -210,7 +270,7 @@ actualization mechanism aligned with CTGP's ontological edge. σ can be treated 
 
 updated hypersurfaces. This route has the virtue of providing an explicit physical mechanism for
 
-'selection' at each generation step.
+'selection' as generation proceeds.
 
 
 
@@ -313,61 +373,3 @@ Postulate 5: the σ-field constraint and its associated causal ordering. Classic
 smooth Lorentzian manifold — may not yet exist during this epoch. Light cones and metric structure
 
 may be only approximate or emergent quantities, becoming valid only after sufficient decoherence and
-
-coarse-graining. GR is therefore best interpreted as the low-energy effective limit of CTGP’s deeper
-
-generative structure, not as a law that held unmodified from the initial singularity. This alignment
-
-places CTGP within the broader class of quantum-gravity programs that treat classical spacetime as
-
-emergent — including causal set theory, loop quantum gravity, and emergent spacetime approaches —
-
-without committing CTGP to any one of them.
-
-
-
-The following table formalizes the domain of validity for each ontological level and its associated
-
-formal machinery within CTGP. The column “Formal Domain” specifies where each description applies;
-
-the column “Status” specifies the ontological category per Postulate 5.
-
-
-
-Level            | Description              | Status (per       | Formal domain
-
-                 |                          | Postulate 5)      |
-
------------------+--------------------------+-------------------+---------------------------------
-
-σ-generation law | Primitive generative     | Fundamental       | All regimes (pre-geometric and
-
-                 | ordering parameter       |                   | emergent)
-
-Causal ordering  | Partial order on         | Fundamental-      | All regimes; light-cone
-
-                 | generative stages        | emergent hybrid   | representation valid only post-
-
-                 |                          |                   | emergence
-
-General          | Effective classical      | Effective (α(ρ) → | Emergent geometric regime only
-
-Relativity (GR)  | spacetime dynamics       | 1)                | (ρ ≪ ρ_P)
-
-QFT              | Relativistic quantum     | Effective         | Emergent geometric regime only
-
-                 | field dynamics           |                   |
-
-Thermodynamics   | Statistical regularities | Emergent          | After sufficient decoherence and
-
-                 | from coarse-graining     |                   | coarse-graining
-
-
-
-The asymmetry in the “Formal Domain” column is the central structural claim of §10.2: σ-ordering is
-
-present and active at all stages, while every other level of law acquires its formal machinery only
-
-after the conditions for that level have been realized. GR is therefore never retroactively applied
-
-to the pre-geometric regime, and the σ-constraint is never suspended in the emergent regime. This

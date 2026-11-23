@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 20 of 35 (1,799 words)
+Part 20 of 36 (1,790 words)
+
+cosmological time, with a law collapse is ordered relative to it by the rule, and the joint
+
+statistics can then depend on that order, as in Proposition 13.23. In the realization of Proposition
+
+13.31, where the law’s collapses and the interventions are all realized by gapless pointers, no rule
+
+orders them, and this limit does not arise. Third, the correlation structure of part (e) is a
+
+statement about the collapse outcomes, which CTGP treats as primitive occurrences. It shows that the
+
+event statistics depend on the cosmic frame; it does not by itself show measurable Lorentz
 
 violation. By part (e), no unconditioned statistic of other operations reveals the order of law
 
@@ -82,11 +94,11 @@ the same holds for the other effects named in the third limit.
 
 Timing and physical realization. The first limit raises the question whether the collapses can be
 
-timed or realized differently. Three implementations can be compared. Centre-time ordering, rule
+timed or realized differently. Three implementations can be compared. Center-time ordering, rule
 
 (iii) of Candidate extension 13.27, applies each collapse when the generative present reaches the
 
-centre of its region. Completion-time ordering applies it only when the whole region lies in the
+center of its region. Completion-time ordering applies it only when the whole region lies in the
 
 generated past. A physical realization replaces each postulated instrument by the reading of a probe
 
@@ -106,9 +118,9 @@ value of T on its support, collapses being applied in order of increasing T(x) +
 
     (a) Same law. Because every smearing has the same half-width τ, the completion-time order of
 
-    every configuration is its centre-time order. The two rules therefore define the same joint law
+    every configuration is its center-time order. The two rules therefore define the same joint law
 
-    of centres and outcomes on every domain of finite four-volume, and the same measure on infinite
+    of centers and outcomes on every domain of finite four-volume, and the same measure on infinite
 
     histories in the setting of Proposition 13.28(f).
 
@@ -130,7 +142,7 @@ value of T on its support, collapses being applied in order of increasing T(x) +
 
 
 
-    (d) Varying half-widths. If the half-width varied from centre to centre, the two rules would
+    (d) Varying half-widths. If the half-width varied from center to center, the two rules would
 
     order some configurations differently. Lemma 13.26(b), which concerns translates of a single
 
@@ -154,7 +166,7 @@ the causal future of O_x, which is compact because Σ is a Cauchy surface and O_
 
 formula for φ(h_x) in the proof of Proposition 13.28(d) then involves only the Cauchy data in that
 
-set. (d) With half-widths τ_x that depend on the centre, the order of the values T(x) + τ_x differs
+set. (d) With half-widths τ_x that depend on the center, the order of the values T(x) + τ_x differs
 
 in general from the order of the values T(x). □
 
@@ -184,11 +196,11 @@ retarded fundamental solution of the field equation, and the sign is fixed by th
 
 Then E_ret(f, h) = 0 unless the support of f meets the causal future of the support of h. For a
 
-finite configuration of centres x_1, …, x_n with smearings h_k = h_{x_k} and regions O_k, set Γ_kl =
+finite configuration of centers x_1, …, x_n with smearings h_k = h_{x_k} and regions O_k, set Γ_kl =
 
 E_ret(h_k, h_l). Thus E(h_k, h_l) = Γ_kl − Γ_lk, and Γ_kl = 0 unless O_k meets the causal future of
 
-O_l; the diagonal entries Γ_kk are in general nonzero. Attach to centre k a pointer, one canonical
+O_l; the diagonal entries Γ_kk are in general nonzero. Attach to center k a pointer, one canonical
 
 degree of freedom with [q_k, p_k] = i and no Hamiltonian of its own, coupled to the field through
 
@@ -206,7 +218,7 @@ the pointer’s back-reaction on its own reading.
 
 
 
-The following lemma supplies the geometric input for infinite configurations of centres.
+The following lemma supplies the geometric input for infinite configurations of centers.
 
 
 
@@ -218,7 +230,7 @@ and (S, γ) is a complete Riemannian three-manifold of constant curvature, so th
 
 cosmological time. Write π(p) ∈ S for the comoving position of a point p. Fix τ > 0, ℓ > 0, and t_0
 
-> τ, and let the region of centres be the set of points x with t_0 < T(x) < T_max − τ, the upper
+> τ, and let the region of centers be the set of points x with t_0 < T(x) < T_max − τ, the upper
 
 bound being absent if T_max = ∞. For such x, let R_x be the set of points p with |T(p) − T(x)| ≤ τ
 
@@ -228,17 +240,17 @@ Candidate extension 13.27(ii).
 
 
 
-    (a) For every compact set K ⊂ M, the centres x whose sets R_x meet the causal past J⁻(K) lie in
+    (a) For every compact set K ⊂ M, the centers x whose sets R_x meet the causal past J⁻(K) lie in
 
     a compact subset of M, which has finite four-volume.
 
 
 
-    (b) Let the centres form a Poisson process with intensity λ dVol_g on the region of centres.
+    (b) Let the centers form a Poisson process with intensity λ dVol_g on the region of centers.
 
-    Almost surely every compact set contains only finitely many centres, and then, for every finite
+    Almost surely every compact set contains only finitely many centers, and then, for every finite
 
-    set S of centres, the set S⁻ of centres whose regions meet the causal past of the union of the
+    set S of centers, the set S⁻ of centers whose regions meet the causal past of the union of the
 
     regions O_k, k ∈ S, is finite.
 
@@ -249,13 +261,3 @@ Proof. (a) Let t_K be the largest value of T on K. The level set Σ = { T = t_0 
 surface, because t_0 − τ > 0, and in a globally hyperbolic spacetime the intersection of the causal
 
 past of a compact set with the causal future of a Cauchy surface is compact. Hence A = J⁻(K) ∩ { T ≥
-
-t_0 − τ } is compact, and so is its projection π(A) ⊆ S. Suppose that R_x meets J⁻(K) at a point p.
-
-Then T(p) ≥ T(x) − τ > t_0 − τ, so p ∈ A, and T(x) ≤ T(p) + τ ≤ t_K + τ, because T increases along
-
-future-directed causal curves. The value T(p) lies in the compact interval [t_0 − τ, t_K], on which
-
-a has a positive minimum a_*, so the condition a(T(p)) d_γ(π(p), π(x)) ≤ ℓ gives d_γ(π(x), π(A)) ≤
-
-ℓ/a_*. The set N of points of S within γ-distance ℓ/a_* of π(A) is closed and bounded, hence compact

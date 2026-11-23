@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 10 of 35 (1,793 words)
+Part 10 of 36 (1,789 words)
+
+The discrete-stage model of Part II is a coarse-grained description of the continuous one. With
+
+stage duration τ and λ = 1 − e^{−Λτ}, the probability of at least one hit in a stage is the same in
+
+both models. The discrete model differs in two respects: it allows at most one event per stage, and
+
+it places each event at the end of its stage. The probability of two or more hits in one stage is of
+
+order (Λτ)², so the discrete model approximates the continuous one when Λτ is small. The discrete
+
+stages are therefore not a claim that generation proceeds in jumps; they are a sampling of a
 
 continuous process, used in Part II because finite induction makes every proof exact.
 
@@ -345,15 +357,3 @@ distribution to any two histories of equal length that reach the same present ra
 suffices to exhibit such pairs with different next-event distributions.
 
 
-
-(a) Take the histories ω_1 = ((A,B,d), k) and ω_2 = (∅, k) with any d and any flash k. Under the
-
-law, ω_1 applies F_k at its second transition (its first event is on the pair (A,B)), and ω_2
-
-applies F″_k (its first event is ∅). The branch products M_1 = F_k W F_{(A,B,d)} W and M_2 = F″_k W
-
-F_∅ W are invertible, because for s > 0 every Kraus operator of either instrument is invertible
-
-(w(r) > 0 for all r and λ < 1). Define the initial rays [M_1^{−1} Φ] and [M_2^{−1} Φ]. Running each
-
-history from its initial ray returns a vector proportional to Φ, and each transition has nonzero

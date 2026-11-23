@@ -1,6 +1,36 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 12 of 35 (1,798 words)
+Part 12 of 36 (1,797 words)
+
+Conceptual   | No identified logical contradiction under specified assumptions
+
+Mathematical | A well-defined model satisfies CTGP’s stated compatibility conditions
+
+Physical     | The model reproduces the required observations and survives empirical tests
+
+
+
+Table 3. Three levels of compatibility.
+
+
+
+The finite model establishes mathematical compatibility on its own domain (Proposition 12.2). It
+
+does not establish physical compatibility, and a mathematically consistent model can be physically
+
+inadequate. The results below for the relativistic, temporal, and gravitational directions are of
+
+three kinds: finite-dimensional theorems that are analogues of the required results, conditional
+
+propositions, and open targets.
+
+
+
+12.4 Ontology Versus Implementation
+
+
+
+CTGP’s foundational ontology is what (P1)–(P6) assert. A relativistic flash model, a Bohmian field
 
 theory, or a quantum-gravitational causal structure might each satisfy Definition 12.1 by quite
 
@@ -106,7 +136,7 @@ algebras, is the more appropriate setting (Wald 1994; Hollands & Wald 2015).
 
 
 
-13.2 Hypersurface Evolution and Its Limits
+13.2 Hypersurface Dynamics and Its Limits
 
 
 
@@ -297,21 +327,3 @@ Proof. Theorem 13.4(a)–(b). □
 Corollary 13.5 is established for finite event structures under the stated locality assumption, not
 
 for arbitrary relativistic quantum dynamics. It is the realized-history counterpart of CTGP’s
-
-observational equivalence (CTGP – explained, §12.1): within causally local finite models, under the
-
-commutation assumption of Definition 13.3, the choice of generative foliation has no empirical
-
-signature, and a single realized history can be represented on any family of hypersurfaces without
-
-multiplying the number of histories. If each K^x_a is invariant under a symmetry group in the sense
-
-of §3, Lemma 3.7 applies slot by slot, and Theorem 13.4 holds in every frame.
-
-
-
-Foliation-independent probabilities do not by themselves establish that any foliation is
-
-ontologically privileged. What Corollary 13.5 shows is that privileging one foliation is empirically
-
-invisible under the stated assumptions. That one foliation is in fact generative is CTGP’s

@@ -1,4 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 08 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 08 of 35 · 1,784 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-08.md">Raw Markdown</a><a href="part-07.html">Previous part</a><a href="part-09.html">Next part</a></nav><main class="source"><div>8. The Criteria in the Model, With Numerical Checks</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 08 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 08 of 36 · 1,794 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-08.md">Raw Markdown</a><a href="part-07.html">Previous part</a><a href="part-09.html">Next part</a></nav><main class="source"><div>an absolute label records in a closed universe. Second, the CSL equation cited in CTGP – explained,</div>
+<div>§10.1, uses smeared mass-density operators A(x) at absolute positions x. Reformulating CSL in terms</div>
+<div>of mass densities relative to material frames is a natural route for CTGP’s collapse option (Q2),</div>
+<div>but whether CSL must be so reformulated depends on the formulation and would require further</div>
+<div>argument. What the present construction establishes is sufficiency: invariant relational collapse</div>
+<div>operators provide an explicit, verified realization of QRF-compatible single-outcome dynamics. The</div>
+<div>equivalence proved above concerns the action of an operator on physical states; it does not show</div>
+<div>that every physically acceptable collapse theory must use the particular relational flash ontology</div>
+<div>of §7.2, which is one realization among others.</div>
+<div>&nbsp;</div>
+<div>----------------------------------------------------------------------------------------------------</div>
+<div>8. The Criteria in the Model, With Numerical Checks</div>
 <div>----------------------------------------------------------------------------------------------------</div>
 <div>&nbsp;</div>
 <div>8.1 Generative Law and Single Outcome</div>
@@ -125,12 +136,12 @@
 <div>        J_{(i,j,d)} = √(Λ/3) · Σ_r √(w(r−d)) P_{ij}(r),     so that     Σ_k J_k† J_k = Λ · 1.</div>
 <div>&nbsp;</div>
 <div>The process runs as follows. Hit times t_1 &lt; t_2 &lt; … form a Poisson process of rate Λ. Between hits</div>
-<div>the state evolves by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k ψ‖² /</div>
-<div>Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.</div>
+<div>the state is propagated by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k</div>
+<div>ψ‖² / Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.</div>
 <div>&nbsp;</div>
 <div>This is the standard quantum-jump unravelling of a Lindblad equation. Because Σ_k J_k† J_k is</div>
 <div>proportional to the identity, the effective non-Hermitian Hamiltonian H_eff = H − (i/2) Σ_k J_k† J_k</div>
-<div>= H − (iΛ/2) · 1 differs from H by a constant, so the evolution between hits is unitary up to a</div>
+<div>= H − (iΛ/2) · 1 differs from H by a constant, so the propagation between hits is unitary up to a</div>
 <div>uniform decay of norm, and the hit times are independent of the state. This is precisely the</div>
 <div>structure of the original GRW model, here with relational jump operators.</div>
 <div>&nbsp;</div>
@@ -148,19 +159,9 @@
 <div>&nbsp;</div>
 <div>Proof. (i) In finite dimension, with bounded H and state-independent Poisson hit times, the</div>
 <div>construction is explicit: a Poisson process of finite rate has almost surely finitely many points in</div>
-<div>any bounded interval, and between them the evolution is a fixed unitary flow. (ii) H and every J_k</div>
+<div>any bounded interval, and between them the state follows a fixed unitary flow. (ii) H and every J_k</div>
 <div>are invariant, so exp(−iHt) and the normalized jumps map H_phys to itself. (iii) The Lindblad form</div>
 <div>follows from averaging the jump process, which is standard; the term −Λρ is −(1/2){Σ_k J_k† J_k, ρ}</div>
 <div>with Σ_k J_k† J_k = Λ · 1. Invariance of H and J_k implies that the generator commutes with</div>
 <div>conjugation by U_h, so density operators supported on H_phys remain so. (iv) By Lemma 3.7, ‖J^A_k</div>
-<div>exp(−iH^A t) R_A Ψ‖ = ‖J_k exp(−iHt) Ψ‖ and likewise for frame B; hit times do not depend on the</div>
-<div>state; so the joint law of (hit time, event) sequences is the same in every frame, and induction</div>
-<div>over hits gives the state relation, as in Theorem 5.12. □</div>
-<div>&nbsp;</div>
-<div>9.3 Continuous-Time Histories as Marked Point Processes</div>
-<div>&nbsp;</div>
-<div>In continuous time a history consists of event labels together with their times, and the truth</div>
-<div>profile contains a continuum of state propositions. Both must be defined explicitly.</div>
-<div>&nbsp;</div>
-<div>Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t &gt; 0. A record on [0, t] is a finite</div>
-<div>sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 &lt; t_1 &lt; ⋯ &lt; t_m ≤ t, and k_j ∈ 𝒦. The record</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-08.md">Raw Markdown</a><a href="part-07.html">Previous part</a><a href="part-09.html">Next part</a></nav></body></html>
+<div>exp(−iH^A t) R_A Ψ‖ = ‖J_k exp(−iHt) Ψ‖ and likewise for frame B; hit times do not depend on the</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-08.md">Raw Markdown</a><a href="part-07.html">Previous part</a><a href="part-09.html">Next part</a></nav></body></html>

@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 11 of 35 (1,790 words)
+Part 11 of 36 (1,795 words)
+
+(a) Take the histories ω_1 = ((A,B,d), k) and ω_2 = (∅, k) with any d and any flash k. Under the
+
+law, ω_1 applies F_k at its second transition (its first event is on the pair (A,B)), and ω_2
+
+applies F″_k (its first event is ∅). The branch products M_1 = F_k W F_{(A,B,d)} W and M_2 = F″_k W
+
+F_∅ W are invertible, because for s > 0 every Kraus operator of either instrument is invertible
+
+(w(r) > 0 for all r and λ < 1). Define the initial rays [M_1^{−1} Φ] and [M_2^{−1} Φ]. Running each
+
+history from its initial ray returns a vector proportional to Φ, and each transition has nonzero
 
 probability because invertible operators annihilate no nonzero vector. At the present stage, ω_1
 
@@ -226,7 +238,7 @@ CTGP’s negative result on density-weighted generation (C-l) constrains every r
 
 extension must not make different regions become real at rates set by local matter density. Local
 
-matter, fields, clocks, and stochastic events may evolve differently while belonging to one
+matter, fields, clocks, and stochastic events may behave differently while belonging to one
 
 underlying generative ordering.
 
@@ -345,33 +357,3 @@ in this Part.
 Level        | What has been established
 
 -------------+------------------------------------------------------------------------------
-
-Conceptual   | No identified logical contradiction under specified assumptions
-
-Mathematical | A well-defined model satisfies CTGP’s stated compatibility conditions
-
-Physical     | The model reproduces the required observations and survives empirical tests
-
-
-
-Table 3. Three levels of compatibility.
-
-
-
-The finite model establishes mathematical compatibility on its own domain (Proposition 12.2). It
-
-does not establish physical compatibility, and a mathematically consistent model can be physically
-
-inadequate. The results below for the relativistic, temporal, and gravitational directions are of
-
-three kinds: finite-dimensional theorems that are analogues of the required results, conditional
-
-propositions, and open targets.
-
-
-
-12.4 Ontology Versus Implementation
-
-
-
-CTGP’s foundational ontology is what (P1)–(P6) assert. A relativistic flash model, a Bohmian field

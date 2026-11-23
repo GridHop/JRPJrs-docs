@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 04 of 35 (1,794 words)
+Part 04 of 36 (1,796 words)
+
+history at a stage consists of the states and events that have occurred and are now past. Past
+
+stages do not continue to exist; truths about them are grounded in the present world’s Lucretian
+
+profile. The actual history through the present, where that phrase is needed, adds the presently
+
+existing state to its past; it does not mean that the present has already become past. An admissible
+
+history, by contrast, is a mathematical object: a possible sequence of events permitted by the law,
+
+an element of the probability space defined below. The set of admissible histories lists the
 
 alternatives the law permits. It does not represent alternative histories that exist side by side,
 
@@ -319,21 +331,3 @@ condition is one more fact about the past.
 
 
 Definition 5.1 (Determinate propositions). At stage σ, with complete state Ω_σ = (S_σ, L_σ), the
-
-determinate propositions fall into three tiers.
-
-
-
-    Tier 1 (events). For each past transition σ″ → σ‴ with σ‴ ≤ σ and each k ∈ 𝒦, the proposition
-
-    “in the generation of σ‴, event k occurred” is determinate. It is true iff Had(σ″ → σ‴, k) ∈
-
-    L_σ. Boolean combinations of Tier 1 propositions are determinate.
-
-
-
-    Tier 2 (states). For each σ″ ≤ σ, the proposition “at σ″ the state was [Ψ]” is determinate. For
-
-    σ″ < σ it is true iff Had(σ″, [Ψ]) ∈ L_σ; for σ″ = σ it is true iff S_σ = [Ψ].
-
-

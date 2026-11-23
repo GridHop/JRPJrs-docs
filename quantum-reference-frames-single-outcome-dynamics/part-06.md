@@ -1,6 +1,26 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 06 of 35 (1,798 words)
+Part 06 of 36 (1,798 words)
+
+Corollary 5.13 (Failure of same-form laws). If frame B adopts a law with the same matrices as frame
+
+A’s law but written in B’s coordinates, that is, W^B = W^A and F^B_k = F^A_k as matrices, then in
+
+general the two frames assign different probabilities to the same histories and do not describe one
+
+world.
+
+
+
+Proof. Such a pair satisfies Definition 5.11 only if W^A and every F^A_k commute with V_{A→B}, which
+
+fails in general. Section 8 gives an instance with total-variation distance 0.180 between the two
+
+measures over histories. □
+
+
+
+Corollary 5.13 shows what “valid transformation” excludes: it is not enough for each frame to use a
 
 law that looks natural from its own point of view; the laws must be related by the frame-change
 
@@ -347,21 +367,3 @@ events that occurred in them, do not exist. CTGP also accepts a truthmaker princ
 truths: what is true about the past must be grounded in what exists, and on presentism only the
 
 present exists (CTGP – explained, §5.2.1). Not every presentist accepts such a principle; some
-
-reject unrestricted truthmaker requirements for past-tense truths altogether (Merricks 2007). The
-
-argument that follows is therefore conditional: given CTGP’s truthmaker principle, something present
-
-must make past-tense propositions true, and the options are limited.
-
-
-
-    (i) Records. Past-tense truths might be grounded in present physical traces. Proposition 4.12
-
-    rules this out within the model: the present physical state is reachable along every event
-
-    sequence from a suitable initial state, so no function of the present physical state, and hence
-
-    no record contained in it, fixes the complete past. Grounding past truths in records would leave
-
-    many of them without truthmakers, and it would make the past revisable whenever records degrade,

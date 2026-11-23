@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 03 of 35 (1,794 words)
+Part 03 of 36 (1,785 words)
+
+Write φ(x) = Ψ(e, x_1, …, x_M). Then ‖Ψ‖² = Σ_{g_0} Σ_{x} |φ(x)|² = |G| ‖φ‖², so ‖R_A Ψ‖ = √|G| ‖φ‖
+
+= ‖Ψ‖. Conversely, for any φ ∈ H_A the vector R_A^{−1} φ defined above is invariant (left
+
+multiplication by h permutes the summation index a), and R_A R_A^{−1} φ = φ by direct substitution.
+
+Hence R_A is an isometry onto H_A, that is, unitary. □
+
+
+
+Definition 3.4 (Valid frame change). For frames A and B, the frame change is
+
+
+
+        V_{A→B} = R_B R_A^{−1} : H_A → H_B.
+
+
 
 Proposition 3.5 (Groupoid law). V_{A→B} is unitary; V_{A→A} = 1; V_{B→A} = V_{A→B}^{−1}; and V_{B→C}
 
@@ -246,7 +264,7 @@ ontology denies.
 
 In particular, an event concerning a relational quantity need not be the possession of a sharp value
 
-of that quantity. In the model of Part III, an event (i, j, d) is a flash centred on the separation
+of that quantity. In the model of Part III, an event (i, j, d) is a flash centered on the separation
 
 d between particles i and j, with finite width s. Its occurrence does not make the proposition “the
 
@@ -353,15 +371,3 @@ by the law.
 Histories, actuality, and futurity. Three uses of the word history must be kept apart, because the
 
 mathematics speaks of histories in a sense that carries no ontological commitment. The actual past
-
-history at a stage consists of the states and events that have occurred and are now past. Past
-
-stages do not continue to exist; truths about them are grounded in the present world’s Lucretian
-
-profile. The actual history through the present, where that phrase is needed, adds the presently
-
-existing state to its past; it does not mean that the present has already become past. An admissible
-
-history, by contrast, is a mathematical object: a possible sequence of events permitted by the law,
-
-an element of the probability space defined below. The set of admissible histories lists the

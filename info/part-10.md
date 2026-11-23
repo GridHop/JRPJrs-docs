@@ -482,7 +482,7 @@ capacity to sustain the relevant integrated activity (massive diffuse injury, ce
 
 brainstem/thalamo-cortical disruptions, deep coma states, etc.). But “deaf + blind + paralyzed”
 
-alone is not equivalent to “unconscious”..
+alone is not equivalent to “unconscious”.
 
 
 

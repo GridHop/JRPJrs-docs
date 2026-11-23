@@ -1,4 +1,19 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 35 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 35 of 35 · 1,735 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-35.md">Raw Markdown</a><a href="part-34.html">Previous part</a></nav><main class="source"><div>print(&#x27;       direct characteristic functions differ by up to %.4f&#x27; % ov[&#x27;seq&#x27;])</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 35 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 35 of 36 · 1,796 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-35.md">Raw Markdown</a><a href="part-34.html">Previous part</a><a href="part-36.html">Next part</a></nav><main class="source"><div>print(&#x27;       deviation from Gamma, 32 and 64 nodes per axis: %.1e, %.1e (overlapping),&#x27;</div>
+<div>      % tuple(ov[&#x27;disc&#x27;]))</div>
+<div>print(&#x27;       %.1e, %.1e (one-way)&#x27; % tuple(ow[&#x27;disc&#x27;]))</div>
+<div>print(&#x27;   (b) overlapping pair, explicit pointers, characteristic function vs closed form:&#x27;)</div>
+<div>print(&#x27;       pre-chirped pointers %.1e; without the pre-chirp, full Gamma, %.1e&#x27;</div>
+<div>      % (ov[&#x27;dev&#x27;][True], ov[&#x27;dev&#x27;][False]))</div>
+<div>print(&#x27;   (c) unread field channel vs two Gaussian collapse channels: max dev %.1e;&#x27;</div>
+<div>      % ov[&#x27;unread&#x27;])</div>
+<div>print(&#x27;       trace %.12f&#x27; % ov[&#x27;trace&#x27;])</div>
+<div>print(&#x27;   (d) one-way pair: pointers vs Gaussian collapses applied in causal order, direct&#x27;)</div>
+<div>print(&#x27;       characteristic functions: max dev %.1e; closed-form covariances: max diff %.1e&#x27;</div>
+<div>      % (ow[&#x27;seq&#x27;], np.abs(ow[&#x27;C&#x27;] - ow[&#x27;Cord&#x27;]).max()))</div>
+<div>dC = ov[&#x27;C&#x27;] - ov[&#x27;Cord&#x27;]</div>
+<div>print(&#x27;       overlapping pair, pointer law minus the law of collapses in centre-time order:&#x27;)</div>
+<div>print(&#x27;       Var(y1) %+.6f, Var(y2) %+.6f, Cov(y1, y2) %+.6f;&#x27; % (dC[0, 0], dC[1, 1], dC[0, 1]))</div>
+<div>print(&#x27;       direct characteristic functions differ by up to %.4f&#x27; % ov[&#x27;seq&#x27;])</div>
 <div>&nbsp;</div>
 <div>Output:</div>
 <div>&nbsp;</div>
@@ -199,10 +214,4 @@
 <div>   A-time: P_A(-0.5) = 0.000000, P_A(0.0) = 0.000000, P_A(0.5) = 0.153583, P_A(1.0) = 0.139628</div>
 <div>   B-time: P_B(-1.0) = 0.021295, P_B(-0.4) = 0.032189, P_B(0.2) = 0.145553, P_B(0.6) = 0.144791</div>
 <div>   O is a projector on the sector: max |O^2 - O| = 4.0e-15</div>
-<div>Case 2: interaction 1 (keyed to A) rotates S; interaction 2 (keyed to B) records S</div>
-<div>   P_phys = 0.706791827009   P_A(4.0) = 0.706791827009   P_B(4.68) = 0.706791827009</div>
-<div>   definite orders: record first 0.868488 (weight 0.5000), rotation first 0.545095 (weight 0.5000)</div>
-<div>   weighted mixture of the two definite orders = 0.706791827009</div>
-<div>Case 3: the same interactions, an offset-coherent observable (H_S = 0)</div>
-<div>   P(+): clock-neutral 0.926776695297, relative to A 0.926776695297, relative to B 0.926776695297</div>
-<div>   (1 + Re&lt;W1 psi, W2 psi&gt;)/2 = 0.926776695297; incoherent mixture of offsets gives 0.500000000000</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-35.md">Raw Markdown</a><a href="part-34.html">Previous part</a></nav></body></html>
+<div>Case 2: interaction 1 (keyed to A) rotates S; interaction 2 (keyed to B) records S</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-35.md">Raw Markdown</a><a href="part-34.html">Previous part</a><a href="part-36.html">Next part</a></nav></body></html>

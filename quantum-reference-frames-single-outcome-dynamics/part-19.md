@@ -1,12 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 19 of 35 (1,790 words)
+Part 19 of 36 (1,798 words)
+
+A one-way relation therefore forces d⁰ > 0. On an admissible configuration every relation between
+
+regions is one-way, and the causal order is the transitive closure of these relations, so it
+
+increases the time of the centers. □
+
+
+
+Candidate extension 13.27 (Collapse guided by cosmological time; not adopted). Let (M, g) be an FLRW
+
+spacetime with a big-bang singularity, so that its cosmological time T is regular, coincides with
+
+the FLRW time, is smooth, and has Cauchy surfaces as level sets (§13.1), and let φ be the free field
+
+of §13.6. The candidate is stated for this class only. For other spacetimes with regular
 
 cosmological time, a smooth smearing law built from T and g alone would first have to be specified.
 
 
 
-    (i) Locations. Collapse centres form a Poisson process with intensity λ dVol_g in the region T >
+    (i) Locations. Collapse centers form a Poisson process with intensity λ dVol_g in the region T >
 
     t_0, as in Definition 13.20, where t_0 > τ is fixed by condition (ii). If the universe
 
@@ -24,9 +40,9 @@ cosmological time, a smooth smearing law built from T and g alone would first ha
 
     functions with ψ₀ supported in [0, 1), and c is a constant. The radius ℓ and the earliest time
 
-    t_0 of item (i) are chosen so that, for every centre with T(x) > t_0, the slab stays away from
+    t_0 of item (i) are chosen so that, for every center with T(x) > t_0, the slab stays away from
 
-    the big bang and the support lies within a normal neighbourhood of the worldline in every level
+    the big bang and the support lies within a normal neighborhood of the worldline in every level
 
     set it meets, that is, inside the injectivity radius of those level sets, which is infinite for
 
@@ -56,7 +72,7 @@ Proposition 13.28 (Properties of the candidate extension).
 
 
 
-    (a) Completeness. Every finite configuration of centres, admissible or not, receives a
+    (a) Completeness. Every finite configuration of centers, admissible or not, receives a
 
     normalized joint law of outcomes. The candidate therefore defines an unconditional collapse
 
@@ -66,7 +82,7 @@ Proposition 13.28 (Properties of the candidate extension).
 
     (b) Agreement with the causal-order dynamics. The ordering rule agrees with causal precedence
 
-    for every pair of collapses whose centres differ in cosmological time by more than 2τ. In the
+    for every pair of collapses whose centers differ in cosmological time by more than 2τ. In the
 
     flat local model of Lemma 13.26(b), the law coincides with that of Theorem 13.21 on every
 
@@ -94,7 +110,7 @@ Proposition 13.28 (Properties of the candidate extension).
 
     level set T = T(x). It can therefore be applied when the generative present reaches T(x), and
 
-    the centres in each successive slab of cosmological time are drawn from that slab alone. The
+    the centers in each successive slab of cosmological time are drawn from that slab alone. The
 
     process is generated forward along cosmological time from the present field state and the
 
@@ -126,11 +142,11 @@ Proposition 13.28 (Properties of the candidate extension).
 
     operations, leaves every unconditioned statistic of those other operations unchanged. For two
 
-    collapses with E(h_i, h_j) ≠ 0 whose centres differ in cosmological time by at most 2τ, the
+    collapses with E(h_i, h_j) ≠ 0 whose centers differ in cosmological time by at most 2τ, the
 
-    joint law of the outcomes depends on which centre is earlier in cosmological time (Proposition
+    joint law of the outcomes depends on which center is earlier in cosmological time (Proposition
 
-    13.23). When such centres are spacelike-separated, different inertial frames would order them
+    13.23). When such centers are spacelike-separated, different inertial frames would order them
 
     differently, so the ordering rule produces cosmic-frame-dependent correlations among collapse
 
@@ -142,15 +158,15 @@ Proposition 13.28 (Properties of the candidate extension).
 
     t_0 < T(p) ≤ t } has finite four-volume, as in spatially closed FLRW spacetimes; every level set
 
-    of T has four-volume zero. Then almost surely only finitely many centres lie in each D_t and no
+    of T has four-volume zero. Then almost surely only finitely many centers lie in each D_t and no
 
-    two share a value of T, so the centres form a sequence x_1, x_2, … ordered by T, which is finite
+    two share a value of T, so the centers form a sequence x_1, x_2, … ordered by T, which is finite
 
-    if the region of centres has finite four-volume and infinite otherwise. There is a unique
+    if the region of centers has finite four-volume and infinite otherwise. There is a unique
 
-    probability measure on the corresponding histories of marked centres, finite or infinite, whose
+    probability measure on the corresponding histories of marked centers, finite or infinite, whose
 
-    marginal on the centres and outcomes in each D_t is the law of part (a) for the domain D_t. This
+    marginal on the centers and outcomes in each D_t is the law of part (a) for the domain D_t. This
 
     projective consistency holds for the nested past regions D_t. It does not hold for an arbitrary
 
@@ -162,7 +178,7 @@ Proposition 13.28 (Properties of the candidate extension).
 
     volume, as in spatially infinite FLRW spacetimes, every slab of cosmological time contains
 
-    infinitely many centres almost surely, so its collapses cannot be applied one after another in
+    infinitely many centers almost surely, so its collapses cannot be applied one after another in
 
     order of T, and the existence of a global process is open.
 
@@ -178,7 +194,7 @@ globally hyperbolic spacetime, φ(h) = ∫_Σ ((Eh) ∇_nφ − φ ∇_n(Eh)) d�
 
 to a sign fixed by the convention for E (Wald 1994), and the level sets of T are Cauchy surfaces by
 
-assumption. The statement about the centres is Theorem 13.21(e). (e) Proposition 13.16(c) and (d),
+assumption. The statement about the centers is Theorem 13.21(e). (e) Proposition 13.16(c) and (d),
 
 the rotational symmetry of h_x, and Campbell’s formula give the energy–momentum. The unread channels
 
@@ -190,17 +206,17 @@ every observable of the field. The order dependence of the joint outcome law is 
 
 (f) Since Vol_g(D_t) is finite, the Poisson count in D_t is finite almost surely, and since level
 
-sets have four-volume zero, ties in T have probability zero. Given the past, the next centre is the
+sets have four-volume zero, ties in T have probability zero. Given the past, the next center is the
 
 first Poisson point above the current value of T, by the complete independence of the Poisson
 
-process, or there is no further centre, an outcome of probability exp(−λ v(t′)) at the current value
+process, or there is no further center, an outcome of probability exp(−λ v(t′)) at the current value
 
-t′, where v(t′) is the four-volume of the part of the region of centres with T > t′; this
+t′, where v(t′) is the four-volume of the part of the region of centers with T > t′; this
 
 probability is positive when v(t′) is finite. Including that terminal state, both the kernel for the
 
-next centre and the Born-rule kernel for the next outcome are measurable on standard Borel spaces,
+next center and the Born-rule kernel for the next outcome are measurable on standard Borel spaces,
 
 and the Ionescu-Tulcea theorem gives a unique measure on histories with these kernels. Its marginal
 
@@ -216,7 +232,7 @@ points there almost surely. □
 
 
 
-In the numerical checks (Appendix C.1, items C3(g) and C3(h)), ordering by the times of the centres
+In the numerical checks (Appendix C.1, items C3(g) and C3(h)), ordering by the times of the centers
 
 is a linear extension of the causal order in all 300 admissible configurations of item C3(c), as
 
@@ -252,22 +268,10 @@ collapse of φ(h_x) concerns the field smeared over a region that extends to cos
 
 τ, so its physical localization is extended in time, and a fully local dynamical implementation of
 
-the centre-time rule, for instance through a coupled field, has not been given; Propositions 13.29
+the center-time rule, for instance through a coupled field, has not been given; Propositions 13.29
 
 and 13.31 below examine two alternatives. Second, part (c) covers the stated class of operations. It
 
 does not show that arbitrary physically implementable interventions can be inserted without
 
 detectable effects of the ordering rule: an intervention whose region interferes, within 2τ in
-
-cosmological time, with a law collapse is ordered relative to it by the rule, and the joint
-
-statistics can then depend on that order, as in Proposition 13.23. In the realization of Proposition
-
-13.31, where the law’s collapses and the interventions are all realized by gapless pointers, no rule
-
-orders them, and this limit does not arise. Third, the correlation structure of part (e) is a
-
-statement about the collapse outcomes, which CTGP treats as primitive occurrences. It shows that the
-
-event statistics depend on the cosmic frame; it does not by itself show measurable Lorentz

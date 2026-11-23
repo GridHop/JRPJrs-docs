@@ -118,7 +118,7 @@ and “that’s a former part of me.”
 
 “If you claim fondness of someone, is just their mind referred to?” It can depend - when you’re fond
 
-of someone, you can be, but are’t limited to being, fond of who they are: their mind, character,
+of someone, you can be, but aren’t limited to being, fond of who they are: their mind, character,
 
 perspective even able to be excluding being fond of their tissue. That’s why fondness survives them
 

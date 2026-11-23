@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 03 of 26 (1,785 words)
+Part 03 of 26 (1,786 words)
 
 The following arrows all point in the same direction within CTGP, and their alignment is not
 
@@ -184,9 +184,9 @@ require quantum indeterminacy as the engine of becoming; the generation paramete
 
 cosmological time, a classical geometric invariant, and is compatible with multiple quantum
 
-interpretations. Second, CTGP provides an explicit formal treatment of σ-reparameterization of ADM
+interpretations. Second, CTGP provides an explicit formal treatment of σ-reparameterization of the
 
-evolution, which grounds the growth parameter in the variational structure of the Einstein–matter
+ADM dynamics, which grounds the growth parameter in the variational structure of the Einstein–matter
 
 system without requiring quantum indeterminacy as the mechanism of generation, while remaining
 

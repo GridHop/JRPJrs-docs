@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 01 of 26 (1,789 words)
+Part 01 of 26 (1,793 words)
 
 COSMIC-TIME GENERATIVE PRESENTISM (CTGP)
 
@@ -94,35 +94,35 @@ ontology cannot be verified by measurement at fixed physics. It remains empirica
 
 presentism requires the fundamental laws to be generable from the present state, meaning that under
 
-them the present state alone suffices to generate its successor, with no dependence on future boundary
+them the present state alone suffices to generate its successor, with no dependence on future
 
-data and no global consistency conditions requiring the whole history at once — a structural
+boundary data and no global consistency conditions imposed on the whole of spacetime at once — a
 
-commitment that a confirmed chronology violation, interventionist retrocausal dependence, or an
+structural commitment that a confirmed chronology violation, interventionist retrocausal dependence,
 
-indispensable future boundary condition or global consistency requirement that precludes an adequate
+or an indispensable future boundary condition or global consistency requirement that precludes an
 
-forward-generative account would refute. A unique final state that simply results from deterministic
+adequate forward-generative account would refute. A unique final state that simply results from
 
-dynamics does not count; only a final condition that must be imposed as an independent input to fix
+deterministic dynamics does not count; only a final condition that must be imposed as an independent
 
-earlier states would. Current physics is consistent with that commitment but does not establish it.
+input to fix earlier states would. Current physics is consistent with that commitment but does not
 
-Because it entails a unique factual past, CTGP also requires single-outcome realism in quantum theory,
+establish it. Because it entails a unique factual past, CTGP also requires single-outcome realism in
 
-which excludes standard Everettian ontology. CTGP traces the causal, record-forming, and
+quantum theory, which excludes standard Everettian ontology. CTGP traces the causal, record-forming,
 
-experiential arrows of time to the direction of generation, relates the thermodynamic arrow to it
+and experiential arrows of time to the direction of generation, relates the thermodynamic arrow to
 
-without reducing it, answers the principal objections — relativity of simultaneity, Lorentz invariance,
+it without reducing it, answers the principal objections — relativity of simultaneity, Lorentz
 
-diffeomorphism invariance, strong-curvature foliation, point presentism, the absence of any intrinsic
+invariance, diffeomorphism invariance, strong-curvature foliation, point presentism, the absence of
 
-marker of the present, and underdetermination — and constrains where physically instantiated
+any intrinsic marker of the present, and underdetermination — and constrains where physically
 
-processes associated with experience may occur, without claiming to determine the nature of
+instantiated processes associated with experience may occur, without claiming to determine the
 
-consciousness.
+nature of consciousness.
 
 
 
@@ -238,7 +238,7 @@ CTGP’s core claim is not that relativity is false, but that the ontology sugge
 
 ‘block’ is not forced by the formalism. GR’s initial-value structure is entirely compatible with a
 
-generative reading: evolution equations are not merely descriptive of a pre-existing block, but
+generative reading: its dynamical equations are not merely descriptive of a pre-existing block, but
 
 lawlike rules governing a continuously advancing generative flow, whose state at any moment admits
 
@@ -324,9 +324,9 @@ continuous framework. Its core mathematical structures — the timelike gradient
 
 flow vector n^μ, smooth scalar-field representations, continuous propagation equations, a foliation
 
-by future Cauchy surfaces that is smooth wherever cosmological time is differentiable, and ADM
+by future Cauchy surfaces that is smooth wherever cosmological time is differentiable, and the ADM
 
-evolution — are all continuously defined. Continuity here refers to the generative ordering, not to
+dynamics — are all continuously defined. Continuity here refers to the generative ordering, not to
 
 the smoothness of every hypersurface: inside collapsed structure, the level sets of cosmological
 

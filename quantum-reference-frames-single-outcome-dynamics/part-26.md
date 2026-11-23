@@ -1,6 +1,42 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 26 of 35 (1,799 words)
+Part 26 of 36 (1,796 words)
+
+neither establishes nor refutes CTGP. The generalization contemplated above would be needed only if
+
+indefinite order proved fundamental, at the level of (ii) or of the generative ordering itself,
+
+rather than a feature of effective operations or clock-relative descriptions.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+15. Quantum Gravity
+
+----------------------------------------------------------------------------------------------------
+
+
+
+15.1 Fundamental Generative Order Versus Classical Cosmological Time
+
+
+
+In the classical regime, CTGP identifies the present with a level set of the cosmological time
+
+T_g(p) = sup { L_g(γ) : γ a past-directed causal curve from p }, subject to the regularity
+
+conditions of §13.1. A fundamental quantum theory of gravity may have no single classical metric. A
+
+state of the schematic form α|g_1⟩ + β|g_2⟩, with g_1 and g_2 inducing different cosmological-time
+
+functions, has no unique classical T. The program therefore distinguishes
+
+
+
+        fundamental generative order  ≠  classical cosmological-time function.
+
+
 
 The two must agree in the appropriate classical limit, but they need not coincide at the fundamental
 
@@ -397,39 +433,3 @@ Part III:
     initial ray (Proposition 4.12).
 
 
-
-    (4) Determinacy is frame-independent, with a three-tier criterion in which primitive events,
-
-    distinguished from sharp values, carry single-outcome realism (Definition 5.1, Propositions 4.4
-
-    and 5.2).
-
-
-
-    (5) Valid frame changes intertwine the generative law: the measure over histories, the
-
-    conditional independence of future from past given the present, and the truth of every
-
-    determinate proposition are frame-invariant and preserved by generation (Theorems 5.12 and 5.16,
-
-    Corollary 5.14). Laws that merely look alike in different frames do not describe one world
-
-    (Corollary 5.13).
-
-
-
-    (6) Ontological identity, physical equivalence, and observational indistinguishability are
-
-    distinct relations, ordered by strict implication (Proposition 5.19).
-
-
-
-    (7) L is generated, admissible, not reducible to S, accurate, frame-covariant, and dynamically
-
-    idle (Theorem 5.20).
-
-
-
-    (8) The model has a continuous-time form, with histories as marked point processes, for which
-
-    admissibility, reconstruction, dynamical idleness, cross-frame correspondence, and truth

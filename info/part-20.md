@@ -1,6 +1,6 @@
 # Info
 
-Part 20 of 23 (1,799 words)
+Part 20 of 23 (1,798 words)
 
 computing hardware has experiential properties of its own is a separate question this criterion
 
@@ -34,19 +34,19 @@ Computational systems implement syntactic state transitions. Physical systems ca
 
 intrinsic causal dynamics. The crucial asymmetry is that computation manipulates representations of
 
-states, while physics evolves actual states. A computation is therefore a mapping between symbolic
+states, while physical dynamics generate actual states. A computation is therefore a mapping between
 
-states that represents a physical process; a physical process instantiates that process. The
+symbolic states that represents a physical process; a physical process instantiates that process.
 
-corollary is familiar at the macroscopic level: a perfect simulation of a hurricane does not produce
+The corollary is familiar at the macroscopic level: a perfect simulation of a hurricane does not
 
-wind. This principle extends into the domain of consciousness: a perfect simulation of a brain does
+produce wind. This principle extends into the domain of consciousness: a perfect simulation of a
 
-not thereby instantiate the intrinsic causal dynamics of the brain it represents, because the
+brain does not thereby instantiate the intrinsic causal dynamics of the brain it represents, because
 
-simulation operates on representations of those dynamics rather than on the dynamics themselves. The
+the simulation operates on representations of those dynamics rather than on the dynamics themselves.
 
-claim is that the simulated brain is not a second locus of experience; it is not a claim about
+The claim is that the simulated brain is not a second locus of experience; it is not a claim about
 
 whether the simulating machine is one. The physically instantiated criterion is thus not a free-
 
@@ -190,11 +190,11 @@ this; two considerations bear on it:
 
 1. Causal continuity – The program’s states are discrete logic states updated by a clock, although
 
-   the hardware itself is a continuously evolving physical system that takes part in the continuous,
+   the hardware itself is a physical system that takes part in the continuous, law-governed
 
-   law-governed generation of the present hypersurface. Whether that hardware’s intrinsic dynamics
+   generation of the present hypersurface. Whether that hardware’s intrinsic dynamics (silicon,
 
-   (silicon, electrons, clock cycles) have the integrated, classicalized character associated with
+   electrons, clock cycles) have the integrated, classicalized character associated with
 
    consciousness is an open question.
 
@@ -284,7 +284,7 @@ qualia except that such experience is able to undergo literal physical pauses wh
 
 that runs the digital experience is not powered on or not running such experience, however, the
 
-digital ai’s experience can be configured whereby the ai will think the experienece is non-disrupted
+digital ai’s experience can be configured whereby the ai will think the experience is non-disrupted
 
 causal continuous unless the ai is configured to be somehow/‘some way’ informed of whenever there is
 

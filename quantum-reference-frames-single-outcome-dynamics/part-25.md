@@ -1,6 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 25 of 35 (1,799 words)
+Part 25 of 36 (1,787 words)
+
+    δ_+], and let s* be an A-time after every interaction for every Δ ∈ I, that is, s* ≥ b_k for
+
+    interactions keyed to A and s* ≥ b_k + δ_+ for those keyed to B. Then the operators O_j =
+
+    U_Δ(s*)† E_j U_Δ(s*), acting pointwise in Δ, are commuting projections on H_phys^I, and
+
+
+
+        R_A(τ) O_j = E_j R_A(τ)  for τ ≥ s*,     R_B(τ′) O_j = E_j R_B(τ′)  for τ′ ≥ s* − δ_−.
+
+
+
+    Every finite history of record outcomes therefore has the same probability in the clock-neutral
+
+    description and in either reduction at late readings. The clock-neutral instruments {O_j, 1 −
+
+    O_j} intertwine with the record measurements {E_j, 1 − E_j} relative to either clock, and they
+
+    compose in any order.
+
+
 
     (d) Superposed order. If an interaction keyed to A and one keyed to B have non-commuting
 
@@ -78,13 +100,13 @@ in Δ. Probabilities agree because the reductions are unitary. (d) Each O_j acts
 
 ‖Π_j O_j^{(α_j)} Ψ‖² = ∫ ‖Π_j O_j^{(α_j)}(Δ) χ(Δ)‖² dΔ. (e) The probability is ⟨χ, 𝒰*† F_+ 𝒰* χ⟩ =
 
-‖F_+ 𝒰* χ‖², in which the evolution 𝒰* is applied once, to the initial data χ = f_+ ⊗ ψ. By
+‖F_+ 𝒰* χ‖², in which the propagator 𝒰* is applied once, to the initial data χ = f_+ ⊗ ψ. By
 
 construction 𝒰*χ = (f(· − δ_1) W_1ψ + f(· − δ_2) W_2ψ)/√2, so F_+ 𝒰*χ = f_+ ⊗ (W_1ψ + W_2ψ)/2, whose
 
 squared norm is ½(1 + Re⟨W_1ψ, W_2ψ⟩). Since H_S = 0, U_Δ(s) = U_Δ(s*) for s ≥ s*, so at late
 
-readings R_A(τ) and R_B(τ′) differ from 𝒰* only by relabelling the offset as a reading of the other
+readings R_A(τ) and R_B(τ′) differ from 𝒰* only by relabeling the offset as a reading of the other
 
 clock, which gives the stated forms. For a mixture, each branch has overlap ½ with f_+. □
 
@@ -116,7 +138,7 @@ instruments, the event, its probability, and its instrument are the same in both
 
 its temporal localization differs. With one interaction keyed to each clock and the offset in an
 
-equal superposition of two wave packets centred at −1.6 and +1.6, the record law is 0.706791827009
+equal superposition of two wave packets centered at −1.6 and +1.6, the record law is 0.706791827009
 
 in all three descriptions. This equals the equal-weight mixture of the two definite-order values,
 
@@ -243,39 +265,3 @@ those flashes need not identify which effective operation order was realized. Th
 illustrations, not established relativistic solutions. CTGP’s definite-ordering commitment (C-e)
 
 concerns stages and the realized events located in them, so operational causal nonseparability alone
-
-neither establishes nor refutes CTGP. The generalization contemplated above would be needed only if
-
-indefinite order proved fundamental, at the level of (ii) or of the generative ordering itself,
-
-rather than a feature of effective operations or clock-relative descriptions.
-
-
-
-----------------------------------------------------------------------------------------------------
-
-15. Quantum Gravity
-
-----------------------------------------------------------------------------------------------------
-
-
-
-15.1 Fundamental Generative Order Versus Classical Cosmological Time
-
-
-
-In the classical regime, CTGP identifies the present with a level set of the cosmological time
-
-T_g(p) = sup { L_g(γ) : γ a past-directed causal curve from p }, subject to the regularity
-
-conditions of §13.1. A fundamental quantum theory of gravity may have no single classical metric. A
-
-state of the schematic form α|g_1⟩ + β|g_2⟩, with g_1 and g_2 inducing different cosmological-time
-
-functions, has no unique classical T. The program therefore distinguishes
-
-
-
-        fundamental generative order  ≠  classical cosmological-time function.
-
-

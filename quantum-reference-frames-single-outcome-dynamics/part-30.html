@@ -1,4 +1,21 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 30 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 30 of 35 · 1,791 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav><main class="source"><div># exhaustive record distribution over n stages, frame A vs frame B vs neutral</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 30 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 30 of 36 · 1,797 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav><main class="source"><div>    for (i, j) in pairs:</div>
+<div>        for dd in range(N):</div>
+<div>            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)</div>
+<div>                                                for r in range(N))</div>
+<div>    return F</div>
+<div>F = kraus(s)</div>
+<div>comp = sum(K.conj().T @ K for K in F.values())</div>
+<div>inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])</div>
+<div>print(&quot;2. instrument complete:&quot;, np.allclose(comp, np.eye(D)), &quot;| all generators G-invariant:&quot;, inv)</div>
+<div>&nbsp;</div>
+<div>red = lambda O, JF: JF.T @ O @ JF</div>
+<div>WA, WB = red(W, JA), red(W, JB)</div>
+<div>FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}</div>
+<div>ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \</div>
+<div>     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)</div>
+<div>print(&quot;3. intertwining V K^A V^dag = K^B for W and every Kraus operator:&quot;, ok)</div>
+<div>&nbsp;</div>
+<div># exhaustive record distribution over n stages, frame A vs frame B vs neutral</div>
 <div>def record_dist(psi0, Wm, Fm, n):</div>
 <div>    out = {}</div>
 <div>    def rec(psi, hist, p):</div>
@@ -220,21 +237,4 @@
 <div>            yield from all_ext(left - {x}, prefix + [x])</div>
 <div>exts = set(all_ext(set(range(len(slots))), []))</div>
 <div>ref = joint(next(iter(exts)), instr)</div>
-<div>dp, ds = 0.0, 0.0</div>
-<div>for e in exts:</div>
-<div>    jj = joint(e, instr)</div>
-<div>    for o in ref:</div>
-<div>        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real</div>
-<div>        dp = max(dp, abs(pa - pb))</div>
-<div>        if pa &gt; 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))</div>
-<div>print(f&quot;14. causally local instruments: all {len(exts)} foliations (linear extensions), &quot;</div>
-<div>      f&quot;{len(ref)} outcome histories;&quot;)</div>
-<div>print(f&quot;    max |p - p&#x27;| = {dp:.1e}, max state deviation = {ds:.1e}&quot;)</div>
-<div># no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change</div>
-<div>X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}</div>
-<div>def marg(ins):</div>
-<div>    jj = joint(next(iter(exts)), ins); m = np.zeros(2)</div>
-<div>    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real</div>
-<div>    return m</div>
-<div>m0 = marg(instr); worst = 0.0</div>
-<div>for y in set(range(len(slots))) - past:</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav></body></html>
+<div>dp, ds = 0.0, 0.0</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-30.md">Raw Markdown</a><a href="part-29.html">Previous part</a><a href="part-31.html">Next part</a></nav></body></html>

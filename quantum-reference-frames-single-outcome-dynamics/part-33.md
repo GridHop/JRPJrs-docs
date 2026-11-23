@@ -1,6 +1,38 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 33 of 35 (1,799 words)
+Part 33 of 36 (1,796 words)
+
+mass, om, g4, sig = 1.7, 1.3, 0.2, 0.7
+
+for nc in (140, 180):
+
+    a = ladder(nc + 8)
+
+    Q = (a + a.T) / np.sqrt(2 * mass * om)
+
+    P = 1j * np.sqrt(mass * om / 2) * (a.T - a)
+
+    H = P @ P / (2 * mass) + 0.5 * mass * om**2 * Q @ Q + g4 * np.linalg.matrix_power(Q, 4)
+
+    H, Qt = H[:nc, :nc], Q[:nc, :nc]
+
+    e0, U0 = eigh(H)
+
+    rng = np.random.default_rng(31)
+
+    c = rng.normal(size=8) + 1j * rng.normal(size=8)
+
+    psi = np.zeros(nc, complex)
+
+    psi[:8] = c / np.linalg.norm(c)
+
+    dE = []
+
+    for vec in (U0[:, 0], psi):
+
+        rho = np.outer(vec, vec.conj())
+
+        dE.append(np.trace(dephase(rho, Qt, sig) @ H).real - np.trace(rho @ H).real)
 
     print('   (a) cutoff %d: ground %.12f, random %.12f; 1/(8 m sig^2) = %.12f'
 
@@ -515,25 +547,3 @@ while found < 4:
     for s in rng.normal(size=(4, 3)):
 
         def ms(m, w_, s=s):
-
-            dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
-
-            return np.exp(-dd**2 / (8 * sg[m]**2) + 1j * s[m] * mm - s[m]**2 * sg[m]**2 / 2)
-
-        for o in orders:
-
-            closed = np.exp(-0.5 * s @ cov_closed(list(o), E, Sig, sg) @ s)
-
-            cf_dev = max(cf_dev, abs(run_order(o, eigs, ms) - closed))
-
-    laws = [binned_law(o, eigs, sg, 3) for o in orders]
-
-    norm_dev = max(norm_dev, max(abs(l.sum() - 1) for l in laws))
-
-    ord_dev = max(ord_dev, max(np.abs(l - laws[0]).max() for l in laws))
-
-print('   (d) 4 three-collapse configurations, one-mode realization, Fock cutoff %d:' % ncut)
-
-print('       characteristic function, direct vs closed form: max dev %.1e' % cf_dev)
-
-print('       64-cell binned history laws: max difference between linear extensions %.1e,'

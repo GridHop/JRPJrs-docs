@@ -1,6 +1,70 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 17 of 26 (1,794 words)
+Part 17 of 26 (1,795 words)
+
+by cosmological time, not the conventions individual observers use to label events as simultaneous
+
+(§9.4). Those conventions remain valid ways of labeling events; what exists of any observer’s
+
+simultaneity surface is only its overlap with the current level set of cosmological time (§9.4.1).
+
+
+
+Objection O2 (Lorentz invariance): Any preferred foliation violates Lorentz invariance.
+
+
+
+Reply: A global foliation can be physically emergent while local laws remain Lorentz-invariant
+
+(§9.3.1). Preferred frames in cosmology are properties of solutions, not new physics, and CTGP
+
+predicts no preferred-frame effects on local physics, consistent with existing null results (§12.3).
+
+
+
+Objection O3 (Diffeomorphism invariance): 'Growth' is a gauge artifact.
+
+
+
+Reply: Growth is not a gauge artifact. The temporal ordering CTGP relies on begins from the causal
+
+structure of spacetime itself: by the Hawking–King–McCarthy and Malament theorems, the causal
+
+ordering relation already determines the conformal structure of the spacetime metric. Geroch and
+
+Bernal–Sánchez then show that this causal ordering can be represented by smooth temporal functions
+
+whose level sets are spacelike Cauchy hypersurfaces. CTGP does not introduce temporal ordering; it
+
+selects a physically preferred representative of a class of orderings already latent in globally
+
+hyperbolic GR. The representative is cosmological time, defined from the causal and metric structure
+
+alone, which in cosmology coincides with the matter rest frame. The ontology is not a coordinate
+
+artifact but a claim about causal structure. Equivalence classes under diffeomorphisms are
+
+respected; the growth claim is made at the level of equivalence classes, not coordinate labels, and
+
+cosmological time is preserved by isometries (Proposition 17.8).
+
+
+
+Objection O4 (No empirical difference): CTGP is metaphysical over-interpretation.
+
+
+
+Reply: CTGP does not claim that its ontology is observable: presentist and eternalist readings of
+
+identical physics are observationally equivalent (§12.1). It is nonetheless empirically exposed
+
+through the requirement that physical law be generable from the present, which can be refuted
+
+(§12.2), and it makes commitments in the philosophy of mind that are not empirically neutral
+
+(Appendix D).
+
+
 
 Objection O5 (Infinite Regress of Laws): If σ governs the emergence of physical laws, what governs
 
@@ -267,61 +331,3 @@ remains is not the earlier organization itself but its physical consequences, ca
 configuration, one subset of which functions as a causal record. On CTGP’s reading this is a direct
 
 physical instance of Postulate 4 rather than an analogy to it, although, as with every record in
-
-this section, the same facts are equally available on a block reading. Within the CTGP framework,
-
-this signal is therefore not merely a probe of distant structure; it is a present-day physical
-
-encoding of the universe’s own generative history, tying the framework’s ontology, its treatment of
-
-the past, and the signal-based structure of causal records together in a particularly coherent way.
-
-
-
-Temporal layering: the observed frequency of the 21 cm line is redshifted (ν_{obs} = ν_{rest}/(1 +
-
-z)). A radio telescope observing across a continuous band (for example 50–200 MHz) is not observing
-
-different spatial locations but present radiation carrying information about different stages
-
-represented in M(σ): lower frequencies correspond to higher z, and hence to earlier stages Σ_σ.
-
-Whereas the CMB is a single two-dimensional surface (z ≈ 1100), 21 cm tomography can in principle
-
-reconstruct the neutral hydrogen distribution across the generated history from z ≈ 0 to z ≈ 200,
-
-providing a spatially resolved causal archive of how baryonic matter developed under gravitational
-
-collapse.
-
-
-
-14.2 Gravitational Waves as Records of Causal Events
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Gravitational waves propagate at the speed of light through spacetime curvature, carrying
-
-information about the dynamics of their source events: binary mergers, core-collapse supernovae,
-
-inflation-era phase transitions, and potentially the causal growth process of the early universe
-
-itself. Detected gravitational wave signals from binary black hole and neutron star mergers are
-
-present field configurations carrying information about events billions of years earlier. Within
-
-CTGP, a gravitational wave signal detected on the present hypersurface is the causal encoding of a
-
-merger event that occurred at an earlier stage represented in M(σ) — a record of causal activity
-
-persisting in the radiation field of spacetime geometry itself. The cosmic gravitational wave
-
-background, expected to be detectable by next-generation space-based observatories, would constitute
-
-an even richer causal record: a superposition of gravitational-wave signals from astrophysical and
-
-cosmological sources across the history of the generated universe.
-
-

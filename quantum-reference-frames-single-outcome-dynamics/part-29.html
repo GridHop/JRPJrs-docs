@@ -1,4 +1,23 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 29 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 29 of 35 · 1,790 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav><main class="source"><div>Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort &amp; M. A.</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism — Part 29 | JRPJr&#x27;s docs</title><link rel="stylesheet" href="../style.css"></head><body><h1>Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism</h1><p class="muted">Part 29 of 36 · 1,797 words</p><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav><main class="source"><div>Fewster, C. J., &amp; Verch, R. (2020). Quantum fields and local measurements. Communications in</div>
+<div>Mathematical Physics, 378, 851–889.</div>
+<div>&nbsp;</div>
+<div>Ghirardi, G. C., Rimini, A., &amp; Weber, T. (1986). Unified dynamics for microscopic and macroscopic</div>
+<div>systems. Physical Review D, 34, 470–491.</div>
+<div>&nbsp;</div>
+<div>Giacomini, F., Castro-Ruiz, E., &amp; Brukner, Č. (2019). Quantum mechanics and the covariance of</div>
+<div>physical laws in quantum reference frames. Nature Communications, 10, 494.</div>
+<div>&nbsp;</div>
+<div>Gorini, V., Kossakowski, A., &amp; Sudarshan, E. C. G. (1976). Completely positive dynamical semigroups</div>
+<div>of N-level systems. Journal of Mathematical Physics, 17, 821–825.</div>
+<div>&nbsp;</div>
+<div>Helstrom, C. W. (1976). Quantum Detection and Estimation Theory. Academic Press.</div>
+<div>&nbsp;</div>
+<div>Höhn, P. A., Smith, A. R. H., &amp; Lock, M. P. E. (2021). Trinity of relational quantum dynamics.</div>
+<div>Physical Review D, 104, 066001.</div>
+<div>&nbsp;</div>
+<div>Hollands, S., &amp; Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.</div>
+<div>&nbsp;</div>
+<div>Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort &amp; M. A.</div>
 <div>Rodríguez (Eds.), Integrable Systems, Quantum Groups, and Quantum Field Theories (pp. 157–287).</div>
 <div>Kluwer.</div>
 <div>&nbsp;</div>
@@ -119,18 +138,18 @@
 <div>state, and density operator of items 14 and 15. Parameters: N = 5, λ = 0.6, s = 0.8 (s = 0 and J = 0</div>
 <div>in items 6 and 12b), pair weights (1/2, 1/4, 1/4) for the second instrument of item 12, J = 0.7, g =</div>
 <div>0.9, τ = 0.5, Λ = 1.2, T = 5, with ħ = 1. Item 14 uses six qubits and eight random two-outcome</div>
-<div>instruments arranged as a three-layer brickwork of nearest-neighbour slots; item 16 uses a ring of</div>
+<div>instruments arranged as a three-layer brickwork of nearest-neighbor slots; item 16 uses a ring of</div>
 <div>32 clock sites with θ = 0.9; item 17 uses two oscillator modes in the vacuum, φ(f_A) = q_1, φ(f_C) =</div>
 <div>p_1 + q_2, φ(f_B) = p_2, with λ_A = 0.9, λ_C = 0.8, λ_B = 0.7, kick α = 1.5, and Fock cutoffs of 40</div>
 <div>and 50 quanta per mode; item 18 uses the same realization with σ = 0.6, hit probabilities 1 and 0.4,</div>
 <div>cutoff 40, and the outcome integral evaluated on a grid of step 0.02 over [−10, 10]. Particles are</div>
 <div>indexed 0, 1, 2 for A, B, C, and an event (i, j, d) in the output is a flash on the pair (i, j)</div>
-<div>centred at separation d. Analytical results are proved in the text; the script checks them</div>
+<div>centered at separation d. Analytical results are proved in the text; the script checks them</div>
 <div>numerically to double-precision tolerance.</div>
 <div>&nbsp;</div>
 <div># Numerical checks for the Z_N three-particle QRF model with</div>
 <div># flash-type stochastic collapse (companion to &quot;Quantum Reference Frames</div>
-<div># and the Lucretian Truth Profile in CTGP&quot;).</div>
+<div># and Single-Outcome Dynamics: A Compatibility Framework for Generative Presentism&quot;).</div>
 <div>import itertools</div>
 <div>import numpy as np</div>
 <div>from scipy.linalg import expm</div>
@@ -194,21 +213,4 @@
 <div>    return np.exp(-dist**2/(2*width**2)) if width &gt; 0 else (dist == 0)*1.0</div>
 <div>def kraus(width, lam_=lam):</div>
 <div>    ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()</div>
-<div>    F = {&#x27;none&#x27;: np.sqrt(1-lam_)*np.eye(D)}</div>
-<div>    for (i, j) in pairs:</div>
-<div>        for dd in range(N):</div>
-<div>            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)</div>
-<div>                                                for r in range(N))</div>
-<div>    return F</div>
-<div>F = kraus(s)</div>
-<div>comp = sum(K.conj().T @ K for K in F.values())</div>
-<div>inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])</div>
-<div>print(&quot;2. instrument complete:&quot;, np.allclose(comp, np.eye(D)), &quot;| all generators G-invariant:&quot;, inv)</div>
-<div>&nbsp;</div>
-<div>red = lambda O, JF: JF.T @ O @ JF</div>
-<div>WA, WB = red(W, JA), red(W, JB)</div>
-<div>FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}</div>
-<div>ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \</div>
-<div>     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)</div>
-<div>print(&quot;3. intertwining V K^A V^dag = K^B for W and every Kraus operator:&quot;, ok)</div>
-<div>&nbsp;</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav></body></html>
+<div>    F = {&#x27;none&#x27;: np.sqrt(1-lam_)*np.eye(D)}</div></main><nav><a href="../index.html">Library home</a><a href="index.html">Document contents</a><a href="part-29.md">Raw Markdown</a><a href="part-28.html">Previous part</a><a href="part-30.html">Next part</a></nav></body></html>

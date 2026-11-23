@@ -1,6 +1,48 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 16 of 26 (1,798 words)
+Part 16 of 26 (1,787 words)
+
+grounded in the present rather than supervening on the whole spacetime mosaic, as Humean accounts of
+
+laws hold. A presentist must therefore take laws to govern rather than merely summarize. Stated
+
+precisely, the present world comprises its categorical physical state S_σ, its primitive past-tensed
+
+properties (§5.2.1), and the primitive generative laws that obtain in it (Postulate 5; §10.4). Those laws
+
+are neither further existents alongside the present nor derivable from S_σ alone; they are a primitive
+
+nomic aspect of the present world, distinct from its categorical configuration. Effective laws likewise
+
+obtain in the present insofar as its physical structure supports their stable realization (§10.2). Every
+
+law that obtains, obtains in the present: the present world includes the laws, although the present
+
+categorical state does not by itself entail them. The phrase should also be read as concerning the
+
+categorical physical state. The state S_σ in the criterion above is the configuration of fields and matter
+
+on Σ_σ, including any physically instantiated variables the dynamics require, such as definite
+
+measurement outcomes or a Bohmian configuration. The past-tensed properties of §5.2.1 are acquired
+
+through generation but are not inputs to it: two presents alike in every categorical respect have the
+
+same successors, or the same transition probabilities to their successors, whatever their pasts. A law
+
+that consulted past-tensed properties not carried by present categorical variables would involve the
+
+irreducible dependence on earlier states that generability excludes (§13, Objection O10). Past-tensed
+
+properties therefore do grounding work for truths about the past and no dynamical work.
+
+
+
+No particular probability is assigned here to generable laws on the eternalist view; the point is
+
+only that presentism is exposed to this evidence where eternalism is not.
+
+
 
 This does not conflict with Proposition 12.1: the discrimination occurs across candidate physical
 
@@ -293,65 +335,3 @@ initial-value structure. Cosmological time provides a physically grounded, non-a
 'now', which on large scales is the rest frame of the CMB — not a kinematic absolute but a physical
 
 fact about our universe. The metaphysical claim concerns the ontological structure of M(σ), defined
-
-by cosmological time, not the conventions individual observers use to label events as simultaneous
-
-(§9.4).
-
-
-
-Objection O2 (Lorentz invariance): Any preferred foliation violates Lorentz invariance.
-
-
-
-Reply: A global foliation can be physically emergent while local laws remain Lorentz-invariant
-
-(§9.3.1). Preferred frames in cosmology are properties of solutions, not new physics, and CTGP
-
-predicts no preferred-frame effects on local physics, consistent with existing null results (§12.3).
-
-
-
-Objection O3 (Diffeomorphism invariance): 'Growth' is a gauge artifact.
-
-
-
-Reply: Growth is not a gauge artifact. The temporal ordering CTGP relies on begins from the causal
-
-structure of spacetime itself: by the Hawking–King–McCarthy and Malament theorems, the causal
-
-ordering relation already determines the conformal structure of the spacetime metric. Geroch and
-
-Bernal–Sánchez then show that this causal ordering can be represented by smooth temporal functions
-
-whose level sets are spacelike Cauchy hypersurfaces. CTGP does not introduce temporal ordering; it
-
-selects a physically preferred representative of a class of orderings already latent in globally
-
-hyperbolic GR. The representative is cosmological time, defined from the causal and metric structure
-
-alone, which in cosmology coincides with the matter rest frame. The ontology is not a coordinate
-
-artifact but a claim about causal structure. Equivalence classes under diffeomorphisms are
-
-respected; the growth claim is made at the level of equivalence classes, not coordinate labels, and
-
-cosmological time is preserved by isometries (Proposition 17.8).
-
-
-
-Objection O4 (No empirical difference): CTGP is metaphysical over-interpretation.
-
-
-
-Reply: CTGP does not claim that its ontology is observable: presentist and eternalist readings of
-
-identical physics are observationally equivalent (§12.1). It is nonetheless empirically exposed
-
-through the requirement that physical law be generable from the present, which can be refuted
-
-(§12.2), and it makes commitments in the philosophy of mind that are not empirically neutral
-
-(Appendix D).
-
-

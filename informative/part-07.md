@@ -1,3 +1,10 @@
+⟨BAψ|ABψ⟩ = −1,
+and therefore
+P(−) = 1, P(+) = 0.
+The minus outcome occurs with certainty. If A and B commute instead, the plus outcome occurs with certainty.
+This is not something an ordinary classical random choice between the two orders reproduces. If the control is an incoherent mixture of |0⟩ and |1⟩, measuring it in the |±⟩ basis gives
+P(+) = P(−) = ½.
+If both branches instead perform the same operation sequence coherently, the control remains |+⟩, giving P(−) = 0.
 Notice the qualification, though. These calculations distinguish particular coherent and incoherent implementations. They do not, by themselves, rule out every conceivable definite-order quantum circuit. The stronger result comes from the theory of quantum supermaps and quantum circuits: under specified restrictions, including a single use of each unknown operation, the quantum switch can accomplish discrimination tasks that circuits with a fixed order or a classical mixture of orders cannot accomplish with the same resources. Chiribella’s 2012 work on perfect discrimination and the 2013 paper by Chiribella, D’Ariano, Perinotti and Valiron establish results of this kind.
 So when physicists call the quantum switch causally nonseparable, they’re making a precise statement. Within the relevant operational framework, the process cannot be decomposed into a probabilistic mixture of an A-before-B process and a B-before-A process.
 That does not mean all conceivable underlying descriptions of the experiment have been ruled out.
@@ -69,6 +76,3 @@ The coherent quantum process doesn’t simply choose one route randomly. Both al
 Nevertheless, the individual time-localized interactions can be described within an ordinary spacetime causal structure.
 This is closely related to a result by Vilasini and Renner, published in Physical Review Letters in 2024. They showed, under their assumptions about relativistic causality and realizations in classical background spacetime, that indefinite-order processes require systems that are not localized in spacetime in the ordinary way. They also showed that such realizations admit a finer-grained description with a definite, acyclic causal order.
 That is a substantial result. It means an operationally indefinite ordering of two effective operations can coexist with a definite causal ordering of the finer-grained spacetime interactions.
-The distinction isn’t merely philosophical wordplay. The effective operation A may be associated with different spacetime regions in different branches of the quantum process. Treating A as one operation localized at one fixed spacetime event would then be misleading.
-Oreshkov’s 2019 work on time-delocalized quantum subsystems and operations develops precisely this sort of idea. Paunković and Vojinović, in their 2020 paper on causal orders, quantum circuits and spacetime, discuss why it matters when interpreting experimental claims about indefinite causal order.
-The important point is that we have to specify what the supposed ordering relation is between.

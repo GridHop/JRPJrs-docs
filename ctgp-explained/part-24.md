@@ -1,6 +1,86 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 24 of 26 (1,792 words)
+Part 24 of 26 (1,791 words)
+
+additional ontological fact: only the generatively active state is presently real and presently
+
+undergoing physical realization. Earlier states were experienced when they were present and are not
+
+experienced now, because they no longer exist; later states are not yet experienced, because they
+
+have not been generated.
+
+
+
+CTGP also provides a principled explanation for the apparent privacy and inaccessibility of fine-
+
+grained experience. Because many internal processes leave limited or non-redundant causal traces,
+
+the detailed structure of subjective experience is often underdetermined by publicly accessible
+
+data. This follows directly from the limited persistence and recoverability of causal encodings,
+
+rather than from any non-physical property of consciousness.
+
+
+
+D.2 Classicalization as the Bridge Mechanism
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+How do microscopic quantum processes at Σ_σ give rise to determinate experiential states? CTGP
+
+proposes classicalization — the combination of decoherence, amplification, and causal continuity —
+
+as the physical bridge from microphysics to determinate experience. The mechanism works in three
+
+stages:
+
+
+
+First, decoherence suppresses quantum interference between macroscopically distinct states, yielding
+
+effective classicality at the scale of neural dynamics. Second, amplification through biological
+
+signal cascades converts microscopic state distinctions into macroscopic, causally potent
+
+differences. Third, causal continuity — the fact that each Σ_{σ+Δσ} is generated from Σ_σ by
+
+deterministic or stochastic lawful generation — ensures that experiential states are embedded in a
+
+continuous causal history, not isolated events.
+
+
+
+These three stages together produce the physical conditions under which determinate experiential
+
+states are possible. CTGP does not claim that classicalization provides an account of why there is
+
+experience at all (the 'hard problem' in Chalmers's sense) but that it identifies the physical
+
+architecture necessary for the qualia-capable processes that CTGP posits.
+
+
+
+D.3 Necessary Conditions for Qualia on Σ_σ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+CTGP proposes the following as necessary (not sufficient) conditions for a physical process to be a
+
+vehicle of qualia:
+
+
+
+• Robust classical dynamics: the process must be sufficiently decohered that quantum interference is
+
+  negligible at the relevant scale.
+
+• Organized integration: the process must integrate information across multiple degrees of freedom
 
   in an organized, non-random way. (This condition is related to but not identical to IIT's phi; see
 
@@ -198,29 +278,29 @@ Computational systems implement syntactic state transitions: S_{n+1} = f(S_n), w
 
 symbolic state and f is an effective rule. Physical systems instantiate intrinsic causal dynamics:
 
-dφ/dt = F(φ), where φ is a genuine physical field evolving under real forces. The crucial asymmetry
+dφ/dt = F(φ), where φ is a genuine physical field changing under real forces. The crucial asymmetry
 
-is that computation manipulates representations of states, while physics evolves actual states. A
+is that computation manipulates representations of states, while physical dynamics generate actual
 
-computation is therefore a mapping between symbolic states that represents a physical process; a
+states. A computation is therefore a mapping between symbolic states that represents a physical
 
-physical process instantiates that process. The corollary is familiar at the macroscopic level: a
+process; a physical process instantiates that process. The corollary is familiar at the macroscopic
 
-perfect simulation of a hurricane does not produce wind. CTGP extends this principle into the domain
+level: a perfect simulation of a hurricane does not produce wind. CTGP extends this principle into
 
-of consciousness: a perfect simulation of a brain does not thereby instantiate the intrinsic causal
+the domain of consciousness: a perfect simulation of a brain does not thereby instantiate the
 
-dynamics of the brain it represents, because the simulation operates on representations of those
+intrinsic causal dynamics of the brain it represents, because the simulation operates on
 
-dynamics rather than on the dynamics themselves. The claim is that the simulated brain is not a
+representations of those dynamics rather than on the dynamics themselves. The claim is that the
 
-second locus of experience; it is not a claim about whether the simulating machine is one. The
+simulated brain is not a second locus of experience; it is not a claim about whether the simulating
 
-physically instantiated criterion is thus not a free-standing metaphysical stipulation but a direct
+machine is one. The physically instantiated criterion is thus not a free-standing metaphysical
 
-application of the Representation–Instantiation Distinction to the case of qualia—grounded in the
+stipulation but a direct application of the Representation–Instantiation Distinction to the case of
 
-philosophy of computation, not merely asserted.
+qualia—grounded in the philosophy of computation, not merely asserted.
 
 
 
@@ -281,57 +361,3 @@ The argument against strong functionalism does not depend on the representation/
 framing and is not weakened by the scoping above. It follows from Russellian monism alone:
 
 functional equivalence is specified structurally; intrinsic character is not fixed by structure;
-
-therefore functional duplication does not settle phenomenal identity. This holds whatever the
-
-substrate of either system, and it is unaffected by any question about what a simulating machine
-
-instantiates.
-
-
-
-The physically instantiated criterion therefore asserts: a digital simulation may reproduce the
-
-structural relations between events without thereby instantiating the intrinsic physical properties
-
-of the processes it represents. This claim is metaphysical rather than empirical, but it functions
-
-analogously to other ontological commitments in physics (e.g., the existence of spacetime events or
-
-quantum states).
-
-
-
-Three further claims should be kept apart here. The first is what the criterion denies: a system
-
-that represents another system's experience does not thereby have that experience. Experience is
-
-here understood to involve subject-relative registration — there being someone for whom the content
-
-occurs — and a representation of a subject does not constitute one. This is a clarification of terms
-
-rather than a theory of consciousness, and nothing in it turns on whether experienced content is
-
-also available for report, attention, or behavioral control. The denial concerns representation
-
-only, and carries no implication about what the representing system may undergo on its own account.
-
-The second concerns range: a conscious existence can only be aware of what can reach it, and what
-
-can reach it is fixed by the classes of signal exchange its substrate, architecture, and interfaces
-
-permit. Differently constituted systems therefore differ in their participatory capacities — in what
-
-they can receive, register, and enter into — and their experiential ranges, including the scope,
-
-integration, persistence, and contents of awareness, are correspondingly not identical. These
-
-constraints are specifiable in physical terms, whereas experiential range is not; the former
-
-constrains the latter without determining or revealing it. The criterion asserts the non-identity of
-
-ranges; it does not specify the content of any range, and it does not hold that experience is
-
-available only to non-digital substrates. The third concerns realization: within a shared
-
-experiential category, each experiencer instantiates that experience in a way particular to itself —

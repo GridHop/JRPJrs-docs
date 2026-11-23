@@ -1,6 +1,64 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 18 of 26 (1,790 words)
+Part 18 of 26 (1,791 words)
+
+this section, the same facts are equally available on a block reading. Within the CTGP framework,
+
+this signal is therefore not merely a probe of distant structure; it is a present-day physical
+
+encoding of the universe’s own generative history, tying the framework’s ontology, its treatment of
+
+the past, and the signal-based structure of causal records together in a particularly coherent way.
+
+
+
+Temporal layering: the observed frequency of the 21 cm line is redshifted (ν_{obs} = ν_{rest}/(1 +
+
+z)). A radio telescope observing across a continuous band (for example 50–200 MHz) is not observing
+
+different spatial locations but present radiation carrying information about different stages
+
+represented in M(σ): lower frequencies correspond to higher z, and hence to earlier stages Σ_σ.
+
+Whereas the CMB is a single two-dimensional surface (z ≈ 1100), 21 cm tomography can in principle
+
+reconstruct the neutral hydrogen distribution across the generated history from z ≈ 0 to z ≈ 200,
+
+providing a spatially resolved causal archive of how baryonic matter developed under gravitational
+
+collapse.
+
+
+
+14.2 Gravitational Waves as Records of Causal Events
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Gravitational waves propagate at the speed of light through spacetime curvature, carrying
+
+information about the dynamics of their source events: binary mergers, core-collapse supernovae,
+
+inflation-era phase transitions, and potentially the causal growth process of the early universe
+
+itself. Detected gravitational wave signals from binary black hole and neutron star mergers are
+
+present field configurations carrying information about events billions of years earlier. Within
+
+CTGP, a gravitational wave signal detected on the present hypersurface is the causal encoding of a
+
+merger event that occurred at an earlier stage represented in M(σ) — a record of causal activity
+
+persisting in the radiation field of spacetime geometry itself. The cosmic gravitational wave
+
+background, expected to be detectable by next-generation space-based observatories, would constitute
+
+an even richer causal record: a superposition of gravitational-wave signals from astrophysical and
+
+cosmological sources across the history of the generated universe.
+
+
 
 14.3 Large-Scale Structure Formation as Causal Continuity
 
@@ -262,21 +320,21 @@ Several philosophical and physical frameworks treat reality as fundamentally pro
 
 static. Smolin’s temporal naturalism (2013) argues that time is ontologically fundamental and that
 
-physical laws evolve, sharing with CTGP the rejection of a completed four-dimensional block as the
+physical laws change over time, sharing with CTGP the rejection of a completed four-dimensional
 
-primary ontological category. Process cosmology in the tradition of Whitehead treats reality as
+block as the primary ontological category. Process cosmology in the tradition of Whitehead treats
 
-composed of processes of becoming rather than static substances, a commitment that maps naturally
+reality as composed of processes of becoming rather than static substances, a commitment that maps
 
-onto CTGP’s generative hypersurface structure. Penrose’s conformal cyclic cosmology, with its
+naturally onto CTGP’s generative hypersurface structure. Penrose’s conformal cyclic cosmology, with
 
-succession of aeons, and various quantum gravity proposals also treat cosmic history dynamically,
+its succession of aeons, and various quantum gravity proposals also treat cosmic history
 
-albeit with different formal structures. CTGP aligns with these process-oriented approaches in
+dynamically, albeit with different formal structures. CTGP aligns with these process-oriented
 
-emphasizing the generative character of physical reality while providing a precise formal framework
+approaches in emphasizing the generative character of physical reality while providing a precise
 
-grounded in standard general relativity.
+formal framework grounded in standard general relativity.
 
 
 
@@ -295,53 +353,3 @@ relativistic causal structure: CTGP identifies the growth parameter with cosmolo
 the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
 
 ordering that is observationally accessible: in FLRW the level sets of cosmological time are the
-
-surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
-
-already measures, without introducing a preferred frame beyond what is already present in standard
-
-cosmology. Third, persistence of past information through physical records: CTGP’s account of causal
-
-records embedded in successive present states provides a precise mechanism for how the past remains
-
-accessible despite no longer existing as an independent spacetime region. Together these components
-
-provide a framework in which temporal passage, causal structure, and cosmic expansion are treated as
-
-aspects of a single underlying generative process rather than as separate explananda requiring
-
-separate theoretical treatments.
-
-
-
-CTGP is compatible with all of these, and explicitly incorporates their formal resources where
-
-appropriate. Its distinctive contribution, however, is something none of them provides: most quantum
-
-gravity growth models describe the growth of causal relations — the addition of ordered pairs of
-
-events, the extension of the causal partial order. CTGP adds to this an account of where experience
-
-occurs. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
-
-causal structure: within CTGP, the currently generated physical state is the ontological locus of
-
-physically instantiated conscious experience. Known biological experiences depend on physical
-
-processes, including the neural mechanisms responsible for sensation, internally generated imagery,
-
-cognition, and awareness. Dreams and mental imagery do not require ongoing external sensory
-
-stimulation, but they nevertheless involve physical neural activity. Insofar as qualia are
-
-physically instantiated, their occurrence belongs to the physical reality that exists at the
-
-corresponding generative stage, so the experiences occurring now belong to the currently generated
-
-state. Earlier conscious experiences genuinely occurred when their respective stages were present,
-
-but those earlier experiential states no longer exist as currently occurring experiences. The
-
-systems that underwent them may still exist, since a system can persist while its earlier states do
-
-not (§5.2.2), and present conscious systems may bear physical records and other consequences of

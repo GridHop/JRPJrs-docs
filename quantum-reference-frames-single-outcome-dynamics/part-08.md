@@ -1,6 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 08 of 35 (1,784 words)
+Part 08 of 36 (1,794 words)
+
+an absolute label records in a closed universe. Second, the CSL equation cited in CTGP – explained,
+
+§10.1, uses smeared mass-density operators A(x) at absolute positions x. Reformulating CSL in terms
+
+of mass densities relative to material frames is a natural route for CTGP’s collapse option (Q2),
+
+but whether CSL must be so reformulated depends on the formulation and would require further
+
+argument. What the present construction establishes is sufficiency: invariant relational collapse
+
+operators provide an explicit, verified realization of QRF-compatible single-outcome dynamics. The
+
+equivalence proved above concerns the action of an operator on physical states; it does not show
+
+that every physically acceptable collapse theory must use the particular relational flash ontology
+
+of §7.2, which is one realization among others.
+
+
+
+----------------------------------------------------------------------------------------------------
 
 8. The Criteria in the Model, With Numerical Checks
 
@@ -256,9 +278,9 @@ Definition 9.1 (Continuous-time relational flash process). Let H be the invarian
 
 The process runs as follows. Hit times t_1 < t_2 < … form a Poisson process of rate Λ. Between hits
 
-the state evolves by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k ψ‖² /
+the state is propagated by exp(−iH(t − t_j)). At a hit time, event k is drawn with probability ‖J_k
 
-Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.
+ψ‖² / Λ, and the state jumps to J_k ψ / ‖J_k ψ‖.
 
 
 
@@ -266,7 +288,7 @@ This is the standard quantum-jump unravelling of a Lindblad equation. Because Σ
 
 proportional to the identity, the effective non-Hermitian Hamiltonian H_eff = H − (i/2) Σ_k J_k† J_k
 
-= H − (iΛ/2) · 1 differs from H by a constant, so the evolution between hits is unitary up to a
+= H − (iΛ/2) · 1 differs from H by a constant, so the propagation between hits is unitary up to a
 
 uniform decay of norm, and the hit times are independent of the state. This is precisely the
 
@@ -302,7 +324,7 @@ Proof. (i) In finite dimension, with bounded H and state-independent Poisson hit
 
 construction is explicit: a Poisson process of finite rate has almost surely finitely many points in
 
-any bounded interval, and between them the evolution is a fixed unitary flow. (ii) H and every J_k
+any bounded interval, and between them the state follows a fixed unitary flow. (ii) H and every J_k
 
 are invariant, so exp(−iHt) and the normalized jumps map H_phys to itself. (iii) The Lindblad form
 
@@ -313,23 +335,3 @@ with Σ_k J_k† J_k = Λ · 1. Invariance of H and J_k implies that the generat
 conjugation by U_h, so density operators supported on H_phys remain so. (iv) By Lemma 3.7, ‖J^A_k
 
 exp(−iH^A t) R_A Ψ‖ = ‖J_k exp(−iHt) Ψ‖ and likewise for frame B; hit times do not depend on the
-
-state; so the joint law of (hit time, event) sequences is the same in every frame, and induction
-
-over hits gives the state relation, as in Theorem 5.12. □
-
-
-
-9.3 Continuous-Time Histories as Marked Point Processes
-
-
-
-In continuous time a history consists of event labels together with their times, and the truth
-
-profile contains a continuum of state propositions. Both must be defined explicitly.
-
-
-
-Definition 9.3 (Records and their law). Fix Ψ_0 ∈ H_phys and t > 0. A record on [0, t] is a finite
-
-sequence ω = ((t_1, k_1), …, (t_m, k_m)) with m ≥ 0, 0 < t_1 < ⋯ < t_m ≤ t, and k_j ∈ 𝒦. The record

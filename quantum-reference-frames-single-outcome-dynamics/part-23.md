@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 23 of 35 (1,796 words)
+Part 23 of 36 (1,795 words)
+
+    same (Proposition 13.31(c)); the cosmic-frame dependence of the outcome correlations that comes
+
+    from the ordering rule fails: the law of Proposition 13.31(b) contains no ordering rule, and its
+
+    correlations depend on the cosmic frame only through the smearings.
+
+
+
+    (f) Infinite histories. Center-time and completion-time ordering: proved when the past regions
+
+    have finite four-volume, and open otherwise. Gapless pointers: a law of the pointer records
+
+    exists and is unique on every FLRW spacetime of the class, including spatially infinite ones,
+
+    with a separate proof (Lemma 13.30, Proposition 13.31(f)); it is a law of records, not a global
+
+    present state containing infinitely many pointers, and it does not establish the generation of
 
     those records in an infinite volume.
 
@@ -12,7 +30,7 @@ non-admissible configurations the two differ, so the gapless-pointer constructio
 
 candidate law, not a physical implementation of rule (iii). The gapless pointer, the natural local
 
-realization of a Gaussian collapse, does not reproduce centre-time ordering: it yields a law with no
+realization of a Gaussian collapse, does not reproduce center-time ordering: it yields a law with no
 
 ordering rule.
 
@@ -20,13 +38,13 @@ ordering rule.
 
 The pointer realization has further costs. First, as explained above, it adds physical degrees of
 
-freedom, one pointer at each Poisson centre prepared in a fixed state that depends on the smearing
+freedom, one pointer at each Poisson center prepared in a fixed state that depends on the smearing
 
 through Γ_kk, together with postulate (R). Second, cosmological time still enters the law, through
 
 the smearing law of Candidate extension 13.27(ii), which Proposition 13.24 makes necessary for
 
-point-centred smearings; only the ordering rule is removed. Third, the coupling is a prescribed
+point-centered smearings; only the ordering rule is removed. Third, the coupling is a prescribed
 
 function on spacetime, so the energy of Proposition 13.31(c) is supplied by the prescribed coupling,
 
@@ -40,7 +58,7 @@ of pointer dynamics. Fifth, the readings localize smeared field amplitudes, not 
 
 Bedingham’s (2011) model, a mediating relativistic field attaches a quantized degree of freedom to
 
-each spacetime point; the pointers here attach one degree of freedom to each Poisson centre. The
+each spacetime point; the pointers here attach one degree of freedom to each Poisson center. The
 
 pointer realization is recorded as a further candidate, alongside Candidate extension 13.27, and is
 
@@ -118,9 +136,9 @@ as objectively realized events, with a Lorentz-invariant law for their joint dis
 
 fixed number of non-interacting distinguishable particles (Tumulka 2006). Its law refers to
 
-hyperboloids centred on each particle’s previous flash, which is one way of supplying the local
+hyperboloids centered on each particle’s previous flash, which is one way of supplying the local
 
-frame that, by Proposition 13.24, a point-centred law needs. It is the natural first test case. A
+frame that, by Proposition 13.24, a point-centered law needs. It is the natural first test case. A
 
 continuous generative present can contain a locally finite set of discrete flash events, so discrete
 
@@ -242,7 +260,7 @@ theory or every interpretation is compatible with CTGP.
 
 
 
-    (D6) Covariance of a law versus invariance of a realization. A Poisson law for collapse centres
+    (D6) Covariance of a law versus invariance of a realization. A Poisson law for collapse centers
 
     can be covariant under every isometry, although no realized configuration is invariant, and a
 
@@ -290,7 +308,7 @@ theory or every interpretation is compatible with CTGP.
 
 A temporal quantum reference frame is not merely a coordinate clock. It is a quantum subsystem whose
 
-correlations with the rest define the evolution of another subsystem. In a constrained system,
+correlations with the rest define the dynamics of another subsystem. In a constrained system,
 
 physical states satisfy Ĉ Ψ_phys = 0, and such a state is clock-neutral: it is not yet a description
 
@@ -311,31 +329,3 @@ between temporal frames.
 The spatial construction of Part II transfers only in part. Temporal reduction maps R_A and R_B can
 
 be defined, and where their inverses exist on the relevant sectors one can form V_{A→B} = R_B
-
-R_A^{−1}. For realistic clocks, however, these maps involve conditional states, clock POVMs, and
-
-sector restrictions, and they are not in general global unitaries of the kind used in Proposition
-
-3.3. For ideal clocks they are unitary (Proposition 14.5).
-
-
-
-14.2 Generation, Clock Readings, and Clock-Conditional Descriptions
-
-
-
-Definition 14.1 (Three temporal notions). In a CTGP model with clock subsystems:
-
-
-
-    (i) The generative succession is the order of stages, or of event slots, in which the history is
-
-    generated.
-
-
-
-    (ii) A clock reading is the value of a clock observable of a physical subsystem at a stage. It
-
-    is a Tier 3 proposition (§5.1) unless a recording event makes it a Tier 1 fact.
-
-

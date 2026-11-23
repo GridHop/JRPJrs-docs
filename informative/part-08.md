@@ -1,3 +1,6 @@
+The distinction isn’t merely philosophical wordplay. The effective operation A may be associated with different spacetime regions in different branches of the quantum process. Treating A as one operation localized at one fixed spacetime event would then be misleading.
+Oreshkov’s 2019 work on time-delocalized quantum subsystems and operations develops precisely this sort of idea. Paunković and Vojinović, in their 2020 paper on causal orders, quantum circuits and spacetime, discuss why it matters when interpreting experimental claims about indefinite causal order.
+The important point is that we have to specify what the supposed ordering relation is between.
 If we’re talking about effective operations acting on a quantum system, the order can be indefinite in the operational sense.
 If we’re talking about finer-grained physical interactions in a fixed spacetime, those interactions may have a definite causal organization.
 And if we’re talking about an even deeper ordering of physical reality, neither of those descriptions automatically settles whether such an ordering exists.
@@ -64,13 +67,13 @@ Joos and other researchers have studied how scattering by environmental particle
 where Λ is a decoherence coefficient appropriate to the model and environment.
 Writing Δx = |x − x′|, the corresponding characteristic time is
 τ_dec ≈ 1/(ΛΔx²).
-To put numbers on it, Joos and Zeh estimated Λ for objects scattering the cosmic microwave background, which fills even the emptiest intergalactic space. For a dust grain about 10 micrometres across (a = 10⁻³ cm) they get roughly
+To put numbers on it, Joos and Zeh estimated Λ for objects scattering the cosmic microwave background, which fills even the emptiest intergalactic space. For a dust grain about 10 micrometers across (a = 10⁻³ cm) they get roughly
 Λ ≈ 10⁶ cm⁻² s⁻¹,
 so for a separation equal to its size, Δx = 10⁻³ cm,
 τ_dec ≈ 1/[10⁶ × (10⁻³)²] s = 1 s.
-Λ isn't a universal constant, though. It depends on the object's size and on the radiation, and for this kind of long-wavelength scattering it falls off steeply as the object shrinks. For a large molecule about 10 nanometres across (a = 10⁻⁶ cm), the estimate is Λ ≈ 10⁻¹² cm⁻² s⁻¹, so with Δx = 10⁻⁶ cm,
+Λ isn't a universal constant, though. It depends on the object's size and on the radiation, and for this kind of long-wavelength scattering it falls off steeply as the object shrinks. For a large molecule about 10 nanometers across (a = 10⁻⁶ cm), the estimate is Λ ≈ 10⁻¹² cm⁻² s⁻¹, so with Δx = 10⁻⁶ cm,
 τ_dec ≈ 1/[10⁻¹² × (10⁻⁶)²] s = 10²⁴ s,
-far longer than the age of the universe, about 4 × 10¹⁷ s. But a molecule like that is far too light to shift any clock's timing appreciably. The contrast illustrates the difficulty. Larger objects can produce more substantial gravitational effects, but they also tend to become entangled with their environments more readily. Smaller systems may preserve spatial coherence much longer, but their gravitational effects are correspondingly weaker. These particular estimates don’t establish a universal limit, and they don’t rule out more sophisticated gravitational quantum experiments or naturally occurring coherent processes. These are order-of-magnitude estimates, valid when Δx is much smaller than the radiation's wavelength (about a millimetre for the microwave background), which holds in both cases.
+far longer than the age of the universe, about 4 × 10¹⁷ s. But a molecule like that is far too light to shift any clock's timing appreciably. The contrast illustrates the difficulty. Larger objects can produce more substantial gravitational effects, but they also tend to become entangled with their environments more readily. Smaller systems may preserve spatial coherence much longer, but their gravitational effects are correspondingly weaker. These particular estimates don’t establish a universal limit, and they don’t rule out more sophisticated gravitational quantum experiments or naturally occurring coherent processes. These are order-of-magnitude estimates, valid when Δx is much smaller than the radiation's wavelength (about a millimeter for the microwave background), which holds in both cases.
 There’s also research showing that decoherence isn’t confined to ordinary laboratory environments. Danielson, Satishchandran and Wald investigated decoherence associated with Killing horizons, including effects relevant to black holes and certain other spacetime settings.
 These results show that maintaining quantum coherence in gravitational settings can be difficult for reasons extending beyond familiar laboratory noise.
 But none of this proves that spontaneous indefinite causal order cannot occur in nature.
@@ -91,6 +94,3 @@ is only schematic. In a full quantum-gravity theory, identifying physical geomet
 This brings us back to the question about time itself.
 One possibility is that indefinite operational causal order reflects something genuinely fundamental. Perhaps there is no deeper fact specifying which of two operations came first, because the physical theory simply does not contain such a fact.
 If that turned out to be correct at the level of fundamental spacetime structure, it would challenge the idea that every physical event belongs to one universally definite causal ordering.
-But it wouldn’t necessarily mean that time doesn’t exist, that ordinary causality is an illusion, or that every event in the universe lacks a definite temporal relationship. A theory could have indefinite order in some circumstances while retaining well-defined causal relations in others.
-Another possibility is that operationally indefinite order emerges from a deeper physical description with definite ordering. That ordering might be expressed through finer-grained spacetime events, additional physical variables, or some structure not directly represented by the operational process.
-Such a theory would have to reproduce the observed interference and causal-correlation statistics. It couldn’t simply replace the quantum switch with an ordinary random choice between A-before-B and B-before-A.

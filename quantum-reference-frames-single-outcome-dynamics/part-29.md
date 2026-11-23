@@ -1,6 +1,44 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 29 of 35 (1,790 words)
+Part 29 of 36 (1,797 words)
+
+Fewster, C. J., & Verch, R. (2020). Quantum fields and local measurements. Communications in
+
+Mathematical Physics, 378, 851–889.
+
+
+
+Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
+
+systems. Physical Review D, 34, 470–491.
+
+
+
+Giacomini, F., Castro-Ruiz, E., & Brukner, Č. (2019). Quantum mechanics and the covariance of
+
+physical laws in quantum reference frames. Nature Communications, 10, 494.
+
+
+
+Gorini, V., Kossakowski, A., & Sudarshan, E. C. G. (1976). Completely positive dynamical semigroups
+
+of N-level systems. Journal of Mathematical Physics, 17, 821–825.
+
+
+
+Helstrom, C. W. (1976). Quantum Detection and Estimation Theory. Academic Press.
+
+
+
+Höhn, P. A., Smith, A. R. H., & Lock, M. P. E. (2021). Trinity of relational quantum dynamics.
+
+Physical Review D, 104, 066001.
+
+
+
+Hollands, S., & Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.
+
+
 
 Isham, C. J. (1993). Canonical quantum gravity and the problem of time. In L. A. Ibort & M. A.
 
@@ -244,7 +282,7 @@ in items 6 and 12b), pair weights (1/2, 1/4, 1/4) for the second instrument of i
 
 0.9, τ = 0.5, Λ = 1.2, T = 5, with ħ = 1. Item 14 uses six qubits and eight random two-outcome
 
-instruments arranged as a three-layer brickwork of nearest-neighbour slots; item 16 uses a ring of
+instruments arranged as a three-layer brickwork of nearest-neighbor slots; item 16 uses a ring of
 
 32 clock sites with θ = 0.9; item 17 uses two oscillator modes in the vacuum, φ(f_A) = q_1, φ(f_C) =
 
@@ -256,7 +294,7 @@ cutoff 40, and the outcome integral evaluated on a grid of step 0.02 over [−10
 
 indexed 0, 1, 2 for A, B, C, and an event (i, j, d) in the output is a flash on the pair (i, j)
 
-centred at separation d. Analytical results are proved in the text; the script checks them
+centered at separation d. Analytical results are proved in the text; the script checks them
 
 numerically to double-precision tolerance.
 
@@ -266,7 +304,7 @@ numerically to double-precision tolerance.
 
 # flash-type stochastic collapse (companion to "Quantum Reference Frames
 
-# and the Lucretian Truth Profile in CTGP").
+# and Single-Outcome Dynamics: A Compatibility Framework for Generative Presentism").
 
 import itertools
 
@@ -395,37 +433,3 @@ def kraus(width, lam_=lam):
     ws = np.array([wfun(r, width) for r in range(N)]); ws = ws/ws.sum()
 
     F = {'none': np.sqrt(1-lam_)*np.eye(D)}
-
-    for (i, j) in pairs:
-
-        for dd in range(N):
-
-            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
-
-                                                for r in range(N))
-
-    return F
-
-F = kraus(s)
-
-comp = sum(K.conj().T @ K for K in F.values())
-
-inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])
-
-print("2. instrument complete:", np.allclose(comp, np.eye(D)), "| all generators G-invariant:", inv)
-
-
-
-red = lambda O, JF: JF.T @ O @ JF
-
-WA, WB = red(W, JA), red(W, JB)
-
-FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}
-
-ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \
-
-     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)
-
-print("3. intertwining V K^A V^dag = K^B for W and every Kraus operator:", ok)
-
-

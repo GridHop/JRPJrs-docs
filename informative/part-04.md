@@ -1,3 +1,21 @@
+The duplicate sincerely believes it has lived the original person’s life.
+
+Nevertheless, the two are physically distinct individuals after duplication.
+
+Thus:
+
+same information ≠ same causal history ≠ numerical identity
+
+The duplicate’s memories are not necessarily causally disconnected from the original experiences. Their causal ancestry may run through the original brain, scanning equipment, stored information, and reconstruction.
+
+But causal ancestry alone does not establish numerical identity. A child is causally descended from a parent without being that parent.
+
+An identity theory must specify which causal relationships constitute continuation of an individual rather than production of another.
+
+The duplicate need not be considered unreal or inferior. If conscious, it would be a real individual whose psychological state includes information derived from another person’s experiences.
+
+21. Branching and psychological continuity
+
 Suppose one person produces two psychologically continuous successors, each possessing the original memories and personality.
 
 If psychological continuity alone guaranteed numerical identity, both successors would be identical to the original. By transitivity, they would then be identical to each other, despite being two distinct individuals.
@@ -175,16 +193,4 @@ When it comes to experimentally established physics and mathematical description
 I think the first thing to distinguish is physical interaction from causal connection. By direct physical interaction, I mean a physical coupling between specified entities, rather than merely a causal relationship established through intermediate physical carriers or processes. I’m not assuming in advance that direct coupling must occur at a single spacetime event, because that would partly settle the question by definition.
 
 Take light emitted by a distant star and subsequently detected here. The detector interacts with the electromagnetic field physically available at the detection event. The star’s earlier emission is causally relevant, but that doesn’t establish that the detector directly interacts with the star as it was at the earlier stage. In the standard description, the field mediates the relationship. The detector doesn’t need the star’s earlier configuration to exist alongside it for the detection to occur.
-
-This also matters for what I mean by signals being made available, received, and/or acted upon. Making a signal available doesn’t automatically mean interacting with some particular future recipient, and receiving one doesn’t automatically mean directly interacting with its original source. Those are physical activities involving signals, but whether two specified entities directly interact is a further question. Requiring all three activities, or allowing any one of them, doesn’t change that distinction.
-
-In standard local relativistic quantum field theory, the locality of interactions is part of the mathematical structure. Interaction terms are built from fields and, where applicable, their derivatives evaluated at the same spacetime point. A simple example is:
-
-L_int(x) = g φ₁(x) φ₂(x) φ₃(x)
-
-The fields in that expression are coupled at x, not through a fundamental interaction term directly joining independently specified events at different times.
-
-There’s also microcausality, which for suitable local observables requires:
-
-[A(x), B(y)] = 0
 

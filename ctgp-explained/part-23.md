@@ -1,6 +1,82 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 23 of 26 (1,794 words)
+Part 23 of 26 (1,790 words)
+
+surfaces when τ is regular (Theorem 17.4). A rotating cosmology such as Gödel’s dust solution admits
+
+no regular cosmological time, consistent with the global hyperbolicity requirement of §6.1.
+
+
+
+The second is dimension. For the canonical choice σ = τ, σ carries dimensions of time; for other
+
+relabelings, its dimensions are those of F. The two are related monotonically, induce the same
+
+foliation, and differ only in normalization and units. Statements that σ “corresponds to”
+
+cosmological proper time are to be read in this sense.
+
+
+
+The third is reparameterization. Any strictly increasing F yields an equally admissible parameter,
+
+so σ is fixed only up to monotonic relabeling. This is harmless for every claim the framework makes,
+
+because those claims depend on the level sets of σ and the direction of ∇_μσ, both of which are
+
+relabeling-invariant. The magnitude |∇_μσ| = F′ is conventional and carries no physical content.
+
+
+
+For reference, the chain from geometry to foliation is as follows: g_{μν} → causal structure → τ,
+
+the maximal elapsed proper time, defined without choice → Σ_τ, future Cauchy surfaces when τ is
+
+regular → σ = F(τ), a labeling convention. The matter congruence enters only as a consequence: in
+
+cosmology, the maximizing geodesics are the comoving worldlines.
+
+
+
+A.4 ADM Equations Parameterized by σ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Substituting ∂_t = F′ ∂_σ into the ADM equations, with the lapse normalized to cosmic time:
+
+
+
+        ∂_σ h_{ij} = (2N/F′) K_{ij} + (1/F′)(∇_i N_j + ∇_j N_i)
+
+
+
+        ∂_σ K_{ij} = (1/F′)(standard ADM right-hand side)
+
+
+
+A.5 Expansion Scalar and Raychaudhuri Calibration
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Let u^μ be the timelike unit vector field aligned with the matter congruence. The expansion scalar θ
+
+= ∇_μu^μ satisfies θ = d(ln √h)/dτ, measuring the fractional rate of local volume change of the
+
+foliation along the congruence. Its rate of change is governed by the Raychaudhuri equation:
+
+
+
+        dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} + ω_{μν}ω^{μν} - R_{μν}u^μu^ν + ∇_μa^μ
+
+
+
+In the irrotational, geodesic cosmological limit (ω_{μν} = 0, a^μ = 0) this reduces to:
+
+
 
         dθ/dτ = -(1/3)θ² - σ_{μν}σ^{μν} - R_{μν}u^μu^ν
 
@@ -14,7 +90,7 @@ provides the GR-native local measure of how the present hypersurface is extendin
 
 neighboring hypersurfaces: θ > 0 in expanding cosmologies, θ < 0 in collapsing regimes. Via the
 
-Einstein equations, the R_{μν}u^μu^ν term links the evolution of θ directly to the matter content
+Einstein equations, the R_{μν}u^μu^ν term links the change of θ directly to the matter content
 
 through the Ricci curvature, grounding CTGP’s growth picture in standard relativistic dynamics.
 
@@ -192,7 +268,7 @@ Structural note on scope. CTGP operates at two analytically distinct levels that
 
 separate when evaluating the framework’s physics credentials. The core theory — comprising §§1–12,
 
-the σ formalism, ADM evolution, cosmological foliation, and the empirical standing set out in §12 —
+the σ formalism, ADM dynamics, cosmological foliation, and the empirical standing set out in §12 —
 
 is a standalone spacetime ontology that can be evaluated entirely on physics and philosophy-of-
 
@@ -285,83 +361,3 @@ Assigning experiences to temporal parts establishes that each part has its exper
 clear that it accounts for the diachronic fact of being an experiencer whose experience is actually
 
 going on, rather than redescribing that fact in four-dimensional terms. CTGP answers with an
-
-additional ontological fact: only the generatively active state is presently real and presently
-
-undergoing physical realization. Earlier states were experienced when they were present and are not
-
-experienced now, because they no longer exist; later states are not yet experienced, because they
-
-have not been generated.
-
-
-
-CTGP also provides a principled explanation for the apparent privacy and inaccessibility of fine-
-
-grained experience. Because many internal processes leave limited or non-redundant causal traces,
-
-the detailed structure of subjective experience is often underdetermined by publicly accessible
-
-data. This follows directly from the limited persistence and recoverability of causal encodings,
-
-rather than from any non-physical property of consciousness.
-
-
-
-D.2 Classicalization as the Bridge Mechanism
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-How do microscopic quantum processes at Σ_σ give rise to determinate experiential states? CTGP
-
-proposes classicalization — the combination of decoherence, amplification, and causal continuity —
-
-as the physical bridge from microphysics to determinate experience. The mechanism works in three
-
-stages:
-
-
-
-First, decoherence suppresses quantum interference between macroscopically distinct states, yielding
-
-effective classicality at the scale of neural dynamics. Second, amplification through biological
-
-signal cascades converts microscopic state distinctions into macroscopic, causally potent
-
-differences. Third, causal continuity — the fact that each Σ_{σ+Δσ} is generated from Σ_σ by
-
-deterministic or stochastic lawful generation — ensures that experiential states are embedded in a
-
-continuous causal history, not isolated events.
-
-
-
-These three stages together produce the physical conditions under which determinate experiential
-
-states are possible. CTGP does not claim that classicalization provides an account of why there is
-
-experience at all (the 'hard problem' in Chalmers's sense) but that it identifies the physical
-
-architecture necessary for the qualia-capable processes that CTGP posits.
-
-
-
-D.3 Necessary Conditions for Qualia on Σ_σ
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-CTGP proposes the following as necessary (not sufficient) conditions for a physical process to be a
-
-vehicle of qualia:
-
-
-
-• Robust classical dynamics: the process must be sufficiently decohered that quantum interference is
-
-  negligible at the relevant scale.
-
-• Organized integration: the process must integrate information across multiple degrees of freedom

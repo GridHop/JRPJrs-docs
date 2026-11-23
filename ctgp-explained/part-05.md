@@ -1,6 +1,34 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 05 of 26 (1,797 words)
+Part 05 of 26 (1,785 words)
+
+    distinct from questions of record formation.
+
+
+
+    (iii) Conservation of organization. Particular arrangements, structures, configurations, and
+
+    correlations may cease to exist even while the physical constituents involved continue in
+
+    transformed states. CTGP identifies the loss of present existence with the cessation of the
+
+    earlier state itself, which may or may not involve a change in its specific organization, not
+
+    with any lapse in physical reality.
+
+
+
+    (iv) Recoverability of knowledge. The existence of physical consequences does not imply that
+
+    those consequences remain sufficient to reconstruct prior states. Ontological persistence and
+
+    epistemic accessibility are distinct. Something may continue to exist in transformed or
+
+    distributed form while becoming effectively unrecoverable as a coherent record.
+
+
+
+Accordingly, CTGP’s claim that earlier states no longer exist does not mean that physical reality
 
 vanishes and is recreated from one state to the next. Generation is gapless: reality never lapses,
 
@@ -311,25 +339,3 @@ bounded τ, so in a universe containing black holes later level sets are not met
 Cauchy surfaces without being Cauchy surfaces. This is the geometric condition that generation
 
 requires, and the geometry requires nothing more: a system whose worldline has ended at a
-
-singularity before a given stage is not among what exists at that stage, and every worldline that
-
-continues past a level set crosses it exactly once. The future Cauchy property is necessary for
-
-generative sufficiency but does not by itself establish it. That the data on a level set actually
-
-determine their successors, or fix the probabilities of their successors, is a further, dynamical
-
-matter. It holds for general relativity and for relativistic field theories with well-posed
-
-initial-value formulations, given data of suitable regularity on smooth spacelike hypersurfaces (§7;
-
-Proposition 17.2), and extending it to level sets with corners would require a generalized
-
-formulation not established here; for the fundamental laws, including any quantum-gravitational
-
-completion, it is the generability requirement of §12.2, which CTGP treats as a refutable commitment
-
-rather than as a consequence of the geometry.
-
-

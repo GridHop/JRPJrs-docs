@@ -1,6 +1,28 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 06 of 26 (1,793 words)
+Part 06 of 26 (1,798 words)
+
+singularity before a given stage is not among what exists at that stage, and every worldline that
+
+continues past a level set crosses it exactly once. The future Cauchy property is necessary for
+
+generative sufficiency but does not by itself establish it. That the data on a level set actually
+
+determine their successors, or fix the probabilities of their successors, is a further, dynamical
+
+matter. It holds for general relativity and for relativistic field theories with well-posed
+
+initial-value formulations, given data of suitable regularity on smooth spacelike hypersurfaces (§7;
+
+Proposition 17.2), and extending it to level sets with corners would require a generalized
+
+formulation not established here; for the fundamental laws, including any quantum-gravitational
+
+completion, it is the generability requirement of §12.2, which CTGP treats as a refutable commitment
+
+rather than as a consequence of the geometry.
+
+
 
 CTGP is formulated for globally hyperbolic spacetimes. This restriction follows from the framework's
 
@@ -60,15 +82,15 @@ grounds every past truth (§5.2): τ is itself a past-tensed magnitude of the pr
 
 present’s having been preceded by causal histories of those lengths. Global statements about the
 
-full manifold belong to the mathematical representation of the history as it would be generated;
+full manifold belong to the mathematical representation of spacetime as it would be generated; they
 
-they show that the construction is well behaved, and they do not ground which slice is present. Nor
+show that the construction is well behaved, and they do not ground which slice is present. Nor does
 
-does locating later stages require anything past-tensed beyond a label. For an event q with τ(q) ≥
+locating later stages require anything past-tensed beyond a label. For an event q with τ(q) ≥ a,
 
-a, every past-inextendible causal curve from q meets S_a, and τ(q) = a + d(S_a, q), where d(S_a, q)
+every past-inextendible causal curve from q meets S_a, and τ(q) = a + d(S_a, q), where d(S_a, q) is
 
-is the supremum of the lengths of causal curves from S_a to q. Splitting each past-directed causal
+the supremum of the lengths of causal curves from S_a to q. Splitting each past-directed causal
 
 curve from q where it crosses S_a gives one inequality; joining a nearly maximal curve from S_a to q
 
@@ -267,23 +289,3 @@ Two further lines of motivation indicate that the cosmological-time foliation is
 representative of this class. First, in FLRW cosmologies the level sets of cosmological time
 
 coincide with the rest frame of the matter flow, along which entropy production supplies a natural
-
-thermodynamic clock. This is a suggestive coincidence in the symmetric case, not a derivation of σ
-
-from entropy production. Second, in a discrete quantum-gravity setting, σ admits a possible
-
-realization within causal-set approaches, where growth dynamics suggest a natural analogue of
-
-spacetime generation (Rideout and Sorkin 2000): one possible interpretation is that σ corresponds,
-
-in an appropriate continuum approximation, to an averaged measure of generated causal structure.
-
-CTGP does not presently provide a rigorous derivation of this correspondence and therefore treats it
-
-as a motivating analogy rather than a proven result. Importantly, causal-set approaches represent
-
-one possible discrete realization of CTGP’s more general continuous generative-flow ontology; CTGP’s
-
-continuum structure is the generation flow ∇_μσ, and discrete models provide compatible but
-
-non-foundational instantiations. These two independent lines of motivation suggest possible deeper

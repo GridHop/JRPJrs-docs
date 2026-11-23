@@ -1,6 +1,18 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 22 of 35 (1,799 words)
+Part 22 of 36 (1,791 words)
+
+Proposition 13.16 gives the energy–momentum. (d) A Gaussian collapse of φ(h_k) with width σ_k is the
+
+instrument obtained from an unchirped pointer by the instantaneous coupling V_k = exp(−i p_k φ(h_k))
+
+followed by reading q_k: its Kraus operator for the reading y is ⟨y|V_k|η_k⟩ = η_k(y − φ(h_k)), the
+
+operator K_y of Proposition 13.12. For collapses applied in the order 1, …, n, the first Weyl
+
+relation gives V_n ⋯ V_1 = exp(−(i/2) Σ_{k>l} E(h_k, h_l) p_k p_l) exp(−i Σ_k p_k φ(h_k)). In a
+
+linear extension of the causal order of an admissible configuration, if l precedes k then O_l does
 
 not meet the causal future of O_k, so Γ_lk = 0 and Γ_kl = E(h_k, h_l). Hence Σ_{k,l} Γ_kl p_k p_l =
 
@@ -26,39 +38,39 @@ Reading other pointers measures operators that commute with the readings in S, a
 
 their outcomes leaves the law of S unchanged. (f) By Lemma 13.30(b), almost surely S⁻ is finite for
 
-every finite set S of centres. Given the configuration, the law of the readings in S is the same for
+every finite set S of centers. Given the configuration, the law of the readings in S is the same for
 
 every finite configuration containing S ∪ S⁻, by (e), because the further pointers have regions that
 
 do not meet the causal past of the regions in S. For S ⊆ S′, S⁻ ⊆ S′⁻, so the marginal on S of the
 
-law for S′ is the law for S. There are countably many centres, so the Kolmogorov extension theorem
+law for S′ is the law for S. There are countably many centers, so the Kolmogorov extension theorem
 
 gives a unique law on the readings with these marginals. It depends measurably on the configuration,
 
-because the characteristic functions of part (b) depend continuously on the centres in a quasi-free
+because the characteristic functions of part (b) depend continuously on the centers in a quasi-free
 
-state. (g) By (a), the coupled evolution may be computed slab by slab along T, and within a slab the
+state. (g) By (a), the coupled propagator may be computed slab by slab along T, and within a slab
 
-source involves only the pointers whose regions meet that slab. Each pointer is read after its
+the source involves only the pointers whose regions meet that slab. Each pointer is read after its
 
-coupling has ended, so by (a) the readings and conditional states are those of the complete
+coupling has ended, so by (a) the readings and conditional states are those of the complete coupled
 
-evolution. For finitely many centres, the field together with finitely many pointers has a density
+dynamics. For finitely many centers, the field together with finitely many pointers has a density
 
-operator conditioned on the realized readings, and the next increment, namely evolution through the
+operator conditioned on the realized readings, and the next increment, namely propagation through
 
-next slab, preparation of the pointers whose regions begin there, and reading of those whose regions
+the next slab, preparation of the pointers whose regions begin there, and reading of those whose
 
-end there, depends only on it. For the Poisson centres of Candidate extension 13.27, the centres
+regions end there, depends only on it. For the Poisson centers of Candidate extension 13.27, the
 
-whose regions begin in a new slab are those with T(x) − τ in it, and they can be drawn from that
+centers whose regions begin in a new slab are those with T(x) − τ in it, and they can be drawn from
 
-region alone (Theorem 13.21(e)). On a spatially closed FLRW spacetime, the centres with T(x) − τ
+that region alone (Theorem 13.21(e)). On a spatially closed FLRW spacetime, the centers with T(x) −
 
-below a given value lie in a set of finite four-volume, because the level sets are compact, so there
+τ below a given value lie in a set of finite four-volume, because the level sets are compact, so
 
-are finitely many of them almost surely. □
+there are finitely many of them almost surely. □
 
 
 
@@ -82,7 +94,7 @@ regions in which one meets the causal future of the other but not conversely, th
 
 that of sequential collapse in causal order to 1.8 × 10⁻¹³. For the overlapping pair of item C3(e),
 
-the pointer law differs from the law of collapses in centre-time order: the variances of the two
+the pointer law differs from the law of collapses in center-time order: the variances of the two
 
 readings are larger by 0.0011 and 0.0537.
 
@@ -92,7 +104,7 @@ Statistics and definite outcomes. Proposition 13.31 derives the statistics of th
 
 local coupling densities. It does not derive that the readings have definite values. The coupled
 
-evolution U is unitary and selects no outcome: it produces an entangled state of the field and the
+propagator U is unitary and selects no outcome: it produces an entangled state of the field and the
 
 pointers in which every reading allowed by the Born-rule density is represented. A spontaneous-
 
@@ -150,7 +162,7 @@ Three achievements should be kept apart.
 
     (ii) Constructing a consistent probability law for the pointer records, including infinitely
 
-    many centres: established under the stated assumptions (Lemma 13.30, Proposition 13.31(f)), as a
+    many centers: established under the stated assumptions (Lemma 13.30, Proposition 13.31(f)), as a
 
     law of records rather than a global present state; it does not establish infinite-volume
 
@@ -180,7 +192,7 @@ collapse postulate from the field to the pointers; it does not remove it. For CT
 
 three consequences. First, a reading event is a Tier 1 event (Definition 5.1): its occurrence,
 
-labelled by y, is primitive, and the truth profile past-tenses it. The pointer takes no further part
+labeled by y, is primitive, and the truth profile past-tenses it. The pointer takes no further part
 
 in the dynamics and serves afterwards as the record of y, and the present physical state after the
 
@@ -194,7 +206,7 @@ law of its reading depends only on that state, so the variant is generable for f
 
 (Proposition 13.31(g)). Third, physical adequacy requires an account, not given here, of what the
 
-pointers are, why one exists at each Poisson centre without an experimenter, what prepares it in the
+pointers are, why one exists at each Poisson center without an experimenter, what prepares it in the
 
 pre-chirped state, and what physical system carries its record. Without such an account, the pointer
 
@@ -210,7 +222,7 @@ implementations compare as follows.
 
 
 
-    (a) Completeness. Centre-time ordering: proved. Completion-time ordering: unchanged, with the
+    (a) Completeness. Center-time ordering: proved. Completion-time ordering: unchanged, with the
 
     same proof. Gapless pointers: holds for every finite configuration, with a separate proof
 
@@ -218,7 +230,7 @@ implementations compare as follows.
 
 
 
-    (b) Agreement with the causal-order dynamics. Centre-time ordering: proved in the flat local
+    (b) Agreement with the causal-order dynamics. Center-time ordering: proved in the flat local
 
     model. Completion-time ordering: unchanged for a uniform half-width; a separate proof would be
 
@@ -232,7 +244,7 @@ implementations compare as follows.
 
 
 
-    (c) No signaling. Centre-time and completion-time ordering: proved for the covered operations.
+    (c) No signaling. Center-time and completion-time ordering: proved for the covered operations.
 
     Gapless pointers: holds, with a separate proof, for every pointer or classical source whose
 
@@ -244,7 +256,7 @@ implementations compare as follows.
 
 
 
-    (d) Forward generation. Centre-time ordering: forward computability from present Cauchy data,
+    (d) Forward generation. Center-time ordering: forward computability from present Cauchy data,
 
     not a mechanism. Completion-time ordering: strengthened to computability from the generated past
 
@@ -254,30 +266,12 @@ implementations compare as follows.
 
     collapse being the reading of a pointer whose coupling has ended (Proposition 13.31(g)); on
 
-    spatially flat or open FLRW spacetimes, a forward evolution of the present state is not
+    spatially flat or open FLRW spacetimes, a forward propagation of the present state is not
 
     constructed.
 
 
 
-    (e) Preferred-frame structure. Centre-time and completion-time ordering: proved. Gapless
+    (e) Preferred-frame structure. Center-time and completion-time ordering: proved. Gapless
 
     pointers: the energy–momentum injection survives unchanged, because the unread channel is the
-
-    same (Proposition 13.31(c)); the cosmic-frame dependence of the outcome correlations that comes
-
-    from the ordering rule fails: the law of Proposition 13.31(b) contains no ordering rule, and its
-
-    correlations depend on the cosmic frame only through the smearings.
-
-
-
-    (f) Infinite histories. Centre-time and completion-time ordering: proved when the past regions
-
-    have finite four-volume, and open otherwise. Gapless pointers: a law of the pointer records
-
-    exists and is unique on every FLRW spacetime of the class, including spatially infinite ones,
-
-    with a separate proof (Lemma 13.30, Proposition 13.31(f)); it is a law of records, not a global
-
-    present state containing infinitely many pointers, and it does not establish the generation of

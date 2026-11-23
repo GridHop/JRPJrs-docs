@@ -15,9 +15,9 @@
       "title": "Cosmic-Time Generative Presentism (CTGP) — Explained",
       "slug": "ctgp-explained",
       "source_filename": "CTGP_-_explained.docx",
-      "source_paragraphs": 4417,
-      "published_paragraphs": 4417,
-      "words": 45880,
+      "source_paragraphs": 4436,
+      "published_paragraphs": 4436,
+      "words": 46228,
       "parts": 26
     },
     {
@@ -35,7 +35,7 @@
       "source_filename": "Info.docx",
       "source_paragraphs": 6321,
       "published_paragraphs": 6321,
-      "words": 40978,
+      "words": 40977,
       "parts": 23
     },
     {
@@ -60,10 +60,10 @@
       "title": "Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism",
       "slug": "quantum-reference-frames-single-outcome-dynamics",
       "source_filename": "QUANTUM_REFERENCE_FRAMES_AND_SINGLE-OUTCOME_DYNAMICS_-_Generative_Presentism_Compatibility.docx",
-      "source_paragraphs": 6114,
-      "published_paragraphs": 6114,
-      "words": 62746,
-      "parts": 35
+      "source_paragraphs": 6120,
+      "published_paragraphs": 6120,
+      "words": 62853,
+      "parts": 36
     },
     {
       "title": "Informative",
@@ -71,7 +71,7 @@
       "source_filename": "Informative.docx",
       "source_paragraphs": 1260,
       "published_paragraphs": 1260,
-      "words": 27071,
+      "words": 27235,
       "parts": 16
     }
   ],
@@ -181,8 +181,8 @@
       "source_paragraph_start": 0,
       "source_paragraph_end_exclusive": 174,
       "paragraphs": 174,
-      "words": 1789,
-      "sha256_paragraph_sequence": "ec94744317dc3dcae9114e17b2be001023c6402f491da89840921afe65941f62"
+      "words": 1793,
+      "sha256_paragraph_sequence": "907d61ec27148e0f9f2626558380238479c1f43dd05a68eff66f3d8a8ea7a849"
     },
     {
       "work": "ctgp-explained",
@@ -191,7 +191,7 @@
       "source_paragraph_end_exclusive": 339,
       "paragraphs": 165,
       "words": 1792,
-      "sha256_paragraph_sequence": "48bf9356e2fb6e43f8dae1d5240d4cd1db48e3bf5481ed8c1154afaa4eecc4fc"
+      "sha256_paragraph_sequence": "2f5159b09ac6cb3bb12e3c392b1a729be173060c0e4b78fa812bfa80c42d3c1d"
     },
     {
       "work": "ctgp-explained",
@@ -199,215 +199,215 @@
       "source_paragraph_start": 339,
       "source_paragraph_end_exclusive": 498,
       "paragraphs": 159,
-      "words": 1785,
-      "sha256_paragraph_sequence": "482f18c673d99af19553c3673a5963ed387b3f3f1e5bc9f4157c8f650a3ed637"
+      "words": 1786,
+      "sha256_paragraph_sequence": "9706a835f5fc9a7e6c00f13032929748554d0f05c280eb0ff0cbd7f17fee848c"
     },
     {
       "work": "ctgp-explained",
       "part": 4,
       "source_paragraph_start": 498,
-      "source_paragraph_end_exclusive": 663,
-      "paragraphs": 165,
-      "words": 1798,
-      "sha256_paragraph_sequence": "e8a653b09a0a7d51a8b8de066c02f47e739f7aa7acbe13dea7066b049814087c"
+      "source_paragraph_end_exclusive": 656,
+      "paragraphs": 158,
+      "words": 1795,
+      "sha256_paragraph_sequence": "efcd70009f4ac13212db360b0e78dc9abdf8338b070a931ffea54cfe62c868b0"
     },
     {
       "work": "ctgp-explained",
       "part": 5,
-      "source_paragraph_start": 663,
-      "source_paragraph_end_exclusive": 829,
-      "paragraphs": 166,
-      "words": 1797,
-      "sha256_paragraph_sequence": "5a263dc0ad3c866d958786e8a09f3add157b0f640a17d82fbfd701bf43986610"
+      "source_paragraph_start": 656,
+      "source_paragraph_end_exclusive": 825,
+      "paragraphs": 169,
+      "words": 1785,
+      "sha256_paragraph_sequence": "a72a94197482abaf827b59f1417628da39bd4f019cc767e989dc2c6a81646acd"
     },
     {
       "work": "ctgp-explained",
       "part": 6,
-      "source_paragraph_start": 829,
-      "source_paragraph_end_exclusive": 972,
-      "paragraphs": 143,
-      "words": 1793,
-      "sha256_paragraph_sequence": "07f9e705fe864be7d1ae2789c951f2f12d837db93d86b02c069f6faf8e2c98fe"
+      "source_paragraph_start": 825,
+      "source_paragraph_end_exclusive": 969,
+      "paragraphs": 144,
+      "words": 1798,
+      "sha256_paragraph_sequence": "99ccda27069a4b6e73f37a2d438057fd4699d9d1377330876ae2279fac917c1f"
     },
     {
       "work": "ctgp-explained",
       "part": 7,
-      "source_paragraph_start": 972,
-      "source_paragraph_end_exclusive": 1138,
-      "paragraphs": 166,
-      "words": 1784,
-      "sha256_paragraph_sequence": "a430e637266c8e06b44146467071bcf3a9bafd8c9df5da559b8c9e012a51bf4c"
+      "source_paragraph_start": 969,
+      "source_paragraph_end_exclusive": 1134,
+      "paragraphs": 165,
+      "words": 1790,
+      "sha256_paragraph_sequence": "f4c3e4fa764f1846ffad9cf3c8604abc696969b5533a58f093c4ee4887571223"
     },
     {
       "work": "ctgp-explained",
       "part": 8,
-      "source_paragraph_start": 1138,
-      "source_paragraph_end_exclusive": 1303,
-      "paragraphs": 165,
-      "words": 1789,
-      "sha256_paragraph_sequence": "b90b9e1951c8ae5f3063fd02b6b02df8cfaa99c9086ff5d3f7c2b6acc9b3f270"
+      "source_paragraph_start": 1134,
+      "source_paragraph_end_exclusive": 1297,
+      "paragraphs": 163,
+      "words": 1793,
+      "sha256_paragraph_sequence": "4b1ddfe052348b1fb46e1be582c0e759afb3d9796a23bafd9be7967f19377d52"
     },
     {
       "work": "ctgp-explained",
       "part": 9,
-      "source_paragraph_start": 1303,
-      "source_paragraph_end_exclusive": 1480,
-      "paragraphs": 177,
-      "words": 1795,
-      "sha256_paragraph_sequence": "fe32a949d06c19268b3c32d27cd743586f1d2346b871813ac9e4c92494b1b2c4"
+      "source_paragraph_start": 1297,
+      "source_paragraph_end_exclusive": 1475,
+      "paragraphs": 178,
+      "words": 1794,
+      "sha256_paragraph_sequence": "3113edd6655f7b67416d1fb6993e2e22ebb010fb68d657a9bdca7c103a15bb55"
     },
     {
       "work": "ctgp-explained",
       "part": 10,
-      "source_paragraph_start": 1480,
-      "source_paragraph_end_exclusive": 1646,
+      "source_paragraph_start": 1475,
+      "source_paragraph_end_exclusive": 1641,
       "paragraphs": 166,
-      "words": 1793,
-      "sha256_paragraph_sequence": "cccfc0aa5e567ce0b2964f3495d969a373fce57b193bd664bb4b851cbf8ccc28"
+      "words": 1800,
+      "sha256_paragraph_sequence": "d8554efe64aab53dcf8693b06ea13709ae03bf684e823f1313764b4dc92ceb83"
     },
     {
       "work": "ctgp-explained",
       "part": 11,
-      "source_paragraph_start": 1646,
-      "source_paragraph_end_exclusive": 1790,
-      "paragraphs": 144,
-      "words": 1797,
-      "sha256_paragraph_sequence": "fa51354da1ccbc12960498e4ccec1170c8319004bc6dee6600776eb9a6076f2c"
+      "source_paragraph_start": 1641,
+      "source_paragraph_end_exclusive": 1777,
+      "paragraphs": 136,
+      "words": 1795,
+      "sha256_paragraph_sequence": "b4a2dc2ed520cd0576ba3fa2be6feebd4e95670c22ca3e14490685c0a664cac7"
     },
     {
       "work": "ctgp-explained",
       "part": 12,
-      "source_paragraph_start": 1790,
-      "source_paragraph_end_exclusive": 1975,
-      "paragraphs": 185,
-      "words": 1790,
-      "sha256_paragraph_sequence": "8e60c02727808c24d7e6a79d2de81f8500fb8205629222ccfaad7dbcaad24a17"
+      "source_paragraph_start": 1777,
+      "source_paragraph_end_exclusive": 1963,
+      "paragraphs": 186,
+      "words": 1797,
+      "sha256_paragraph_sequence": "3645a67e4a9841ed222ee5860f7a5a7959cb5ccd2e6b174c6502e75e5be3ce54"
     },
     {
       "work": "ctgp-explained",
       "part": 13,
-      "source_paragraph_start": 1975,
-      "source_paragraph_end_exclusive": 2146,
-      "paragraphs": 171,
-      "words": 1793,
-      "sha256_paragraph_sequence": "8f36e798c78d0425906282ccb747314af2364aa8323a2a73b259b1d67f1878db"
+      "source_paragraph_start": 1963,
+      "source_paragraph_end_exclusive": 2138,
+      "paragraphs": 175,
+      "words": 1792,
+      "sha256_paragraph_sequence": "058e69ca7824f5055defdac26ca8b09a97ea8357a153c408e1f789a338f7b278"
     },
     {
       "work": "ctgp-explained",
       "part": 14,
-      "source_paragraph_start": 2146,
-      "source_paragraph_end_exclusive": 2322,
-      "paragraphs": 176,
-      "words": 1795,
-      "sha256_paragraph_sequence": "09645a7b75593de9cadc53516214ebd2ab0b1b00d19843ba44682c7d9792a850"
+      "source_paragraph_start": 2138,
+      "source_paragraph_end_exclusive": 2313,
+      "paragraphs": 175,
+      "words": 1799,
+      "sha256_paragraph_sequence": "1544792b4b546cee2ae8f1892cd63b29f88ede010592c7611dd56884631a756f"
     },
     {
       "work": "ctgp-explained",
       "part": 15,
-      "source_paragraph_start": 2322,
-      "source_paragraph_end_exclusive": 2480,
-      "paragraphs": 158,
-      "words": 1793,
-      "sha256_paragraph_sequence": "5cf27ce024e6071bcf640b174c49815861b3487a10d6bf02cd8f876e6620e7e6"
+      "source_paragraph_start": 2313,
+      "source_paragraph_end_exclusive": 2476,
+      "paragraphs": 163,
+      "words": 1794,
+      "sha256_paragraph_sequence": "ef6c56f21eb6e37ff3d5abe0b88c39bda64f666c9d921a4a05e60b7f0ab4854f"
     },
     {
       "work": "ctgp-explained",
       "part": 16,
-      "source_paragraph_start": 2480,
-      "source_paragraph_end_exclusive": 2657,
-      "paragraphs": 177,
-      "words": 1798,
-      "sha256_paragraph_sequence": "9887a4de1ba2d09f1feff3a569fed57aadb375f7bf5c5e7fd917405c0a19f0ca"
+      "source_paragraph_start": 2476,
+      "source_paragraph_end_exclusive": 2643,
+      "paragraphs": 167,
+      "words": 1787,
+      "sha256_paragraph_sequence": "d38508a7743fb28dce88f798a3e4727c6c96207cd6c7f4fe00a4b4599f4d5c00"
     },
     {
       "work": "ctgp-explained",
       "part": 17,
-      "source_paragraph_start": 2657,
-      "source_paragraph_end_exclusive": 2819,
-      "paragraphs": 162,
-      "words": 1794,
-      "sha256_paragraph_sequence": "816449dfe73d1f913e22bc37f6d3994197dcafb857f7cf09262c0e70bab28929"
+      "source_paragraph_start": 2643,
+      "source_paragraph_end_exclusive": 2808,
+      "paragraphs": 165,
+      "words": 1795,
+      "sha256_paragraph_sequence": "be851c9dfd6e8b4023c2f00436d467e08a9c09936ff2c53e65d7b3db2f2200b6"
     },
     {
       "work": "ctgp-explained",
       "part": 18,
-      "source_paragraph_start": 2819,
-      "source_paragraph_end_exclusive": 2991,
-      "paragraphs": 172,
-      "words": 1790,
-      "sha256_paragraph_sequence": "e45bd6f032dba788c55566c22d1b6f5c150e6ff3032cd0393469896be95f2ce1"
+      "source_paragraph_start": 2808,
+      "source_paragraph_end_exclusive": 2984,
+      "paragraphs": 176,
+      "words": 1791,
+      "sha256_paragraph_sequence": "ea27539136c4686b4a130ef24512b45e91e960f25cdec1ba2242a94efcdaec73"
     },
     {
       "work": "ctgp-explained",
       "part": 19,
-      "source_paragraph_start": 2991,
-      "source_paragraph_end_exclusive": 3145,
+      "source_paragraph_start": 2984,
+      "source_paragraph_end_exclusive": 3138,
       "paragraphs": 154,
-      "words": 1781,
-      "sha256_paragraph_sequence": "47b17a30bf8d85d3b16812f0d0c7441508653752e20cd302f20566d496c66e0e"
+      "words": 1794,
+      "sha256_paragraph_sequence": "f631d39917c3a49d75f10fa27223cd4149a6ef47248e7c4976dc57835adc83cc"
     },
     {
       "work": "ctgp-explained",
       "part": 20,
-      "source_paragraph_start": 3145,
-      "source_paragraph_end_exclusive": 3289,
-      "paragraphs": 144,
-      "words": 1795,
-      "sha256_paragraph_sequence": "ad7ce7ffc16a1c88aeb35ce1899a4e7d6f3bf06307a7a2b492f266cefc2861e0"
+      "source_paragraph_start": 3138,
+      "source_paragraph_end_exclusive": 3283,
+      "paragraphs": 145,
+      "words": 1796,
+      "sha256_paragraph_sequence": "b228220477230ee157b6f4c1988c755a48ab2369ab4241163718843594f3473d"
     },
     {
       "work": "ctgp-explained",
       "part": 21,
-      "source_paragraph_start": 3289,
-      "source_paragraph_end_exclusive": 3472,
-      "paragraphs": 183,
-      "words": 1788,
-      "sha256_paragraph_sequence": "5e1426490e81136eb0aa7bdc95290e139e6cb999e874ca3f8b91a70594091e1c"
+      "source_paragraph_start": 3283,
+      "source_paragraph_end_exclusive": 3441,
+      "paragraphs": 158,
+      "words": 1785,
+      "sha256_paragraph_sequence": "f0232f3f896227104d8531e8f7af9865c3a8f923234f5c07dfb521b5c339facf"
     },
     {
       "work": "ctgp-explained",
       "part": 22,
-      "source_paragraph_start": 3472,
-      "source_paragraph_end_exclusive": 3742,
-      "paragraphs": 270,
-      "words": 1797,
-      "sha256_paragraph_sequence": "b9f3e9935abbe0a8fdadce51e7a80a77f15946438b60cdd38cbd22b1381d51ab"
+      "source_paragraph_start": 3441,
+      "source_paragraph_end_exclusive": 3722,
+      "paragraphs": 281,
+      "words": 1789,
+      "sha256_paragraph_sequence": "8e39402764ad96c94976156ca59ea1e014f8d3f9cd4855315051831cdaf96025"
     },
     {
       "work": "ctgp-explained",
       "part": 23,
-      "source_paragraph_start": 3742,
-      "source_paragraph_end_exclusive": 3924,
-      "paragraphs": 182,
-      "words": 1794,
-      "sha256_paragraph_sequence": "6c7e9a3a88bfa6390eba4530adb69d0c3c346c72f13e308291505c3868ca4654"
+      "source_paragraph_start": 3722,
+      "source_paragraph_end_exclusive": 3902,
+      "paragraphs": 180,
+      "words": 1790,
+      "sha256_paragraph_sequence": "145d3f8fc93f315ffdbb3e103cca2269a0ab6200edc0bc0aeb3d5ff19f523130"
     },
     {
       "work": "ctgp-explained",
       "part": 24,
-      "source_paragraph_start": 3924,
-      "source_paragraph_end_exclusive": 4091,
-      "paragraphs": 167,
-      "words": 1792,
-      "sha256_paragraph_sequence": "b668c119fb2d68bb485e7b6767b6a1a62950175ba08edab72ccaa22ceaffe971"
+      "source_paragraph_start": 3902,
+      "source_paragraph_end_exclusive": 4082,
+      "paragraphs": 180,
+      "words": 1791,
+      "sha256_paragraph_sequence": "37637b902345b2377b591fbc89d3efa10569a503e9997bec59883d0a865e44b6"
     },
     {
       "work": "ctgp-explained",
       "part": 25,
-      "source_paragraph_start": 4091,
-      "source_paragraph_end_exclusive": 4310,
-      "paragraphs": 219,
-      "words": 1797,
-      "sha256_paragraph_sequence": "08483abb55c56cdb5263f12b6f65d2d32a869e797d100d1e05aa32df25c87887"
+      "source_paragraph_start": 4082,
+      "source_paragraph_end_exclusive": 4290,
+      "paragraphs": 208,
+      "words": 1795,
+      "sha256_paragraph_sequence": "551d759cc4b704394220b1032ddc17f59ff08b52d79bd77dd88833faf25f507c"
     },
     {
       "work": "ctgp-explained",
       "part": 26,
-      "source_paragraph_start": 4310,
-      "source_paragraph_end_exclusive": 4417,
-      "paragraphs": 107,
-      "words": 1071,
-      "sha256_paragraph_sequence": "15883f33274034c1e2c6d43ca67f66b87c8c9c02ccea8e1d59bf487956330222"
+      "source_paragraph_start": 4290,
+      "source_paragraph_end_exclusive": 4436,
+      "paragraphs": 146,
+      "words": 1412,
+      "sha256_paragraph_sequence": "10af78033dea63112f85243c07e1dc10a63278b4b305496363b2eafe0a3d0878"
     },
     {
       "work": "free-will",
@@ -443,7 +443,7 @@
       "source_paragraph_end_exclusive": 174,
       "paragraphs": 174,
       "words": 1792,
-      "sha256_paragraph_sequence": "dba1208d79751b96644206e85d1c90d196c0fd6f6e6eec5e6dff2522ecc85d73"
+      "sha256_paragraph_sequence": "d98b590085b7c45d7347a9900b59d6c453028680949127f69e701a39ee641249"
     },
     {
       "work": "info",
@@ -524,7 +524,7 @@
       "source_paragraph_end_exclusive": 2985,
       "paragraphs": 316,
       "words": 1794,
-      "sha256_paragraph_sequence": "a923d30641f7255843a805510f1a45bdde4ec4c45d9f6688aefa065306f6b328"
+      "sha256_paragraph_sequence": "3650f39a7198733122fdab6ccda285bccdc60b63fc545c8b9fc34931f545974e"
     },
     {
       "work": "info",
@@ -560,7 +560,7 @@
       "source_paragraph_end_exclusive": 4341,
       "paragraphs": 270,
       "words": 1790,
-      "sha256_paragraph_sequence": "76717a474febca00e9e1e3bf82552fa9e209777b44f9ffaa048b28aa62490559"
+      "sha256_paragraph_sequence": "91f92396f7068ee8d49a07aca9012fd4077b1f24e5653468ef5a02d98d6afa4b"
     },
     {
       "work": "info",
@@ -578,7 +578,7 @@
       "source_paragraph_end_exclusive": 4940,
       "paragraphs": 312,
       "words": 1796,
-      "sha256_paragraph_sequence": "7885d06eb80608dd71013955b137f3fe9b0086334fa8d910d1346416969d5187"
+      "sha256_paragraph_sequence": "4953b1effa4fa30ad4f3cf530b6535c70c68c3124e97b1d81aef3a7e6e85cda0"
     },
     {
       "work": "info",
@@ -605,7 +605,7 @@
       "source_paragraph_end_exclusive": 5643,
       "paragraphs": 192,
       "words": 1788,
-      "sha256_paragraph_sequence": "444ff067e5c05ac122f238dd561055c987c4d6747e46f031b3a81d03ee7a31af"
+      "sha256_paragraph_sequence": "45669d7380e2d4a111bb36c6c8d402a642f85adc21ff609a054400e4da1bcf80"
     },
     {
       "work": "info",
@@ -613,8 +613,8 @@
       "source_paragraph_start": 5643,
       "source_paragraph_end_exclusive": 5819,
       "paragraphs": 176,
-      "words": 1799,
-      "sha256_paragraph_sequence": "14e0769e9a3c4475449787edf61ab5eb47484143bf1b6d3adc845ba8ad7c8313"
+      "words": 1798,
+      "sha256_paragraph_sequence": "3dfdcf849a1d89ac8e43b568148079df08f552343e806fd9f2ee8013c57f45d4"
     },
     {
       "work": "info",
@@ -622,8 +622,8 @@
       "source_paragraph_start": 5819,
       "source_paragraph_end_exclusive": 6011,
       "paragraphs": 192,
-      "words": 1792,
-      "sha256_paragraph_sequence": "b0a4eb0fb3e04f4f763c7b7355f1f83abd44e4558d5df50d3aa5d3e95d7d7175"
+      "words": 1791,
+      "sha256_paragraph_sequence": "026d933988cba853dcf28e484dbc1f0f245254ece559f2b3d3e93176c551c151"
     },
     {
       "work": "info",
@@ -631,8 +631,8 @@
       "source_paragraph_start": 6011,
       "source_paragraph_end_exclusive": 6191,
       "paragraphs": 180,
-      "words": 1799,
-      "sha256_paragraph_sequence": "4dc809736976d445910db190212d48e64858e23a7f586267e65ade6f6af0d82b"
+      "words": 1800,
+      "sha256_paragraph_sequence": "930deae5dbea1a2e43877500e3757cd0b176a1cd8a9fd3b572d16cab41a5b57a"
     },
     {
       "work": "info",
@@ -641,7 +641,7 @@
       "source_paragraph_end_exclusive": 6321,
       "paragraphs": 130,
       "words": 1524,
-      "sha256_paragraph_sequence": "c67990bf7a426c09270907f45cb69ed2aee676f89aa3839c52d76d2daccc72ff"
+      "sha256_paragraph_sequence": "14a4e8b2c7caca5a8583f20bf081457a702660ac74dd4c82c21d4a051f6bab34"
     },
     {
       "work": "more-info",
@@ -659,7 +659,7 @@
       "source_paragraph_end_exclusive": 429,
       "paragraphs": 210,
       "words": 1788,
-      "sha256_paragraph_sequence": "b41d08bfbeffbafd27ab800c178e3e19a256104ce95e94ba9647febddbd831b8"
+      "sha256_paragraph_sequence": "1cc769a0d10bc85b3f34c0165c571c3e1aa000a0428c1b259ba298afa1ae8d0c"
     },
     {
       "work": "more-info",
@@ -884,79 +884,79 @@
       "source_paragraph_end_exclusive": 181,
       "paragraphs": 181,
       "words": 1799,
-      "sha256_paragraph_sequence": "e461be73680c38829a7860de2ea625e9aec8ce21a2ecebdeb792a1450a77cafb"
+      "sha256_paragraph_sequence": "bd93d5f4c8394db5266dc384c9f10fad0bcc8063d530b2136fe49fc8bb8089e5"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 2,
       "source_paragraph_start": 181,
-      "source_paragraph_end_exclusive": 369,
-      "paragraphs": 188,
-      "words": 1790,
-      "sha256_paragraph_sequence": "8f2b5f2e7965953e764e20c7fc30ce6871d26f7debdb786afeec26a3415deca3"
+      "source_paragraph_end_exclusive": 366,
+      "paragraphs": 185,
+      "words": 1800,
+      "sha256_paragraph_sequence": "c08b3eb487b548af5a5fb094d5c9318d828789e45db84134148aba555f4f541f"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 3,
-      "source_paragraph_start": 369,
+      "source_paragraph_start": 366,
       "source_paragraph_end_exclusive": 551,
-      "paragraphs": 182,
-      "words": 1794,
-      "sha256_paragraph_sequence": "0e0e8134a62f6162ade3157b65473213a7f4b37269d88d83219d6c0f21b38d50"
+      "paragraphs": 185,
+      "words": 1785,
+      "sha256_paragraph_sequence": "3f960fd63949ecc61d5ad39a22651c8eee892c2c4121be84e5e0ad96a538f301"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 4,
       "source_paragraph_start": 551,
-      "source_paragraph_end_exclusive": 719,
-      "paragraphs": 168,
-      "words": 1794,
-      "sha256_paragraph_sequence": "2b334cc85050c5ee00940b2bf4614f80c09150f5c5a526d3247b49eb679d1346"
+      "source_paragraph_end_exclusive": 716,
+      "paragraphs": 165,
+      "words": 1796,
+      "sha256_paragraph_sequence": "adbd3b469c68f78ce319f19394f1f02f2ea205aa776a47c4e95b84d51c9e5e79"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 5,
-      "source_paragraph_start": 719,
-      "source_paragraph_end_exclusive": 895,
-      "paragraphs": 176,
-      "words": 1796,
-      "sha256_paragraph_sequence": "54749c65a09c7ca4c0ddc0fa168dfcfbc08f6353b8740cdb5965cd437f207a40"
+      "source_paragraph_start": 716,
+      "source_paragraph_end_exclusive": 891,
+      "paragraphs": 175,
+      "words": 1784,
+      "sha256_paragraph_sequence": "e42ac7179802d34c89ce0af65e2a81386f2a6c6595ff681a68f392d53a6968a6"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 6,
-      "source_paragraph_start": 895,
-      "source_paragraph_end_exclusive": 1077,
-      "paragraphs": 182,
+      "source_paragraph_start": 891,
+      "source_paragraph_end_exclusive": 1074,
+      "paragraphs": 183,
       "words": 1798,
-      "sha256_paragraph_sequence": "2a6836909c3a08d50b1f1f6399e1bb7042d0b1e0f44c0e911b4fcfe924527b90"
+      "sha256_paragraph_sequence": "84c55604e724309a3c1a867dc04c9d4ebac578399b3184c22ae049fcc79c7d71"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 7,
-      "source_paragraph_start": 1077,
-      "source_paragraph_end_exclusive": 1260,
-      "paragraphs": 183,
-      "words": 1800,
-      "sha256_paragraph_sequence": "aabb2d2163e99e2e8a0becdbcdbca8d163b00540af46c7b1f32f6ef5024a5be3"
+      "source_paragraph_start": 1074,
+      "source_paragraph_end_exclusive": 1255,
+      "paragraphs": 181,
+      "words": 1786,
+      "sha256_paragraph_sequence": "3fc9dfcc4df3abf12bce0ac97338081792704ee2e9f2730e1d7708853966543f"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 8,
-      "source_paragraph_start": 1260,
-      "source_paragraph_end_exclusive": 1426,
-      "paragraphs": 166,
-      "words": 1784,
-      "sha256_paragraph_sequence": "67703e1cb8e303cdcce74c3a1fa5776cc8bf77775eaa09caebbf33bec12de682"
+      "source_paragraph_start": 1255,
+      "source_paragraph_end_exclusive": 1422,
+      "paragraphs": 167,
+      "words": 1794,
+      "sha256_paragraph_sequence": "1f0b9e38e711c9590560f84a80a5fa14277949cef51e52c83ad8f8456fb4d72d"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 9,
-      "source_paragraph_start": 1426,
+      "source_paragraph_start": 1422,
       "source_paragraph_end_exclusive": 1572,
-      "paragraphs": 146,
-      "words": 1789,
-      "sha256_paragraph_sequence": "fc57737aaad6245f53e34902c3a3ad0385120a600e06c4f6a8acd17bd579481a"
+      "paragraphs": 150,
+      "words": 1794,
+      "sha256_paragraph_sequence": "63a1a6e8c581060cd33dcecc2c82bfa205dfa253013903fbd99a01f5ae65c48c"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
@@ -964,377 +964,386 @@
       "source_paragraph_start": 1572,
       "source_paragraph_end_exclusive": 1750,
       "paragraphs": 178,
-      "words": 1793,
-      "sha256_paragraph_sequence": "8f5582cc80aae65ef1f4f5e4c3aab3ca7fd4b8b61a8c709b5b681bf7c3fec6e9"
+      "words": 1789,
+      "sha256_paragraph_sequence": "3008ae2824aa4a741eab6626edd4354f372a9d3cca26b03bd8d3eac098374ee2"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 11,
       "source_paragraph_start": 1750,
-      "source_paragraph_end_exclusive": 1937,
-      "paragraphs": 187,
-      "words": 1790,
-      "sha256_paragraph_sequence": "f0ae405a9459afb15d820a74dbe759960a7827f79ec10b1afcb161e2f22b9f98"
+      "source_paragraph_end_exclusive": 1928,
+      "paragraphs": 178,
+      "words": 1795,
+      "sha256_paragraph_sequence": "b55c74f679e1e22c74d0f4f58778116a798ab04dfffe89a80ff6ff8bf61cb7cc"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 12,
-      "source_paragraph_start": 1937,
-      "source_paragraph_end_exclusive": 2094,
-      "paragraphs": 157,
-      "words": 1798,
-      "sha256_paragraph_sequence": "f1a25f2a4565a7eb8dc7fdcda01f15c9b3ef8db90c18d40617a05eb478416a4f"
+      "source_paragraph_start": 1928,
+      "source_paragraph_end_exclusive": 2091,
+      "paragraphs": 163,
+      "words": 1797,
+      "sha256_paragraph_sequence": "1284cc02753e8e13f917c0924d7e6c773980fc3fa7d4923eb8639ee4627dd637"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 13,
-      "source_paragraph_start": 2094,
-      "source_paragraph_end_exclusive": 2253,
-      "paragraphs": 159,
-      "words": 1788,
-      "sha256_paragraph_sequence": "905742c4eff2faf83169528562b35297a9abc51997f1fe2a9680084c45f0a4eb"
+      "source_paragraph_start": 2091,
+      "source_paragraph_end_exclusive": 2249,
+      "paragraphs": 158,
+      "words": 1800,
+      "sha256_paragraph_sequence": "1cb41299a8b0e15905e2a8f6afadd1c7bd4d071b2e5e3cd02cfc7f1675318fa4"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 14,
-      "source_paragraph_start": 2253,
-      "source_paragraph_end_exclusive": 2399,
-      "paragraphs": 146,
-      "words": 1796,
-      "sha256_paragraph_sequence": "407f6ca10c9ca16738f583fa99f0e25584364f15f4a8f43ec47d3527313543f3"
+      "source_paragraph_start": 2249,
+      "source_paragraph_end_exclusive": 2398,
+      "paragraphs": 149,
+      "words": 1797,
+      "sha256_paragraph_sequence": "5d100282750ce9058584cbf10b35049a4aa5f9db97e6a5e4452ee7a6b33102d1"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 15,
-      "source_paragraph_start": 2399,
-      "source_paragraph_end_exclusive": 2555,
-      "paragraphs": 156,
-      "words": 1798,
-      "sha256_paragraph_sequence": "35a7577ac92230ed0cfaf6e13456e7b33da55ae71c7515eda0dd9a7e80f7e135"
+      "source_paragraph_start": 2398,
+      "source_paragraph_end_exclusive": 2551,
+      "paragraphs": 153,
+      "words": 1795,
+      "sha256_paragraph_sequence": "f9bda617e2a71af026c3dc18a1a4851ba8eb5dbe71a3319c7d4d014a0f2c52c8"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 16,
-      "source_paragraph_start": 2555,
-      "source_paragraph_end_exclusive": 2693,
+      "source_paragraph_start": 2551,
+      "source_paragraph_end_exclusive": 2689,
       "paragraphs": 138,
-      "words": 1793,
-      "sha256_paragraph_sequence": "d16387e3ff244f191c88aa028023d7fea51d23da6d148dc847034c08bf7f696e"
+      "words": 1785,
+      "sha256_paragraph_sequence": "9a2a72744efe87b52c3a6660ab7b5b79babc74370581f81d91a080454a08e911"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 17,
-      "source_paragraph_start": 2693,
-      "source_paragraph_end_exclusive": 2835,
-      "paragraphs": 142,
-      "words": 1800,
-      "sha256_paragraph_sequence": "3f59ecfedda34f9b77cdc52f5bab87c8d9da38587b345a054b8373d3a3d8f55d"
+      "source_paragraph_start": 2689,
+      "source_paragraph_end_exclusive": 2833,
+      "paragraphs": 144,
+      "words": 1792,
+      "sha256_paragraph_sequence": "3626943be09b7ffac8618552f7281500111b2d91585b8a801b2fde5808087daa"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 18,
-      "source_paragraph_start": 2835,
-      "source_paragraph_end_exclusive": 2976,
+      "source_paragraph_start": 2833,
+      "source_paragraph_end_exclusive": 2974,
       "paragraphs": 141,
-      "words": 1787,
-      "sha256_paragraph_sequence": "84ceea0f5b0fa725f8ff6dcc9d1e0ead58826bb168f8df982b3a332887aeca65"
+      "words": 1800,
+      "sha256_paragraph_sequence": "2c808d593869bfdf2fb35e2bbb8eef90953f02ad7b1426d6e01777819fbed737"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 19,
-      "source_paragraph_start": 2976,
+      "source_paragraph_start": 2974,
       "source_paragraph_end_exclusive": 3111,
-      "paragraphs": 135,
-      "words": 1790,
-      "sha256_paragraph_sequence": "ce84e3396d4f7a4d8f274f34bc4ecddaf51a89001d81e78a64c6cabdd8b1d293"
+      "paragraphs": 137,
+      "words": 1798,
+      "sha256_paragraph_sequence": "427a7fc3682f2aa487edb544058751b0d3ce9026ef4d674a38364b9f57dbf20e"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 20,
       "source_paragraph_start": 3111,
-      "source_paragraph_end_exclusive": 3240,
-      "paragraphs": 129,
-      "words": 1799,
-      "sha256_paragraph_sequence": "c0dd98940122f9c4ce023667bb568d4aa044064cbae881bc3ddf7728878c7e7e"
+      "source_paragraph_end_exclusive": 3241,
+      "paragraphs": 130,
+      "words": 1790,
+      "sha256_paragraph_sequence": "212340563e5671b1be2763d0f2247a34bd77e1f012ca6f1ce76f3477e55947e3"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 21,
-      "source_paragraph_start": 3240,
+      "source_paragraph_start": 3241,
       "source_paragraph_end_exclusive": 3371,
-      "paragraphs": 131,
-      "words": 1796,
-      "sha256_paragraph_sequence": "e323e31aedbf121c62c7dfc89ff0439aa3f2f9a6b3457718221bab735d510043"
+      "paragraphs": 130,
+      "words": 1800,
+      "sha256_paragraph_sequence": "d82312afa3dc4633ed33f17c57a21e3dd7a0a61981e2adaf9190bc5ad91bc75a"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 22,
       "source_paragraph_start": 3371,
-      "source_paragraph_end_exclusive": 3511,
-      "paragraphs": 140,
-      "words": 1799,
-      "sha256_paragraph_sequence": "096a53ad8242ad3d566cdf6081a465105787fc2a0c052679249ba4697f7fdaaa"
+      "source_paragraph_end_exclusive": 3508,
+      "paragraphs": 137,
+      "words": 1791,
+      "sha256_paragraph_sequence": "0ac8c7e5a50aa84362b936ffe78de57792ec49c4b2337ea979ce50b83b0e208d"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 23,
-      "source_paragraph_start": 3511,
-      "source_paragraph_end_exclusive": 3680,
-      "paragraphs": 169,
-      "words": 1796,
-      "sha256_paragraph_sequence": "c07b5f3e92ec852ce65ca72d059b40f1eeb2ee421120eb056197c3a93fd5c269"
+      "source_paragraph_start": 3508,
+      "source_paragraph_end_exclusive": 3672,
+      "paragraphs": 164,
+      "words": 1795,
+      "sha256_paragraph_sequence": "ce1ff69a4dae64c18d4bb640550aec80a81331be0273428de6890583abaa30fc"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 24,
-      "source_paragraph_start": 3680,
-      "source_paragraph_end_exclusive": 3833,
-      "paragraphs": 153,
-      "words": 1792,
-      "sha256_paragraph_sequence": "03cc4cbec39d8197f0798e2ee590db059a968843cd8432eaebacd7584d43c6f5"
+      "source_paragraph_start": 3672,
+      "source_paragraph_end_exclusive": 3828,
+      "paragraphs": 156,
+      "words": 1782,
+      "sha256_paragraph_sequence": "3f2842328aaa614568cb0fb0d05506a2d56f987fd7095b6bbdf49b59b40d9f8d"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 25,
-      "source_paragraph_start": 3833,
-      "source_paragraph_end_exclusive": 3972,
-      "paragraphs": 139,
-      "words": 1799,
-      "sha256_paragraph_sequence": "3f116daa223351d732748558dfdfd094441c380c59ef959939bdcd8847e01f31"
+      "source_paragraph_start": 3828,
+      "source_paragraph_end_exclusive": 3960,
+      "paragraphs": 132,
+      "words": 1787,
+      "sha256_paragraph_sequence": "7efe29ab9b3855f16f2baaa3cc39f2006628b6e00a53aa8654990f20e7ac5415"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 26,
-      "source_paragraph_start": 3972,
-      "source_paragraph_end_exclusive": 4188,
+      "source_paragraph_start": 3960,
+      "source_paragraph_end_exclusive": 4176,
       "paragraphs": 216,
-      "words": 1799,
-      "sha256_paragraph_sequence": "5983b1cfbc6d4b963dc0b2199dd6d3edb3bcc418c060f6616536e0e466a29917"
+      "words": 1796,
+      "sha256_paragraph_sequence": "ad11f5001d4e458174b7dbaffc738d0458dd93ce7d446d439d11860a4af947ae"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 27,
-      "source_paragraph_start": 4188,
-      "source_paragraph_end_exclusive": 4352,
-      "paragraphs": 164,
-      "words": 1799,
-      "sha256_paragraph_sequence": "155f3c2eb73ab7fa0befbee68b9e406bcf955f95e4f4947f65ea5000af8614ad"
+      "source_paragraph_start": 4176,
+      "source_paragraph_end_exclusive": 4345,
+      "paragraphs": 169,
+      "words": 1796,
+      "sha256_paragraph_sequence": "10d21ea390c0102e6d5ca6aa673a77d75f2a1b925fef26101e1f84cf5fa77d15"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 28,
-      "source_paragraph_start": 4352,
-      "source_paragraph_end_exclusive": 4569,
-      "paragraphs": 217,
-      "words": 1791,
-      "sha256_paragraph_sequence": "fbe76b66773342fade84c0b14d5c009141e25a07d0c50bb6fdaae9c9d4b68ad7"
+      "source_paragraph_start": 4345,
+      "source_paragraph_end_exclusive": 4556,
+      "paragraphs": 211,
+      "words": 1795,
+      "sha256_paragraph_sequence": "074680a898eeeecc064d48e76fe583747dc908fce4e68041a6b92f73143dac58"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 29,
-      "source_paragraph_start": 4569,
-      "source_paragraph_end_exclusive": 4783,
-      "paragraphs": 214,
-      "words": 1790,
-      "sha256_paragraph_sequence": "e930ea6b9c26a71c5cce73382fb91b99d1ff77de88492cdcead4da3882ba88f8"
+      "source_paragraph_start": 4556,
+      "source_paragraph_end_exclusive": 4772,
+      "paragraphs": 216,
+      "words": 1797,
+      "sha256_paragraph_sequence": "4607194e99ba1f618a3471479f5091f69142384485079f8c924ca1ab47a96726"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 30,
-      "source_paragraph_start": 4783,
-      "source_paragraph_end_exclusive": 5023,
+      "source_paragraph_start": 4772,
+      "source_paragraph_end_exclusive": 5012,
       "paragraphs": 240,
-      "words": 1791,
-      "sha256_paragraph_sequence": "fc6c4fd123a0111e1a4aabb6acdcd0cb767cd97f073022ac059a546e9cc2e1b8"
+      "words": 1797,
+      "sha256_paragraph_sequence": "11bff4ab83937aa82551c33d3dc2a3386f115ceb87c4fd28682d842d098bc3ee"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 31,
-      "source_paragraph_start": 5023,
-      "source_paragraph_end_exclusive": 5231,
-      "paragraphs": 208,
-      "words": 1787,
-      "sha256_paragraph_sequence": "5d762f22b16d80bcdfda876e14920b3dfc0f55f0760b7dcc08307e915ee93453"
+      "source_paragraph_start": 5012,
+      "source_paragraph_end_exclusive": 5227,
+      "paragraphs": 215,
+      "words": 1794,
+      "sha256_paragraph_sequence": "4a3d977414fa6567ea8388bb9df83deba3ed977dc82373afe064fa0761800510"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 32,
-      "source_paragraph_start": 5231,
-      "source_paragraph_end_exclusive": 5399,
-      "paragraphs": 168,
-      "words": 1799,
-      "sha256_paragraph_sequence": "7afcd668241558fdd3fbd7ee4b5a2a8cd60aa681f651f40eb2717f4f4911170b"
+      "source_paragraph_start": 5227,
+      "source_paragraph_end_exclusive": 5389,
+      "paragraphs": 162,
+      "words": 1798,
+      "sha256_paragraph_sequence": "58b956a31417e2ba56a453ffe932854d6a314684b81907ae910075977184eab2"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 33,
-      "source_paragraph_start": 5399,
-      "source_paragraph_end_exclusive": 5667,
-      "paragraphs": 268,
-      "words": 1799,
-      "sha256_paragraph_sequence": "454fd15e824894a738ecf360167a0f742ca21f37525b662442f40fb2a0ff2a27"
+      "source_paragraph_start": 5389,
+      "source_paragraph_end_exclusive": 5662,
+      "paragraphs": 273,
+      "words": 1796,
+      "sha256_paragraph_sequence": "dc66e4d1f73358af82f207a8e765d71ce7b877314687254d3acdd3c3770c2b99"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 34,
-      "source_paragraph_start": 5667,
-      "source_paragraph_end_exclusive": 5906,
-      "paragraphs": 239,
-      "words": 1798,
-      "sha256_paragraph_sequence": "eca2af90f4acdb2f79fad1daba971fb77687ca6358b3726b98978153bebe11d9"
+      "source_paragraph_start": 5662,
+      "source_paragraph_end_exclusive": 5897,
+      "paragraphs": 235,
+      "words": 1793,
+      "sha256_paragraph_sequence": "48ec6f6a59f55b17cbc9f32362cd52139e44b45741f72cfaa24619ba8718e041"
     },
     {
       "work": "quantum-reference-frames-single-outcome-dynamics",
       "part": 35,
-      "source_paragraph_start": 5906,
+      "source_paragraph_start": 5897,
       "source_paragraph_end_exclusive": 6114,
-      "paragraphs": 208,
-      "words": 1735,
-      "sha256_paragraph_sequence": "dc5ce7b17bef9ce8f379b57cc0d89048934a65eb72dfb44933ecbfb7a0b83897"
+      "paragraphs": 217,
+      "words": 1796,
+      "sha256_paragraph_sequence": "f5e0aac1ccfee59d8d7da395ccb8b192c019a095a4dab73d33f016079a1ed685"
+    },
+    {
+      "work": "quantum-reference-frames-single-outcome-dynamics",
+      "part": 36,
+      "source_paragraph_start": 6114,
+      "source_paragraph_end_exclusive": 6120,
+      "paragraphs": 6,
+      "words": 66,
+      "sha256_paragraph_sequence": "1670265a36a065ff2c4efbca48a9e1c0506878a37700b99b942f73b4e9e9a7d6"
     },
     {
       "work": "informative",
       "part": 1,
       "source_paragraph_start": 0,
-      "source_paragraph_end_exclusive": 34,
-      "paragraphs": 34,
-      "words": 1781,
-      "sha256_paragraph_sequence": "1f3748d35af412561d8be8efe8020145e6e3302dc748e573417b5d94928668d5"
+      "source_paragraph_end_exclusive": 32,
+      "paragraphs": 32,
+      "words": 1724,
+      "sha256_paragraph_sequence": "0e88cf1389ee1357aa4a9af96a484370fe888f88b92f79960a9c5bba84b11d33"
     },
     {
       "work": "informative",
       "part": 2,
-      "source_paragraph_start": 34,
-      "source_paragraph_end_exclusive": 171,
-      "paragraphs": 137,
-      "words": 1777,
-      "sha256_paragraph_sequence": "4c382004311687384ae2724e16ed97fe704ce04ea97ddec2b6e51fc8c0480ad8"
+      "source_paragraph_start": 32,
+      "source_paragraph_end_exclusive": 159,
+      "paragraphs": 127,
+      "words": 1774,
+      "sha256_paragraph_sequence": "be63d5f0ea03a56b89ff6f5979c2d8eeb0a2f6f7b09d96bb43ce118cc7f8d429"
     },
     {
       "work": "informative",
       "part": 3,
-      "source_paragraph_start": 171,
-      "source_paragraph_end_exclusive": 397,
-      "paragraphs": 226,
-      "words": 1795,
-      "sha256_paragraph_sequence": "b752f5ea305591b263f901b78884ff3d63f6d5b35d248a880187bbd4d8c7fa04"
+      "source_paragraph_start": 159,
+      "source_paragraph_end_exclusive": 379,
+      "paragraphs": 220,
+      "words": 1800,
+      "sha256_paragraph_sequence": "e91e532a0883ba3e222d9c252d85c3d39679ce41da96e8ba3c89924b8ad8a28d"
     },
     {
       "work": "informative",
       "part": 4,
-      "source_paragraph_start": 397,
-      "source_paragraph_end_exclusive": 587,
-      "paragraphs": 190,
-      "words": 1769,
-      "sha256_paragraph_sequence": "ab60c15351d402f306c7a4fc462892a5d34423ef042c24fdb25adb6be2800853"
+      "source_paragraph_start": 379,
+      "source_paragraph_end_exclusive": 575,
+      "paragraphs": 196,
+      "words": 1745,
+      "sha256_paragraph_sequence": "53a12bd1764f35284c3d1f9db6c6b612568ee297bdf8e1c2603be68cf84426f1"
     },
     {
       "work": "informative",
       "part": 5,
-      "source_paragraph_start": 587,
-      "source_paragraph_end_exclusive": 656,
-      "paragraphs": 69,
-      "words": 1793,
-      "sha256_paragraph_sequence": "0ee2711e0d698b3a82dcb059b374702beca4d6c6b10c43cd2a9c19af3b8c92cc"
+      "source_paragraph_start": 575,
+      "source_paragraph_end_exclusive": 651,
+      "paragraphs": 76,
+      "words": 1785,
+      "sha256_paragraph_sequence": "fb8b681c79f05106cbecda5526cc4735d0b22e41b0bf625fac5dd1fe24be96fc"
     },
     {
       "work": "informative",
       "part": 6,
-      "source_paragraph_start": 656,
-      "source_paragraph_end_exclusive": 736,
-      "paragraphs": 80,
-      "words": 1722,
-      "sha256_paragraph_sequence": "9724331f9c01e0b671b13d29aa40714200bb2a3b12d931c0046f07e7afbc6d56"
+      "source_paragraph_start": 651,
+      "source_paragraph_end_exclusive": 729,
+      "paragraphs": 78,
+      "words": 1798,
+      "sha256_paragraph_sequence": "f4ac9ac64db2b98081761146650f4199e490a9eda0264a6e016bb99c5d7412af"
     },
     {
       "work": "informative",
       "part": 7,
-      "source_paragraph_start": 736,
-      "source_paragraph_end_exclusive": 810,
-      "paragraphs": 74,
-      "words": 1795,
-      "sha256_paragraph_sequence": "26206f933f75796f0a50ee6336996b292fb40735ce129278918dd484e5406292"
+      "source_paragraph_start": 729,
+      "source_paragraph_end_exclusive": 807,
+      "paragraphs": 78,
+      "words": 1783,
+      "sha256_paragraph_sequence": "92107f91533a1a14b94b5c5585fbc18984dc837d59aac93b8644bcf54946bb27"
     },
     {
       "work": "informative",
       "part": 8,
-      "source_paragraph_start": 810,
-      "source_paragraph_end_exclusive": 906,
+      "source_paragraph_start": 807,
+      "source_paragraph_end_exclusive": 903,
       "paragraphs": 96,
-      "words": 1791,
-      "sha256_paragraph_sequence": "ed2167d026bb54ddaead714a2d7400077003825258bfbe32f715851764849825"
+      "words": 1777,
+      "sha256_paragraph_sequence": "702e016be4b092dd4ee6a5b21113cdac418794e755f7232edb34c68c24d15c5e"
     },
     {
       "work": "informative",
       "part": 9,
-      "source_paragraph_start": 906,
-      "source_paragraph_end_exclusive": 956,
+      "source_paragraph_start": 903,
+      "source_paragraph_end_exclusive": 953,
       "paragraphs": 50,
-      "words": 1791,
-      "sha256_paragraph_sequence": "d6309b28447cec830f782a842bb54ac2b58c835eebee1a305901b37c00a83511"
+      "words": 1770,
+      "sha256_paragraph_sequence": "a79ed3a0b2118873c40c650857c0a0c6104c4caae3e9e3dc52cf5bc794acefcb"
     },
     {
       "work": "informative",
       "part": 10,
-      "source_paragraph_start": 956,
-      "source_paragraph_end_exclusive": 1019,
-      "paragraphs": 63,
-      "words": 1764,
-      "sha256_paragraph_sequence": "66604937470648e56318dfc3859942772cf4b1ed99002aa9708b1a510ab339c8"
+      "source_paragraph_start": 953,
+      "source_paragraph_end_exclusive": 1015,
+      "paragraphs": 62,
+      "words": 1752,
+      "sha256_paragraph_sequence": "7e74844ccf6fb645c57ce100785aeb8bbe0223e307aab6d5909d62902970b83a"
     },
     {
       "work": "informative",
       "part": 11,
-      "source_paragraph_start": 1019,
-      "source_paragraph_end_exclusive": 1067,
-      "paragraphs": 48,
-      "words": 1789,
-      "sha256_paragraph_sequence": "92486628bfb3769ea59060e144d857f4cbd79d090ef46811ce215a28a42d51ac"
+      "source_paragraph_start": 1015,
+      "source_paragraph_end_exclusive": 1059,
+      "paragraphs": 44,
+      "words": 1598,
+      "sha256_paragraph_sequence": "345d01a87a78f36292d2ddc5deb79debd1925bdf2e753e0300f65a4f898880e4"
     },
     {
       "work": "informative",
       "part": 12,
-      "source_paragraph_start": 1067,
-      "source_paragraph_end_exclusive": 1113,
-      "paragraphs": 46,
-      "words": 1640,
-      "sha256_paragraph_sequence": "122af32b07b24ae690a08c48f1f66e16c3b464e64de1f4ee3206d804c14ba5b5"
+      "source_paragraph_start": 1059,
+      "source_paragraph_end_exclusive": 1109,
+      "paragraphs": 50,
+      "words": 1755,
+      "sha256_paragraph_sequence": "a282937549417667fdc5f0fc9cd9a1c8fdbd1561679f71d705a91ccfee41800e"
     },
     {
       "work": "informative",
       "part": 13,
-      "source_paragraph_start": 1113,
-      "source_paragraph_end_exclusive": 1137,
-      "paragraphs": 24,
-      "words": 1788,
-      "sha256_paragraph_sequence": "d8f36e060361b6080e91d5df30692ee87ff18e2ee026fbe3c9117649d59d59e6"
+      "source_paragraph_start": 1109,
+      "source_paragraph_end_exclusive": 1131,
+      "paragraphs": 22,
+      "words": 1593,
+      "sha256_paragraph_sequence": "296a8c8328eaf0239cf681a8e0ad00bd56a5dadac0d825d8f7bab7e3a09696bf"
     },
     {
       "work": "informative",
       "part": 14,
-      "source_paragraph_start": 1137,
-      "source_paragraph_end_exclusive": 1187,
-      "paragraphs": 50,
-      "words": 1724,
-      "sha256_paragraph_sequence": "64f8fd5cae376cff62ee92bff0f08b5af5db4d4f2de454dcb90d599a4f7b8df3"
+      "source_paragraph_start": 1131,
+      "source_paragraph_end_exclusive": 1173,
+      "paragraphs": 42,
+      "words": 1764,
+      "sha256_paragraph_sequence": "a702a1f002bd23cbffe18185116a49287aa65c8a69740d7f06274a47912dda45"
     },
     {
       "work": "informative",
       "part": 15,
-      "source_paragraph_start": 1187,
-      "source_paragraph_end_exclusive": 1241,
-      "paragraphs": 54,
-      "words": 1787,
-      "sha256_paragraph_sequence": "cb2f5c85073785a18d6ac6dcdf9077ba67cecc18a0c2e5889e964381469ce5e7"
+      "source_paragraph_start": 1173,
+      "source_paragraph_end_exclusive": 1233,
+      "paragraphs": 60,
+      "words": 1754,
+      "sha256_paragraph_sequence": "b774635174b197bef94d385fba558e406a1cbfb3b735c9c636b7811b6163c62a"
     },
     {
       "work": "informative",
       "part": 16,
-      "source_paragraph_start": 1241,
+      "source_paragraph_start": 1233,
       "source_paragraph_end_exclusive": 1260,
-      "paragraphs": 19,
-      "words": 565,
-      "sha256_paragraph_sequence": "8207c9130485982490b24a125b77235f27109ba02570496e84182cfe877a57be"
+      "paragraphs": 27,
+      "words": 1063,
+      "sha256_paragraph_sequence": "c1dfddcac2c9217e81cd214048a3a69d720bf4e94f4cf6ca192eb44e0acfbc10"
     }
   ]
 }

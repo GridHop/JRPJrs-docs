@@ -1,6 +1,26 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 32 of 35 (1,799 words)
+Part 32 of 36 (1,798 words)
+
+      | ħ²/(8mσ²) in the ground state and in a random  | and cutoffs              |
+
+      | state                                          |                          |
+
+C2(b) | Two coupled modes, A linear: ΔE =              | 12 digits, both states   | Prop. 13.16(b)
+
+      | −[A,[A,H]]/(8σ²) in the vacuum and in a random |                          |
+
+      | state                                          |                          |
+
+C2(c) | Lattice field: double commutator vs Fourier    | relative diff. 5 × 10⁻¹⁶ | Prop. 13.16(c)
+
+      | formula                                        |                          |
+
+C2(d) | ΔP(Λh) = Λ ΔP(h) under a boost; ΔP timelike    | 1.3 × 10⁻¹⁶; timelike    | Prop. 13.16(c)
+
+C3(a) | Poisson counts in a box: mean and variance     | 96.00 and 96.35          | Def. 13.20
+
+      | both equal to λ × area = 96                    |                          |
 
 C3(b) | Probability of admissibility against the cell  | below the bound; 0.599   | Prop. 13.22
 
@@ -24,9 +44,9 @@ C3(e) | Overlapping pair: variance shift E²/(4σ_1²);   | 10 digits; TV 0.057;
 
 C3(f) | Non-admissible configurations ordered by       | laws differ in 234 of    | Prop. 13.23
 
-      | centre time in two frames                      | 300                      |
+      | center time in two frames                      | 300                      |
 
-C3(g) | Centre-time order is a linear extension of the | 300 of 300               | Lemma 13.26(b)
+C3(g) | Center-time order is a linear extension of the | 300 of 300               | Lemma 13.26(b)
 
       | causal order, 300 admissible configurations    |                          |
 
@@ -58,7 +78,7 @@ C4(d) | One-way pair: pointers vs sequential collapse  | 1.8 × 10⁻¹³; varia
 
       | in causal order; overlapping pair: pointers    | differ by 0.0011 and     |
 
-      | vs collapses in centre-time order              | 0.0537                   |
+      | vs collapses in center-time order              | 0.0537                   |
 
 C.2   | Record keyed to A: P_phys = P_A = P_B at late  | 12 digits                | Prop. 14.5(c)
 
@@ -152,7 +172,7 @@ scaled by 4. The intensities are 6 in C3(a), 1.5 in C3(b) and C3(f), and 0.4 in 
 
 boxes of side 4, 1 to 2.5, 2, and 4, and the three-collapse configurations of C3(d) are drawn
 
-uniformly in a box of side 1.6. Item C3(h) uses diamonds with light-cone centres (u, v) = (0, 0),
+uniformly in a box of side 1.6. Item C3(h) uses diamonds with light-cone centers (u, v) = (0, 0),
 
 (−0.525, 1.2), (−0.225, 1.05), and (−1.05, 2.3) for j, c1, c2, and y, smearings scaled by 8, widths
 
@@ -164,7 +184,7 @@ on different modes, with cutoffs of 36 and 44 quanta per mode, and, as the negat
 
 same Lüders instrument at c1. Item C4 uses the overlapping pair of C3(e) and a one-way pair with
 
-centres (t, x) = (0, 0) and (1.2, 0.3), smearings scaled by 4, pointer widths 0.8 and 0.9, 81
+centers (t, x) = (0, 0) and (1.2, 0.3), smearings scaled by 4, pointer widths 0.8 and 0.9, 81
 
 momenta per pointer with spacing 0.12, the one-mode realization with cutoff 140, the foliations by t
 
@@ -305,35 +325,3 @@ print('   Gaussian mixture of kicks vs exact multiplier: max dev %.1e' % np.abs(
 print('C2. Energy-momentum cost')
 
 # (a) one particle, position collapse, anharmonic potential; expected hbar^2/(8 m sig^2)
-
-mass, om, g4, sig = 1.7, 1.3, 0.2, 0.7
-
-for nc in (140, 180):
-
-    a = ladder(nc + 8)
-
-    Q = (a + a.T) / np.sqrt(2 * mass * om)
-
-    P = 1j * np.sqrt(mass * om / 2) * (a.T - a)
-
-    H = P @ P / (2 * mass) + 0.5 * mass * om**2 * Q @ Q + g4 * np.linalg.matrix_power(Q, 4)
-
-    H, Qt = H[:nc, :nc], Q[:nc, :nc]
-
-    e0, U0 = eigh(H)
-
-    rng = np.random.default_rng(31)
-
-    c = rng.normal(size=8) + 1j * rng.normal(size=8)
-
-    psi = np.zeros(nc, complex)
-
-    psi[:8] = c / np.linalg.norm(c)
-
-    dE = []
-
-    for vec in (U0[:, 0], psi):
-
-        rho = np.outer(vec, vec.conj())
-
-        dE.append(np.trace(dephase(rho, Qt, sig) @ H).real - np.trace(rho @ H).real)

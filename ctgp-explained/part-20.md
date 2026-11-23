@@ -1,6 +1,56 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 26 (1,795 words)
+Part 20 of 26 (1,796 words)
+
+fields do. Then the Einstein–matter equations determine a development of the data in a neighborhood
+
+of Σ, unique up to diffeomorphism, and a maximal globally hyperbolic development in which Σ is a
+
+Cauchy surface, unique up to isometry (Choquet-Bruhat and Geroch 1969). Where τ is differentiable
+
+and its maximizing geodesics form a single-valued congruence, the level sets Σ_σ are smooth
+
+spacelike hypersurfaces and the proposition applies to them directly. A level set with corners
+
+(§6.1) does not satisfy the smoothness hypothesis, and the proposition does not apply to it as it
+
+stands. The development can still be computed in a smooth foliation (§8), but the stronger statement
+
+that the data on a cornered level set by themselves determine its future domain of dependence would
+
+require an initial-value formulation for nonsmooth hypersurfaces, which is not established here. The
+
+temporal ordering implicit in this initial-value structure is inherited from the causal structure of
+
+spacetime itself.
+
+
+
+Corollary 17.3 (No future boundary dependence). The development depends on initial data and
+
+dynamical equations, not on boundary conditions at σ′ > σ. CTGP interprets this as supporting non-
+
+teleological generation: the future is not consulted.
+
+
+
+Theorem 17.4 (Cosmological time; Andersson, Galloway, and Howard 1998). Let τ(p) = sup{L(γ) : γ a
+
+past-directed causal curve from p}, and suppose τ is regular: finite everywhere and tending to zero
+
+along every past-inextendible causal curve. Then (i) the spacetime is globally hyperbolic; (ii) τ is
+
+a time function, continuous and strictly increasing along every future-directed causal curve; (iii)
+
+every nonempty level set of τ is a future Cauchy surface, though not necessarily a Cauchy surface
+
+(their Corollary 2.6); (iv) τ is locally Lipschitz; and (v) every event p lies on a timelike
+
+geodesic from the initial singularity whose length equals τ(p). Wherever τ is differentiable, −∇^μτ
+
+is the future-directed unit tangent of that geodesic, so g^{μν}∂_μτ∂_ντ = −1.
+
+
 
 Remark. Clause (iii) is the future Cauchy property: for S_a = {τ = a}, D⁺(S_a) = {τ ≥ a}. A nonempty
 
@@ -38,19 +88,19 @@ aligned with the cosmological matter flow, and let θ = ∇_μu^μ denote its ex
 
 globally hyperbolic, irrotational cosmological spacetimes satisfying the Einstein equations, the
 
-evolution of θ is governed by the Raychaudhuri equation: dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} +
+change of θ along the flow is governed by the Raychaudhuri equation: dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν}
 
-ω_{μν}ω^{μν} − R_{μν}u^μu^ν + ∇_μa^μ. In the irrotational, geodesic cosmological limit this reduces
++ ω_{μν}ω^{μν} − R_{μν}u^μu^ν + ∇_μa^μ. In the irrotational, geodesic cosmological limit this
 
-to dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} − R_{μν}u^μu^ν. Under standard energy conditions, the matter
+reduces to dθ/dτ = −(1/3)θ² − σ_{μν}σ^{μν} − R_{μν}u^μu^ν. Under standard energy conditions, the
 
-content constrains the sign and evolution of θ, and hence constrains the geometric extension of the
+matter content constrains the sign and rate of change of θ, and hence constrains the geometric
 
-CTGP foliation. The expansion scalar θ = d(ln √h)/dτ provides the physically grounded local measure
+extension of the CTGP foliation. The expansion scalar θ = d(ln √h)/dτ provides the physically
 
-of how the present hypersurface is extending relative to neighboring hypersurfaces in the generated
+grounded local measure of how the present hypersurface is extending relative to neighboring
 
-sequence.
+hypersurfaces in the generated sequence.
 
 
 
@@ -170,7 +220,7 @@ defining τ′(Φ(p)) ranges over the images of exactly the curves defining τ(p
 
 Theorem 17.9 (Stage-Relative Representation). Let M(σ) = ⋃_{σ′ < σ} Σ_{σ′} be the domain of the CTGP
 
-action S(σ) (§9.1). If (1) σ is monotonic, (2) Σ_σ obeys hyperbolic evolution, and (3) future
+action S(σ) (§9.1). If (1) σ is monotonic, (2) Σ_σ obeys hyperbolic dynamics, and (3) future
 
 hypersurfaces are excluded from the domain, then the family {M(σ)} is nested, M(σ′) ⊂ M(σ) for σ′ <
 
@@ -240,52 +290,4 @@ fractional rate of change of local hypersurface volume along the matter congruen
 
 defining ontological growth as dM/dσ — which treats the generated domain as if it were a scalar
 
-quantity — CTGP uses the foliation expansion to characterize growth. The evolution of θ is governed
-
-by Proposition 17.6; it is constrained directly by matter content through the Einstein equations.
-
-Cosmologically, this yields a physically meaningful picture: in the early dense universe, θ is large
-
-(rapid geometric expansion); in the matter-dominated and late universe, the Raychaudhuri equation
-
-predicts the observed deceleration and re-acceleration through the curvature and energy-condition
-
-terms, without requiring the parameter dM/dσ to be interpreted as a rate of literal spacetime
-
-production.
-
-
-
-Proposition 17.13 (Compatibility with Causal-Set Quantum Gravity). Let a discrete causal set (C, ≺)
-
-be generated via sequential growth dynamics in the sense of Rideout and Sorkin (2000). Assume the
-
-continuum limit of (C, ≺) yields a globally hyperbolic spacetime (M, g) with a smooth temporal
-
-function σ whose level sets are spacelike Cauchy hypersurfaces (Bernal–Sánchez). Then: (1) the
-
-directional causal structure — past ⊂ M(σ), future ∉ M(σ) — is preserved in the continuum limit; (2)
-
-every element in the causal set has a finite causal past at any finite stage of growth, and no
-
-future elements are present at that stage; (3) the element-by-element addition of causal elements in
-
-sequential growth dynamics represents one possible discrete realization of CTGP’s fundamentally
-
-continuous generative flow, whose large-N limit may correspond to the continuum σ (§6.2). The
-
-direction of compatibility runs from CTGP’s continuous generative-flow ontology to causal-set models
-
-as discrete instantiations, not the reverse. Therefore, CTGP’s commitment to causality and the
-
-ontologically open future is compatible with at least one well-defined approach to quantum gravity.
-
-The claim that quantum gravity necessarily violates causality is accordingly a contingent
-
-interpretive claim, not a result established by any current quantum-gravity framework with empirical
-
-support. Remark: This result is stated as a compatibility proposition rather than a theorem because
-
-it depends on the unestablished identification of causal set theory as the correct theory of quantum
-
-gravity. Its purpose is to demonstrate that CTGP’s causal commitments are not undermined by quantum-
+quantity — CTGP uses the foliation expansion to characterize growth. The change of θ is governed by

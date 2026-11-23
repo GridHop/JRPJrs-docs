@@ -198,7 +198,7 @@ This doesn’t mean it’s logically impossible—just that reality has never on
 
 If “two separate 3-liter empty soda bottles, one that has live moths, and the other has live
 
-butterflies”, are newly “forced-connected via a hollow tube that snugly fits a few centemeters into
+butterflies”, are newly “forced-connected via a hollow tube that snugly fits a few centimeters into
 
 both ‘a hole in one bottle and a hole in the other bottle’, are the two bottles merged or are the
 
@@ -412,7 +412,7 @@ You didn’t blend realities into a cosmic smoothie. You installed a very aggres
 
 Hypothetically: “Is this ‘possible via “gravity manipulation” if one has unlimited/boundless
 
-“gravity manipulation” ability’ if ‘gravity manipulation’ ability” and “garvity manipulation” is
+“gravity manipulation” ability’ if ‘gravity manipulation’ ability” and “gravity manipulation” is
 
 possible?: “One changes all of the gravity in a 70ft radius from ‘said one’ via setting that gravity
 

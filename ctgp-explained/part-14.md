@@ -1,6 +1,56 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 14 of 26 (1,795 words)
+Part 14 of 26 (1,799 words)
+
+    stress-energy tensor; Einstein equations. These emerge later and belong to the emergent or
+
+    effective layers of the hierarchy.
+
+
+
+Effective Action Principle. The continuum action of CTGP — S(σ) = ∫_{M(σ)} √(−g) [L_{GR} + λ(∇_μσ
+
+∇^μσ + f(σ))] d⁴x — is an effective low-energy action applicable only after emergent geometry has
+
+established classical spacetime as a valid continuum approximation. It is not claimed to represent
+
+the microscopic dynamics of the pre-geometric regime. The extended action S_{ext}(σ) of §9.2 models
+
+the crossover regime continuously but similarly does not constitute a fundamental pre-geometric
+
+theory. The UV completion of these actions lies in the pre-geometric structure (σ, C) described by
+
+the Pre-Geometric Minimal Ontology, and remains an open problem for the research program described
+
+below. The action is accordingly to be read as an effective field theory — a well-established status
+
+in contemporary physics — rather than as a fundamental statement; it does not presuppose that
+
+geometry is fundamental.
+
+
+
+Scope of the Research Program. CTGP specifies ontological constraints on possible quantum-gravity
+
+theories rather than providing a completed microscopic theory. The framework presently leaves open:
+
+the mathematical realization of σ at the Planck scale; the origin of causal relations C; the
+
+mechanism by which volume information arises from causal structure; the reconstruction of metric
+
+geometry from causal ordering; and the microscopic derivation of effective laws. CTGP should
+
+therefore be understood as a generative ontology and a research program constraining future theories
+
+of quantum gravity. The research program has a well-defined core: any adequate quantum-gravity
+
+theory must preserve causal directionality, produce emergent geometry from pre-geometric ordering,
+
+and recover the effective description characterized by the CTGP action in the low-energy limit.
+
+
+
+Primitive Generative Structure Principle. Explanatory chains terminate in primitive structures.
 
 Within CTGP, σ-ordering and minimal generative laws are primitive. The question “what governs σ?”
 
@@ -274,7 +324,7 @@ excluded for the entire class.
 
 
 
-Proposition 11.5 (Stability transport bound). Suppose the background evolves near the preferred
+Proposition 11.5 (Stability transport bound). Suppose the background remains near the preferred
 
 norm, X̄ ≈ X⋆(ρ̄). (a) By Theorem 11.4, a static structure containing densities up to ρ_{max} at an
 
@@ -301,55 +351,3 @@ provided X⋆(ρ_{max}) X₁^{1/2} ≫ X₂^{3/2}. (c) The fractional modulation
 perturbations δ at the earlier epoch is then bounded by
 
 
-
-        ε ≡ κ ρ̄ X⋆′(ρ̄) δ / P̄_X ≲ δ · [ρ̄ X⋆′(ρ̄) / X⋆(ρ_{max})] · (X₂/X₁)^{1/2}.
-
-
-
-For X⋆ ∝ ρ² this becomes ε ≲ 2δ (ρ̄₂/ρ_{max})² (ρ̄₂/ρ̄₁); the constants κ, the normalization of P₀,
-
-and ρ_* all cancel. At recombination (ρ̄₂ ≈ 4 × 10⁻¹⁸ kg m⁻³, δ ≈ 10⁻⁵), measured against the epoch
-
-at which compact objects first exist (z ≈ 20, ρ̄₂/ρ̄₁ ≈ 1.4 × 10⁵), the bound is ε ≲ 10⁻⁶⁸ with
-
-ρ_{max} ≈ 10¹⁷ kg m⁻³ (neutron stars) and ε ≲ 10⁻⁴⁰ even with ρ_{max} = 10³ kg m⁻³ (ordinary
-
-condensed matter). □
-
-
-
-Corollary 11.6 (Exclusion of density weighting). Within the class of local, shift-symmetric, stable-
-
-sign completions, no unsaturated increasing X⋆(ρ) produces an observable density-weighted
-
-cosmological signature. □
-
-
-
-Remark (saturation). If X⋆ stops growing above some density ρ_s ≲ ρ̄₂, the bound relaxes to order δ.
-
-This is a distinct, screened model class: it introduces a new density scale tuned to the relevant
-
-epoch, equalizes the generation rate in everything denser than ρ_s — the opposite of density-
-
-weighted generation — and supplies no preferred axis. Its residual effect is proportional to the
-
-σ-sector’s share of the energy budget, which is bounded by constraints on early dark energy.
-
-
-
-11.4 Caustics and the Cosmological-Time Completion
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The admissible generation laws f = f(σ) make the generation flow geodesic (Proposition 11.1).
-
-Initialized on the comoving congruence, it coincides with the free fall of pressureless matter, and
-
-pressureless free fall shell-crosses inside every collapsed halo. A smooth scalar σ therefore
-
-develops caustics wherever structure has formed, and any nonzero λ-dust would acquire a divergent
-
-density there. Caustic-free completions of pressureless fluids and k-essence have been studied in

@@ -1,6 +1,36 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 35 of 35 (1,735 words)
+Part 35 of 36 (1,796 words)
+
+print('       deviation from Gamma, 32 and 64 nodes per axis: %.1e, %.1e (overlapping),'
+
+      % tuple(ov['disc']))
+
+print('       %.1e, %.1e (one-way)' % tuple(ow['disc']))
+
+print('   (b) overlapping pair, explicit pointers, characteristic function vs closed form:')
+
+print('       pre-chirped pointers %.1e; without the pre-chirp, full Gamma, %.1e'
+
+      % (ov['dev'][True], ov['dev'][False]))
+
+print('   (c) unread field channel vs two Gaussian collapse channels: max dev %.1e;'
+
+      % ov['unread'])
+
+print('       trace %.12f' % ov['trace'])
+
+print('   (d) one-way pair: pointers vs Gaussian collapses applied in causal order, direct')
+
+print('       characteristic functions: max dev %.1e; closed-form covariances: max diff %.1e'
+
+      % (ow['seq'], np.abs(ow['C'] - ow['Cord']).max()))
+
+dC = ov['C'] - ov['Cord']
+
+print('       overlapping pair, pointer law minus the law of collapses in centre-time order:')
+
+print('       Var(y1) %+.6f, Var(y2) %+.6f, Cov(y1, y2) %+.6f;' % (dC[0, 0], dC[1, 1], dC[0, 1]))
 
 print('       direct characteristic functions differ by up to %.4f' % ov['seq'])
 
@@ -405,15 +435,3 @@ Case 1: one record written by an interaction keyed to clock A
    O is a projector on the sector: max |O^2 - O| = 4.0e-15
 
 Case 2: interaction 1 (keyed to A) rotates S; interaction 2 (keyed to B) records S
-
-   P_phys = 0.706791827009   P_A(4.0) = 0.706791827009   P_B(4.68) = 0.706791827009
-
-   definite orders: record first 0.868488 (weight 0.5000), rotation first 0.545095 (weight 0.5000)
-
-   weighted mixture of the two definite orders = 0.706791827009
-
-Case 3: the same interactions, an offset-coherent observable (H_S = 0)
-
-   P(+): clock-neutral 0.926776695297, relative to A 0.926776695297, relative to B 0.926776695297
-
-   (1 + Re<W1 psi, W2 psi>)/2 = 0.926776695297; incoherent mixture of offsets gives 0.500000000000

@@ -1,6 +1,60 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 25 of 26 (1,797 words)
+Part 25 of 26 (1,795 words)
+
+therefore functional duplication does not settle phenomenal identity. This holds whatever the
+
+substrate of either system, and it is unaffected by any question about what a simulating machine
+
+instantiates.
+
+
+
+The physically instantiated criterion therefore asserts: a digital simulation may reproduce the
+
+structural relations between events without thereby instantiating the intrinsic physical properties
+
+of the processes it represents. This claim is metaphysical rather than empirical, but it functions
+
+analogously to other ontological commitments in physics (e.g., the existence of spacetime events or
+
+quantum states).
+
+
+
+Three further claims should be kept apart here. The first is what the criterion denies: a system
+
+that represents another system's experience does not thereby have that experience. Experience is
+
+here understood to involve subject-relative registration — there being someone for whom the content
+
+occurs — and a representation of a subject does not constitute one. This is a clarification of terms
+
+rather than a theory of consciousness, and nothing in it turns on whether experienced content is
+
+also available for report, attention, or behavioral control. The denial concerns representation
+
+only, and carries no implication about what the representing system may undergo on its own account.
+
+The second concerns range: a conscious existence can only be aware of what can reach it, and what
+
+can reach it is fixed by the classes of signal exchange its substrate, architecture, and interfaces
+
+permit. Differently constituted systems therefore differ in their participatory capacities — in what
+
+they can receive, register, and enter into — and their experiential ranges, including the scope,
+
+integration, persistence, and contents of awareness, are correspondingly not identical. These
+
+constraints are specifiable in physical terms, whereas experiential range is not; the former
+
+constrains the latter without determining or revealing it. The criterion asserts the non-identity of
+
+ranges; it does not specify the content of any range, and it does not hold that experience is
+
+available only to non-digital substrates. The third concerns realization: within a shared
+
+experiential category, each experiencer instantiates that experience in a way particular to itself —
 
 a point holding between any two experiencers and implying nothing about substrate in particular.
 
@@ -363,79 +417,3 @@ E.3 The Event’s Reality Did Not Depend on Being Observed
 
 
 The independence of the event from its observation is CTGP-consistent: the collapse was a generative
-
-stage of M(σ), not a fact constituted at detection. The messenger structure is the reason. Two
-
-channels, emitted under different source conditions, arrived in the order and with the separation
-
-that source physics dictates. An observation-constituted event would owe no such debt to stellar-
-
-interior physics that had, on that view, never occurred.
-
-
-
-The claim that distant events are not real until observed is not a position any serious
-
-interpretation holds, and refuting it carries little weight. The live alternatives are eternalism
-
-and the growing block, neither of which this argument touches.
-
-
-
-E.4 What “Cosmic Receipts” May and May Not Mean
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The ledger metaphor is useful and requires care. Read loosely, it implies a stored past — a
-
-repository holding earlier states in reserve — which is exactly the eternalist picture CTGP rejects.
-
-
-
-Under Postulate 4, a record is not a preserved earlier state. It is a presently existing physical
-
-organization whose structure is a lawful transformation of an earlier organization that no longer
-
-exists. Some consequences stay organized as records; others become distributed and effectively
-
-unrecoverable. SN1987A is a case in which several stayed organized and mutually cross-validating.
-
-
-
-Stated carefully, the metaphor says this: the present carries forward organized consequences from
-
-which earlier stages can be reconstructed, because the transformations were lawful and partially
-
-information-preserving. The universe does not keep books. The universe is the current page, written
-
-by the previous page, with the previous page gone.
-
-
-
-E.5 Co-presence: What Is Entailed and What Is Selected
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The claim that SN1987A demonstrates nonlocal temporal comparability divides into two claims, only
-
-one of which is contested.
-
-
-
-E.5.1 That There Was a Co-present Earth-Stage Is Entailed, Not Evidenced
-
-
-
-If the collapse was generated at all, the stage it belonged to was generated — and generation is not
-
-selective about where it happens. Our region was in that stage. Denying this would require the LMC’s
-
-collapse to have been real while our own concurrent existence was somehow in abeyance, which is
-
-incoherent rather than merely unsupported.
-
-

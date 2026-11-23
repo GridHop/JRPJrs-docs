@@ -1,6 +1,54 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 26 (1,788 words)
+Part 21 of 26 (1,785 words)
+
+Proposition 17.6; it is constrained directly by matter content through the Einstein equations.
+
+Cosmologically, this yields a physically meaningful picture: in the early dense universe, θ is large
+
+(rapid geometric expansion); in the matter-dominated and late universe, the Raychaudhuri equation
+
+predicts the observed deceleration and re-acceleration through the curvature and energy-condition
+
+terms, without requiring the parameter dM/dσ to be interpreted as a rate of literal spacetime
+
+production.
+
+
+
+Proposition 17.13 (Compatibility with Causal-Set Quantum Gravity). Let a discrete causal set (C, ≺)
+
+be generated via sequential growth dynamics in the sense of Rideout and Sorkin (2000). Assume the
+
+continuum limit of (C, ≺) yields a globally hyperbolic spacetime (M, g) with a smooth temporal
+
+function σ whose level sets are spacelike Cauchy hypersurfaces (Bernal–Sánchez). Then: (1) the
+
+directional causal structure — past ⊂ M(σ), future ∉ M(σ) — is preserved in the continuum limit; (2)
+
+every element in the causal set has a finite causal past at any finite stage of growth, and no
+
+future elements are present at that stage; (3) the element-by-element addition of causal elements in
+
+sequential growth dynamics represents one possible discrete realization of CTGP’s fundamentally
+
+continuous generative flow, whose large-N limit may correspond to the continuum σ (§6.2). The
+
+direction of compatibility runs from CTGP’s continuous generative-flow ontology to causal-set models
+
+as discrete instantiations, not the reverse. Therefore, CTGP’s commitment to causality and the
+
+ontologically open future is compatible with at least one well-defined approach to quantum gravity.
+
+The claim that quantum gravity necessarily violates causality is accordingly a contingent
+
+interpretive claim, not a result established by any current quantum-gravity framework with empirical
+
+support. Remark: This result is stated as a compatibility proposition rather than a theorem because
+
+it depends on the unestablished identification of causal set theory as the correct theory of quantum
+
+gravity. Its purpose is to demonstrate that CTGP’s causal commitments are not undermined by quantum-
 
 gravity considerations in at least one well-developed approach.
 
@@ -18,15 +66,15 @@ not the identification of a global present, which CTGP supplies separately throu
 
 Theorem 17.14 (Constraint Stability under CTGP Perturbations). Let U = (h_{ij}, K_{ij}, matter)
 
-denote ADM variables evolving under ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
+denote ADM variables governed by ∂_t U = ℰ(U) + ε 𝔻(U), where ℰ is the standard Einstein–matter
 
-evolution and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
+dynamics and ε 𝔻 represents CTGP-induced perturbative corrections. Define the constraint vector C =
 
 (ℋ, ℋ_i). Then the constraint propagation system satisfies ∂_t C = A^i(U)∂_i C + B(U)C + ε S(U). For
 
 Sobolev index s > 5/2 and vanishing initial constraints C(0) = 0, ‖C(t)‖_{Hs-1} ≤ ε e^{Kt} ∫_0^t
 
-‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite evolution
+‖S(U(τ))‖_{Hs-1} dτ. Constraint violation therefore remains O(ε) in Sobolev norm on finite time
 
 intervals. If the source term S(U) lies within the standard gauge sector, the violation is
 
@@ -56,7 +104,7 @@ mismatch‖_{Hs-1(V1 ∩ V2)} on each subpatch V′_a ⋐ V_a. The gluing claim 
 
 construction: local CTGP foliations may be patched only through overlap data first reconciled at the
 
-level of the Einstein constraint equations, after which the hyperbolic evolution applies to the
+level of the Einstein constraint equations, after which the hyperbolic dynamics apply to the
 
 corrected blended data. □
 
@@ -66,7 +114,7 @@ Proposition 17.16 (Conditional Tomonaga–Schwinger Integrability). Let {Σ} be 
 
 spacelike Cauchy hypersurfaces in a globally hyperbolic spacetime (M,g). Let the density operator
 
-ρ[Σ] evolve under δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
+ρ[Σ] be governed by δρ[Σ]/δΣ(x) = ℒ_x(ρ[Σ]), where ℒ_x is a local generator at x ∈ Σ. Assume: (1)
 
 Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common dense invariant domain D;
 
@@ -74,21 +122,21 @@ Microcausality — [ℒ_x, ℒ_y]ρ = 0 for spacelike-separated x, y on a common
 
 satisfies ‖ℒ(f)ψ‖ ≤ a‖H_0 ψ‖ + b‖ψ‖ with a < 1; (3) Strong continuity of the generated propagators
 
-on D. Then the evolution operator between two hypersurfaces depends only on the spacetime region
+on D. Then the propagator between two hypersurfaces depends only on the spacetime region swept out,
 
-swept out, not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-
+not the intermediate foliation: ρ[Σ_2] = U(Σ_2, Σ_1) ρ[Σ_1] is foliation-path-independent. No
 
-independent. No superluminal signaling is introduced. CTGP requires only collapse densities built
+superluminal signaling is introduced. CTGP requires only collapse densities built from local
 
-from local commuting field polynomials or smeared number/energy densities with spacelike-separated
+commuting field polynomials or smeared number/energy densities with spacelike-separated supports
 
-supports commuting in the AQFT sense; this admissible class satisfies the conditions above, making
+commuting in the AQFT sense; this admissible class satisfies the conditions above, making
 
 hypersurface-path independence a conditional theorem rather than an assumed property. □
 
 
 
-Theorem 17.17 (Continuum Limit of Local CP Evolution). Let ℒ^{(n)} be a sequence of Lindblad
+Theorem 17.17 (Continuum Limit of Local CP Dynamics). Let ℒ^{(n)} be a sequence of Lindblad
 
 generators built from bounded truncations L_α^{(n)} of a local operator family L_α with UV cutoff
 
@@ -267,103 +315,5 @@ Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time funct
 Arkani-Hamed, N., Cheng, H.-C., Luty, M. A., & Mukohyama, S. (2004). Ghost condensation and a
 
     consistent infrared modification of gravity. Journal of High Energy Physics, 2004(05), 074.
-
-
-
-Arnowitt, R., Deser, S., & Misner, C. W. (1962). The dynamics of general relativity. In L. Witten
-
-    (Ed.), Gravitation: An Introduction to Current Research (pp. 227–265). Wiley. (arXiv:gr-
-
-    qc/0405109)
-
-
-
-Babichev, E., & Ramazanov, S. (2017). Caustic free completion of pressureless perfect fluid and
-
-    k-essence. Journal of High Energy Physics, 2017(08), 040.
-
-
-
-Bassi, A., Lochan, K., Satin, S., Singh, T. P., & Ulbricht, H. (2013). Models of wave-function
-
-    collapse, underlying theories, and experimental tests. Reviews of Modern Physics, 85, 471–527.
-
-
-
-Bell, J. S. (1987). Speakable and Unspeakable in Quantum Mechanics. Cambridge University Press.
-
-
-
-Bernal, A. N., & Sánchez, M. (2003). On smooth Cauchy hypersurfaces and Geroch’s splitting theorem.
-
-    Communications in Mathematical Physics, 243(3), 461–470.
-
-
-
-Bernal, A. N., & Sánchez, M. (2005). Smoothness of time functions and the metric splitting of
-
-    globally hyperbolic spacetimes. Communications in Mathematical Physics, 257(1), 43–50.
-
-
-
-Bigelow, J. (1996). Presentism and properties. Philosophical Perspectives, 10, 35–52.
-
-
-
-Bohm, D. (1952). A suggested interpretation of the quantum theory in terms of 'hidden' variables.
-
-    Physical Review, 85, 166–179; 180–193.
-
-
-
-Bombelli, L., Lee, J., Meyer, D., & Sorkin, R. D. (1987). Space-time as a causal set. Physical
-
-    Review Letters, 59(5), 521–524.
-
-
-
-Broad, C. D. (1923). Scientific Thought. Routledge.
-
-
-
-Brown, H. R. (2005). Physical Relativity: Space-Time Structure from a Dynamical Perspective. Oxford
-
-    University Press.
-
-
-
-Callender, C. (2017). What Makes Time Special? Oxford University Press.
-
-
-
-Carroll, S. M. (2004). Spacetime and Geometry: An Introduction to General Relativity. Addison-
-
-    Wesley.
-
-
-
-Carroll, S. M. (2010). From Eternity to Here: The Quest for the Ultimate Theory of Time. Dutton.
-
-
-
-Chalmers, D. J. (1996). The Conscious Mind. Oxford University Press.
-
-
-
-Chamseddine, A. H., & Mukhanov, V. (2013). Mimetic dark matter. Journal of High Energy Physics,
-
-    2013(11), 135.
-
-
-
-Chiribella, G., D’Ariano, G. M., Perinotti, P., & Valiron, B. (2013). Quantum computations without
-
-    definite causal structure. Physical Review A, 88, 022318.
-
-
-
-Christodoulou, D. (2009). The Formation of Black Holes in General Relativity. European Mathematical
-
-    Society.
 
 

@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 04 of 26 (1,798 words)
+Part 04 of 26 (1,795 words)
 
 Whether a unified account is preferable to a distributed one is the philosophical question at issue,
 
@@ -54,17 +54,23 @@ as a state and P_{n+1} has not yet been generated. Generation carries P_n to P_{
 
 existence is P_{n+1}. The present is accordingly not a distinguished region within a larger existing
 
-whole but the whole of what exists. Two clarifications prevent the obvious misreadings. First, that
+whole but the whole of what exists. Three clarifications prevent the obvious misreadings. First,
 
-P_{n−1} has ceased to exist as a state does not mean it left nothing behind: its causal consequences
+that P_{n−1} has ceased to exist as a state does not mean it left nothing behind: its causal
 
-are incorporated into P_n, and a subset of them remain organized as records (Postulate 4, §14).
+consequences are incorporated into P_n, and a subset of them remain organized as records (Postulate
 
-Ceasing to exist and becoming irrelevant are different things. Second, the future is unrealized
+4, §14). Ceasing to exist and becoming irrelevant are different things. Second, the future is
 
-rather than hidden: P_{n+1} is not an existing region we are unable to observe but a set of
+unrealized rather than hidden: P_{n+1} is not an existing region we are unable to observe but a set
 
-potential successors of which one is generated.
+of potential successors of which one is generated. Third, the integer index is expository only. In
+
+the continuum, stages are labeled by σ, and because cosmological time is continuous, the stages form
+
+an unbroken succession: between any two stages lie stages for every intermediate value of σ, so
+
+generation passes through no gap (§3.2, §5.4).
 
 
 
@@ -120,7 +126,15 @@ geodesics that define cosmological time (§6.3). It is not used to define co-pre
 
 postulate requires a physical system to belong to it in order to occupy a generative stage. The
 
-distinction is developed in §9.4.1.
+distinction is developed in §9.4.1. Throughout, “frame” means a reference frame: a standard relative
+
+to which events are described, such as an observer’s rest frame, the matter frame, or the CMB frame.
+
+A frame is not a slice of time, and the level sets of cosmological time are not frames in the sense
+
+of a film’s frames, separated by gaps. Where film frames are mentioned (§1, §3.2, §4.2, §4.5), it is
+
+only to contrast them with CTGP’s continuous, gapless generation.
 
 
 
@@ -303,31 +317,3 @@ CTGP distinguishes four separate concepts that are often conflated:
     even when no localized or practically recoverable record remains. Questions regarding the
 
     ultimate conservation of information depend upon the relevant physical domain and remain
-
-    distinct from questions of record formation.
-
-
-
-    (iii) Conservation of organization. Particular arrangements, structures, configurations, and
-
-    correlations may cease to exist even while the physical constituents involved continue in
-
-    transformed states. CTGP identifies the loss of present existence with the cessation of the
-
-    earlier state itself, which may or may not involve a change in its specific organization, not
-
-    with any lapse in physical reality.
-
-
-
-    (iv) Recoverability of knowledge. The existence of physical consequences does not imply that
-
-    those consequences remain sufficient to reconstruct prior states. Ontological persistence and
-
-    epistemic accessibility are distinct. Something may continue to exist in transformed or
-
-    distributed form while becoming effectively unrecoverable as a coherent record.
-
-
-
-Accordingly, CTGP’s claim that earlier states no longer exist does not mean that physical reality

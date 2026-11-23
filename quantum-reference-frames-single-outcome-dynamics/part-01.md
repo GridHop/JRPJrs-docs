@@ -1,6 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 01 of 35 (1,799 words)
+Part 01 of 36 (1,799 words)
 
 QUANTUM REFERENCE FRAMES AND SINGLE-OUTCOME DYNAMICS
 
@@ -70,7 +70,7 @@ structure.
 
 
 
-To distinguish formal collapse prescriptions from physical implementations, we compare centre-time
+To distinguish formal collapse prescriptions from physical implementations, we compare center-time
 
 ordering, completion-time ordering, and a local field–pointer coupling. The pointer construction
 

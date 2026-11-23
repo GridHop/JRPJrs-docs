@@ -1,6 +1,6 @@
 # Info
 
-Part 21 of 23 (1,792 words)
+Part 21 of 23 (1,791 words)
 
 The possibility of pausing the AI’s hardware without the AI noticing exposes a deeper issue: if the
 
@@ -14,9 +14,9 @@ uninterrupted underlying process in the actual, law-governed generation of the u
 
 Ontology ties the flow of experience to the real generation of spacetime hypersurfaces. There is no
 
-“pause” in that generation—the universe does not stop evolving because a clock stops ticking. The
+“pause” in that generation—the universe’s generation does not stop because a clock stops ticking.
 
-physical present Σ_σ advances irreversibly, and any conscious process at Σ_σ is part of that
+The physical present Σ_σ advances irreversibly, and any conscious process at Σ_σ is part of that
 
 irreversible advance. In a digital AI, the “present” of the simulation can be halted while the
 
@@ -154,7 +154,7 @@ things such as Conservation of Energy/Momentum/“Angular Momentum”/“Electri
 
 Electromagnetism, Thermodynamics, “Wave Function”/“Schrödinger Equation”, Heisenberg Uncertainty
 
-Principle, Pauli Exclusion Principle, Special Relativity, and etc..
+Principle, Pauli Exclusion Principle, Special Relativity, etc.
 
 
 

@@ -1,6 +1,32 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 28 of 35 (1,791 words)
+Part 28 of 36 (1,795 words)
+
+    CTGP’s matter-frame cosmological time. Both are conjectures, and the result of Baumann and Lock
+
+    (2026) on causal consistency across clocks (§14.6) indicates that temporal delocalization, and
+
+    possibly indefinite causal order, must be expected in clock-relative descriptions.
+
+
+
+    (O4) Quantum gravity and indefinite causal order. As CTGP – explained notes (§6.4), if quantum
+
+    gravity requires indefinite causal order at the level of spacetime itself, CTGP’s primitive
+
+    ordering would require generalization. Proposition 10.1 holds for the class of models here but
+
+    says nothing about such theories. Section 15 distinguishes fundamental generative order from
+
+    classical cosmological time, sets out three pathways, and lists the conditions a quantum-gravity
+
+    theory would have to meet (Q1–Q5) and the findings that would rule out compatibility (R1–R4),
+
+    and §15.5 states three finite test problems.
+
+
+
+    (O5) Records. The model has no record subsystems; evidence about the past is whatever the
 
     present state encodes. Adding pointer or environment systems would allow a formal treatment of
 
@@ -202,7 +228,7 @@ configuration. Beyond that, a covariant law needs structure at each event: order
 
 large volumes, interfering collapses then depend on their order, and no Lorentz-invariant law for
 
-point-centred smearings of a free field exists. Within CTGP, cosmological time can supply that
+point-centered smearings of a free field exists. Within CTGP, cosmological time can supply that
 
 structure consistently, as a candidate extension, but only by giving the generative order a
 
@@ -395,43 +421,5 @@ Physical Review A, 60, 2729–2736.
 Dürr, D., Goldstein, S., Norsen, T., Struyve, W., & Zanghì, N. (2014). Can Bohmian mechanics be made
 
 relativistic? Proceedings of the Royal Society A, 470, 20130699.
-
-
-
-Fewster, C. J., & Verch, R. (2020). Quantum fields and local measurements. Communications in
-
-Mathematical Physics, 378, 851–889.
-
-
-
-Ghirardi, G. C., Rimini, A., & Weber, T. (1986). Unified dynamics for microscopic and macroscopic
-
-systems. Physical Review D, 34, 470–491.
-
-
-
-Giacomini, F., Castro-Ruiz, E., & Brukner, Č. (2019). Quantum mechanics and the covariance of
-
-physical laws in quantum reference frames. Nature Communications, 10, 494.
-
-
-
-Gorini, V., Kossakowski, A., & Sudarshan, E. C. G. (1976). Completely positive dynamical semigroups
-
-of N-level systems. Journal of Mathematical Physics, 17, 821–825.
-
-
-
-Helstrom, C. W. (1976). Quantum Detection and Estimation Theory. Academic Press.
-
-
-
-Höhn, P. A., Smith, A. R. H., & Lock, M. P. E. (2021). Trinity of relational quantum dynamics.
-
-Physical Review D, 104, 066001.
-
-
-
-Hollands, S., & Wald, R. M. (2015). Quantum fields in curved spacetime. Physics Reports, 574, 1–35.
 
 

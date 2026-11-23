@@ -1,6 +1,30 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 09 of 26 (1,795 words)
+Part 09 of 26 (1,794 words)
+
+formulation is a big-bang-origin formulation: regular cosmological time requires a past boundary at
+
+finite proper time, and past-eternal, bouncing, cyclic, and emergent cosmologies lie outside its
+
+scope. §6.10.1 extends the construction to universes with a single uniform bounce; the remaining
+
+cases would require a further generalization. This limitation concerns the continuum representative,
+
+not the ontology. Cosmological time is CTGP’s realization of the primitive generative ordering in
+
+the emergent geometric regime (§10.3), not the ultimate source of that ordering; a generalized
+
+construction would replace it while leaving the ordering itself intact.
+
+
+
+6.10.1 Extension Through a Bounce
+
+
+
+Cosmological time fails in a bouncing universe without a beginning for a precise reason. (A bounce
+
+whose contracting phase itself began at an earlier singularity still has regular cosmological time,
 
 measured from that singularity.) If the contracting phase extends indefinitely into the past, causal
 
@@ -170,7 +194,7 @@ lived flow of time tracks.
 
 Einstein's equations can be written as a well-posed initial-value problem (under standard
 
-conditions). Given Cauchy data on Σ_σ, the evolution equations determine a unique development — up
+conditions). Given Cauchy data on Σ_σ, the dynamical equations determine a unique development — up
 
 to diffeomorphism — in a neighborhood of Σ_σ, without specifying future boundary data. CTGP
 
@@ -220,7 +244,7 @@ successive stages. Neither supplies becoming itself, which is the posit that CTG
 
 ----------------------------------------------------------------------------------------------------
 
-8. ADM Decomposition and Hypersurface Evolution
+8. ADM Decomposition and Hypersurface Dynamics
 
 ----------------------------------------------------------------------------------------------------
 
@@ -331,27 +355,5 @@ Varying S(σ) with respect to λ yields the Euler–Lagrange condition:
 
 
         δS/δλ = 0  ⟹  ∇_μσ ∇^μσ + f(σ) = 0
-
-
-
-That is, ∇_μσ ∇^μσ = −f(σ), the norm condition of §6.3, arising here as a necessary condition for
-
-stationarity of S(σ). Varying with respect to σ yields the propagation equation ∇_μ(λ∇^μσ) =
-
-½λf′(σ), which transports λ along the generation flow. Varying with respect to g^{μν} recovers
-
-G_{μν} = 8πG T_{μν} together with the λ-dependent term of Proposition 17.7, which vanishes
-
-identically for the configuration λ = 0 adopted in §6.9.
-
-
-
-The variational formulation shows how the norm condition enters a standard action principle: it is
-
-what stationarity with respect to the multiplier requires. It does not by itself explain why σ
-
-should obey that condition; the reason is geometric, since cosmological time satisfies it (§6.3,
-
-Theorem 17.4). The formal statement is given in Proposition 17.7 (§17).
 
 

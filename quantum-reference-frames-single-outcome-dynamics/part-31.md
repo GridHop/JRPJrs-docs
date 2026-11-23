@@ -1,6 +1,40 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 31 of 35 (1,787 words)
+Part 31 of 36 (1,794 words)
+
+for e in exts:
+
+    jj = joint(e, instr)
+
+    for o in ref:
+
+        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real
+
+        dp = max(dp, abs(pa - pb))
+
+        if pa > 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))
+
+print(f"14. causally local instruments: all {len(exts)} foliations (linear extensions), "
+
+      f"{len(ref)} outcome histories;")
+
+print(f"    max |p - p'| = {dp:.1e}, max state deviation = {ds:.1e}")
+
+# no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change
+
+X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}
+
+def marg(ins):
+
+    jj = joint(next(iter(exts)), ins); m = np.zeros(2)
+
+    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real
+
+    return m
+
+m0 = marg(instr); worst = 0.0
+
+for y in set(range(len(slots))) - past:
 
     ins2 = dict(instr); ins2[y] = rand_instr(rq); worst = max(worst, np.abs(marg(ins2) - m0).max())
 
@@ -397,23 +431,3 @@ C1    | Unread Gaussian channel: Kraus integral and    | max dev 2.4 × 10⁻¹�
       | kick mixture vs exp(−(a − a′)²/(8σ²))          | 7.8 × 10⁻¹⁶              |
 
 C2(a) | Position collapse, anharmonic potential: ΔE =  | 12 digits, both states   | Prop. 13.16(a)
-
-      | ħ²/(8mσ²) in the ground state and in a random  | and cutoffs              |
-
-      | state                                          |                          |
-
-C2(b) | Two coupled modes, A linear: ΔE =              | 12 digits, both states   | Prop. 13.16(b)
-
-      | −[A,[A,H]]/(8σ²) in the vacuum and in a random |                          |
-
-      | state                                          |                          |
-
-C2(c) | Lattice field: double commutator vs Fourier    | relative diff. 5 × 10⁻¹⁶ | Prop. 13.16(c)
-
-      | formula                                        |                          |
-
-C2(d) | ΔP(Λh) = Λ ΔP(h) under a boost; ΔP timelike    | 1.3 × 10⁻¹⁶; timelike    | Prop. 13.16(c)
-
-C3(a) | Poisson counts in a box: mean and variance     | 96.00 and 96.35          | Def. 13.20
-
-      | both equal to λ × area = 96                    |                          |

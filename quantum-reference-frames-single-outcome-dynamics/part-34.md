@@ -1,6 +1,28 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 34 of 35 (1,798 words)
+Part 34 of 36 (1,793 words)
+
+            dd, mm = w_[:, None] - w_[None, :], (w_[:, None] + w_[None, :]) / 2
+
+            return np.exp(-dd**2 / (8 * sg[m]**2) + 1j * s[m] * mm - s[m]**2 * sg[m]**2 / 2)
+
+        for o in orders:
+
+            closed = np.exp(-0.5 * s @ cov_closed(list(o), E, Sig, sg) @ s)
+
+            cf_dev = max(cf_dev, abs(run_order(o, eigs, ms) - closed))
+
+    laws = [binned_law(o, eigs, sg, 3) for o in orders]
+
+    norm_dev = max(norm_dev, max(abs(l.sum() - 1) for l in laws))
+
+    ord_dev = max(ord_dev, max(np.abs(l - laws[0]).max() for l in laws))
+
+print('   (d) 4 three-collapse configurations, one-mode realization, Fock cutoff %d:' % ncut)
+
+print('       characteristic function, direct vs closed form: max dev %.1e' % cf_dev)
+
+print('       64-cell binned history laws: max difference between linear extensions %.1e,'
 
       % ord_dev)
 
@@ -449,33 +471,3 @@ print('       overlapping pair: Gamma_12 = %.6f, Gamma_21 = %.6f, Gamma_11 = Gam
 print('       phase of the time-ordered product, two foliations (relative rapidity 0.6):')
 
 print('       max difference %.1e and %.1e;' % (ov['fol'], ow['fol']))
-
-print('       deviation from Gamma, 32 and 64 nodes per axis: %.1e, %.1e (overlapping),'
-
-      % tuple(ov['disc']))
-
-print('       %.1e, %.1e (one-way)' % tuple(ow['disc']))
-
-print('   (b) overlapping pair, explicit pointers, characteristic function vs closed form:')
-
-print('       pre-chirped pointers %.1e; without the pre-chirp, full Gamma, %.1e'
-
-      % (ov['dev'][True], ov['dev'][False]))
-
-print('   (c) unread field channel vs two Gaussian collapse channels: max dev %.1e;'
-
-      % ov['unread'])
-
-print('       trace %.12f' % ov['trace'])
-
-print('   (d) one-way pair: pointers vs Gaussian collapses applied in causal order, direct')
-
-print('       characteristic functions: max dev %.1e; closed-form covariances: max diff %.1e'
-
-      % (ow['seq'], np.abs(ow['C'] - ow['Cord']).max()))
-
-dC = ov['C'] - ov['Cord']
-
-print('       overlapping pair, pointer law minus the law of collapses in centre-time order:')
-
-print('       Var(y1) %+.6f, Var(y2) %+.6f, Cov(y1, y2) %+.6f;' % (dC[0, 0], dC[1, 1], dC[0, 1]))

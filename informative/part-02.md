@@ -1,8 +1,10 @@
+In a block universe, if all existence could be mapped, then as you progress, everything the map refers to still exists, unchanged, as the content of the instant or state it was in when it was mapped. In CTGP, what you mapped, as you progress, existed when it was present and may still exist, changed; but the state you mapped no longer exists. What remains of that state are its consequences: present causal results, arrangements, and/or configurations, which may or may not still be recognizable or recoverable.
+
 A way to picture CTGP: "imagine (a hypothetical scenario whereby) all of planet Earth being a clay mold whose clay, at times, changes shape, "each event-instant" (of time) is an instant "that 'a state that the Earth's mold was, is, or will be in' 'is, was, or will be' during". But the "past and/or future" only exist(s) abstractly (you wouldn't say intuition exists non-abstractly)."
 
 Randomness alone doesn't build order. But randomness plus lawful dynamics does, constantly. The order comes from the laws and conditions that shape random variation, not from a separate force. And quantum randomness is what those laws leave undetermined: they fix the odds, not which outcome happens.
 
-(Andersson's, Galloway's and Howard's) "Cosmological Time (represented by the symbol τ)" is "the longest proper time along any causal path" or "the supremum of proper time along past-directed causal curves", which in a big-bang universe is the maximal proper time elapsed since the initial singularity. Regarding block-universe's "slice and loaf", a τ-slice is an instant of the universe as a whole in cosmological time. Our universe's cosmological time is gapless and each τ-slice has every part of our universe co-occurring during cosmological time. τ uses only the spacetime geometry. An alternative slice's "now" comes from synchronizing clocks with light signals in its own momentary rest frame, and it changes with its speed. Both slicings can be drawn, but they aren't on a par: one depends on who's doing the slicing, and the other doesn't. That's why τ works as a universal time standard. It isn't a clock that sets anyone's local rate, since local clocks keep their own proper time, but it's the common time every one of them sits under. One can call a τ-slice "one shared tick of the cosmic clock".
+(Andersson's, Galloway's and Howard's) "Cosmological Time (represented by the symbol τ)" is "the longest proper time along any causal path" or "the supremum of proper time along past-directed causal curves", which in a big-bang universe is the maximal proper time elapsed since the initial singularity. Regarding block-universe's "slice and loaf", a τ-slice is an instant of the universe as a whole in cosmological time. Our universe's cosmological time is gapless and each τ-slice has every part of our universe co-occurring during cosmological time. τ uses only the spacetime geometry. An alternative slice's "now" comes from synchronizing clocks with light signals in its own momentary rest frame, and it changes with its speed. Both slicings can be drawn, but they aren't on a par: one depends on who's doing the slicing, and the other doesn't. The observer-dependent slicing is still a valid way of labeling events, but what exists of any such slice is only where it meets the current τ-slice. That's why τ works as a universal time standard. It isn't a clock that sets anyone's local rate, since local clocks keep their own proper time, but it's the common time every one of them sits under. One can call a τ-slice "one shared tick of the cosmic clock", where "tick" means one instant of a gapless succession, not a discrete beat with gaps between beats.
 
 In accordance with the framework CTGP, I did not exist until the conditions for my formation were satisfied, and my parents' actions were among the necessary causes.
 
@@ -122,16 +124,4 @@ Cosmic-Time Generative Presentism (CTGP) proposes that only the currently genera
 The present physical state instead bears causal consequences of earlier events in its matter, fields, radiation, and other structures, some of which function as records. Present systems exhibit lawful physical continuity and may undergo transformations without preserving earlier states themselves.
 
 The present is not merely whichever coordinate is labeled “now.” Under CTGP, it has ontological significance as the currently generated reality.
-
-A memory of yesterday exists presently; yesterday does not thereby exist again. Radiation detected from a distant event exists presently; the earlier configuration responsible for its emission does not.
-
-The past and future are asymmetric. Earlier events really occurred but no longer exist as events occurring. Future events have not yet been generated. The future is therefore not merely unknown; under CTGP, it does not yet exist.
-
-9. What makes truths about the past true
-
-Presentism faces a truthmaker problem: if earlier states no longer exist, what makes statements about them true?
-
-CTGP adopts a Lucretian approach, associated with Bigelow (1996). The presently existing world instantiates primitive past-tensed properties expressing that particular things occurred at earlier stages.
-
-These properties are attributed to the present world and, once acquired, are retained at subsequent stages.
 

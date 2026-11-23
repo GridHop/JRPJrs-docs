@@ -50,7 +50,7 @@ used to convey ‘what one does to find out the “how much of an extent” some
 
 They are not entirely synonymous but they can be used interchangeably in many cases. Also, saying
 
-“use your judgement to measure whether the situation is too dangerous” is the same as saying “gauge
+“use your judgment to measure whether the situation is too dangerous” is the same as saying “gauge
 
 whether the situation is too dangerous”.
 

@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 07 of 35 (1,800 words)
+Part 07 of 36 (1,786 words)
+
+reject unrestricted truthmaker requirements for past-tense truths altogether (Merricks 2007). The
+
+argument that follows is therefore conditional: given CTGP’s truthmaker principle, something present
+
+must make past-tense propositions true, and the options are limited.
+
+
+
+    (i) Records. Past-tense truths might be grounded in present physical traces. Proposition 4.12
+
+    rules this out within the model: the present physical state is reachable along every event
+
+    sequence from a suitable initial state, so no function of the present physical state, and hence
+
+    no record contained in it, fixes the complete past. Grounding past truths in records would leave
+
+    many of them without truthmakers, and it would make the past revisable whenever records degrade,
 
     contrary to No Revision (C-b) and to the distinction between truth and recoverability (C-i).
 
@@ -260,7 +278,7 @@ with Kraus operators
 
 
 
-Event (i, j, d) is a relational flash: an objective event centred on the separation d between
+Event (i, j, d) is a relational flash: an objective event centered on the separation d between
 
 particles i and j. Completeness holds because Σ_d w(r−d) = 1 for every r, so Σ_d F_{(i,j,d)}†
 
@@ -340,30 +358,8 @@ Two qualifications fix the scope of this conclusion. First, it holds within the 
 
 Other formulations require only that an instrument be covariant as a whole, with the symmetry
 
-permuting its Kraus operators; standard GRW, whose collapse centres are absolute positions, is of
+permuting its Kraus operators; standard GRW, whose collapse centers are absolute positions, is of
 
 this kind. In such formulations the averaged channel can preserve the physical sector even though
 
 individual updates do not, and an account is then owed of what gauge-invariant fact an outcome with
-
-an absolute label records in a closed universe. Second, the CSL equation cited in CTGP – explained,
-
-§10.1, uses smeared mass-density operators A(x) at absolute positions x. Reformulating CSL in terms
-
-of mass densities relative to material frames is a natural route for CTGP’s collapse option (Q2),
-
-but whether CSL must be so reformulated depends on the formulation and would require further
-
-argument. What the present construction establishes is sufficiency: invariant relational collapse
-
-operators provide an explicit, verified realization of QRF-compatible single-outcome dynamics. The
-
-equivalence proved above concerns the action of an operator on physical states; it does not show
-
-that every physically acceptable collapse theory must use the particular relational flash ontology
-
-of §7.2, which is one realization among others.
-
-
-
-----------------------------------------------------------------------------------------------------

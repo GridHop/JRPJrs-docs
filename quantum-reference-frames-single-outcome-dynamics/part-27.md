@@ -1,6 +1,42 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 27 of 35 (1,799 words)
+Part 27 of 36 (1,796 words)
+
+    (4) Determinacy is frame-independent, with a three-tier criterion in which primitive events,
+
+    distinguished from sharp values, carry single-outcome realism (Definition 5.1, Propositions 4.4
+
+    and 5.2).
+
+
+
+    (5) Valid frame changes intertwine the generative law: the measure over histories, the
+
+    conditional independence of future from past given the present, and the truth of every
+
+    determinate proposition are frame-invariant and preserved by generation (Theorems 5.12 and 5.16,
+
+    Corollary 5.14). Laws that merely look alike in different frames do not describe one world
+
+    (Corollary 5.13).
+
+
+
+    (6) Ontological identity, physical equivalence, and observational indistinguishability are
+
+    distinct relations, ordered by strict implication (Proposition 5.19).
+
+
+
+    (7) L is generated, admissible, not reducible to S, accurate, frame-covariant, and dynamically
+
+    idle (Theorem 5.20).
+
+
+
+    (8) The model has a continuous-time form, with histories as marked point processes, for which
+
+    admissibility, reconstruction, dynamical idleness, cross-frame correspondence, and truth
 
     preservation are proved (Propositions 9.2–9.9, Theorems 9.7 and 9.10); the identification of its
 
@@ -136,7 +172,7 @@ Part 27 of 35 (1,799 words)
 
     volumes, the order of interfering collapses then matters physically, and no Lorentz-invariant
 
-    law for point-centred smearings exists (Propositions 13.22–13.24). Covariant repairs require
+    law for point-centered smearings exists (Propositions 13.22–13.24). Covariant repairs require
 
     additional structure at each event, and those that use cosmological time would give the
 
@@ -178,7 +214,7 @@ Part 27 of 35 (1,799 words)
 
     collapse as the reading of a gapless pointer coupled locally to the field derives the collapse
 
-    statistics and gives a variant with no ordering rule: its evolution is foliation-independent on
+    statistics and gives a variant with no ordering rule: its dynamics are foliation-independent on
 
     every finite configuration, it admits no signaling by the modeled pointers and classical sources
 
@@ -238,7 +274,7 @@ Part 27 of 35 (1,799 words)
 
     needs no ordering rule (Proposition 13.31), neither of which is adopted; a physical account of
 
-    the pointers and of their definite readings, which the variant postulates; a forward evolution
+    the pointers and of their definite readings, which the variant postulates; a forward propagation
 
     of the present state with infinitely many pointers; a local probe field in place of single-
 
@@ -303,29 +339,3 @@ Part 27 of 35 (1,799 words)
     generation. A second is a material reference system of the Brown–Kuchař dust type (Brown &
 
     Kuchař 1995), whose proper time could serve as a physically instantiated cosmic time akin to
-
-    CTGP’s matter-frame cosmological time. Both are conjectures, and the result of Baumann and Lock
-
-    (2026) on causal consistency across clocks (§14.6) indicates that temporal delocalization, and
-
-    possibly indefinite causal order, must be expected in clock-relative descriptions.
-
-
-
-    (O4) Quantum gravity and indefinite causal order. As CTGP – explained notes (§6.4), if quantum
-
-    gravity requires indefinite causal order at the level of spacetime itself, CTGP’s primitive
-
-    ordering would require generalization. Proposition 10.1 holds for the class of models here but
-
-    says nothing about such theories. Section 15 distinguishes fundamental generative order from
-
-    classical cosmological time, sets out three pathways, and lists the conditions a quantum-gravity
-
-    theory would have to meet (Q1–Q5) and the findings that would rule out compatibility (R1–R4),
-
-    and §15.5 states three finite test problems.
-
-
-
-    (O5) Records. The model has no record subsystems; evidence about the past is whatever the

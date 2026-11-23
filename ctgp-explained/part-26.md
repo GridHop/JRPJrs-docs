@@ -1,6 +1,82 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 26 of 26 (1,071 words)
+Part 26 of 26 (1,412 words)
+
+stage of M(σ), not a fact constituted at detection. The messenger structure is the reason. Two
+
+channels, emitted under different source conditions, arrived in the order and with the separation
+
+that source physics dictates. An observation-constituted event would owe no such debt to stellar-
+
+interior physics that had, on that view, never occurred.
+
+
+
+The claim that distant events are not real until observed is not a position any serious
+
+interpretation holds, and refuting it carries little weight. The live alternatives are eternalism
+
+and the growing block, neither of which this argument touches.
+
+
+
+E.4 What “Cosmic Receipts” May and May Not Mean
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The ledger metaphor is useful and requires care. Read loosely, it implies a stored past — a
+
+repository holding earlier states in reserve — which is exactly the eternalist picture CTGP rejects.
+
+
+
+Under Postulate 4, a record is not a preserved earlier state. It is a presently existing physical
+
+organization whose structure is a lawful transformation of an earlier organization that no longer
+
+exists. Some consequences stay organized as records; others become distributed and effectively
+
+unrecoverable. SN1987A is a case in which several stayed organized and mutually cross-validating.
+
+
+
+Stated carefully, the metaphor says this: the present carries forward organized consequences from
+
+which earlier stages can be reconstructed, because the transformations were lawful and partially
+
+information-preserving. The universe does not keep books. The universe is the current page, written
+
+by the previous page, with the previous page gone.
+
+
+
+E.5 Co-presence: What Is Entailed and What Is Selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The claim that SN1987A demonstrates nonlocal temporal comparability divides into two claims, only
+
+one of which is contested.
+
+
+
+E.5.1 That There Was a Co-present Earth-Stage Is Entailed, Not Evidenced
+
+
+
+If the collapse was generated at all, the stage it belonged to was generated — and generation is not
+
+selective about where it happens. Our region was in that stage. Denying this would require the LMC’s
+
+collapse to have been real while our own concurrent existence was somehow in abeyance, which is
+
+incoherent rather than merely unsupported.
+
+
 
 The concurrency claim has specific content. Earth had existed for roughly 4.54 billion years by
 
@@ -192,9 +268,11 @@ and their present organization is structured enough that the source stage can be
 
 it, consistently across independent channels. That a co-present terrestrial stage existed follows
 
-from the event being generated at all. Which terrestrial stage it was follows from the matter-frame
+from the event being generated at all. Which terrestrial stage it was follows from the cosmological-
 
-foliation — which the universe’s own matter distribution, not the supernova, supplies.
+time foliation — which the universe’s own geometry, shaped by its matter distribution, supplies; the
+
+supernova does not.
 
 
 

@@ -1,6 +1,6 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 02 of 35 (1,790 words)
+Part 02 of 36 (1,800 words)
 
 are the same in every frame (§5.3–5.4). And L sits beside the quantum state without driving it: it
 
@@ -114,7 +114,7 @@ outcome k occurs with probability ‖F_k ψ‖², and the state is updated to F_
 
 continuous time, the corresponding object is a piecewise-deterministic jump process: the state
 
-evolves smoothly between random jump times and jumps by normalized jump operators, and its ensemble
+changes smoothly between random jump times and jumps by normalized jump operators, and its ensemble
 
 average obeys a Lindblad master equation (Lindblad 1976; Gorini, Kossakowski & Sudarshan 1976;
 
@@ -124,7 +124,7 @@ Dalibard, Castin & Mølmer 1992; Breuer & Petruccione 2002).
 
 Objective-collapse models have this form. In the GRW model, a spontaneous “hit” multiplies the wave
 
-function by a Gaussian of fixed width centred at a random point, with the centre drawn according to
+function by a Gaussian of fixed width centered at a random point, with the center drawn according to
 
 the Born rule, and hits occur at the times of a Poisson process. Bell (1987) proposed taking the hit
 
@@ -232,7 +232,11 @@ The following CTGP commitments are used below, cited to CTGP – explained and M
 
     may describe the same physical history differently; CTGP requires one history, not one
 
-    description of it.
+    description of it. This includes the frame-relative simultaneity surfaces of relativistic
+
+    observers: each remains a valid way of labeling events, while what exists of any of them is only
+
+    its overlap with the current stage (C-a, C-k).
 
 
 
@@ -262,9 +266,17 @@ origin. This is not a relational interpretation in the sense rejected by (C-d). 
 
 event occurred is an absolute, frame-independent fact; what is relational is the quantity the event
 
-concerns, in the same way that “the distance between two stones is one metre” is an absolute fact
+concerns, in the same way that “the distance between two stones is one meter” is an absolute fact
 
-about a relational quantity.
+about a relational quantity. A second terminological point concerns the word “frame.” Throughout, a
+
+frame is a reference frame: a system, clock, or observer relative to which other systems are
+
+described. A frame is never a time slice or a stage. Changing frames redescribes one stage without
+
+moving between stages (Proposition 10.1), and the discrete stages of Part II sample a gapless
+
+generative progression rather than asserting jumps (§9.5).
 
 
 
@@ -288,7 +300,7 @@ PART II. The Formalism
 
 
 
-Let G be a finite group with identity e. Consider M + 1 subsystems labelled 0, 1, …, M, each with
+Let G be a finite group with identity e. Consider M + 1 subsystems labeled 0, 1, …, M, each with
 
 Hilbert space ℓ²(G), the space of complex functions on G, with orthonormal basis {|g⟩ : g ∈ G}. The
 
@@ -359,21 +371,3 @@ onto H_A, with inverse given above.
 
 
 Proof. Let Ψ ∈ H_phys. Invariance gives Ψ(g_0, g_1, …, g_M) = Ψ(e, g_0^{−1} g_1, …, g_0^{−1} g_M).
-
-Write φ(x) = Ψ(e, x_1, …, x_M). Then ‖Ψ‖² = Σ_{g_0} Σ_{x} |φ(x)|² = |G| ‖φ‖², so ‖R_A Ψ‖ = √|G| ‖φ‖
-
-= ‖Ψ‖. Conversely, for any φ ∈ H_A the vector R_A^{−1} φ defined above is invariant (left
-
-multiplication by h permutes the summation index a), and R_A R_A^{−1} φ = φ by direct substitution.
-
-Hence R_A is an isometry onto H_A, that is, unitary. □
-
-
-
-Definition 3.4 (Valid frame change). For frames A and B, the frame change is
-
-
-
-        V_{A→B} = R_B R_A^{−1} : H_A → H_B.
-
-

@@ -1,6 +1,40 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 30 of 35 (1,791 words)
+Part 30 of 36 (1,797 words)
+
+    for (i, j) in pairs:
+
+        for dd in range(N):
+
+            F[(i, j, dd)] = np.sqrt(lam_/3)*sum(np.sqrt(ws[(r-dd) % N])*P(i, j, r)
+
+                                                for r in range(N))
+
+    return F
+
+F = kraus(s)
+
+comp = sum(K.conj().T @ K for K in F.values())
+
+inv = all(np.allclose(U(1) @ K, K @ U(1)) for K in list(F.values()) + [W])
+
+print("2. instrument complete:", np.allclose(comp, np.eye(D)), "| all generators G-invariant:", inv)
+
+
+
+red = lambda O, JF: JF.T @ O @ JF
+
+WA, WB = red(W, JA), red(W, JB)
+
+FA = {k: red(K, JA) for k, K in F.items()}; FB = {k: red(K, JB) for k, K in F.items()}
+
+ok = np.allclose(V_AB @ WA @ V_AB.T, WB) and \
+
+     all(np.allclose(V_AB @ FA[k] @ V_AB.T, FB[k]) for k in F)
+
+print("3. intertwining V K^A V^dag = K^B for W and every Kraus operator:", ok)
+
+
 
 # exhaustive record distribution over n stages, frame A vs frame B vs neutral
 
@@ -447,37 +481,3 @@ exts = set(all_ext(set(range(len(slots))), []))
 ref = joint(next(iter(exts)), instr)
 
 dp, ds = 0.0, 0.0
-
-for e in exts:
-
-    jj = joint(e, instr)
-
-    for o in ref:
-
-        pa, pb = np.vdot(ref[o], ref[o]).real, np.vdot(jj[o], jj[o]).real
-
-        dp = max(dp, abs(pa - pb))
-
-        if pa > 1e-12: ds = max(ds, 1 - abs(np.vdot(ref[o], jj[o]))/np.sqrt(pa*pb))
-
-print(f"14. causally local instruments: all {len(exts)} foliations (linear extensions), "
-
-      f"{len(ref)} outcome histories;")
-
-print(f"    max |p - p'| = {dp:.1e}, max state deviation = {ds:.1e}")
-
-# no-signaling: marginal at slot 3 is unchanged when instruments outside its causal past change
-
-X = 3; past = {y for y in range(len(slots)) if (y, X) in prec} | {X}
-
-def marg(ins):
-
-    jj = joint(next(iter(exts)), ins); m = np.zeros(2)
-
-    for o, v in jj.items(): m[o[X]] += np.vdot(v, v).real
-
-    return m
-
-m0 = marg(instr); worst = 0.0
-
-for y in set(range(len(slots))) - past:

@@ -1,6 +1,34 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 24 of 35 (1,792 words)
+Part 24 of 36 (1,782 words)
+
+R_A^{−1}. For realistic clocks, however, these maps involve conditional states, clock POVMs, and
+
+sector restrictions, and they are not in general global unitaries of the kind used in Proposition
+
+3.3. For ideal clocks they are unitary (Proposition 14.5).
+
+
+
+14.2 Generation, Clock Readings, and Clock-Conditional Descriptions
+
+
+
+Definition 14.1 (Three temporal notions). In a CTGP model with clock subsystems:
+
+
+
+    (i) The generative succession is the order of stages, or of event slots, in which the history is
+
+    generated.
+
+
+
+    (ii) A clock reading is the value of a clock observable of a physical subsystem at a stage. It
+
+    is a Tier 3 proposition (§5.1) unless a recording event makes it a Tier 1 fact.
+
+
 
     (iii) A clock-conditional description is a description of the rest of the world conditioned on
 
@@ -104,25 +132,25 @@ state, but that is a dependence on the present physical state, not on the choice
 
 and (c) follow from the definitions. (d) The first recording projects the clock onto a position
 
-eigenstate |r⟩. During the single intervening transition the clock evolves by the stated propagator.
+eigenstate |r⟩. During the single intervening transition the clock is advanced by the stated
 
-By the Jacobi–Anger expansion, exp(−i θ (S + S†)) = Σ_{k∈ℤ} (−i)^k J_k(2θ) S^k, so on the infinite
+propagator. By the Jacobi–Anger expansion, exp(−i θ (S + S†)) = Σ_{k∈ℤ} (−i)^k J_k(2θ) S^k, so on
 
-lattice the amplitude to move from r to r + m is, up to a phase, J_{m−1}(2θ). On the ring S^{32} =
+the infinite lattice the amplitude to move from r to r + m is, up to a phase, J_{m−1}(2θ). On the
 
-1, and the amplitude for displacement m is the sum of the lattice amplitudes for all displacements
+ring S^{32} = 1, and the amplitude for displacement m is the sum of the lattice amplitudes for all
 
-congruent to m modulo 32. For m ∈ {−15, …, 16} the additional terms involve J_k(1.8) with |k| ≥ 16,
+displacements congruent to m modulo 32. For m ∈ {−15, …, 16} the additional terms involve J_k(1.8)
 
-each of magnitude below 10⁻¹⁴, so the ring probabilities differ from the lattice values
+with |k| ≥ 16, each of magnitude below 10⁻¹⁴, so the ring probabilities differ from the lattice
 
-J_{m−1}(1.8)² by less than 10⁻¹² in total. Summing the lattice values over m ≤ −1 gives Σ_{k≥2}
+values J_{m−1}(1.8)² by less than 10⁻¹² in total. Summing the lattice values over m ≤ −1 gives
 
-J_k(2θ)² = (1 − J_0(2θ)² − 2 J_1(2θ)²)/2, using Σ_k J_k² = 1 and J_{−k}² = J_k², and m = 0 gives
+Σ_{k≥2} J_k(2θ)² = (1 − J_0(2θ)² − 2 J_1(2θ)²)/2, using Σ_k J_k² = 1 and J_{−k}² = J_k², and m = 0
 
-J_{−1}(2θ)² = J_1(2θ)². The exact ring values were computed directly from the 32-site propagator.
+gives J_{−1}(2θ)² = J_1(2θ)². The exact ring values were computed directly from the 32-site
 
-The computation is item 16 of Appendix B. □
+propagator. The computation is item 16 of Appendix B. □
 
 
 
@@ -285,25 +313,3 @@ Proposition 14.5 (Two ideal clocks and record events).
     (c) Record events. Let E_1, …, E_n be commuting projections on K, each commuting with H_S. Let
 
     H_phys^I be the subspace of physical states whose offsets lie in a bounded interval I = [δ_−,
-
-    δ_+], and let s* be an A-time after every interaction for every Δ ∈ I, that is, s* ≥ b_k for
-
-    interactions keyed to A and s* ≥ b_k + δ_+ for those keyed to B. Then the operators O_j =
-
-    U_Δ(s*)† E_j U_Δ(s*), acting pointwise in Δ, are commuting projections on H_phys^I, and
-
-
-
-        R_A(τ) O_j = E_j R_A(τ)  for τ ≥ s*,     R_B(τ′) O_j = E_j R_B(τ′)  for τ′ ≥ s* − δ_−.
-
-
-
-    Every finite history of record outcomes therefore has the same probability in the clock-neutral
-
-    description and in either reduction at late readings. The clock-neutral instruments {O_j, 1 −
-
-    O_j} intertwine with the record measurements {E_j, 1 − E_j} relative to either clock, and they
-
-    compose in any order.
-
-

@@ -348,7 +348,7 @@ original consciousness.
 
 A computational simulation of neural dynamics encodes structural patterns and may reproduce
 
-input–output behaviour, but the simulation’s states are symbolic representations of a process rather
+input–output behavior, but the simulation’s states are symbolic representations of a process rather
 
 than the process itself. Qualia depend on the actual physical instantiation of processes—physical
 
@@ -362,7 +362,7 @@ processes are present.
 
 
 
-This criterion grounds a cautious stance on strong functionalism. While functional organisation may
+This criterion grounds a cautious stance on strong functionalism. While functional organization may
 
 be necessary for qualia, it may not be sufficient: the nature of the underlying physical process
 

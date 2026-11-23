@@ -1,6 +1,24 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 05 of 35 (1,796 words)
+Part 05 of 36 (1,784 words)
+
+determinate propositions fall into three tiers.
+
+
+
+    Tier 1 (events). For each past transition σ″ → σ‴ with σ‴ ≤ σ and each k ∈ 𝒦, the proposition
+
+    “in the generation of σ‴, event k occurred” is determinate. It is true iff Had(σ″ → σ‴, k) ∈
+
+    L_σ. Boolean combinations of Tier 1 propositions are determinate.
+
+
+
+    Tier 2 (states). For each σ″ ≤ σ, the proposition “at σ″ the state was [Ψ]” is determinate. For
+
+    σ″ < σ it is true iff Had(σ″, [Ψ]) ∈ L_σ; for σ″ = σ it is true iff S_σ = [Ψ].
+
+
 
     Tier 3 (sharp properties). For an invariant projector Q and σ″ ≤ σ, the proposition “Q held at
 
@@ -304,9 +322,9 @@ forms (W^A, {F^A_k}) and (W^B, {F^B_k}). Let Ψ_{σ_0} ∈ H_phys, ψ^A_{σ_0} =
 
 
 
-    (b) Along every history ω of nonzero probability, the frame-evolved states satisfy ψ^B_{σ_j} ≐
+    (b) Along every history ω of nonzero probability, the frame-propagated states satisfy ψ^B_{σ_j}
 
-    V_{A→B} ψ^A_{σ_j} for j = 0, …, n.
+    ≐ V_{A→B} ψ^A_{σ_j} for j = 0, …, n.
 
 
 
@@ -333,23 +351,3 @@ the equality of the sets ℋ_n. For (c), the truth-profile updates in the two fr
 the same stage index; and (C2) is (b). □
 
 
-
-Corollary 5.13 (Failure of same-form laws). If frame B adopts a law with the same matrices as frame
-
-A’s law but written in B’s coordinates, that is, W^B = W^A and F^B_k = F^A_k as matrices, then in
-
-general the two frames assign different probabilities to the same histories and do not describe one
-
-world.
-
-
-
-Proof. Such a pair satisfies Definition 5.11 only if W^A and every F^A_k commute with V_{A→B}, which
-
-fails in general. Section 8 gives an instance with total-variation distance 0.180 between the two
-
-measures over histories. □
-
-
-
-Corollary 5.13 shows what “valid transformation” excludes: it is not enough for each frame to use a

@@ -1,6 +1,64 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 26 (1,793 words)
+Part 13 of 26 (1,792 words)
+
+coarse-graining. GR is therefore best interpreted as the low-energy effective limit of CTGP’s deeper
+
+generative structure, not as a law that held unmodified from the initial singularity. This alignment
+
+places CTGP within the broader class of quantum-gravity programs that treat classical spacetime as
+
+emergent — including causal set theory, loop quantum gravity, and emergent spacetime approaches —
+
+without committing CTGP to any one of them.
+
+
+
+The following table formalizes the domain of validity for each ontological level and its associated
+
+formal machinery within CTGP. The column “Formal Domain” specifies where each description applies;
+
+the column “Status” specifies the ontological category per Postulate 5.
+
+
+
+Level            | Description              | Status (per       | Formal domain
+
+                 |                          | Postulate 5)      |
+
+-----------------+--------------------------+-------------------+---------------------------------
+
+σ-generation law | Primitive generative     | Fundamental       | All regimes (pre-geometric and
+
+                 | ordering parameter       |                   | emergent)
+
+Causal ordering  | Partial order on         | Fundamental-      | All regimes; light-cone
+
+                 | generative stages        | emergent hybrid   | representation valid only post-
+
+                 |                          |                   | emergence
+
+General          | Effective classical      | Effective (α(ρ) → | Emergent geometric regime only
+
+Relativity (GR)  | spacetime dynamics       | 1)                | (ρ ≪ ρ_P)
+
+QFT              | Relativistic quantum     | Effective         | Emergent geometric regime only
+
+                 | field dynamics           |                   |
+
+Thermodynamics   | Statistical regularities | Emergent          | After sufficient decoherence and
+
+                 | from coarse-graining     |                   | coarse-graining
+
+
+
+The asymmetry in the “Formal Domain” column is the central structural claim of §10.2: σ-ordering is
+
+present and active at all stages, while every other level of law acquires its formal machinery only
+
+after the conditions for that level have been realized. GR is therefore never retroactively applied
+
+to the pre-geometric regime, and the σ-constraint is never suspended in the emergent regime. This
 
 table instantiates Postulate 5 mathematically: σ is the only structure whose domain of validity is
 
@@ -293,53 +351,3 @@ fundamental entities in CTGP is:
 
 
     Absent at the pre-geometric level: metric; manifold; coordinates; light cones; proper time;
-
-    stress-energy tensor; Einstein equations. These emerge later and belong to the emergent or
-
-    effective layers of the hierarchy.
-
-
-
-Effective Action Principle. The continuum action of CTGP — S(σ) = ∫_{M(σ)} √(−g) [L_{GR} + λ(∇_μσ
-
-∇^μσ + f(σ))] d⁴x — is an effective low-energy action applicable only after emergent geometry has
-
-established classical spacetime as a valid continuum approximation. It is not claimed to represent
-
-the microscopic dynamics of the pre-geometric regime. The extended action S_{ext}(σ) of §9.2 models
-
-the crossover regime continuously but similarly does not constitute a fundamental pre-geometric
-
-theory. The UV completion of these actions lies in the pre-geometric structure (σ, C) described by
-
-the Pre-Geometric Minimal Ontology, and remains an open problem for the research program described
-
-below. The action is accordingly to be read as an effective field theory — a well-established status
-
-in contemporary physics — rather than as a fundamental statement; it does not presuppose that
-
-geometry is fundamental.
-
-
-
-Scope of the Research Program. CTGP specifies ontological constraints on possible quantum-gravity
-
-theories rather than providing a completed microscopic theory. The framework presently leaves open:
-
-the mathematical realization of σ at the Planck scale; the origin of causal relations C; the
-
-mechanism by which volume information arises from causal structure; the reconstruction of metric
-
-geometry from causal ordering; and the microscopic derivation of effective laws. CTGP should
-
-therefore be understood as a generative ontology and a research program constraining future theories
-
-of quantum gravity. The research program has a well-defined core: any adequate quantum-gravity
-
-theory must preserve causal directionality, produce emergent geometry from pre-geometric ordering,
-
-and recover the effective description characterized by the CTGP action in the low-energy limit.
-
-
-
-Primitive Generative Structure Principle. Explanatory chains terminate in primitive structures.

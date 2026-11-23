@@ -1,6 +1,56 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 19 of 26 (1,781 words)
+Part 19 of 26 (1,794 words)
+
+surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
+
+already measures, without introducing a preferred frame beyond what is already present in standard
+
+cosmology. Third, persistence of past information through physical records: CTGP’s account of causal
+
+records embedded in successive present states provides a precise mechanism for how the past remains
+
+accessible despite no longer existing as an independent spacetime region. Together these components
+
+provide a framework in which temporal passage, causal structure, and cosmic expansion are treated as
+
+aspects of a single underlying generative process rather than as separate explananda requiring
+
+separate theoretical treatments.
+
+
+
+CTGP is compatible with all of these, and explicitly incorporates their formal resources where
+
+appropriate. Its distinctive contribution, however, is something none of them provides: most quantum
+
+gravity growth models describe the growth of causal relations — the addition of ordered pairs of
+
+events, the extension of the causal partial order. CTGP adds to this an account of where experience
+
+occurs. The present hypersurface Σ_σ is not merely the most recently added stratum of a growing
+
+causal structure: within CTGP, the currently generated physical state is the ontological locus of
+
+physically instantiated conscious experience. Known biological experiences depend on physical
+
+processes, including the neural mechanisms responsible for sensation, internally generated imagery,
+
+cognition, and awareness. Dreams and mental imagery do not require ongoing external sensory
+
+stimulation, but they nevertheless involve physical neural activity. Insofar as qualia are
+
+physically instantiated, their occurrence belongs to the physical reality that exists at the
+
+corresponding generative stage, so the experiences occurring now belong to the currently generated
+
+state. Earlier conscious experiences genuinely occurred when their respective stages were present,
+
+but those earlier experiential states no longer exist as currently occurring experiences. The
+
+systems that underwent them may still exist, since a system can persist while its earlier states do
+
+not (§5.2.2), and present conscious systems may bear physical records and other consequences of
 
 earlier experiences without those earlier experiences themselves remaining instantiated. The past is
 
@@ -40,7 +90,7 @@ which causal dynamics are actively instantiated rather than recorded. Past hyper
 
 represented within M(σ) as completed causal structure — fixed, encoded, no longer undergoing lawful
 
-change. Σ_σ alone is where the evolution equations are being applied, where fields are being
+change. Σ_σ alone is where the dynamical equations are being applied, where fields are being
 
 propagated, where the Cauchy problem is being solved. If qualia require anything at all, they
 
@@ -84,7 +134,7 @@ phenomenological constraint — that an adequate ontology of time must sustain t
 
 which genuine temporal becoming is possible — and develops this constraint into a formal framework
 
-grounded in cosmological time and ADM evolution.
+grounded in cosmological time and the ADM dynamics.
 
 
 
@@ -100,9 +150,9 @@ propagation of the present boundary along n^μ — rather than being explained a
 
 artifacts of observer perspective within a completed block. Second, cosmological time: the natural
 
-temporal ordering provided by FLRW cosmic expansion, the matter frame, and the CMB rest frame are
+temporal ordering provided by FLRW cosmic expansion, the matter frame, and the CMB rest frame is not
 
-not merely convenient coordinate choices but physical expressions of the generation parameter σ that
+merely a convenient coordinate choice but a physical expression of the generation parameter σ that
 
 parameterizes the progression of the present boundary. Third, the persistence of physical records:
 
@@ -250,7 +300,7 @@ since distinct points of a level set of a time function cannot be causally relat
 
 
 
-Proposition 17.2 (Well-posed growth step). Let Σ be a smooth spacelike hypersurface carrying ADM
+Proposition 17.2 (Well-posed local growth). Let Σ be a smooth spacelike hypersurface carrying ADM
 
 initial data (h_{ij}, K_{ij}, matter data) that satisfy the Hamiltonian and momentum constraints and
 
@@ -259,53 +309,3 @@ are of sufficient regularity (smooth data, or data of the finite Sobolev regular
 local existence theorems), and let the matter fields obey equations for which the coupled
 
 Einstein–matter system has a well-posed Cauchy problem, as minimally coupled scalar and Maxwell
-
-fields do. Then the Einstein–matter equations determine a development of the data in a neighborhood
-
-of Σ, unique up to diffeomorphism, and a maximal globally hyperbolic development in which Σ is a
-
-Cauchy surface, unique up to isometry (Choquet-Bruhat and Geroch 1969). Where τ is differentiable
-
-and its maximizing geodesics form a single-valued congruence, the level sets Σ_σ are smooth
-
-spacelike hypersurfaces and the proposition applies to them directly. A level set with corners
-
-(§6.1) does not satisfy the smoothness hypothesis, and the proposition does not apply to it as it
-
-stands. The development can still be computed in a smooth foliation (§8), but the stronger statement
-
-that the data on a cornered level set by themselves determine its future domain of dependence would
-
-require an initial-value formulation for nonsmooth hypersurfaces, which is not established here. The
-
-temporal ordering implicit in this initial-value structure is inherited from the causal structure of
-
-spacetime itself.
-
-
-
-Corollary 17.3 (No future boundary dependence). The development depends on initial data and
-
-evolution equations, not on boundary conditions at σ′ > σ. CTGP interprets this as supporting non-
-
-teleological generation: the future is not consulted.
-
-
-
-Theorem 17.4 (Cosmological time; Andersson, Galloway, and Howard 1998). Let τ(p) = sup{L(γ) : γ a
-
-past-directed causal curve from p}, and suppose τ is regular: finite everywhere and tending to zero
-
-along every past-inextendible causal curve. Then (i) the spacetime is globally hyperbolic; (ii) τ is
-
-a time function, continuous and strictly increasing along every future-directed causal curve; (iii)
-
-every nonempty level set of τ is a future Cauchy surface, though not necessarily a Cauchy surface
-
-(their Corollary 2.6); (iv) τ is locally Lipschitz; and (v) every event p lies on a timelike
-
-geodesic from the initial singularity whose length equals τ(p). Wherever τ is differentiable, −∇^μτ
-
-is the future-directed unit tangent of that geodesic, so g^{μν}∂_μτ∂_ντ = −1.
-
-

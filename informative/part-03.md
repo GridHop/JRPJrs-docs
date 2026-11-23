@@ -1,3 +1,15 @@
+A memory of yesterday exists presently; yesterday does not thereby exist again. Radiation detected from a distant event exists presently; the earlier configuration responsible for its emission does not.
+
+The past and future are asymmetric. Earlier events really occurred but no longer exist as events occurring. Future events have not yet been generated. The future is therefore not merely unknown; under CTGP, it does not yet exist.
+
+9. What makes truths about the past true
+
+Presentism faces a truthmaker problem: if earlier states no longer exist, what makes statements about them true?
+
+CTGP adopts a Lucretian approach, associated with Bigelow (1996). The presently existing world instantiates primitive past-tensed properties expressing that particular things occurred at earlier stages.
+
+These properties are attributed to the present world and, once acquired, are retained at subsequent stages.
+
 Physical records serve a different function. They provide evidence of earlier events and can be damaged, altered, or erased. They are not themselves the fundamental truthmakers.
 
 Erasing a record does not change what happened. It changes what observers can establish about what happened.
@@ -205,22 +217,4 @@ These distinctions become especially important in hypothetical cases involving c
 20. Duplication: information is not numerical identity
 
 Imagine producing a second human with the original person’s relevant brain structure, memories, personality, and cognitive dispositions.
-
-The duplicate sincerely believes it has lived the original person’s life.
-
-Nevertheless, the two are physically distinct individuals after duplication.
-
-Thus:
-
-same information ≠ same causal history ≠ numerical identity
-
-The duplicate’s memories are not necessarily causally disconnected from the original experiences. Their causal ancestry may run through the original brain, scanning equipment, stored information, and reconstruction.
-
-But causal ancestry alone does not establish numerical identity. A child is causally descended from a parent without being that parent.
-
-An identity theory must specify which causal relationships constitute continuation of an individual rather than production of another.
-
-The duplicate need not be considered unreal or inferior. If conscious, it would be a real individual whose psychological state includes information derived from another person’s experiences.
-
-21. Branching and psychological continuity
 

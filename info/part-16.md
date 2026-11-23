@@ -4,7 +4,7 @@ Part 16 of 23 (1,796 words)
 
 Regarding digital universe layers occupying the same coordinates, such a setup can be configured to
 
-let the setup’s digital avatar-inhabitants experience/“interact via”, per layer, soley a particular
+let the setup’s digital avatar-inhabitants experience/“interact via”, per layer, solely a particular
 
 layer “via ‘an interaction-instance such as a button press’ that switches which layer is being
 

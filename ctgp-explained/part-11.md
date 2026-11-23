@@ -1,6 +1,38 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 26 (1,797 words)
+Part 11 of 26 (1,795 words)
+
+contact; or sameness of rate, since systems undergoing radically different physical processes are
+
+generated within the same Σ_σ.
+
+
+
+The point is clearest for spacelike-separated events. Consider a person on Earth raising an arm and,
+
+billions of light years away, another person raising an arm. Neither event lies in the other’s past
+
+light cone; neither can influence the other, and in an expanding universe the two may never enter
+
+causal contact at all. CTGP nonetheless holds that there is a fact of the matter as to whether the
+
+two events belong to the same Σ_σ, and that this fact is fixed by the cosmological foliation rather
+
+than by any observer’s frame. The two movements are unrelated, uncoordinated, and unsynchronized.
+
+What they share is the same cosmological generation parameter σ, and therefore the same generative
+
+stage — and that equality carries no implication of shared proper time, shared rate, or any
+
+coordination whatever between them.
+
+
+
+The non-synchrony is quantitative and already carried by the formalism. On open regions where τ is
+
+sufficiently smooth for the lapse and normal congruence to be defined, the norm condition of §6.3
+
+fixes the lapse of the cosmological foliation: N = f(σ)^{−1/2}, which is constant on each level set
 
 and equals 1 for the canonical labeling σ = τ. The observers normal to Σ_σ are therefore the
 
@@ -14,11 +46,17 @@ geodesics passing through it. Systems co-present at Σ_σ therefore accumulate d
 
 proper time between Σ_σ and Σ_{σ+dσ}. Both arm-raisers are co-present; neither is a clock the other
 
-could read, and the local simultaneity surface of each is in general tilted relative to Σ_σ. CTGP
+could read, and the local simultaneity surface of each is in general tilted relative to Σ_σ. Each
 
-therefore does not claim that either observer’s own present is the privileged one. It claims that
+such surface remains a valid way of labeling events. What exists of it is only its overlap with the
 
-the generative ordering is settled by a foliation that neither of them occupies.
+current Σ_σ; its other parts pick out events that no longer exist or have not yet been generated.
+
+CTGP therefore does not claim that either observer’s own simultaneity surface is the privileged one.
+
+It claims that the generative ordering is settled by a foliation that neither observer’s rest frame
+
+defines, even though both observers lie on its current slice.
 
 
 
@@ -82,23 +120,23 @@ generation.
 
     rate and agrees on the same reading. CTGP rejects that. In CTGP, two events are co-present when
 
-    they belong to the same generative stage of reality, the same step in the present's unfolding.
+    they belong to the same generative stage of reality, the same instant in the present's
 
-    The dividing line isn't imposed from outside. It's fixed by the geometry the universe's own
+    continuous unfolding. The dividing line isn't imposed from outside. It's fixed by the geometry
 
-    matter produces, and on large scales it's the frame in which the cosmic microwave background
+    the universe's own matter produces, and on large scales it's the frame in which the cosmic
 
-    looks uniform. Co-present events don't share proper time, clock rates, or any synchronization,
+    microwave background looks uniform. Co-present events don't share proper time, clock rates, or
 
-    and relativity's local effects like time dilation stay fully intact. Picture two people raising
+    any synchronization, and relativity's local effects like time dilation stay fully intact.
 
-    their arms billions of light years apart. They can never signal each other, and their clocks
+    Picture two people raising their arms billions of light years apart. They can never signal each
 
-    don't agree, but they still belong to the same stage of the present. Think of a computer’s
+    other, and their clocks don't agree, but they still belong to the same stage of the present.
 
-    shared system time, with each program showing its own timer — except that no clock anywhere
+    Think of a computer’s shared system time, with each program showing its own timer — except that
 
-    keeps the present; the universe’s own structure does.
+    no clock anywhere keeps the present; the universe’s own structure does.
 
 
 
@@ -130,25 +168,25 @@ framework it is constituted. At any generative stage, every physical system in t
 
 transition from its present state to its next. This is CTGP’s ontological premise and is not
 
-established by general relativity, which describes evolution without asserting that later states are
+established by general relativity, which describes lawful succession without asserting that later
 
-brought into existence; what follows here is what that premise yields, not a derivation of it. Take
+states are brought into existence; what follows here is what that premise yields, not a derivation
 
-the totality of those transitions — one per system, across the whole universe — and that totality is
+of it. Take the totality of those transitions — one per system, across the whole universe — and that
 
-the cosmic present. Σ_σ is not a surface selected from among many and then declared privileged; it
+totality is the cosmic present. Σ_σ is not a surface selected from among many and then declared
 
-is the collection of everything currently being generated. Once the generative ontology is adopted,
+privileged; it is the collection of everything currently being generated. Once the generative
 
-the universe-wide present is therefore not an additional structure appended to the physical
+ontology is adopted, the universe-wide present is therefore not an additional structure appended to
 
-dynamics; it is constituted by the totality of physically ongoing state transitions. The posit is
+the physical dynamics; it is constituted by the totality of physically ongoing state transitions.
 
-the generative ontology itself, not a privileged surface added on top of it. A system undergoing no
+The posit is the generative ontology itself, not a privileged surface added on top of it. A system
 
-change is included on the same terms, its transition being to a qualitatively identical state
+undergoing no change is included on the same terms, its transition being to a qualitatively
 
-(§9.4.1).
+identical state (§9.4.1).
 
 
 
@@ -162,13 +200,13 @@ transitions glue into a single spacelike hypersurface or that the resulting slic
 
 first is secured elsewhere in the formalism. The Hamiltonian and momentum constraints are precisely
 
-the conditions under which a local generative step is consistent with the steps taken in neighboring
+the conditions under which local generative transitions are consistent with those in neighboring
 
 regions, so the transitions cohere into a surface rather than fragmenting into unrelated local
 
-advances (§6.7; Appendix A.1). The second is not secured by the transitions at all. ADM evolution
+advances (§6.7; Appendix A.1). The second is not secured by the transitions at all. The ADM dynamics
 
-admits many-fingered time: different choices of lapse and shift foliate the same spacetime
+admit many-fingered time: different choices of lapse and shift foliate the same spacetime
 
 differently while describing identical physics. What selects one foliation among these is
 
@@ -235,57 +273,3 @@ neither needs to be. An absence of known examples together with an absence of a 
 impossibility is evidentially neutral and supports nothing. Under CTGP the question does not arise
 
 in the first place, for the reason given in §9.4.1: persisting is being generated. An unchanging
-
-configuration is one in which successive stages produce qualitatively identical states, not one
-
-standing outside the succession. Absolute stasis is not a rival to the generative present; it is not
-
-a describable condition within it.
-
-
-
-9.5 Foliation in Strong-Curvature Regimes
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The FLRW foliation is well-defined in the cosmologically relevant regime of large-scale homogeneity
-
-and isotropy. However, a global Cauchy foliation is not guaranteed in all spacetimes. Pathological
-
-topologies, strong anisotropy, closed timelike curves (CTCs), and black hole interiors may each
-
-undermine the existence of a smooth global foliation. CTGP addresses these cases via a three-option
-
-framework:
-
-
-
-Option (1): Restrict CTGP's domain of application to globally hyperbolic spacetimes with regular
-
-cosmological time. This is the primary intended domain of the framework. It is not confined to
-
-regions where the FLRW approximation holds: the level sets of cosmological time remain future Cauchy
-
-surfaces through strong anisotropy and collapsed structure, where only their smoothness fails (§6.1;
-
-§11.4).
-
-
-
-Option (2): Use local foliation patches with gluing rules. In regions where the global foliation
-
-breaks down, define Σ_σ patchwise over overlapping open sets, with consistency conditions on patch
-
-boundaries. This extends CTGP's applicability at the cost of introducing gluing ambiguities that
-
-must be handled by additional physical data (e.g., the stress-energy distribution at the boundary).
-
-
-
-Option (3): Treat black hole interiors and CTC-permitting solutions as requiring separate analysis
-
-or as lying outside CTGP's intended domain. The interior of a black hole beyond the Cauchy horizon
-
-may be physically inaccessible and dynamically isolated from the exterior universe; CTGP's

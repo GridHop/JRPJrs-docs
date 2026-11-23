@@ -1,6 +1,22 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 18 of 35 (1,787 words)
+Part 18 of 36 (1,800 words)
+
+kick is that of its value in ρ shifted by −t E(h_1, h_2), with t independent of the state, of mean
+
+zero and of variance 1/(4σ_1²). The mean is unchanged and the variance grows by E(h_1,
+
+h_2)²/(4σ_1²). The other order is symmetric. □
+
+
+
+Proposition 13.24 (No Lorentz-invariant law for random smearings). On four-dimensional Minkowski
+
+space, with a free field of mass m ≥ 0, or in any dimension with m > 0, let x be a point and μ a
+
+Borel probability measure on the set of real test functions h with Eh ≠ 0. Then μ is not invariant
+
+under the Lorentz transformations about x. In particular, no single test function with Eh ≠ 0 is
 
 invariant under them.
 
@@ -30,7 +46,7 @@ dimensions, ΔP(h) is null whenever ĥ vanishes on one of the two null rays of t
 
 map u is then undefined; the proof does not apply to such smearings. The proposition concerns the
 
-class it states: point-centred smearings of a free field, drawn from a law attached to the centre.
+class it states: point-centered smearings of a free field, drawn from a law attached to the center.
 
 It does not exclude every conceivable Lorentz-invariant stochastic localization mechanism.
 
@@ -48,7 +64,7 @@ spontaneous-collapse law. The construction holds exactly on every admissible con
 
 13.22), and the order of interfering collapses then has physical consequences (Proposition 13.23).
 
-Second, no Lorentz-invariant law for the smearing of a free field at a centre exists (Proposition
+Second, no Lorentz-invariant law for the smearing of a free field at a center exists (Proposition
 
 13.24). A point process with a covariant law therefore does not supply covariant extended events.
 
@@ -64,7 +80,7 @@ Remark 13.25 (Repairs and their costs).
 
     under whatever rotations leave the smearing invariant, but not under boosts. By Campbell’s
 
-    formula, the expected energy–momentum injected by the collapses centred in D is then λ Vol(D)
+    formula, the expected energy–momentum injected by the collapses centered in D is then λ Vol(D)
 
     ΔP(h). It is finite, and it is a fixed future-directed four-vector whose rest frame is a
 
@@ -82,7 +98,7 @@ Remark 13.25 (Repairs and their costs).
 
 
 
-    (iii) Ordering conflicting collapses by a rule. Ordering them by the times of their centres in a
+    (iii) Ordering conflicting collapses by a rule. Ordering them by the times of their centers in a
 
     chosen frame makes the law frame-dependent. In the numerical check, 234 of 300 sampled non-
 
@@ -90,7 +106,7 @@ Remark 13.25 (Repairs and their costs).
 
     (Appendix C.1, item C3(f)). A thinning rule applied in generative order, which keeps a candidate
 
-    centre only if its region does not conflict with one already kept, is generable and produces
+    center only if its region does not conflict with one already kept, is generable and produces
 
     admissible configurations by construction. But which collapses occur then depends on the
 
@@ -100,7 +116,7 @@ Remark 13.25 (Repairs and their costs).
 
     (iv) Structure carried by realized events. In Tumulka’s rGRWf, the law for each flash refers to
 
-    hyperboloids centred on the same particle’s previous flash (Tumulka 2006). The local frame is
+    hyperboloids centered on the same particle’s previous flash (Tumulka 2006). The local frame is
 
     then supplied covariantly by an earlier realized event rather than by a background. For CTGP the
 
@@ -170,7 +186,7 @@ physical hypothesis subject to test, the dynamical case of §14.6. The same hold
 
 generative order in route (iii). Whether CTGP should accept such a role is a decision about the
 
-framework, not a result. Section 13.11 therefore develops route (v) as an explicitly labelled
+framework, not a result. Section 13.11 therefore develops route (v) as an explicitly labeled
 
 candidate extension, so that what it would assert and predict can be assessed, and does not adopt
 
@@ -224,7 +240,7 @@ and how far it can be realized by a physical coupling.
 
 Lemma 13.26 (Cosmological-time order and causal order). Let T be a time function, and suppose that
 
-every collapse region lies in a slab of cosmological time around its centre, O_x ⊆ { p : |T(p) −
+every collapse region lies in a slab of cosmological time around its center, O_x ⊆ { p : |T(p) −
 
 T(x)| ≤ τ }.
 
@@ -232,19 +248,19 @@ T(x)| ≤ τ }.
 
     (a) If T(x_j) − T(x_i) > 2τ, then O_i does not meet the causal future of O_j. Ordering collapses
 
-    by the cosmological time of their centres therefore agrees with causal precedence for every pair
+    by the cosmological time of their centers therefore agrees with causal precedence for every pair
 
-    whose centres differ in cosmological time by more than 2τ.
+    whose centers differ in cosmological time by more than 2τ.
 
 
 
     (b) In Minkowski space with T = t, suppose the regions are translates of one compact convex
 
-    region that is symmetric under time reflection about its centre. If O_j meets the causal future
+    region that is symmetric under time reflection about its center. If O_j meets the causal future
 
     of O_i but O_i does not meet the causal future of O_j, then t(x_i) < t(x_j). Consequently, on
 
-    every admissible configuration, ordering by the times of the centres is a linear extension of
+    every admissible configuration, ordering by the times of the centers is a linear extension of
 
     the causal order.
 
@@ -267,19 +283,3 @@ a^s). Suppose d⁰ ≤ 0 and d = k + w with k ∈ J⁺ and w ∈ D. Then w⁰ = 
 contains (−w⁰, −w^s) and (w⁰, −w^s), and hence, by convexity, w′ = (w⁰ − 2d⁰, −w^s), because w⁰ ≤ w⁰
 
 − 2d⁰ ≤ −w⁰. Then −d − w′ = (k⁰, −k^s), which lies in J⁺, so −d ∈ J⁺ + D and the relation is mutual.
-
-A one-way relation therefore forces d⁰ > 0. On an admissible configuration every relation between
-
-regions is one-way, and the causal order is the transitive closure of these relations, so it
-
-increases the time of the centres. □
-
-
-
-Candidate extension 13.27 (Collapse guided by cosmological time; not adopted). Let (M, g) be an FLRW
-
-spacetime with a big-bang singularity, so that its cosmological time T is regular, coincides with
-
-the FLRW time, is smooth, and has Cauchy surfaces as level sets (§13.1), and let φ be the free field
-
-of §13.6. The candidate is stated for this class only. For other spacetimes with regular

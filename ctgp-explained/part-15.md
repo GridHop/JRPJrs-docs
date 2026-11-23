@@ -1,6 +1,58 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 26 (1,793 words)
+Part 15 of 26 (1,794 words)
+
+        ε ≡ κ ρ̄ X⋆′(ρ̄) δ / P̄_X ≲ δ · [ρ̄ X⋆′(ρ̄) / X⋆(ρ_{max})] · (X₂/X₁)^{1/2}.
+
+
+
+For X⋆ ∝ ρ² this becomes ε ≲ 2δ (ρ̄₂/ρ_{max})² (ρ̄₂/ρ̄₁); the constants κ, the normalization of P₀,
+
+and ρ_* all cancel. At recombination (ρ̄₂ ≈ 4 × 10⁻¹⁸ kg m⁻³, δ ≈ 10⁻⁵), measured against the epoch
+
+at which compact objects first exist (z ≈ 20, ρ̄₂/ρ̄₁ ≈ 1.4 × 10⁵), the bound is ε ≲ 10⁻⁶⁸ with
+
+ρ_{max} ≈ 10¹⁷ kg m⁻³ (neutron stars) and ε ≲ 10⁻⁴⁰ even with ρ_{max} = 10³ kg m⁻³ (ordinary
+
+condensed matter). □
+
+
+
+Corollary 11.6 (Exclusion of density weighting). Within the class of local, shift-symmetric, stable-
+
+sign completions, no unsaturated increasing X⋆(ρ) produces an observable density-weighted
+
+cosmological signature. □
+
+
+
+Remark (saturation). If X⋆ stops growing above some density ρ_s ≲ ρ̄₂, the bound relaxes to order δ.
+
+This is a distinct, screened model class: it introduces a new density scale tuned to the relevant
+
+epoch, equalizes the generation rate in everything denser than ρ_s — the opposite of density-
+
+weighted generation — and supplies no preferred axis. Its residual effect is proportional to the
+
+σ-sector’s share of the energy budget, which is bounded by constraints on early dark energy.
+
+
+
+11.4 Caustics and the Cosmological-Time Completion
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The admissible generation laws f = f(σ) make the generation flow geodesic (Proposition 11.1).
+
+Initialized on the comoving congruence, it coincides with the free fall of pressureless matter, and
+
+pressureless free fall shell-crosses inside every collapsed halo. A smooth scalar σ therefore
+
+develops caustics wherever structure has formed, and any nonzero λ-dust would acquire a divergent
+
+density there. Caustic-free completions of pressureless fluids and k-essence have been studied in
 
 the literature (Babichev and Ramazanov 2017).
 
@@ -194,13 +246,13 @@ producible from the current one alone: the fundamental dynamics must admit a gen
 
 value formulation relative to the existing present, with no dependence on future boundary data and
 
-no global consistency conditions that require the whole history at once. Eternalism carries no such
+no global consistency conditions imposed on the whole of spacetime at once. Eternalism carries no
 
-requirement. A block universe can contain initial-value laws, but it can equally contain laws with
+such requirement. A block universe can contain initial-value laws, but it can equally contain laws
 
-future boundary conditions, final-state constraints, or self-consistency conditions on closed causal
+with future boundary conditions, final-state constraints, or self-consistency conditions on closed
 
-loops.
+causal loops.
 
 
 
@@ -275,45 +327,3 @@ specification of the state from the equations applied to it, but that separation
 formalism, not a second ontological ingredient. What generability excludes is dependence on an
 
 independently existing future, not indeterminacy. The reading carries a commitment: laws must be
-
-grounded in the present rather than supervening on the whole spacetime mosaic, as Humean accounts of
-
-laws hold. A presentist must therefore take laws to govern rather than merely summarize. Stated
-
-precisely, the present world comprises its categorical physical state S_σ, its primitive past-tensed
-
-properties (§5.2.1), and the primitive generative laws that obtain in it (Postulate 5; §10.4). Those laws
-
-are neither further existents alongside the present nor derivable from S_σ alone; they are a primitive
-
-nomic aspect of the present world, distinct from its categorical configuration. Effective laws likewise
-
-obtain in the present insofar as its physical structure supports their stable realization (§10.2). Every
-
-law that obtains, obtains in the present: the present world includes the laws, although the present
-
-categorical state does not by itself entail them. The phrase should also be read as concerning the
-
-categorical physical state. The state S_σ in the criterion above is the configuration of fields and matter
-
-on Σ_σ, including any physically instantiated variables the dynamics require, such as definite
-
-measurement outcomes or a Bohmian configuration. The past-tensed properties of §5.2.1 are acquired
-
-through generation but are not inputs to it: two presents alike in every categorical respect have the
-
-same successors, or the same transition probabilities to their successors, whatever their pasts. A law
-
-that consulted past-tensed properties not carried by present categorical variables would involve the
-
-irreducible dependence on earlier states that generability excludes (§13, Objection O10). Past-tensed
-
-properties therefore do grounding work for truths about the past and no dynamical work.
-
-
-
-No particular probability is assigned here to generable laws on the eternalist view; the point is
-
-only that presentism is exposed to this evidence where eternalism is not.
-
-

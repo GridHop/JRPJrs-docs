@@ -1,20 +1,30 @@
 # Quantum Reference Frames and Single-Outcome Dynamics — A Compatibility Framework for Generative Presentism
 
-Part 21 of 35 (1,796 words)
+Part 21 of 36 (1,800 words)
+
+t_0 − τ } is compact, and so is its projection π(A) ⊆ S. Suppose that R_x meets J⁻(K) at a point p.
+
+Then T(p) ≥ T(x) − τ > t_0 − τ, so p ∈ A, and T(x) ≤ T(p) + τ ≤ t_K + τ, because T increases along
+
+future-directed causal curves. The value T(p) lies in the compact interval [t_0 − τ, t_K], on which
+
+a has a positive minimum a_*, so the condition a(T(p)) d_γ(π(p), π(x)) ≤ ℓ gives d_γ(π(x), π(A)) ≤
+
+ℓ/a_*. The set N of points of S within γ-distance ℓ/a_* of π(A) is closed and bounded, hence compact
 
 by the Hopf–Rinow theorem. Therefore x lies in the compact set [t_0, t_1] × N, where t_1 is the
 
 smaller of t_K + τ and T_max − τ, and a compact set has finite four-volume. (b) The intensity
 
-measure is finite on compact sets, so the number of centres in a compact set is a Poisson variable
+measure is finite on compact sets, so the number of centers in a compact set is a Poisson variable
 
 with finite mean and is finite almost surely. Exhausting M by countably many compact sets shows
 
-that, almost surely, every compact set contains finitely many centres. For a finite set S of
+that, almost surely, every compact set contains finitely many centers. For a finite set S of
 
-centres, the union K of the regions O_k ⊆ R_{x_k}, k ∈ S, is compact, and S⁻ lies in the compact set
+centers, the union K of the regions O_k ⊆ R_{x_k}, k ∈ S, is compact, and S⁻ lies in the compact set
 
-of part (a), which then contains finitely many centres. □
+of part (a), which then contains finitely many centers. □
 
 
 
@@ -28,15 +38,15 @@ arbitrary globally hyperbolic spacetimes.
 
 Proposition 13.31 (Collapse by gapless pointers). Let φ be the free field of §13.6 on a globally
 
-hyperbolic spacetime, in a state ω, and consider any finite configuration of centres, admissible or
+hyperbolic spacetime, in a state ω, and consider any finite configuration of centers, admissible or
 
 not, with pointers as just described.
 
 
 
-    (a) Foliation-independent coupled evolution. Ordered by any Cauchy time function, the coupled
+    (a) Foliation-independent coupled dynamics. Ordered by any Cauchy time function, the coupled
 
-    evolution from before all couplings to after them is the same unitary,
+    propagator from before all couplings to after them is the same unitary,
 
 
 
@@ -110,7 +120,7 @@ not, with pointers as just described.
 
     nonzero, and the law of part (b) then differs in general from the law of the collapses applied
 
-    in order of their centres.
+    in order of their centers.
 
 
 
@@ -138,19 +148,19 @@ not, with pointers as just described.
 
 
 
-    (f) A law of records for infinite configurations. Let the centres form the Poisson process of
+    (f) A law of records for infinite configurations. Let the centers form the Poisson process of
 
     Candidate extension 13.27, with the smearings of its item (ii) and pre-chirped pointers of width
 
     σ, on any FLRW spacetime of that class, whether its spatial sections are closed, flat, or open,
 
-    and let ω be quasi-free. Almost surely S⁻ is finite for every finite set S of centres, and there
+    and let ω be quasi-free. Almost surely S⁻ is finite for every finite set S of centers, and there
 
-    is a unique probability law on the readings of all centres whose marginal on every finite set S
+    is a unique probability law on the readings of all centers whose marginal on every finite set S
 
     is the law of part (b) for the configuration S ∪ S⁻. Averaged over the Poisson process, it gives
 
-    a law of marked centres. Neither an enumeration of the centres in order of T nor finiteness of
+    a law of marked centers. Neither an enumeration of the centers in order of T nor finiteness of
 
     the past regions is needed. This is a probability law for the readings, which are the outcome
 
@@ -172,27 +182,27 @@ not, with pointers as just described.
 
     when it reaches the largest, which are T(x) − τ and T(x) + τ for the smearings of Candidate
 
-    extension 13.27. Between successive presents, the field then evolves by its field equation with
+    extension 13.27. Between successive presents, the field then propagates by its field equation
 
-    the local source Σ_k p_k h_k, each pointer interacts only within its region, and each reading
+    with the local source Σ_k p_k h_k, each pointer interacts only within its region, and each
 
-    concerns a single pointer whose coupling has ended. The present state at each value of T,
+    reading concerns a single pointer whose coupling has ended. The present state at each value of
 
-    consisting of the field and the pointers whose couplings have begun, conditioned on the readings
+    T, consisting of the field and the pointers whose couplings have begun, conditioned on the
 
-    already made, is a density operator, and the law of the next increment depends only on it. The
+    readings already made, is a density operator, and the law of the next increment depends only on
 
-    readings and conditional states are those of parts (a)–(d). For the Poisson centres of Candidate
+    it. The readings and conditional states are those of parts (a)–(d). For the Poisson centers of
 
-    extension 13.27 on a spatially closed FLRW spacetime, only finitely many pointers begin before
+    Candidate extension 13.27 on a spatially closed FLRW spacetime, only finitely many pointers
 
-    any given value of T, almost surely, so the construction applies at every present. On spatially
+    begin before any given value of T, almost surely, so the construction applies at every present.
 
-    flat or open FLRW spacetimes, infinitely many pointers begin in every slab of cosmological time,
+    On spatially flat or open FLRW spacetimes, infinitely many pointers begin in every slab of
 
-    and a complete stochastic evolution of a present state containing them is not constructed here;
+    cosmological time, and a complete stochastic dynamics for a present state containing them is not
 
-    for these spacetimes part (f) supplies the law of the records only.
+    constructed here; for these spacetimes part (f) supplies the law of the records only.
 
 
 
@@ -202,7 +212,7 @@ spectral representation the field is driven, for each value of the momenta, by t
 
 j = Σ_k p_k h_k. For a free field driven by a classical source of compact support, the interaction-
 
-picture evolution through the support of the source is W(−j) times the phase exp(−(i/2) E_ret(j,
+picture propagator through the support of the source is W(−j) times the phase exp(−(i/2) E_ret(j,
 
 j)). To see this, order the coupling by a Cauchy time function and split j into pieces j_1, …, j_N
 
@@ -251,15 +261,3 @@ where η̂_k is the momentum-space wave function of η_k; the pre-chirp does not
 Each factor is the kick density γ of Proposition 13.15(b) with σ = σ_k, so the unread channel is the
 
 composition of the unread Gaussian collapses, which commute (proof of Proposition 13.28(e)).
-
-Proposition 13.16 gives the energy–momentum. (d) A Gaussian collapse of φ(h_k) with width σ_k is the
-
-instrument obtained from an unchirped pointer by the instantaneous coupling V_k = exp(−i p_k φ(h_k))
-
-followed by reading q_k: its Kraus operator for the reading y is ⟨y|V_k|η_k⟩ = η_k(y − φ(h_k)), the
-
-operator K_y of Proposition 13.12. For collapses applied in the order 1, …, n, the first Weyl
-
-relation gives V_n ⋯ V_1 = exp(−(i/2) Σ_{k>l} E(h_k, h_l) p_k p_l) exp(−i Σ_k p_k φ(h_k)). In a
-
-linear extension of the causal order of an admissible configuration, if l precedes k then O_l does

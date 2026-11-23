@@ -20,7 +20,7 @@ information has already altered subsequent reality. Eventually even the reader�
 
 while the consequences of the decision continue to propagate. CTGP is consistent with this: it
 
-entails that the universe’s accessible causal archive is finite and dynamically evolving, shaped by
+entails that the universe’s accessible causal archive is finite and continually changing, shaped by
 
 record formation, thermodynamic degradation, and erasure, without implying that every past truth is
 

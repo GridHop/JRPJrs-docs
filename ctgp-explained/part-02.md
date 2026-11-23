@@ -80,7 +80,7 @@ four-dimensional block in which nothing comes into being, every event — includ
 
 moment of 'experiencing the present' — is simply a fixed point in the manifold. The block does not
 
-evolve or generate; it simply is. The verbs standardly used to describe temporal experience —
+change or generate; it simply is. The verbs standardly used to describe temporal experience —
 
 'moving through,' 'arriving at,' 'leaving behind,' 'anticipating' — all presuppose change occurring
 

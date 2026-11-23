@@ -1,6 +1,26 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 07 of 26 (1,784 words)
+Part 07 of 26 (1,790 words)
+
+thermodynamic clock. This is a suggestive coincidence in the symmetric case, not a derivation of σ
+
+from entropy production. Second, in a discrete quantum-gravity setting, σ admits a possible
+
+realization within causal-set approaches, where growth dynamics suggest a natural analogue of
+
+spacetime generation (Rideout and Sorkin 2000): one possible interpretation is that σ corresponds,
+
+in an appropriate continuum approximation, to an averaged measure of generated causal structure.
+
+CTGP does not presently provide a rigorous derivation of this correspondence and therefore treats it
+
+as a motivating analogy rather than a proven result. Importantly, causal-set approaches represent
+
+one possible discrete realization of CTGP’s more general continuous generative-flow ontology; CTGP’s
+
+continuum structure is the generation flow ∇_μσ, and discrete models provide compatible but
+
+non-foundational instantiations. These two independent lines of motivation suggest possible deeper
 
 foundations for σ, but neither presently constitutes a derivation of the CTGP formalism.
 
@@ -154,7 +174,7 @@ require strict determinism; it requires only that present reality emerges from p
 
 reality through lawful physical processes, and that no confirmed observation presently requires the
 
-existence of causal influence entirely disconnected from physical state evolution.
+existence of causal influence entirely disconnected from the dynamics of physical states.
 
 
 
@@ -311,25 +331,3 @@ the set where τ fails to be differentiable has measure zero and includes the ev
 geodesics cross, which is where the level sets acquire corners (§6.1; §11.4). Statements about n^μ,
 
 the unit normal, and the lapse are accordingly almost-everywhere statements. The level sets
-
-themselves, and with them co-presence, are defined everywhere, corners included. The flow lines also
-
-remain defined everywhere: every event lies on at least one maximizing geodesic from the initial
-
-singularity (Theorem 17.4), although at a corner more than one may pass through the same event.
-
-Where a smooth foliation is needed, as in the ADM formalism, the dynamics are computed in one
-
-without changing which events are co-present (§8).
-
-
-
-6.6.1 Propagation of the Generative Field
-
-
-
-Along the generation flow, dσ/dτ = F′(τ); for σ = τ, σ advances at unit rate along every generator.
-
-The propagation equation ∇_μ(λ∇^μσ) = ½λf′(σ), obtained from the action of §9.1, is linear and
-
-homogeneous in λ and reduces to a conservation law for the current λ∇^μσ when f is constant: given
