@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 24 of 26 (1,791 words)
+Part 24 of 26 (1,798 words)
+
+Assigning experiences to temporal parts establishes that each part has its experience; it is less
+
+clear that it accounts for the diachronic fact of being an experiencer whose experience is actually
+
+going on, rather than redescribing that fact in four-dimensional terms. CTGP answers with an
 
 additional ontological fact: only the generatively active state is presently real and presently
 
@@ -355,9 +361,3 @@ establishes it. A system may satisfy the first set of conditions completely whil
 an open question.
 
 
-
-The argument against strong functionalism does not depend on the representation/instantiation
-
-framing and is not weakened by the scoping above. It follows from Russellian monism alone:
-
-functional equivalence is specified structurally; intrinsic character is not fixed by structure;

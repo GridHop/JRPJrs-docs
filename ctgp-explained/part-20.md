@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 20 of 26 (1,796 words)
+Part 20 of 26 (1,790 words)
+
+initial data (h_{ij}, K_{ij}, matter data) that satisfy the Hamiltonian and momentum constraints and
+
+are of sufficient regularity (smooth data, or data of the finite Sobolev regularity required by the
+
+local existence theorems), and let the matter fields obey equations for which the coupled
+
+Einstein–matter system has a well-posed Cauchy problem, as minimally coupled scalar and Maxwell
 
 fields do. Then the Einstein–matter equations determine a development of the data in a neighborhood
 
@@ -283,11 +291,3 @@ generability constraint (§12.2).
 Definition 17.12 (Geometric Growth Measure). Let u^μ be the timelike congruence aligned with the
 
 cosmological matter flow, and let θ = ∇_μu^μ denote its expansion scalar. CTGP identifies θ as the
-
-physically meaningful local measure of geometric growth: it equals d(ln √h)/dτ and thus measures the
-
-fractional rate of change of local hypersurface volume along the matter congruence. Rather than
-
-defining ontological growth as dM/dσ — which treats the generated domain as if it were a scalar
-
-quantity — CTGP uses the foliation expansion to characterize growth. The change of θ is governed by

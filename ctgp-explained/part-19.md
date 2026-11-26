@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 19 of 26 (1,794 words)
+Part 19 of 26 (1,792 words)
+
+treated separately in the existing literature. First, a generation parameter grounded in
+
+relativistic causal structure: CTGP identifies the growth parameter with cosmological time, fixed by
+
+the spacetime’s causal and metric structure and encoded in a constrained action. Second, a temporal
+
+ordering that is observationally accessible: in FLRW the level sets of cosmological time are the
 
 surfaces of constant cosmic time, so the generation parameter is realized by a quantity cosmology
 
@@ -301,11 +309,3 @@ since distinct points of a level set of a time function cannot be causally relat
 
 
 Proposition 17.2 (Well-posed local growth). Let Σ be a smooth spacelike hypersurface carrying ADM
-
-initial data (h_{ij}, K_{ij}, matter data) that satisfy the Hamiltonian and momentum constraints and
-
-are of sufficient regularity (smooth data, or data of the finite Sobolev regularity required by the
-
-local existence theorems), and let the matter fields obey equations for which the coupled
-
-Einstein–matter system has a well-posed Cauchy problem, as minimally coupled scalar and Maxwell

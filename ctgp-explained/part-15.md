@@ -1,6 +1,30 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 15 of 26 (1,794 words)
+Part 15 of 26 (1,787 words)
+
+epoch with background norm X₁ is stable only if
+
+
+
+        P₀′(X₁) > κ [X⋆(ρ_{max}) − X₁].
+
+
+
+(b) Along the background, the no-ghost condition reads d(X^{1/2}P₀′)/dX > −κX^{1/2}. Integrating to
+
+an earlier epoch with X₂ > X₁ gives
+
+
+
+        P₀′(X₂) ≳ κ X⋆(ρ_{max}) (X₁/X₂)^{1/2},
+
+
+
+provided X⋆(ρ_{max}) X₁^{1/2} ≫ X₂^{3/2}. (c) The fractional modulation of the σ-sector by density
+
+perturbations δ at the earlier epoch is then bounded by
+
+
 
         ε ≡ κ ρ̄ X⋆′(ρ̄) δ / P̄_X ≲ δ · [ρ̄ X⋆′(ρ̄) / X⋆(ρ_{max})] · (X₂/X₁)^{1/2}.
 
@@ -317,13 +341,3 @@ content is captured by the Cauchy problem of §7.
 
 
 Laws and the present. The phrase “from the current one alone” should be read ontologically. Since
-
-only the present exists, the laws that govern generation are not an additional resource standing
-
-alongside the present; they obtain in it. The initial-value formalism separates a mathematical
-
-specification of the state from the equations applied to it, but that separation is a feature of the
-
-formalism, not a second ontological ingredient. What generability excludes is dependence on an
-
-independently existing future, not indeterminacy. The reading carries a commitment: laws must be

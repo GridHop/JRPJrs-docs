@@ -2,6 +2,26 @@
 
 Part 14 of 26 (1,799 words)
 
+remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
+
+representative of σ.
+
+
+
+Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
+
+fundamental entities in CTGP is:
+
+
+
+    Present at the pre-geometric level: generative ordering parameter σ; causal relation structure
+
+    C; minimal generative laws governing lawful succession.
+
+
+
+    Absent at the pre-geometric level: metric; manifold; coordinates; light cones; proper time;
+
     stress-energy tensor; Einstein equations. These emerge later and belong to the emergent or
 
     effective layers of the hierarchy.
@@ -327,27 +347,3 @@ excluded for the entire class.
 Proposition 11.5 (Stability transport bound). Suppose the background remains near the preferred
 
 norm, X̄ ≈ X⋆(ρ̄). (a) By Theorem 11.4, a static structure containing densities up to ρ_{max} at an
-
-epoch with background norm X₁ is stable only if
-
-
-
-        P₀′(X₁) > κ [X⋆(ρ_{max}) − X₁].
-
-
-
-(b) Along the background, the no-ghost condition reads d(X^{1/2}P₀′)/dX > −κX^{1/2}. Integrating to
-
-an earlier epoch with X₂ > X₁ gives
-
-
-
-        P₀′(X₂) ≳ κ X⋆(ρ_{max}) (X₁/X₂)^{1/2},
-
-
-
-provided X⋆(ρ_{max}) X₁^{1/2} ≫ X₂^{3/2}. (c) The fractional modulation of the σ-sector by density
-
-perturbations δ at the earlier epoch is then bounded by
-
-

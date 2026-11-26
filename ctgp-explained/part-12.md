@@ -1,8 +1,16 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 12 of 26 (1,797 words)
+Part 12 of 26 (1,798 words)
 
-configuration is one in which successive stages produce qualitatively identical states, not one
+neither needs to be. An absence of known examples together with an absence of a proof of
+
+impossibility is evidentially neutral and supports nothing. Under CTGP the question does not arise
+
+in the first place, for the reason given in §9.4.1: to persist is to continue through generation,
+
+not to be regenerated, and nothing that persists is exempt from generation. An unchanging
+
+configuration is one whose successively generated states are qualitatively identical, not one
 
 standing outside the succession. Absolute stasis is not a rival to the generative present; it is not
 
@@ -365,11 +373,3 @@ branches as ontologically real — falls outside CTGP’s scope regardless of it
 
 
 CTGP does not posit an absence of law at any stage of cosmic history, including the Planck epoch.
-
-The earliest regime of the universe is governed by the minimal generative structure described in
-
-Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a
-
-smooth Lorentzian manifold — may not yet exist during this epoch. Light cones and metric structure
-
-may be only approximate or emergent quantities, becoming valid only after sufficient decoherence and

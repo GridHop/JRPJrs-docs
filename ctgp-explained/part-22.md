@@ -1,6 +1,24 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 22 of 26 (1,789 words)
+Part 22 of 26 (1,793 words)
+
+References
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
+
+    Quantum Gravity, 15, 309–322.
+
+
+
+Arkani-Hamed, N., Cheng, H.-C., Luty, M. A., & Mukohyama, S. (2004). Ghost condensation and a
+
+    consistent infrared modification of gravity. Journal of High Energy Physics, 2004(05), 074.
+
+
 
 Arnowitt, R., Deser, S., & Misner, C. W. (1962). The dynamics of general relativity. In L. Witten
 
@@ -557,9 +575,3 @@ A.3.1 Well-Definedness, Dimensions, and Reparameterization of σ
 
 
 Three properties of the generation parameter are relied upon elsewhere and are stated explicitly
-
-here. The first is well-definedness. Cosmological time is defined as a supremum over all
-
-past-directed causal curves, not by integration along a chosen congruence, so no path-independence
-
-condition is required: τ(p) is well defined whenever it is finite. Its level sets are future Cauchy

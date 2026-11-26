@@ -15,9 +15,9 @@
       "title": "Cosmic-Time Generative Presentism (CTGP) — Explained",
       "slug": "ctgp-explained",
       "source_filename": "CTGP_-_explained.docx",
-      "source_paragraphs": 4436,
-      "published_paragraphs": 4436,
-      "words": 46228,
+      "source_paragraphs": 4439,
+      "published_paragraphs": 4439,
+      "words": 46279,
       "parts": 26
     },
     {
@@ -69,9 +69,9 @@
       "title": "Informative",
       "slug": "informative",
       "source_filename": "Informative.docx",
-      "source_paragraphs": 1260,
-      "published_paragraphs": 1260,
-      "words": 27235,
+      "source_paragraphs": 1266,
+      "published_paragraphs": 1266,
+      "words": 27225,
       "parts": 16
     }
   ],
@@ -269,109 +269,109 @@
       "work": "ctgp-explained",
       "part": 11,
       "source_paragraph_start": 1641,
-      "source_paragraph_end_exclusive": 1777,
-      "paragraphs": 136,
-      "words": 1795,
-      "sha256_paragraph_sequence": "b4a2dc2ed520cd0576ba3fa2be6feebd4e95670c22ca3e14490685c0a664cac7"
+      "source_paragraph_end_exclusive": 1776,
+      "paragraphs": 135,
+      "words": 1785,
+      "sha256_paragraph_sequence": "f6ec450874270b790197583d0fc0f968b5e6a8b206350e26f1a16d76f4d32835"
     },
     {
       "work": "ctgp-explained",
       "part": 12,
-      "source_paragraph_start": 1777,
-      "source_paragraph_end_exclusive": 1963,
+      "source_paragraph_start": 1776,
+      "source_paragraph_end_exclusive": 1962,
       "paragraphs": 186,
-      "words": 1797,
-      "sha256_paragraph_sequence": "3645a67e4a9841ed222ee5860f7a5a7959cb5ccd2e6b174c6502e75e5be3ce54"
+      "words": 1798,
+      "sha256_paragraph_sequence": "b8d763db86acb8f728eed6a953b84e1dca42fa280e650706e1ace130e5ae2bfe"
     },
     {
       "work": "ctgp-explained",
       "part": 13,
-      "source_paragraph_start": 1963,
-      "source_paragraph_end_exclusive": 2138,
-      "paragraphs": 175,
-      "words": 1792,
-      "sha256_paragraph_sequence": "058e69ca7824f5055defdac26ca8b09a97ea8357a153c408e1f789a338f7b278"
+      "source_paragraph_start": 1962,
+      "source_paragraph_end_exclusive": 2131,
+      "paragraphs": 169,
+      "words": 1787,
+      "sha256_paragraph_sequence": "0e1ecc1638cf078ff503470ec4d138c0a1f583ab8e1321617f36eaa3e1f7cc44"
     },
     {
       "work": "ctgp-explained",
       "part": 14,
-      "source_paragraph_start": 2138,
-      "source_paragraph_end_exclusive": 2313,
-      "paragraphs": 175,
+      "source_paragraph_start": 2131,
+      "source_paragraph_end_exclusive": 2304,
+      "paragraphs": 173,
       "words": 1799,
-      "sha256_paragraph_sequence": "1544792b4b546cee2ae8f1892cd63b29f88ede010592c7611dd56884631a756f"
+      "sha256_paragraph_sequence": "6da4ba2eb6e9ff3cea1153603150481326c423e1514ca5d75637781f94b0f457"
     },
     {
       "work": "ctgp-explained",
       "part": 15,
-      "source_paragraph_start": 2313,
-      "source_paragraph_end_exclusive": 2476,
-      "paragraphs": 163,
-      "words": 1794,
-      "sha256_paragraph_sequence": "ef6c56f21eb6e37ff3d5abe0b88c39bda64f666c9d921a4a05e60b7f0ab4854f"
+      "source_paragraph_start": 2304,
+      "source_paragraph_end_exclusive": 2474,
+      "paragraphs": 170,
+      "words": 1787,
+      "sha256_paragraph_sequence": "5d04032160d9abc3fd6663d48dd20e9879413476aa90a7b4ad144b6fe696e627"
     },
     {
       "work": "ctgp-explained",
       "part": 16,
-      "source_paragraph_start": 2476,
-      "source_paragraph_end_exclusive": 2643,
+      "source_paragraph_start": 2474,
+      "source_paragraph_end_exclusive": 2641,
       "paragraphs": 167,
-      "words": 1787,
-      "sha256_paragraph_sequence": "d38508a7743fb28dce88f798a3e4727c6c96207cd6c7f4fe00a4b4599f4d5c00"
+      "words": 1790,
+      "sha256_paragraph_sequence": "5d061ac90d8b0575cab21ed9ec03d5a34ea7fa2d90906bf0237422f2e0aebcb8"
     },
     {
       "work": "ctgp-explained",
       "part": 17,
-      "source_paragraph_start": 2643,
-      "source_paragraph_end_exclusive": 2808,
-      "paragraphs": 165,
-      "words": 1795,
-      "sha256_paragraph_sequence": "be851c9dfd6e8b4023c2f00436d467e08a9c09936ff2c53e65d7b3db2f2200b6"
+      "source_paragraph_start": 2641,
+      "source_paragraph_end_exclusive": 2807,
+      "paragraphs": 166,
+      "words": 1800,
+      "sha256_paragraph_sequence": "36484db5326255047049ef327797427cd0c51c2d40166ae58de7ecb94cd84f22"
     },
     {
       "work": "ctgp-explained",
       "part": 18,
-      "source_paragraph_start": 2808,
-      "source_paragraph_end_exclusive": 2984,
+      "source_paragraph_start": 2807,
+      "source_paragraph_end_exclusive": 2983,
       "paragraphs": 176,
-      "words": 1791,
-      "sha256_paragraph_sequence": "ea27539136c4686b4a130ef24512b45e91e960f25cdec1ba2242a94efcdaec73"
+      "words": 1800,
+      "sha256_paragraph_sequence": "ed64528119ec0f5d86cc9756bf86e9e4b5aed93672ab504bf45b61543a008d54"
     },
     {
       "work": "ctgp-explained",
       "part": 19,
-      "source_paragraph_start": 2984,
-      "source_paragraph_end_exclusive": 3138,
+      "source_paragraph_start": 2983,
+      "source_paragraph_end_exclusive": 3137,
       "paragraphs": 154,
-      "words": 1794,
-      "sha256_paragraph_sequence": "f631d39917c3a49d75f10fa27223cd4149a6ef47248e7c4976dc57835adc83cc"
+      "words": 1792,
+      "sha256_paragraph_sequence": "5e793b3ac443dfd025cbe9cc5cc6dfad15c38d685e94cf91a57441054481bd41"
     },
     {
       "work": "ctgp-explained",
       "part": 20,
-      "source_paragraph_start": 3138,
-      "source_paragraph_end_exclusive": 3283,
+      "source_paragraph_start": 3137,
+      "source_paragraph_end_exclusive": 3282,
       "paragraphs": 145,
-      "words": 1796,
-      "sha256_paragraph_sequence": "b228220477230ee157b6f4c1988c755a48ab2369ab4241163718843594f3473d"
+      "words": 1790,
+      "sha256_paragraph_sequence": "6bbf09645c9f3a01511d0986c1948c87be526aad43f3a707d7e8e731032512e7"
     },
     {
       "work": "ctgp-explained",
       "part": 21,
-      "source_paragraph_start": 3283,
-      "source_paragraph_end_exclusive": 3441,
-      "paragraphs": 158,
-      "words": 1785,
-      "sha256_paragraph_sequence": "f0232f3f896227104d8531e8f7af9865c3a8f923234f5c07dfb521b5c339facf"
+      "source_paragraph_start": 3282,
+      "source_paragraph_end_exclusive": 3435,
+      "paragraphs": 153,
+      "words": 1800,
+      "sha256_paragraph_sequence": "1b03aeecedc9d1436387762b606de03e2b3288be9597afabcf4a40aef121426e"
     },
     {
       "work": "ctgp-explained",
       "part": 22,
-      "source_paragraph_start": 3441,
+      "source_paragraph_start": 3435,
       "source_paragraph_end_exclusive": 3722,
-      "paragraphs": 281,
-      "words": 1789,
-      "sha256_paragraph_sequence": "8e39402764ad96c94976156ca59ea1e014f8d3f9cd4855315051831cdaf96025"
+      "paragraphs": 287,
+      "words": 1793,
+      "sha256_paragraph_sequence": "a5341ac02c897477bd4f7dd8342675756f8fa61f52850c34280502d904b40eac"
     },
     {
       "work": "ctgp-explained",
@@ -379,8 +379,8 @@
       "source_paragraph_start": 3722,
       "source_paragraph_end_exclusive": 3902,
       "paragraphs": 180,
-      "words": 1790,
-      "sha256_paragraph_sequence": "145d3f8fc93f315ffdbb3e103cca2269a0ab6200edc0bc0aeb3d5ff19f523130"
+      "words": 1789,
+      "sha256_paragraph_sequence": "c692e4810809879af1ee4df72b16113ea8b85ba3e9fd076cd4c1011c13b8eadc"
     },
     {
       "work": "ctgp-explained",
@@ -388,26 +388,26 @@
       "source_paragraph_start": 3902,
       "source_paragraph_end_exclusive": 4082,
       "paragraphs": 180,
-      "words": 1791,
-      "sha256_paragraph_sequence": "37637b902345b2377b591fbc89d3efa10569a503e9997bec59883d0a865e44b6"
+      "words": 1798,
+      "sha256_paragraph_sequence": "002972a1a9bb769c6c2ecdb981b9c5ab84b1bd82e4d8e0ec7a4cc994bb48809c"
     },
     {
       "work": "ctgp-explained",
       "part": 25,
       "source_paragraph_start": 4082,
-      "source_paragraph_end_exclusive": 4290,
-      "paragraphs": 208,
-      "words": 1795,
-      "sha256_paragraph_sequence": "551d759cc4b704394220b1032ddc17f59ff08b52d79bd77dd88833faf25f507c"
+      "source_paragraph_end_exclusive": 4286,
+      "paragraphs": 204,
+      "words": 1789,
+      "sha256_paragraph_sequence": "d7635ac3400daf95dcb543efce0f7bb68513e9501dcf538540289f9a1a435900"
     },
     {
       "work": "ctgp-explained",
       "part": 26,
-      "source_paragraph_start": 4290,
-      "source_paragraph_end_exclusive": 4436,
-      "paragraphs": 146,
-      "words": 1412,
-      "sha256_paragraph_sequence": "10af78033dea63112f85243c07e1dc10a63278b4b305496363b2eafe0a3d0878"
+      "source_paragraph_start": 4286,
+      "source_paragraph_end_exclusive": 4439,
+      "paragraphs": 153,
+      "words": 1456,
+      "sha256_paragraph_sequence": "251cccf644f29884cc46a1e12cf747163aa6b889692fce4c5bb339f35a56fec5"
     },
     {
       "work": "free-will",
@@ -1205,16 +1205,16 @@
       "work": "informative",
       "part": 1,
       "source_paragraph_start": 0,
-      "source_paragraph_end_exclusive": 32,
-      "paragraphs": 32,
-      "words": 1724,
-      "sha256_paragraph_sequence": "0e88cf1389ee1357aa4a9af96a484370fe888f88b92f79960a9c5bba84b11d33"
+      "source_paragraph_end_exclusive": 38,
+      "paragraphs": 38,
+      "words": 1714,
+      "sha256_paragraph_sequence": "d584d6ee9f4a7fc6b0797e43260dec56cc1c3db2ac8279c52dda6971c1a56b31"
     },
     {
       "work": "informative",
       "part": 2,
-      "source_paragraph_start": 32,
-      "source_paragraph_end_exclusive": 159,
+      "source_paragraph_start": 38,
+      "source_paragraph_end_exclusive": 165,
       "paragraphs": 127,
       "words": 1774,
       "sha256_paragraph_sequence": "be63d5f0ea03a56b89ff6f5979c2d8eeb0a2f6f7b09d96bb43ce118cc7f8d429"
@@ -1222,8 +1222,8 @@
     {
       "work": "informative",
       "part": 3,
-      "source_paragraph_start": 159,
-      "source_paragraph_end_exclusive": 379,
+      "source_paragraph_start": 165,
+      "source_paragraph_end_exclusive": 385,
       "paragraphs": 220,
       "words": 1800,
       "sha256_paragraph_sequence": "e91e532a0883ba3e222d9c252d85c3d39679ce41da96e8ba3c89924b8ad8a28d"
@@ -1231,8 +1231,8 @@
     {
       "work": "informative",
       "part": 4,
-      "source_paragraph_start": 379,
-      "source_paragraph_end_exclusive": 575,
+      "source_paragraph_start": 385,
+      "source_paragraph_end_exclusive": 581,
       "paragraphs": 196,
       "words": 1745,
       "sha256_paragraph_sequence": "53a12bd1764f35284c3d1f9db6c6b612568ee297bdf8e1c2603be68cf84426f1"
@@ -1240,8 +1240,8 @@
     {
       "work": "informative",
       "part": 5,
-      "source_paragraph_start": 575,
-      "source_paragraph_end_exclusive": 651,
+      "source_paragraph_start": 581,
+      "source_paragraph_end_exclusive": 657,
       "paragraphs": 76,
       "words": 1785,
       "sha256_paragraph_sequence": "fb8b681c79f05106cbecda5526cc4735d0b22e41b0bf625fac5dd1fe24be96fc"
@@ -1249,8 +1249,8 @@
     {
       "work": "informative",
       "part": 6,
-      "source_paragraph_start": 651,
-      "source_paragraph_end_exclusive": 729,
+      "source_paragraph_start": 657,
+      "source_paragraph_end_exclusive": 735,
       "paragraphs": 78,
       "words": 1798,
       "sha256_paragraph_sequence": "f4ac9ac64db2b98081761146650f4199e490a9eda0264a6e016bb99c5d7412af"
@@ -1258,8 +1258,8 @@
     {
       "work": "informative",
       "part": 7,
-      "source_paragraph_start": 729,
-      "source_paragraph_end_exclusive": 807,
+      "source_paragraph_start": 735,
+      "source_paragraph_end_exclusive": 813,
       "paragraphs": 78,
       "words": 1783,
       "sha256_paragraph_sequence": "92107f91533a1a14b94b5c5585fbc18984dc837d59aac93b8644bcf54946bb27"
@@ -1267,8 +1267,8 @@
     {
       "work": "informative",
       "part": 8,
-      "source_paragraph_start": 807,
-      "source_paragraph_end_exclusive": 903,
+      "source_paragraph_start": 813,
+      "source_paragraph_end_exclusive": 909,
       "paragraphs": 96,
       "words": 1777,
       "sha256_paragraph_sequence": "702e016be4b092dd4ee6a5b21113cdac418794e755f7232edb34c68c24d15c5e"
@@ -1276,8 +1276,8 @@
     {
       "work": "informative",
       "part": 9,
-      "source_paragraph_start": 903,
-      "source_paragraph_end_exclusive": 953,
+      "source_paragraph_start": 909,
+      "source_paragraph_end_exclusive": 959,
       "paragraphs": 50,
       "words": 1770,
       "sha256_paragraph_sequence": "a79ed3a0b2118873c40c650857c0a0c6104c4caae3e9e3dc52cf5bc794acefcb"
@@ -1285,8 +1285,8 @@
     {
       "work": "informative",
       "part": 10,
-      "source_paragraph_start": 953,
-      "source_paragraph_end_exclusive": 1015,
+      "source_paragraph_start": 959,
+      "source_paragraph_end_exclusive": 1021,
       "paragraphs": 62,
       "words": 1752,
       "sha256_paragraph_sequence": "7e74844ccf6fb645c57ce100785aeb8bbe0223e307aab6d5909d62902970b83a"
@@ -1294,8 +1294,8 @@
     {
       "work": "informative",
       "part": 11,
-      "source_paragraph_start": 1015,
-      "source_paragraph_end_exclusive": 1059,
+      "source_paragraph_start": 1021,
+      "source_paragraph_end_exclusive": 1065,
       "paragraphs": 44,
       "words": 1598,
       "sha256_paragraph_sequence": "345d01a87a78f36292d2ddc5deb79debd1925bdf2e753e0300f65a4f898880e4"
@@ -1303,8 +1303,8 @@
     {
       "work": "informative",
       "part": 12,
-      "source_paragraph_start": 1059,
-      "source_paragraph_end_exclusive": 1109,
+      "source_paragraph_start": 1065,
+      "source_paragraph_end_exclusive": 1115,
       "paragraphs": 50,
       "words": 1755,
       "sha256_paragraph_sequence": "a282937549417667fdc5f0fc9cd9a1c8fdbd1561679f71d705a91ccfee41800e"
@@ -1312,8 +1312,8 @@
     {
       "work": "informative",
       "part": 13,
-      "source_paragraph_start": 1109,
-      "source_paragraph_end_exclusive": 1131,
+      "source_paragraph_start": 1115,
+      "source_paragraph_end_exclusive": 1137,
       "paragraphs": 22,
       "words": 1593,
       "sha256_paragraph_sequence": "296a8c8328eaf0239cf681a8e0ad00bd56a5dadac0d825d8f7bab7e3a09696bf"
@@ -1321,8 +1321,8 @@
     {
       "work": "informative",
       "part": 14,
-      "source_paragraph_start": 1131,
-      "source_paragraph_end_exclusive": 1173,
+      "source_paragraph_start": 1137,
+      "source_paragraph_end_exclusive": 1179,
       "paragraphs": 42,
       "words": 1764,
       "sha256_paragraph_sequence": "a702a1f002bd23cbffe18185116a49287aa65c8a69740d7f06274a47912dda45"
@@ -1330,8 +1330,8 @@
     {
       "work": "informative",
       "part": 15,
-      "source_paragraph_start": 1173,
-      "source_paragraph_end_exclusive": 1233,
+      "source_paragraph_start": 1179,
+      "source_paragraph_end_exclusive": 1239,
       "paragraphs": 60,
       "words": 1754,
       "sha256_paragraph_sequence": "b774635174b197bef94d385fba558e406a1cbfb3b735c9c636b7811b6163c62a"
@@ -1339,8 +1339,8 @@
     {
       "work": "informative",
       "part": 16,
-      "source_paragraph_start": 1233,
-      "source_paragraph_end_exclusive": 1260,
+      "source_paragraph_start": 1239,
+      "source_paragraph_end_exclusive": 1266,
       "paragraphs": 27,
       "words": 1063,
       "sha256_paragraph_sequence": "c1dfddcac2c9217e81cd214048a3a69d720bf4e94f4cf6ca192eb44e0acfbc10"

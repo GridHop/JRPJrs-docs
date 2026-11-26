@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 25 of 26 (1,795 words)
+Part 25 of 26 (1,789 words)
+
+The argument against strong functionalism does not depend on the representation/instantiation
+
+framing and is not weakened by the scoping above. It follows from Russellian monism alone:
+
+functional equivalence is specified structurally; intrinsic character is not fixed by structure;
 
 therefore functional duplication does not settle phenomenal identity. This holds whatever the
 
@@ -403,17 +409,3 @@ None of this is a retrieval operation dressed in tensed language. Each arrow in 
 state → radiation state → later radiation state → detector state relates two adjacent stages, and at
 
 every stage only the current state exists. The chain is long; it is nowhere non-local, and at no
-
-point does a photon carry a preserved fragment of the source stage forward as an existing past
-
-object.
-
-
-
-E.3 The Event’s Reality Did Not Depend on Being Observed
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-The independence of the event from its observation is CTGP-consistent: the collapse was a generative

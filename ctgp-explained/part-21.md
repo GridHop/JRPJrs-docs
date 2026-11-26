@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 21 of 26 (1,785 words)
+Part 21 of 26 (1,800 words)
+
+physically meaningful local measure of geometric growth: it equals d(ln √h)/dτ and thus measures the
+
+fractional rate of change of local hypersurface volume along the matter congruence. Rather than
+
+defining ontological growth as dM/dσ — which treats the generated domain as if it were a scalar
+
+quantity — CTGP uses the foliation expansion to characterize growth. The change of θ is governed by
 
 Proposition 17.6; it is constrained directly by matter content through the Einstein equations.
 
@@ -299,21 +307,3 @@ Theorem 17.4 then applies to that region, and the same argument with time revers
 
 
 ----------------------------------------------------------------------------------------------------
-
-References
-
-----------------------------------------------------------------------------------------------------
-
-
-
-Andersson, L., Galloway, G. J., & Howard, R. (1998). The cosmological time function. Classical and
-
-    Quantum Gravity, 15, 309–322.
-
-
-
-Arkani-Hamed, N., Cheng, H.-C., Luty, M. A., & Mukohyama, S. (2004). Ghost condensation and a
-
-    consistent infrared modification of gravity. Journal of High Energy Physics, 2004(05), 074.
-
-

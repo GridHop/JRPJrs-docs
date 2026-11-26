@@ -1,6 +1,14 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 13 of 26 (1,792 words)
+Part 13 of 26 (1,787 words)
+
+The earliest regime of the universe is governed by the minimal generative structure described in
+
+Postulate 5: the σ-field constraint and its associated causal ordering. Classical spacetime — as a
+
+smooth Lorentzian manifold — may not yet exist during this epoch. Light cones and metric structure
+
+may be only approximate or emergent quantities, becoming valid only after sufficient decoherence and
 
 coarse-graining. GR is therefore best interpreted as the low-energy effective limit of CTGP’s deeper
 
@@ -331,23 +339,3 @@ structure, geometry, and eventually matter-energy descriptions emerge. In the em
 regime, σ is represented by cosmological time and its relabelings, satisfying ∇_μσ ∇^μσ = −f(σ). The
 
 generation law may depend on σ but not on local matter content (§§6.11, 11). The logical order
-
-remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
-
-representative of σ.
-
-
-
-Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
-
-fundamental entities in CTGP is:
-
-
-
-    Present at the pre-geometric level: generative ordering parameter σ; causal relation structure
-
-    C; minimal generative laws governing lawful succession.
-
-
-
-    Absent at the pre-geometric level: metric; manifold; coordinates; light cones; proper time;

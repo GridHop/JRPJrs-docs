@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 11 of 26 (1,795 words)
+Part 11 of 26 (1,785 words)
 
 contact; or sameness of rate, since systems undergoing radically different physical processes are
 
@@ -106,11 +106,15 @@ still distinguishes Σ_σ from Σ_{σ+dσ} as a progression in cosmological gene
 
 the advancing present is not conditional on possessing a changing state variable: under Postulate 2,
 
-persisting at all is being generated at successive stages, and an unchanging configuration is one in
+a persisting system continues through the gapless generation of its successive states. What is
 
-which successive stages produce qualitatively identical states rather than one exempt from
+generated at each stage is the system's state, not the system anew: the system is not rebuilt
 
-generation.
+(§5.2.2), but neither is it exempt from generation. An unchanging configuration is accordingly one
+
+whose successively generated states are qualitatively identical, not one standing outside the
+
+succession.
 
 
 
@@ -176,17 +180,17 @@ of it. Take the totality of those transitions — one per system, across the who
 
 totality is the cosmic present. Σ_σ is not a surface selected from among many and then declared
 
-privileged; it is the collection of everything currently being generated. Once the generative
+privileged; it is the present state of the universe as a whole, the single state currently being
 
-ontology is adopted, the universe-wide present is therefore not an additional structure appended to
+generated. Once the generative ontology is adopted, the universe-wide present is therefore not an
 
-the physical dynamics; it is constituted by the totality of physically ongoing state transitions.
+additional structure appended to the physical dynamics; it is constituted by the totality of
 
-The posit is the generative ontology itself, not a privileged surface added on top of it. A system
+physically ongoing state transitions. The posit is the generative ontology itself, not a privileged
 
-undergoing no change is included on the same terms, its transition being to a qualitatively
+surface added on top of it. A system undergoing no change is included on the same terms, its
 
-identical state (§9.4.1).
+transition being to a qualitatively identical state (§9.4.1).
 
 
 
@@ -267,9 +271,3 @@ This also disposes of a question sometimes raised as though it bore on the matte
 physics exhibits any non-abstract existence that is absolutely unchanged from one instant to the
 
 next, and whether such absolute stasis has been shown impossible. Neither has been established, and
-
-neither needs to be. An absence of known examples together with an absence of a proof of
-
-impossibility is evidentially neutral and supports nothing. Under CTGP the question does not arise
-
-in the first place, for the reason given in §9.4.1: persisting is being generated. An unchanging

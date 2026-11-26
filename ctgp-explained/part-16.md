@@ -1,6 +1,16 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 16 of 26 (1,787 words)
+Part 16 of 26 (1,790 words)
+
+only the present exists, the laws that govern generation are not an additional resource standing
+
+alongside the present; they obtain in it. The initial-value formalism separates a mathematical
+
+specification of the state from the equations applied to it, but that separation is a feature of the
+
+formalism, not a second ontological ingredient. What generability excludes is dependence on an
+
+independently existing future, not indeterminacy. The reading carries a commitment: laws must be
 
 grounded in the present rather than supervening on the whole spacetime mosaic, as Humean accounts of
 
@@ -325,13 +335,3 @@ Objection O1 (Relativity of simultaneity): Presentism requires a global present,
 absolute simultaneity.
 
 
-
-Reply: CTGP does not require an operationally absolute simultaneity relation between arbitrary
-
-spacelike-separated events. It requires a foliation adequate for cosmology and compatible with GR's
-
-initial-value structure. Cosmological time provides a physically grounded, non-absolute global
-
-'now', which on large scales is the rest frame of the CMB — not a kinematic absolute but a physical
-
-fact about our universe. The metaphysical claim concerns the ontological structure of M(σ), defined

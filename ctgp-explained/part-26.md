@@ -1,6 +1,20 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 26 of 26 (1,412 words)
+Part 26 of 26 (1,456 words)
+
+point does a photon carry a preserved fragment of the source stage forward as an existing past
+
+object.
+
+
+
+E.3 The Event’s Reality Did Not Depend on Being Observed
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+The independence of the event from its observation is CTGP-consistent: the collapse was a generative
 
 stage of M(σ), not a fact constituted at detection. The messenger structure is the reason. Two
 

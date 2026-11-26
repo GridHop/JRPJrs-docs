@@ -1,6 +1,12 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 23 of 26 (1,790 words)
+Part 23 of 26 (1,789 words)
+
+here. The first is well-definedness. Cosmological time is defined as a supremum over all
+
+past-directed causal curves, not by integration along a chosen congruence, so no path-independence
+
+condition is required: τ(p) is well defined whenever it is finite. Its level sets are future Cauchy
 
 surfaces when τ is regular (Theorem 17.4). A rotating cosmology such as Gödel’s dust solution admits
 
@@ -355,9 +361,3 @@ state is the one being experienced rather than another or all of them at once. P
 for a selection mechanism, the question has a ready eternalist answer: nothing selects, each state
 
 is experienced at its own location, and “now” is indexical. The question that remains is sharper.
-
-Assigning experiences to temporal parts establishes that each part has its experience; it is less
-
-clear that it accounts for the diachronic fact of being an experiencer whose experience is actually
-
-going on, rather than redescribing that fact in four-dimensional terms. CTGP answers with an
