@@ -1,6 +1,6 @@
 # More Info
 
-Part 03 of 5 (1,787 words)
+Part 03 of 5 (1,789 words)
 
 than configurational. A snapshot of a person at 10:00 and another at 20:00 can be different physical
 
@@ -19,6 +19,22 @@ formulation is:
     Personal identity consists in the continuity of one’s own mind as an ongoing causal and
 
     psychological process, rather than in the persistence of any particular material configuration.
+
+
+
+Here the mind is physically dependent on the brain: a person’s mind consists of their brain’s
+
+changing physical configurations and activities, which result in thinking, imagining, evaluating,
+
+and other mental occurrences. The mind is therefore an ongoing process that belongs to the person
+
+rather than something separate from the person, and its continuity does not require uninterrupted
+
+activity. When brain activity falls silent, as in the cases discussed in section 22, the person
+
+persists through the brain’s organized physical structure, and later mental activity is causally
+
+continuous with earlier activity through that structure.
 
 
 
@@ -339,21 +355,5 @@ of Theseus at once.
 23. Is the criterion discovered or chosen?
 
 ----------------------------------------------------------------------------------------------------
-
-
-
-Ordinarily, “we do not know whether X” means that there is a determinate fact not yet discovered.
-
-With concepts such as numerical identity, it is possible instead that several coherent criteria give
-
-different answers, and that no further physical measurement could decide between them, because the
-
-measurement does not determine which criterion should govern the term. The 2006 decision of the
-
-International Astronomical Union that reclassified Pluto as a dwarf planet illustrates the
-
-structure, though imperfectly, since “planet” is a classificatory term while personal identity
-
-carries great metaphysical and practical weight.
 
 

@@ -1,3 +1,5 @@
+Take light emitted by a distant star and subsequently detected here. The detector interacts with the electromagnetic field physically available at the detection event. The star’s earlier emission is causally relevant, but that doesn’t establish that the detector directly interacts with the star as it was at the earlier stage. In the standard description, the field mediates the relationship. The detector doesn’t need the star’s earlier configuration to exist alongside it for the detection to occur.
+
 This also matters for what I mean by signals being made available, received, and/or acted upon. Making a signal available doesn’t automatically mean interacting with some particular future recipient, and receiving one doesn’t automatically mean directly interacting with its original source. Those are physical activities involving signals, but whether two specified entities directly interact is a further question. Requiring all three activities, or allowing any one of them, doesn’t change that distinction.
 
 In standard local relativistic quantum field theory, the locality of interactions is part of the mathematical structure. Interaction terms are built from fields and, where applicable, their derivatives evaluated at the same spacetime point. A simple example is:
@@ -54,7 +56,7 @@ In short: Relativity permits different elapsed local times; CTGP interprets the 
 
 Agency survives under determinism because the relevant issue is not exemption from causation but whether action flows through the organism’s internally integrated evaluative architecture. Randomness alone does not generate authorship. Higher-level causation is able to be real in a block. Hurricane analogy and interventionist account of causation do not require an open future. A block contains organizational structures (hurricanes, brains, evaluative architectures) as real patterns. Interventions at the level of intentions reliably change behavior; that counterfactual structure is available in a block as relations among possible histories. In a block, the agent did not create its own architecture ex nihilo; it performs the relevant computation, evaluation, prediction, and behavioral integration at its own time. Predictive processing does not require an unsettled future. In a block, the brain’s forward models are present-state structures that bias subsequent processing. Those models and their alignment with outcomes are part of the fixed history. The organism is not “predicting a future that could be otherwise”; it is generating anticipatory states that causally guide behavior. The felt sense of control arises when predictions and outcomes align, whether the block is deterministic or stochastic. “Decisions unfold only in the present moment” is indexical, not ontological. Each decision event is present to the agent at its own time. A block can say that. Accountability is grounded in the agent’s evaluative architecture, responsiveness to reasons, and causal role in shaping outcomes. That makes accountability compatible with a block. Justification shifts from libertarian desert to causal agency, answerability, responsiveness to reasons, and forward-looking social practices.
 
-Things can sometimes be identified at the macroscopic level by their organization, continuity, or identity-defining characteristics, rather than by every individual constituent at lower scales. This means they don’t necessarily need to retain every single characteristic to remain the same entity.
+Things can sometimes be identified at the macroscopic level by their organization, continuity, or identity-defining characteristics, rather than by every individual constituent at lower scales. This means they don’t necessarily need to retain every single characteristic to remain what they are.
 
 Therefore, a thing can remain what it is as long as the characteristics essential to its continued identity are preserved, but that doesn’t mean the thing hasn’t changed in other respects.
 
@@ -62,15 +64,11 @@ For example, a hurricane can be understood as a persisting macroscopic pattern o
 
 Likewise, an organism can remain the same individual while undergoing physical changes.
 
-So I’d distinguish an entity remaining numerically the same from remaining qualitatively unchanged. An entity doesn’t necessarily need to retain every characteristic to remain itself; only whatever conditions are necessary for its continued identity.
+So I’d distinguish something remaining numerically the same from remaining qualitatively unchanged. Something doesn’t necessarily need to retain every characteristic to remain itself; only whatever conditions are necessary for its continued identity.
 
 Regarding the philosophical distinction between essential and nonessential properties, some properties may be necessary for an entity to remain what it is, while others can change without terminating its identity.
 
 For example, a human can change height, location, age, and cellular composition without necessarily ceasing to be the same individual.
 
 However, I’d distinguish the properties necessary for being a particular kind of entity from the conditions necessary for remaining the same individual. Those conditions may also involve causal or historical continuity, rather than just an unchanging set of properties.
-
-So I’m not claiming that every entity necessarily has a universally agreed-upon division of properties. I’m saying that changing a property doesn’t automatically entail losing numerical identity.
-
-Can a physical theory in principle derive a definite underlying event history while allowing some effective quantum operations to lack a definite order or allowing operational descriptions that assign no single classical ordering to those operations?
 

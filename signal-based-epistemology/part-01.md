@@ -1,6 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 01 of 10 (1,797 words)
+Part 01 of 10 (1,788 words)
 
 A SIGNAL-BASED EPISTEMOLOGY
 
@@ -52,9 +52,7 @@ process grounded in present neural states, and internal mental phenomena—such 
 
 desires, and emotions—are accessed through signal-mediated processes that involve both
 
-interpretation and active generation, rather than direct observation of fully formed internal
-
-objects.
+interpretation and active generation, rather than direct observation.
 
 
 
@@ -178,7 +176,7 @@ Second, it entails that access to the past is indirect, limited to present-day t
 
 rather than preserved, co-existing records. Third, it establishes that internal mental states—
 
-whether one's own or another's—are not directly observable as fully independent entities, but are
+whether one's own or another's—are not directly observable, but are
 
 accessed through signal-mediated processes involving both interpretation and active generation.
 

@@ -7,16 +7,16 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 ## Signal-Based Epistemology — Explained
 - [Contents](signal-based-epistemology/index.html) — 10 parts
 
-- [Part 01 HTML](signal-based-epistemology/part-01.html) · [Markdown](signal-based-epistemology/part-01.md) — 1,797 words
+- [Part 01 HTML](signal-based-epistemology/part-01.html) · [Markdown](signal-based-epistemology/part-01.md) — 1,788 words
 - [Part 02 HTML](signal-based-epistemology/part-02.html) · [Markdown](signal-based-epistemology/part-02.md) — 1,793 words
 - [Part 03 HTML](signal-based-epistemology/part-03.html) · [Markdown](signal-based-epistemology/part-03.md) — 1,798 words
-- [Part 04 HTML](signal-based-epistemology/part-04.html) · [Markdown](signal-based-epistemology/part-04.md) — 1,800 words
-- [Part 05 HTML](signal-based-epistemology/part-05.html) · [Markdown](signal-based-epistemology/part-05.md) — 1,800 words
-- [Part 06 HTML](signal-based-epistemology/part-06.html) · [Markdown](signal-based-epistemology/part-06.md) — 1,788 words
-- [Part 07 HTML](signal-based-epistemology/part-07.html) · [Markdown](signal-based-epistemology/part-07.md) — 1,798 words
-- [Part 08 HTML](signal-based-epistemology/part-08.html) · [Markdown](signal-based-epistemology/part-08.md) — 1,800 words
-- [Part 09 HTML](signal-based-epistemology/part-09.html) · [Markdown](signal-based-epistemology/part-09.md) — 1,795 words
-- [Part 10 HTML](signal-based-epistemology/part-10.html) · [Markdown](signal-based-epistemology/part-10.md) — 1,106 words
+- [Part 04 HTML](signal-based-epistemology/part-04.html) · [Markdown](signal-based-epistemology/part-04.md) — 1,796 words
+- [Part 05 HTML](signal-based-epistemology/part-05.html) · [Markdown](signal-based-epistemology/part-05.md) — 1,797 words
+- [Part 06 HTML](signal-based-epistemology/part-06.html) · [Markdown](signal-based-epistemology/part-06.md) — 1,797 words
+- [Part 07 HTML](signal-based-epistemology/part-07.html) · [Markdown](signal-based-epistemology/part-07.md) — 1,793 words
+- [Part 08 HTML](signal-based-epistemology/part-08.html) · [Markdown](signal-based-epistemology/part-08.md) — 1,795 words
+- [Part 09 HTML](signal-based-epistemology/part-09.html) · [Markdown](signal-based-epistemology/part-09.md) — 1,792 words
+- [Part 10 HTML](signal-based-epistemology/part-10.html) · [Markdown](signal-based-epistemology/part-10.md) — 1,217 words
 
 ## Cosmic-Time Generative Presentism (CTGP) — Explained
 - [Contents](ctgp-explained/index.html) — 26 parts
@@ -34,7 +34,7 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 - [Part 11 HTML](ctgp-explained/part-11.html) · [Markdown](ctgp-explained/part-11.md) — 1,785 words
 - [Part 12 HTML](ctgp-explained/part-12.html) · [Markdown](ctgp-explained/part-12.md) — 1,798 words
 - [Part 13 HTML](ctgp-explained/part-13.html) · [Markdown](ctgp-explained/part-13.md) — 1,787 words
-- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,799 words
+- [Part 14 HTML](ctgp-explained/part-14.html) · [Markdown](ctgp-explained/part-14.md) — 1,800 words
 - [Part 15 HTML](ctgp-explained/part-15.html) · [Markdown](ctgp-explained/part-15.md) — 1,787 words
 - [Part 16 HTML](ctgp-explained/part-16.html) · [Markdown](ctgp-explained/part-16.md) — 1,790 words
 - [Part 17 HTML](ctgp-explained/part-17.html) · [Markdown](ctgp-explained/part-17.md) — 1,800 words
@@ -60,7 +60,7 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 
 - [Part 01 HTML](info/part-01.html) · [Markdown](info/part-01.md) — 1,792 words
 - [Part 02 HTML](info/part-02.html) · [Markdown](info/part-02.md) — 1,798 words
-- [Part 03 HTML](info/part-03.html) · [Markdown](info/part-03.md) — 1,795 words
+- [Part 03 HTML](info/part-03.html) · [Markdown](info/part-03.md) — 1,794 words
 - [Part 04 HTML](info/part-04.html) · [Markdown](info/part-04.md) — 1,799 words
 - [Part 05 HTML](info/part-05.html) · [Markdown](info/part-05.md) — 1,800 words
 - [Part 06 HTML](info/part-06.html) · [Markdown](info/part-06.md) — 1,799 words
@@ -87,9 +87,9 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 
 - [Part 01 HTML](more-info/part-01.html) · [Markdown](more-info/part-01.md) — 1,785 words
 - [Part 02 HTML](more-info/part-02.html) · [Markdown](more-info/part-02.md) — 1,788 words
-- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,787 words
-- [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,794 words
-- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 858 words
+- [Part 03 HTML](more-info/part-03.html) · [Markdown](more-info/part-03.md) — 1,789 words
+- [Part 04 HTML](more-info/part-04.html) · [Markdown](more-info/part-04.md) — 1,789 words
+- [Part 05 HTML](more-info/part-05.html) · [Markdown](more-info/part-05.md) — 954 words
 
 ## Deal's Worth
 - [Contents](deals-worth/index.html) — 21 parts
@@ -161,15 +161,15 @@ Eight works. Each reading page has an HTML and a Markdown version. Part boundari
 
 - [Part 01 HTML](informative/part-01.html) · [Markdown](informative/part-01.md) — 1,714 words
 - [Part 02 HTML](informative/part-02.html) · [Markdown](informative/part-02.md) — 1,774 words
-- [Part 03 HTML](informative/part-03.html) · [Markdown](informative/part-03.md) — 1,800 words
-- [Part 04 HTML](informative/part-04.html) · [Markdown](informative/part-04.md) — 1,745 words
-- [Part 05 HTML](informative/part-05.html) · [Markdown](informative/part-05.md) — 1,785 words
-- [Part 06 HTML](informative/part-06.html) · [Markdown](informative/part-06.md) — 1,798 words
-- [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,783 words
-- [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,777 words
-- [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,770 words
-- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,752 words
-- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,598 words
+- [Part 03 HTML](informative/part-03.html) · [Markdown](informative/part-03.md) — 1,797 words
+- [Part 04 HTML](informative/part-04.html) · [Markdown](informative/part-04.md) — 1,751 words
+- [Part 05 HTML](informative/part-05.html) · [Markdown](informative/part-05.md) — 1,796 words
+- [Part 06 HTML](informative/part-06.html) · [Markdown](informative/part-06.md) — 1,785 words
+- [Part 07 HTML](informative/part-07.html) · [Markdown](informative/part-07.md) — 1,769 words
+- [Part 08 HTML](informative/part-08.html) · [Markdown](informative/part-08.md) — 1,791 words
+- [Part 09 HTML](informative/part-09.html) · [Markdown](informative/part-09.md) — 1,725 words
+- [Part 10 HTML](informative/part-10.html) · [Markdown](informative/part-10.md) — 1,781 words
+- [Part 11 HTML](informative/part-11.html) · [Markdown](informative/part-11.md) — 1,696 words
 - [Part 12 HTML](informative/part-12.html) · [Markdown](informative/part-12.md) — 1,755 words
 - [Part 13 HTML](informative/part-13.html) · [Markdown](informative/part-13.md) — 1,593 words
 - [Part 14 HTML](informative/part-14.html) · [Markdown](informative/part-14.md) — 1,764 words

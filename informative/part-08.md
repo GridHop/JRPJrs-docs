@@ -1,3 +1,5 @@
+This is closely related to a result by Vilasini and Renner, published in Physical Review Letters in 2024. They showed, under their assumptions about relativistic causality and realizations in classical background spacetime, that indefinite-order processes require systems that are not localized in spacetime in the ordinary way. They also showed that such realizations admit a finer-grained description with a definite, acyclic causal order.
+That is a substantial result. It means an operationally indefinite ordering of two effective operations can coexist with a definite causal ordering of the finer-grained spacetime interactions.
 The distinction isn’t merely philosophical wordplay. The effective operation A may be associated with different spacetime regions in different branches of the quantum process. Treating A as one operation localized at one fixed spacetime event would then be misleading.
 Oreshkov’s 2019 work on time-delocalized quantum subsystems and operations develops precisely this sort of idea. Paunković and Vojinović, in their 2020 paper on causal orders, quantum circuits and spacetime, discuss why it matters when interpreting experimental claims about indefinite causal order.
 The important point is that we have to specify what the supposed ordering relation is between.
@@ -91,6 +93,3 @@ Even a successful future experiment would need careful interpretation. One would
 And the mathematical expression
 α|g₁⟩ + β|g₂⟩
 is only schematic. In a full quantum-gravity theory, identifying physical geometries, defining observables, and comparing events across different geometrical configurations are themselves nontrivial problems.
-This brings us back to the question about time itself.
-One possibility is that indefinite operational causal order reflects something genuinely fundamental. Perhaps there is no deeper fact specifying which of two operations came first, because the physical theory simply does not contain such a fact.
-If that turned out to be correct at the level of fundamental spacetime structure, it would challenge the idea that every physical event belongs to one universally definite causal ordering.

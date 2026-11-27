@@ -1,6 +1,22 @@
 # More Info
 
-Part 04 of 5 (1,794 words)
+Part 04 of 5 (1,789 words)
+
+Ordinarily, “we do not know whether X” means that there is a determinate fact not yet discovered.
+
+With concepts such as numerical identity, it is possible instead that several coherent criteria give
+
+different answers, and that no further physical measurement could decide between them, because the
+
+measurement does not determine which criterion should govern the term. The 2006 decision of the
+
+International Astronomical Union that reclassified Pluto as a dwarf planet illustrates the
+
+structure, though imperfectly, since “planet” is a classificatory term while personal identity
+
+carries great metaphysical and practical weight.
+
+
 
 Physics may one day tell us with great precision that process X occurred. That does not by itself
 
@@ -371,23 +387,3 @@ remembering, or deciding without the universe as a whole having those experience
 decisions. Those properties belong to the particular organized system that instantiates them. “We
 
 are the universe experiencing itself” can work as poetry, but as a literal metaphysical claim it is
-
-much weaker. The precise statement is that persons are portions of the universe organized in ways
-
-that permit experience. The universe need not be an experiencing agent for some of its constituents
-
-to be experiencing agents.
-
-
-
-Causal participation is likewise bounded. Human actions genuinely affect later physical states, but
-
-human influence is local and limited; participating in the universe’s causal history is not
-
-controlling it. The observer is not outside reality looking in, but neither is the universe thereby
-
-an observer. When a person dies, the larger system continues while one organized process within it
-
-ends.
-
-

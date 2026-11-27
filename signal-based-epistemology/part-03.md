@@ -172,7 +172,7 @@ This leads to a key principle:
 
 
 
-> Internal states are not directly observed as fully independent entities--- they are accessed
+> Internal states are not directly observed--- they are accessed
 
 through signal-mediated processes that involve both interpretation and active generation.
 
@@ -180,9 +180,9 @@ through signal-mediated processes that involve both interpretation and active ge
 
 Even in first-person experience, what one calls an "intention" or "feeling" is the result of
 
-interpreting internal signals (neural activity, bodily states, cognitive patterns), not accessing a
+interpreting internal signals (neural activity, bodily states, cognitive patterns), not of direct
 
-separate, directly observable object.
+observation.
 
 
 
@@ -274,7 +274,7 @@ inferential processes applied to different interpretations.
 
 There is no known mechanism—biological or technological—that can directly access internal mental
 
-states as objective, self-contained entities independent of interpretation.
+states independent of interpretation.
 
 
 
@@ -390,9 +390,9 @@ Third-person access is indirect and inferential
 
 
 
-The immediacy of first-person experience arises not from access to a fully transparent internal
+The immediacy of first-person experience arises not from fully transparent access to internal
 
-object, but from the fact that the system is directly involved in the generation and ongoing
+states, but from the fact that the system is directly involved in the generation and ongoing
 
 activity of the signals it interprets. In this sense, first-person awareness is not a detached
 
@@ -594,7 +594,7 @@ From this analysis, several implications follow:
 
    first-person cognition, access involves both interpretation of signals and active participation
 
-   in their generation. Thus, while internal states are not accessed as fully independent objects,
+   in their generation. Thus, while internal states are not directly accessed,
 
    they are not merely inferred in the same way as external states --- they are co-constructed
 
@@ -749,5 +749,13 @@ playback—it is reconstruction.
 
 
 When a memory is retrieved:
+
+
+
+1.  Relevant neural networks are reactivated
+
+
+
+2.  Partial information is assembled into a coherent experience
 
 

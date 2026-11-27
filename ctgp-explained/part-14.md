@@ -1,6 +1,6 @@
 # Cosmic-Time Generative Presentism (CTGP) — Explained
 
-Part 14 of 26 (1,799 words)
+Part 14 of 26 (1,800 words)
 
 remains: σ (primitive) → causal structure → emergent geometry → cosmological time as the continuum
 
@@ -10,7 +10,7 @@ representative of σ.
 
 Pre-Geometric Minimal Ontology. Before classical geometry emerges, the complete inventory of
 
-fundamental entities in CTGP is:
+what is fundamental in CTGP is:
 
 
 

@@ -1,3 +1,17 @@
+persistence of organization ≠ persistence of information ≠ persistence of experience
+
+An organized system may persist while its constituent materials change.
+
+Information may survive the destruction of its original encoding if another encoding exists.
+
+An experience may cease even though information describing it remains available.
+
+These distinctions become especially important in hypothetical cases involving copying, reconstruction, and consciousness.
+
+20. Duplication: information is not numerical identity
+
+Imagine producing a second human with the original person’s relevant brain structure, memories, personality, and cognitive dispositions.
+
 The duplicate sincerely believes it has lived the original person’s life.
 
 Nevertheless, the two are physically distinct individuals after duplication.
@@ -191,6 +205,4 @@ With “interaction” meaning signals being made available, received, and/or ac
 When it comes to experimentally established physics and mathematical descriptions that successfully account for observations, no direct physical interaction between entities as instantiated in distinct whole-universe states has been demonstrated, established, and/or required by the evidence. That doesn’t mean such interaction has been proved impossible under every conceivable physical theory. There’s an important difference between what established physics describes, what a particular theory excludes by construction, and what we can conclude about the universe itself.
 
 I think the first thing to distinguish is physical interaction from causal connection. By direct physical interaction, I mean a physical coupling between specified entities, rather than merely a causal relationship established through intermediate physical carriers or processes. I’m not assuming in advance that direct coupling must occur at a single spacetime event, because that would partly settle the question by definition.
-
-Take light emitted by a distant star and subsequently detected here. The detector interacts with the electromagnetic field physically available at the detection event. The star’s earlier emission is causally relevant, but that doesn’t establish that the detector directly interacts with the star as it was at the earlier stage. In the standard description, the field mediates the relationship. The detector doesn’t need the star’s earlier configuration to exist alongside it for the detection to occur.
 

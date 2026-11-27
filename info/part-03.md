@@ -1,6 +1,6 @@
 # Info
 
-Part 03 of 23 (1,795 words)
+Part 03 of 23 (1,794 words)
 
 • Omit or alter details,
 
@@ -414,7 +414,7 @@ and functional capabilities. Each ai program is equipped with its own machine le
 
 learning implementations, allowing for individualized development. Every interaction between these
 
-ai programs and the simulation-universe program serves as a data source for both entities. The data
+ai programs and the simulation-universe program serves as a data source for both. The data
 
 combinations vary with each distinct interaction, creating unique experiential inputs for the ai
 

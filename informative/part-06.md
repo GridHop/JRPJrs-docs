@@ -1,3 +1,7 @@
+So I’m not claiming that every entity necessarily has a universally agreed-upon division of properties. I’m saying that changing a property doesn’t automatically entail losing numerical identity.
+
+Can a physical theory in principle derive a definite underlying event history while allowing some effective quantum operations to lack a definite order or allowing operational descriptions that assign no single classical ordering to those operations?
+
 Yes, in principle, in suitable theoretical settings. A definite underlying event history and an indefinite operational causal order are not necessarily contradictory. The crucial distinction is between the physical events that actually occur and the effective quantum operations used to describe an experiment.
 In nonrelativistic settings, single-outcome theories such as Bohmian mechanics and GRW-type collapse theories already derive definite trajectories or events from their dynamics while retaining quantum interference (section 3). However, these examples do not, by themselves, establish a complete relativistic theory deriving a single realized history for all operational indefinite-causal-order phenomena.
 1. What indefinite causal order (ICO) experiments establish
@@ -67,12 +71,3 @@ So the experiments rule out an ordinary classical mixture of definite operation 
 The standard example is the quantum switch. Imagine two quantum operations, A and B, acting on a target system initially in state |ψ⟩. A control qubit determines which operation comes first. If the control is |0⟩, A acts first and B second, giving BA|ψ⟩. If the control is |1⟩, B acts first and A second, giving AB|ψ⟩. The notation is right-to-left because the rightmost operator acts first.
 If the control is prepared in a superposition, (|0⟩ + |1⟩)/√2, the combined output is
 (|0⟩ ⊗ BA|ψ⟩ + |1⟩ ⊗ AB|ψ⟩)/√2.
-The important thing is that this is a coherent superposition, not merely a situation where the experimenter doesn’t know which setting was chosen.
-Now measure the control in the basis
-|±⟩ = (|0⟩ ± |1⟩)/√2.
-The probabilities are
-P(±) = ½[1 ± Re⟨BAψ|ABψ⟩].
-That inner product measures the interference between the two possible orderings.
-For a particularly simple example, choose A = X and B = Z, the Pauli matrices. They anticommute:
-XZ = −ZX.
-Consequently,

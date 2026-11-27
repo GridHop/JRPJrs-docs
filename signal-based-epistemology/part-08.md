@@ -1,10 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 08 of 10 (1,800 words)
-
-Thus, the framework maintains a form of epistemically constrained realism:
-
-
+Part 08 of 10 (1,795 words)
 
 • Reality is objective and exists independently of observation
 
@@ -612,7 +608,7 @@ Third, the examination of internal cognition demonstrates that even mental state
 
 indirectly. Intentions, desires, and emotions—whether one's own or another's—are not directly
 
-observable entities, but are inferred from patterns of internal and external signals.
+observable, but are inferred from patterns of internal and external signals.
 
 
 
@@ -706,7 +702,7 @@ means to know—and what may remain forever beyond knowing.
 
 —----------------------------------------------------------------------------------------------—
 
-Appendix A. Abstract Objects, Sensory Access, and Ontological Status
+Appendix A. Abstractions, Sensory Access, and Ontological Status
 
 —----------------------------------------------------------------------------------------------—
 
@@ -756,7 +752,7 @@ This process requires that the object being tasted:
 
 
 
-Abstract entities—such as numbers, emotions (as concepts), or linguistic meanings—do not
+Abstractions—such as numbers, emotions (as concepts), or linguistic meanings—do not
 
 possess:
 
@@ -778,7 +774,7 @@ Therefore:
 
 
 
-> Abstract entities cannot be tasted because they lack the physical attributes required to generate
+> Abstractions cannot be tasted because they lack the physical attributes required to generate
 
 taste-related signals.
 
@@ -788,7 +784,7 @@ This is not a limitation of human biology alone; it reflects a deeper principle:
 
 
 
-> Sensory modalities require specific types of physical interaction, and only entities with
+> Sensory modalities require specific types of physical interaction, and only what has
 
 corresponding physical properties can be detected through them.
 
@@ -816,15 +812,29 @@ To avoid confusion, it is important to distinguish between:
 
 
 
-• Abstract entities: concepts, meanings, relations, or informational structures
+• Abstractions: concepts, meanings, relations, or informational structures
 
 
 
-• Physical entities: objects or processes with material or energetic properties
+• Physical existences: objects or processes with material or energetic properties
 
 
 
-Abstract entities:
+In this framework, "entity" refers only to non-abstract existences; abstractions are real as
+
+informational or relational structures but are not entities. Processes are not entities either,
+
+but any existence that or who can intentionally do something is an entity. An existence need not
+
+be able to do so to be an entity; a rock, for example, is one.
+
+An entity can include processes without being one; a person, for example, includes their mind, the
+
+ongoing activity of their brain.
+
+
+
+Abstractions:
 
 
 
@@ -833,53 +843,5 @@ Abstract entities:
 
 
 • Do not have mass, charge, or chemical composition
-
-
-
-• Do not directly interact with sensory systems
-
-
-
-Physical entities:
-
-
-
-• Exist within spacetime
-
-
-
-• Interact through physical forces
-
-
-
-• Produce detectable signals
-
-
-
-This yields a foundational distinction:
-
-
-
-> Abstract entities do not produce signals directly; only their physical instantiations or
-
-representations do.
-
-
-
-A.3 Emotions: Abstract or Physical?
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-Emotions require careful analysis because they appear both experiential and biological.
-
-
-
-We can distinguish two levels:
-
-
-
-(1) Physical Processes
 
 

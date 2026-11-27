@@ -1,14 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 04 of 10 (1,800 words)
-
-1.  Relevant neural networks are reactivated
-
-
-
-2.  Partial information is assembled into a coherent experience
-
-
+Part 04 of 10 (1,796 words)
 
 3.  The reconstructed memory is then re-encoded, potentially with modifications
 
@@ -879,5 +871,9 @@ that realize it.
 Biological properties—such as metabolism, growth, and (arguably) consciousness—are often
 
 described as emergent, arising from complex interactions within a physical system.
+
+
+
+In contrast, digital systems produce representations of such processes. These representations:
 
 

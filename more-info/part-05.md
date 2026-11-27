@@ -1,6 +1,26 @@
 # More Info
 
-Part 05 of 5 (858 words)
+Part 05 of 5 (954 words)
+
+much weaker. The precise statement is that persons are portions of the universe organized in ways
+
+that permit experience. The universe need not be an experiencing agent for some of its constituents
+
+to be experiencing agents.
+
+
+
+Causal participation is likewise bounded. Human actions genuinely affect later physical states, but
+
+human influence is local and limited; participating in the universe’s causal history is not
+
+controlling it. The observer is not outside reality looking in, but neither is the universe thereby
+
+an observer. When a person dies, the larger system continues while one organized process within it
+
+ends.
+
+
 
     A teapot is not the house merely because it is made of the house’s contents and exists entirely
 

@@ -1,3 +1,12 @@
+The important thing is that this is a coherent superposition, not merely a situation where the experimenter doesn’t know which setting was chosen.
+Now measure the control in the basis
+|±⟩ = (|0⟩ ± |1⟩)/√2.
+The probabilities are
+P(±) = ½[1 ± Re⟨BAψ|ABψ⟩].
+That inner product measures the interference between the two possible orderings.
+For a particularly simple example, choose A = X and B = Z, the Pauli matrices. They anticommute:
+XZ = −ZX.
+Consequently,
 ⟨BAψ|ABψ⟩ = −1,
 and therefore
 P(−) = 1, P(+) = 0.
@@ -74,5 +83,3 @@ with
 t₁ < t₂.
 The coherent quantum process doesn’t simply choose one route randomly. Both alternatives contribute to the quantum state, and their relative phase can affect measurement probabilities.
 Nevertheless, the individual time-localized interactions can be described within an ordinary spacetime causal structure.
-This is closely related to a result by Vilasini and Renner, published in Physical Review Letters in 2024. They showed, under their assumptions about relativistic causality and realizations in classical background spacetime, that indefinite-order processes require systems that are not localized in spacetime in the ordinary way. They also showed that such realizations admit a finer-grained description with a definite, acyclic causal order.
-That is a substantial result. It means an operationally indefinite ordering of two effective operations can coexist with a definite causal ordering of the finer-grained spacetime interactions.

@@ -1,6 +1,46 @@
 # Signal-Based Epistemology — Explained
 
-Part 10 of 10 (1,106 words)
+Part 10 of 10 (1,217 words)
+
+    External stimuli (e.g., threats, rewards, social cues, memories, imagined possibilities)
+
+    constrain emotional responses but do not contain emotions themselves.
+
+
+
+    Rather:
+
+
+
+    Emotional states arise when the system evaluates signals under frameworks of significance, such
+
+    as danger, loss, gain, opportunity, attachment, violation, or uncertainty.
+
+
+
+    This evaluative processing may be:
+
+
+
+    conscious or subconscious,
+
+
+
+    rapid or extended,
+
+
+
+    deliberate or instinctive,
+
+
+
+    verbal or nonverbal.
+
+
+
+    Thus:
+
+
 
     The immediacy of emotional experience reflects rapid or automatic evaluative processing, not
 
@@ -60,7 +100,7 @@ X.4.1.1 Raw Affect vs Structured Emotion
 
 
 
-    Interpretive organization of affect into meaningful evaluative states directed toward some
+    Affective states organized in response to interpretive evaluation, directed toward some
 
     perceived or inferred object/circumstance.
 
@@ -73,6 +113,16 @@ X.4.1.1 Raw Affect vs Structured Emotion
     While not every affective sensation requires complex evaluative structuring, full emotions
 
     involve interpretive/evaluative organization.
+
+
+
+    Each of an individual's structured emotions originates as one of that individual's reactions to
+
+    their own evaluation (conscious or not, rapid or deliberate) of the significance of something,
+
+    whether external, bodily, remembered, or imagined. That evaluation is part of what causes the
+
+    emotion but is not part of the emotion itself.
 
 
 

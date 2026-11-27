@@ -5,10 +5,10 @@
     {
       "title": "Signal-Based Epistemology — Explained",
       "slug": "signal-based-epistemology",
-      "source_filename": "Signal-Based Epistemolog - SBE - Explained(4).docx",
-      "source_paragraphs": 4108,
-      "published_paragraphs": 4108,
-      "words": 17275,
+      "source_filename": "Signal-Based_Epistemology_-_SBE_-_Explained.docx",
+      "source_paragraphs": 4119,
+      "published_paragraphs": 4119,
+      "words": 17366,
       "parts": 10
     },
     {
@@ -17,7 +17,7 @@
       "source_filename": "CTGP_-_explained.docx",
       "source_paragraphs": 4439,
       "published_paragraphs": 4439,
-      "words": 46279,
+      "words": 46280,
       "parts": 26
     },
     {
@@ -35,16 +35,16 @@
       "source_filename": "Info.docx",
       "source_paragraphs": 6321,
       "published_paragraphs": 6321,
-      "words": 40977,
+      "words": 40976,
       "parts": 23
     },
     {
       "title": "More Info",
       "slug": "more-info",
       "source_filename": "More_Info.docx",
-      "source_paragraphs": 899,
-      "published_paragraphs": 899,
-      "words": 8012,
+      "source_paragraphs": 907,
+      "published_paragraphs": 907,
+      "words": 8105,
       "parts": 5
     },
     {
@@ -69,9 +69,9 @@
       "title": "Informative",
       "slug": "informative",
       "source_filename": "Informative.docx",
-      "source_paragraphs": 1266,
-      "published_paragraphs": 1266,
-      "words": 27225,
+      "source_paragraphs": 1268,
+      "published_paragraphs": 1268,
+      "words": 27308,
       "parts": 16
     }
   ],
@@ -80,100 +80,91 @@
       "work": "signal-based-epistemology",
       "part": 1,
       "source_paragraph_start": 0,
-      "source_paragraph_end_exclusive": 233,
-      "paragraphs": 233,
-      "words": 1626,
-      "sha256_paragraph_sequence": "96d793a00f469c5d7fcea26323f80d9c00a3cc67b55152f29d26c377c29032b2"
+      "source_paragraph_end_exclusive": 277,
+      "paragraphs": 277,
+      "words": 1788,
+      "sha256_paragraph_sequence": "0d8d9712a54e41f9d9974acb727a36e662f6c88de43f3fc783098673100851ca"
     },
     {
       "work": "signal-based-epistemology",
       "part": 2,
-      "source_paragraph_start": 233,
-      "source_paragraph_end_exclusive": 589,
-      "paragraphs": 356,
-      "words": 1696,
-      "sha256_paragraph_sequence": "fe6a5c3fb6fa04da0c851c6b26d598193531f64e556ccc7a83221165a220aeb4"
+      "source_paragraph_start": 277,
+      "source_paragraph_end_exclusive": 650,
+      "paragraphs": 373,
+      "words": 1793,
+      "sha256_paragraph_sequence": "ca781bd4bd957f321cdca44c35092d9c39e9896ffd6ecdbb3e4195da9263bd89"
     },
     {
       "work": "signal-based-epistemology",
       "part": 3,
-      "source_paragraph_start": 589,
-      "source_paragraph_end_exclusive": 950,
-      "paragraphs": 361,
-      "words": 1694,
-      "sha256_paragraph_sequence": "83499aee8afabb9b906411de5e5ef3c3dcbfd2b699de035b4d9b43c6d0330cbd"
+      "source_paragraph_start": 650,
+      "source_paragraph_end_exclusive": 1029,
+      "paragraphs": 379,
+      "words": 1798,
+      "sha256_paragraph_sequence": "9d800d0ab14858ca360a7eecf3bd7f3d093b6cea4e5ed745554d546ee3eb7f4e"
     },
     {
       "work": "signal-based-epistemology",
       "part": 4,
-      "source_paragraph_start": 950,
-      "source_paragraph_end_exclusive": 1352,
-      "paragraphs": 402,
-      "words": 1693,
-      "sha256_paragraph_sequence": "719e19c9c27de370e7a50a915c2834cafafc125e2b8b09cfc7628f2a97593271"
+      "source_paragraph_start": 1029,
+      "source_paragraph_end_exclusive": 1467,
+      "paragraphs": 438,
+      "words": 1796,
+      "sha256_paragraph_sequence": "969510beda247d5c46901260b0b5d9dd452802e92f417fdd75d648411ba85424"
     },
     {
       "work": "signal-based-epistemology",
       "part": 5,
-      "source_paragraph_start": 1352,
-      "source_paragraph_end_exclusive": 1751,
-      "paragraphs": 399,
-      "words": 1644,
-      "sha256_paragraph_sequence": "a06f7a76ce9571c8662fed912031deb42a208570e4877f4cd8ba1268c55fd74b"
+      "source_paragraph_start": 1467,
+      "source_paragraph_end_exclusive": 1919,
+      "paragraphs": 452,
+      "words": 1797,
+      "sha256_paragraph_sequence": "c43acb54bf8a10a13059eda2e4bd67234dde431b90548af502893a9db53aa0da"
     },
     {
       "work": "signal-based-epistemology",
       "part": 6,
-      "source_paragraph_start": 1751,
-      "source_paragraph_end_exclusive": 2204,
-      "paragraphs": 453,
-      "words": 1655,
-      "sha256_paragraph_sequence": "34855ad7d421ae155cc2056ca7d82ca02ecb4ccd9428866eb864069381856ca9"
+      "source_paragraph_start": 1919,
+      "source_paragraph_end_exclusive": 2409,
+      "paragraphs": 490,
+      "words": 1797,
+      "sha256_paragraph_sequence": "da3a9abf86c38acfb5bb9456fe3a657318abefeb82e189e2aabcb201861fb655"
     },
     {
       "work": "signal-based-epistemology",
       "part": 7,
-      "source_paragraph_start": 2204,
-      "source_paragraph_end_exclusive": 2647,
-      "paragraphs": 443,
-      "words": 1630,
-      "sha256_paragraph_sequence": "0f86cef425ba6df0b64f7ef78fce674614ee1ee8d367db02a8ce7d67e5baebcd"
+      "source_paragraph_start": 2409,
+      "source_paragraph_end_exclusive": 2867,
+      "paragraphs": 458,
+      "words": 1793,
+      "sha256_paragraph_sequence": "35b92e5422ca5ef83a546846bc06ceec1dc9895a7254f894e7d36c7f04b010e3"
     },
     {
       "work": "signal-based-epistemology",
       "part": 8,
-      "source_paragraph_start": 2647,
-      "source_paragraph_end_exclusive": 3087,
-      "paragraphs": 440,
-      "words": 1652,
-      "sha256_paragraph_sequence": "0f0318effa466107bac508453bd3a785036cca265139ef5e126b9f98be7706d9"
+      "source_paragraph_start": 2867,
+      "source_paragraph_end_exclusive": 3289,
+      "paragraphs": 422,
+      "words": 1795,
+      "sha256_paragraph_sequence": "79290b944e5d4cd57aa0e9228f8b91e51b2e2ecaadb4052a32efa1b3cc7a5ef9"
     },
     {
       "work": "signal-based-epistemology",
       "part": 9,
-      "source_paragraph_start": 3087,
-      "source_paragraph_end_exclusive": 3488,
-      "paragraphs": 401,
-      "words": 1607,
-      "sha256_paragraph_sequence": "d91caaab819bb2ea1c59538c3281fee78d30c5482cf30fcd6cd11eef8deea780"
+      "source_paragraph_start": 3289,
+      "source_paragraph_end_exclusive": 3807,
+      "paragraphs": 518,
+      "words": 1792,
+      "sha256_paragraph_sequence": "fe4a3866eb3bf122d64ba9e64915d7ccf339f49bb08714b94d53af93c358e14f"
     },
     {
       "work": "signal-based-epistemology",
       "part": 10,
-      "source_paragraph_start": 3488,
-      "source_paragraph_end_exclusive": 3921,
-      "paragraphs": 433,
-      "words": 1640,
-      "sha256_paragraph_sequence": "a133f0f6682edb483b6e724336bf1658392d0cd766becaa809448e1765f01645"
-    },
-    {
-      "work": "signal-based-epistemology",
-      "part": 11,
-      "source_paragraph_start": 3921,
-      "source_paragraph_end_exclusive": 4104,
-      "paragraphs": 183,
-      "words": 680,
-      "sha256_paragraph_sequence": "6f4f6fd0d790b8e058618c934bd10d2c59ee612570ceba2fe2fe11544e6625e3"
+      "source_paragraph_start": 3807,
+      "source_paragraph_end_exclusive": 4119,
+      "paragraphs": 312,
+      "words": 1217,
+      "sha256_paragraph_sequence": "a06f50440d030c18e2f5b3ee58d4f18d453beab1ea9ec3df3b8d04967500e2fb"
     },
     {
       "work": "ctgp-explained",
@@ -298,8 +289,8 @@
       "source_paragraph_start": 2131,
       "source_paragraph_end_exclusive": 2304,
       "paragraphs": 173,
-      "words": 1799,
-      "sha256_paragraph_sequence": "6da4ba2eb6e9ff3cea1153603150481326c423e1514ca5d75637781f94b0f457"
+      "words": 1800,
+      "sha256_paragraph_sequence": "c0a7018b5213c19cf19a28d9f90b5b5754143526d50d92940349936828af61f4"
     },
     {
       "work": "ctgp-explained",
@@ -460,8 +451,8 @@
       "source_paragraph_start": 481,
       "source_paragraph_end_exclusive": 697,
       "paragraphs": 216,
-      "words": 1795,
-      "sha256_paragraph_sequence": "0875dd99add39c9b8955f4d13ff9156742cf9616fecb998c1576ffd7d82c59ac"
+      "words": 1794,
+      "sha256_paragraph_sequence": "c700f3ab380ed4d2a4c45da1f5a001b82ded90a33c17b18d1a67df90fc8d89b7"
     },
     {
       "work": "info",
@@ -667,26 +658,26 @@
       "source_paragraph_start": 429,
       "source_paragraph_end_exclusive": 607,
       "paragraphs": 178,
-      "words": 1787,
-      "sha256_paragraph_sequence": "42248d00b70ac3c8f050ddbc1409ea6c5eb2affbf4c23af1f6c64903ea28d452"
+      "words": 1789,
+      "sha256_paragraph_sequence": "0c3b62a9ef6ed51531750f704092b4a781921a88ed3f623630cf4490596a28c1"
     },
     {
       "work": "more-info",
       "part": 4,
       "source_paragraph_start": 607,
-      "source_paragraph_end_exclusive": 802,
-      "paragraphs": 195,
-      "words": 1794,
-      "sha256_paragraph_sequence": "9e10345c8b94ed2603b0377f2c75147d241df3e64163032ec81bc462552ed312"
+      "source_paragraph_end_exclusive": 800,
+      "paragraphs": 193,
+      "words": 1789,
+      "sha256_paragraph_sequence": "9bed9189345f1ddc2646b106bbd46aba885ca02be55a6a1b8593ad41ecf55661"
     },
     {
       "work": "more-info",
       "part": 5,
-      "source_paragraph_start": 802,
-      "source_paragraph_end_exclusive": 899,
-      "paragraphs": 97,
-      "words": 858,
-      "sha256_paragraph_sequence": "54d4afb64ef3c5efebd2758e8b8556c730e0134517a2e7c5e0e95e8887d32e09"
+      "source_paragraph_start": 800,
+      "source_paragraph_end_exclusive": 907,
+      "paragraphs": 107,
+      "words": 954,
+      "sha256_paragraph_sequence": "927f08cd23c45fc8305f84371c52a2455109267ff01b0e0fbc74b7c103a7f639"
     },
     {
       "work": "deals-worth",
@@ -1223,64 +1214,64 @@
       "work": "informative",
       "part": 3,
       "source_paragraph_start": 165,
-      "source_paragraph_end_exclusive": 385,
-      "paragraphs": 220,
-      "words": 1800,
-      "sha256_paragraph_sequence": "e91e532a0883ba3e222d9c252d85c3d39679ce41da96e8ba3c89924b8ad8a28d"
+      "source_paragraph_end_exclusive": 373,
+      "paragraphs": 208,
+      "words": 1797,
+      "sha256_paragraph_sequence": "8e8391cbb900ca617ee93307388cab615e2936cf380c88c5b07226081bd0cd9e"
     },
     {
       "work": "informative",
       "part": 4,
-      "source_paragraph_start": 385,
+      "source_paragraph_start": 373,
       "source_paragraph_end_exclusive": 581,
-      "paragraphs": 196,
-      "words": 1745,
-      "sha256_paragraph_sequence": "53a12bd1764f35284c3d1f9db6c6b612568ee297bdf8e1c2603be68cf84426f1"
+      "paragraphs": 208,
+      "words": 1751,
+      "sha256_paragraph_sequence": "5d762c217fc78fba0fed2ba7165f61e96c97aceb264e3e24eb7b5df066613935"
     },
     {
       "work": "informative",
       "part": 5,
       "source_paragraph_start": 581,
-      "source_paragraph_end_exclusive": 657,
-      "paragraphs": 76,
-      "words": 1785,
-      "sha256_paragraph_sequence": "fb8b681c79f05106cbecda5526cc4735d0b22e41b0bf625fac5dd1fe24be96fc"
+      "source_paragraph_end_exclusive": 655,
+      "paragraphs": 74,
+      "words": 1796,
+      "sha256_paragraph_sequence": "dfe7e254034e81f0b306b84b95e215745e1e561990de5251a43194158087d6eb"
     },
     {
       "work": "informative",
       "part": 6,
-      "source_paragraph_start": 657,
-      "source_paragraph_end_exclusive": 735,
-      "paragraphs": 78,
-      "words": 1798,
-      "sha256_paragraph_sequence": "f4ac9ac64db2b98081761146650f4199e490a9eda0264a6e016bb99c5d7412af"
+      "source_paragraph_start": 655,
+      "source_paragraph_end_exclusive": 728,
+      "paragraphs": 73,
+      "words": 1785,
+      "sha256_paragraph_sequence": "e08985990ff48f6cf11a491436c68293aa40209ad7418553a8c60de7050f5732"
     },
     {
       "work": "informative",
       "part": 7,
-      "source_paragraph_start": 735,
+      "source_paragraph_start": 728,
       "source_paragraph_end_exclusive": 813,
-      "paragraphs": 78,
-      "words": 1783,
-      "sha256_paragraph_sequence": "92107f91533a1a14b94b5c5585fbc18984dc837d59aac93b8644bcf54946bb27"
+      "paragraphs": 85,
+      "words": 1769,
+      "sha256_paragraph_sequence": "55600ecf3b4fb72bd139f22be0da1ab1baf54160b43c99142ae8bfa7a8a56bc0"
     },
     {
       "work": "informative",
       "part": 8,
       "source_paragraph_start": 813,
-      "source_paragraph_end_exclusive": 909,
-      "paragraphs": 96,
-      "words": 1777,
-      "sha256_paragraph_sequence": "702e016be4b092dd4ee6a5b21113cdac418794e755f7232edb34c68c24d15c5e"
+      "source_paragraph_end_exclusive": 908,
+      "paragraphs": 95,
+      "words": 1791,
+      "sha256_paragraph_sequence": "61ccf2a580829298b21a243cc70246d4e6bd317c8b755910d227241fb2965b2e"
     },
     {
       "work": "informative",
       "part": 9,
-      "source_paragraph_start": 909,
+      "source_paragraph_start": 908,
       "source_paragraph_end_exclusive": 959,
-      "paragraphs": 50,
-      "words": 1770,
-      "sha256_paragraph_sequence": "a79ed3a0b2118873c40c650857c0a0c6104c4caae3e9e3dc52cf5bc794acefcb"
+      "paragraphs": 51,
+      "words": 1725,
+      "sha256_paragraph_sequence": "5f9756dedcbd9ecdbba97397f2a830ff998348a465c82b2af04bf4b09e153ad6"
     },
     {
       "work": "informative",
@@ -1288,23 +1279,23 @@
       "source_paragraph_start": 959,
       "source_paragraph_end_exclusive": 1021,
       "paragraphs": 62,
-      "words": 1752,
-      "sha256_paragraph_sequence": "7e74844ccf6fb645c57ce100785aeb8bbe0223e307aab6d5909d62902970b83a"
+      "words": 1781,
+      "sha256_paragraph_sequence": "9cd858d4bef8ff6fd659304f3b78d23a34022f02cbdb067bedf619ea6ebbd567"
     },
     {
       "work": "informative",
       "part": 11,
       "source_paragraph_start": 1021,
-      "source_paragraph_end_exclusive": 1065,
-      "paragraphs": 44,
-      "words": 1598,
-      "sha256_paragraph_sequence": "345d01a87a78f36292d2ddc5deb79debd1925bdf2e753e0300f65a4f898880e4"
+      "source_paragraph_end_exclusive": 1067,
+      "paragraphs": 46,
+      "words": 1696,
+      "sha256_paragraph_sequence": "f11ae72e9d0f09558d45317383bb369ac441520eedc36ecfecf7b45d28f8ef69"
     },
     {
       "work": "informative",
       "part": 12,
-      "source_paragraph_start": 1065,
-      "source_paragraph_end_exclusive": 1115,
+      "source_paragraph_start": 1067,
+      "source_paragraph_end_exclusive": 1117,
       "paragraphs": 50,
       "words": 1755,
       "sha256_paragraph_sequence": "a282937549417667fdc5f0fc9cd9a1c8fdbd1561679f71d705a91ccfee41800e"
@@ -1312,8 +1303,8 @@
     {
       "work": "informative",
       "part": 13,
-      "source_paragraph_start": 1115,
-      "source_paragraph_end_exclusive": 1137,
+      "source_paragraph_start": 1117,
+      "source_paragraph_end_exclusive": 1139,
       "paragraphs": 22,
       "words": 1593,
       "sha256_paragraph_sequence": "296a8c8328eaf0239cf681a8e0ad00bd56a5dadac0d825d8f7bab7e3a09696bf"
@@ -1321,8 +1312,8 @@
     {
       "work": "informative",
       "part": 14,
-      "source_paragraph_start": 1137,
-      "source_paragraph_end_exclusive": 1179,
+      "source_paragraph_start": 1139,
+      "source_paragraph_end_exclusive": 1181,
       "paragraphs": 42,
       "words": 1764,
       "sha256_paragraph_sequence": "a702a1f002bd23cbffe18185116a49287aa65c8a69740d7f06274a47912dda45"
@@ -1330,8 +1321,8 @@
     {
       "work": "informative",
       "part": 15,
-      "source_paragraph_start": 1179,
-      "source_paragraph_end_exclusive": 1239,
+      "source_paragraph_start": 1181,
+      "source_paragraph_end_exclusive": 1241,
       "paragraphs": 60,
       "words": 1754,
       "sha256_paragraph_sequence": "b774635174b197bef94d385fba558e406a1cbfb3b735c9c636b7811b6163c62a"
@@ -1339,8 +1330,8 @@
     {
       "work": "informative",
       "part": 16,
-      "source_paragraph_start": 1239,
-      "source_paragraph_end_exclusive": 1266,
+      "source_paragraph_start": 1241,
+      "source_paragraph_end_exclusive": 1268,
       "paragraphs": 27,
       "words": 1063,
       "sha256_paragraph_sequence": "c1dfddcac2c9217e81cd214048a3a69d720bf4e94f4cf6ca192eb44e0acfbc10"

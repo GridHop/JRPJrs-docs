@@ -1,12 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 07 of 10 (1,798 words)
-
-No direct observation has verified the existence of additional universes or accessible higher-
-
-dimensional domains.
-
-
+Part 07 of 10 (1,793 words)
 
 11.2 Misinterpretations and Unsupported Claims
 
@@ -917,5 +911,9 @@ Rather, it asserts that:
 > External reality is the best-supported explanatory posit for the structured, constrained, and
 
 intersubjectively consistent signals we observe.
+
+
+
+Thus, the framework maintains a form of epistemically constrained realism:
 
 

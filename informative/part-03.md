@@ -182,6 +182,8 @@ Personal identity consists in the continuity of one’s own mind as an ongoing c
 
 Here, “mind” cannot mean only the thoughts currently experienced. Sleep, anesthesia, temporary unconsciousness, and memory loss need not terminate personal identity.
 
+The mind is physically dependent on the brain: a person’s mind consists of their brain’s changing physical configurations and activities, which result in thinking, imagining, evaluating, and other mental occurrences. It is an ongoing process that belongs to the person rather than something separate from the person. When that activity is suppressed, as during anesthesia, the person persists through the brain’s organized physical structure, and later mental activity is causally continuous with earlier activity through that structure (section 22).
+
 Three forms of continuity are relevant:
 
 \* Mental continuity: persistence of the individual’s organized psychological capacities and processes.  
@@ -203,18 +205,4 @@ Memory does not create the historical fact of identity. Nor does remembering an 
 The proposed account emphasizes that the person’s present state is a causal continuation of their earlier states, while recognizing that causal continuation alone does not settle every question about numerical identity.
 
 19. Three kinds of persistence
-
-persistence of organization ≠ persistence of information ≠ persistence of experience
-
-An organized system may persist while its constituent materials change.
-
-Information may survive the destruction of its original encoding if another encoding exists.
-
-An experience may cease even though information describing it remains available.
-
-These distinctions become especially important in hypothetical cases involving copying, reconstruction, and consciousness.
-
-20. Duplication: information is not numerical identity
-
-Imagine producing a second human with the original person’s relevant brain structure, memories, personality, and cognitive dispositions.
 

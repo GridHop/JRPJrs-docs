@@ -1,10 +1,6 @@
 # Signal-Based Epistemology — Explained
 
-Part 05 of 10 (1,800 words)
-
-In contrast, digital systems produce representations of such processes. These representations:
-
-
+Part 05 of 10 (1,797 words)
 
 • Encode information about a system
 
@@ -338,9 +334,9 @@ A signature of existence is therefore:
 
 
 
-> Any detectable signal or pattern produced by an entity that allows its presence, identity, or
+> Any detectable signal or pattern produced by an entity or process that allows its presence,
 
-activity to be inferred.
+identity, or activity to be inferred.
 
 
 
@@ -901,5 +897,11 @@ Thus:
 > Explanation is not strictly necessary for immediate survival, but it is essential for sustained
 
 collective survival and advancement.
+
+
+
+9.3 A World Without Explanation
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
